@@ -1,7 +1,6 @@
 import React from 'react';
 import { ICard } from './types/card';
-
-const BASE_IMAGE_PATH = './img/card-reveals/cards/card';
+const BASE_IMAGE_PATH = `${process.env.PUBLIC_URL}/img/card`;
 
 interface IRarity {
   [key: string]: number;
@@ -32,7 +31,8 @@ export interface ICardProps {
 const Card: React.SFC<ICardProps> = ({ id, card }) => {
   const { faction, strength, variations } = card;
   const parsedFaction = faction.toLowerCase().trim();
-  const { rarity, variationId } = variations[Object.keys(variations)[0]];
+  const { art, rarity, variationId } = variations[Object.keys(variations)[0]];
+  const { ingameArtId } = art;
   return (
     <div>
       <div
@@ -52,8 +52,11 @@ const Card: React.SFC<ICardProps> = ({ id, card }) => {
               <div className="c-card__power" />
               <div className="c-card__row" />
             </div>
-            <img src={`${BASE_IMAGE_PATH}/${variationId}.png`} />
+            <img src={`${BASE_IMAGE_PATH}/${ingameArtId}0000.png`} />
           </div>
+        </div>
+        <div className="c-card__back">
+          <img src={`${BASE_IMAGE_PATH}/back.png`} />
         </div>
       </div>
     </div>

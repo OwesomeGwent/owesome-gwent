@@ -3,6 +3,9 @@ export interface ICard {
   strength: number;
   variations: {
     [key: string]: {
+      art: {
+        ingameArtId: string;
+      };
       variationId: number;
       rarity: string;
     };

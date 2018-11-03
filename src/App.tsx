@@ -3,10 +3,10 @@ import Card from './Card';
 import cardData from './data/cards.json';
 
 // type Partial<T> = { [K in keyof T]?: T[K] };
-
+const MOCK_CARD = ['113203', '122205', '142107', '162203'];
 class App extends Component {
   state = {
-    cards: Object.keys(cardData).slice(0, 10),
+    cards: MOCK_CARD,
   };
   render() {
     const { cards } = this.state;

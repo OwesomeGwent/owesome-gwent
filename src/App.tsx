@@ -1,21 +1,38 @@
 import React, { Component } from 'react';
-import Card from './Card';
-import cardData from './data/cards.json';
+import styled from 'styled-components';
+import { Main, Sidebar } from './containers';
+import { ICard } from './types/card';
 
+const AppContainer = styled.div`
+  display: flex;
+`;
 // type Partial<T> = { [K in keyof T]?: T[K] };
-const MOCK_CARD = ['113203', '122205', '142107', '162203'];
+let CARDS: any;
 class App extends Component {
   state = {
-    cards: MOCK_CARD,
+    cardData: [],
+    isLoading: true,
   };
+  async componentDidMount() {
+    // 전체 카드 데이터 어디다 저장할 지 생각해봐야 할듯.
+    // 일단 임시
+    CARDS = await import('./data/cards.json');
+    CARDS = Object.keys(CARDS).map(card => CARDS[card]);
+    this.setState({
+      cardData: CARDS,
+      isLoading: false,
+    });
+  }
   render() {
-    const { cards } = this.state;
+    const { cardData, isLoading } = this.state;
+    if (isLoading) {
+      return <div>Loading cards...</div>;
+    }
     return (
-      <div>
-        {cards.map(key => (
-          <Card key={key} id={key} card={(cardData as any)[key]} />
-        ))}
-      </div>
+      <AppContainer>
+        <Sidebar />
+        <Main cardData={cardData as ICard[]} />
+      </AppContainer>
     );
   }
 }

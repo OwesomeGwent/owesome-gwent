@@ -1,8 +1,12 @@
 import React from 'react';
-import { ICard } from './types/card';
-const BASE_IMAGE_PATH = `${process.env.PUBLIC_URL}/img/card`;
+import { ICard } from '../types/card';
+const BASE_IMAGE_PATH =
+  'https://res.cloudinary.com/godsenal/image/upload/v1541344313/gwent/card';
 
 interface IRarity {
+  [key: string]: number;
+}
+interface ICardType {
   [key: string]: number;
 }
 const RARITY: IRarity = {
@@ -11,34 +15,41 @@ const RARITY: IRarity = {
   Epic: 20,
   Legendary: 25,
 };
+const CARDTYPE: ICardType = {
+  Unit: 1,
+  Spell: 2,
+  Artifact: 3,
+  Leader: 4,
+};
 const cardStyle: React.CSSProperties = {
   zIndex: 2,
 };
-const topStyle: React.CSSProperties = {
-  height: 0,
-  visibility: 'visible',
-  paddingBottom: 0,
-  paddingTop: 0,
-  borderWidth: '0px 3px',
-  transition: 'height 0.5s ease 0s, padding 0.5s ease 0s',
-};
-
 export interface ICardProps {
   card: ICard;
-  id: String;
 }
-// Image 파일의 이름이 어떻게 정해지는지 모르겠다..
-const Card: React.SFC<ICardProps> = ({ id, card }) => {
-  const { faction, strength, variations } = card;
-  const parsedFaction = faction.toLowerCase().trim();
+const Card: React.SFC<ICardProps> = ({ card }) => {
+  const {
+    cardType,
+    faction,
+    strength,
+    variations,
+    mulligans,
+    provision,
+    ingameId,
+  } = card;
+  const parsedFaction = faction
+    .toLowerCase()
+    .split(' ')
+    .join('');
   const { art, rarity, variationId } = variations[Object.keys(variations)[0]];
   const { ingameArtId } = art;
   return (
     <div>
       <div
         className={`c-card c-card--${parsedFaction} is-flipped`}
-        data-power={strength}
-        data-row="2"
+        data-power={cardType === 'Leader' ? mulligans : strength}
+        data-provision={provision}
+        data-row={CARDTYPE[cardType]}
         data-group="3"
         data-rarity={RARITY[rarity]}
         style={cardStyle}
@@ -52,11 +63,16 @@ const Card: React.SFC<ICardProps> = ({ id, card }) => {
               <div className="c-card__power" />
               <div className="c-card__row" />
             </div>
+            {!!provision && (
+              <>
+                <div className="c-card__provision-icon" />
+                <div className="c-card__provision-basis">
+                  <div className="c-card__provision" />
+                </div>
+              </>
+            )}
             <img src={`${BASE_IMAGE_PATH}/${ingameArtId}0000.png`} />
           </div>
-        </div>
-        <div className="c-card__back">
-          <img src={`${BASE_IMAGE_PATH}/back.png`} />
         </div>
       </div>
     </div>

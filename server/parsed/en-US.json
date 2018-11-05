@@ -1,0 +1,2596 @@
+{
+    "112101": {
+        "infoRaw": "Whenever you lose a round, return this unit from the battlefield to your hand.\n",
+        "name": "Ciri"
+    },
+    "112102": {
+        "info": "Deploy, Melee: Destroy the highest unit(s) on an enemy row with a total of 15 or more power.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Destroy the highest unit(s) on an enemy row with a total of 15 or more power.\n",
+        "name": "Geralt: Igni"
+    },
+    "112103": {
+        "info": "Deploy: Destroy an enemy with 8 or more power.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Destroy an enemy with 8 or more power.\n",
+        "name": "Geralt of Rivia"
+    },
+    "112104": {
+        "info": "Deploy: Damage all enemies on a row by 1. If any were destroyed, repeat this ability.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage all enemies on a row by 1. If any were destroyed, repeat this ability.\n",
+        "name": "Regis"
+    },
+    "112105": {
+        "info": "Deploy, Melee: Drain all boosts from an enemy.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: <keyword=drain>Drain</keyword> all boosts from an enemy.\n",
+        "name": "Regis: Higher Vampire"
+    },
+    "112106": {
+        "info": "Deploy, Ranged: Reveal a random unit from your deck and damage an enemy by its power.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: <keyword=reveal>Reveal</keyword> a random unit from your deck and damage an enemy by its power.\n",
+        "name": "Triss Merigold"
+    },
+    "112107": {
+        "info": "After 2 turns, on turn end, destroy the highest unit on the battlefield, excluding self.\n",
+        "infoRaw": "After 2 turns, on turn end, destroy the highest unit on the battlefield, excluding self.\n",
+        "name": "Villentretenmerth"
+    },
+    "112108": {
+        "info": "Deploy, Melee: Damage all other units by 2. \nDeploy, Ranged: Boost all other units by 2.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Damage all other units by 2. \n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Boost all other units by 2.\n",
+        "name": "Yennefer of Vengerberg"
+    },
+    "112109": {
+        "info": "Deploy, Melee: Spawn and play Duda: Agitator.\nDeploy, Ranged: Spawn and play Duda: Companion.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: <keyword=spawn>Spawn</keyword> and play Duda: Agitator.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: <keyword=spawn>Spawn</keyword> and play Duda: Companion.\n",
+        "name": "Zoltan: Scoundrel"
+    },
+    "112110": {
+        "info": "After 4 turns, on turn start, draw a card.\n",
+        "infoRaw": "After 4 turns, on turn start, draw a card.\n",
+        "name": "Ciri: Dash"
+    },
+    "112111": {
+        "info": "Deploy, Melee: Damage 3 enemies by 2, and if possible, move them to the ranged row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Damage 3 enemies by 2, and if possible, move them to the ranged row.\n",
+        "name": "Geralt: Aard"
+    },
+    "112112": {
+        "info": "Deploy, Ranged: Play an artifact from your deck.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Play an artifact from your deck.\n",
+        "name": "Avallac'h: Sage"
+    },
+    "112113": {
+        "info": "Order: Damage the highest enemy unit(s) by 1. \nCooldown: 1.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Damage the highest enemy unit(s) by 1. \n<keyword=cooldown>Cooldown</keyword>: 1.\n",
+        "name": "Yennefer: Conjurer"
+    },
+    "112201": {
+        "info": "Deploy: Transform into a base copy of an enemy unit.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Transform into a base copy of an enemy unit.\n",
+        "name": "Dudu"
+    },
+    "112202": {
+        "info": "Deploy: Summon Vesemir and Lambert from your deck to this row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: <keyword=summon>Summon</keyword> Vesemir and Lambert from your deck to this row.\n",
+        "name": "Eskel"
+    },
+    "112203": {
+        "info": "Deploy: Summon Eskel and Lambert from your deck to this row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: <keyword=summon>Summon</keyword> Eskel and Lambert from your deck to this row.\n",
+        "name": "Vesemir"
+    },
+    "112204": {
+        "info": "Deploy: Summon Eskel and Vesemir from your deck to this row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: <keyword=summon>Summon</keyword> Eskel and Vesemir from your deck to this row.\n",
+        "name": "Lambert"
+    },
+    "112205": {
+        "info": "Order: Damage an enemy by 2. \nCharge: 2.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Damage an enemy by 2. \n<keyword=charge>Charge</keyword>: 2.\n",
+        "name": "Myrgtabrakke"
+    },
+    "112206": {
+        "info": "Order: Damage all enemies by 1.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Damage all enemies by 1.\n",
+        "name": "Ocvist"
+    },
+    "112207": {
+        "info": "Order: Heal self.\nCooldown: 1.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: <keyword=heal>Heal</keyword> self.\n<keyword=cooldown>Cooldown</keyword>: 1.\n",
+        "name": "Olgierd von Everec"
+    },
+    "112208": {
+        "info": "Deploy: Spawn and Summon a base copy of a bronze unit from your hand to this row on each player's side.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> and <keyword=summon>Summon</keyword> a base copy of a bronze unit from your hand to this row on each player's side.\n",
+        "name": "Operator"
+    },
+    "112209": {
+        "info": "Order: Transform into Chort.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Transform into Chort.\n",
+        "name": "Prize-Winning Cow"
+    },
+    "112210": {
+        "info": "Whenever you play a gold card, Summon this unit from your deck to a random allied row.\n",
+        "infoRaw": "Whenever you play a gold card, <keyword=summon>Summon</keyword> this unit from your deck to a random allied row.\n",
+        "name": "Roach"
+    },
+    "112211": {
+        "info": "Order: Damage a unit by 2. \nCharge: 1.\nGain 1 Charge whenever you play a special card.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Damage a unit by 2. \n<keyword=charge>Charge</keyword>: 1.\nGain 1 <keyword=charge>Charge</keyword> whenever you play a special card.\n",
+        "name": "Johnny"
+    },
+    "112212": {
+        "info": "Order: Boost a unit by 2. \nCharge: 1.\nGain 1 Charge whenever you play a special card.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Boost a unit by 2. \n<keyword=charge>Charge</keyword>: 1.\nGain 1 <keyword=charge>Charge</keyword> whenever you play a special card.\n",
+        "name": "Sarah"
+    },
+    "112213": {
+        "info": "Every turn, on turn end, boost the lowest unit in your hand by 1.\n",
+        "infoRaw": "Every turn, on turn end, boost the lowest unit in your hand by 1.\n",
+        "name": "King of Beggars"
+    },
+    "112214": {
+        "info": "Deploy: Banish a unit with 3 power or less.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: <keyword=banish>Banish</keyword> a unit with 3 power or less.\n",
+        "name": "Cyprian Wiley"
+    },
+    "112215": {
+        "info": "Deploy, Melee: Destroy an enemy artifact.\nDeploy, Ranged: Clear all row effects from your side.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Destroy an enemy artifact.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Clear all row effects from your side.\n",
+        "name": "Iris von Everec"
+    },
+    "112401": {
+        "info": "Deploy: Boost a unit by 4. If you have Chironex in hand, double that amount.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost a unit by 4. If you have Chironex in hand, double that amount.\n",
+        "name": "Unicorn"
+    },
+    "112402": {
+        "info": "Deploy: Damage a unit by 4. If you have Unicorn in hand, double that amount.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage a unit by 4. If you have Unicorn in hand, double that amount.\n",
+        "name": "Chironex"
+    },
+    "112405": {
+        "info": "Deploy: Boost all Deathwish units in your hand by 1.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost all <keyword=deathwish>Deathwish</keyword> units in your hand by 1.\n",
+        "name": "Fiend"
+    },
+    "113101": {
+        "info": "Apply this row effect to an enemy row:\nEvery turn, on turn start, damage the highest unit on this row by 2.\n",
+        "infoRaw": "Apply this row effect to an enemy row:\nEvery turn, on turn start, damage the highest unit on this row by 2.\n",
+        "name": "Ragh Nar Roog"
+    },
+    "113102": {
+        "info": "Look at the top 2 cards from your deck, then play one and Banish the other.\n",
+        "infoRaw": "Look at the top 2 cards from your deck, then play one and <keyword=banish>Banish</keyword> the other.\n",
+        "name": "The Last Wish"
+    },
+    "113201": {
+        "info": "Shuffle an ally on the battlefield into your deck, then play the top unit from your deck.\n",
+        "infoRaw": "Shuffle an ally on the battlefield into your deck, then play the top unit from your deck.\n",
+        "name": "Decoy"
+    },
+    "113202": {
+        "info": "Damage 5 enemies by 2.\n",
+        "infoRaw": "Damage 5 enemies by 2.\n",
+        "name": "Merigold's Hailstorm"
+    },
+    "113203": {
+        "info": "Apply this row effect to an enemy row:\nFor 2 turns, on turn start, damage all units on this row by 1.\n",
+        "infoRaw": "Apply this row effect to an enemy row:\nFor 2 turns, on turn start, damage all units on this row by 1.\n",
+        "name": "Skellige Storm"
+    },
+    "113204": {
+        "info": "Damage all enemies by 1.\n",
+        "infoRaw": "Damage all enemies by 1.\n",
+        "name": "Stammelford's Tremors"
+    },
+    "113205": {
+        "info": "Destroy an artifact.\n",
+        "infoRaw": "Destroy an artifact.\n",
+        "name": "Dimeritium Bomb"
+    },
+    "113206": {
+        "info": "Destroy all artifacts.\n",
+        "infoRaw": "Destroy all artifacts.\n",
+        "name": "White Frost"
+    },
+    "113207": {
+        "info": "Boost 5 adjacent units by 3.\n",
+        "infoRaw": "Boost 5 adjacent units by 3.\n",
+        "name": "Commander's Horn"
+    },
+    "113208": {
+        "info": "Deploy, Melee: Increase all row effect durations by 1.\nDeploy, Ranged: Decrease all row effect durations by 1.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Increase all row effect durations by 1.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Decrease all row effect durations by 1.\n",
+        "name": "Vaedermakar"
+    },
+    "113209": {
+        "info": "Play the highest unit from your deck.\n",
+        "infoRaw": "Play the highest unit from your deck.\n",
+        "name": "Alzur's Double–Cross"
+    },
+    "113301": {
+        "info": "Damage a unit by 5.\n",
+        "infoRaw": "Damage a unit by 5.\n",
+        "name": "Alzur's Thunder"
+    },
+    "113302": {
+        "info": "Apply this row effect to an enemy row:\nFor 4 turns, on turn start, damage the lowest unit on this row by 2.\n",
+        "infoRaw": "Apply this row effect to an enemy row:\nFor 4 turns, on turn start, damage the lowest unit on this row by 2.\n",
+        "name": "Biting Frost"
+    },
+    "113303": {
+        "info": "Clear all row effects from your side.\n",
+        "infoRaw": "Clear all row effects from your side.\n",
+        "name": "Clear Skies"
+    },
+    "113305": {
+        "info": "Apply this row effect to an enemy row:\nFor 4 turns, on turn start, damage the highest unit on this row by 2.\n",
+        "infoRaw": "Apply this row effect to an enemy row:\nFor 4 turns, on turn start, damage the highest unit on this row by 2.\n",
+        "name": "Impenetrable Fog"
+    },
+    "113306": {
+        "info": "Damage 3 enemies by 3.\n",
+        "infoRaw": "Damage 3 enemies by 3.\n",
+        "name": "Manticore Venom"
+    },
+    "113307": {
+        "info": "Give or remove Resilience from a unit.\n",
+        "infoRaw": "Give or remove <keyword=resilient>Resilience</keyword> from a unit.\n",
+        "name": "Adrenaline Rush"
+    },
+    "113308": {
+        "info": "Destroy the lowest unit(s).\n",
+        "infoRaw": "Destroy the lowest unit(s).\n",
+        "name": "Epidemic"
+    },
+    "113309": {
+        "info": "Destroy the highest unit(s).\n",
+        "infoRaw": "Destroy the highest unit(s).\n",
+        "name": "Scorch"
+    },
+    "113310": {
+        "info": "Boost a unit by 6.\n",
+        "infoRaw": "Boost a unit by 6.\n",
+        "name": "Swallow"
+    },
+    "113311": {
+        "info": "Zeal.\nOrder: Boost a unit by 2. \nCharge: 3.\n",
+        "infoRaw": "<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Boost a unit by 2. \n<keyword=charge>Charge</keyword>: 3.\n",
+        "name": "Thunderbolt"
+    },
+    "113312": {
+        "info": "Apply this row effect to an enemy row:\nFor 4 turns, on turn start, damage 2 random units on the row by 1.\n",
+        "infoRaw": "Apply this row effect to an enemy row:\nFor 4 turns, on turn start, damage 2 random units on the row by 1.\n",
+        "name": "Torrential Rain"
+    },
+    "113313": {
+        "info": "Deploy: Boost self by the amount an enemy is damaged.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost self by the amount an enemy is damaged.\n",
+        "name": "An Craite Warcrier"
+    },
+    "113315": {
+        "info": "Choose a unit. If it's boosted, damage it by double the amount boosted. If it's damaged, boost it by double the amount damaged.\n",
+        "infoRaw": "Choose a unit. If it's boosted, damage it by double the amount boosted. If it's damaged, boost it by double the amount damaged.\n",
+        "name": "Bekker's Dark Mirror"
+    },
+    "113316": {
+        "info": "Play a unit from your graveyard.\n",
+        "infoRaw": "Play a unit from your graveyard.\n",
+        "name": "Renew"
+    },
+    "113319": {
+        "info": "Lock a unit and damage it by 3.\n",
+        "infoRaw": "<keyword=lock>Lock</keyword> a unit and damage it by 3.\n",
+        "name": "Dimeritium Shackles"
+    },
+    "113320": {
+        "info": "Damage a unit by 3, then boost it by 9.\n",
+        "infoRaw": "Damage a unit by 3, then boost it by 9.\n",
+        "name": "Mardroeme"
+    },
+    "122101": {
+        "info": "Order: Double an allied unit's Charge count.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Double an allied unit's <keyword=charge>Charge</keyword> count.\n",
+        "name": "Bloody Baron"
+    },
+    "122102": {
+        "info": "Spying.\nDeploy: Play the top 2 cards from your deck.\n",
+        "infoRaw": "<keyword=spying>Spying</keyword>.\n<keyword=deploy>Deploy</keyword>: Play the top 2 cards from your deck.\n",
+        "name": "Vernon Roche"
+    },
+    "122103": {
+        "info": "Melee: While this unit is on the battlefield, all allied units with Orders gain Zeal.\n",
+        "infoRaw": "<keyword=melee>Melee</keyword>: While this unit is on the battlefield, all allied units with <keyword=order>Orders</keyword> gain <keyword=zeal>Zeal</keyword>.\n",
+        "name": "John Natalis"
+    },
+    "122107": {
+        "info": "Deploy: Boost a random unit in your hand by 4.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost a random unit in your hand by 4.\n",
+        "name": "Triss: Butterflies"
+    },
+    "122108": {
+        "info": "Deploy, Ranged: Play a Spell from your deck.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Play a Spell from your deck.\n",
+        "name": "Keira Metz"
+    },
+    "122201": {
+        "info": "Ranged: Whenever an ally gains a Charge, boost it by 1.\n",
+        "infoRaw": "<keyword=ranged>Ranged</keyword>: Whenever an ally gains a <keyword=charge>Charge</keyword>, boost it by 1.\n",
+        "name": "Dandelion"
+    },
+    "122202": {
+        "info": "Zeal.\nOrder: Give a unit 1 Charge. \nCooldown: 1.\n",
+        "infoRaw": "<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Give a unit 1 <keyword=charge>Charge</keyword>. \n<keyword=cooldown>Cooldown</keyword>: 1.\n",
+        "name": "Priscilla"
+    },
+    "122203": {
+        "info": "Deploy: Remove all Charges from an enemy unit and give them to Thaler.\nOrder: Give 1 Charge to an allied unit.\nCharge: 0.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Remove all <keyword=charge>Charges</keyword> from an enemy unit and give them to Thaler.\n<keyword=order>Order</keyword>: Give 1 <keyword=charge>Charge</keyword> to an allied unit.\n<keyword=charge>Charge</keyword>: 0.\n",
+        "name": "Thaler"
+    },
+    "122204": {
+        "info": "Deploy: Damage an enemy by 4.\nOrder: Give an ally Zeal.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 4.\n<keyword=order>Order</keyword>: Give an ally <keyword=zeal>Zeal</keyword>.\n",
+        "name": "Ves"
+    },
+    "122205": {
+        "info": "Deploy: Damage an enemy by 2.\nOrder: Damage an enemy by 2.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 2.\n<keyword=order>Order</keyword>: Damage an enemy by 2.\n",
+        "name": "Síle de Tansarville"
+    },
+    "122206": {
+        "info": "Spying. \nDeathwish: Damage all units on this row by 3.\n",
+        "infoRaw": "<keyword=spying>Spying</keyword>. \n<keyword=deathwish>Deathwish</keyword>: Damage all units on this row by 3.\n",
+        "name": "Sabrina Glevissig"
+    },
+    "122207": {
+        "info": "Order, Ranged: Damage an enemy by the amount Dethmold is boosted.\n",
+        "infoRaw": "<keyword=order>Order</keyword>, <keyword=ranged>Ranged</keyword>: Damage an enemy by the amount Dethmold is boosted.\n",
+        "name": "Dethmold"
+    },
+    "122208": {
+        "info": "Deploy: Boost an ally by 2 and give it 2 Charges.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost an ally by 2 and give it 2 <keyword=charge>Charges</keyword>.\n",
+        "name": "Prince Stennis"
+    },
+    "122210": {
+        "info": "Deploy: Shuffle a bronze unit and all copies of it from your graveyard into your deck.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Shuffle a bronze unit and all copies of it from your graveyard into your deck.\n",
+        "name": "Princess Pavetta"
+    },
+    "122211": {
+        "info": "Zeal.\nOrder: Spend 3 Charges to Lock an enemy unit.\nCharge: 3.\n",
+        "infoRaw": "<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Spend 3 <keyword=charge>Charges</keyword> to <keyword=lock>Lock</keyword> an enemy unit.\n<keyword=charge>Charge</keyword>: 3.\n",
+        "name": "Margarita Laux-Antille"
+    },
+    "122212": {
+        "info": "Order, Ranged: Boost a unit by 1. \nCharge: 3.\n",
+        "infoRaw": "<keyword=order>Order</keyword>, <keyword=ranged>Ranged</keyword>: Boost a unit by 1. \n<keyword=charge>Charge</keyword>: 3.\n",
+        "name": "Nenneke"
+    },
+    "122213": {
+        "info": "Deploy: Give 1 Charge to all allied units.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Give 1 <keyword=charge>Charge</keyword> to all allied units.\n",
+        "name": "Odrin"
+    },
+    "122214": {
+        "info": "Zeal.\nOrder: Boost an ally by 1. \nCharge: 2.\n",
+        "infoRaw": "<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Boost an ally by 1. \n<keyword=charge>Charge</keyword>: 2.\n",
+        "name": "Kaedweni Sergeant"
+    },
+    "122216": {
+        "info": "Deploy: Damage a unit by 1 for every card in your hand.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage a unit by 1 for every card in your hand.\n",
+        "name": "Cleaver"
+    },
+    "122301": {
+        "info": "Order: Damage a unit by 1. \nCharge: 1.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Damage a unit by 1. \n<keyword=charge>Charge</keyword>: 1.\n",
+        "name": "Ballista"
+    },
+    "122302": {
+        "info": "Order: Damage a unit by 2. \nCharge: 1.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Damage a unit by 2. \n<keyword=charge>Charge</keyword>: 1.\n",
+        "name": "Reinforced Ballista"
+    },
+    "122303": {
+        "info": "Order, Ranged: Damage a unit by 1. If it was destroyed, damage units adjacent to it by 1.\nCharge: 1.\n",
+        "infoRaw": "<keyword=order>Order</keyword>, <keyword=ranged>Ranged</keyword>: Damage a unit by 1. If it was destroyed, damage units adjacent to it by 1.\n<keyword=charge>Charge</keyword>: 1.\n",
+        "name": "Trebuchet"
+    },
+    "122304": {
+        "info": "Order, Melee: Boost adjacent allies by 1. \nCharge: 1.\n",
+        "infoRaw": "<keyword=order>Order</keyword>, <keyword=melee>Melee</keyword>: Boost adjacent allies by 1. \n<keyword=charge>Charge</keyword>: 1.\n",
+        "name": "Siege Tower"
+    },
+    "122309": {
+        "info": "Deploy: Give 2 Charges to a Machine ally.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Give 2 <keyword=charge>Charges</keyword> to a Machine ally.\n",
+        "name": "Siege Support"
+    },
+    "122310": {
+        "info": "Deploy, Melee: Spawn a copy of a bronze ally at the bottom of your deck.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: <keyword=spawn>Spawn</keyword> a copy of a bronze ally at the bottom of your deck.\n",
+        "name": "Blue Stripes Scout"
+    },
+    "122311": {
+        "info": "Order: Summon a copy of this unit from your deck to this row.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: <keyword=summon>Summon</keyword> a copy of this unit from your deck to this row.\n",
+        "name": "Blue Stripes Commando"
+    },
+    "122312": {
+        "info": "Deploy: Boost adjacent units by 2.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost adjacent units by 2.\n",
+        "name": "Field Medic"
+    },
+    "122313": {
+        "info": "Deploy: Gain Zeal if played adjacent to 2 Soldiers.\nOrder: Damage an enemy by 3.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Gain <keyword=zeal>Zeal</keyword> if played adjacent to 2 Soldiers.\n<keyword=order>Order</keyword>: Damage an enemy by 3.\n",
+        "name": "Dun Banner"
+    },
+    "122314": {
+        "info": "Deploy, Melee: Remove all Charges from an enemy, then damage it by the amount removed.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Remove all <keyword=charge>Charges</keyword> from an enemy, then damage it by the amount removed.\n",
+        "name": "Kaedweni Cavalry"
+    },
+    "122315": {
+        "info": "Ranged: Every turn, on turn end, damage a random enemy on the ranged row by 1.\n",
+        "infoRaw": "<keyword=ranged>Ranged</keyword>: Every turn, on turn end, damage a random enemy on the ranged row by 1.\n",
+        "name": "Reinforced Trebuchet"
+    },
+    "122316": {
+        "info": "Deploy: Damage an enemy by 1 for each boosted unit on this row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 1 for each boosted unit on this row.\n",
+        "name": "Temerian Infantry"
+    },
+    "122318": {
+        "info": "Whenever a Machine is placed on this row, give it Zeal.\n",
+        "infoRaw": "Whenever a Machine is placed on this row, give it <keyword=zeal>Zeal</keyword>.\n",
+        "name": "Siege Master"
+    },
+    "122401": {
+        "info": "Every turn, on turn end, damage the highest enemy by 1. \nOrder: Transfrom into Lubberkin.\n",
+        "infoRaw": "Every turn, on turn end, damage the highest enemy by 1. \n<keyword=order>Order</keyword>: Transfrom into Lubberkin.\n",
+        "name": "Botchling"
+    },
+    "122402": {
+        "info": "Every turn, on turn end, boost the lowest ally by 1. \nOrder: Transform into Botchling.\n",
+        "infoRaw": "Every turn, on turn end, boost the lowest ally by 1. \n<keyword=order>Order</keyword>: Transform into Botchling.\n",
+        "name": "Lubberkin"
+    },
+    "122403": {
+        "info": "Deploy, Ranged: Draw a card, then place a card from your hand at the top of your deck.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Draw a card, then place a card from your hand at the top of your deck.\n",
+        "name": "Vicovaro Novice"
+    },
+    "123201": {
+        "info": "Spawn a copy of a bronze allied unit and Summon it to this row.\n",
+        "infoRaw": "<keyword=spawn>Spawn</keyword> a copy of a bronze allied unit and <keyword=summon>Summon</keyword> it to this row.\n",
+        "name": "Reinforcements"
+    },
+    "131101": {
+        "info": "Order: Boost a unit by 4 and give it Immune.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Boost a unit by 4 and give it <keyword=immune>Immune</keyword>.\n",
+        "name": "Eredin Bréacc Glas"
+    },
+    "131102": {
+        "info": "Ranged: Whenever you play a unit with Deathwish, trigger its Deathwish ability.\n",
+        "infoRaw": "<keyword=ranged>Ranged</keyword>: Whenever you play a unit with <keyword=deathwish>Deathwish</keyword>, trigger its <keyword=deathwish>Deathwish</keyword> ability.\n",
+        "name": "Ge'els"
+    },
+    "132101": {
+        "info": "Deploy: Transform all Human allies into Kaedweni Revenants without changing their power.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Transform all Human allies into Kaedweni Revenants without changing their power.\n",
+        "name": "Draug"
+    },
+    "132102": {
+        "info": "Damage an enemy by the power of your highest ally.\n",
+        "infoRaw": "Damage an enemy by the power of your highest ally.\n",
+        "name": "Imlerith's Wrath"
+    },
+    "132103": {
+        "info": "Order: Boost a unit in your hand by 8.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Boost a unit in your hand by 8.\n",
+        "name": "Woodland Spirit"
+    },
+    "132104": {
+        "info": "Deploy: Spawn a 1-power copy of a unit from your hand and Summon it to this row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> a 1-power copy of a unit from your hand and <keyword=summon>Summon</keyword> it to this row.\n",
+        "name": "Caranthir Ar-Feiniel"
+    },
+    "132105": {
+        "info": "Order: Give an allied unit Immune.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Give an allied unit <keyword=immune>Immune</keyword>.\n",
+        "name": "Avallac'h"
+    },
+    "132106": {
+        "info": "Deploy, Ranged: Play an artifact from your graveyard.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Play an artifact from your graveyard.\n",
+        "name": "Caretaker"
+    },
+    "132107": {
+        "info": "Zeal.\nOrder: Consume an ally.\nCharge: 3.\n",
+        "infoRaw": "<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: <keyword=consume>Consume</keyword> an ally.\n<keyword=charge>Charge</keyword>: 3.\n",
+        "name": "Kayran"
+    },
+    "132108": {
+        "info": "Deathwish: Seize an enemy with 3 or less power.\n",
+        "infoRaw": "<keyword=deathwish>Deathwish</keyword>: <keyword=seize>Seize</keyword> an enemy with 3 or less power.\n",
+        "name": "Miruna"
+    },
+    "132201": {
+        "info": "Spawn 2 Arachas Drones and Summon them to this row, then boost all other Insectoids on this row by 1.\n",
+        "infoRaw": "<keyword=spawn>Spawn</keyword> 2 Arachas Drones and <keyword=summon>Summon</keyword> them to this row, then boost all other Insectoids on this row by 1.\n",
+        "name": "Arachas Behemoth"
+    },
+    "132202": {
+        "info": "Order: Banish all units in your graveyard, then boost self by 1 for each.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: <keyword=banish>Banish</keyword> all units in your graveyard, then boost self by 1 for each.\n",
+        "name": "Mourntart"
+    },
+    "132203": {
+        "info": "Thrive. \nDeploy: Trigger a bronze ally's Deathwish ability.\n",
+        "infoRaw": "<keyword=thrive>Thrive</keyword>. \n<keyword=deploy>Deploy</keyword>: Trigger a bronze ally's <keyword=deathwish>Deathwish</keyword> ability.\n",
+        "name": "Abaya"
+    },
+    "132204": {
+        "info": "After 3 allied units are destroyed, awaken Frightener.\n",
+        "infoRaw": "After 3 allied units are destroyed, awaken Frightener.\n",
+        "name": "Frightener: Dormant"
+    },
+    "132205": {
+        "info": "Deploy: Boost all Beast allies by 1.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost all Beast allies by 1.\n",
+        "name": "Morvudd"
+    },
+    "132206": {
+        "info": "Deploy: Damage an enemy by 2.\nIncrease this damage by 2 whenever you play Brewess or Weavess.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 2.\nIncrease this damage by 2 whenever you play Brewess or Weavess.\n",
+        "name": "Whispess"
+    },
+    "132207": {
+        "info": "Deploy: Consume 1 allied unit(s).\nIncrease the number of targets by 1 whenever you play Whispess or Weavess.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: <keyword=consume>Consume</keyword> 1 allied unit(s).\nIncrease the number of targets by 1 whenever you play Whispess or Weavess.\n",
+        "name": "Brewess"
+    },
+    "132208": {
+        "info": "Deploy: Boost an ally by 2.\nIncrease this boost by 2 whenever you play Whispess or Brewess.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost an ally by 2.\nIncrease this boost by 2 whenever you play Whispess or Brewess.\n",
+        "name": "Weavess"
+    },
+    "132209": {
+        "info": "Deathwish: Destroy the lowest enemy.\n",
+        "infoRaw": "<keyword=deathwish>Deathwish</keyword>: Destroy the lowest enemy.\n",
+        "name": "Imperial Manticore"
+    },
+    "132210": {
+        "info": "Zeal.\nOrder: Damage all units on the opposite row by 1.\nCooldown: 3.\n",
+        "infoRaw": "<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Damage all units on the opposite row by 1.\n<keyword=cooldown>Cooldown</keyword>: 3.\n",
+        "name": "Colossal Ifrit"
+    },
+    "132211": {
+        "info": "Thrive.\n",
+        "infoRaw": "<keyword=thrive>Thrive</keyword>.\n",
+        "name": "Nekker Warrior"
+    },
+    "132212": {
+        "info": "No ability.\n",
+        "infoRaw": "No ability.\n",
+        "name": "Ice Giant"
+    },
+    "132213": {
+        "info": "No ability.\n",
+        "infoRaw": "No ability.\n",
+        "name": "Primordial D'ao"
+    },
+    "132214": {
+        "info": "Deploy: Destroy an enemy artifact. If you control the highest unit, damage units adjacent to that artifact by 2.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Destroy an enemy artifact. If you control the highest unit, damage units adjacent to that artifact by 2.\n",
+        "name": "Nithral"
+    },
+    "132215": {
+        "info": "Deploy: Give an enemy unit Doomed.\nOrder: Destroy a Doomed enemy.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Give an enemy unit <keyword=doomed>Doomed</keyword>.\n<keyword=order>Order</keyword>: Destroy a <keyword=doomed>Doomed</keyword> enemy.\n",
+        "name": "Gaunter O'Dimm"
+    },
+    "132216": {
+        "info": "Deploy, Melee: Consume a unit with 3 or less power.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: <keyword=consume>Consume</keyword> a unit with 3 or less power.\n",
+        "name": "Toad Prince"
+    },
+    "132217": {
+        "info": "Deploy: Consume an allied unit.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: <keyword=consume>Consume</keyword> an allied unit.\n",
+        "name": "Celaeno Harpy"
+    },
+    "132218": {
+        "info": "No ability.\n",
+        "infoRaw": "No ability.\n",
+        "name": "Old Speartip: Asleep"
+    },
+    "132301": {
+        "info": "Deathwish: Summon a copy of this unit from your deck to a random allied row.\n",
+        "infoRaw": "<keyword=deathwish>Deathwish</keyword>: <keyword=summon>Summon</keyword> a copy of this unit from your deck to a random allied row.\n",
+        "name": "Foglet"
+    },
+    "132302": {
+        "info": "Deathwish: Summon this unit from the graveyard to the same row, boost it by 4, and give it Doomed.\n",
+        "infoRaw": "<keyword=deathwish>Deathwish</keyword>: <keyword=summon>Summon</keyword> this unit from the graveyard to the same row, boost it by 4, and give it <keyword=doomed>Doomed</keyword>.\n",
+        "name": "Ancient Foglet"
+    },
+    "132303": {
+        "info": "Deploy: Damage an enemy by 2.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 2.\n",
+        "name": "Wyvern"
+    },
+    "132304": {
+        "info": "Doomed.\n",
+        "infoRaw": "<keyword=doomed>Doomed</keyword>.\n",
+        "name": "Arachas Drone"
+    },
+    "132305": {
+        "info": "Thrive.\nDeploy: Spawn a base copy of this unit and Summon it to this row.\n",
+        "infoRaw": "<keyword=thrive>Thrive</keyword>.\n<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> a base copy of this unit and <keyword=summon>Summon</keyword> it to this row.\n",
+        "name": "Nekker"
+    },
+    "132306": {
+        "info": "Deploy, Melee: Consume a unit in your graveyard.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: <keyword=consume>Consume</keyword> a unit in your graveyard.\n",
+        "name": "Ghoul"
+    },
+    "132307": {
+        "info": "Deploy: Destroy an allied unit on this row. If there are no units, destroy self.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Destroy an allied unit on this row. If there are no units, destroy self.\n",
+        "name": "Griffin"
+    },
+    "132308": {
+        "info": "Whenever a unit is destroyed during your turn, damage a random enemy by 1.\n",
+        "infoRaw": "Whenever a unit is destroyed during your turn, damage a random enemy by 1.\n",
+        "name": "Vran Warrior"
+    },
+    "132309": {
+        "info": "Deploy: Damage a unit by 1 for each Wild Hunt unit on this row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage a unit by 1 for each Wild Hunt unit on this row.\n",
+        "name": "Wild Hunt Warrior"
+    },
+    "132310": {
+        "info": "Deploy: If you control the highest unit, Summon a copy of Wild Hunt Rider from your deck to this row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: If you control the highest unit, <keyword=summon>Summon</keyword> a copy of Wild Hunt Rider from your deck to this row.\n",
+        "name": "Wild Hunt Rider"
+    },
+    "132312": {
+        "info": "Each player destroys their lowest unit.\n",
+        "infoRaw": "Each player destroys their lowest unit.\n",
+        "name": "Predatory Dive"
+    },
+    "132314": {
+        "info": "Thrive.\nDeploy: Damage an enemy by 2 and move it to the other row.\n",
+        "infoRaw": "<keyword=thrive>Thrive</keyword>.\n<keyword=deploy>Deploy</keyword>: Damage an enemy by 2 and move it to the other row.\n",
+        "name": "Drowner"
+    },
+    "132315": {
+        "info": "Doomed.\n",
+        "infoRaw": "<keyword=doomed>Doomed</keyword>.\n",
+        "name": "Harpy"
+    },
+    "132316": {
+        "info": "Deathwish: Spawn a Harpy and Summon it to a random allied row.\n",
+        "infoRaw": "<keyword=deathwish>Deathwish</keyword>: <keyword=spawn>Spawn</keyword> a Harpy and <keyword=summon>Summon</keyword> it to a random allied row.\n",
+        "name": "Harpy Egg"
+    },
+    "132402": {
+        "info": "Deploy: Damage an enemy by 1. If you control the highest unit, damage by 3 instead.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 1. If you control the highest unit, damage by 3 instead.\n",
+        "name": "Wild Hunt Hound"
+    },
+    "132403": {
+        "info": "Deploy: Damage an enemy by 2.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 2.\n",
+        "name": "Wolf Pack"
+    },
+    "132404": {
+        "info": "Deploy: Damage an enemy by 4.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 4.\n",
+        "name": "Enraged Ifrit"
+    },
+    "132405": {
+        "info": "Deploy: Destroy an enemy artifact.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Destroy an enemy artifact.\n",
+        "name": "Frenzied D'ao"
+    },
+    "132406": {
+        "info": "Deploy: Trigger a bronze ally's Deathwish ability.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Trigger a bronze ally's <keyword=deathwish>Deathwish</keyword> ability.\n",
+        "name": "Maerolorn"
+    },
+    "132407": {
+        "info": "Deploy: Reveal the top unit from your opponent's deck and damage self by its power, then shuffle it back.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: <keyword=reveal>Reveal</keyword> the top unit from your opponent's deck and damage self by its power, then shuffle it back.\n",
+        "name": "Imperial Golem"
+    },
+    "132408": {
+        "info": "No ability.\n",
+        "infoRaw": "No ability.\n",
+        "name": "Old Speartip"
+    },
+    "132409": {
+        "info": "Damage an enemy by 3 and boost an ally by 3.\n",
+        "infoRaw": "Damage an enemy by 3 and boost an ally by 3.\n",
+        "name": "Hideous Feast"
+    },
+    "133301": {
+        "info": "Zeal.\nOrder: Boost a unit by 1. \nCooldown: 1.\n",
+        "infoRaw": "<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Boost a unit by 1. \n<keyword=cooldown>Cooldown</keyword>: 1.\n",
+        "name": "Wyvern Scale Shield"
+    },
+    "133302": {
+        "info": "Spawn 4 1-power Arachas Drones and Summon them to an allied row.\n",
+        "infoRaw": "<keyword=spawn>Spawn</keyword> 4 1-power Arachas Drones and <keyword=summon>Summon</keyword> them to an allied row.\n",
+        "name": "Arachas Nest"
+    },
+    "142101": {
+        "info": "Immune.\nOrder: Remove this unit's Immune status for the remainder of the turn.\n",
+        "infoRaw": "<keyword=immune>Immune</keyword>.\n<keyword=order>Order</keyword>: Remove this unit's <keyword=immune>Immune</keyword> status for the remainder of the turn.\n",
+        "name": "Saesenthessis"
+    },
+    "142102": {
+        "info": "Deploy: Boost all other Elf allies by 1.\nWhenever you play an Elf, boost self by 1.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost all other Elf allies by 1.\nWhenever you play an Elf, boost self by 1.\n",
+        "name": "Isengrim Faoiltiarna"
+    },
+    "142103": {
+        "info": "Deploy: Return an allied Trap to your hand, then play a Trap.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Return an allied Trap to your hand, then play a Trap.\n",
+        "name": "Iorveth"
+    },
+    "142104": {
+        "info": "Immune.\nBoost self by 1 whenever you play a Scoia'tael unit.\n",
+        "infoRaw": "<keyword=immune>Immune</keyword>.\nBoost self by 1 whenever you play a Scoia'tael unit.\n",
+        "name": "Milva"
+    },
+    "142105": {
+        "info": "Deploy, Melee: Destroy a unit with power less than or equal to the number of Dwarf allies.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Destroy a unit with power less than or equal to the number of Dwarf allies.\n",
+        "name": "Zoltan Chivay"
+    },
+    "142106": {
+        "info": "Deploy: On turn end, double the amount of boosts on self.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: On turn end, double the amount of boosts on self.\n",
+        "name": "Aglaïs"
+    },
+    "142107": {
+        "info": "Deploy: Boost a Scoia'tael unit in your hand by 4.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost a Scoia'tael unit in your hand by 4.\n",
+        "name": "Ithlinne Aegli"
+    },
+    "142108": {
+        "info": "Zeal.\nOrder: Destroy all other units with the same power as Schirrú.\n",
+        "infoRaw": "<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Destroy all other units with the same power as Schirrú.\n",
+        "name": "Schirrú"
+    },
+    "142201": {
+        "info": "Deploy, Melee: Boost adjacent units by 2.\nDeploy, Ranged: Boost all other units on this row by 1.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Boost adjacent units by 2.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Boost all other units on this row by 1.\n",
+        "name": "Dennis Cranmer"
+    },
+    "142202": {
+        "info": "Deploy, Melee: Destroy an artifact.\nDeploy, Ranged: Boost a unit by 3.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Destroy an artifact.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Boost a unit by 3.\n",
+        "name": "Ida Emean aep Sivney"
+    },
+    "142203": {
+        "info": "Deploy: Damage an enemy by 1 for every Elf ally.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 1 for every Elf ally.\n",
+        "name": "Yaevinn"
+    },
+    "142204": {
+        "info": "Deploy, Melee: Damage enemies at the ends of a row by 2.\nDeploy, Ranged: Damage all enemies on a row by 1.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Damage enemies at the ends of a row by 2.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Damage all enemies on a row by 1.\n",
+        "name": "Toruviel"
+    },
+    "142205": {
+        "info": "Deploy, Melee: Move an enemy unit to their other row.\nDeploy, Ranged: Move an allied unit to your other row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Move an enemy unit to their other row.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Move an allied unit to your other row.\n",
+        "name": "Vrihedd Dragoon"
+    },
+    "142206": {
+        "info": "Deploy: Lock a unit and move it to the other row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: <keyword=lock>Lock</keyword> a unit and move it to the other row.\n",
+        "name": "Ciaran aep Easnillen"
+    },
+    "142207": {
+        "info": "Deploy: Boost an ally by 1 for each Dwarf ally.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost an ally by 1 for each Dwarf ally.\n",
+        "name": "Barclay Els"
+    },
+    "142208": {
+        "info": "Deploy, Melee: Damage an enemy by 2.\nDeploy, Ranged: Lock a unit.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Damage an enemy by 2.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: <keyword=lock>Lock</keyword> a unit.\n",
+        "name": "Morenn"
+    },
+    "142209": {
+        "info": "Deploy: If you control 2 or more Dryads, gain Zeal.\nOrder: Damage an enemy by 1.\nCharge: 3.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: If you control 2 or more Dryads, gain <keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Damage an enemy by 1.\n<keyword=charge>Charge</keyword>: 3.\n",
+        "name": "Braenn"
+    },
+    "142210": {
+        "info": "Order: Move a unit to the other row on its side.\nCooldown: 2.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Move a unit to the other row on its side.\n<keyword=cooldown>Cooldown</keyword>: 2.\n",
+        "name": "Malena"
+    },
+    "142211": {
+        "info": "If on turn end you control 5 or more Elf allies, Summon this unit from your deck to the melee row.\n",
+        "infoRaw": "If on turn end you control 5 or more Elf allies, <keyword=summon>Summon</keyword> this unit from your deck to the melee row.\n",
+        "name": "Aelirenn"
+    },
+    "142212": {
+        "info": "Deploy: Damage an enemy by this unit's power.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by this unit's power.\n",
+        "name": "Sheldon Skaggs"
+    },
+    "142213": {
+        "info": "Every turn, on turn end, if there are no allied units on the battlefield, boost self by 3.\n",
+        "infoRaw": "Every turn, on turn end, if there are no allied units on the battlefield, boost self by 3.\n",
+        "name": "Yarpen Zigrin"
+    },
+    "142214": {
+        "info": "Deploy: Damage all damaged units by 1 and boost all boosted units by 1.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage all damaged units by 1 and boost all boosted units by 1.\n",
+        "name": "Ele'yas"
+    },
+    "142301": {
+        "info": "Deploy, Melee: Boost an allied unit by 2.\nDeploy, Ranged: Heal an allied unit by 4.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Boost an allied unit by 2.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: <keyword=heal>Heal</keyword> an allied unit by 4.\n",
+        "name": "Hawker Healer"
+    },
+    "142302": {
+        "info": "Deploy: Damage a random enemy by 2.\nWhenever Vrihedd Brigade is moved to the other row, repeat its Deploy ability.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage a random enemy by 2.\nWhenever Vrihedd Brigade is moved to the other row, repeat its <keyword=deploy>Deploy</keyword> ability.\n",
+        "name": "Vrihedd Brigade"
+    },
+    "142303": {
+        "info": "Deploy, Melee: Damage an enemy by 3.\nDeploy, Ranged: Boost an ally by 3.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Damage an enemy by 3.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Boost an ally by 3.\n",
+        "name": "Vrihedd Officer"
+    },
+    "142304": {
+        "info": "Deploy: Damage a random enemy on each row by 2.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage a random enemy on each row by 2.\n",
+        "name": "Dol Blathanna Bomber"
+    },
+    "142305": {
+        "info": "Deploy: Damage an enemy by 3. If it survives, boost self by 1.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 3. If it survives, boost self by 1.\n",
+        "name": "Dwarven Skirmisher"
+    },
+    "142306": {
+        "info": "Every turn, on turn end, boost self by 1 if this unit is boosted.\n",
+        "infoRaw": "Every turn, on turn end, boost self by 1 if this unit is boosted.\n",
+        "name": "Mahakam Defender"
+    },
+    "142307": {
+        "info": "Deploy: If you have an Elf in your hand, destroy an enemy artifact.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: If you have an Elf in your hand, destroy an enemy artifact.\n",
+        "name": "Vrihedd Sappers"
+    },
+    "142308": {
+        "info": "If there is an Elf ally on the battlefield, destroy a random enemy unit.\n",
+        "infoRaw": "If there is an Elf ally on the battlefield, destroy a random enemy unit.\n",
+        "name": "Waylay"
+    },
+    "142309": {
+        "info": "Deploy: Boost self by 1 for each Elf in your hand.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost self by 1 for each Elf in your hand.\n",
+        "name": "Vrihedd Vanguard"
+    },
+    "142310": {
+        "info": "Deploy, Melee: Damage an enemy by 2.\nDeploy, Ranged: Damage 2 units by 1.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Damage an enemy by 2.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Damage 2 units by 1.\n",
+        "name": "Dol Blathanna Archer"
+    },
+    "142311": {
+        "info": "Order: Damage an enemy by 1. \nCharge: 1.\nGain 1 Charge whenever you play a Dwarf.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Damage an enemy by 1. \n<keyword=charge>Charge</keyword>: 1.\nGain 1 <keyword=charge>Charge</keyword> whenever you play a Dwarf.\n",
+        "name": "Dwarven Mercenary"
+    },
+    "142312": {
+        "info": "Deploy: Boost an ally by 1. If you control an artifact, boost by 3 instead.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost an ally by 1. If you control an artifact, boost by 3 instead.\n",
+        "name": "Hawker Support"
+    },
+    "142313": {
+        "info": "Deploy: If this unit is already boosted, damage an enemy by 3.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: If this unit is already boosted, damage an enemy by 3.\n",
+        "name": "Elven Wardancer"
+    },
+    "142314": {
+        "info": "Deploy: Damage an enemy by 1 for each row that separates it from this unit.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 1 for each row that separates it from this unit.\n",
+        "name": "Dol Blathanna Bowman"
+    },
+    "142315": {
+        "info": "Melee: Every turn, on turn end, boost a random unit in your hand by 1.\n",
+        "infoRaw": "<keyword=melee>Melee</keyword>: Every turn, on turn end, boost a random unit in your hand by 1.\n",
+        "name": "Hawker Smuggler"
+    },
+    "142316": {
+        "info": "Deploy, Melee: Damage an enemy by 4 if there are no other units on its row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Damage an enemy by 4 if there are no other units on its row.\n",
+        "name": "Blue Mountain Elite"
+    },
+    "142317": {
+        "info": "Deploy: Boost self by the number of Dwarf allies on the other row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost self by the number of Dwarf allies on the other row.\n",
+        "name": "Mahakam Guard"
+    },
+    "142401": {
+        "info": "Deploy: Spawn and Summon a base copy of this unit to the other allied row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> and <keyword=summon>Summon</keyword> a base copy of this unit to the other allied row.\n",
+        "name": "Scoia'tael Neophyte"
+    },
+    "143201": {
+        "info": "Ambush: Destroy the next special card played by your opponent before it triggers any abilities.\n",
+        "infoRaw": "<keyword=ambush>Ambush</keyword>: Destroy the next special card played by your opponent before it triggers any abilities.\n",
+        "name": "Serpent Trap"
+    },
+    "143301": {
+        "info": "Ambush: Damage the next unit your opponent plays by 5. \nZeal.\nOrder: Flip over and damage a unit by 3.\n",
+        "infoRaw": "<keyword=ambush>Ambush</keyword>: Damage the next unit your opponent plays by 5. \n<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Flip over and damage a unit by 3.\n",
+        "name": "Incinerating Trap"
+    },
+    "152101": {
+        "info": "Deploy, Melee: Banish a unit in your graveyard and damage an enemy by its power.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: <keyword=banish>Banish</keyword> a unit in your graveyard and damage an enemy by its power.\n",
+        "name": "Hjalmar an Craite"
+    },
+    "152103": {
+        "info": "Deploy, Ranged: Play an Alchemy card from your deck.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Play an Alchemy card from your deck.\n",
+        "name": "Ermion"
+    },
+    "152104": {
+        "info": "Deploy: Discard the rightmost card in your hand, then force your opponent to do the same.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: <keyword=discard>Discard</keyword> the rightmost card in your hand, then force your opponent to do the same.\n",
+        "name": "Kambi"
+    },
+    "152105": {
+        "info": "Deploy: Draw 2 cards, then Discard 2 cards.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Draw 2 cards, then <keyword=discard>Discard</keyword> 2 cards.\n",
+        "name": "Birna Bran"
+    },
+    "152106": {
+        "info": "Deploy: Damage an enemy by twice the number of damaged enemies.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by twice the number of damaged enemies.\n",
+        "name": "Madman Lugos"
+    },
+    "152107": {
+        "info": "Order: Discard a card, then draw a card. \nCharge: 3.\nWhenever a special card is Discarded, damage an enemy by 2.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: <keyword=discard>Discard</keyword> a card, then draw a card. \n<keyword=charge>Charge</keyword>: 3.\nWhenever a special card is <keyword=discard>Discarded</keyword>, damage an enemy by 2.\n",
+        "name": "Coral"
+    },
+    "152109": {
+        "info": "Deploy, Melee: Damage all damaged enemies by 2.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Damage all damaged enemies by 2.\n",
+        "name": "Wild Boar of the Sea"
+    },
+    "152201": {
+        "info": "Whenever this unit takes damage, damage a random enemy unit by 2.\n",
+        "infoRaw": "Whenever this unit takes damage, damage a random enemy unit by 2.\n",
+        "name": "Blueboy Lugos"
+    },
+    "152202": {
+        "info": "Damage a unit by 5. \nBloodthirst 3: Destroy a unit instead.\n",
+        "infoRaw": "Damage a unit by 5. \n<keyword=bloodthirst>Bloodthirst</keyword> 3: Destroy a unit instead.\n",
+        "name": "Champion's Charge"
+    },
+    "152203": {
+        "info": "Bloodthirst 1: Lock an enemy unit.\n",
+        "infoRaw": "<keyword=bloodthirst>Bloodthirst</keyword> 1: <keyword=lock>Lock</keyword> an enemy unit.\n",
+        "name": "Djenge Frett"
+    },
+    "152204": {
+        "info": "Deploy: Damage an enemy by 2.\nBloodthirst 2: Damage an enemy by 5 instead.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 2.\n<keyword=bloodthirst>Bloodthirst</keyword> 2: Damage an enemy by 5 instead.\n",
+        "name": "Donar an Hindar"
+    },
+    "152205": {
+        "info": "Deploy: Boost all Warrior allies by 1.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost all Warrior allies by 1.\n",
+        "name": "Draig Bon-Dhu"
+    },
+    "152206": {
+        "info": "Deploy, Ranged: Play a bronze Alchemy card from your graveyard.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Play a bronze Alchemy card from your graveyard.\n",
+        "name": "Gremist"
+    },
+    "152207": {
+        "info": "Whenever you play a Ship, boost it by 1.\nWhenever you play a Pirate, damage a random enemy by 1.\n",
+        "infoRaw": "Whenever you play a Ship, boost it by 1.\nWhenever you play a Pirate, damage a random enemy by 1.\n",
+        "name": "Holger Blackhand"
+    },
+    "152208": {
+        "info": "Deploy: If Jutta an Dimun is the highest unit, damage self by 6.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: If Jutta an Dimun is the highest unit, damage self by 6.\n",
+        "name": "Jutta an Dimun"
+    },
+    "152209": {
+        "info": "When this unit moves to the graveyard, Summon it to the melee row and give it Doomed.\n",
+        "infoRaw": "When this unit moves to the graveyard, <keyword=summon>Summon</keyword> it to the melee row and give it <keyword=doomed>Doomed</keyword>.\n",
+        "name": "Morkvarg"
+    },
+    "152210": {
+        "info": "Zeal.\nDeploy: Gain 1 Charge for each Savage Bear in the graveyard.\nOrder: Damage a unit by 2.\nCharge: 1.\n",
+        "infoRaw": "<keyword=zeal>Zeal</keyword>.\n<keyword=deploy>Deploy</keyword>: Gain 1 <keyword=charge>Charge</keyword> for each Savage Bear in the graveyard.\n<keyword=order>Order</keyword>: Damage a unit by 2.\n<keyword=charge>Charge</keyword>: 1.\n",
+        "name": "Savage Bear"
+    },
+    "152211": {
+        "info": "Summon a Warrior from your graveyard to an allied row.\n",
+        "infoRaw": "<keyword=summon>Summon</keyword> a Warrior from your graveyard to an allied row.\n",
+        "name": "Sigrdrifa's Rite"
+    },
+    "152213": {
+        "info": "Deploy, Bloodthirst 3: Boost self by 5.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=bloodthirst>Bloodthirst</keyword> 3: Boost self by 5.\n",
+        "name": "Svanrige Tuirseach"
+    },
+    "152214": {
+        "info": "Order: Damage a unit by 1.\nCharge: 3.\nBloodthirst 2: Gain Zeal.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Damage a unit by 1.\n<keyword=charge>Charge</keyword>: 3.\n<keyword=bloodthirst>Bloodthirst</keyword> 2: Gain <keyword=zeal>Zeal</keyword>.\n",
+        "name": "Udalryk an Brokvar"
+    },
+    "152303": {
+        "info": "Deploy: Damage an enemy by 2. If played from the graveyard, damage it by 4 instead.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 2. If played from the graveyard, damage it by 4 instead.\n",
+        "name": "An Craite Warrior"
+    },
+    "152304": {
+        "info": "Order: Damage a unit by 1. \nCharge: 1.\nGain 1 Charge whenever you Discard a card.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Damage a unit by 1. \n<keyword=charge>Charge</keyword>: 1.\nGain 1 <keyword=charge>Charge</keyword> whenever you <keyword=discard>Discard</keyword> a card.\n",
+        "name": "Brokvar Hunter"
+    },
+    "152305": {
+        "info": "Deploy: Move the top card in your deck to your graveyard.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Move the top card in your deck to your graveyard.\n",
+        "name": "Dimun Pirate"
+    },
+    "152306": {
+        "info": "Deploy, Bloodthirst 2: Damage an enemy by 3.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=bloodthirst>Bloodthirst</keyword> 2: Damage an enemy by 3.\n",
+        "name": "Dimun Pirate Captain"
+    },
+    "152307": {
+        "info": "Order: If this unit takes damage, Spawn a base copy of it and Summon it to the right.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: If this unit takes damage, <keyword=spawn>Spawn</keyword> a base copy of it and <keyword=summon>Summon</keyword> it to the right.\n",
+        "name": "Drummond Queensguard"
+    },
+    "152308": {
+        "info": "Deploy: Discard a card, then draw a card.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: <keyword=discard>Discard</keyword> a card, then draw a card.\n",
+        "name": "Heymaey Skald"
+    },
+    "152309": {
+        "info": "Order: Damage self and an enemy by 1. \nCooldown: 1.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Damage self and an enemy by 1. \n<keyword=cooldown>Cooldown</keyword>: 1.\n",
+        "name": "Dimun Light Longship"
+    },
+    "152310": {
+        "info": "Play a bronze unit from your graveyard.\n",
+        "infoRaw": "Play a bronze unit from your graveyard.\n",
+        "name": "Freya's Blessing"
+    },
+    "152311": {
+        "info": "Order: Boost an ally by 1. \nCharge: 1.\nGain 1 Charge whenever you play a Warrior.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Boost an ally by 1. \n<keyword=charge>Charge</keyword>: 1.\nGain 1 <keyword=charge>Charge</keyword> whenever you play a Warrior.\n",
+        "name": "An Craite Blacksmith"
+    },
+    "152312": {
+        "info": "Deploy, Melee: Destroy an enemy with half or less than half of its base power.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Destroy an enemy with half or less than half of its base power.\n",
+        "name": "Tuirseach Axeman"
+    },
+    "152313": {
+        "info": "When this unit is Discarded, Summon it from your graveyard to the melee row.\n",
+        "infoRaw": "When this unit is <keyword=discard>Discarded</keyword>, <keyword=summon>Summon</keyword> it from your graveyard to the melee row.\n",
+        "name": "Tuirseach Skirmisher"
+    },
+    "152314": {
+        "info": "Whenever your opponent plays a unit, damage it by 1.\n",
+        "infoRaw": "Whenever your opponent plays a unit, damage it by 1.\n",
+        "name": "An Craite Longship"
+    },
+    "152315": {
+        "info": "Deploy, Ranged: Damage an enemy by the amount of damaged units on their side.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Damage an enemy by the amount of damaged units on their side.\n",
+        "name": "Brokvar Archer"
+    },
+    "152316": {
+        "info": "Damage a unit by 4. \nBloodthirst 2: Damage a unit by 6 instead.\n",
+        "infoRaw": "Damage a unit by 4. \n<keyword=bloodthirst>Bloodthirst</keyword> 2: Damage a unit by 6 instead.\n",
+        "name": "Gutting Slash"
+    },
+    "152317": {
+        "info": "Deploy: Boost an ally by 1. If it's a Warrior, boost it by 3 instead.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost an ally by 1. If it's a Warrior, boost it by 3 instead.\n",
+        "name": "An Craite Armorsmith"
+    },
+    "152318": {
+        "info": "The next time this unit takes damage, Summon a copy of it from your deck to this row.\n",
+        "infoRaw": "The next time this unit takes damage, <keyword=summon>Summon</keyword> a copy of it from your deck to this row.\n",
+        "name": "Drummond Shieldmaiden"
+    },
+    "152403": {
+        "info": "Split 6 damage randomly between all units on an enemy row.\n",
+        "infoRaw": "Split 6 damage randomly between all units on an enemy row.\n",
+        "name": "Delirium"
+    },
+    "152405": {
+        "info": "No ability.\n",
+        "infoRaw": "No ability.\n",
+        "name": "Elder Bear"
+    },
+    "152406": {
+        "info": "Deploy: Damage an ally to the left by 1. If there is no ally, damage self by 1 instead.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an ally to the left by 1. If there is no ally, damage self by 1 instead.\n",
+        "name": "Raging Bear"
+    },
+    "153201": {
+        "info": "Heal all units on a row.\n",
+        "infoRaw": "<keyword=heal>Heal</keyword> all units on a row.\n",
+        "name": "Restore"
+    },
+    "153301": {
+        "info": "Damage all units on a row by 2.\n",
+        "infoRaw": "Damage all units on a row by 2.\n",
+        "name": "Lacerate"
+    },
+    "162101": {
+        "info": "Deploy: Remove all redraws from the enemy Leader.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Remove all redraws from the enemy Leader.\n",
+        "name": "Letho of Gulet"
+    },
+    "162102": {
+        "info": "Deploy, Ranged: Play a Tactic card from your deck.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Play a Tactic card from your deck.\n",
+        "name": "Menno Coehoorn"
+    },
+    "162103": {
+        "info": "Order, Melee: Seize a Locked enemy unit.\n",
+        "infoRaw": "<keyword=order>Order</keyword>, <keyword=melee>Melee</keyword>: <keyword=seize>Seize</keyword> a <keyword=lock>Locked</keyword> enemy unit.\n",
+        "name": "Vattier de Rideaux"
+    },
+    "162104": {
+        "info": "Melee: Whenever an enemy receives a boost, boost self by the same amount.\n",
+        "infoRaw": "<keyword=melee>Melee</keyword>: Whenever an enemy receives a boost, boost self by the same amount.\n",
+        "name": "Cahir Dyffryn"
+    },
+    "162105": {
+        "info": "Deploy, Melee: Destroy an enemy unit, then your opponent Summons the top unit from their deck to a random enemy row.\nDeploy, Ranged: Destroy an allied unit, then Summon the top unit from your deck to a random allied row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Destroy an enemy unit, then your opponent <keyword=summon>Summons</keyword> the top unit from their deck to a random enemy row.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Destroy an allied unit, then <keyword=summon>Summon</keyword> the top unit from your deck to a random allied row.\n",
+        "name": "Vilgefortz"
+    },
+    "162106": {
+        "info": "Order: Spawn and play a copy of a Tactic card you played on this turn.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: <keyword=spawn>Spawn</keyword> and play a copy of a Tactic card you played on this turn.\n",
+        "name": "Stefan Skellen"
+    },
+    "162107": {
+        "info": "Deploy: Your opponent Summons the top unit from their deck to a random enemy row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Your opponent <keyword=summon>Summons</keyword> the top unit from their deck to a random enemy row.\n",
+        "name": "Tibor Eggebracht"
+    },
+    "162108": {
+        "info": "Deploy: Reveal a random card in your deck. If it's a unit, boost self by its power and shuffle it back. If it's an artifact or a special card, play it.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: <keyword=reveal>Reveal</keyword> a random card in your deck. If it's a unit, boost self by its power and shuffle it back. If it's an artifact or a special card, play it.\n",
+        "name": "Xarthisius"
+    },
+    "162201": {
+        "info": "Deploy, Ranged: Move any card from your deck to the top. If it's a unit, boost it by 2.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Move any card from your deck to the top. If it's a unit, boost it by 2.\n",
+        "name": "Albrich"
+    },
+    "162202": {
+        "info": "Deploy, Melee: Shuffle a card from the opponent's graveyard into their deck.\nDeploy, Ranged: Shuffle a card from your graveyard into your deck.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Shuffle a card from the opponent's graveyard into their deck.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Shuffle a card from your graveyard into your deck.\n",
+        "name": "Assire var Anahid"
+    },
+    "162203": {
+        "info": "Deploy, Melee: Spawn The Guardian and place it at the top of your opponent's deck.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: <keyword=spawn>Spawn</keyword> The Guardian and place it at the top of your opponent's deck.\n",
+        "name": "Cynthia"
+    },
+    "162204": {
+        "info": "Deploy: Restore a unit to its base power.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Restore a unit to its base power.\n",
+        "name": "Peter Saar Gwynleve"
+    },
+    "162205": {
+        "info": "Order: Reveal a random special card from your opponent's deck, then Spawn and play a copy of it.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: <keyword=reveal>Reveal</keyword> a random special card from your opponent's deck, then <keyword=spawn>Spawn</keyword> and play a copy of it.\n",
+        "name": "Fringilla Vigo"
+    },
+    "162206": {
+        "info": "Deploy: Damage an enemy by 1.\nIncrease this unit's damage by 1 for each card you have Revealed.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 1.\nIncrease this unit's damage by 1 for each card you have <keyword=reveal>Revealed</keyword>.\n",
+        "name": "Sweers"
+    },
+    "162207": {
+        "info": "Deploy, Ranged: Destroy a Locked enemy unit.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Destroy a <keyword=lock>Locked</keyword> enemy unit.\n",
+        "name": "Vanhemar"
+    },
+    "162208": {
+        "info": "Deploy: Lock an enemy unit.\nIf Serrit is in your hand, Lock all copies of that unit in the opponent's hand, deck, and on their side of the battlefield.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: <keyword=lock>Lock</keyword> an enemy unit.\nIf Serrit is in your hand, <keyword=lock>Lock</keyword> all copies of that unit in the opponent's hand, deck, and on their side of the battlefield.\n",
+        "name": "Auckes"
+    },
+    "162209": {
+        "info": "Deploy: Damage an enemy by 3. If Auckes is in your hand, damage that unit by 5 instead.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 3. If Auckes is in your hand, damage that unit by 5 instead.\n",
+        "name": "Serrit"
+    },
+    "162210": {
+        "info": "Spying.\nDeploy: Play the top card from your opponent's deck.\n",
+        "infoRaw": "<keyword=spying>Spying</keyword>.\n<keyword=deploy>Deploy</keyword>: Play the top card from your opponent's deck.\n",
+        "name": "Cantarella"
+    },
+    "162211": {
+        "info": "Spying.\nDeploy: Play the top non-Spying unit from your deck, then boost it by 8.\n",
+        "infoRaw": "<keyword=spying>Spying</keyword>.\n<keyword=deploy>Deploy</keyword>: Play the top non-<keyword=spying>Spying</keyword> unit from your deck, then boost it by 8.\n",
+        "name": "Joachim de Wett"
+    },
+    "162212": {
+        "info": "Deploy, Melee: Move an enemy to the other row.\nDeploy, Ranged: Destroy an enemy artifact.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Move an enemy to the other row.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Destroy an enemy artifact.\n",
+        "name": "False Ciri"
+    },
+    "162213": {
+        "info": "Deploy:  Remove all statuses from all units on the battlefield.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>:  Remove all statuses from all units on the battlefield.\n",
+        "name": "Ceallach Dyffryn"
+    },
+    "162301": {
+        "info": "When you Reveal this unit, Summon it from your deck to a random allied row.\n",
+        "infoRaw": "When you <keyword=reveal>Reveal</keyword> this unit, <keyword=summon>Summon</keyword> it from your deck to a random allied row.\n",
+        "name": "Daerlan Soldier"
+    },
+    "162302": {
+        "info": "Deploy, Ranged: Spawn and play a Cow Carcass.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: <keyword=spawn>Spawn</keyword> and play a Cow Carcass.\n",
+        "name": "Rot Tosser"
+    },
+    "162303": {
+        "info": "Deploy, Melee: Reveal a random unit from your opponent's deck and boost self by its power.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: <keyword=reveal>Reveal</keyword> a random unit from your opponent's deck and boost self by its power.\n",
+        "name": "Spotter"
+    },
+    "162304": {
+        "info": "Play a bronze unit from your opponent's graveyard.\n",
+        "infoRaw": "Play a bronze unit from your opponent's graveyard.\n",
+        "name": "Experimental Remedy"
+    },
+    "162305": {
+        "info": "Deploy: Damage an enemy by 2, then Reveal a random unit from both decks. If yours has more power, repeat the Deploy ability.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 2, then <keyword=reveal>Reveal</keyword> a random unit from both decks. If yours has more power, repeat the <keyword=deploy>Deploy</keyword> ability.\n",
+        "name": "Deithwen Arbalest"
+    },
+    "162306": {
+        "info": "Order, Ranged: Damage a unit by 1. \nCharge: 1.\nGain 1 Charge whenever you play a Tactic card.\n",
+        "infoRaw": "<keyword=order>Order</keyword>, <keyword=ranged>Ranged</keyword>: Damage a unit by 1. \n<keyword=charge>Charge</keyword>: 1.\nGain 1 <keyword=charge>Charge</keyword> whenever you play a Tactic card.\n",
+        "name": "Fire Scorpion"
+    },
+    "162307": {
+        "info": "Deploy, Melee: Summon a copy of this unit from your deck to this row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: <keyword=summon>Summon</keyword> a copy of this unit from your deck to this row.\n",
+        "name": "Impera Brigade"
+    },
+    "162308": {
+        "info": "Order: Damage an enemy by 2.\nCharge: 1.\nGain 1 Charge whenever you play a Spying unit.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Damage an enemy by 2.\n<keyword=charge>Charge</keyword>: 1.\nGain 1 <keyword=charge>Charge</keyword> whenever you play a <keyword=spying>Spying</keyword> unit.\n",
+        "name": "Impera Enforcers"
+    },
+    "162309": {
+        "info": "Whenever a unit with Deploy is played, boost self by 1.\n",
+        "infoRaw": "Whenever a unit with <keyword=deploy>Deploy</keyword> is played, boost self by 1.\n",
+        "name": "Nauzicaa Sergeant"
+    },
+    "162310": {
+        "info": "Deploy: Damage a boosted enemy by 3.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage a boosted enemy by 3.\n",
+        "name": "Nauzicaa Brigade"
+    },
+    "162311": {
+        "info": "Deploy, Melee: Damage an enemy by the number of units on its other row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Damage an enemy by the number of units on its other row.\n",
+        "name": "Alba Pikeman"
+    },
+    "162312": {
+        "info": "Deploy: Damage an enemy by 2. Increase the damage by 1 for each adjacent Soldier.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 2. Increase the damage by 1 for each adjacent Soldier.\n",
+        "name": "Alba Spearman"
+    },
+    "162313": {
+        "info": "Deploy: If you control an artifact, boost self by 3.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: If you control an artifact, boost self by 3.\n",
+        "name": "Combat Engineer"
+    },
+    "162314": {
+        "info": "Spying.\nDeploy: Boost an ally by 7.\n",
+        "infoRaw": "<keyword=spying>Spying</keyword>.\n<keyword=deploy>Deploy</keyword>: Boost an ally by 7.\n",
+        "name": "Emissary"
+    },
+    "162315": {
+        "info": "Create and play a bronze unit from your opponent's faction.\n",
+        "infoRaw": "<keyword=create>Create</keyword> and play a bronze unit from your opponent's faction.\n",
+        "name": "Imperial Diplomacy"
+    },
+    "162316": {
+        "info": "Deploy, Ranged: Swap the power of 2 allies.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Swap the power of 2 allies.\n",
+        "name": "Alchemist"
+    },
+    "162317": {
+        "info": "Whenever you Reveal a card, damage a random enemy by 1.\n",
+        "infoRaw": "Whenever you <keyword=reveal>Reveal</keyword> a card, damage a random enemy by 1.\n",
+        "name": "Mangonel"
+    },
+    "162318": {
+        "info": "Deploy: Boost an enemy by 2. If there are no enemy units, destroy self.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost an enemy by 2. If there are no enemy units, destroy self.\n",
+        "name": "Nilfgaardian Knight"
+    },
+    "162401": {
+        "info": "No ability.\n",
+        "infoRaw": "No ability.\n",
+        "name": "The Guardian"
+    },
+    "162402": {
+        "info": "Spying. Doomed.\nAfter 1 turn, on turn end, destroy this unit and the unit on its left.\n",
+        "infoRaw": "<keyword=spying>Spying</keyword>. <keyword=doomed>Doomed</keyword>.\nAfter 1 turn, on turn end, destroy this unit and the unit on its left.\n",
+        "name": "Cow Carcass"
+    },
+    "163101": {
+        "info": "Force an enemy unit to damage adjacent units by its own power.\n",
+        "infoRaw": "Force an enemy unit to damage adjacent units by its own power.\n",
+        "name": "Treason"
+    },
+    "163201": {
+        "info": "Create a unit from your opponent's starting deck, then play it.\n",
+        "infoRaw": "<keyword=create>Create</keyword> a unit from your opponent's starting deck, then play it.\n",
+        "name": "Bribery"
+    },
+    "200008": {
+        "info": "Zeal.\nOrder: Boost an ally by 3 and give it Zeal.\n",
+        "infoRaw": "<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Boost an ally by 3 and give it <keyword=zeal>Zeal</keyword>.\n",
+        "name": "Petri's Philter"
+    },
+    "200018": {
+        "info": "Banish a unit or an artifact.\n",
+        "infoRaw": "<keyword=banish>Banish</keyword> a unit or an artifact.\n",
+        "name": "Korathi Heatwave"
+    },
+    "200019": {
+        "info": "Play the lowest unit from your deck.\n",
+        "infoRaw": "Play the lowest unit from your deck.\n",
+        "name": "Marching Orders"
+    },
+    "200020": {
+        "info": "Play a bronze unit from your graveyard and give it Doomed.\n",
+        "infoRaw": "Play a bronze unit from your graveyard and give it <keyword=doomed>Doomed</keyword>.\n",
+        "name": "Necromancy"
+    },
+    "200022": {
+        "info": "Zeal.\nOrder: Play a unit from your deck whose Recruit Cost is less than or equal to Summoning Circle's Charge count, then remove all Charges.\nCharge: 0.\nEvery turn, on turn start, gain 1 Charge.\n",
+        "infoRaw": "<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Play a unit from your deck whose Recruit Cost is less than or equal to Summoning Circle's <keyword=charge>Charge</keyword> count, then remove all <keyword=charge>Charges</keyword>.\n<keyword=charge>Charge</keyword>: 0.\nEvery turn, on turn start, gain 1 <keyword=charge>Charge</keyword>.\n",
+        "name": "Summoning Circle"
+    },
+    "200023": {
+        "info": "Damage a unit by 3. If it was destroyed, damage its adjacent units by 3.\n",
+        "infoRaw": "Damage a unit by 3. If it was destroyed, damage its adjacent units by 3.\n",
+        "name": "Arachas Venom"
+    },
+    "200026": {
+        "info": "Deploy: Boost an allied unit by 1. If you control the highest unit, boost by 3 instead.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost an allied unit by 1. If you control the highest unit, boost by 3 instead.\n",
+        "name": "Wild Hunt Navigator"
+    },
+    "200028": {
+        "info": "Deploy, Melee: Destroy a damaged enemy.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Destroy a damaged enemy.\n",
+        "name": "Vabjorn"
+    },
+    "200030": {
+        "info": "Deploy, Melee: Damage an enemy by 4.\nDeploy, Ranged: Damage 4 enemies by 1.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Damage an enemy by 4.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Damage 4 enemies by 1.\n",
+        "name": "Milaen"
+    },
+    "200031": {
+        "info": "Deploy, Melee: Destroy an enemy with 8 or more power.\nDeploy, Ranged: Destroy a Witcher.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Destroy an enemy with 8 or more power.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Destroy a Witcher.\n",
+        "name": "Leo Bonhart"
+    },
+    "200032": {
+        "info": "Deploy: Boost an enemy by 3, then boost self by 3.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost an enemy by 3, then boost self by 3.\n",
+        "name": "Rainfarn of Attre"
+    },
+    "200033": {
+        "info": "Zeal.\nOrder, Ranged: Give 1 Charge to an allied unit.\nCooldown: 2.\n",
+        "infoRaw": "<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>, <keyword=ranged>Ranged</keyword>: Give 1 <keyword=charge>Charge</keyword> to an allied unit.\n<keyword=cooldown>Cooldown</keyword>: 2.\n",
+        "name": "Aretuza Adept"
+    },
+    "200036": {
+        "info": "Deploy, Melee, Bloodthirst 1: Destroy an enemy artifact.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>, <keyword=bloodthirst>Bloodthirst</keyword> 1: Destroy an enemy artifact.\n",
+        "name": "Drummond Warmonger"
+    },
+    "200037": {
+        "info": "Deploy: Destroy an adjacent allied unit and damage an enemy by its power.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Destroy an adjacent allied unit and damage an enemy by its power.\n",
+        "name": "Cyclops"
+    },
+    "200038": {
+        "info": "Thrive.\nDeploy: Damage a random enemy by 2. \nDeathwish: Repeat the Deploy ability.\n",
+        "infoRaw": "<keyword=thrive>Thrive</keyword>.\n<keyword=deploy>Deploy</keyword>: Damage a random enemy by 2. \n<keyword=deathwish>Deathwish</keyword>: Repeat the <keyword=deploy>Deploy</keyword> ability.\n",
+        "name": "Archespore"
+    },
+    "200039": {
+        "info": "Melee: Whenever an enemy is moved to the other row, damage it by 1.\nRanged: Whenever an ally is moved to the other row, boost it by 1.\n",
+        "infoRaw": "<keyword=melee>Melee</keyword>: Whenever an enemy is moved to the other row, damage it by 1.\n<keyword=ranged>Ranged</keyword>: Whenever an ally is moved to the other row, boost it by 1.\n",
+        "name": "Dol Blathanna Sentry"
+    },
+    "200040": {
+        "info": "Whenever an enemy on the opposite row takes damage, boost self by 1.\n",
+        "infoRaw": "Whenever an enemy on the opposite row takes damage, boost self by 1.\n",
+        "name": "An Craite Greatsword"
+    },
+    "200041": {
+        "info": "Immune.\nOrder: Damage an enemy by 2 for each Soldier on this row.\n",
+        "infoRaw": "<keyword=immune>Immune</keyword>.\n<keyword=order>Order</keyword>: Damage an enemy by 2 for each Soldier on this row.\n",
+        "name": "Hefty Helge"
+    },
+    "200042": {
+        "info": "Deploy: If this unit is already boosted, gain Resilience.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: If this unit is already boosted, gain <keyword=resilient>Resilience</keyword>.\n",
+        "name": "Mahakam Marauder"
+    },
+    "200043": {
+        "info": "Deploy: Spawn 3 of Harald's Pals and Summon them to your other allied row.\nOrder: Damage an ally by 1.\nCooldown: 1.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> 3 of Harald's Pals and <keyword=summon>Summon</keyword> them to your other allied row.\n<keyword=order>Order</keyword>: Damage an ally by 1.\n<keyword=cooldown>Cooldown</keyword>: 1.\n",
+        "name": "Harald Houndsnout"
+    },
+    "200044": {
+        "info": "Every turn, on turn end, boost self by 1 if this is the only card on this row.\n",
+        "infoRaw": "Every turn, on turn end, boost self by 1 if this is the only card on this row.\n",
+        "name": "Magne Division"
+    },
+    "200046": {
+        "info": "Deploy: Damage self by 4.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage self by 4.\n",
+        "name": "Tuirseach Veteran"
+    },
+    "200048": {
+        "info": "Deploy: Boost an ally by 1 for each of its Charges.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost an ally by 1 for each of its <keyword=charge>Charges</keyword>.\n",
+        "name": "Ban Ard Tutor"
+    },
+    "200049": {
+        "info": "Deploy: If you control a Soldier, destroy an enemy artifact.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: If you control a Soldier, destroy an enemy artifact.\n",
+        "name": "Battering Ram"
+    },
+    "200050": {
+        "info": "Deploy: Boost a Soldier ally and all copies of it by 2.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost a Soldier ally and all copies of it by 2.\n",
+        "name": "Vreemde"
+    },
+    "200052": {
+        "info": "Deathwish: Your opponent Summons the lowest unit from their deck on the opposite row.\n",
+        "infoRaw": "<keyword=deathwish>Deathwish</keyword>: Your opponent <keyword=summon>Summons</keyword> the lowest unit from their deck on the opposite row.\n",
+        "name": "Golyat"
+    },
+    "200053": {
+        "info": "Lock a unit and restore it to its base power.\n",
+        "infoRaw": "<keyword=lock>Lock</keyword> a unit and restore it to its base power.\n",
+        "name": "Artefact Compression"
+    },
+    "200055": {
+        "info": "Order: Trigger an ally's Deathwish ability.\nOn round start, refresh this ability.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Trigger an ally's <keyword=deathwish>Deathwish</keyword> ability.\nOn round start, refresh this ability.\n",
+        "name": "Unseen Elder"
+    },
+    "200056": {
+        "info": "Deploy, Ranged: Create any special card.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: <keyword=create>Create</keyword> any special card.\n",
+        "name": "Aguara: True Form"
+    },
+    "200058": {
+        "info": "Create and play a gold unit.\n",
+        "infoRaw": "<keyword=create>Create</keyword> and play a gold unit.\n",
+        "name": "Uma's Curse"
+    },
+    "200062": {
+        "info": "Deploy, Melee: Lock a unit.\nDeploy, Ranged: Remove a unit's Lock.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: <keyword=lock>Lock</keyword> a unit.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Remove a unit's <keyword=lock>Lock</keyword>.\n",
+        "name": "Aguara"
+    },
+    "200071": {
+        "info": "Deploy: Set the power of the highest unit in your opponent's hand to 1.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Set the power of the highest unit in your opponent's hand to 1.\n",
+        "name": "Shilard Fitz-Oesterlen"
+    },
+    "200073": {
+        "info": "Deploy: If you control the highest unit, damage an enemy by 5.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: If you control the highest unit, damage an enemy by 5.\n",
+        "name": "Adda: Striga"
+    },
+    "200078": {
+        "info": "Boost a unit to 12 power. If it's not a Witcher, damage it by 6 first.\n",
+        "infoRaw": "Boost a unit to 12 power. If it's not a Witcher, damage it by 6 first.\n",
+        "name": "Trial of the Grasses"
+    },
+    "200079": {
+        "info": "Play a unit from the opponent's graveyard and give it Doomed.\n",
+        "infoRaw": "Play a unit from the opponent's graveyard and give it <keyword=doomed>Doomed</keyword>.\n",
+        "name": "Hanmarvyn's Blue Dream"
+    },
+    "200080": {
+        "info": "Melee: Whenever this unit receives a boost, boost it by an additional 2.\n",
+        "infoRaw": "<keyword=melee>Melee</keyword>: Whenever this unit receives a boost, boost it by an additional 2.\n",
+        "name": "Xavier Moran"
+    },
+    "200081": {
+        "info": "Deploy, Ranged: Heal an ally by 2, then boost it by 2.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: <keyword=heal>Heal</keyword> an ally by 2, then boost it by 2.\n",
+        "name": "Heymaey Herbalist"
+    },
+    "200083": {
+        "info": "Deploy: Draw a card of your choice from your deck, then Discard a random card.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Draw a card of your choice from your deck, then <keyword=discard>Discard</keyword> a random card.\n",
+        "name": "Iris' Companions"
+    },
+    "200087": {
+        "info": "Deploy: Lock a unit.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: <keyword=lock>Lock</keyword> a unit.\n",
+        "name": "Dorregaray of Vole"
+    },
+    "200088": {
+        "info": "Deploy: Boost self by the amount of damage you dealt to enemies on this turn.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost self by the amount of damage you dealt to enemies on this turn.\n",
+        "name": "Hubert Rejk"
+    },
+    "200089": {
+        "info": "Deploy: Move all units from one row to the other row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Move all units from one row to the other row.\n",
+        "name": "Nivellen"
+    },
+    "200091": {
+        "info": "Ranged: After 2 turns, each player draws a unit and sets its power to 1\n",
+        "infoRaw": "<keyword=ranged>Ranged</keyword>: After 2 turns, each player draws a unit and sets its power to 1\n",
+        "name": "Stregobor"
+    },
+    "200098": {
+        "info": "Zeal.\nOrder, Melee: Set the power of a non-boosted enemy to 1.\n",
+        "infoRaw": "<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>, <keyword=melee>Melee</keyword>: Set the power of a non-boosted enemy to 1.\n",
+        "name": "Vincent Meis"
+    },
+    "200102": {
+        "info": "Deploy: Swap this unit's power with a damaged unit's power.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Swap this unit's power with a damaged unit's power.\n",
+        "name": "Hym"
+    },
+    "200103": {
+        "info": "Order: Boost Olaf by twice the amount he is damaged.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Boost Olaf by twice the amount he is damaged.\n",
+        "name": "Olaf"
+    },
+    "200104": {
+        "info": "Deploy: Damage an enemy by half of its current power.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by half of its current power.\n",
+        "name": "Ulfhedinn"
+    },
+    "200105": {
+        "info": "Deploy: Damage an enemy by 1 three times.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 1 three times.\n",
+        "name": "Dimun Warship"
+    },
+    "200112": {
+        "info": "Deploy: Boost a Deathwish ally by 3.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost a <keyword=deathwish>Deathwish</keyword> ally by 3.\n",
+        "name": "Siren"
+    },
+    "200114": {
+        "info": "Immune. Thrive.\n",
+        "infoRaw": "<keyword=immune>Immune</keyword>. <keyword=thrive>Thrive</keyword>.\n",
+        "name": "Alpha Werewolf"
+    },
+    "200115": {
+        "info": "Damage a unit by 6. Decrease the damage by 1 for each unit adjacent to it.\n",
+        "infoRaw": "Damage a unit by 6. Decrease the damage by 1 for each unit adjacent to it.\n",
+        "name": "Assassination"
+    },
+    "200118": {
+        "info": "Melee: On round end, shuffle this unit into your opponent's deck.\n",
+        "infoRaw": "<keyword=melee>Melee</keyword>: On round end, shuffle this unit into your opponent's deck.\n",
+        "name": "Infiltrator"
+    },
+    "200124": {
+        "info": "Deploy: Reveal the top card from your opponent's deck and Banish it.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: <keyword=reveal>Reveal</keyword> the top card from your opponent's deck and <keyword=banish>Banish</keyword> it.\n",
+        "name": "Viper Witcher"
+    },
+    "200135": {
+        "info": "Zeal.\nOrder: Destroy an allied artifact and damage a unit by 2. \nCooldown: 2.\n",
+        "infoRaw": "<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Destroy an allied artifact and damage a unit by 2. \n<keyword=cooldown>Cooldown</keyword>: 2.\n",
+        "name": "Pyrotechnician"
+    },
+    "200136": {
+        "info": "Deploy, Ranged: Reveal a random card from your deck. If it's a special card, boost self by 2.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: <keyword=reveal>Reveal</keyword> a random card from your deck. If it's a special card, boost self by 2.\n",
+        "name": "Farseer"
+    },
+    "200138": {
+        "info": "Whenever you play a special card, boost self by 2.\n",
+        "infoRaw": "Whenever you play a special card, boost self by 2.\n",
+        "name": "Sage"
+    },
+    "200139": {
+        "info": "Deploy: Damage a non-Scoia'tael enemy unit by 3.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage a non-Scoia'tael enemy unit by 3.\n",
+        "name": "Panther"
+    },
+    "200144": {
+        "info": "Deploy: Boost a Beast ally by 2. Increase the boost by 1 for every Beast in your graveyard.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost a Beast ally by 2. Increase the boost by 1 for every Beast in your graveyard.\n",
+        "name": "Tuirseach Bearmaster"
+    },
+    "200145": {
+        "info": "Deploy: Damage a unit by 1 for every Ship in your hand.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage a unit by 1 for every Ship in your hand.\n",
+        "name": "Dimun Corsair"
+    },
+    "200146": {
+        "info": "Deploy, Melee: Damage a unit by 1, then boost the same unit by 2.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Damage a unit by 1, then boost the same unit by 2.\n",
+        "name": "Dimun Smuggler"
+    },
+    "200147": {
+        "info": "Every turn, on turn end, Heal all damaged allies on this row by 1.\n",
+        "infoRaw": "Every turn, on turn end, <keyword=heal>Heal</keyword> all damaged allies on this row by 1.\n",
+        "name": "Heymaey Flaminica"
+    },
+    "200149": {
+        "info": "Whenever an adjacent unit takes damage, boost self by 1.\n",
+        "infoRaw": "Whenever an adjacent unit takes damage, boost self by 1.\n",
+        "name": "Heymaey Protector"
+    },
+    "200154": {
+        "info": "Play a unit from your deck.\n",
+        "infoRaw": "Play a unit from your deck.\n",
+        "name": "Royal Decree"
+    },
+    "200159": {
+        "info": "Order: Discard a card, then draw a card.\nOn round start, refresh this ability.\nWhenever you Discard a card, damage a random enemy by 1.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: <keyword=discard>Discard</keyword> a card, then draw a card.\nOn round start, refresh this ability.\nWhenever you <keyword=discard>Discard</keyword> a card, damage a random enemy by 1.\n",
+        "name": "Bran Tuirseach"
+    },
+    "200160": {
+        "info": "Order: Damage a unit by 1. \nCooldown: 2.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Damage a unit by 1. \n<keyword=cooldown>Cooldown</keyword>: 2.\n",
+        "name": "Crach an Craite"
+    },
+    "200161": {
+        "info": "Order: Split 8 damage randomly between all enemies.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Split 8 damage randomly between all enemies.\n",
+        "name": "Harald the Cripple"
+    },
+    "200162": {
+        "info": "Order: Move a card from the battlefield to your hand, then play a card.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Move a card from the battlefield to your hand, then play a card.\n",
+        "name": "Emhyr var Emreis"
+    },
+    "200163": {
+        "info": "Order: Reveal a random card from your opponent's deck. If it's bronze, boost an ally by 3. If gold, boost by 4 instead.\nOn round start, refresh this ability.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: <keyword=reveal>Reveal</keyword> a random card from your opponent's deck. If it's bronze, boost an ally by 3. If gold, boost by 4 instead.\nOn round start, refresh this ability.\n",
+        "name": "Morvran Voorhis"
+    },
+    "200164": {
+        "info": "Order: Look at the top 3 cards from your deck and play one.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Look at the top 3 cards from your deck and play one.\n",
+        "name": "Jan Calveit"
+    },
+    "200165": {
+        "info": "Order: Play a special card from your graveyard.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Play a special card from your graveyard.\n",
+        "name": "Francesca Findabair"
+    },
+    "200166": {
+        "info": "Order: Damage a unit by 1.\nCharge: 3.\nOn round start, refresh Eithné's Charge count.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Damage a unit by 1.\n<keyword=charge>Charge</keyword>: 3.\nOn round start, refresh Eithné's <keyword=charge>Charge</keyword> count.\n",
+        "name": "Eithné"
+    },
+    "200167": {
+        "info": "Order: Move a unit to the other row. If it's an enemy, damage it by 2",
+        "infoRaw": "<keyword=order>Order</keyword>: Move a unit to the other row. If it's an enemy, damage it by 2",
+        "name": "Brouver Hoog"
+    },
+    "200168": {
+        "info": "Order: Boost an ally by 1 and give it Zeal.\nCharge: 3.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Boost an ally by 1 and give it <keyword=zeal>Zeal</keyword>.\n<keyword=charge>Charge</keyword>: 3.\n",
+        "name": "King Foltest"
+    },
+    "200170": {
+        "info": "Order: Play a copy of an allied unit on the battlefield from your deck, boost it by 4, and give it Zeal.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Play a copy of an allied unit on the battlefield from your deck, boost it by 4, and give it <keyword=zeal>Zeal</keyword>.\n",
+        "name": "King Henselt"
+    },
+    "200171": {
+        "info": "Whenever this unit receives a boost, damage a random enemy by 1.\n",
+        "infoRaw": "Whenever this unit receives a boost, damage a random enemy by 1.\n",
+        "name": "Tridam Infantry"
+    },
+    "200177": {
+        "info": "If this unit is in the graveyard, Summon it to a random allied row whenever you play a unit from your graveyard.\n",
+        "infoRaw": "If this unit is in the graveyard, <keyword=summon>Summon</keyword> it to a random allied row whenever you play a unit from your graveyard.\n",
+        "name": "Cerys an Craite"
+    },
+    "200209": {
+        "info": "Order: Damage an enemy by 2.\nCooldown: 4.\nIf you have an Elf, Dwarf, or Dryad in your hand, decrease Cooldown by 1 (limited once per category).\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Damage an enemy by 2.\n<keyword=cooldown>Cooldown</keyword>: 4.\nIf you have an Elf, Dwarf, or Dryad in your hand, decrease <keyword=cooldown>Cooldown</keyword> by 1 (limited once per category).\n",
+        "name": "Saskia"
+    },
+    "200212": {
+        "info": "Deploy: Damage an undamaged enemy by 4.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an undamaged enemy by 4.\n",
+        "name": "Skjall"
+    },
+    "200218": {
+        "info": "Deploy, Melee: Boost self by 2 for every unit more your opponent has on the battlefield.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Boost self by 2 for every unit more your opponent has on the battlefield.\n",
+        "name": "Jotunn"
+    },
+    "200220": {
+        "info": "Deploy, Ranged: Play an Organic card from your deck.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Play an Organic card from your deck.\n",
+        "name": "Whispess: Tribute"
+    },
+    "200221": {
+        "info": "Trigger all allies' Deathwish abilities.\n",
+        "infoRaw": "Trigger all allies' <keyword=deathwish>Deathwish</keyword> abilities.\n",
+        "name": "Ritual Sacrifice"
+    },
+    "200222": {
+        "info": "Deploy, Melee: Consume a unit in your hand and draw a card.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: <keyword=consume>Consume</keyword> a unit in your hand and draw a card.\n",
+        "name": "Weavess: Incantation"
+    },
+    "200223": {
+        "info": "Reset a unit.\n",
+        "infoRaw": "<keyword=reset>Reset</keyword> a unit.\n",
+        "name": "Mandrake"
+    },
+    "200224": {
+        "info": "Trigger a bronze unit's Deathwish ability.\n",
+        "infoRaw": "Trigger a bronze unit's <keyword=deathwish>Deathwish</keyword> ability.\n",
+        "name": "Crow's Eye"
+    },
+    "200225": {
+        "info": "Seize an enemy with 5 or less power and Lock it.\n",
+        "infoRaw": "<keyword=seize>Seize</keyword> an enemy with 5 or less power and <keyword=lock>Lock</keyword> it.\n",
+        "name": "Vigo's Muzzle"
+    },
+    "200226": {
+        "info": "Damage all enemies with even power by 2, or damage all enemies with odd power by 2.\n",
+        "infoRaw": "Damage all enemies with even power by 2, or damage all enemies with odd power by 2.\n",
+        "name": "Wolfsbane"
+    },
+    "200228": {
+        "info": "Ambush: Destroy the next unit played by your opponent before it triggers any abilities.\n",
+        "infoRaw": "<keyword=ambush>Ambush</keyword>: Destroy the next unit played by your opponent before it triggers any abilities.\n",
+        "name": "Pitfall Trap"
+    },
+    "200233": {
+        "info": "Deploy: Damage an enemy by 2 for each adjacent Beast.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 2 for each adjacent Beast.\n",
+        "name": "Cockatrice"
+    },
+    "200234": {
+        "info": "Deploy: Boost self by 4.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost self by 4.\n",
+        "name": "Poor Fucking Infantry"
+    },
+    "200235": {
+        "info": "Deploy: Destroy an enemy with Resilience.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Destroy an enemy with <keyword=resilient>Resilience</keyword>.\n",
+        "name": "Lambert: Swordmaster"
+    },
+    "200236": {
+        "info": "Melee: Every turn, on turn end, boost self by 1.\n",
+        "infoRaw": "<keyword=melee>Melee</keyword>: Every turn, on turn end, boost self by 1.\n",
+        "name": "Eskel: Pathfinder"
+    },
+    "200237": {
+        "info": "Deploy: Boost all Witcher allies in hand, deck, and on the battlefield by 1.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost all Witcher allies in hand, deck, and on the battlefield by 1.\n",
+        "name": "Vesemir: Mentor"
+    },
+    "200293": {
+        "info": "Deploy, Ranged: Boost a Dwarf in your hand by 2.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Boost a Dwarf in your hand by 2.\n",
+        "name": "Dwarven Agitator"
+    },
+    "200294": {
+        "info": "Deploy: Boost an ally by 2.\nWhenever you Reveal this card, boost a random ally by 2.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost an ally by 2.\nWhenever you <keyword=reveal>Reveal</keyword> this card, boost a random ally by 2.\n",
+        "name": "Standard Bearer"
+    },
+    "200295": {
+        "info": "Deathwish: Damage a random enemy by 4.\n",
+        "infoRaw": "<keyword=deathwish>Deathwish</keyword>: Damage a random enemy by 4.\n",
+        "name": "Rotfiend"
+    },
+    "200296": {
+        "info": "Deploy, Melee: Lock an enemy unit.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: <keyword=lock>Lock</keyword> an enemy unit.\n",
+        "name": "Alba Armored Cavalry"
+    },
+    "200299": {
+        "info": "Order: Boost an ally by 1 and give it Zeal.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Boost an ally by 1 and give it <keyword=zeal>Zeal</keyword>.\n",
+        "name": "Temerian Drummer"
+    },
+    "200300": {
+        "info": "Move an enemy to the other row and damage it by the number of units on that row.\n",
+        "infoRaw": "Move an enemy to the other row and damage it by the number of units on that row.\n",
+        "name": "Trophy Catch"
+    },
+    "200301": {
+        "info": "Look at 2 random gold cards from your deck, then play one and place the other on top.\n",
+        "infoRaw": "Look at 2 random gold cards from your deck, then play one and place the other on top.\n",
+        "name": "Naglfar"
+    },
+    "200320": {
+        "info": "No ability.\n",
+        "infoRaw": "No ability.\n",
+        "name": "Chort"
+    },
+    "200502": {
+        "info": "Every turn, on turn end, if you have less units than your opponent, boost self by 1.\n",
+        "infoRaw": "Every turn, on turn end, if you have less units than your opponent, boost self by 1.\n",
+        "name": "Ice Troll"
+    },
+    "200518": {
+        "info": "Deploy: If your Leader's ability was used this turn, damage an enemy by 3.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: If your Leader's ability was used this turn, damage an enemy by 3.\n",
+        "name": "Venendal Elite"
+    },
+    "200519": {
+        "info": "Boost a unit by 4 and remove its Lock.\n",
+        "infoRaw": "Boost a unit by 4 and remove its <keyword=lock>Lock</keyword>.\n",
+        "name": "Mahakam Ale"
+    },
+    "200520": {
+        "info": "Order: Play a bronze artifact from your graveyard.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Play a bronze artifact from your graveyard.\n",
+        "name": "Éibhear Hattori"
+    },
+    "200523": {
+        "info": "Deploy, Melee: Spawn 2 Cows on both sides of this unit.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: <keyword=spawn>Spawn</keyword> 2 Cows on both sides of this unit.\n",
+        "name": "Germain Piquant"
+    },
+    "200528": {
+        "info": "Deploy: Damage an enemy by 3, then damage self by 2.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 3, then damage self by 2.\n",
+        "name": "Heymaey Spearmaiden"
+    },
+    "200529": {
+        "info": "Deploy: Boost self by 5.\nWhenever you play a Soldier, Summon this unit from your graveyard to a random allied row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost self by 5.\nWhenever you play a Soldier, <keyword=summon>Summon</keyword> this unit from your graveyard to a random allied row.\n",
+        "name": "Ronvid the Incessant"
+    },
+    "200530": {
+        "info": "Zeal.\nOrder: Damage a unit by 2. \nCharge: 3.\n",
+        "infoRaw": "<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Damage a unit by 2. \n<keyword=charge>Charge</keyword>: 3.\n",
+        "name": "Tainted Ale"
+    },
+    "200532": {
+        "info": "Zeal.\nOrder: Boost a unit by 3. \nCooldown: 2.\n",
+        "infoRaw": "<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Boost a unit by 3. \n<keyword=cooldown>Cooldown</keyword>: 2.\n",
+        "name": "Ale of the Ancestors"
+    },
+    "200534": {
+        "info": "Melee: Whenever an ally is destroyed during your turn, boost self by 2.\n",
+        "infoRaw": "<keyword=melee>Melee</keyword>: Whenever an ally is destroyed during your turn, boost self by 2.\n",
+        "name": "She-Troll of Vergen"
+    },
+    "200535": {
+        "info": "Order, Melee: Damage an enemy by 1.\nCooldown: 2.\nWhenever you play an Elf, decrease Cooldown by 1.\n",
+        "infoRaw": "<keyword=order>Order</keyword>, <keyword=melee>Melee</keyword>: Damage an enemy by 1.\n<keyword=cooldown>Cooldown</keyword>: 2.\nWhenever you play an Elf, decrease <keyword=cooldown>Cooldown</keyword> by 1.\n",
+        "name": "Elven Swordmaster"
+    },
+    "200539": {
+        "info": "Order: Consume an allied unit on this row.\nCooldown: 1.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: <keyword=consume>Consume</keyword> an allied unit on this row.\n<keyword=cooldown>Cooldown</keyword>: 1.\n",
+        "name": "Slyzard"
+    },
+    "200540": {
+        "info": "Order: Damage an enemy by 4.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Damage an enemy by 4.\n",
+        "name": "Aedirnian Mauler"
+    },
+    "201523": {
+        "info": "Deploy: Restore all units on a row to their base power.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Restore all units on a row to their base power.\n",
+        "name": "Geralt: Yrden"
+    },
+    "201559": {
+        "info": "Deploy, Melee:  If there is a Dwarf on this row, Summon a copy of this unit from your deck to this row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>:  If there is a Dwarf on this row, <keyword=summon>Summon</keyword> a copy of this unit from your deck to this row.\n",
+        "name": "Mahakam Volunteers"
+    },
+    "201574": {
+        "info": "Deathwish: Damage a random enemy unit by 2.\n",
+        "infoRaw": "<keyword=deathwish>Deathwish</keyword>: Damage a random enemy unit by 2.\n",
+        "name": "Harald's Pal"
+    },
+    "201576": {
+        "info": "Doomed.\n",
+        "infoRaw": "<keyword=doomed>Doomed</keyword>.\n",
+        "name": "Cow"
+    },
+    "201578": {
+        "info": "Deploy, Melee: Split 4 damage randomly between all units.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Split 4 damage randomly between all units.\n",
+        "name": "An Craite Marauder"
+    },
+    "201579": {
+        "info": "On round start, if Phoenix is in your graveyard, Banish it, then Spawn Phoenix Hatchling and Summon it to a random allied row.\n",
+        "infoRaw": "On round start, if Phoenix is in your graveyard, <keyword=banish>Banish</keyword> it, then <keyword=spawn>Spawn</keyword> Phoenix Hatchling and <keyword=summon>Summon</keyword> it to a random allied row.\n",
+        "name": "Phoenix"
+    },
+    "201580": {
+        "info": "On game start, disable the enemy Leader for the duration of the battle.\n",
+        "infoRaw": "On game start, disable the enemy Leader for the duration of the battle.\n",
+        "name": "Usurper"
+    },
+    "201581": {
+        "info": "Create and play a bronze Skellige card.\n",
+        "infoRaw": "<keyword=create>Create</keyword> and play a bronze Skellige card.\n",
+        "name": "Stribog Runestone"
+    },
+    "201582": {
+        "info": "Create and play a bronze Northern Realms card.\n",
+        "infoRaw": "<keyword=create>Create</keyword> and play a bronze Northern Realms card.\n",
+        "name": "Zoria Runestone"
+    },
+    "201583": {
+        "info": "Create and play a bronze Nilfgaard card.\n",
+        "infoRaw": "<keyword=create>Create</keyword> and play a bronze Nilfgaard card.\n",
+        "name": "Dazhbog Runestone"
+    },
+    "201584": {
+        "info": "Create and play a bronze Monster faction card.\n",
+        "infoRaw": "<keyword=create>Create</keyword> and play a bronze Monster faction card.\n",
+        "name": "Devana Runestone"
+    },
+    "201585": {
+        "info": "Create and play a bronze Scoia'tael card.\n",
+        "infoRaw": "<keyword=create>Create</keyword> and play a bronze Scoia'tael card.\n",
+        "name": "Morana Runestone"
+    },
+    "201587": {
+        "info": "Destroy an allied unit, then Spawn and play a base copy of it.\n",
+        "infoRaw": "Destroy an allied unit, then <keyword=spawn>Spawn</keyword> and play a base copy of it.\n",
+        "name": "Whispering Hillock"
+    },
+    "201589": {
+        "info": "Order: Boost all units in your hand by 1.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Boost all units in your hand by 1.\n",
+        "name": "Filavandrel aén Fidháil"
+    },
+    "201595": {
+        "info": "Order: Damage a unit by 8.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Damage a unit by 8.\n",
+        "name": "Princess Adda"
+    },
+    "201597": {
+        "info": "Order: Play a Warrior from your graveyard.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Play a Warrior from your graveyard.\n",
+        "name": "Eist Tuirseach"
+    },
+    "201598": {
+        "info": "Boost all allies by 1.\n",
+        "infoRaw": "Boost all allies by 1.\n",
+        "name": "Bone Talisman"
+    },
+    "201599": {
+        "info": "Thrive.\nDeploy: Damage all enemy units on the opposite row by 1.\nDeathwish: Repeat the Deploy ability.\n",
+        "infoRaw": "<keyword=thrive>Thrive</keyword>.\n<keyword=deploy>Deploy</keyword>: Damage all enemy units on the opposite row by 1.\n<keyword=deathwish>Deathwish</keyword>: Repeat the <keyword=deploy>Deploy</keyword> ability.\n",
+        "name": "Werecat"
+    },
+    "201600": {
+        "info": "Immune.\n",
+        "infoRaw": "<keyword=immune>Immune</keyword>.\n",
+        "name": "Werewolf"
+    },
+    "201601": {
+        "info": "Choose any unit or artifact on the battlefield and place it at the top of its owner's deck.\n",
+        "infoRaw": "Choose any unit or artifact on the battlefield and place it at the top of its owner's deck.\n",
+        "name": "Yennefer's Invocation"
+    },
+    "201603": {
+        "info": "Deploy: Transform into a copy of another unit on the battlefield without changing power.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Transform into a copy of another unit on the battlefield without changing power.\n",
+        "name": "Letho: Kingslayer"
+    },
+    "201606": {
+        "info": "Deploy: Damage all other units by 1.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage all other units by 1.\n",
+        "name": "Forktail"
+    },
+    "201609": {
+        "info": "Deploy: If there are 4 or more units on the opposite row, Seize the lowest enemy from that row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: If there are 4 or more units on the opposite row, <keyword=seize>Seize</keyword> the lowest enemy from that row.\n",
+        "name": "Slave Hunter"
+    },
+    "201610": {
+        "info": "Deploy: Transform an allied unit into Slave Infantry.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Transform an allied unit into Slave Infantry.\n",
+        "name": "Slave Infantry"
+    },
+    "201611": {
+        "info": "If you have 4 or more Traps in your starting deck, play 2 of them at random.\n",
+        "infoRaw": "If you have 4 or more Traps in your starting deck, play 2 of them at random.\n",
+        "name": "Iorveth's Gambit"
+    },
+    "201612": {
+        "info": "Deploy: Damage an enemy by 2. Increase damage by 1 for each Locked unit.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 2. Increase damage by 1 for each <keyword=lock>Locked</keyword> unit.\n",
+        "name": "Slave Driver"
+    },
+    "201613": {
+        "info": "Order: Damage an enemy by 1. \nCharge: 5.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Damage an enemy by 1. \n<keyword=charge>Charge</keyword>: 5.\n",
+        "name": "Saesenthessis: Blaze"
+    },
+    "201615": {
+        "info": "Look at a random Dwarf, Dryad, and Elf from your deck, then play one.\n",
+        "infoRaw": "Look at a random Dwarf, Dryad, and Elf from your deck, then play one.\n",
+        "name": "Isengrim's Council"
+    },
+    "201616": {
+        "info": "Order: Swap this unit's power with an enemy's power.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Swap this unit's power with an enemy's power.\n",
+        "name": "Master of Disguise"
+    },
+    "201617": {
+        "info": "Deploy: Reveal a random unit in both decks. If yours has higher power, boost self by 2.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: <keyword=reveal>Reveal</keyword> a random unit in both decks. If yours has higher power, boost self by 2.\n",
+        "name": "Recruit"
+    },
+    "201618": {
+        "info": "Order, Melee: Duel an enemy unit.\n",
+        "infoRaw": "<keyword=order>Order</keyword>, <keyword=melee>Melee</keyword>: <keyword=duel>Duel</keyword> an enemy unit.\n",
+        "name": "Seltkirk of Gulet"
+    },
+    "201619": {
+        "info": "Boost a bronze Soldier by 2 and repeat its Deploy ability.\n",
+        "infoRaw": "Boost a bronze Soldier by 2 and repeat its <keyword=deploy>Deploy</keyword> ability.\n",
+        "name": "Ointment"
+    },
+    "201620": {
+        "info": "Order, Melee: Damage a unit by 1.\nCooldown: 1.\nIf you control Vandergrift's Blade, damage a unit by 2 instead.\n",
+        "infoRaw": "<keyword=order>Order</keyword>, <keyword=melee>Melee</keyword>: Damage a unit by 1.\n<keyword=cooldown>Cooldown</keyword>: 1.\nIf you control Vandergrift's Blade, damage a unit by 2 instead.\n",
+        "name": "Vandergrift"
+    },
+    "201621": {
+        "info": "Order: Damage a unit by Kiyan's Charge count.\nCharge: 1.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Damage a unit by Kiyan's <keyword=charge>Charge</keyword> count.\n<keyword=charge>Charge</keyword>: 1.\n",
+        "name": "Kiyan"
+    },
+    "201622": {
+        "info": "Deploy: If played from the deck, boost self by 4.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: If played from the deck, boost self by 4.\n",
+        "name": "Kaedweni Knight"
+    },
+    "201623": {
+        "info": "Deploy, Melee: Boost self by 1 for every damaged unit.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Boost self by 1 for every damaged unit.\n",
+        "name": "Giant Boar"
+    },
+    "201624": {
+        "info": "Order: Damage a unit by 1. If it was destroyed, Spawn a base copy of Kaedweni Revenant and Summon it to this row.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Damage a unit by 1. If it was destroyed, <keyword=spawn>Spawn</keyword> a base copy of Kaedweni Revenant and <keyword=summon>Summon</keyword> it to this row.\n",
+        "name": "Kaedweni Revenant"
+    },
+    "201625": {
+        "info": "Deploy: Transform an allied unit that is not a Cursed Knight into a Cursed Knight without changing its power.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Transform an allied unit that is not a Cursed Knight into a Cursed Knight without changing its power.\n",
+        "name": "Cursed Knight"
+    },
+    "201626": {
+        "info": "On turn start, if this is the only unit in your graveyard, Summon it to a random allied row.\n",
+        "infoRaw": "On turn start, if this is the only unit in your graveyard, <keyword=summon>Summon</keyword> it to a random allied row.\n",
+        "name": "Ciri: Nova"
+    },
+    "201627": {
+        "info": "Doomed.\nIf your starting deck has no duplicates, send Shupe on an adventure.\n",
+        "infoRaw": "<keyword=doomed>Doomed</keyword>.\nIf your starting deck has no duplicates, send Shupe on an adventure.\n",
+        "name": "Shupe's Day Off"
+    },
+    "201628": {
+        "info": "Damage an enemy by 1 for every Specter ally.\n",
+        "infoRaw": "Damage an enemy by 1 for every Specter ally.\n",
+        "name": "Forbidden Magic"
+    },
+    "201630": {
+        "info": "Deploy: Damage an enemy by 3.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 3.\n",
+        "name": "Damned Sorceress"
+    },
+    "201631": {
+        "info": "Deploy: Choose a unit in your hand, then boost self by the total number of units in your hand which have the same primary category as that unit.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Choose a unit in your hand, then boost self by the total number of units in your hand which have the same primary category as that unit.\n",
+        "name": "Doppler"
+    },
+    "201632": {
+        "info": "Zeal.\nOrder: Damage an enemy by 1.\nCooldown: 1.\nWhenever Sihil destroys an enemy, increase Sihil's Order damage by 1 until moved from the battlefield.\n",
+        "infoRaw": "<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Damage an enemy by 1.\n<keyword=cooldown>Cooldown</keyword>: 1.\nWhenever Sihil destroys an enemy, increase Sihil's <keyword=order>Order</keyword> damage by 1 until moved from the battlefield.\n",
+        "name": "Sihil"
+    },
+    "201633": {
+        "info": "Zeal.\nOrder: Damage an enemy by Bloody Flail's Charge count, then remove all Charges.\nCharge: 1.\nWhenever an allied unit gains Charges, gain the same amount.\n",
+        "infoRaw": "<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Damage an enemy by Bloody Flail's <keyword=charge>Charge</keyword> count, then remove all <keyword=charge>Charges</keyword>.\n<keyword=charge>Charge</keyword>: 1.\nWhenever an allied unit gains <keyword=charge>Charges</keyword>, gain the same amount.\n",
+        "name": "Bloody Flail"
+    },
+    "201634": {
+        "info": "Damage a unit by 8.\n",
+        "infoRaw": "Damage a unit by 8.\n",
+        "name": "Bekker's Rockslide"
+    },
+    "201635": {
+        "info": "Destroy the unit with the highest base power.\n",
+        "infoRaw": "Destroy the unit with the highest base power.\n",
+        "name": "Glorious Hunt"
+    },
+    "201636": {
+        "info": "Deploy: Damage an enemy by 1 for each artifact you control.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 1 for each artifact you control.\n",
+        "name": "Half-Elf Hunter"
+    },
+    "201637": {
+        "info": "Apply this row effect to an enemy row:\nAfter 3 turns, on turn start, explode and damage all units on this row by 3.\n",
+        "infoRaw": "Apply this row effect to an enemy row:\nAfter 3 turns, on turn start, explode and damage all units on this row by 3.\n",
+        "name": "Dragon's Dream"
+    },
+    "201638": {
+        "info": "Whenever an allied Trap is triggered, boost self by 2.\n",
+        "infoRaw": "Whenever an allied Trap is triggered, boost self by 2.\n",
+        "name": "Elven Scout"
+    },
+    "201639": {
+        "info": "Boost a unit by 10.\n",
+        "infoRaw": "Boost a unit by 10.\n",
+        "name": "Garrison"
+    },
+    "201644": {
+        "info": "Order: Heal an ally by 1.\nCharge: 1.\nGain 1 Charge whenever an adjacent unit takes damage.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: <keyword=heal>Heal</keyword> an ally by 1.\n<keyword=charge>Charge</keyword>: 1.\nGain 1 <keyword=charge>Charge</keyword> whenever an adjacent unit takes damage.\n",
+        "name": "Yoana"
+    },
+    "201645": {
+        "info": "Ambush: After 3 turns, on turn start, damage all enemy units on the row with the most units by 2. \nZeal.\nOrder: Flip over and damage all units on a row by 1.\n",
+        "infoRaw": "<keyword=ambush>Ambush</keyword>: After 3 turns, on turn start, damage all enemy units on the row with the most units by 2. \n<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Flip over and damage all units on a row by 1.\n",
+        "name": "Crushing Trap"
+    },
+    "201646": {
+        "info": "Deploy, Ranged: Move up to 3 cards from your deck to your graveyard.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Move up to 3 cards from your deck to your graveyard.\n",
+        "name": "Derran"
+    },
+    "201647": {
+        "info": "Damage an enemy by 4 and move it to the other row.\n",
+        "infoRaw": "Damage an enemy by 4 and move it to the other row.\n",
+        "name": "Rock Barrage"
+    },
+    "201648": {
+        "info": "Whenever you play a Soldier on this row, boost it by 2.\n",
+        "infoRaw": "Whenever you play a Soldier on this row, boost it by 2.\n",
+        "name": "Vandergrift's Blade"
+    },
+    "201650": {
+        "info": "Damage each non-Specter unit by 1. If any were destroyed, repeat this ability once.\n",
+        "infoRaw": "Damage each non-Specter unit by 1. If any were destroyed, repeat this ability once.\n",
+        "name": "Sabrina's Inferno"
+    },
+    "201653": {
+        "info": "Ambush: When your opponent passes, boost adjacent units by 4.\n",
+        "infoRaw": "<keyword=ambush>Ambush</keyword>: When your opponent passes, boost adjacent units by 4.\n",
+        "name": "Mahakam Horn"
+    },
+    "201656": {
+        "info": "Zeal.\nOrder: Damage a unit by 1.  \nCooldown: 1.\n",
+        "infoRaw": "<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Damage a unit by 1.  \n<keyword=cooldown>Cooldown</keyword>: 1.\n",
+        "name": "Mastercrafted Spear"
+    },
+    "201657": {
+        "info": "Damage an enemy by 6, or boost an ally by 6.\n",
+        "infoRaw": "Damage an enemy by 6, or boost an ally by 6.\n",
+        "name": "Parasite"
+    },
+    "201659": {
+        "info": "Play a bronze Machine from your graveyard.\n",
+        "infoRaw": "Play a bronze Machine from your graveyard.\n",
+        "name": "Winch"
+    },
+    "201660": {
+        "info": "Deathwish: On turn end, Summon this unit from your graveyard to a random allied row.\n",
+        "infoRaw": "<keyword=deathwish>Deathwish</keyword>: On turn end, <keyword=summon>Summon</keyword> this unit from your graveyard to a random allied row.\n",
+        "name": "Ruehin"
+    },
+    "201662": {
+        "info": "Zeal.\nOrder: Destroy self and all units whose power equals Cadaverine's Charge count.\nCharge: 0.\nEvery turn, on turn start, and whenever you play a Tactic, gain 1 Charge.\n",
+        "infoRaw": "<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Destroy self and all units whose power equals Cadaverine's <keyword=charge>Charge</keyword> count.\n<keyword=charge>Charge</keyword>: 0.\nEvery turn, on turn start, and whenever you play a Tactic, gain 1 <keyword=charge>Charge</keyword>.\n",
+        "name": "Cadaverine"
+    },
+    "201664": {
+        "info": "Deploy: Trigger the Deploy abilities of adjacent bronze Soldiers.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Trigger the <keyword=deploy>Deploy</keyword> abilities of adjacent bronze Soldiers.\n",
+        "name": "Vrygheff"
+    },
+    "201676": {
+        "info": "Order: Damage a unit by 1. \nCooldown: 1.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Damage a unit by 1. \n<keyword=cooldown>Cooldown</keyword>: 1.\n",
+        "name": "Pavko Gale"
+    },
+    "201696": {
+        "info": "Order: Boost the unit on the left by 4, or give the unit on the right Immune.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Boost the unit on the left by 4, or give the unit on the right <keyword=immune>Immune</keyword>.\n",
+        "name": "Paulie Dahlberg"
+    },
+    "201697": {
+        "info": "The next time an enemy receives a boost, destroy that unit and self.\n",
+        "infoRaw": "The next time an enemy receives a boost, destroy that unit and self.\n",
+        "name": "Black Blood"
+    },
+    "201698": {
+        "info": "Deploy, Melee: Consume a unit from your opponent's graveyard.\nDeploy, Ranged: Consume a unit from your graveyard.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: <keyword=consume>Consume</keyword> a unit from your opponent's graveyard.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: <keyword=consume>Consume</keyword> a unit from your graveyard.\n",
+        "name": "Ozzrel"
+    },
+    "201700": {
+        "info": "Deathwish: Boost the highest ally by 4.\n",
+        "infoRaw": "<keyword=deathwish>Deathwish</keyword>: Boost the highest ally by 4.\n",
+        "name": "Bridge Troll"
+    },
+    "201701": {
+        "info": "Order: Consume an allied unit.\nCharge: 2.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: <keyword=consume>Consume</keyword> an allied unit.\n<keyword=charge>Charge</keyword>: 2.\n",
+        "name": "Barbegazi"
+    },
+    "201704": {
+        "info": "Deploy: Remove a row effect from an allied row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Remove a row effect from an allied row.\n",
+        "name": "Scout"
+    },
+    "201709": {
+        "info": "Damage all enemies with odd power by 2.\n",
+        "infoRaw": "Damage all enemies with odd power by 2.\n",
+        "name": "Equalize"
+    },
+    "201710": {
+        "info": "Damage all enemies with even power by 2.\n",
+        "infoRaw": "Damage all enemies with even power by 2.\n",
+        "name": "Disrupt"
+    },
+    "201725": {
+        "info": "Send Shupe to the Ban Ard Academy for Boys.\n",
+        "infoRaw": "Send Shupe to the Ban Ard Academy for Boys.\n",
+        "name": "Shupe: Mage"
+    },
+    "201726": {
+        "info": "Deploy: Transform the rightmost card in each player's hand into a random special card.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Transform the rightmost card in each player's hand into a random special card.\n",
+        "name": "Shupe: Mage"
+    },
+    "201727": {
+        "info": "Deploy: Move a random unit to the opposite row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Move a random unit to the opposite row.\n",
+        "name": "Shupe: Mage"
+    },
+    "201728": {
+        "info": "Deploy: Apply a random row effect to all rows.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Apply a random row effect to all rows.\n",
+        "name": "Shupe: Mage"
+    },
+    "201729": {
+        "info": "Deploy: Split 13 damage randomly between all other units on the battlefield.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Split 13 damage randomly between all other units on the battlefield.\n",
+        "name": "Shupe: Mage"
+    },
+    "201730": {
+        "info": "Deploy: Spawn and Summon a random unit to a random row on each side.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> and <keyword=summon>Summon</keyword> a random unit to a random row on each side.\n",
+        "name": "Shupe: Mage"
+    },
+    "201731": {
+        "info": "Send Shupe to the forests of Dol Blathanna.\n",
+        "infoRaw": "Send Shupe to the forests of Dol Blathanna.\n",
+        "name": "Shupe: Hunter"
+    },
+    "201732": {
+        "info": "Deploy: Play a random card from your deck.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Play a random card from your deck.\n",
+        "name": "Shupe: Hunter"
+    },
+    "201733": {
+        "info": "Deploy: Split 9 damage randomly between all enemy units.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Split 9 damage randomly between all enemy units.\n",
+        "name": "Shupe: Hunter"
+    },
+    "201734": {
+        "info": "Deploy: Boost all units in your hand between 1 and 2 power.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost all units in your hand between 1 and 2 power.\n",
+        "name": "Shupe: Hunter"
+    },
+    "201735": {
+        "info": "Deploy: Destroy a random enemy.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Destroy a random enemy.\n",
+        "name": "Shupe: Hunter"
+    },
+    "201737": {
+        "info": "Send Shupe to the Imperial Court Military Academy.\n",
+        "infoRaw": "Send Shupe to the Imperial Court Military Academy.\n",
+        "name": "Shupe: Knight"
+    },
+    "201738": {
+        "info": "Deploy: Damage an enemy by 4.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 4.\n",
+        "name": "Shupe: Knight"
+    },
+    "201739": {
+        "info": "Deploy: Lock a unit.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: <keyword=lock>Lock</keyword> a unit.\n",
+        "name": "Shupe: Knight"
+    },
+    "201740": {
+        "info": "Deploy: Gain Resilience.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Gain <keyword=resilient>Resilience</keyword>.\n",
+        "name": "Shupe: Knight"
+    },
+    "201741": {
+        "info": "Deploy: Destroy an enemy artifact.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Destroy an enemy artifact.\n",
+        "name": "Shupe: Knight"
+    },
+    "201743": {
+        "info": "Whenever an allied unit is destroyed during your turn, Spawn an Arachas Drone and Summon it to a random allied row.\n",
+        "infoRaw": "Whenever an allied unit is destroyed during your turn, <keyword=spawn>Spawn</keyword> an Arachas Drone and <keyword=summon>Summon</keyword> it to a random allied row.\n",
+        "name": "Arachas Queen"
+    },
+    "201744": {
+        "info": "Restore a unit to its base power.\n",
+        "infoRaw": "Restore a unit to its base power.\n",
+        "name": "Spores"
+    },
+    "201748": {
+        "info": "Order, Melee: Damage an enemy and all other enemies with power equal to it by 1. \nCharge: 1.\n",
+        "infoRaw": "<keyword=order>Order</keyword>, <keyword=melee>Melee</keyword>: Damage an enemy and all other enemies with power equal to it by 1. \n<keyword=charge>Charge</keyword>: 1.\n",
+        "name": "Foltest's Pride"
+    },
+    "201749": {
+        "info": "Boost all units on a row by 2.\n",
+        "infoRaw": "Boost all units on a row by 2.\n",
+        "name": "Golden Froth"
+    },
+    "201753": {
+        "info": "Deploy: Boost an ally by 2.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost an ally by 2.\n",
+        "name": "Peasant Militia"
+    },
+    "201772": {
+        "info": "Deploy, Melee: Damage an enemy by 3. If its power was a multiple of 3, destroy it instead.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Damage an enemy by 3. If its power was a multiple of 3, destroy it instead.\n",
+        "name": "Geralt: Professional"
+    },
+    "201773": {
+        "info": "Deploy, Ranged: Create and play a bronze special card from either player's current deck.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: <keyword=create>Create</keyword> and play a bronze special card from either player's current deck.\n",
+        "name": "Triss: Telekinesis"
+    },
+    "201774": {
+        "info": "Deploy: Destroy an enemy Beast.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Destroy an enemy Beast.\n",
+        "name": "Dandelion: Vainglory"
+    },
+    "201776": {
+        "info": "Deploy: Draw a card, then play a card.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Draw a card, then play a card.\n",
+        "name": "Dandelion: Poet"
+    },
+    "201777": {
+        "info": "Order: Seize an enemy whose power is less than or equal to Roche Merciless' Charge count, then remove all Charges. \nCharge: 0.\nEvery turn, on turn start, gain 1 Charge.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: <keyword=seize>Seize</keyword> an enemy whose power is less than or equal to Roche Merciless' <keyword=charge>Charge</keyword> count, then remove all <keyword=charge>Charges</keyword>. \n<keyword=charge>Charge</keyword>: 0.\nEvery turn, on turn start, gain 1 <keyword=charge>Charge</keyword>.\n",
+        "name": "Roche: Merciless"
+    },
+    "201779": {
+        "info": "Shuffle an allied unit into your deck, then play a unit with the same primary category from your deck and boost it by 3.\n",
+        "infoRaw": "Shuffle an allied unit into your deck, then play a unit with the same primary category from your deck and boost it by 3.\n",
+        "name": "Call of the Forest"
+    },
+    "201780": {
+        "info": "Deploy, Ranged: Reveal a random unit from your deck, then boost an ally by its power.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: <keyword=reveal>Reveal</keyword> a random unit from your deck, then boost an ally by its power.\n",
+        "name": "Yennefer: Divination"
+    },
+    "201781": {
+        "info": "Order: If you control the highest unit, damage a unit by 2. \nCooldown: 1.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: If you control the highest unit, damage a unit by 2. \n<keyword=cooldown>Cooldown</keyword>: 1.\n",
+        "name": "Imlerith"
+    },
+    "201817": {
+        "info": "Deploy, Melee: Each player Summons the unit with the highest Recruit Cost from their deck to the melee row.\nDeploy, Ranged: Each player Summons the unit with the lowest Recruit Cost from their deck to the ranged row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Each player <keyword=summon>Summons</keyword> the unit with the highest Recruit Cost from their deck to the melee row.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Each player <keyword=summon>Summons</keyword> the unit with the lowest Recruit Cost from their deck to the ranged row.\n",
+        "name": "Ihuarraquax"
+    },
+    "202044": {
+        "info": "Deploy, Melee: Damage an enemy and all copies of it by 3.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Damage an enemy and all copies of it by 3.\n",
+        "name": "Gimpy Gerwin"
+    },
+    "202054": {
+        "info": "Destroy 2 allied units of the same color, then Create and play a unit of that color.\n",
+        "infoRaw": "Destroy 2 allied units of the same color, then <keyword=create>Create</keyword> and play a unit of that color.\n",
+        "name": "Elf and Onion Soup"
+    },
+    "202064": {
+        "info": "Order, Melee: Damage an enemy by 2.\nCharge: 1.\nGain 1 Charge whenever you play a Witcher.\n",
+        "infoRaw": "<keyword=order>Order</keyword>, <keyword=melee>Melee</keyword>: Damage an enemy by 2.\n<keyword=charge>Charge</keyword>: 1.\nGain 1 <keyword=charge>Charge</keyword> whenever you play a Witcher.\n",
+        "name": "Ivo of Belhaven"
+    },
+    "202098": {
+        "info": "Deploy: If you have a Dragon in your hand, gain Zeal.\nOrder: Destroy a unit with 8 or more power.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: If you have a Dragon in your hand, gain <keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Destroy a unit with 8 or more power.\n",
+        "name": "Eyck of Denesle"
+    },
+    "202099": {
+        "info": "Deploy, Melee: Boost self by a random amount between 0 and 11.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Boost self by a random amount between 0 and 11.\n",
+        "name": "Gascon"
+    },
+    "202100": {
+        "info": "Spying.\nDeploy: Play a random gold card from your deck.\n",
+        "infoRaw": "<keyword=spying>Spying</keyword>.\n<keyword=deploy>Deploy</keyword>: Play a random gold card from your deck.\n",
+        "name": "Prince Villem"
+    },
+    "202101": {
+        "info": "Every turn, on turn end, move to the row with the highest unit on the battlefield.\n",
+        "infoRaw": "Every turn, on turn end, move to the row with the highest unit on the battlefield.\n",
+        "name": "Count Caldwell"
+    },
+    "202102": {
+        "info": "Deploy, Melee: Banish all cards in your opponent's graveyard.\nDeploy, Ranged: Banish all cards in your graveyard.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: <keyword=banish>Banish</keyword> all cards in your opponent's graveyard.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: <keyword=banish>Banish</keyword> all cards in your graveyard.\n",
+        "name": "Xavier Lemmens"
+    },
+    "202103": {
+        "info": "Melee: Every turn, on turn end, destroy the lowest unit on the side with the most units.\n",
+        "infoRaw": "<keyword=melee>Melee</keyword>: Every turn, on turn end, destroy the lowest unit on the side with the most units.\n",
+        "name": "Keltullis"
+    },
+    "202104": {
+        "info": "Immune.\n",
+        "infoRaw": "<keyword=immune>Immune</keyword>.\n",
+        "name": "Frightener: Awake"
+    },
+    "202105": {
+        "info": "Deploy: Destroy all units with 1 power. For each unit destroyed, boost self by 2.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Destroy all units with 1 power. For each unit destroyed, boost self by 2.\n",
+        "name": "Glustyworp"
+    },
+    "202106": {
+        "info": "Deploy, Melee: Gain Resilience.\nDeploy, Ranged: Gain Immune.\nWhenever you play a Dwarf, boost self by 1.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Gain <keyword=resilient>Resilience</keyword>.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Gain <keyword=immune>Immune</keyword>.\nWhenever you play a Dwarf, boost self by 1.\n",
+        "name": "Gabor Zigrin"
+    },
+    "202107": {
+        "info": "Deploy: Boost an Elf, Dwarf, and Dryad ally by 2.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost an Elf, Dwarf, and Dryad ally by 2.\n",
+        "name": "Barnabas Beckenbauer"
+    },
+    "202108": {
+        "info": "Order, Ranged: Look at the top card from both decks. Keep one and give the other to your opponent.\n",
+        "infoRaw": "<keyword=order>Order</keyword>, <keyword=ranged>Ranged</keyword>: Look at the top card from both decks. Keep one and give the other to your opponent.\n",
+        "name": "Isbel of Hagge"
+    },
+    "202109": {
+        "info": "Deploy, Ranged: Swap your graveyard with your deck.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Swap your graveyard with your deck.\n",
+        "name": "Lippy Gudmund"
+    },
+    "202110": {
+        "info": "Melee: Whenever an enemy takes damage, boost self by 1.\n",
+        "infoRaw": "<keyword=melee>Melee</keyword>: Whenever an enemy takes damage, boost self by 1.\n",
+        "name": "Dagur Two Blades"
+    },
+    "202111": {
+        "info": "Deploy: Look at the top 3 cards in your opponent's deck and move 1 to their graveyard.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Look at the top 3 cards in your opponent's deck and move 1 to their graveyard.\n",
+        "name": "Traheaern var Vdyffir"
+    },
+    "202112": {
+        "info": "Whenever an allied unit with Charge is played, give it 1 Charge.\n",
+        "infoRaw": "Whenever an allied unit with <keyword=charge>Charge</keyword> is played, give it 1 <keyword=charge>Charge</keyword>.\n",
+        "name": "Reynard Odo"
+    },
+    "202113": {
+        "info": "Deploy: Damage an enemy by the number of Human allies.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by the number of Human allies.\n",
+        "name": "Black Rayla"
+    },
+    "202114": {
+        "info": "Doomed. Zeal.\nOrder: Transform into Phoenix.\n",
+        "infoRaw": "<keyword=doomed>Doomed</keyword>. <keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Transform into Phoenix.\n",
+        "name": "Phoenix Hatchling"
+    },
+    "202121": {
+        "info": "Deploy: Move a unit to the other row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Move a unit to the other row.\n",
+        "name": "Strays of Spalla"
+    },
+    "202122": {
+        "info": "Deploy: Destroy an enemy artifact.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Destroy an enemy artifact.\n",
+        "name": "Bomb Heaver"
+    },
+    "202148": {
+        "info": "Order: Give 1 Charge to a unit. \nCooldown: 2.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Give 1 <keyword=charge>Charge</keyword> to a unit. \n<keyword=cooldown>Cooldown</keyword>: 2.\n",
+        "name": "King Demavend III"
+    },
+    "202149": {
+        "info": "Order: Play a random artifact from your opponent's deck.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Play a random artifact from your opponent's deck.\n",
+        "name": "Angoulême"
+    },
+    "202150": {
+        "info": "Zeal.\nOrder, Ranged: Boost a unit by 1. \nCharge: 1.\nGain 1 Charge whenever either player plays a card.\n",
+        "infoRaw": "<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>, <keyword=ranged>Ranged</keyword>: Boost a unit by 1. \n<keyword=charge>Charge</keyword>: 1.\nGain 1 <keyword=charge>Charge</keyword> whenever either player plays a card.\n",
+        "name": "Vysogota of Corvo"
+    },
+    "202151": {
+        "info": "Deploy, Melee: Destroy an enemy unit with Orders.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Destroy an enemy unit with <keyword=order>Orders</keyword>.\n",
+        "name": "Falibor"
+    },
+    "202152": {
+        "info": "If on turn end this unit is boosted, boost adjacent units by 1.\n",
+        "infoRaw": "If on turn end this unit is boosted, boost adjacent units by 1.\n",
+        "name": "Anna Strenger"
+    },
+    "202153": {
+        "info": "Whenever you play a unit with Orders, boost self by 1.\n",
+        "infoRaw": "Whenever you play a unit with <keyword=order>Orders</keyword>, boost self by 1.\n",
+        "name": "Lyrian Cavalry"
+    },
+    "202154": {
+        "info": "Deploy: Damage an enemy by 1. If it was destroyed, damage another enemy by 3.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 1. If it was destroyed, damage another enemy by 3.\n",
+        "name": "Rivian Pikeman"
+    },
+    "202155": {
+        "info": "Order: Damage a unit by 1. \nCharge: 1.\nGain 1 Charge whenever you play a card with Orders.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Damage a unit by 1. \n<keyword=charge>Charge</keyword>: 1.\nGain 1 <keyword=charge>Charge</keyword> whenever you play a card with <keyword=order>Orders</keyword>.\n",
+        "name": "Lyrian Arbalest"
+    },
+    "202156": {
+        "info": "Order: Damage a unit by 1. If Lyrian Landsknecht is boosted, damage a unit by 3 instead.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Damage a unit by 1. If Lyrian Landsknecht is boosted, damage a unit by 3 instead.\n",
+        "name": "Lyrian Landsknecht"
+    },
+    "202161": {
+        "info": "Deploy: Boost self by 1 for each boosted ally.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost self by 1 for each boosted ally.\n",
+        "name": "Lyrian Scytheman"
+    }
+}

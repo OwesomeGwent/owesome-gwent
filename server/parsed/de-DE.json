@@ -1,0 +1,2596 @@
+{
+    "112101": {
+        "infoRaw": "Nimm diese Einheit vom Schlachtfeld zurück auf die Hand, wann immer du eine Runde verlierst.\n",
+        "name": "Ciri"
+    },
+    "112102": {
+        "info": "Einsatz, Nahkampf: Zerstöre die stärkste(n) Einheit(en) in einer gegnerischen Reihe mit einer Gesamtstärke von mindestens 15.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Zerstöre die stärkste(n) Einheit(en) in einer gegnerischen Reihe mit einer Gesamtstärke von mindestens 15.\n",
+        "name": "Geralt: Igni"
+    },
+    "112103": {
+        "info": "Einsatz: Zerstöre eine gegnerische Einheit mit mindestens 8 Stärke.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Zerstöre eine gegnerische Einheit mit mindestens 8 Stärke.\n",
+        "name": "Geralt von Riva"
+    },
+    "112104": {
+        "info": "Einsatz: Füge allen gegnerischen Einheiten in einer Reihe 1 Schaden zu. Werden dabei Einheiten zerstört, setze die Fähigkeit erneut ein.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge allen gegnerischen Einheiten in einer Reihe 1 Schaden zu. Werden dabei Einheiten zerstört, setze die Fähigkeit erneut ein.\n",
+        "name": "Regis"
+    },
+    "112105": {
+        "info": "Einsatz, Nahkampf: Entziehe einer gegnerischen Einheit alle Verbesserungen.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: <keyword=drain>Entziehe</keyword> einer gegnerischen Einheit alle Verbesserungen.\n",
+        "name": "Regis: Höherer Vampir"
+    },
+    "112106": {
+        "info": "Einsatz, Fernkampf: Enthülle eine zufällig gewählte Einheit aus deinem Deck und füge einer gegnerischen Einheit Schaden in Höhe der Stärke der enthüllten Einheit zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: <keyword=reveal>Enthülle</keyword> eine zufällig gewählte Einheit aus deinem Deck und füge einer gegnerischen Einheit Schaden in Höhe der Stärke der enthüllten Einheit zu.\n",
+        "name": "Triss Merigold"
+    },
+    "112107": {
+        "info": "Zerstöre nach 2 Zug/Zügen am Ende des Zugs die stärkste Einheit auf dem Schlachtfeld (außer dieser Einheit).\n",
+        "infoRaw": "Zerstöre nach 2 Zug/Zügen am Ende des Zugs die stärkste Einheit auf dem Schlachtfeld (außer dieser Einheit).\n",
+        "name": "Villentretenmerth"
+    },
+    "112108": {
+        "info": "Einsatz, Nahkampf: Füge allen anderen Einheiten 2 Schaden zu. \nEinsatz, Fernkampf: Verbessere alle anderen Einheiten um 2.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Füge allen anderen Einheiten 2 Schaden zu. \n<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Verbessere alle anderen Einheiten um 2.\n",
+        "name": "Yennefer von Vengerberg"
+    },
+    "112109": {
+        "info": "Einsatz, Nahkampf: Generiere Duda: Aufwiegler und spiele ihn aus.\nEinsatz, Fernkampf: Generiere Duda: Feldmarschall und spiele ihn aus.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: <keyword=spawn>Generiere</keyword> Duda: Aufwiegler und spiele ihn aus.\n<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: <keyword=spawn>Generiere</keyword> Duda: Feldmarschall und spiele ihn aus.\n",
+        "name": "Zoltan: Halunke"
+    },
+    "112110": {
+        "info": "Ziehe nach 4 Zug/Zügen zu Beginn des Zugs eine Karte.\n",
+        "infoRaw": "Ziehe nach 4 Zug/Zügen zu Beginn des Zugs eine Karte.\n",
+        "name": "Ciri: Sprint"
+    },
+    "112111": {
+        "info": "Einsatz, Nahkampf: Füge 3 gegnerischen Einheit(en) 2 Schaden zu und verschiebe sie, sofern möglich, um eine Reihe nach oben.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Füge 3 gegnerischen Einheit(en) 2 Schaden zu und verschiebe sie, sofern möglich, um eine Reihe nach oben.\n",
+        "name": "Geralt: Aard"
+    },
+    "112112": {
+        "info": "Einsatz, Fernkampf: Spiele ein Artefakt aus deinem Deck aus.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Spiele ein Artefakt aus deinem Deck aus.\n",
+        "name": "Avallac'h: Weiser"
+    },
+    "112113": {
+        "info": "Befehl: Füge der/den stärksten gegnerischen Einheit(en) 1 Schaden zu. \nAbklingzeit: 1.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Füge der/den stärksten gegnerischen Einheit(en) 1 Schaden zu. \n<keyword=cooldown>Abklingzeit</keyword>: 1.\n",
+        "name": "Yennefer: Zauberin"
+    },
+    "112201": {
+        "info": "Einsatz: Verwandle diese Einheit in eine einfache Kopie einer gegnerischen Einheit.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verwandle diese Einheit in eine einfache Kopie einer gegnerischen Einheit.\n",
+        "name": "Dudu"
+    },
+    "112202": {
+        "info": "Einsatz: Rufe Vesemir und Lambert aus deinem Deck in diese Reihe herbei.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: <keyword=summon>Rufe</keyword> Vesemir und Lambert aus deinem Deck in diese Reihe herbei.\n",
+        "name": "Eskel"
+    },
+    "112203": {
+        "info": "Einsatz: Rufe Eskel und Lambert aus deinem Deck in diese Reihe herbei.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: <keyword=summon>Rufe</keyword> Eskel und Lambert aus deinem Deck in diese Reihe herbei.\n",
+        "name": "Vesemir"
+    },
+    "112204": {
+        "info": "Einsatz: Rufe Eskel und Vesemir aus deinem Deck in diese Reihe herbei.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: <keyword=summon>Rufe</keyword> Eskel und Vesemir aus deinem Deck in diese Reihe herbei.\n",
+        "name": "Lambert"
+    },
+    "112205": {
+        "info": "Befehl: Füge einer gegnerischen Einheit 2 Schaden zu. \nLadungen: 2.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Füge einer gegnerischen Einheit 2 Schaden zu. \n<keyword=charge>Ladungen</keyword>: 2.\n",
+        "name": "Myrgtabrakke"
+    },
+    "112206": {
+        "info": "Befehl: Füge allen gegnerischen Einheiten 1 Schaden zu.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Füge allen gegnerischen Einheiten 1 Schaden zu.\n",
+        "name": "Ocvist"
+    },
+    "112207": {
+        "info": "Befehl: Heile diese Einheit.\nAbklingzeit: 1.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: <keyword=heal>Heile</keyword> diese Einheit.\n<keyword=cooldown>Abklingzeit</keyword>: 1.\n",
+        "name": "Olgierd von Everec"
+    },
+    "112208": {
+        "info": "Einsatz: Generiere eine einfache Kopie einer Bronzeeinheit auf deiner Hand und rufe sie in dieselbe Reihe auf beiden Spielerseiten herbei.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: <keyword=spawn>Generiere</keyword> eine einfache Kopie einer Bronzeeinheit auf deiner Hand und <keyword=summon>rufe</keyword> sie in dieselbe Reihe auf beiden Spielerseiten herbei.\n",
+        "name": "Wächter"
+    },
+    "112209": {
+        "info": "Befehl: Verwandle diese Einheit in einen Tschort.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Verwandle diese Einheit in einen Tschort.\n",
+        "name": "Preisgekrönte Kuh"
+    },
+    "112210": {
+        "info": "Wann immer du eine Goldkarte ausspielst, rufe diese Einheit aus deinem Deck in eine zufällig gewählte verbündete Reihe herbei.\n",
+        "infoRaw": "Wann immer du eine Goldkarte ausspielst, <keyword=summon>rufe</keyword> diese Einheit aus deinem Deck in eine zufällig gewählte verbündete Reihe herbei.\n",
+        "name": "Plötze"
+    },
+    "112211": {
+        "info": "Befehl: Füge einer Einheit 2 Schaden zu.\nLadungen: 1.\nDiese Einheit erhält 1 Ladung, wann immer du eine Sonderkarte ausspielst.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Füge einer Einheit 2 Schaden zu.\n<keyword=charge>Ladungen</keyword>: 1.\nDiese Einheit erhält 1 <keyword=charge>Ladung</keyword>, wann immer du eine Sonderkarte ausspielst.\n",
+        "name": "Hansi"
+    },
+    "112212": {
+        "info": "Befehl: Verbessere eine Einheit um 2.\n Ladungen: 1.\nDiese Einheit erhält 1 Ladung, wann immer du eine Sonderkarte ausspielst.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Verbessere eine Einheit um 2.\n <keyword=charge>Ladungen</keyword>: 1.\nDiese Einheit erhält 1 <keyword=charge>Ladung</keyword>, wann immer du eine Sonderkarte ausspielst.\n",
+        "name": "Sarah"
+    },
+    "112213": {
+        "info": "Verbessere jeden Zug am Ende des Zugs die schwächste Einheit auf deiner Hand um 1.\n",
+        "infoRaw": "Verbessere jeden Zug am Ende des Zugs die schwächste Einheit auf deiner Hand um 1.\n",
+        "name": "Bettlerkönig"
+    },
+    "112214": {
+        "info": "Einsatz: Verbanne eine Einheit mit max. 3 Stärke.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: <keyword=banish>Verbanne</keyword> eine Einheit mit max. 3 Stärke.\n",
+        "name": "Cyprian Wily"
+    },
+    "112215": {
+        "info": "Einsatz, Nahkampf: Zerstöre ein gegnerisches Artefakt.\nEinsatz, Fernkampf: Entferne alle Reiheneffekte von deiner Seite.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Zerstöre ein gegnerisches Artefakt.\n<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Entferne alle Reiheneffekte von deiner Seite.\n",
+        "name": "Iris von Everec"
+    },
+    "112401": {
+        "info": "Einsatz: Verbessere eine Einheit um 4. Hast du einen Chironex auf der Hand, verdoppelt sich die Verbesserung.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere eine Einheit um 4. Hast du einen Chironex auf der Hand, verdoppelt sich die Verbesserung.\n",
+        "name": "Einhorn"
+    },
+    "112402": {
+        "info": "Einsatz: Füge einer Einheit 4 Schaden zu. Hast du ein Einhorn auf der Hand, verdoppelt sich der Schaden.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer Einheit 4 Schaden zu. Hast du ein Einhorn auf der Hand, verdoppelt sich der Schaden.\n",
+        "name": "Chironex"
+    },
+    "112405": {
+        "info": "Einsatz: Verbessere alle Todeswunsch-Einheiten auf deiner Hand um 1.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere alle <keyword=deathwish>Todeswunsch</keyword>-Einheiten auf deiner Hand um 1.\n",
+        "name": "Bies"
+    },
+    "113101": {
+        "info": "Wirke folgenden Effekt auf eine gegnerische Reihe:\nFüge jeden Zug zu Beginn des Zugs der stärksten Einheit in dieser Reihe 2 Schaden zu.\n",
+        "infoRaw": "Wirke folgenden Effekt auf eine gegnerische Reihe:\nFüge jeden Zug zu Beginn des Zugs der stärksten Einheit in dieser Reihe 2 Schaden zu.\n",
+        "name": "Ragh nar Roog"
+    },
+    "113102": {
+        "info": "Sieh dir die 2 obersten Karten deines Decks an. Spiele eine aus und verbanne die andere(n).\n",
+        "infoRaw": "Sieh dir die 2 obersten Karten deines Decks an. Spiele eine aus und <keyword=banish>verbanne</keyword> die andere(n).\n",
+        "name": "Der letzte Wunsch"
+    },
+    "113201": {
+        "info": "Mische eine verbündete Einheit zurück in dein Deck. Spiele dann die oberste Einheit aus deinem Deck aus.\n",
+        "infoRaw": "Mische eine verbündete Einheit zurück in dein Deck. Spiele dann die oberste Einheit aus deinem Deck aus.\n",
+        "name": "Ablenkungsmanöver"
+    },
+    "113202": {
+        "info": "Füge 5 gegnerischen Einheiten 2 Schaden zu.\n",
+        "infoRaw": "Füge 5 gegnerischen Einheiten 2 Schaden zu.\n",
+        "name": "Merigolds Hagelsturm"
+    },
+    "113203": {
+        "info": "Wirke folgenden Effekt auf eine gegnerische Reihe:\nFüge 2 Zug/Züge lang zu Beginn des Zugs allen Einheiten in dieser Reihe 1 Schaden zu.\n",
+        "infoRaw": "Wirke folgenden Effekt auf eine gegnerische Reihe:\nFüge 2 Zug/Züge lang zu Beginn des Zugs allen Einheiten in dieser Reihe 1 Schaden zu.\n",
+        "name": "Skellige-Sturm"
+    },
+    "113204": {
+        "info": "Füge allen gegnerischen Einheiten 1 Schaden zu.\n",
+        "infoRaw": "Füge allen gegnerischen Einheiten 1 Schaden zu.\n",
+        "name": "Stammelfords Beben"
+    },
+    "113205": {
+        "info": "Zerstöre ein Artefakt.\n",
+        "infoRaw": "Zerstöre ein Artefakt.\n",
+        "name": "Dimeritiumbombe"
+    },
+    "113206": {
+        "info": "Zerstöre alle Artefakte.\n",
+        "infoRaw": "Zerstöre alle Artefakte.\n",
+        "name": "Weiße Kälte"
+    },
+    "113207": {
+        "info": "Verbessere 5 benachbarte Einheiten um 3.\n",
+        "infoRaw": "Verbessere 5 benachbarte Einheiten um 3.\n",
+        "name": "Kommandantenhorn"
+    },
+    "113208": {
+        "info": "Einsatz, Nahkampf: Erhöhe die Dauer aller Reiheneffekte um 1.\nEinsatz, Fernkampf: Verringere die Dauer aller Reiheneffekte um 1.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Erhöhe die Dauer aller Reiheneffekte um 1.\n<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Verringere die Dauer aller Reiheneffekte um 1.\n",
+        "name": "Vaedermakar"
+    },
+    "113209": {
+        "info": "Spiele die stärkste Einheit aus deinem Deck aus.\n",
+        "infoRaw": "Spiele die stärkste Einheit aus deinem Deck aus.\n",
+        "name": "Alzurs Doppelspiel"
+    },
+    "113301": {
+        "info": "Füge einer Einheit 5 Schaden zu.\n",
+        "infoRaw": "Füge einer Einheit 5 Schaden zu.\n",
+        "name": "Alzurs Donner"
+    },
+    "113302": {
+        "info": "Wirke folgenden Effekt auf eine gegnerische Reihe:\nFüge 4 Zug/Züge lang zu Beginn des Zugs der schwächsten Einheit in dieser Reihe 2 Schaden zu.\n",
+        "infoRaw": "Wirke folgenden Effekt auf eine gegnerische Reihe:\nFüge 4 Zug/Züge lang zu Beginn des Zugs der schwächsten Einheit in dieser Reihe 2 Schaden zu.\n",
+        "name": "Beißender Frost"
+    },
+    "113303": {
+        "info": "Entferne alle Reiheneffekte von deiner Seite.\n",
+        "infoRaw": "Entferne alle Reiheneffekte von deiner Seite.\n",
+        "name": "Blauer Himmel"
+    },
+    "113305": {
+        "info": "Wirke folgenden Effekt auf eine gegnerische Reihe:\nFüge 4 Zug/Züge lang zu Beginn des Zugs der stärksten Einheit in dieser Reihe 2 Schaden zu.\n",
+        "infoRaw": "Wirke folgenden Effekt auf eine gegnerische Reihe:\nFüge 4 Zug/Züge lang zu Beginn des Zugs der stärksten Einheit in dieser Reihe 2 Schaden zu.\n",
+        "name": "Dichter Nebel"
+    },
+    "113306": {
+        "info": "Füge 3 gegnerischen Einheit(en) 3 Schaden zu.\n",
+        "infoRaw": "Füge 3 gegnerischen Einheit(en) 3 Schaden zu.\n",
+        "name": "Mantikorgift"
+    },
+    "113307": {
+        "info": "Gib einer Einheit Zähigkeit oder entferne sie von ihr.\n",
+        "infoRaw": "Gib einer Einheit <keyword=resilient>Zähigkeit</keyword> oder entferne sie von ihr.\n",
+        "name": "Adrenalinrausch"
+    },
+    "113308": {
+        "info": "Zerstöre die schwächste(n) Einheit(en).\n",
+        "infoRaw": "Zerstöre die schwächste(n) Einheit(en).\n",
+        "name": "Seuche"
+    },
+    "113309": {
+        "info": "Zerstöre die stärkste(n) Einheit(en).\n",
+        "infoRaw": "Zerstöre die stärkste(n) Einheit(en).\n",
+        "name": "Verbrennen"
+    },
+    "113310": {
+        "info": "Verbessere eine Einheit um 6.\n",
+        "infoRaw": "Verbessere eine Einheit um 6.\n",
+        "name": "Schwalbe"
+    },
+    "113311": {
+        "info": "Eifer.\nBefehl: Verbessere eine Einheit um 2.\nLadungen: 3.\n",
+        "infoRaw": "<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Verbessere eine Einheit um 2.\n<keyword=charge>Ladungen</keyword>: 3.\n",
+        "name": "Donner"
+    },
+    "113312": {
+        "info": "Wirke folgenden Effekt auf eine gegnerische Reihe:\nFüge 4 Zug/Züge lang zu Beginn des Zugs 2 zufällig gewählten Einheit(en) in dieser Reihe 1 Schaden zu.\n",
+        "infoRaw": "Wirke folgenden Effekt auf eine gegnerische Reihe:\nFüge 4 Zug/Züge lang zu Beginn des Zugs 2 zufällig gewählten Einheit(en) in dieser Reihe 1 Schaden zu.\n",
+        "name": "Strömender Regen"
+    },
+    "113313": {
+        "info": "Einsatz: Verbessere diese Einheit um die Schadensmenge, die eine gegnerische Einheit erlitten hat.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere diese Einheit um die Schadensmenge, die eine gegnerische Einheit erlitten hat.\n",
+        "name": "An-Craite-Rufer"
+    },
+    "113315": {
+        "info": "Wähle eine Einheit aus. Wurde sie verbessert, füge ihr die doppelte Verbesserungsmenge als Schaden zu. Ist sie beschädigt, verbessere sie um die doppelte Schadensmenge.\n",
+        "infoRaw": "Wähle eine Einheit aus. Wurde sie verbessert, füge ihr die doppelte Verbesserungsmenge als Schaden zu. Ist sie beschädigt, verbessere sie um die doppelte Schadensmenge.\n",
+        "name": "Bekkers Zerrspiegel"
+    },
+    "113316": {
+        "info": "Spiele eine Einheit aus deinem Friedhof aus.\n",
+        "infoRaw": "Spiele eine Einheit aus deinem Friedhof aus.\n",
+        "name": "Erneuern"
+    },
+    "113319": {
+        "info": "Blockiere eine Einheit und füge ihr 3 Schaden zu.\n",
+        "infoRaw": "<keyword=lock>Blockiere</keyword> eine Einheit und füge ihr 3 Schaden zu.\n",
+        "name": "Dimeritiumfesseln"
+    },
+    "113320": {
+        "info": "Füge einer Einheit 3 Schaden zu und verbessere sie dann um 9.\n",
+        "infoRaw": "Füge einer Einheit 3 Schaden zu und verbessere sie dann um 9.\n",
+        "name": "Mardroeme"
+    },
+    "122101": {
+        "info": "Befehl: Verdopple die Ladungen einer verbündeten Einheit.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Verdopple die <keyword=charge>Ladungen</keyword> einer verbündeten Einheit.\n",
+        "name": "Blutiger Baron"
+    },
+    "122102": {
+        "info": "Spionage.\nEinsatz: Spiele die 2 oberste(n) Karte(n) aus deinem Deck aus.\n",
+        "infoRaw": "<keyword=spying>Spionage</keyword>.\n<keyword=deploy>Einsatz</keyword>: Spiele die 2 oberste(n) Karte(n) aus deinem Deck aus.\n",
+        "name": "Vernon Roche"
+    },
+    "122103": {
+        "info": "Nahkampf: Solange sich diese Einheit auf dem Schlachtfeld befindet, erhalten alle verbündeten Einheiten mit Befehl Eifer.\n",
+        "infoRaw": "<keyword=melee>Nahkampf</keyword>: Solange sich diese Einheit auf dem Schlachtfeld befindet, erhalten alle verbündeten Einheiten mit <keyword=order>Befehl</keyword> <keyword=zeal>Eifer</keyword>.\n",
+        "name": "Johan Natalis"
+    },
+    "122107": {
+        "info": "Einsatz: Verbessere eine zufällig gewählte Einheit auf deiner Hand um 4.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere eine zufällig gewählte Einheit auf deiner Hand um 4.\n",
+        "name": "Triss: Schmetterlinge"
+    },
+    "122108": {
+        "info": "Einsatz, Fernkampf: Spiele einen Zauber aus deinem Deck aus.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Spiele einen Zauber aus deinem Deck aus.\n",
+        "name": "Keira Metz"
+    },
+    "122201": {
+        "info": "Fernkampf: Wann immer eine verbündete Einheit eine Ladung erhält, verbessere sie um 1.\n",
+        "infoRaw": "<keyword=ranged>Fernkampf</keyword>: Wann immer eine verbündete Einheit eine <keyword=charge>Ladung</keyword> erhält, verbessere sie um 1.\n",
+        "name": "Rittersporn"
+    },
+    "122202": {
+        "info": "Eifer.\nBefehl: Gib einer Einheit 1 Ladung. \nAbklingzeit: 1.\n",
+        "infoRaw": "<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Gib einer Einheit 1 <keyword=charge>Ladung</keyword>. \n<keyword=cooldown>Abklingzeit</keyword>: 1.\n",
+        "name": "Priscilla"
+    },
+    "122203": {
+        "info": "Einsatz: Entferne sämtliche Ladungen von einer gegnerischen Einheit und gib sie Thaler.\nBefehl: Gib einer verbündeten Einheit 1 Ladung.\nLadungen: 0.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Entferne sämtliche <keyword=charge>Ladungen</keyword> von einer gegnerischen Einheit und gib sie Thaler.\n<keyword=order>Befehl</keyword>: Gib einer verbündeten Einheit 1 <keyword=charge>Ladung</keyword>.\n<keyword=charge>Ladungen</keyword>: 0.\n",
+        "name": "Thaler"
+    },
+    "122204": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit 4 Schaden zu. \nBefehl: Gib einer verbündeten Einheit Eifer.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit 4 Schaden zu. \n<keyword=order>Befehl</keyword>: Gib einer verbündeten Einheit <keyword=zeal>Eifer</keyword>.\n",
+        "name": "Ves"
+    },
+    "122205": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit 2 Schaden zu. \nBefehl: Füge einer gegnerischen Einheit 2 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit 2 Schaden zu. \n<keyword=order>Befehl</keyword>: Füge einer gegnerischen Einheit 2 Schaden zu.\n",
+        "name": "Sheala"
+    },
+    "122206": {
+        "info": "Spionage.\nTodeswunsch: Füge allen Einheiten in dieser Reihe 3 Schaden zu.\n",
+        "infoRaw": "<keyword=spying>Spionage</keyword>.\n<keyword=deathwish>Todeswunsch</keyword>: Füge allen Einheiten in dieser Reihe 3 Schaden zu.\n",
+        "name": "Sabrina Glevissig"
+    },
+    "122207": {
+        "info": "Befehl, Fernkampf: Füge einer gegnerischen Einheit Schaden in Höhe der Verbesserung Detmolds zu.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>, <keyword=ranged>Fernkampf</keyword>: Füge einer gegnerischen Einheit Schaden in Höhe der Verbesserung Detmolds zu.\n",
+        "name": "Detmold"
+    },
+    "122208": {
+        "info": "Einsatz: Verbessere eine verbündete Einheit um 2 und gibt ihr 2 Ladung.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere eine verbündete Einheit um 2 und gibt ihr 2 <keyword=charge>Ladung</keyword>.\n",
+        "name": "Fürst Stennis"
+    },
+    "122210": {
+        "info": "Einsatz: Mische eine Bronzeeinheit und alle ihre Kopien von deinem Friedhof in dein Deck.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Mische eine Bronzeeinheit und alle ihre Kopien von deinem Friedhof in dein Deck.\n",
+        "name": "Prinzessin Pavetta"
+    },
+    "122211": {
+        "info": "Eifer.\nBefehl: Wende 3 Ladungen auf, um eine gegnerische Einheit zu blockieren.\nLadungen: 3.\n",
+        "infoRaw": "<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Wende 3 <keyword=charge>Ladungen</keyword> auf, um eine gegnerische Einheit zu <keyword=lock>blockieren</keyword>.\n<keyword=charge>Ladungen</keyword>: 3.\n",
+        "name": "Margarita Laux-Antille"
+    },
+    "122212": {
+        "info": "Befehl, Fernkampf: Verbessere eine Einheit um 1. \nLadungen: 3.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>, <keyword=ranged>Fernkampf</keyword>: Verbessere eine Einheit um 1. \n<keyword=charge>Ladungen</keyword>: 3.\n",
+        "name": "Nenneke"
+    },
+    "122213": {
+        "info": "Einsatz: Gib allen verbündeten Einheiten 1 Ladung.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Gib allen verbündeten Einheiten 1 <keyword=charge>Ladung</keyword>.\n",
+        "name": "Odrin"
+    },
+    "122214": {
+        "info": "Eifer.\nBefehl: Verbessere eine verbündete Einheit um 1. \nLadungen: 2.\n",
+        "infoRaw": "<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Verbessere eine verbündete Einheit um 1. \n<keyword=charge>Ladungen</keyword>: 2.\n",
+        "name": "Kaedwen-Feldwebel"
+    },
+    "122216": {
+        "info": "Einsatz: Füge einer Einheit für jede Karte auf deiner Hand 1 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer Einheit für jede Karte auf deiner Hand 1 Schaden zu.\n",
+        "name": "Hacker"
+    },
+    "122301": {
+        "info": "Befehl: Füge einer Einheit 1 Schaden zu. \nLadungen: 1.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Füge einer Einheit 1 Schaden zu. \n<keyword=charge>Ladungen</keyword>: 1.\n",
+        "name": "Balliste"
+    },
+    "122302": {
+        "info": "Befehl: Füge einer gegnerischen Einheit 2 Schaden zu. \nLadungen: 1.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Füge einer gegnerischen Einheit 2 Schaden zu. \n<keyword=charge>Ladungen</keyword>: 1.\n",
+        "name": "Verstärkte Balliste"
+    },
+    "122303": {
+        "info": "Befehl, Fernkampf: Füge einer Einheit 1 Schaden zu. Wird sie zerstört, füge den ihr benachbarten Einheiten 1 Schaden zu.\nLadungen: 1.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>, <keyword=ranged>Fernkampf</keyword>: Füge einer Einheit 1 Schaden zu. Wird sie zerstört, füge den ihr benachbarten Einheiten 1 Schaden zu.\n<keyword=charge>Ladungen</keyword>: 1.\n",
+        "name": "Tribok"
+    },
+    "122304": {
+        "info": "Befehl, Nahkampf: Verbessere alle benachbarten Einheiten um 1. \nLadungen: 1.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>, <keyword=melee>Nahkampf</keyword>: Verbessere alle benachbarten Einheiten um 1. \n<keyword=charge>Ladungen</keyword>: 1.\n",
+        "name": "Belagerungsturm"
+    },
+    "122309": {
+        "info": "Einsatz: Gib einer verbündeten Maschine 2 Ladung.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Gib einer verbündeten Maschine 2 <keyword=charge>Ladung</keyword>.\n",
+        "name": "Belagerungshelfer"
+    },
+    "122310": {
+        "info": "Einsatz, Nahkampf: Generiere die Kopie einer verbündeten Bronzeeinheit nach unten in dein Deck.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: <keyword=spawn>Generiere</keyword> die Kopie einer verbündeten Bronzeeinheit nach unten in dein Deck.\n",
+        "name": "Blaue-Streifen-Späher"
+    },
+    "122311": {
+        "info": "Befehl: Rufe eine Kopie dieser Einheit aus deinem Deck in diese Reihe herbei.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: <keyword=summon>Rufe</keyword> eine Kopie dieser Einheit aus deinem Deck in diese Reihe herbei.\n",
+        "name": "Streifen-Kommando"
+    },
+    "122312": {
+        "info": "Einsatz: Verbessere dieser Einheit benachbarte Einheiten um 2.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere dieser Einheit benachbarte Einheiten um 2.\n",
+        "name": "Feldsanitäterin"
+    },
+    "122313": {
+        "info": "Einsatz: Wird diese Einheit neben 2 Soldaten ausgespielt, gib ihr Eifer.\nBefehl: Füge einer gegnerischen Einheit 3 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Wird diese Einheit neben 2 Soldaten ausgespielt, gib ihr <keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Füge einer gegnerischen Einheit 3 Schaden zu.\n",
+        "name": "Das Graue Fähnlein"
+    },
+    "122314": {
+        "info": "Einsatz, Nahkampf: Entferne sämtliche Ladungen von einer gegnerischen Einheit und füge der Einheit dann Schaden in Höhe des entfernten Betrags zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Entferne sämtliche <keyword=charge>Ladungen</keyword> von einer gegnerischen Einheit und füge der Einheit dann Schaden in Höhe des entfernten Betrags zu.\n",
+        "name": "Kaedwen-Kavallerie"
+    },
+    "122315": {
+        "info": "Fernkampf: Füge jeden Zug am Ende des Zugs einer zufällig gewählten gegnerischen Einheit in der Fernkampfreihe 1 Schaden zu.\n",
+        "infoRaw": "<keyword=ranged>Fernkampf</keyword>: Füge jeden Zug am Ende des Zugs einer zufällig gewählten gegnerischen Einheit in der Fernkampfreihe 1 Schaden zu.\n",
+        "name": "Verstärkter Tribok"
+    },
+    "122316": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit 1 Schaden für jede verbesserte Einheit in dieser Reihe zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit 1 Schaden für jede verbesserte Einheit in dieser Reihe zu.\n",
+        "name": "Temerien-Infanterie"
+    },
+    "122318": {
+        "info": "Wann immer eine Maschine in dieser Reihe platziert wird, gib ihr Eifer.\n",
+        "infoRaw": "Wann immer eine Maschine in dieser Reihe platziert wird, gib ihr <keyword=zeal>Eifer</keyword>.\n",
+        "name": "Belagerungsmeister"
+    },
+    "122401": {
+        "info": "Füge jeden Zug am Ende des Zugs der stärksten gegnerischen Einheit 1 Schaden zu. \nBefehl: Verwandle diese Einheit in einen Tölpelbold.\n",
+        "infoRaw": "Füge jeden Zug am Ende des Zugs der stärksten gegnerischen Einheit 1 Schaden zu. \n<keyword=order>Befehl</keyword>: Verwandle diese Einheit in einen Tölpelbold.\n",
+        "name": "Fehlgeborener"
+    },
+    "122402": {
+        "info": "Verbessere jeden Zug am Ende des Zugs die schwächste verbündete Einheit um 1. \nBefehl: Verwandle diese Einheit in einen Fehlgeborenen.\n",
+        "infoRaw": "Verbessere jeden Zug am Ende des Zugs die schwächste verbündete Einheit um 1. \n<keyword=order>Befehl</keyword>: Verwandle diese Einheit in einen Fehlgeborenen.\n",
+        "name": "Tölpelbold"
+    },
+    "122403": {
+        "info": "Einsatz, Fernkampf: Ziehe eine Karte und platziere dann eine Karte aus deiner Hand oben auf deinem Deck.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Ziehe eine Karte und platziere dann eine Karte aus deiner Hand oben auf deinem Deck.\n",
+        "name": "Vicovaro-Novize"
+    },
+    "123201": {
+        "info": "Generiere die Kopie einer verbündeten Bronzeeinheit und rufe sie in diese Reihe herbei.\n",
+        "infoRaw": "<keyword=spawn>Generiere</keyword> die Kopie einer verbündeten Bronzeeinheit und <keyword=summon>rufe</keyword> sie in diese Reihe herbei.\n",
+        "name": "Verstärkung"
+    },
+    "131101": {
+        "info": "Befehl: Verbessere eine Einheit um 4 und mache sie immun.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Verbessere eine Einheit um 4 und mache sie <keyword=immune>immun</keyword>.\n",
+        "name": "Eredin Bréacc Glas"
+    },
+    "131102": {
+        "info": "Fernkampf: Wann immer du eine Einheit mit Todeswunsch ausspielst, wird ihre Todeswunsch-Fähigkeit aktiviert.\n",
+        "infoRaw": "<keyword=ranged>Fernkampf</keyword>: Wann immer du eine Einheit mit <keyword=deathwish>Todeswunsch</keyword> ausspielst, wird ihre <keyword=deathwish>Todeswunsch</keyword>-Fähigkeit aktiviert.\n",
+        "name": "Ge'els"
+    },
+    "132101": {
+        "info": "Einsatz: Verwandle alle verbündeten Menschen in Kaedwen-Wiedergänger, ohne ihre Stärke zu verändern.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verwandle alle verbündeten Menschen in Kaedwen-Wiedergänger, ohne ihre Stärke zu verändern.\n",
+        "name": "Draug"
+    },
+    "132102": {
+        "info": "Füge einer gegnerischen Einheit Schaden in Höhe der Stärke der stärksten verbündeten Einheit zu.\n",
+        "infoRaw": "Füge einer gegnerischen Einheit Schaden in Höhe der Stärke der stärksten verbündeten Einheit zu.\n",
+        "name": "Imleriths Zorn"
+    },
+    "132103": {
+        "info": "Befehl: Verbessere eine Einheit auf deiner Hand um 8.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Verbessere eine Einheit auf deiner Hand um 8.\n",
+        "name": "Waldgeist"
+    },
+    "132104": {
+        "info": "Einsatz: Generiere eine Kopie einer Einheit auf deiner Hand mit Stärke 1 und rufe sie in diese Reihe herbei.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: <keyword=spawn>Generiere</keyword> eine Kopie einer Einheit auf deiner Hand mit Stärke 1 und <keyword=summon>rufe</keyword> sie in diese Reihe herbei.\n",
+        "name": "Caranthir Ar-Feiniel"
+    },
+    "132105": {
+        "info": "Befehl: Mach eine verbündete Einheit immun.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Mach eine verbündete Einheit <keyword=immune>immun</keyword>.\n",
+        "name": "Avallac'h"
+    },
+    "132106": {
+        "info": "Einsatz, Fernkampf: Spiele ein Artefakt aus deinem Friedhof aus.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Spiele ein Artefakt aus deinem Friedhof aus.\n",
+        "name": "Pedell"
+    },
+    "132107": {
+        "info": "Eifer.\nBefehl: Verzehre eine verbündete Einheit.\nLadungen: 3.\n",
+        "infoRaw": "<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: <keyword=consume>Verzehre</keyword> eine verbündete Einheit.\n<keyword=charge>Ladungen</keyword>: 3.\n",
+        "name": "Kayran"
+    },
+    "132108": {
+        "info": "Todeswunsch: Ergreife eine gegnerische Einheit mit max. 3 Stärke.\n",
+        "infoRaw": "<keyword=deathwish>Todeswunsch</keyword>: <keyword=seize>Ergreife</keyword> eine gegnerische Einheit mit max. 3 Stärke.\n",
+        "name": "Miruna"
+    },
+    "132201": {
+        "info": "Generiere 2 Krabbspinne(n) und rufe sie in diese Reihe herbei. Verbessere dann alle anderen Insektoiden in dieser Reihe um 1.\n",
+        "infoRaw": "<keyword=spawn>Generiere</keyword> 2 Krabbspinne(n) und <keyword=summon>rufe</keyword> sie in diese Reihe herbei. Verbessere dann alle anderen Insektoiden in dieser Reihe um 1.\n",
+        "name": "Krabbspinnenungetüm"
+    },
+    "132202": {
+        "info": "Befehl: Verbanne alle Einheiten auf deinem Friedhof und verbessere dann diese Einheit für jede davon um 1.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: <keyword=banish>Verbanne</keyword> alle Einheiten auf deinem Friedhof und verbessere dann diese Einheit für jede davon um 1.\n",
+        "name": "Mourntart"
+    },
+    "132203": {
+        "info": "Gedeihen.\nEinsatz: Aktiviere die Todeswunsch-Fähigkeit einer verbündeten Bronzeeinheit.\n",
+        "infoRaw": "<keyword=thrive>Gedeihen</keyword>.\n<keyword=deploy>Einsatz</keyword>: Aktiviere die <keyword=deathwish>Todeswunsch</keyword>-Fähigkeit einer verbündeten Bronzeeinheit.\n",
+        "name": "Abaya"
+    },
+    "132204": {
+        "info": "Wenn 3 verbündete Einheiten zerstört wurden, wecke den Einschüchterer.\n",
+        "infoRaw": "Wenn 3 verbündete Einheiten zerstört wurden, wecke den Einschüchterer.\n",
+        "name": "Einschüchterer: Schlafend"
+    },
+    "132205": {
+        "info": "Einsatz: Verbessere alle verbündeten Bestien um 1.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere alle verbündeten Bestien um 1.\n",
+        "name": "Morvudd"
+    },
+    "132206": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit 2 Schaden zu.\nErhöhe den Schaden um 2, wann immer du die Brauerin oder die Weberin ausspielst.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit 2 Schaden zu.\nErhöhe den Schaden um 2, wann immer du die Brauerin oder die Weberin ausspielst.\n",
+        "name": "Flüsterin"
+    },
+    "132207": {
+        "info": "Einsatz: Verzehre 1 verbündete Einheit(en).\nErhöhe die Anzahl der Ziele um 1, wann immer du die Flüsterin oder die Weberin ausspielst.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: <keyword=consume>Verzehre</keyword> 1 verbündete Einheit(en).\nErhöhe die Anzahl der Ziele um 1, wann immer du die Flüsterin oder die Weberin ausspielst.\n",
+        "name": "Brauerin"
+    },
+    "132208": {
+        "info": "Einsatz: Verbessere eine verbündete Einheit um 2. \nErhöhe die Höhe der Verbesserung um 2, wann immer du die Flüsterin oder die Brauerin ausspielst.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere eine verbündete Einheit um 2. \nErhöhe die Höhe der Verbesserung um 2, wann immer du die Flüsterin oder die Brauerin ausspielst.\n",
+        "name": "Weberin"
+    },
+    "132209": {
+        "info": "Todeswunsch: Zerstöre die schwächste gegnerische Einheit.\n",
+        "infoRaw": "<keyword=deathwish>Todeswunsch</keyword>: Zerstöre die schwächste gegnerische Einheit.\n",
+        "name": "Kaisermantikor"
+    },
+    "132210": {
+        "info": "Eifer.\nBefehl: Füge allen Einheiten in der gegenüberliegenden Reihe 1 Schaden zu.\nAbklingzeit: 3.\n",
+        "infoRaw": "<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Füge allen Einheiten in der gegenüberliegenden Reihe 1 Schaden zu.\n<keyword=cooldown>Abklingzeit</keyword>: 3.\n",
+        "name": "Kolossaler Ifrit"
+    },
+    "132211": {
+        "info": "Gedeihen.\n",
+        "infoRaw": "<keyword=thrive>Gedeihen</keyword>.\n",
+        "name": "Nekkerkrieger"
+    },
+    "132212": {
+        "info": "Keine Fähigkeit.\n",
+        "infoRaw": "Keine Fähigkeit.\n",
+        "name": "Eisriese"
+    },
+    "132213": {
+        "info": "Keine Fähigkeit.\n",
+        "infoRaw": "Keine Fähigkeit.\n",
+        "name": "Ursprünglicher D'ao"
+    },
+    "132214": {
+        "info": "Einsatz: Zerstöre ein gegnerisches Artefakt. Kontrollierst du die stärkste Einheit, füge dem Artefakt benachbarten Einheiten 2 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Zerstöre ein gegnerisches Artefakt. Kontrollierst du die stärkste Einheit, füge dem Artefakt benachbarten Einheiten 2 Schaden zu.\n",
+        "name": "Nithral"
+    },
+    "132215": {
+        "info": "Einsatz: Gib einer gegnerischen Einheit Verdammnis. \nBefehl: Zerstöre eine verdammte gegnerische Einheit.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Gib einer gegnerischen Einheit <keyword=doomed>Verdammnis</keyword>. \n<keyword=order>Befehl</keyword>: Zerstöre eine <keyword=doomed>verdammte</keyword> gegnerische Einheit.\n",
+        "name": "Gaunter O'Dim"
+    },
+    "132216": {
+        "info": "Einsatz, Nahkampf: Verzehre eine Einheit mit max. 3 Stärke.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: <keyword=consume>Verzehre</keyword> eine Einheit mit max. 3 Stärke.\n",
+        "name": "Krötenprinz"
+    },
+    "132217": {
+        "info": "Einsatz: Verzehre eine verbündete Einheit.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: <keyword=consume>Verzehre</keyword> eine verbündete Einheit.\n",
+        "name": "Kelajno-Harpyie"
+    },
+    "132218": {
+        "info": "Keine Fähigkeit.\n",
+        "infoRaw": "Keine Fähigkeit.\n",
+        "name": "Speerspitze: Schlaf"
+    },
+    "132301": {
+        "info": "Todeswunsch: Rufe eine Kopie dieser Einheit aus deinem Deck in eine zufällig gewählte verbündete Reihe herbei.\n",
+        "infoRaw": "<keyword=deathwish>Todeswunsch</keyword>: <keyword=summon>Rufe</keyword> eine Kopie dieser Einheit aus deinem Deck in eine zufällig gewählte verbündete Reihe herbei.\n",
+        "name": "Nebling"
+    },
+    "132302": {
+        "info": "Todeswunsch: Rufe diese Einheit vom Friedhof in dieselbe Reihe herbei, verstärke sie um 4 und gib ihr Verdammt.\n",
+        "infoRaw": "<keyword=deathwish>Todeswunsch</keyword>: <keyword=summon>Rufe</keyword> diese Einheit vom Friedhof in dieselbe Reihe herbei, verstärke sie um 4 und gib ihr <keyword=doomed>Verdammt</keyword>.\n",
+        "name": "Alter Nebling"
+    },
+    "132303": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit 2 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit 2 Schaden zu.\n",
+        "name": "Wyvern"
+    },
+    "132304": {
+        "info": "Verdammt.\n",
+        "infoRaw": "<keyword=doomed>Verdammt</keyword>.\n",
+        "name": "Krabbspinnendrohne"
+    },
+    "132305": {
+        "info": "Gedeihen.\nEinsatz: Generiere eine einfache Kopie dieser Einheit und rufe sie in diese Reihe herbei.\n",
+        "infoRaw": "<keyword=thrive>Gedeihen</keyword>.\n<keyword=deploy>Einsatz</keyword>: <keyword=spawn>Generiere</keyword> eine einfache Kopie dieser Einheit und <keyword=summon>rufe</keyword> sie in diese Reihe herbei.\n",
+        "name": "Nekker"
+    },
+    "132306": {
+        "info": "Einsatz, Nahkampf: Verzehre eine Einheit auf deinem Friedhof.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: <keyword=consume>Verzehre</keyword> eine Einheit auf deinem Friedhof.\n",
+        "name": "Ghul"
+    },
+    "132307": {
+        "info": "Einsatz: Zerstöre eine verbündete Einheit in dieser Reihe. Sind keine Einheiten vorhanden, zerstöre diese Einheit.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Zerstöre eine verbündete Einheit in dieser Reihe. Sind keine Einheiten vorhanden, zerstöre diese Einheit.\n",
+        "name": "Greif"
+    },
+    "132308": {
+        "info": "Wann immer eine Einheit während deines Zugs zerstört wird, füge einer zufällig gewählten gegnerischen Einheit 1 Schaden zu.\n",
+        "infoRaw": "Wann immer eine Einheit während deines Zugs zerstört wird, füge einer zufällig gewählten gegnerischen Einheit 1 Schaden zu.\n",
+        "name": "Vran-Krieger"
+    },
+    "132309": {
+        "info": "Einsatz: Füge einer Einheit für jede Wilde-Jagd-Einheit in dieser Reihe 1 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer Einheit für jede Wilde-Jagd-Einheit in dieser Reihe 1 Schaden zu.\n",
+        "name": "Wilde-Jagd-Soldat"
+    },
+    "132310": {
+        "info": "Einsatz: Kontrollierst du die stärkste Einheit, rufe eine Kopie von Wilde-Jagd-Reiter aus deinem Deck in diese Reihe herbei.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Kontrollierst du die stärkste Einheit, <keyword=summon>rufe</keyword> eine Kopie von Wilde-Jagd-Reiter aus deinem Deck in diese Reihe herbei.\n",
+        "name": "Wilde-Jagd-Reiter"
+    },
+    "132312": {
+        "info": "Zerstöre die jeweils schwächste Einheit auf beiden Spielerseiten.\n",
+        "infoRaw": "Zerstöre die jeweils schwächste Einheit auf beiden Spielerseiten.\n",
+        "name": "Raubtiersprung"
+    },
+    "132314": {
+        "info": "Gedeihen.\nEinsatz: Füge einer gegnerischen Einheit 2 Schaden zu und verschiebe sie in die andere Reihe.\n",
+        "infoRaw": "<keyword=thrive>Gedeihen</keyword>.\n<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit 2 Schaden zu und verschiebe sie in die andere Reihe.\n",
+        "name": "Ertrunkener"
+    },
+    "132315": {
+        "info": "Verdammt.\n",
+        "infoRaw": "<keyword=doomed>Verdammt</keyword>.\n",
+        "name": "Harpyie"
+    },
+    "132316": {
+        "info": "Todeswunsch: Generiere eine Harpyie und rufe sie in eine zufällig gewählte verbündete Reihe herbei.\n",
+        "infoRaw": "<keyword=deathwish>Todeswunsch</keyword>: <keyword=spawn>Generiere</keyword> eine Harpyie und <keyword=summon>rufe</keyword> sie in eine zufällig gewählte verbündete Reihe herbei.\n",
+        "name": "Harpyien-Ei"
+    },
+    "132402": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit 1 Schaden zu. Kontrollierst du die stärkste Einheit, füge der gegnerischen Einheit stattdessen 3 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit 1 Schaden zu. Kontrollierst du die stärkste Einheit, füge der gegnerischen Einheit stattdessen 3 Schaden zu.\n",
+        "name": "Wilde-Jagd-Diener"
+    },
+    "132403": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit 2 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit 2 Schaden zu.\n",
+        "name": "Wolfsrudel"
+    },
+    "132404": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit 4 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit 4 Schaden zu.\n",
+        "name": "Wütender Ifrit"
+    },
+    "132405": {
+        "info": "Einsatz: Zerstöre ein gegnerisches Artefakt.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Zerstöre ein gegnerisches Artefakt.\n",
+        "name": "Wilder D'ao"
+    },
+    "132406": {
+        "info": "Einsatz: Aktiviere die Todeswunsch-Fähigkeit einer verbündeten Bronzeeinheit.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Aktiviere die <keyword=deathwish>Todeswunsch</keyword>-Fähigkeit einer verbündeten Bronzeeinheit.\n",
+        "name": "Maerolorn"
+    },
+    "132407": {
+        "info": "Einsatz: Enthülle die oberste Einheit aus dem gegnerischen Deck und füge dieser Einheit Schaden in Höhe ihrer Stärke zu. Mische sie dann zurück.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: <keyword=reveal>Enthülle</keyword> die oberste Einheit aus dem gegnerischen Deck und füge dieser Einheit Schaden in Höhe ihrer Stärke zu. Mische sie dann zurück.\n",
+        "name": "Kaisergolem"
+    },
+    "132408": {
+        "info": "Keine Fähigkeit.\n",
+        "infoRaw": "Keine Fähigkeit.\n",
+        "name": "Speerspitze"
+    },
+    "132409": {
+        "info": "Füge einer gegnerischen Einheit 3 Schaden zu und verbessere eine verbündete Einheit um 3.\n",
+        "infoRaw": "Füge einer gegnerischen Einheit 3 Schaden zu und verbessere eine verbündete Einheit um 3.\n",
+        "name": "Grässliches Gelage"
+    },
+    "133301": {
+        "info": "Eifer.\nBefehl: Verbessere eine Einheit um 1. \nAbklingzeit: 1.\n",
+        "infoRaw": "<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Verbessere eine Einheit um 1. \n<keyword=cooldown>Abklingzeit</keyword>: 1.\n",
+        "name": "Wyvernschild"
+    },
+    "133302": {
+        "info": "Generiere 4 Krabbspinne(n) mit 1 Stärke und rufe sie in eine verbündeten Reihe herbei.\n",
+        "infoRaw": "<keyword=spawn>Generiere</keyword> 4 Krabbspinne(n) mit 1 Stärke und <keyword=summon>rufe</keyword> sie in eine verbündeten Reihe herbei.\n",
+        "name": "Krabbspinnennest"
+    },
+    "142101": {
+        "info": "Immun.\nBefehl: Entferne die Immunität dieser Einheit für den Rest des Zugs.\n",
+        "infoRaw": "<keyword=immune>Immun</keyword>.\n<keyword=order>Befehl</keyword>: Entferne die <keyword=immune>Immunität</keyword> dieser Einheit für den Rest des Zugs.\n",
+        "name": "Saesenthessis"
+    },
+    "142102": {
+        "info": "Einsatz: Verbessere alle anderen verbündeten Elfeneinheiten um 1.\nWann immer du einen Elfen ausspielst, verbessere diese Einheit um 1.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere alle anderen verbündeten Elfeneinheiten um 1.\nWann immer du einen Elfen ausspielst, verbessere diese Einheit um 1.\n",
+        "name": "Isengrim Faoiltiarna"
+    },
+    "142103": {
+        "info": "Einsatz: Nimm eine verbündete Falle zurück auf die Hand und spiele dann eine Falle aus.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Nimm eine verbündete Falle zurück auf die Hand und spiele dann eine Falle aus.\n",
+        "name": "Iorweth"
+    },
+    "142104": {
+        "info": "Immun.\nVerbessere diese Einheit um 1, wann immer du eine Scoia'tael-Einheit ausspielst.\n",
+        "infoRaw": "<keyword=immune>Immun</keyword>.\nVerbessere diese Einheit um 1, wann immer du eine Scoia'tael-Einheit ausspielst.\n",
+        "name": "Milva"
+    },
+    "142105": {
+        "info": "Einsatz, Nahkampf: Zerstöre eine Einheit, deren Stärke maximal der Anzahl verbündeter Zwerge entspricht.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Zerstöre eine Einheit, deren Stärke maximal der Anzahl verbündeter Zwerge entspricht.\n",
+        "name": "Zoltan Chivay"
+    },
+    "142106": {
+        "info": "Einsatz: Verdopple am Ende des Zugs alle Verbesserungen, die diese Einheit erhalten hat.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verdopple am Ende des Zugs alle Verbesserungen, die diese Einheit erhalten hat.\n",
+        "name": "Aglaïs"
+    },
+    "142107": {
+        "info": "Einsatz: Verbessere eine Scoia'tael-Einheit auf deiner Hand um 4.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere eine Scoia'tael-Einheit auf deiner Hand um 4.\n",
+        "name": "Ithlinne Aegli"
+    },
+    "142108": {
+        "info": "Eifer.\nBefehl: Zerstöre alle anderen Einheiten mit derselben Stärke wie Schirrü.\n",
+        "infoRaw": "<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Zerstöre alle anderen Einheiten mit derselben Stärke wie Schirrü.\n",
+        "name": "Schirrü"
+    },
+    "142201": {
+        "info": "Einsatz, Nahkampf: Verbessere benachbarte Einheiten um 2.\nEinsatz, Fernkampf: Verbessere alle anderen Einheiten in dieser Reihe um 1.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Verbessere benachbarte Einheiten um 2.\n<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Verbessere alle anderen Einheiten in dieser Reihe um 1.\n",
+        "name": "Dennis Cranmer"
+    },
+    "142202": {
+        "info": "Einsatz, Nahkampf: Zerstöre ein Artefakt.\nEinsatz, Fernkampf: Verbessere eine Einheit um 3.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Zerstöre ein Artefakt.\n<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Verbessere eine Einheit um 3.\n",
+        "name": "Ida Emean aep Sivney"
+    },
+    "142203": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit für jeden verbündeten Elf 1 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit für jeden verbündeten Elf 1 Schaden zu.\n",
+        "name": "Yaevinn"
+    },
+    "142204": {
+        "info": "Einsatz, Nahkampf: Füge allen gegnerischen Einheiten am Ende einer Reihe 2 Schaden zu.\nEinsatz, Fernkampf: Füge allen Einheiten in einer Reihe 1 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Füge allen gegnerischen Einheiten am Ende einer Reihe 2 Schaden zu.\n<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Füge allen Einheiten in einer Reihe 1 Schaden zu.\n",
+        "name": "Toruviel"
+    },
+    "142205": {
+        "info": "Einsatz, Nahkampf: Verschiebe eine gegnerische Einheit in die andere gegnerische Reihe. \nEinsatz, Fernkampf: Verschiebe eine verbündete Einheit in deine andere Reihe.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Verschiebe eine gegnerische Einheit in die andere gegnerische Reihe. \n<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Verschiebe eine verbündete Einheit in deine andere Reihe.\n",
+        "name": "Vrihedd-Dragoner"
+    },
+    "142206": {
+        "info": "Einsatz: Blockiere eine Einheit und verschiebe sie in die andere Reihe auf ihrer Seite.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: <keyword=lock>Blockiere</keyword> eine Einheit und verschiebe sie in die andere Reihe auf ihrer Seite.\n",
+        "name": "Ciaran aep Easnillen"
+    },
+    "142207": {
+        "info": "Einsatz: Verbessere eine verbündete Einheit für jeden verbündeten Zwerg um 1.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere eine verbündete Einheit für jeden verbündeten Zwerg um 1.\n",
+        "name": "Barclay Els"
+    },
+    "142208": {
+        "info": "Einsatz, Nahkampf: Füge einer gegnerischen Einheit 2 Schaden zu.\nEinsatz, Fernkampf: Blockiere eine Einheit.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Füge einer gegnerischen Einheit 2 Schaden zu.\n<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: <keyword=lock>Blockiere</keyword> eine Einheit.\n",
+        "name": "Morenn"
+    },
+    "142209": {
+        "info": "Einsatz: Kontrollierst du mindestens 2 Dryaden, gib dieser Einheit Eifer.\nBefehl: Füge einer gegnerischen Einheit 1 Schaden zu.\nLadungen: 3.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Kontrollierst du mindestens 2 Dryaden, gib dieser Einheit <keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Füge einer gegnerischen Einheit 1 Schaden zu.\n<keyword=charge>Ladungen</keyword>: 3.\n",
+        "name": "Braenn"
+    },
+    "142210": {
+        "info": "Befehl: Verschiebe eine Einheit in die andere Reihe auf ihrer Seite.\nAbklingzeit: 2.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Verschiebe eine Einheit in die andere Reihe auf ihrer Seite.\n<keyword=cooldown>Abklingzeit</keyword>: 2.\n",
+        "name": "Malena"
+    },
+    "142211": {
+        "info": "Kontrollierst du am Ende des Zugs mindestens 5 verbündete Elfen, rufe diese Einheit aus deinem Deck in die Nahkampfreihe herbei.\n",
+        "infoRaw": "Kontrollierst du am Ende des Zugs mindestens 5 verbündete Elfen, <keyword=summon>rufe</keyword> diese Einheit aus deinem Deck in die Nahkampfreihe herbei.\n",
+        "name": "Aelirenn"
+    },
+    "142212": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit Schaden in Höhe der Stärke dieser Einheit zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit Schaden in Höhe der Stärke dieser Einheit zu.\n",
+        "name": "Sheldon Skaggs"
+    },
+    "142213": {
+        "info": "Verbessere diese Einheit jeden Zug am Ende des Zugs um 3, wenn sich keine verbündeten Einheiten auf dem Schlachtfeld befinden.\n",
+        "infoRaw": "Verbessere diese Einheit jeden Zug am Ende des Zugs um 3, wenn sich keine verbündeten Einheiten auf dem Schlachtfeld befinden.\n",
+        "name": "Yarpen Zigrin"
+    },
+    "142214": {
+        "info": "Einsatz: Füge allen beschädigten Einheiten 1 Schaden zu und verbessere alle verbesserten Einheiten um 1.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge allen beschädigten Einheiten 1 Schaden zu und verbessere alle verbesserten Einheiten um 1.\n",
+        "name": "Ele'yas"
+    },
+    "142301": {
+        "info": "Einsatz, Nahkampf: Verbessere eine verbündete Einheit um 2.\nEinsatz, Fernkampf: Heile eine verbündete Einheit um 4.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Verbessere eine verbündete Einheit um 2.\n<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: <keyword=heal>Heile</keyword> eine verbündete Einheit um 4.\n",
+        "name": "Havka-Heiler"
+    },
+    "142302": {
+        "info": "Einsatz: Füge einer zufällig gewählten gegnerischen Einheit 2 Schaden zu.\nWann immer Vrihedd-Brigade in die andere Reihe verschoben wird, wiederhole ihre Einsatz-Fähigkeit.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer zufällig gewählten gegnerischen Einheit 2 Schaden zu.\nWann immer Vrihedd-Brigade in die andere Reihe verschoben wird, wiederhole ihre <keyword=deploy>Einsatz</keyword>-Fähigkeit.\n",
+        "name": "Vrihedd-Brigade"
+    },
+    "142303": {
+        "info": "Einsatz, Nahkampf: Füge einer gegnerischen Einheit 3 Schaden zu.\nEinsatz, Fernkampf: Verbessere eine verbündete Einheit um 3.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Füge einer gegnerischen Einheit 3 Schaden zu.\n<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Verbessere eine verbündete Einheit um 3.\n",
+        "name": "Vrihedd-Offizier"
+    },
+    "142304": {
+        "info": "Einsatz: Füge in jeder Reihe einer zufällig gewählten gegnerischen Einheit 2 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge in jeder Reihe einer zufällig gewählten gegnerischen Einheit 2 Schaden zu.\n",
+        "name": "Dol Blathanna: Fallen"
+    },
+    "142305": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit 3 Schaden zu. Überlebt sie, verbessere diese Einheit um 1.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit 3 Schaden zu. Überlebt sie, verbessere diese Einheit um 1.\n",
+        "name": "Zwergenplänkler"
+    },
+    "142306": {
+        "info": "Verbessere diese Einheit jeden Zug am Ende des Zugs um 1, wenn sie verbessert wurde.\n",
+        "infoRaw": "Verbessere diese Einheit jeden Zug am Ende des Zugs um 1, wenn sie verbessert wurde.\n",
+        "name": "Mahakam-Verteidiger"
+    },
+    "142307": {
+        "info": "Einsatz: Hast du einen Elfen auf der Hand, zerstöre ein gegnerisches Artefakt.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Hast du einen Elfen auf der Hand, zerstöre ein gegnerisches Artefakt.\n",
+        "name": "Vrihedd-Sappeure"
+    },
+    "142308": {
+        "info": "Befindet sich ein verbündeter Elf auf dem Schlachtfeld, zerstöre eine zufällig gewählte gegnerische Einheit.\n",
+        "infoRaw": "Befindet sich ein verbündeter Elf auf dem Schlachtfeld, zerstöre eine zufällig gewählte gegnerische Einheit.\n",
+        "name": "Wegelagerei"
+    },
+    "142309": {
+        "info": "Einsatz: Verbessere diese Einheit für jeden Elfen auf deiner Hand um 1.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere diese Einheit für jeden Elfen auf deiner Hand um 1.\n",
+        "name": "Vrihedd-Vorhut"
+    },
+    "142310": {
+        "info": "Einsatz, Nahkampf: Füge einer gegnerischen Einheit 2 Schaden zu.\nEinsatz, Fernkampf: Füge 2 Einheit(en) 1 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Füge einer gegnerischen Einheit 2 Schaden zu.\n<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Füge 2 Einheit(en) 1 Schaden zu.\n",
+        "name": "Dol Blathanna: Bögen"
+    },
+    "142311": {
+        "info": "Befehl: Füge einer gegnerischen Einheit 1 Schaden zu. \nLadungen: 1.\nGib dieser Einheit 1 Ladung, wann immer du einen Zwerg ausspielst.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Füge einer gegnerischen Einheit 1 Schaden zu. \n<keyword=charge>Ladungen</keyword>: 1.\nGib dieser Einheit 1 <keyword=charge>Ladung</keyword>, wann immer du einen Zwerg ausspielst.\n",
+        "name": "Zwergensöldner"
+    },
+    "142312": {
+        "info": "Einsatz: Verbessere eine verbündete Einheit um 1. Kontrollierst du ein Artefakt, verbessere eine verbündete Einheit stattdessen um 3.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere eine verbündete Einheit um 1. Kontrollierst du ein Artefakt, verbessere eine verbündete Einheit stattdessen um 3.\n",
+        "name": "Havka-Unterstützer"
+    },
+    "142313": {
+        "info": "Einsatz: Wenn diese Einheit bereits verbessert wurde, füge einer gegnerischen Einheit 3 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Wenn diese Einheit bereits verbessert wurde, füge einer gegnerischen Einheit 3 Schaden zu.\n",
+        "name": "Elfen-Kriegstänzerin"
+    },
+    "142314": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit für jede Reihe, die sie von dieser Einheit trennt, 1 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit für jede Reihe, die sie von dieser Einheit trennt, 1 Schaden zu.\n",
+        "name": "Dol Blathanna: Pfeile"
+    },
+    "142315": {
+        "info": "Nahkampf: Verbessere jeden Zug am Ende des Zugs eine zufällig gewählte Einheit auf deiner Hand um 1.\n",
+        "infoRaw": "<keyword=melee>Nahkampf</keyword>: Verbessere jeden Zug am Ende des Zugs eine zufällig gewählte Einheit auf deiner Hand um 1.\n",
+        "name": "Havka-Schmuggler"
+    },
+    "142316": {
+        "info": "Einsatz, Nahkampf: Füge einer gegnerischen Einheit 4 Schaden zu, wenn sich keine anderen Einheiten in ihrer Reihe befinden.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Füge einer gegnerischen Einheit 4 Schaden zu, wenn sich keine anderen Einheiten in ihrer Reihe befinden.\n",
+        "name": "Blaue-Berge-Elite"
+    },
+    "142317": {
+        "info": "Einsatz: Verbessere diese Einheit um die Anzahl der verbündeten Zwerge in der anderen Reihe.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere diese Einheit um die Anzahl der verbündeten Zwerge in der anderen Reihe.\n",
+        "name": "Mahakam-Wache"
+    },
+    "142401": {
+        "info": "Einsatz: Generiere eine einfache Kopie dieser Einheit und rufe sie in die andere verbündete Reihe herbei.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: <keyword=spawn>Generiere</keyword> eine einfache Kopie dieser Einheit und <keyword=summon>rufe</keyword> sie in die andere verbündete Reihe herbei.\n",
+        "name": "Scoia'tael-Neuling"
+    },
+    "143201": {
+        "info": "Überfall: Zerstöre die nächste Sonderkarte, die vom Gegner ausgespielt wird, bevor ihre Fähigkeit aktiviert wird.\n",
+        "infoRaw": "<keyword=ambush>Überfall</keyword>: Zerstöre die nächste Sonderkarte, die vom Gegner ausgespielt wird, bevor ihre Fähigkeit aktiviert wird.\n",
+        "name": "Schlangenfalle"
+    },
+    "143301": {
+        "info": "Überfall: Füge der nächsten Einheit, die vom Gegner ausgespielt wird, 5 Schaden zu.\nEifer.\nBefehl: Drehe diese Einheit um und füge einer anderen Einheit 3 zu.\n",
+        "infoRaw": "<keyword=ambush>Überfall</keyword>: Füge der nächsten Einheit, die vom Gegner ausgespielt wird, 5 Schaden zu.\n<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Drehe diese Einheit um und füge einer anderen Einheit 3 zu.\n",
+        "name": "Einäscherungsfalle"
+    },
+    "152101": {
+        "info": "Einsatz, Nahkampf: Verbanne eine Einheit auf deinem Friedhof und füge einer gegnerischen Einheit Schaden in Höhe ihrer Stärke zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: <keyword=banish>Verbanne</keyword> eine Einheit auf deinem Friedhof und füge einer gegnerischen Einheit Schaden in Höhe ihrer Stärke zu.\n",
+        "name": "Hjalmar an Craite"
+    },
+    "152103": {
+        "info": "Einsatz, Fernkampf: Spiele eine Alchemiekarte aus deinem Deck aus.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Spiele eine Alchemiekarte aus deinem Deck aus.\n",
+        "name": "Mäussack"
+    },
+    "152104": {
+        "info": "Einsatz: Verwirf die Karte ganz rechts auf deiner Hand und zwinge dann deinen Gegner, dasselbe zu tun.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: <keyword=discard>Verwirf</keyword> die Karte ganz rechts auf deiner Hand und zwinge dann deinen Gegner, dasselbe zu tun.\n",
+        "name": "Kambi"
+    },
+    "152105": {
+        "info": "Einsatz: Ziehe bis zu 2 Karten und verwirf dann 2.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Ziehe bis zu 2 Karten und <keyword=discard>verwirf</keyword> dann 2.\n",
+        "name": "Birna Bran"
+    },
+    "152106": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit Schaden in Höhe der doppelten Anzahl beschädigter gegnerischer Einheiten zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit Schaden in Höhe der doppelten Anzahl beschädigter gegnerischer Einheiten zu.\n",
+        "name": "Lugos der Irre"
+    },
+    "152107": {
+        "info": "Befehl: Verwirf eine Karte. Ziehe dann eine Karte.\nLadungen: 3.\nWann immer eine Sonderkarte verworfen wird, füge einer gegnerischen Einheit 2 Schaden zu.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: <keyword=discard>Verwirf</keyword> eine Karte. Ziehe dann eine Karte.\n<keyword=charge>Ladungen</keyword>: 3.\nWann immer eine Sonderkarte <keyword=discard>verworfen</keyword> wird, füge einer gegnerischen Einheit 2 Schaden zu.\n",
+        "name": "Koralle"
+    },
+    "152109": {
+        "info": "Einsatz, Nahkampf: Füge allen gegnerischen Einheiten, die beschädigt sind, 2 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Füge allen gegnerischen Einheiten, die beschädigt sind, 2 Schaden zu.\n",
+        "name": "Wildschwein der See"
+    },
+    "152201": {
+        "info": "Wann immer diese Einheit Schaden erleidet, füge einer zufällig gewählten gegnerischen Einheit 2 Schaden zu.\n",
+        "infoRaw": "Wann immer diese Einheit Schaden erleidet, füge einer zufällig gewählten gegnerischen Einheit 2 Schaden zu.\n",
+        "name": "Blaujung Lugos"
+    },
+    "152202": {
+        "info": "Füge einer Einheit 5 Schaden zu.\nBlutdurst 3: Zerstöre stattdessen eine Einheit.\n",
+        "infoRaw": "Füge einer Einheit 5 Schaden zu.\n<keyword=bloodthirst>Blutdurst</keyword> 3: Zerstöre stattdessen eine Einheit.\n",
+        "name": "Ansturm des Meisters"
+    },
+    "152203": {
+        "info": "Blutdurst 1: Blockiere eine gegnerische Einheit.\n",
+        "infoRaw": "<keyword=bloodthirst>Blutdurst</keyword> 1: <keyword=lock>Blockiere</keyword> eine gegnerische Einheit.\n",
+        "name": "Djenge Frett"
+    },
+    "152204": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit 2 Schaden zu. \nBlutdurst 2: Füge einer gegnerischen Einheit stattdessen 5 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit 2 Schaden zu. \n<keyword=bloodthirst>Blutdurst</keyword> 2: Füge einer gegnerischen Einheit stattdessen 5 Schaden zu.\n",
+        "name": "Donar an Hindar"
+    },
+    "152205": {
+        "info": "Einsatz: Verbessere alle verbündeten Krieger um 1.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere alle verbündeten Krieger um 1.\n",
+        "name": "Draig Bon-Dhu"
+    },
+    "152206": {
+        "info": "Einsatz, Fernkampf: Spiele eine Alchemie-Bronzekarte aus deinem Friedhof aus.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Spiele eine Alchemie-Bronzekarte aus deinem Friedhof aus.\n",
+        "name": "Gremist"
+    },
+    "152207": {
+        "info": "Wann immer du ein Schiff ausspielst, verbessere es um 1.\nWann immer du einen Piraten ausspielst, füge einer zufällig gewählten gegnerischen Einheit 1 Schaden zu.\n",
+        "infoRaw": "Wann immer du ein Schiff ausspielst, verbessere es um 1.\nWann immer du einen Piraten ausspielst, füge einer zufällig gewählten gegnerischen Einheit 1 Schaden zu.\n",
+        "name": "Holger Schwarzhand"
+    },
+    "152208": {
+        "info": "Einsatz: Ist Jutta an Dimun die stärkste Einheit, füge dieser Einheit 6 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Ist Jutta an Dimun die stärkste Einheit, füge dieser Einheit 6 Schaden zu.\n",
+        "name": "Jutta an Dimun"
+    },
+    "152209": {
+        "info": "Wird diese Einheit auf den Friedhof verschoben, rufe sie in der Nahkampfreihe herbei und gib ihr Verdammt.\n",
+        "infoRaw": "Wird diese Einheit auf den Friedhof verschoben, <keyword=summon>rufe</keyword> sie in der Nahkampfreihe herbei und gib ihr <keyword=doomed>Verdammt</keyword>.\n",
+        "name": "Morkvarg"
+    },
+    "152210": {
+        "info": "Eifer.\nEinsatz: Gib dieser Einheit 1 Ladung für jeden Wilden Bären auf dem Friedhof.\nBefehl: Füge einer Einheit 2 Schaden zu.\nLadungen: 1.\n",
+        "infoRaw": "<keyword=zeal>Eifer</keyword>.\n<keyword=deploy>Einsatz</keyword>: Gib dieser Einheit 1 <keyword=charge>Ladung</keyword> für jeden Wilden Bären auf dem Friedhof.\n<keyword=order>Befehl</keyword>: Füge einer Einheit 2 Schaden zu.\n<keyword=charge>Ladungen</keyword>: 1.\n",
+        "name": "Wilder Bär"
+    },
+    "152211": {
+        "info": "Rufe einen Krieger aus deinem Friedhof in eine verbündete Reihe herbei.\n",
+        "infoRaw": "<keyword=summon>Rufe</keyword> einen Krieger aus deinem Friedhof in eine verbündete Reihe herbei.\n",
+        "name": "Sigrdrifas Ritual"
+    },
+    "152213": {
+        "info": "Einsatz, Blutdurst 3: Verbessere diese Einheit um 5.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=bloodthirst>Blutdurst</keyword> 3: Verbessere diese Einheit um 5.\n",
+        "name": "Svanrige Tuirseach"
+    },
+    "152214": {
+        "info": "Befehl: Füge einer Einheit 1 Schaden zu. \nLadungen: 3.\nBlutdurst 2: Gib dieser Einheit Eifer.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Füge einer Einheit 1 Schaden zu. \n<keyword=charge>Ladungen</keyword>: 3.\n<keyword=bloodthirst>Blutdurst</keyword> 2: Gib dieser Einheit <keyword=zeal>Eifer</keyword>.\n",
+        "name": "Udalryk an Brokvar"
+    },
+    "152303": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit 2 Schaden zu. Wird diese Einheit aus dem Friedhof ausgespielt, füge der gegnerischen Einheit stattdessen 4 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit 2 Schaden zu. Wird diese Einheit aus dem Friedhof ausgespielt, füge der gegnerischen Einheit stattdessen 4 Schaden zu.\n",
+        "name": "An-Craite-Krieger"
+    },
+    "152304": {
+        "info": "Befehl: Füge einer gegnerischen Einheit 1 Schaden zu.\nLadungen: 1.\nGib dieser Einheit 1 Ladung, wann immer du eine Karte verwirfst.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Füge einer gegnerischen Einheit 1 Schaden zu.\n<keyword=charge>Ladungen</keyword>: 1.\nGib dieser Einheit 1 <keyword=charge>Ladung</keyword>, wann immer du eine Karte <keyword=discard>verwirfst</keyword>.\n",
+        "name": "Brokvar-Jäger"
+    },
+    "152305": {
+        "info": "Einsatz: Verschiebe die oberste Karte in deinem Deck auf deinen Friedhof.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verschiebe die oberste Karte in deinem Deck auf deinen Friedhof.\n",
+        "name": "Dimun-Pirat"
+    },
+    "152306": {
+        "info": "Einsatz.\nBlutdurst 2: Füge einer gegnerischen Einheit 3 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>.\n<keyword=bloodthirst>Blutdurst</keyword> 2: Füge einer gegnerischen Einheit 3 Schaden zu.\n",
+        "name": "Dimun-Piratenkapitän"
+    },
+    "152307": {
+        "info": "Befehl: Erleidet diese Einheit Schaden, generiere eine einfache Kopie von ihr und rufe sie rechts neben dieser Einheit herbei.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Erleidet diese Einheit Schaden, <keyword=spawn>generiere</keyword> eine einfache Kopie von ihr und <keyword=summon>rufe</keyword> sie rechts neben dieser Einheit herbei.\n",
+        "name": "Drummond-Leibwache"
+    },
+    "152308": {
+        "info": "Einsatz: Verwirf eine Karte. Ziehe dann eine Karte.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: <keyword=discard>Verwirf</keyword> eine Karte. Ziehe dann eine Karte.\n",
+        "name": "Heymaey-Skalde"
+    },
+    "152309": {
+        "info": "Befehl: Füge dieser und einer gegnerischen Einheit 1 Schaden zu. \nAbklingzeit: 1.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Füge dieser und einer gegnerischen Einheit 1 Schaden zu. \n<keyword=cooldown>Abklingzeit</keyword>: 1.\n",
+        "name": "Dimun-Langschiff"
+    },
+    "152310": {
+        "info": "Spiele eine Bronzeeinheit aus deinem Friedhof aus.\n",
+        "infoRaw": "Spiele eine Bronzeeinheit aus deinem Friedhof aus.\n",
+        "name": "Freyas Segen"
+    },
+    "152311": {
+        "info": "Befehl: Verbessere eine verbündete Einheit um 1. \nLadungen: 1.\nGib dieser Einheit 1 Ladung, wann immer du einen Krieger ausspielst.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Verbessere eine verbündete Einheit um 1. \n<keyword=charge>Ladungen</keyword>: 1.\nGib dieser Einheit 1 <keyword=charge>Ladung</keyword>, wann immer du einen Krieger ausspielst.\n",
+        "name": "An-Craite-Schmied"
+    },
+    "152312": {
+        "info": "Einsatz, Nahkampf: Zerstöre eine gegnerische Einheit, die höchstens die Hälfte ihrer Basisstärke aufweist.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Zerstöre eine gegnerische Einheit, die höchstens die Hälfte ihrer Basisstärke aufweist.\n",
+        "name": "Tuirseach-Axtkämpfer"
+    },
+    "152313": {
+        "info": "Wird diese Einheit verworfen, rufe sie aus deinem Friedhof in die Nahkampfreihe herbei.\n",
+        "infoRaw": "Wird diese Einheit <keyword=discard>verworfen</keyword>, <keyword=summon>rufe</keyword> sie aus deinem Friedhof in die Nahkampfreihe herbei.\n",
+        "name": "Tuirseach-Plänkler"
+    },
+    "152314": {
+        "info": "Wann immer dein Gegner eine Einheit ausspielt, füge ihr 1 Schaden zu.\n",
+        "infoRaw": "Wann immer dein Gegner eine Einheit ausspielt, füge ihr 1 Schaden zu.\n",
+        "name": "An-Craite-Langschiff"
+    },
+    "152315": {
+        "info": "Einsatz, Fernkampf: Füge einer gegnerischen Einheit Schaden in Höhe der Anzahl der beschädigten Einheiten auf ihrer Seite zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Füge einer gegnerischen Einheit Schaden in Höhe der Anzahl der beschädigten Einheiten auf ihrer Seite zu.\n",
+        "name": "Brokvar-Schütze"
+    },
+    "152316": {
+        "info": "Füge einer Einheit 4 Schaden zu.\nBlutdurst 2: Füge einer Einheit stattdessen 6 Schaden zu.\n",
+        "infoRaw": "Füge einer Einheit 4 Schaden zu.\n<keyword=bloodthirst>Blutdurst</keyword> 2: Füge einer Einheit stattdessen 6 Schaden zu.\n",
+        "name": "Ausweidehieb"
+    },
+    "152317": {
+        "info": "Einsatz: Verbessere eine verbündete Einheit um 1. Wenn es sich um einen Krieger handelt, verbessere ihn stattdessen um 3.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere eine verbündete Einheit um 1. Wenn es sich um einen Krieger handelt, verbessere ihn stattdessen um 3.\n",
+        "name": "An-Craite-Plattner"
+    },
+    "152318": {
+        "info": "Wenn diese Einheit das nächste Mal Schaden erleidet, rufe eine Kopie von ihr aus deinem Deck herbei.\n",
+        "infoRaw": "Wenn diese Einheit das nächste Mal Schaden erleidet, <keyword=summon>rufe</keyword> eine Kopie von ihr aus deinem Deck herbei.\n",
+        "name": "Drummond-Schildmaid"
+    },
+    "152403": {
+        "info": "Teile 6 Schaden zufällig zwischen allen Einheiten in einer gegnerischen Reihe auf.\n",
+        "infoRaw": "Teile 6 Schaden zufällig zwischen allen Einheiten in einer gegnerischen Reihe auf.\n",
+        "name": "Delirium"
+    },
+    "152405": {
+        "info": "Keine Fähigkeit.\n",
+        "infoRaw": "Keine Fähigkeit.\n",
+        "name": "Ältester Bär"
+    },
+    "152406": {
+        "info": "Einsatz: Füge einer verbündeten Einheit zur Linken 1 Schaden zu. Ist keine verbündete Einheit vorhanden, füge stattdessen dieser Einheit 1 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer verbündeten Einheit zur Linken 1 Schaden zu. Ist keine verbündete Einheit vorhanden, füge stattdessen dieser Einheit 1 Schaden zu.\n",
+        "name": "Wütender Bär"
+    },
+    "153201": {
+        "info": "Heile alle Einheiten in einer Reihe.\n",
+        "infoRaw": "<keyword=heal>Heile</keyword> alle Einheiten in einer Reihe.\n",
+        "name": "Wiederherstellen"
+    },
+    "153301": {
+        "info": "Füge allen Einheiten in einer Reihe 2 Schaden zu.\n",
+        "infoRaw": "Füge allen Einheiten in einer Reihe 2 Schaden zu.\n",
+        "name": "Zerfetzen"
+    },
+    "162101": {
+        "info": "Einsatz: Entferne alle \"Neu ziehen\" vom gegnerischen Anführer.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Entferne alle \"Neu ziehen\" vom gegnerischen Anführer.\n",
+        "name": "Letho von Guleta"
+    },
+    "162102": {
+        "info": "Einsatz, Fernkampf: Spiele eine Taktikkarte aus deinem Deck aus.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Spiele eine Taktikkarte aus deinem Deck aus.\n",
+        "name": "Menno Coehoorn"
+    },
+    "162103": {
+        "info": "Befehl, Nahkampf: Ergreife eine blockierte gegnerische Einheit.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>, <keyword=melee>Nahkampf</keyword>: <keyword=seize>Ergreife</keyword> eine <keyword=lock>blockierte</keyword> gegnerische Einheit.\n",
+        "name": "Vattier de Rideaux"
+    },
+    "162104": {
+        "info": "Nahkampf: Wann immer eine gegnerische Einheit verbessert wird, verbessere diese Einheit um denselben Betrag.\n",
+        "infoRaw": "<keyword=melee>Nahkampf</keyword>: Wann immer eine gegnerische Einheit verbessert wird, verbessere diese Einheit um denselben Betrag.\n",
+        "name": "Cahir Dyffryn"
+    },
+    "162105": {
+        "info": "Einsatz, Nahkampf: Zerstöre eine gegnerische Einheit, dann ruft dein Gegner die oberste Einheit aus seinem Deck in eine zufällig gewählte gegnerische Reihe herbei. \nEinsatz, Fernkampf: Zerstöre eine verbündete Einheit und rufe dann die oberste Einheit aus deinem Deck in eine zufällig gewählte verbündete Reihe herbei.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Zerstöre eine gegnerische Einheit, dann <keyword=summon>ruft</keyword> dein Gegner die oberste Einheit aus seinem Deck in eine zufällig gewählte gegnerische Reihe herbei. \n<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Zerstöre eine verbündete Einheit und <keyword=summon>rufe</keyword> dann die oberste Einheit aus deinem Deck in eine zufällig gewählte verbündete Reihe herbei.\n",
+        "name": "Vilgefortz"
+    },
+    "162106": {
+        "info": "Befehl: Generiere die Kopie einer Taktikkarte, die du in diesem Zug ausgespielt hast, und spiele sie aus.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: <keyword=spawn>Generiere</keyword> die Kopie einer Taktikkarte, die du in diesem Zug ausgespielt hast, und spiele sie aus.\n",
+        "name": "Stefan Skellen"
+    },
+    "162107": {
+        "info": "Einsatz: Dein Gegner ruft die oberste Einheit aus seinem Deck in eine zufällig gewählte gegnerische Reihe herbei.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Dein Gegner <keyword=summon>ruft</keyword> die oberste Einheit aus seinem Deck in eine zufällig gewählte gegnerische Reihe herbei.\n",
+        "name": "Tibor Eggebracht"
+    },
+    "162108": {
+        "info": "Einsatz: Enthülle eine zufällig gewählte Karte in deinem Deck. Wenn sie eine Einheit ist, verbessere sie um ihre Stärke und mische sie zurück ins Deck. Wenn sie ein Artefakt oder eine Sonderkarte ist, spiele sie aus.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: <keyword=reveal>Enthülle</keyword> eine zufällig gewählte Karte in deinem Deck. Wenn sie eine Einheit ist, verbessere sie um ihre Stärke und mische sie zurück ins Deck. Wenn sie ein Artefakt oder eine Sonderkarte ist, spiele sie aus.\n",
+        "name": "Xarthisius"
+    },
+    "162201": {
+        "info": "Einsatz, Fernkampf: Verschiebe eine beliebige Karte aus deinem Deck nach oben. Wenn sie eine Einheit ist, verstärke sie um 2.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Verschiebe eine beliebige Karte aus deinem Deck nach oben. Wenn sie eine Einheit ist, verstärke sie um 2.\n",
+        "name": "Albrich"
+    },
+    "162202": {
+        "info": "Einsatz, Nahkampf: Mische eine Karte aus dem gegnerischen Friedhof zurück ins gegnerische Deck. \nEinsatz, Fernkampf: Mische eine Karte aus deinem Friedhof zurück in dein Deck.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Mische eine Karte aus dem gegnerischen Friedhof zurück ins gegnerische Deck. \n<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Mische eine Karte aus deinem Friedhof zurück in dein Deck.\n",
+        "name": "Assire var Anahid"
+    },
+    "162203": {
+        "info": "Einsatz, Nahkampf: Generiere Den Wächter und platziere ihn oben auf dem gegnerischen Deck.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: <keyword=spawn>Generiere</keyword> Den Wächter und platziere ihn oben auf dem gegnerischen Deck.\n",
+        "name": "Cynthia"
+    },
+    "162204": {
+        "info": "Einsatz: Stelle die Basisstärke einer Einheit wieder her.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Stelle die Basisstärke einer Einheit wieder her.\n",
+        "name": "Peter Saar Gwynleve"
+    },
+    "162205": {
+        "info": "Befehl: Enthülle eine zufällig gewählte Sonderkarte aus dem gegnerischen Deck. Generiere dann eine Kopie von ihr und spiele sie aus.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: <keyword=reveal>Enthülle</keyword> eine zufällig gewählte Sonderkarte aus dem gegnerischen Deck. <keyword=spawn>Generiere</keyword> dann eine Kopie von ihr und spiele sie aus.\n",
+        "name": "Fringilla Vigo"
+    },
+    "162206": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit 1 Schaden zu.\nErhöhe den von dieser Einheit zugefügten Schaden für jede von dir enthüllte Karte um 1.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit 1 Schaden zu.\nErhöhe den von dieser Einheit zugefügten Schaden für jede von dir <keyword=reveal>enthüllte</keyword> Karte um 1.\n",
+        "name": "Sweers"
+    },
+    "162207": {
+        "info": "Einsatz, Fernkampf: Zerstöre eine blockierte gegnerische Einheit.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Zerstöre eine <keyword=lock>blockierte</keyword> gegnerische Einheit.\n",
+        "name": "Vanhemar"
+    },
+    "162208": {
+        "info": "Einsatz: Blockiere eine gegnerische Einheit.\nHast du Serrit auf der Hand, blockiere alle Kopien der gegnerischen Einheit auf der gegnerischen Hand, im gegnerischen Deck und auf der gegnerischen Schlachtfeldseite.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: <keyword=lock>Blockiere</keyword> eine gegnerische Einheit.\nHast du Serrit auf der Hand, <keyword=lock>blockiere</keyword> alle Kopien der gegnerischen Einheit auf der gegnerischen Hand, im gegnerischen Deck und auf der gegnerischen Schlachtfeldseite.\n",
+        "name": "Auckes"
+    },
+    "162209": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit 3 Schaden zu. Wenn du Auckes auf der Hand hast, füge der Einheit stattdessen 5 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit 3 Schaden zu. Wenn du Auckes auf der Hand hast, füge der Einheit stattdessen 5 Schaden zu.\n",
+        "name": "Serrit"
+    },
+    "162210": {
+        "info": "Spionage.\nEinsatz: Spiele die oberste Karte aus dem gegnerischen Deck aus.\n",
+        "infoRaw": "<keyword=spying>Spionage</keyword>.\n<keyword=deploy>Einsatz</keyword>: Spiele die oberste Karte aus dem gegnerischen Deck aus.\n",
+        "name": "Cantarella"
+    },
+    "162211": {
+        "info": "Spionage.\nEinsatz: Spiele die oberste Einheit ohne Spionage aus deinem Deck aus und verbessere sie um 8.\n",
+        "infoRaw": "<keyword=spying>Spionage</keyword>.\n<keyword=deploy>Einsatz</keyword>: Spiele die oberste Einheit ohne <keyword=spying>Spionage</keyword> aus deinem Deck aus und verbessere sie um 8.\n",
+        "name": "Joachim de Wett"
+    },
+    "162212": {
+        "info": "Einsatz, Nahkampf: Verschiebe einen Gegner in die andere Reihe.\nEinsatz, Fernkampf: Zerstöre ein gegnerisches Artefakt.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Verschiebe einen Gegner in die andere Reihe.\n<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Zerstöre ein gegnerisches Artefakt.\n",
+        "name": "Falsche Ciri"
+    },
+    "162213": {
+        "info": "Einsatz: Entferne alle Statuseffekte von allen Einheiten auf dem Schlachtfeld.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Entferne alle Statuseffekte von allen Einheiten auf dem Schlachtfeld.\n",
+        "name": "Ceallach Dyffryn"
+    },
+    "162301": {
+        "info": "Wenn du diese Einheit enthüllst, rufe eine Kopie von ihr aus deinem Deck in eine zufällig gewählte verbündete Reihe herbei.\n",
+        "infoRaw": "Wenn du diese Einheit <keyword=reveal>enthüllst</keyword>, <keyword=summon>rufe</keyword> eine Kopie von ihr aus deinem Deck in eine zufällig gewählte verbündete Reihe herbei.\n",
+        "name": "Daerlan-Soldat"
+    },
+    "162302": {
+        "info": "Einsatz, Fernkampf: Generiere einen Kuhkadaver und spiele ihn aus.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: <keyword=spawn>Generiere</keyword> einen Kuhkadaver und spiele ihn aus.\n",
+        "name": "Seuchen-Mangonel"
+    },
+    "162303": {
+        "info": "Einsatz, Nahkampf: Enthülle eine zufällig gewählte Einheit im gegnerischen Deck und verbessere diese Einheit um deren Stärke.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: <keyword=reveal>Enthülle</keyword> eine zufällig gewählte Einheit im gegnerischen Deck und verbessere diese Einheit um deren Stärke.\n",
+        "name": "Späher"
+    },
+    "162304": {
+        "info": "Spiele eine Bronzeeinheit aus dem gegnerischen Friedhof aus.\n",
+        "infoRaw": "Spiele eine Bronzeeinheit aus dem gegnerischen Friedhof aus.\n",
+        "name": "Experimentelles Antidot"
+    },
+    "162305": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit 2 Schaden zu und enthülle dann eine zufällig gewählte Einheit aus beiden Decks. Ist deine stärker, wiederhole die Einsatz-Fähigkeit.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit 2 Schaden zu und <keyword=reveal>enthülle</keyword> dann eine zufällig gewählte Einheit aus beiden Decks. Ist deine stärker, wiederhole die <keyword=deploy>Einsatz</keyword>-Fähigkeit.\n",
+        "name": "Deithwen-Arbaleste"
+    },
+    "162306": {
+        "info": "Befehl, Fernkampf: Füge einer Einheit 1 Schaden zu.\nLadungen: 1.\nGib dieser Einheit 1 Ladung, wann immer du eine Taktikkarte ausspielst.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>, <keyword=ranged>Fernkampf</keyword>: Füge einer Einheit 1 Schaden zu.\n<keyword=charge>Ladungen</keyword>: 1.\nGib dieser Einheit 1 <keyword=charge>Ladung</keyword>, wann immer du eine Taktikkarte ausspielst.\n",
+        "name": "Feuerskorpion"
+    },
+    "162307": {
+        "info": "Einsatz, Nahkampf: Rufe eine Kopie dieser Einheit aus deinem Deck in diese Reihe herbei.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: <keyword=summon>Rufe</keyword> eine Kopie dieser Einheit aus deinem Deck in diese Reihe herbei.\n",
+        "name": "Impera-Brigade"
+    },
+    "162308": {
+        "info": "Befehl: Füge einer gegnerischen Einheit 2 Schaden zu.\nLadungen: 1.\nGib dieser Einheit 1 Ladung, wann immer du eine Spionage-Einheit ausspielst.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Füge einer gegnerischen Einheit 2 Schaden zu.\n<keyword=charge>Ladungen</keyword>: 1.\nGib dieser Einheit 1 <keyword=charge>Ladung</keyword>, wann immer du eine <keyword=spying>Spionage</keyword>-Einheit ausspielst.\n",
+        "name": "Impera-Vollstrecker"
+    },
+    "162309": {
+        "info": "Wann immer eine Einheit mit Einsatz-Fähigkeit ausgespielt wird, verbessere diese Einheit um 1.\n",
+        "infoRaw": "Wann immer eine Einheit mit <keyword=deploy>Einsatz</keyword>-Fähigkeit ausgespielt wird, verbessere diese Einheit um 1.\n",
+        "name": "Nauzicaa-Feldwebel"
+    },
+    "162310": {
+        "info": "Einsatz: Füge einer verbesserten gegnerischen Einheit 3 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer verbesserten gegnerischen Einheit 3 Schaden zu.\n",
+        "name": "Nauzicaa-Brigade"
+    },
+    "162311": {
+        "info": "Einsatz, Nahkampf: Füge einer gegnerischen Einheit Schaden in Höhe der Anzahl von Einheiten in der anderen Reihe zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Füge einer gegnerischen Einheit Schaden in Höhe der Anzahl von Einheiten in der anderen Reihe zu.\n",
+        "name": "Alba-Pikenier"
+    },
+    "162312": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit 2 Schaden zu. Erhöhe den Schaden für jeden benachbarten Soldaten um 1.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit 2 Schaden zu. Erhöhe den Schaden für jeden benachbarten Soldaten um 1.\n",
+        "name": "Alba-Speerträger"
+    },
+    "162313": {
+        "info": "Einsatz: Kontrollierst du ein Artefakt, verbessere diese Einheit um 3.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Kontrollierst du ein Artefakt, verbessere diese Einheit um 3.\n",
+        "name": "Sappeur"
+    },
+    "162314": {
+        "info": "Spionage.\nEinsatz: Verbessere eine verbündete Einheit um 7.\n",
+        "infoRaw": "<keyword=spying>Spionage</keyword>.\n<keyword=deploy>Einsatz</keyword>: Verbessere eine verbündete Einheit um 7.\n",
+        "name": "Emissär"
+    },
+    "162315": {
+        "info": "Erschaffe eine Bronzeeinheit aus der gegnerischen Fraktion und spiele sie aus.\n",
+        "infoRaw": "<keyword=create>Erschaffe</keyword> eine Bronzeeinheit aus der gegnerischen Fraktion und spiele sie aus.\n",
+        "name": "Kaiserliche Diplomatie"
+    },
+    "162316": {
+        "info": "Einsatz, Fernkampf: Tausche die Stärke von 2 verbündeten Einheiten.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Tausche die Stärke von 2 verbündeten Einheiten.\n",
+        "name": "Alchemist"
+    },
+    "162317": {
+        "info": "Wann immer du eine Karte enthüllst, füge einer zufällig gewählten gegnerischen Einheit 1 Schaden zu.\n",
+        "infoRaw": "Wann immer du eine Karte <keyword=reveal>enthüllst</keyword>, füge einer zufällig gewählten gegnerischen Einheit 1 Schaden zu.\n",
+        "name": "Mangonel"
+    },
+    "162318": {
+        "info": "Einsatz: Verbessere eine gegnerische Einheit um 2. Sind keine gegnerischen Einheiten vorhanden, zerstöre diese Einheit.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere eine gegnerische Einheit um 2. Sind keine gegnerischen Einheiten vorhanden, zerstöre diese Einheit.\n",
+        "name": "Nilfgaard-Ritter"
+    },
+    "162401": {
+        "info": "Keine Fähigkeit.\n",
+        "infoRaw": "Keine Fähigkeit.\n",
+        "name": "Der Wächter"
+    },
+    "162402": {
+        "info": "Spionage. Verdammt.\nZerstöre nach einem Zug am Ende des Zugs diese Einheit und die Einheit links von ihr.\n",
+        "infoRaw": "<keyword=spying>Spionage</keyword>. <keyword=doomed>Verdammt</keyword>.\nZerstöre nach einem Zug am Ende des Zugs diese Einheit und die Einheit links von ihr.\n",
+        "name": "Kuhkadaver"
+    },
+    "163101": {
+        "info": "Zwinge eine gegnerische Einheit, ihren benachbarten Einheiten Schaden in Höhe ihrer eigenen Stärke zuzufügen.\n",
+        "infoRaw": "Zwinge eine gegnerische Einheit, ihren benachbarten Einheiten Schaden in Höhe ihrer eigenen Stärke zuzufügen.\n",
+        "name": "Verrat"
+    },
+    "163201": {
+        "info": "Erschaffe eine Einheit aus dem Startdeck deines Gegners und spiele sie aus.\n",
+        "infoRaw": "<keyword=create>Erschaffe</keyword> eine Einheit aus dem Startdeck deines Gegners und spiele sie aus.\n",
+        "name": "Bestechung"
+    },
+    "200008": {
+        "info": "Eifer.\nBefehl: Verbessere eine verbündete Einheit um 3 und gib ihr Eifer.\n",
+        "infoRaw": "<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Verbessere eine verbündete Einheit um 3 und gib ihr <keyword=zeal>Eifer</keyword>.\n",
+        "name": "Petris Filter"
+    },
+    "200018": {
+        "info": "Verbanne eine Einheit oder ein Artefakt.\n",
+        "infoRaw": "<keyword=banish>Verbanne</keyword> eine Einheit oder ein Artefakt.\n",
+        "name": "Korathi-Hitzewelle"
+    },
+    "200019": {
+        "info": "Spiele die schwächste Einheit aus deinem Deck aus.\n",
+        "infoRaw": "Spiele die schwächste Einheit aus deinem Deck aus.\n",
+        "name": "Marschbefehle"
+    },
+    "200020": {
+        "info": "Spiele eine Bronzeeinheit aus deinem Friedhof aus und gib ihr Verdammt.\n",
+        "infoRaw": "Spiele eine Bronzeeinheit aus deinem Friedhof aus und gib ihr <keyword=doomed>Verdammt</keyword>.\n",
+        "name": "Nekromantie"
+    },
+    "200022": {
+        "info": "Eifer.\nBefehl: Spiele eine Einheit aus deinem Deck aus, deren Rekrutierungskosten maximal der Anzahl Ladungen von Beschwörungskreis entspricht, und entferne dann alle Ladungen von dieser Einheit.\nLadungen: 0.\nGib dieser Einheit jeden Zug zu Beginn des Zugs 1 Ladung.\n",
+        "infoRaw": "<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Spiele eine Einheit aus deinem Deck aus, deren Rekrutierungskosten maximal der Anzahl <keyword=charge>Ladungen</keyword> von Beschwörungskreis entspricht, und entferne dann alle <keyword=charge>Ladungen</keyword> von dieser Einheit.\n<keyword=charge>Ladungen</keyword>: 0.\nGib dieser Einheit jeden Zug zu Beginn des Zugs 1 <keyword=charge>Ladung</keyword>.\n",
+        "name": "Beschwörungskreis"
+    },
+    "200023": {
+        "info": "Füge einer Einheit 3 Schaden zu. Wenn sie zerstört wurde, füge ihren benachbarten Einheiten 3 Schaden zu.\n",
+        "infoRaw": "Füge einer Einheit 3 Schaden zu. Wenn sie zerstört wurde, füge ihren benachbarten Einheiten 3 Schaden zu.\n",
+        "name": "Krabbspinnengift"
+    },
+    "200026": {
+        "info": "Einsatz: Verbessere eine verbündete Einheit um 1. Kontrollierst du die stärkste Einheit, verbessere die verbündete Einheit stattdessen um 3.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere eine verbündete Einheit um 1. Kontrollierst du die stärkste Einheit, verbessere die verbündete Einheit stattdessen um 3.\n",
+        "name": "Wilde-Jagd-Führerin"
+    },
+    "200028": {
+        "info": "Einsatz, Nahkampf: Zerstöre eine beschädigte gegnerische Einheit.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Zerstöre eine beschädigte gegnerische Einheit.\n",
+        "name": "Vabjorn"
+    },
+    "200030": {
+        "info": "Einsatz, Nahkampf: Füge einer gegnerischen Einheit 4 Schaden zu.\nEinsatz, Fernkampf: Füge 4 gegnerischen Einheiten 1 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Füge einer gegnerischen Einheit 4 Schaden zu.\n<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Füge 4 gegnerischen Einheiten 1 Schaden zu.\n",
+        "name": "Milaen"
+    },
+    "200031": {
+        "info": "Einsatz, Nahkampf: Zerstöre eine gegnerische Einheit mit mindestens 8 Stärke. \nEinsatz, Fernkampf: Zerstöre einen Hexer.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Zerstöre eine gegnerische Einheit mit mindestens 8 Stärke. \n<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Zerstöre einen Hexer.\n",
+        "name": "Leo Bonhart"
+    },
+    "200032": {
+        "info": "Einsatz: Verbessere eine gegnerische Einheit um 3 und verbessere dann diese Einheit um 3.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere eine gegnerische Einheit um 3 und verbessere dann diese Einheit um 3.\n",
+        "name": "Rainfarn var Attre"
+    },
+    "200033": {
+        "info": "Eifer.\nBefehl, Fernkampf: Gib einer verbündeten Einheit 1 Ladung.\nAbklingzeit: 2.\n",
+        "infoRaw": "<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>, <keyword=ranged>Fernkampf</keyword>: Gib einer verbündeten Einheit 1 <keyword=charge>Ladung</keyword>.\n<keyword=cooldown>Abklingzeit</keyword>: 2.\n",
+        "name": "Aretusa-Adeptin"
+    },
+    "200036": {
+        "info": "Einsatz, Nahkampf, Blutdurst 1: Zerstöre ein gegnerisches Artefakt.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>, <keyword=bloodthirst>Blutdurst</keyword> 1: Zerstöre ein gegnerisches Artefakt.\n",
+        "name": "Drummond-Kriegsherr"
+    },
+    "200037": {
+        "info": "Einsatz: Zerstöre eine benachbarte verbündete Einheit und füge einer gegnerischen Einheit Schaden in Höhe ihrer Stärke zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Zerstöre eine benachbarte verbündete Einheit und füge einer gegnerischen Einheit Schaden in Höhe ihrer Stärke zu.\n",
+        "name": "Zyklop"
+    },
+    "200038": {
+        "info": "Gedeihen.\nEinsatz: Füge einer zufällig gewählten gegnerischen Einheit 2 Schaden zu. \nTodeswunsch: Wiederhole die Einsatz-Fähigkeit.\n",
+        "infoRaw": "<keyword=thrive>Gedeihen</keyword>.\n<keyword=deploy>Einsatz</keyword>: Füge einer zufällig gewählten gegnerischen Einheit 2 Schaden zu. \n<keyword=deathwish>Todeswunsch</keyword>: Wiederhole die <keyword=deploy>Einsatz</keyword>-Fähigkeit.\n",
+        "name": "Archespore"
+    },
+    "200039": {
+        "info": "Nahkampf: Wann immer eine gegnerische Einheit in die andere Reihe verschoben wird, füge ihr 1 Schaden zu.\nFernkampf: Wann immer eine verbündete Einheit in die andere Reihe verschoben wird, verbessere sie um 1.\n",
+        "infoRaw": "<keyword=melee>Nahkampf</keyword>: Wann immer eine gegnerische Einheit in die andere Reihe verschoben wird, füge ihr 1 Schaden zu.\n<keyword=ranged>Fernkampf</keyword>: Wann immer eine verbündete Einheit in die andere Reihe verschoben wird, verbessere sie um 1.\n",
+        "name": "Dol Blathanna Wache"
+    },
+    "200040": {
+        "info": "Erleidet eine gegnerische Einheit in der gegenüberliegenden Reihe Schaden, verbessere diese Einheit um 1.\n",
+        "infoRaw": "Erleidet eine gegnerische Einheit in der gegenüberliegenden Reihe Schaden, verbessere diese Einheit um 1.\n",
+        "name": "An-Craite-Zweihänder"
+    },
+    "200041": {
+        "info": "Immun.\nBefehl: Füge einer gegnerischen Einheit für jeden Soldaten in dieser Reihe 2 Schaden zu .\n",
+        "infoRaw": "<keyword=immune>Immun</keyword>.\n<keyword=order>Befehl</keyword>: Füge einer gegnerischen Einheit für jeden Soldaten in dieser Reihe 2 Schaden zu .\n",
+        "name": "Durchschuss-Dörte"
+    },
+    "200042": {
+        "info": "Einsatz: Wurde diese Einheit bereits verbessert, gib ihr Zähigkeit.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Wurde diese Einheit bereits verbessert, gib ihr <keyword=resilient>Zähigkeit</keyword>.\n",
+        "name": "Mahakam-Brigant"
+    },
+    "200043": {
+        "info": "Einsatz: Generiere 3 von Haralds Freunden und rufe sie in die andere verbündete Reihe herbei.\nBefehl: Füge einer verbündeten Einheit 1 Schaden zu.\nAbklingzeit: 1.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: <keyword=spawn>Generiere</keyword> 3 von Haralds Freunden und <keyword=summon>rufe</keyword> sie in die andere verbündete Reihe herbei.\n<keyword=order>Befehl</keyword>: Füge einer verbündeten Einheit 1 Schaden zu.\n<keyword=cooldown>Abklingzeit</keyword>: 1.\n",
+        "name": "Harald Hundeschnauze"
+    },
+    "200044": {
+        "info": "Verbessere diese Einheit jeden Zug am Ende des Zugs um 1, wenn sie die einzige in dieser Reihe ist.\n",
+        "infoRaw": "Verbessere diese Einheit jeden Zug am Ende des Zugs um 1, wenn sie die einzige in dieser Reihe ist.\n",
+        "name": "Division Magne"
+    },
+    "200046": {
+        "info": "Einsatz: Füge dieser Einheit 4 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge dieser Einheit 4 Schaden zu.\n",
+        "name": "Tuirseach-Veteran"
+    },
+    "200048": {
+        "info": "Einsatz: Verbessere eine verbündete Einheit für jede ihrer Ladungen um 1.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere eine verbündete Einheit für jede ihrer <keyword=charge>Ladungen</keyword> um 1.\n",
+        "name": "Ban-Ard-Tutor"
+    },
+    "200049": {
+        "info": "Einsatz: Kontrollierst du einen Soldaten, zerstöre ein gegnerisches Artefakt.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Kontrollierst du einen Soldaten, zerstöre ein gegnerisches Artefakt.\n",
+        "name": "Rammbock"
+    },
+    "200050": {
+        "info": "Einsatz: Verbessere einen verbündeten Soldaten und alle seine Kopien um 2.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere einen verbündeten Soldaten und alle seine Kopien um 2.\n",
+        "name": "Vreemde"
+    },
+    "200052": {
+        "info": "Todeswunsch: Dein Gegner ruft die schwächste Einheit aus seinem Deck in die gegenüberliegende Reihe herbei.\n",
+        "infoRaw": "<keyword=deathwish>Todeswunsch</keyword>: Dein Gegner <keyword=summon>ruft</keyword> die schwächste Einheit aus seinem Deck in die gegenüberliegende Reihe herbei.\n",
+        "name": "Golyat"
+    },
+    "200053": {
+        "info": "Blockiere eine Einheit und stelle ihre Basisstärke wieder her.\n",
+        "infoRaw": "<keyword=lock>Blockiere</keyword> eine Einheit und stelle ihre Basisstärke wieder her.\n",
+        "name": "Artefaktkompression"
+    },
+    "200055": {
+        "info": "Befehl: Aktiviere die Todeswunsch-Fähigkeit einer verbündeten Einheit.\nErneuere diese Fähigkeit zu Beginn der nächsten Runde.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Aktiviere die <keyword=deathwish>Todeswunsch</keyword>-Fähigkeit einer verbündeten Einheit.\nErneuere diese Fähigkeit zu Beginn der nächsten Runde.\n",
+        "name": "Der Unsichtbare"
+    },
+    "200056": {
+        "info": "Einsatz, Fernkampf: Erschaffe eine beliebige Sonderkarte.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: <keyword=create>Erschaffe</keyword> eine beliebige Sonderkarte.\n",
+        "name": "Aguara: Wahre Gestalt"
+    },
+    "200058": {
+        "info": "Erschaffe eine Goldeinheit und spiele sie aus.\n",
+        "infoRaw": "<keyword=create>Erschaffe</keyword> eine Goldeinheit und spiele sie aus.\n",
+        "name": "Umas Fluch"
+    },
+    "200062": {
+        "info": "Einsatz, Nahkampf: Blockiere eine Einheit. \nEinsatz, Fernkampf: Entferne den Block von einer Einheit.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: <keyword=lock>Blockiere</keyword> eine Einheit. \n<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Entferne den <keyword=lock>Block</keyword> von einer Einheit.\n",
+        "name": "Aguara"
+    },
+    "200071": {
+        "info": "Einsatz: Setze die Stärke der stärksten Einheit auf der gegnerischen Hand auf 1.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Setze die Stärke der stärksten Einheit auf der gegnerischen Hand auf 1.\n",
+        "name": "Shilard Fitz-Oesterlen"
+    },
+    "200073": {
+        "info": "Einsatz: Kontrollierst du die stärkste Einheit, füge einer gegnerischen Einheit 5 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Kontrollierst du die stärkste Einheit, füge einer gegnerischen Einheit 5 Schaden zu.\n",
+        "name": "Adda: Striege"
+    },
+    "200078": {
+        "info": "Verbessere eine Einheit auf 12 Stärke. Wenn sie kein Hexer ist, füge ihr zunächst 6 Schaden zu.\n",
+        "infoRaw": "Verbessere eine Einheit auf 12 Stärke. Wenn sie kein Hexer ist, füge ihr zunächst 6 Schaden zu.\n",
+        "name": "Kräuterprobe"
+    },
+    "200079": {
+        "info": "Spiele eine Einheit vom gegnerischen Friedhof aus und gib ihr Verdammt.\n",
+        "infoRaw": "Spiele eine Einheit vom gegnerischen Friedhof aus und gib ihr <keyword=doomed>Verdammt</keyword>.\n",
+        "name": "Hanmarvyns Traum"
+    },
+    "200080": {
+        "info": "Nahkampf: Wann immer diese Einheit verbessert wird, verbessere sie um weitere 2.\n",
+        "infoRaw": "<keyword=melee>Nahkampf</keyword>: Wann immer diese Einheit verbessert wird, verbessere sie um weitere 2.\n",
+        "name": "Xavier Moran"
+    },
+    "200081": {
+        "info": "Einsatz, Fernkampf: Heile eine verbündete Einheit um 2 und verbessere sie dann um 2.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: <keyword=heal>Heile</keyword> eine verbündete Einheit um 2 und verbessere sie dann um 2.\n",
+        "name": "Heymaey-Kräuterfrau"
+    },
+    "200083": {
+        "info": "Einsatz: Ziehe eine Karte deiner Wahl aus deinem Deck. Verwirf dann eine zufällig gewählte Karte.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Ziehe eine Karte deiner Wahl aus deinem Deck. <keyword=discard>Verwirf</keyword> dann eine zufällig gewählte Karte.\n",
+        "name": "Iris' Gesellschaft"
+    },
+    "200087": {
+        "info": "Einsatz: Blockiere eine Einheit.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: <keyword=lock>Blockiere</keyword> eine Einheit.\n",
+        "name": "Dorregaray von Vole"
+    },
+    "200088": {
+        "info": "Einsatz: Verbessere diese Einheit um die Schadensmenge, die du gegnerischen Einheiten in diesem Zug zugefügt hast.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere diese Einheit um die Schadensmenge, die du gegnerischen Einheiten in diesem Zug zugefügt hast.\n",
+        "name": "Hubert Rejk"
+    },
+    "200089": {
+        "info": "Einsatz: Verschiebe alle Einheiten von der einen in die andere Reihe.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verschiebe alle Einheiten von der einen in die andere Reihe.\n",
+        "name": "Nivellen"
+    },
+    "200091": {
+        "info": "Fernkampf: Nach 2 Zug/Zügen ziehen beide Spieler jeweils eine Einheit und setzen deren Stärke auf 1.\n",
+        "infoRaw": "<keyword=ranged>Fernkampf</keyword>: Nach 2 Zug/Zügen ziehen beide Spieler jeweils eine Einheit und setzen deren Stärke auf 1.\n",
+        "name": "Stregobor"
+    },
+    "200098": {
+        "info": "Eifer.\nBefehl, Nahkampf: Setze die Stärke einer nicht verbesserten gegnerischen Einheit auf 1.\n",
+        "infoRaw": "<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>, <keyword=melee>Nahkampf</keyword>: Setze die Stärke einer nicht verbesserten gegnerischen Einheit auf 1.\n",
+        "name": "Vincent Meis"
+    },
+    "200102": {
+        "info": "Einsatz: Tausche die Stärke dieser Einheit mit der einer beschädigten Einheit.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Tausche die Stärke dieser Einheit mit der einer beschädigten Einheit.\n",
+        "name": "Him"
+    },
+    "200103": {
+        "info": "Befehl: Verbessere Olaf um den doppelten erlittenen Schaden.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Verbessere Olaf um den doppelten erlittenen Schaden.\n",
+        "name": "Olaf"
+    },
+    "200104": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit Schaden in Höhe der Hälfte ihrer aktuellen Stärke zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit Schaden in Höhe der Hälfte ihrer aktuellen Stärke zu.\n",
+        "name": "Ulfhedinn"
+    },
+    "200105": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit dreimal 1 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit dreimal 1 Schaden zu.\n",
+        "name": "Dimun-Kriegsschiff"
+    },
+    "200112": {
+        "info": "Einsatz: Verbessere eine verbündete Einheit mit Todeswunsch um 3.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere eine verbündete Einheit mit <keyword=deathwish>Todeswunsch</keyword> um 3.\n",
+        "name": "Sirene"
+    },
+    "200114": {
+        "info": "Immun. Gedeihen.\n",
+        "infoRaw": "<keyword=immune>Immun</keyword>. <keyword=thrive>Gedeihen</keyword>.\n",
+        "name": "Alpha-Werwolf"
+    },
+    "200115": {
+        "info": "Füge einer Einheit 6 Schaden zu. Verringere den Schaden für jede Einheit, die ihr benachbart ist, um 1.\n",
+        "infoRaw": "Füge einer Einheit 6 Schaden zu. Verringere den Schaden für jede Einheit, die ihr benachbart ist, um 1.\n",
+        "name": "Meuchelmord"
+    },
+    "200118": {
+        "info": "Nahkampf: Mische diese Einheit am Ende der Runde zurück ins gegnerische Deck.\n",
+        "infoRaw": "<keyword=melee>Nahkampf</keyword>: Mische diese Einheit am Ende der Runde zurück ins gegnerische Deck.\n",
+        "name": "Eindringling"
+    },
+    "200124": {
+        "info": "Einsatz: Enthülle die oberste Karte des gegnerischen Decks und verbanne sie.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: <keyword=reveal>Enthülle</keyword> die oberste Karte des gegnerischen Decks und <keyword=banish>verbanne</keyword> sie.\n",
+        "name": "Vipern-Hexer"
+    },
+    "200135": {
+        "info": "Eifer.\nBefehl: Zerstöre ein verbündetes Artefakt und füge einer Einheit 2 Schaden zu.\nAbklingzeit: 2.\n",
+        "infoRaw": "<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Zerstöre ein verbündetes Artefakt und füge einer Einheit 2 Schaden zu.\n<keyword=cooldown>Abklingzeit</keyword>: 2.\n",
+        "name": "Feuerwerker"
+    },
+    "200136": {
+        "info": "Einsatz, Fernkampf: Enthülle eine zufällig gewählte Karte in deinem Deck. Ist es eine Sonderkarte, verbessere diese Einheit um 2.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: <keyword=reveal>Enthülle</keyword> eine zufällig gewählte Karte in deinem Deck. Ist es eine Sonderkarte, verbessere diese Einheit um 2.\n",
+        "name": "Weitseherin"
+    },
+    "200138": {
+        "info": "Wann immer du eine Sonderkarte ausspielst, verbessere diese Einheit um 2.\n",
+        "infoRaw": "Wann immer du eine Sonderkarte ausspielst, verbessere diese Einheit um 2.\n",
+        "name": "Wissender"
+    },
+    "200139": {
+        "info": "Einsatz: Füge einer gegnerischen Nicht-Scoia'tael-Einheit 3 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Nicht-Scoia'tael-Einheit 3 Schaden zu.\n",
+        "name": "Panther"
+    },
+    "200144": {
+        "info": "Einsatz: Verbessere eine verbündete Bestie um 2. Erhöhe die Verbesserung für jede Bestie auf deinem Friedhof um 1.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere eine verbündete Bestie um 2. Erhöhe die Verbesserung für jede Bestie auf deinem Friedhof um 1.\n",
+        "name": "Tuirseach-Dompteur"
+    },
+    "200145": {
+        "info": "Einsatz: Füge einer Einheit für jedes Schiff auf deiner Hand 1 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer Einheit für jedes Schiff auf deiner Hand 1 Schaden zu.\n",
+        "name": "Dimun-Korsar"
+    },
+    "200146": {
+        "info": "Einsatz, Nahkampf: Füge einer Einheit 1 Schaden zu und verbessere sie dann um 2.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Füge einer Einheit 1 Schaden zu und verbessere sie dann um 2.\n",
+        "name": "Dimun-Schmuggler"
+    },
+    "200147": {
+        "info": "Heile jeden Zug am Ende des Zugs alle beschädigten verbündeten Einheiten in dieser Reihe um 1.\n",
+        "infoRaw": "<keyword=heal>Heile</keyword> jeden Zug am Ende des Zugs alle beschädigten verbündeten Einheiten in dieser Reihe um 1.\n",
+        "name": "Heymaey-Flaminica"
+    },
+    "200149": {
+        "info": "Wann immer eine benachbarte Einheit Schaden erleidet, verbessere diese Einheit um 1.\n",
+        "infoRaw": "Wann immer eine benachbarte Einheit Schaden erleidet, verbessere diese Einheit um 1.\n",
+        "name": "Heymaey-Beschützer"
+    },
+    "200154": {
+        "info": "Spiele eine Einheit aus deinem Deck aus.\n",
+        "infoRaw": "Spiele eine Einheit aus deinem Deck aus.\n",
+        "name": "Fürstlicher Erlass"
+    },
+    "200159": {
+        "info": "Befehl: Verwirf eine Karte und ziehe dann eine Karte.\nErneuere diese Fähigkeit zu Beginn einer neuen Runde.\nWann immer du eine Karte verwirfst, füge einer zufällig gewählten gegnerischen Einheit 1 Schaden zu.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: <keyword=discard>Verwirf</keyword> eine Karte und ziehe dann eine Karte.\nErneuere diese Fähigkeit zu Beginn einer neuen Runde.\nWann immer du eine Karte <keyword=discard>verwirfst</keyword>, füge einer zufällig gewählten gegnerischen Einheit 1 Schaden zu.\n",
+        "name": "Bran Tuirseach"
+    },
+    "200160": {
+        "info": "Befehl: Füge einer Einheit 1 Schaden zu. \nAbklingzeit: 2.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Füge einer Einheit 1 Schaden zu. \n<keyword=cooldown>Abklingzeit</keyword>: 2.\n",
+        "name": "Crach an Craite"
+    },
+    "200161": {
+        "info": "Befehl: Teile 8 Schaden zufällig unter allen gegnerischen Einheiten aus.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Teile 8 Schaden zufällig unter allen gegnerischen Einheiten aus.\n",
+        "name": "Harald der Krüppel"
+    },
+    "200162": {
+        "info": "Befehl: Verschiebe eine Karte vom Schlachtfeld auf deine Hand und spiele dann eine Karte aus.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Verschiebe eine Karte vom Schlachtfeld auf deine Hand und spiele dann eine Karte aus.\n",
+        "name": "Emhyr var Emreis"
+    },
+    "200163": {
+        "info": "Befehl: Enthülle eine zufällig gewählte Karte aus dem gegnerischen Deck. Ist es eine Bronzekarte, verbessere eine verbündete Einheit um 3. Ist es eine Goldkarte, verbessere die verbündete Einheit stattdessen um 4.\nErneuere diese Fähigkeit zu Beginn einer neuen Runde.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: <keyword=reveal>Enthülle</keyword> eine zufällig gewählte Karte aus dem gegnerischen Deck. Ist es eine Bronzekarte, verbessere eine verbündete Einheit um 3. Ist es eine Goldkarte, verbessere die verbündete Einheit stattdessen um 4.\nErneuere diese Fähigkeit zu Beginn einer neuen Runde.\n",
+        "name": "Morvran Voorhis"
+    },
+    "200164": {
+        "info": "Befehl: Sieh dir die obersten 3 Karten in deinem Deck an und spiele eine davon aus.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Sieh dir die obersten 3 Karten in deinem Deck an und spiele eine davon aus.\n",
+        "name": "Jan Calveit"
+    },
+    "200165": {
+        "info": "Befehl: Spiele eine Sonderkarte aus deinem Friedhof aus.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Spiele eine Sonderkarte aus deinem Friedhof aus.\n",
+        "name": "Francesca Findabair"
+    },
+    "200166": {
+        "info": "Befehl: Füge einer Einheit 1 Schaden zu.\nLadungen: 3.\nErneuere Eithnés Ladungen zu Beginn einer neuen Runde.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Füge einer Einheit 1 Schaden zu.\n<keyword=charge>Ladungen</keyword>: 3.\nErneuere Eithnés <keyword=charge>Ladungen</keyword> zu Beginn einer neuen Runde.\n",
+        "name": "Eithné"
+    },
+    "200167": {
+        "info": "Befehl: Verschiebe eine Einheit in die andere Reihe auf ihrer Seite. Handelt es sich um eine gegnerische Einheit, füge ihr 2 Schaden zu",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Verschiebe eine Einheit in die andere Reihe auf ihrer Seite. Handelt es sich um eine gegnerische Einheit, füge ihr 2 Schaden zu",
+        "name": "Brouver Hoog"
+    },
+    "200168": {
+        "info": "Befehl: Verbessere eine verbündete Einheit um 1 und gib ihr Eifer.\nLadungen: 3.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Verbessere eine verbündete Einheit um 1 und gib ihr <keyword=zeal>Eifer</keyword>.\n<keyword=charge>Ladungen</keyword>: 3.\n",
+        "name": "König Foltest"
+    },
+    "200170": {
+        "info": "Befehl: Spiele die Kopie einer verbündeten Einheit auf deinem Schlachtfeld aus deinem Deck aus, verbessere sie um 4 und gib ihr Eifer.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Spiele die Kopie einer verbündeten Einheit auf deinem Schlachtfeld aus deinem Deck aus, verbessere sie um 4 und gib ihr <keyword=zeal>Eifer</keyword>.\n",
+        "name": "König Henselt"
+    },
+    "200171": {
+        "info": "Wann immer diese Einheit verbessert wird, füge einer zufällig gewählten gegnerischen Einheit 1 Schaden zu.\n",
+        "infoRaw": "Wann immer diese Einheit verbessert wird, füge einer zufällig gewählten gegnerischen Einheit 1 Schaden zu.\n",
+        "name": "Tridam-Infanterist"
+    },
+    "200177": {
+        "info": "Befindet sich diese Einheit auf dem Friedhof, rufe sie in eine zufällig gewählte verbündete Reihe herbei, wann immer du eine Einheit aus deinem Friedhof ausspielst.\n",
+        "infoRaw": "Befindet sich diese Einheit auf dem Friedhof, <keyword=summon>rufe</keyword> sie in eine zufällig gewählte verbündete Reihe herbei, wann immer du eine Einheit aus deinem Friedhof ausspielst.\n",
+        "name": "Cerys an Craite"
+    },
+    "200209": {
+        "info": "Befehl: Füge einer Einheit 2 Schaden zu.\nAbklingzeit: 4.\nHast du einen Elfen, einen Zwerg oder eine Dryade auf der Hand, verringert sich die Abklingzeit je Kategorie einmalig um 1.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Füge einer Einheit 2 Schaden zu.\n<keyword=cooldown>Abklingzeit</keyword>: 4.\nHast du einen Elfen, einen Zwerg oder eine Dryade auf der Hand, verringert sich die <keyword=cooldown>Abklingzeit</keyword> je Kategorie einmalig um 1.\n",
+        "name": "Saskia"
+    },
+    "200212": {
+        "info": "Einsatz: Füge einer unbeschädigten gegnerischen Einheit 4 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer unbeschädigten gegnerischen Einheit 4 Schaden zu.\n",
+        "name": "Skjall"
+    },
+    "200218": {
+        "info": "Einsatz, Nahkampf: Verbessere diese Einheit um 2 für jede Einheit, die du weniger auf dem Schlachtfeld hast als dein Gegner.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Verbessere diese Einheit um 2 für jede Einheit, die du weniger auf dem Schlachtfeld hast als dein Gegner.\n",
+        "name": "Jotunn"
+    },
+    "200220": {
+        "info": "Einsatz, Fernkampf: Spiele eine organische Karte aus deinem Deck aus.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Spiele eine organische Karte aus deinem Deck aus.\n",
+        "name": "Flüsterin: Tribut"
+    },
+    "200221": {
+        "info": "Aktiviere die Todeswunsch-Fähigkeiten aller verbündeten Einheiten.\n",
+        "infoRaw": "Aktiviere die <keyword=deathwish>Todeswunsch</keyword>-Fähigkeiten aller verbündeten Einheiten.\n",
+        "name": "Rituelles Opfer"
+    },
+    "200222": {
+        "info": "Einsatz, Nahkampf: Verzehre eine Einheit auf deiner Hand und ziehe eine Karte.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: <keyword=consume>Verzehre</keyword> eine Einheit auf deiner Hand und ziehe eine Karte.\n",
+        "name": "Weberin: Beschwörung"
+    },
+    "200223": {
+        "info": "Setze eine Einheit zurück.\n",
+        "infoRaw": "<keyword=reset>Setze</keyword> eine Einheit zurück.\n",
+        "name": "Alraunenwurzel"
+    },
+    "200224": {
+        "info": "Aktiviere die Todeswunsch-Fähigkeit einer Bronzeeinheit.\n",
+        "infoRaw": "Aktiviere die <keyword=deathwish>Todeswunsch</keyword>-Fähigkeit einer Bronzeeinheit.\n",
+        "name": "Krähenauge"
+    },
+    "200225": {
+        "info": "Ergreife eine gegnerische Einheit mit max. 5 Stärke und blockiere sie.\n",
+        "infoRaw": "<keyword=seize>Ergreife</keyword> eine gegnerische Einheit mit max. 5 Stärke und <keyword=lock>blockiere</keyword> sie.\n",
+        "name": "Vigos Maulkorb"
+    },
+    "200226": {
+        "info": "Füge allen gegnerischen Einheiten mit gerader Stärke 2 Schaden zu",
+        "infoRaw": "Füge allen gegnerischen Einheiten mit gerader Stärke 2 Schaden zu",
+        "name": "Wolfsbann"
+    },
+    "200228": {
+        "info": "Überfall: Zerstöre die nächste Einheit, die auf der gegnerischen Seite ausgespielt wird, bevor sie ihre Fähigkeiten aktivieren kann.\n",
+        "infoRaw": "<keyword=ambush>Überfall</keyword>: Zerstöre die nächste Einheit, die auf der gegnerischen Seite ausgespielt wird, bevor sie ihre Fähigkeiten aktivieren kann.\n",
+        "name": "Fallgrube"
+    },
+    "200233": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit für jede benachbarte Bestie 2 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit für jede benachbarte Bestie 2 Schaden zu.\n",
+        "name": "Gorgo"
+    },
+    "200234": {
+        "info": "Einsatz: Verbessere diese Einheit um 4.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere diese Einheit um 4.\n",
+        "name": "Gottverdammte Infanterie"
+    },
+    "200235": {
+        "info": "Einsatz: Zerstöre eine gegnerische Einheit mit Zähigkeit.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Zerstöre eine gegnerische Einheit mit <keyword=resilient>Zähigkeit</keyword>.\n",
+        "name": "Lambert: Fechtmeister"
+    },
+    "200236": {
+        "info": "Nahkampf: Verbessere diese Einheit jeden Zug am Ende des Zugs um 1.\n",
+        "infoRaw": "<keyword=melee>Nahkampf</keyword>: Verbessere diese Einheit jeden Zug am Ende des Zugs um 1.\n",
+        "name": "Eskel: Pfadfinder"
+    },
+    "200237": {
+        "info": "Einsatz: Verbessere alle verbündeten Hexer auf der Hand, im Deck und auf dem Schlachtfeld um 1.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere alle verbündeten Hexer auf der Hand, im Deck und auf dem Schlachtfeld um 1.\n",
+        "name": "Vesemir: Mentor"
+    },
+    "200293": {
+        "info": "Einsatz, Fernkampf: Verbessere einen Zwerg auf deiner Hand um 2.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Verbessere einen Zwerg auf deiner Hand um 2.\n",
+        "name": "Zwergenaufwiegler"
+    },
+    "200294": {
+        "info": "Einsatz: Verbessere eine verbündete Einheit um 2.\nWann immer du diese Karte enthüllst, verbessere eine zufällig gewählte verbündete Einheit um 2.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere eine verbündete Einheit um 2.\nWann immer du diese Karte <keyword=reveal>enthüllst</keyword>, verbessere eine zufällig gewählte verbündete Einheit um 2.\n",
+        "name": "Standartenträger"
+    },
+    "200295": {
+        "info": "Todeswunsch: Füge einer zufällig gewählten gegnerischen Einheit 4 Schaden zu.\n",
+        "infoRaw": "<keyword=deathwish>Todeswunsch</keyword>: Füge einer zufällig gewählten gegnerischen Einheit 4 Schaden zu.\n",
+        "name": "Moderhaut"
+    },
+    "200296": {
+        "info": "Einsatz, Nahkampf: Blockiere eine gegnerische Einheit.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: <keyword=lock>Blockiere</keyword> eine gegnerische Einheit.\n",
+        "name": "Alba-Panzerreiter"
+    },
+    "200299": {
+        "info": "Befehl: Verbessere eine verbündete Einheit um 1 und gib ihr Eifer.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Verbessere eine verbündete Einheit um 1 und gib ihr <keyword=zeal>Eifer</keyword>.\n",
+        "name": "Temerien-Trommler"
+    },
+    "200300": {
+        "info": "Verschiebe eine gegnerische Einheit in die andere Reihe und füge ihr Schaden in Höhe der Anzahl an Einheiten in der Zielreihe zu.\n",
+        "infoRaw": "Verschiebe eine gegnerische Einheit in die andere Reihe und füge ihr Schaden in Höhe der Anzahl an Einheiten in der Zielreihe zu.\n",
+        "name": "Trophäenfang"
+    },
+    "200301": {
+        "info": "Sieh dir 2 zufällig gewählte Goldkarten in deinem Deck an, spiele dann eine davon aus und platziere eine weitere oben auf dem Deck.\n",
+        "infoRaw": "Sieh dir 2 zufällig gewählte Goldkarten in deinem Deck an, spiele dann eine davon aus und platziere eine weitere oben auf dem Deck.\n",
+        "name": "Naglfar"
+    },
+    "200320": {
+        "info": "Keine Fähigkeit.\n",
+        "infoRaw": "Keine Fähigkeit.\n",
+        "name": "Tschort"
+    },
+    "200502": {
+        "info": "Verbessere diese Einheit jeden Zug am Ende des Zugs um 1, wenn du weniger Einheiten hast als dein Gegner.\n",
+        "infoRaw": "Verbessere diese Einheit jeden Zug am Ende des Zugs um 1, wenn du weniger Einheiten hast als dein Gegner.\n",
+        "name": "Eistroll"
+    },
+    "200518": {
+        "info": "Einsatz: Hat dein Anführer in diesem Zug seine Fähigkeit eingesetzt, füge einer gegnerischen Einheit 3 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Hat dein Anführer in diesem Zug seine Fähigkeit eingesetzt, füge einer gegnerischen Einheit 3 Schaden zu.\n",
+        "name": "Venendal-Elite"
+    },
+    "200519": {
+        "info": "Verbessere eine Einheit um 4 und entferne ihren Block.\n",
+        "infoRaw": "Verbessere eine Einheit um 4 und entferne ihren <keyword=lock>Block</keyword>.\n",
+        "name": "Mahakamer Ale"
+    },
+    "200520": {
+        "info": "Befehl: Spiele ein Bronzeartefakt aus deinem Friedhof aus.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Spiele ein Bronzeartefakt aus deinem Friedhof aus.\n",
+        "name": "Éibhear Hattori"
+    },
+    "200523": {
+        "info": "Einsatz, Nahkampf: Generiere 2 Kühe zu beiden Seiten dieser Einheit.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: <keyword=spawn>Generiere</keyword> 2 Kühe zu beiden Seiten dieser Einheit.\n",
+        "name": "Germain Piquant"
+    },
+    "200528": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit 3 Schaden und dann dieser Einheit 2 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit 3 Schaden und dann dieser Einheit 2 Schaden zu.\n",
+        "name": "Heymaey-Speermaid"
+    },
+    "200529": {
+        "info": "Einsatz: Verbessere diese Einheit um 5.\nWann immer du einen Soldaten ausspielst, rufe diese Einheit aus dem Friedhof in eine zufällig gewählte verbündete Reihe herbei.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere diese Einheit um 5.\nWann immer du einen Soldaten ausspielst, <keyword=summon>rufe</keyword> diese Einheit aus dem Friedhof in eine zufällig gewählte verbündete Reihe herbei.\n",
+        "name": "Ronvid der Sture"
+    },
+    "200530": {
+        "info": "Eifer.\nBefehl: Füge einer Einheit 2 Schaden zu. \nLadungen: 3.\n",
+        "infoRaw": "<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Füge einer Einheit 2 Schaden zu. \n<keyword=charge>Ladungen</keyword>: 3.\n",
+        "name": "Verschmutztes Ale"
+    },
+    "200532": {
+        "info": "Eifer.\nBefehl: Verbessere eine Einheit um 3. \nAbklingzeit: 2.\n",
+        "infoRaw": "<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Verbessere eine Einheit um 3. \n<keyword=cooldown>Abklingzeit</keyword>: 2.\n",
+        "name": "Ale der Vorfahren"
+    },
+    "200534": {
+        "info": "Nahkampf: Wann immer eine verbündete Einheit bei deinem Zug zerstört wird, verbessere diese Einheit um 2.\n",
+        "infoRaw": "<keyword=melee>Nahkampf</keyword>: Wann immer eine verbündete Einheit bei deinem Zug zerstört wird, verbessere diese Einheit um 2.\n",
+        "name": "Trollin aus Verden"
+    },
+    "200535": {
+        "info": "Befehl, Nahkampf: Füge einer gegnerischen Einheit 1 Schaden zu.\nAbklingzeit: 2.\nWann immer du einen Elfen ausspielst, verringere die Abklingzeit um 1.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>, <keyword=melee>Nahkampf</keyword>: Füge einer gegnerischen Einheit 1 Schaden zu.\n<keyword=cooldown>Abklingzeit</keyword>: 2.\nWann immer du einen Elfen ausspielst, verringere die <keyword=cooldown>Abklingzeit</keyword> um 1.\n",
+        "name": "Elfenfechtmeisterin"
+    },
+    "200539": {
+        "info": "Befehl: Verzehre eine verbündete Einheit in dieser Reihe.\nAbklingzeit: 1.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: <keyword=consume>Verzehre</keyword> eine verbündete Einheit in dieser Reihe.\n<keyword=cooldown>Abklingzeit</keyword>: 1.\n",
+        "name": "Schleimling"
+    },
+    "200540": {
+        "info": "Befehl: Füge einer gegnerischen Einheit 4 Schaden zu.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Füge einer gegnerischen Einheit 4 Schaden zu.\n",
+        "name": "Aedirn-Hämmerer"
+    },
+    "201523": {
+        "info": "Einsatz: Stelle die Basisstärke aller Einheiten in einer Reihe wieder her.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Stelle die Basisstärke aller Einheiten in einer Reihe wieder her.\n",
+        "name": "Geralt: Yrden"
+    },
+    "201559": {
+        "info": "Einsatz, Nahkampf: Rufe eine Kopie dieser Einheit aus deinem Deck in diese Reihe herbei, wenn sich in dieser Reihe ein Zwerg befindet.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: <keyword=summon>Rufe</keyword> eine Kopie dieser Einheit aus deinem Deck in diese Reihe herbei, wenn sich in dieser Reihe ein Zwerg befindet.\n",
+        "name": "Mahakam-Freiwillige"
+    },
+    "201574": {
+        "info": "Todeswunsch: Füge einer zufällig gewählten gegnerischen Einheit 2 Schaden zu.\n",
+        "infoRaw": "<keyword=deathwish>Todeswunsch</keyword>: Füge einer zufällig gewählten gegnerischen Einheit 2 Schaden zu.\n",
+        "name": "Haralds Freund"
+    },
+    "201576": {
+        "info": "Verdammt.\n",
+        "infoRaw": "<keyword=doomed>Verdammt</keyword>.\n",
+        "name": "Kuh"
+    },
+    "201578": {
+        "info": "Einsatz,\nNahkampf: Teile 4 Schaden zufällig unter allen Einheiten auf.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>,\n<keyword=melee>Nahkampf</keyword>: Teile 4 Schaden zufällig unter allen Einheiten auf.\n",
+        "name": "An-Craite-Brigant"
+    },
+    "201579": {
+        "info": "Befindet sich zu Beginn der Runde der Phönix auf deinem Friedhof, verbanne ihn, generiere dann ein Phönix-Küken und rufe es in eine zufällig gewählte verbündete Reihe herbei.\n",
+        "infoRaw": "Befindet sich zu Beginn der Runde der Phönix auf deinem Friedhof, <keyword=banish>verbanne</keyword> ihn, <keyword=spawn>generiere</keyword> dann ein Phönix-Küken und <keyword=summon>rufe</keyword> es in eine zufällig gewählte verbündete Reihe herbei.\n",
+        "name": "Phönix"
+    },
+    "201580": {
+        "info": "Deaktiviere zu Beginn des Kampfes den gegnerischen Anführer.\n",
+        "infoRaw": "Deaktiviere zu Beginn des Kampfes den gegnerischen Anführer.\n",
+        "name": "Usurpator"
+    },
+    "201581": {
+        "info": "Erschaffe eine Skellige-Bronzekarte und spiele sie aus.\n",
+        "infoRaw": "<keyword=create>Erschaffe</keyword> eine Skellige-Bronzekarte und spiele sie aus.\n",
+        "name": "Stribog-Runenstein"
+    },
+    "201582": {
+        "info": "Erschaffe eine Nördliche-Königreiche-Bronzekarte und spiele sie aus.\n",
+        "infoRaw": "<keyword=create>Erschaffe</keyword> eine Nördliche-Königreiche-Bronzekarte und spiele sie aus.\n",
+        "name": "Zoria-Runenstein"
+    },
+    "201583": {
+        "info": "Erschaffe eine Nilfgaard-Bronzekarte und spiele sie aus.\n",
+        "infoRaw": "<keyword=create>Erschaffe</keyword> eine Nilfgaard-Bronzekarte und spiele sie aus.\n",
+        "name": "Dazhbog-Runenstein"
+    },
+    "201584": {
+        "info": "Erschaffe eine Monster-Bronzekarte und spiele sie aus.\n",
+        "infoRaw": "<keyword=create>Erschaffe</keyword> eine Monster-Bronzekarte und spiele sie aus.\n",
+        "name": "Devana-Runenstein"
+    },
+    "201585": {
+        "info": "Erschaffe eine Scoia'tael-Bronzekarte und spiele sie aus.\n",
+        "infoRaw": "<keyword=create>Erschaffe</keyword> eine Scoia'tael-Bronzekarte und spiele sie aus.\n",
+        "name": "Morana-Runenstein"
+    },
+    "201587": {
+        "info": "Zerstöre eine verbündete Einheit. Generiere dann eine einfache Kopie von ihr und spiele sie aus.\n",
+        "infoRaw": "Zerstöre eine verbündete Einheit. <keyword=spawn>Generiere</keyword> dann eine einfache Kopie von ihr und spiele sie aus.\n",
+        "name": "Flüsterhügel"
+    },
+    "201589": {
+        "info": "Befehl: Verbessere alle Einheiten auf deiner Hand um 1.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Verbessere alle Einheiten auf deiner Hand um 1.\n",
+        "name": "Filavandrel aén Fidháil"
+    },
+    "201595": {
+        "info": "Befehl: Füge einer Einheit 8 Schaden zu.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Füge einer Einheit 8 Schaden zu.\n",
+        "name": "Prinzessin Adda"
+    },
+    "201597": {
+        "info": "Befehl: Spiele einen Krieger aus deinem Friedhof aus.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Spiele einen Krieger aus deinem Friedhof aus.\n",
+        "name": "Eist Tuirseach"
+    },
+    "201598": {
+        "info": "Verbessere alle verbündeten Einheiten um 1.\n",
+        "infoRaw": "Verbessere alle verbündeten Einheiten um 1.\n",
+        "name": "Knochentalisman"
+    },
+    "201599": {
+        "info": "Gedeihen.\nEinsatz: Füge allen gegnerischen Einheiten in der gegenüberliegenden Reihe 1 Schaden zu.\nTodeswunsch: Wiederhole die Einsatz-Fähigkeit.\n",
+        "infoRaw": "<keyword=thrive>Gedeihen</keyword>.\n<keyword=deploy>Einsatz</keyword>: Füge allen gegnerischen Einheiten in der gegenüberliegenden Reihe 1 Schaden zu.\n<keyword=deathwish>Todeswunsch</keyword>: Wiederhole die <keyword=deploy>Einsatz</keyword>-Fähigkeit.\n",
+        "name": "Werkater"
+    },
+    "201600": {
+        "info": "Immun.\n",
+        "infoRaw": "<keyword=immune>Immun</keyword>.\n",
+        "name": "Werwolf"
+    },
+    "201601": {
+        "info": "Wähle eine Einheit oder ein Artefakt auf dem Schlachtfeld aus und platziere die Karte oben auf dem Deck ihres Besitzers.\n",
+        "infoRaw": "Wähle eine Einheit oder ein Artefakt auf dem Schlachtfeld aus und platziere die Karte oben auf dem Deck ihres Besitzers.\n",
+        "name": "Yennefers Beschwörung"
+    },
+    "201603": {
+        "info": "Einsatz: Verwandle diese Einheit in die Kopie einer anderen Einheit, ohne ihre Stärke zu verändern.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verwandle diese Einheit in die Kopie einer anderen Einheit, ohne ihre Stärke zu verändern.\n",
+        "name": "Letho: Königsmörder"
+    },
+    "201606": {
+        "info": "Einsatz: Füge allen anderen Einheiten 1 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge allen anderen Einheiten 1 Schaden zu.\n",
+        "name": "Gabelschwanz"
+    },
+    "201609": {
+        "info": "Einsatz: Befinden sich in der gegenüberliegenden Reihe mindestens 4 Einheiten, ergreife die schwächste gegnerische Einheit in der Reihe.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Befinden sich in der gegenüberliegenden Reihe mindestens 4 Einheiten, <keyword=seize>ergreife</keyword> die schwächste gegnerische Einheit in der Reihe.\n",
+        "name": "Sklavenjäger"
+    },
+    "201610": {
+        "info": "Einsatz: Verwandle eine verbündete Einheit in Sklaveninfanterie.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verwandle eine verbündete Einheit in Sklaveninfanterie.\n",
+        "name": "Sklaveninfanterie"
+    },
+    "201611": {
+        "info": "Hast du mindestens 4 Fallen in deinem Startdeck, spiele zwei zufällig gewählte Fallen aus.\n",
+        "infoRaw": "Hast du mindestens 4 Fallen in deinem Startdeck, spiele zwei zufällig gewählte Fallen aus.\n",
+        "name": "Iorweths Schachzug"
+    },
+    "201612": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit 2 Schaden zu. Erhöhe den Schaden für jede blockierte Einheit um 1.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit 2 Schaden zu. Erhöhe den Schaden für jede <keyword=lock>blockierte</keyword> Einheit um 1.\n",
+        "name": "Sklaventreiber"
+    },
+    "201613": {
+        "info": "Befehl: Füge einer gegnerischen Einheit 1 Schaden zu. \nLadungen: 5.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Füge einer gegnerischen Einheit 1 Schaden zu. \n<keyword=charge>Ladungen</keyword>: 5.\n",
+        "name": "Saesenthessis: Brand"
+    },
+    "201615": {
+        "info": "Sieh dir eine(n) zufällig ausgewählte(n) Zwerg/Dryaden/Elfen in deinem Deck an und spiele dann eine der Karten aus.\n",
+        "infoRaw": "Sieh dir eine(n) zufällig ausgewählte(n) Zwerg/Dryaden/Elfen in deinem Deck an und spiele dann eine der Karten aus.\n",
+        "name": "Isengrims Rat"
+    },
+    "201616": {
+        "info": "Befehl: Tausche die Stärke dieser Einheit mit der Stärke einer gegnerischen Einheit.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Tausche die Stärke dieser Einheit mit der Stärke einer gegnerischen Einheit.\n",
+        "name": "Meister der Tarnung"
+    },
+    "201617": {
+        "info": "Einsatz: Enthülle in beiden Decks eine zufällig gewählte Einheit. Wenn deine stärker ist, verbessere diese Einheit um 2.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: <keyword=reveal>Enthülle</keyword> in beiden Decks eine zufällig gewählte Einheit. Wenn deine stärker ist, verbessere diese Einheit um 2.\n",
+        "name": "Rekrut"
+    },
+    "201618": {
+        "info": "Befehl, Nahkampf: Duelliere dich mit einer gegnerischen Einheit.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>, <keyword=melee>Nahkampf</keyword>: <keyword=duel>Duelliere</keyword> dich mit einer gegnerischen Einheit.\n",
+        "name": "Seltkirk von Guleta"
+    },
+    "201619": {
+        "info": "Verbessere einen Bronzesoldaten um 2 und wiederhole seine Einsatz-Fähigkeit.\n",
+        "infoRaw": "Verbessere einen Bronzesoldaten um 2 und wiederhole seine <keyword=deploy>Einsatz</keyword>-Fähigkeit.\n",
+        "name": "Salbe"
+    },
+    "201620": {
+        "info": "Befehl, Nahkampf: Füge einer Einheit 1 Schaden zu.\nAbklingzeit: 1.\nKontrollierst du Vandergrifts Klinge, füge einer Einheit stattdessen 2 Schaden zu.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>, <keyword=melee>Nahkampf</keyword>: Füge einer Einheit 1 Schaden zu.\n<keyword=cooldown>Abklingzeit</keyword>: 1.\nKontrollierst du Vandergrifts Klinge, füge einer Einheit stattdessen 2 Schaden zu.\n",
+        "name": "Vandergrift"
+    },
+    "201621": {
+        "info": "Befehl: Füge einer Einheit Schaden in Höhe der Anzahl von Kiyans Ladungen zu.\nLadungen: 1.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Füge einer Einheit Schaden in Höhe der Anzahl von Kiyans <keyword=charge>Ladungen</keyword> zu.\n<keyword=charge>Ladungen</keyword>: 1.\n",
+        "name": "Kiyan"
+    },
+    "201622": {
+        "info": "Einsatz: Wird diese Einheit aus dem Deck ausgespielt, verbessere sie um 4.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Wird diese Einheit aus dem Deck ausgespielt, verbessere sie um 4.\n",
+        "name": "Kaedwen-Ritter"
+    },
+    "201623": {
+        "info": "Einsatz, Nahkampf: Verbessere diese Einheit für jede beschädigte Einheit um 1.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Verbessere diese Einheit für jede beschädigte Einheit um 1.\n",
+        "name": "Riesiges Wildschwein"
+    },
+    "201624": {
+        "info": "Befehl: Füge einer Einheit 1 Schaden zu. Wenn sie zerstört wurde, generiere eine einfache Kopie von Kaedwen-Wiedergänger und rufe sie in diese Reihe herbei.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Füge einer Einheit 1 Schaden zu. Wenn sie zerstört wurde, <keyword=spawn>generiere</keyword> eine einfache Kopie von Kaedwen-Wiedergänger und <keyword=summon>rufe</keyword> sie in diese Reihe herbei.\n",
+        "name": "Kaedwen-Wiedergänger"
+    },
+    "201625": {
+        "info": "Einsatz: Verwandle eine verbündete Einheit, die kein Verfluchter Ritter ist, in einen Verfluchten Ritter, ohne ihre Stärke zu verändern.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verwandle eine verbündete Einheit, die kein Verfluchter Ritter ist, in einen Verfluchten Ritter, ohne ihre Stärke zu verändern.\n",
+        "name": "Verfluchter Ritter"
+    },
+    "201626": {
+        "info": "Ist diese Einheit zu Beginn des Zugs die einzige Einheit auf deinem Friedhof, rufe sie in eine zufällig gewählte verbündete Reihe herbei.\n",
+        "infoRaw": "Ist diese Einheit zu Beginn des Zugs die einzige Einheit auf deinem Friedhof, <keyword=summon>rufe</keyword> sie in eine zufällig gewählte verbündete Reihe herbei.\n",
+        "name": "Ciri: Nova"
+    },
+    "201627": {
+        "info": "Verdammt.\nWenn dein Startdeck keine Duplikate enthält, schicke Shøp auf ein Abenteuer.\n",
+        "infoRaw": "<keyword=doomed>Verdammt</keyword>.\nWenn dein Startdeck keine Duplikate enthält, schicke Shøp auf ein Abenteuer.\n",
+        "name": "Shøp mach blau"
+    },
+    "201628": {
+        "info": "Füge einer gegnerischen Einheit für jeden verbündeten Geist 1 Schaden zu.\n",
+        "infoRaw": "Füge einer gegnerischen Einheit für jeden verbündeten Geist 1 Schaden zu.\n",
+        "name": "Verbotene Magie"
+    },
+    "201630": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit 3 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit 3 Schaden zu.\n",
+        "name": "Verworfene Zauberin"
+    },
+    "201631": {
+        "info": "Einsatz: Wähle eine Einheit auf deiner Hand aus und verbessere diese Einheit um die Anzahl der Einheiten auf deiner Hand, mit der sie ihre primäre Kategorie teilt.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Wähle eine Einheit auf deiner Hand aus und verbessere diese Einheit um die Anzahl der Einheiten auf deiner Hand, mit der sie ihre primäre Kategorie teilt.\n",
+        "name": "Doppler"
+    },
+    "201632": {
+        "info": "Eifer.\nBefehl: Füge einer gegnerischen Einheit 1 Schaden zu.\nAbklingzeit: 1.\nWann immer Sihil eine gegnerische Einheit zerstört, erhöhe den Schaden der Befehl-Fähigkeit von Sihil um 1, bis es vom Schlachtfeld woanders hin verschoben wird.\n",
+        "infoRaw": "<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Füge einer gegnerischen Einheit 1 Schaden zu.\n<keyword=cooldown>Abklingzeit</keyword>: 1.\nWann immer Sihil eine gegnerische Einheit zerstört, erhöhe den Schaden der <keyword=order>Befehl</keyword>-Fähigkeit von Sihil um 1, bis es vom Schlachtfeld woanders hin verschoben wird.\n",
+        "name": "Sihil"
+    },
+    "201633": {
+        "info": "Eifer.\nBefehl: Füge einer gegnerischen Einheit Schaden in Höhe der Anzahl der Ladungen von Blutiger Flegel zu. Entferne dann sämtliche Ladungen von dieser Einheit.\nLadungen: 1.\nWann immer eine verbündete Einheit Ladungen erhält, gib dieser Einheit dieselbe Menge.\n",
+        "infoRaw": "<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Füge einer gegnerischen Einheit Schaden in Höhe der Anzahl der <keyword=charge>Ladungen</keyword> von Blutiger Flegel zu. Entferne dann sämtliche <keyword=charge>Ladungen</keyword> von dieser Einheit.\n<keyword=charge>Ladungen</keyword>: 1.\nWann immer eine verbündete Einheit <keyword=charge>Ladungen</keyword> erhält, gib dieser Einheit dieselbe Menge.\n",
+        "name": "Blutiger Flegel"
+    },
+    "201634": {
+        "info": "Füge einer Einheit 8 Schaden zu.\n",
+        "infoRaw": "Füge einer Einheit 8 Schaden zu.\n",
+        "name": "Bekkers Felsrutsch"
+    },
+    "201635": {
+        "info": "Zerstöre die Einheit mit der höchsten Basisstärke.\n",
+        "infoRaw": "Zerstöre die Einheit mit der höchsten Basisstärke.\n",
+        "name": "Glorreiche Jagd"
+    },
+    "201636": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit für jedes Artefakt unter deiner Kontrolle 1 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit für jedes Artefakt unter deiner Kontrolle 1 Schaden zu.\n",
+        "name": "Halbelfischer Jäger"
+    },
+    "201637": {
+        "info": "Wende folgenden Effekt auf eine gegnerische Reihe an:\nLass nach 3 Zug/Zügen zu Beginn des Zugs diese Einheit explodieren und füge so allen Einheiten in dieser Reihe 3 Schaden zu.\n",
+        "infoRaw": "Wende folgenden Effekt auf eine gegnerische Reihe an:\nLass nach 3 Zug/Zügen zu Beginn des Zugs diese Einheit explodieren und füge so allen Einheiten in dieser Reihe 3 Schaden zu.\n",
+        "name": "Drachentraum"
+    },
+    "201638": {
+        "info": "Wann immer eine verbündete Falle ausgelöst wird, verbessere diese Einheit um 2.\n",
+        "infoRaw": "Wann immer eine verbündete Falle ausgelöst wird, verbessere diese Einheit um 2.\n",
+        "name": "Elfenspäher"
+    },
+    "201639": {
+        "info": "Verbessere eine Einheit um 10.\n",
+        "infoRaw": "Verbessere eine Einheit um 10.\n",
+        "name": "Garnison"
+    },
+    "201644": {
+        "info": "Befehl: Heile eine verbündete Einheit um 1.\nLadungen: 1.\nWann immer eine benachbarte Einheit Schaden erleidet, gib dieser Einheit 1 Ladung.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: <keyword=heal>Heile</keyword> eine verbündete Einheit um 1.\n<keyword=charge>Ladungen</keyword>: 1.\nWann immer eine benachbarte Einheit Schaden erleidet, gib dieser Einheit 1 <keyword=charge>Ladung</keyword>.\n",
+        "name": "Joana"
+    },
+    "201645": {
+        "info": "Überfall: Füge nach 3 Zug/Zügen zu Beginn des Zugs allen gegnerischen Einheiten in der Reihe mit den meisten Einheiten 2 Schaden zu.\nEifer.\nBefehl: Drehe diese Einheit um und füge allen Einheiten in einer Reihe 1 Schaden zu.\n",
+        "infoRaw": "<keyword=ambush>Überfall</keyword>: Füge nach 3 Zug/Zügen zu Beginn des Zugs allen gegnerischen Einheiten in der Reihe mit den meisten Einheiten 2 Schaden zu.\n<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Drehe diese Einheit um und füge allen Einheiten in einer Reihe 1 Schaden zu.\n",
+        "name": "Schmetterfalle"
+    },
+    "201646": {
+        "info": "Einsatz, Fernkampf: Verschiebe bis zu 3 Karten aus deinem Deck auf deinen Friedhof.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Verschiebe bis zu 3 Karten aus deinem Deck auf deinen Friedhof.\n",
+        "name": "Derran"
+    },
+    "201647": {
+        "info": "Füge einer gegnerischen Einheit 4 Schaden zu und verschiebe sie in die andere Reihe.\n",
+        "infoRaw": "Füge einer gegnerischen Einheit 4 Schaden zu und verschiebe sie in die andere Reihe.\n",
+        "name": "Felssperrfeuer"
+    },
+    "201648": {
+        "info": "Wann immer du einen Soldaten in diese Reihe ausspielst, verbessere ihn um 2.\n",
+        "infoRaw": "Wann immer du einen Soldaten in diese Reihe ausspielst, verbessere ihn um 2.\n",
+        "name": "Vandergrifts Klinge"
+    },
+    "201650": {
+        "info": "Füge jeder Einheit, die kein Geist ist, 1 Schaden zu. Werden dabei Einheiten zerstört, setze die Fähigkeit erneut ein.\n",
+        "infoRaw": "Füge jeder Einheit, die kein Geist ist, 1 Schaden zu. Werden dabei Einheiten zerstört, setze die Fähigkeit erneut ein.\n",
+        "name": "Sabrinas Inferno"
+    },
+    "201653": {
+        "info": "Überfall: Verbessere die dieser Einheit benachbarten Einheiten um 4, wenn dein Gegner passt.\n",
+        "infoRaw": "<keyword=ambush>Überfall</keyword>: Verbessere die dieser Einheit benachbarten Einheiten um 4, wenn dein Gegner passt.\n",
+        "name": "Mahakamer Horn"
+    },
+    "201656": {
+        "info": "Eifer.\nBefehl: Füge einer Einheit 1 Schaden zu. \nAbklingzeit: 1.\n",
+        "infoRaw": "<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Füge einer Einheit 1 Schaden zu. \n<keyword=cooldown>Abklingzeit</keyword>: 1.\n",
+        "name": "Meisterlicher Speer"
+    },
+    "201657": {
+        "info": "Füge einer gegnerischen Einheit 6 Schaden zu oder verbessere eine verbündete Einheit um 6.\n",
+        "infoRaw": "Füge einer gegnerischen Einheit 6 Schaden zu oder verbessere eine verbündete Einheit um 6.\n",
+        "name": "Parasit"
+    },
+    "201659": {
+        "info": "Spiele eine Bronzemaschine aus deinem Friedhof aus.\n",
+        "infoRaw": "Spiele eine Bronzemaschine aus deinem Friedhof aus.\n",
+        "name": "Winde"
+    },
+    "201660": {
+        "info": "Todeswunsch: Rufe diese Einheit am Ende des Zugs von deinem Friedhof in eine zufällig gewählte verbündete Reihe herbei.\n",
+        "infoRaw": "<keyword=deathwish>Todeswunsch</keyword>: <keyword=summon>Rufe</keyword> diese Einheit am Ende des Zugs von deinem Friedhof in eine zufällig gewählte verbündete Reihe herbei.\n",
+        "name": "Ruehin"
+    },
+    "201662": {
+        "info": "Eifer.\nBefehl: Zerstöre diese Einheit und alle Einheiten, deren Stärke der Anzahl an Ladungen von Leichengift entspricht.\nLadungen: 0.\nGib dieser Einheit jeden Zug zu Beginn des Zugs und wann immer du einen Taktikkarte ausspielst 1 Ladung.\n",
+        "infoRaw": "<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Zerstöre diese Einheit und alle Einheiten, deren Stärke der Anzahl an <keyword=charge>Ladungen</keyword> von Leichengift entspricht.\n<keyword=charge>Ladungen</keyword>: 0.\nGib dieser Einheit jeden Zug zu Beginn des Zugs und wann immer du einen Taktikkarte ausspielst 1 <keyword=charge>Ladung</keyword>.\n",
+        "name": "Leichengift"
+    },
+    "201664": {
+        "info": "Einsatz: Aktiviere die Einsatz-Fähigkeit aller benachbarten Bronzesoldaten.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Aktiviere die <keyword=deploy>Einsatz</keyword>-Fähigkeit aller benachbarten Bronzesoldaten.\n",
+        "name": "Vrygheff"
+    },
+    "201676": {
+        "info": "Befehl: Füge einer Einheit 1 Schaden zu. \nAbklingzeit: 1.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Füge einer Einheit 1 Schaden zu. \n<keyword=cooldown>Abklingzeit</keyword>: 1.\n",
+        "name": "Pavko Gale"
+    },
+    "201696": {
+        "info": "Befehl: Verbessere die Einheit links von dieser Einheit um 4 oder mach die Einheit rechts von dieser Einheit immun.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Verbessere die Einheit links von dieser Einheit um 4 oder mach die Einheit rechts von dieser Einheit <keyword=immune>immun</keyword>.\n",
+        "name": "Paulie Dahlberg"
+    },
+    "201697": {
+        "info": "Das nächste Mal, wenn eine gegnerische Einheit verbessert wird, zerstöre sie und diese Einheit.\n",
+        "infoRaw": "Das nächste Mal, wenn eine gegnerische Einheit verbessert wird, zerstöre sie und diese Einheit.\n",
+        "name": "Schwarzes Blut"
+    },
+    "201698": {
+        "info": "Einsatz, Nahkampf: Verzehre eine Einheit vom gegnerischen Friedhof.\nEinsatz, Fernkampf: Verzehre eine Einheit von deinem Friedhof.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: <keyword=consume>Verzehre</keyword> eine Einheit vom gegnerischen Friedhof.\n<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: <keyword=consume>Verzehre</keyword> eine Einheit von deinem Friedhof.\n",
+        "name": "Ozzrel"
+    },
+    "201700": {
+        "info": "Todeswunsch: Verbessere die stärkste verbündete Einheit um 4.\n",
+        "infoRaw": "<keyword=deathwish>Todeswunsch</keyword>: Verbessere die stärkste verbündete Einheit um 4.\n",
+        "name": "Brückentroll"
+    },
+    "201701": {
+        "info": "Befehl: Verzehre eine verbündete Einheit.\nLadungen: 2.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: <keyword=consume>Verzehre</keyword> eine verbündete Einheit.\n<keyword=charge>Ladungen</keyword>: 2.\n",
+        "name": "Barbegazi"
+    },
+    "201704": {
+        "info": "Einsatz: Entferne einen Reiheneffekt aus einer verbündeten Reihe.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Entferne einen Reiheneffekt aus einer verbündeten Reihe.\n",
+        "name": "Späher"
+    },
+    "201709": {
+        "info": "Füge allen gegnerischen Einheiten mit ungerader Stärke 2 Schaden zu.\n",
+        "infoRaw": "Füge allen gegnerischen Einheiten mit ungerader Stärke 2 Schaden zu.\n",
+        "name": "Harmonie"
+    },
+    "201710": {
+        "info": "Füge allen gegnerischen Einheiten mit gerader Stärke 2 Schaden zu.\n",
+        "infoRaw": "Füge allen gegnerischen Einheiten mit gerader Stärke 2 Schaden zu.\n",
+        "name": "Störung"
+    },
+    "201725": {
+        "info": "Schicke Shøp zur Akademie von Ban Ard für Jungen.\n",
+        "infoRaw": "Schicke Shøp zur Akademie von Ban Ard für Jungen.\n",
+        "name": "Shøp: Magier"
+    },
+    "201726": {
+        "info": "Einsatz: Verwandle die Karte ganz rechts auf den Händen beider Spieler in eine zufällig gewählte Sonderkarte.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verwandle die Karte ganz rechts auf den Händen beider Spieler in eine zufällig gewählte Sonderkarte.\n",
+        "name": "Shøp: Magier"
+    },
+    "201727": {
+        "info": "Einsatz: Verschiebe eine zufällig gewählte Einheit in die Reihe gegenüber.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verschiebe eine zufällig gewählte Einheit in die Reihe gegenüber.\n",
+        "name": "Shøp: Magier"
+    },
+    "201728": {
+        "info": "Einsatz: Wende einen zufällig gewählten Reiheneffekt in allen Reihen an.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Wende einen zufällig gewählten Reiheneffekt in allen Reihen an.\n",
+        "name": "Shøp: Magier"
+    },
+    "201729": {
+        "info": "Einsatz: Teile 13 Schaden zufällig unter allen anderen Einheiten auf dem Schlachtfeld auf.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Teile 13 Schaden zufällig unter allen anderen Einheiten auf dem Schlachtfeld auf.\n",
+        "name": "Shøp: Magier"
+    },
+    "201730": {
+        "info": "Einsatz: Generiere eine zufällig gewählte Einheit und rufe sie auf beiden Seiten in eine zufällig gewählte Reihe herbei.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: <keyword=spawn>Generiere</keyword> eine zufällig gewählte Einheit und <keyword=summon>rufe</keyword> sie auf beiden Seiten in eine zufällig gewählte Reihe herbei.\n",
+        "name": "Shøp: Magier"
+    },
+    "201731": {
+        "info": "Schicke Shøp in den Wald von Dol Blathanna.\n",
+        "infoRaw": "Schicke Shøp in den Wald von Dol Blathanna.\n",
+        "name": "Shøp: Jäger"
+    },
+    "201732": {
+        "info": "Einsatz: Spiele eine zufällig gewählte Karte aus deinem Deck aus.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Spiele eine zufällig gewählte Karte aus deinem Deck aus.\n",
+        "name": "Shøp: Jäger"
+    },
+    "201733": {
+        "info": "Einsatz: Teile 9 Schaden zufällig unter allen gegnerischen Einheiten auf.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Teile 9 Schaden zufällig unter allen gegnerischen Einheiten auf.\n",
+        "name": "Shøp: Jäger"
+    },
+    "201734": {
+        "info": "Einsatz: Verbessere alle Einheiten auf deiner Hand um Beträge zwischen 1 und 2 Stärke.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere alle Einheiten auf deiner Hand um Beträge zwischen 1 und 2 Stärke.\n",
+        "name": "Shøp: Jäger"
+    },
+    "201735": {
+        "info": "Einsatz: Zerstöre eine zufällig gewählte gegnerische Einheit.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Zerstöre eine zufällig gewählte gegnerische Einheit.\n",
+        "name": "Shøp: Jäger"
+    },
+    "201737": {
+        "info": "Schicke Shøp zur Militärakademie am Kaiserlichen Hof.\n",
+        "infoRaw": "Schicke Shøp zur Militärakademie am Kaiserlichen Hof.\n",
+        "name": "Shøp: Ritter"
+    },
+    "201738": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit 4 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit 4 Schaden zu.\n",
+        "name": "Shøp: Ritter"
+    },
+    "201739": {
+        "info": "Einsatz: Blockiere eine Einheit.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: <keyword=lock>Blockiere</keyword> eine Einheit.\n",
+        "name": "Shøp: Ritter"
+    },
+    "201740": {
+        "info": "Einsatz: Gib dieser Einheit Zähigkeit.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Gib dieser Einheit <keyword=resilient>Zähigkeit</keyword>.\n",
+        "name": "Shøp: Ritter"
+    },
+    "201741": {
+        "info": "Einsatz: Zerstöre ein gegnerisches Artefakt.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Zerstöre ein gegnerisches Artefakt.\n",
+        "name": "Shøp: Ritter"
+    },
+    "201743": {
+        "info": "Wann immer eine verbündete Einheit während deines Zugs zerstört wird, generiere eine Krabbspinnendrohne und rufe sie in eine zufällig gewählte verbündete Reihe herbei.\n",
+        "infoRaw": "Wann immer eine verbündete Einheit während deines Zugs zerstört wird, <keyword=spawn>generiere</keyword> eine Krabbspinnendrohne und <keyword=summon>rufe</keyword> sie in eine zufällig gewählte verbündete Reihe herbei.\n",
+        "name": "Krabbspinnenkönigin"
+    },
+    "201744": {
+        "info": "Stelle die Basisstärke einer Einheit wieder her.\n",
+        "infoRaw": "Stelle die Basisstärke einer Einheit wieder her.\n",
+        "name": "Sporen"
+    },
+    "201748": {
+        "info": "Befehl, Nahkampf: Füge einer gegnerischen Einheit und allen gegnerischen Einheiten mit derselben Stärke 1 Schaden zu. \nLadungen: 1.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>, <keyword=melee>Nahkampf</keyword>: Füge einer gegnerischen Einheit und allen gegnerischen Einheiten mit derselben Stärke 1 Schaden zu. \n<keyword=charge>Ladungen</keyword>: 1.\n",
+        "name": "Foltests Stolz"
+    },
+    "201749": {
+        "info": "Verbessere alle Einheiten in einer Reihe um 2.\n",
+        "infoRaw": "Verbessere alle Einheiten in einer Reihe um 2.\n",
+        "name": "Goldener Schaum"
+    },
+    "201753": {
+        "info": "Einsatz: Verbessere eine verbündete Einheit um 2.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere eine verbündete Einheit um 2.\n",
+        "name": "Bauernmiliz"
+    },
+    "201772": {
+        "info": "Einsatz, Nahkampf: Füge einer gegnerischen Einheit 3 Schaden zu. Ist ihre Stärke durch 3 teilbar, zerstöre sie stattdessen.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Füge einer gegnerischen Einheit 3 Schaden zu. Ist ihre Stärke durch 3 teilbar, zerstöre sie stattdessen.\n",
+        "name": "Geralt: Profi"
+    },
+    "201773": {
+        "info": "Einsatz, Fernkampf: Erschaffe eine Bronzesonderkarte aus dem aktuellen Deck von einem der Spieler und spiele sie aus.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: <keyword=create>Erschaffe</keyword> eine Bronzesonderkarte aus dem aktuellen Deck von einem der Spieler und spiele sie aus.\n",
+        "name": "Triss: Telekinese"
+    },
+    "201774": {
+        "info": "Einsatz: Zerstöre eine gegnerische Bestie.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Zerstöre eine gegnerische Bestie.\n",
+        "name": "Rittersporn: Angeber"
+    },
+    "201776": {
+        "info": "Einsatz: Ziehe eine Karte und spiele dann eine Karte aus.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Ziehe eine Karte und spiele dann eine Karte aus.\n",
+        "name": "Rittersporn: Poet"
+    },
+    "201777": {
+        "info": "Befehl: Ergreife eine gegnerische Einheit, deren Stärke maximal der Anzahl der Ladungen von Roche: Gnadenlos entspricht, und entferne dann alle Ladungen von Roche: Gnadenlos.\nLadungen: 0.\nGib dieser Einheit jeden Zug zu Beginn des Zugs 1 Ladung.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: <keyword=seize>Ergreife</keyword> eine gegnerische Einheit, deren Stärke maximal der Anzahl der <keyword=charge>Ladungen</keyword> von Roche: Gnadenlos entspricht, und entferne dann alle <keyword=charge>Ladungen</keyword> von Roche: Gnadenlos.\n<keyword=charge>Ladungen</keyword>: 0.\nGib dieser Einheit jeden Zug zu Beginn des Zugs 1 <keyword=charge>Ladung</keyword>.\n",
+        "name": "Roche: Gnadenlos"
+    },
+    "201779": {
+        "info": "Mische eine verbündete Einheit in dein Deck. Spiele dann eine Einheit derselben primären Kategorie aus deinem Deck aus und verbessere sie um 3.\n",
+        "infoRaw": "Mische eine verbündete Einheit in dein Deck. Spiele dann eine Einheit derselben primären Kategorie aus deinem Deck aus und verbessere sie um 3.\n",
+        "name": "Ruf des Waldes"
+    },
+    "201780": {
+        "info": "Einsatz, Fernkampf: Enthülle eine zufällig gewählte Einheit aus deinem Deck und verbessere dann eine verbündete Einheit um deren Stärke.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: <keyword=reveal>Enthülle</keyword> eine zufällig gewählte Einheit aus deinem Deck und verbessere dann eine verbündete Einheit um deren Stärke.\n",
+        "name": "Yennefer: Weissagung"
+    },
+    "201781": {
+        "info": "Befehl: Kontrollierst du die stärkste Einheit, füge einer Einheit 2 Schaden zu. \nAbklingzeit: 1.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Kontrollierst du die stärkste Einheit, füge einer Einheit 2 Schaden zu. \n<keyword=cooldown>Abklingzeit</keyword>: 1.\n",
+        "name": "Imlerith"
+    },
+    "201817": {
+        "info": "Einsatz, Nahkampf: Beide Spieler rufen jeweils die Einheit mit den höchsten Rekrutierungskosten aus ihren Decks in die jeweiligen Nahkampfreihen herbei.\nEinsatz, Fernkampf: Beide Spieler rufen jeweils die Einheit mit den niedrigsten Rekrutierungskosten aus ihren Decks in die jeweiligen Fernkampfreihen herbei.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Beide Spieler <keyword=summon>rufen</keyword> jeweils die Einheit mit den höchsten Rekrutierungskosten aus ihren Decks in die jeweiligen Nahkampfreihen herbei.\n<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Beide Spieler <keyword=summon>rufen</keyword> jeweils die Einheit mit den niedrigsten Rekrutierungskosten aus ihren Decks in die jeweiligen Fernkampfreihen herbei.\n",
+        "name": "Ihuarraquax"
+    },
+    "202044": {
+        "info": "Einsatz, Nahkampf: Füge einer gegnerischen Einheit und all ihren Kopien 3 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Füge einer gegnerischen Einheit und all ihren Kopien 3 Schaden zu.\n",
+        "name": "Hinke-Harwin"
+    },
+    "202054": {
+        "info": "Zerstöre 2 verbündete Einheiten derselben Farbe, erschaffe dann eine Einheit dieser Farbe und spiele sie aus.\n",
+        "infoRaw": "Zerstöre 2 verbündete Einheiten derselben Farbe, <keyword=create>erschaffe</keyword> dann eine Einheit dieser Farbe und spiele sie aus.\n",
+        "name": "Elf und Zwiebelsuppe"
+    },
+    "202064": {
+        "info": "Befehl, Nahkampf: Füge einer gegnerischen Einheit 2 Schaden zu.\nLadungen: 1.\nGib dieser Einheit 1 Ladung, wann immer du einen Hexer ausspielst.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>, <keyword=melee>Nahkampf</keyword>: Füge einer gegnerischen Einheit 2 Schaden zu.\n<keyword=charge>Ladungen</keyword>: 1.\nGib dieser Einheit 1 <keyword=charge>Ladung</keyword>, wann immer du einen Hexer ausspielst.\n",
+        "name": "Ivo von Belhaven"
+    },
+    "202098": {
+        "info": "Einsatz: Hast du einen Drachen auf der Hand, gib dieser Einheit Eifer.\nBefehl: Zerstöre eine Einheit mit mindestens 8 Stärke.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Hast du einen Drachen auf der Hand, gib dieser Einheit <keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Zerstöre eine Einheit mit mindestens 8 Stärke.\n",
+        "name": "Eyck von Denesle"
+    },
+    "202099": {
+        "info": "Einsatz, Nahkampf: Verbessere diese Einheit um einen zufällig gewählten Betrag zwischen 0 und 11.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Verbessere diese Einheit um einen zufällig gewählten Betrag zwischen 0 und 11.\n",
+        "name": "Gascon"
+    },
+    "202100": {
+        "info": "Spionage.\nEinsatz: Spiele eine zufällig gewählte Goldkarte aus deinem Deck aus.\n",
+        "infoRaw": "<keyword=spying>Spionage</keyword>.\n<keyword=deploy>Einsatz</keyword>: Spiele eine zufällig gewählte Goldkarte aus deinem Deck aus.\n",
+        "name": "Prinz Villem"
+    },
+    "202101": {
+        "info": "Verschiebe diese Einheit jeden Zug am Ende des Zugs in die Reihe mit der stärksten Einheit auf dem Schlachtfeld.\n",
+        "infoRaw": "Verschiebe diese Einheit jeden Zug am Ende des Zugs in die Reihe mit der stärksten Einheit auf dem Schlachtfeld.\n",
+        "name": "Graf Caldwell"
+    },
+    "202102": {
+        "info": "Einsatz, Nahkampf: Verbanne alle Karten auf dem gegnerischen Friedhof.\nEinsatz, Fernkampf: Verbanne alle Karten auf deinem Friedhof.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: <keyword=banish>Verbanne</keyword> alle Karten auf dem gegnerischen Friedhof.\n<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: <keyword=banish>Verbanne</keyword> alle Karten auf deinem Friedhof.\n",
+        "name": "Xavier Lemmens"
+    },
+    "202103": {
+        "info": "Nahkampf: Zerstöre jeden Zug am Ende des Zugs die schwächste Einheit auf der Schlachtfeldseite, auf der sich die meisten Einheiten befinden.\n",
+        "infoRaw": "<keyword=melee>Nahkampf</keyword>: Zerstöre jeden Zug am Ende des Zugs die schwächste Einheit auf der Schlachtfeldseite, auf der sich die meisten Einheiten befinden.\n",
+        "name": "Keltullis"
+    },
+    "202104": {
+        "info": "Immun.\n",
+        "infoRaw": "<keyword=immune>Immun</keyword>.\n",
+        "name": "Einschüchterer: Wach"
+    },
+    "202105": {
+        "info": "Einsatz: Zerstöre alle Einheiten mit 1 Stärke. Verbessere diese Einheit für jede zerstörte Einheit um 2.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Zerstöre alle Einheiten mit 1 Stärke. Verbessere diese Einheit für jede zerstörte Einheit um 2.\n",
+        "name": "Sägmaul"
+    },
+    "202106": {
+        "info": "Einsatz, Nahkampf: Gib dieser Einheit Zähigkeit.\nEinsatz, Fernkampf: Mach diese Einheit immun.\nWann immer du einen Zwerg ausspielst, verbessere diese Einheit um 1.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Gib dieser Einheit <keyword=resilient>Zähigkeit</keyword>.\n<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Mach diese Einheit <keyword=immune>immun</keyword>.\nWann immer du einen Zwerg ausspielst, verbessere diese Einheit um 1.\n",
+        "name": "Gabor Zigrin"
+    },
+    "202107": {
+        "info": "Einsatz: Verbessere eine(n) verbündete(n) Elfen, Zwerg und Dryade um 2.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere eine(n) verbündete(n) Elfen, Zwerg und Dryade um 2.\n",
+        "name": "Barnabas Beckenbauer"
+    },
+    "202108": {
+        "info": "Befehl, Fernkampf: Sieh dir die oberste Karte in beiden Decks an. Behalte die eine und gib die andere deinem Gegner.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>, <keyword=ranged>Fernkampf</keyword>: Sieh dir die oberste Karte in beiden Decks an. Behalte die eine und gib die andere deinem Gegner.\n",
+        "name": "Isbel von Hagge"
+    },
+    "202109": {
+        "info": "Einsatz, Fernkampf: Tausche alle Karten auf deinem Friedhof mit denen in deinem Deck aus.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=ranged>Fernkampf</keyword>: Tausche alle Karten auf deinem Friedhof mit denen in deinem Deck aus.\n",
+        "name": "Gudmund Flinkzunge"
+    },
+    "202110": {
+        "info": "Nahkampf: Wann immer eine gegnerische Einheit Schaden erleidet, verbessere diese Einheit um 1.\n",
+        "infoRaw": "<keyword=melee>Nahkampf</keyword>: Wann immer eine gegnerische Einheit Schaden erleidet, verbessere diese Einheit um 1.\n",
+        "name": "Dagur Doppelklinge"
+    },
+    "202111": {
+        "info": "Einsatz: Sieh dir die oberste(n) 3 Karte(n) im gegnerischen Deck an und verschiebe 1 auf den gegnerischen Friedhof.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Sieh dir die oberste(n) 3 Karte(n) im gegnerischen Deck an und verschiebe 1 auf den gegnerischen Friedhof.\n",
+        "name": "Traheaern var Vdyffir"
+    },
+    "202112": {
+        "info": "Wann immer eine verbündete Einheit mit Ladungen ausgespielt wird, gib ihr 1 Ladung.\n",
+        "infoRaw": "Wann immer eine verbündete Einheit mit <keyword=charge>Ladungen</keyword> ausgespielt wird, gib ihr 1 <keyword=charge>Ladung</keyword>.\n",
+        "name": "Reynard Odo"
+    },
+    "202113": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit Schaden in Höhe der Anzahl verbündeter Menschen zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit Schaden in Höhe der Anzahl verbündeter Menschen zu.\n",
+        "name": "Schwarze Rayla"
+    },
+    "202114": {
+        "info": "Verdammt, Eifer.\nBefehl: Verwandle diese Einheit in einen Phönix.\n",
+        "infoRaw": "<keyword=doomed>Verdammt</keyword>, <keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Verwandle diese Einheit in einen Phönix.\n",
+        "name": "Phönix-Küken"
+    },
+    "202121": {
+        "info": "Einsatz: Verschiebe eine Einheit in ihre andere Reihe.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verschiebe eine Einheit in ihre andere Reihe.\n",
+        "name": "Streuner von Spalla"
+    },
+    "202122": {
+        "info": "Einsatz: Zerstöre ein gegnerisches Artefakt.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Zerstöre ein gegnerisches Artefakt.\n",
+        "name": "Bombenträger"
+    },
+    "202148": {
+        "info": "Befehl: Gib einer Einheit 1 Ladung.\nAbklingzeit: 2.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Gib einer Einheit 1 <keyword=charge>Ladung</keyword>.\n<keyword=cooldown>Abklingzeit</keyword>: 2.\n",
+        "name": "König Demawend III."
+    },
+    "202149": {
+        "info": "Befehl: Spiele ein zufällig gewähltes Artefakt aus dem gegnerischen Deck aus.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Spiele ein zufällig gewähltes Artefakt aus dem gegnerischen Deck aus.\n",
+        "name": "Angoulême"
+    },
+    "202150": {
+        "info": "Eifer.\nBefehl, Fernkampf: Verbessere eine Einheit um 1.\nLadungen: 1.\nGib dieser Einheit 1 Ladung, wann immer einer der Spieler eine Karte ausspielt.\n",
+        "infoRaw": "<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>, <keyword=ranged>Fernkampf</keyword>: Verbessere eine Einheit um 1.\n<keyword=charge>Ladungen</keyword>: 1.\nGib dieser Einheit 1 <keyword=charge>Ladung</keyword>, wann immer einer der Spieler eine Karte ausspielt.\n",
+        "name": "Vysogota von Corvo"
+    },
+    "202151": {
+        "info": "Einsatz, Nahkampf: Zerstöre eine gegnerische Einheit mit Befehl-Fähigkeit.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>, <keyword=melee>Nahkampf</keyword>: Zerstöre eine gegnerische Einheit mit <keyword=order>Befehl</keyword>-Fähigkeit.\n",
+        "name": "Falibor"
+    },
+    "202152": {
+        "info": "Wird diese Einheit bis zum Ende des Zugs verbessert, verbessere eine benachbarte Einheit um 1.\n",
+        "infoRaw": "Wird diese Einheit bis zum Ende des Zugs verbessert, verbessere eine benachbarte Einheit um 1.\n",
+        "name": "Anna Strenger"
+    },
+    "202153": {
+        "info": "Wann immer du eine Einheit mit Befehl-Fähigkeit ausspielst, verbessere diese Einheit um 1.\n",
+        "infoRaw": "Wann immer du eine Einheit mit <keyword=order>Befehl</keyword>-Fähigkeit ausspielst, verbessere diese Einheit um 1.\n",
+        "name": "Lyrische Kavallerie"
+    },
+    "202154": {
+        "info": "Einsatz: Füge einer gegnerischen Einheit 1 Schaden zu. Wird sie zerstört, füge einer anderen gegnerischen Einheit 3 Schaden zu.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit 1 Schaden zu. Wird sie zerstört, füge einer anderen gegnerischen Einheit 3 Schaden zu.\n",
+        "name": "Rivien-Pikenier"
+    },
+    "202155": {
+        "info": "Befehl: Füge einer Einheit 1 Schaden zu.\nLadungen: 1.\nWann immer du eine Karte mit Befehl-Fähigkeit ausspielst, gib dieser Einheit 1 Ladung.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Füge einer Einheit 1 Schaden zu.\n<keyword=charge>Ladungen</keyword>: 1.\nWann immer du eine Karte mit <keyword=order>Befehl</keyword>-Fähigkeit ausspielst, gib dieser Einheit 1 <keyword=charge>Ladung</keyword>.\n",
+        "name": "Lyrische Arbaleste"
+    },
+    "202156": {
+        "info": "Befehl: Füge einer Einheit 1 Schaden zu. Wurde Lyrischer Landsknecht verbessert, füge einer Einheit stattdessen 3 Schaden zu.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Füge einer Einheit 1 Schaden zu. Wurde Lyrischer Landsknecht verbessert, füge einer Einheit stattdessen 3 Schaden zu.\n",
+        "name": "Lyrischer Landsknecht"
+    },
+    "202161": {
+        "info": "Einsatz: Verbessere diese Einheit für jede verbesserte verbündete Einheit um 1.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere diese Einheit für jede verbesserte verbündete Einheit um 1.\n",
+        "name": "Lyrischer Sensenkämpe"
+    }
+}

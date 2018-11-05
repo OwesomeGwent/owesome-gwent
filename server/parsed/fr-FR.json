@@ -1,0 +1,2596 @@
+{
+    "112101": {
+        "infoRaw": "Chaque fois que vous perdez une manche, replacez la présente unité dans votre main.\n",
+        "name": "Ciri"
+    },
+    "112102": {
+        "info": "Déploiement.\nCombat rapproché : détruisez la ou les unités les plus fortes d'une ligne ennemie ayant une force totale d'au moins 15.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>.\n<keyword=melee>Combat rapproché</keyword> : détruisez la ou les unités les plus fortes d'une ligne ennemie ayant une force totale d'au moins 15.\n",
+        "name": "Geralt : Igni"
+    },
+    "112103": {
+        "info": "Déploiement : détruisez un ennemi disposant d'une force d'au moins 8.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : détruisez un ennemi disposant d'une force d'au moins 8.\n",
+        "name": "Geralt de Riv"
+    },
+    "112104": {
+        "info": "Déploiement : infligez 1 point(s) de dégâts à tous les ennemis d'une ligne. Si un ennemi est détruit, répétez cette capacité.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 1 point(s) de dégâts à tous les ennemis d'une ligne. Si un ennemi est détruit, répétez cette capacité.\n",
+        "name": "Regis"
+    },
+    "112105": {
+        "info": "Déploiement.\nCombat rapproché : drainez toutes les améliorations d'une unité.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>.\n<keyword=melee>Combat rapproché</keyword> : <keyword=drain>drainez</keyword> toutes les améliorations d'une unité.\n",
+        "name": "Regis : supérieur"
+    },
+    "112106": {
+        "info": "Déploiement.\nCombat à distance : révélez une unité aléatoire de votre jeu et infligez un nombre de points de dégâts équivalant à sa force.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>.\n<keyword=ranged>Combat à distance</keyword> : <keyword=reveal>révélez</keyword> une unité aléatoire de votre jeu et infligez un nombre de points de dégâts équivalant à sa force.\n",
+        "name": "Triss Merigold"
+    },
+    "112107": {
+        "info": "Après 2 tours, à la fin du tour, détruisez une autre unité disposant de la force la plus élevée sur le plateau.\n",
+        "infoRaw": "Après 2 tours, à la fin du tour, détruisez une autre unité disposant de la force la plus élevée sur le plateau.\n",
+        "name": "Villentretenmerth"
+    },
+    "112108": {
+        "info": "Déploiement, Combat rapproché : infligez 2 point(s) de dégâts à toutes les autres unités. \nDéploiement, Combat à distance : améliorez toutes les autres unités de 2 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : infligez 2 point(s) de dégâts à toutes les autres unités. \n<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : améliorez toutes les autres unités de 2 point(s).\n",
+        "name": "Yennefer de Vengerberg"
+    },
+    "112109": {
+        "info": "Déploiement, Combat rapproché : générez et jouez Duda : agitateur.\nDéploiement, Combat à distance : générez et jouez Duda : compagnon.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : <keyword=spawn>générez</keyword> et jouez Duda : agitateur.\n<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : <keyword=spawn>générez</keyword> et jouez Duda : compagnon.\n",
+        "name": "Zoltan : gredin"
+    },
+    "112110": {
+        "info": "Tirez une carte après 4 tours.\n",
+        "infoRaw": "Tirez une carte après 4 tours.\n",
+        "name": "Ciri : ruée"
+    },
+    "112111": {
+        "info": "Déploiement.\nCombat rapproché : infligez 2 point(s) de dégâts à 3 ennemis et déplacez-les d'une ligne vers le haut.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>.\n<keyword=melee>Combat rapproché</keyword> : infligez 2 point(s) de dégâts à 3 ennemis et déplacez-les d'une ligne vers le haut.\n",
+        "name": "Geralt : Aard"
+    },
+    "112112": {
+        "info": "Déploiement, Combat à distance : jouez un artefact depuis votre jeu.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : jouez un artefact depuis votre jeu.\n",
+        "name": "Avallac'h : sage"
+    },
+    "112113": {
+        "info": "Ordre : infligez 1 point(s) de dégâts à l'unité ennemie la plus forte. \nRéutilisation : 1 tour(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : infligez 1 point(s) de dégâts à l'unité ennemie la plus forte. \n<keyword=cooldown>Réutilisation</keyword> : 1 tour(s).\n",
+        "name": "Yennefer : sorcière"
+    },
+    "112201": {
+        "info": "Déploiement : transformation en copie de base d'une unité ennemie.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : transformation en copie de base d'une unité ennemie.\n",
+        "name": "Doudou"
+    },
+    "112202": {
+        "info": "Déploiement : invoquez Vesemir et Lambert depuis votre jeu.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : <keyword=summon>invoquez</keyword> Vesemir et Lambert depuis votre jeu.\n",
+        "name": "Eskel"
+    },
+    "112203": {
+        "info": "Déploiement : invoquez Eskel et Lambert depuis votre jeu.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : <keyword=summon>invoquez</keyword> Eskel et Lambert depuis votre jeu.\n",
+        "name": "Vesemir"
+    },
+    "112204": {
+        "info": "Déploiement : invoquez Eskel et Vesemir depuis votre jeu.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : <keyword=summon>invoquez</keyword> Eskel et Vesemir depuis votre jeu.\n",
+        "name": "Lambert"
+    },
+    "112205": {
+        "info": "Ordre : infligez 2 point(s) de dégâts à un ennemi. \n2 utilisation(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : infligez 2 point(s) de dégâts à un ennemi. \n2 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Myrgatabrakke"
+    },
+    "112206": {
+        "info": "Ordre : infligez 1 point(s) de dégâts à tous les ennemis.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : infligez 1 point(s) de dégâts à tous les ennemis.\n",
+        "name": "Ocvist"
+    },
+    "112207": {
+        "info": "Ordre : soignez la présente unité.\nRéutilisation : 1 tour(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : <keyword=heal>soignez</keyword> la présente unité.\n<keyword=cooldown>Réutilisation</keyword> : 1 tour(s).\n",
+        "name": "Olgierd von Everec"
+    },
+    "112208": {
+        "info": "Déploiement : générez et invoquez une copie de base d'une unité Bronze sur cette ligne, du côté de chacun des joueurs, depuis votre main.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> et <keyword=summon>invoquez</keyword> une copie de base d'une unité Bronze sur cette ligne, du côté de chacun des joueurs, depuis votre main.\n",
+        "name": "Gardien"
+    },
+    "112209": {
+        "info": "Ordre : transformation en Tschart.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : transformation en Tschart.\n",
+        "name": "Vache primée"
+    },
+    "112210": {
+        "info": "Chaque fois que vous jouez une carte Or, invoquez la présente unité sur une ligne alliée aléatoire depuis votre jeu.\n",
+        "infoRaw": "Chaque fois que vous jouez une carte Or, <keyword=summon>invoquez</keyword> la présente unité sur une ligne alliée aléatoire depuis votre jeu.\n",
+        "name": "Ablette"
+    },
+    "112211": {
+        "info": "Ordre : infligez 2 point(s) de dégâts à une unité. \n1 utilisation(s).\nGagnez 1 utilisation(s) chaque fois que vous jouez une carte spéciale.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : infligez 2 point(s) de dégâts à une unité. \n1 <keyword=charge>utilisation(s)</keyword>.\nGagnez 1 <keyword=charge>utilisation(s)</keyword> chaque fois que vous jouez une carte spéciale.\n",
+        "name": "Jeannot"
+    },
+    "112212": {
+        "info": "Ordre : améliorez une unité de 2 point(s). \n1 utilisation(s).\nGagnez 1 utilisation(s) chaque fois que vous jouez une carte spéciale.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : améliorez une unité de 2 point(s). \n1 <keyword=charge>utilisation(s)</keyword>.\nGagnez 1 <keyword=charge>utilisation(s)</keyword> chaque fois que vous jouez une carte spéciale.\n",
+        "name": "Sarah"
+    },
+    "112213": {
+        "info": "À la fin de chaque tour, améliorez l'unité la plus faible de votre main de 1 point(s).\n",
+        "infoRaw": "À la fin de chaque tour, améliorez l'unité la plus faible de votre main de 1 point(s).\n",
+        "name": "Roi des mendiants"
+    },
+    "112214": {
+        "info": "Déploiement : bannissez une unité d'une force inférieure ou égale à 3.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : <keyword=banish>bannissez</keyword> une unité d'une force inférieure ou égale à 3.\n",
+        "name": "Cyprian Wily"
+    },
+    "112215": {
+        "info": "Déploiement, Combat rapproché : détruisez un artefact ennemi.\nDéploiement, Combat à distance : dissipez tous les effets de ligne de votre côté.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : détruisez un artefact ennemi.\n<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : dissipez tous les effets de ligne de votre côté.\n",
+        "name": "Iris von Everec"
+    },
+    "112401": {
+        "info": "Déploiement : améliorez une unité de 4 point(s). Si vous avez un Chironex dans votre main, doublez ce montant.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez une unité de 4 point(s). Si vous avez un Chironex dans votre main, doublez ce montant.\n",
+        "name": "Licorne"
+    },
+    "112402": {
+        "info": "Déploiement : infligez 4 point(s) de dégâts à une unité. Si vous avez une Licorne dans votre main, doublez ce montant.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 4 point(s) de dégâts à une unité. Si vous avez une Licorne dans votre main, doublez ce montant.\n",
+        "name": "Chironex"
+    },
+    "112405": {
+        "info": "Déploiement : améliorez toutes les unités de votre main disposant d'une capacité Baroud d'honneur de 1 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez toutes les unités de votre main disposant d'une capacité <keyword=deathwish>Baroud d'honneur</keyword> de 1 point(s).\n",
+        "name": "Fiellon"
+    },
+    "113101": {
+        "info": "Appliquez cet effet de ligne sur une ligne ennemie :\nAu début de chaque tour, infligez 2 point(s) de dégâts à l'unité la plus forte sur cette ligne.\n",
+        "infoRaw": "Appliquez cet effet de ligne sur une ligne ennemie :\nAu début de chaque tour, infligez 2 point(s) de dégâts à l'unité la plus forte sur cette ligne.\n",
+        "name": "Ragh nar Roog"
+    },
+    "113102": {
+        "info": "Regardez les 2 premières cartes de votre jeu, puis jouez-en une et bannissez l'autre.\n",
+        "infoRaw": "Regardez les 2 premières cartes de votre jeu, puis jouez-en une et <keyword=banish>bannissez</keyword> l'autre.\n",
+        "name": "Le dernier vœu"
+    },
+    "113201": {
+        "info": "Replacez un allié sur le champ de bataille dans votre jeu et mélangez-le, puis jouez la première unité depuis votre jeu.\n",
+        "infoRaw": "Replacez un allié sur le champ de bataille dans votre jeu et mélangez-le, puis jouez la première unité depuis votre jeu.\n",
+        "name": "Leurre"
+    },
+    "113202": {
+        "info": "Infligez 2 point(s) de dégâts à 5 ennemis.\n",
+        "infoRaw": "Infligez 2 point(s) de dégâts à 5 ennemis.\n",
+        "name": "Grêle de Merigold"
+    },
+    "113203": {
+        "info": "Appliquez cet effet de ligne sur une ligne ennemie :\nPendant 2 tour(s), infligez 1 point(s) de dégâts à toutes les unités de cette ligne.\n",
+        "infoRaw": "Appliquez cet effet de ligne sur une ligne ennemie :\nPendant 2 tour(s), infligez 1 point(s) de dégâts à toutes les unités de cette ligne.\n",
+        "name": "Tempête de Skellige"
+    },
+    "113204": {
+        "info": "Infligez 1 point(s) de dégâts à tous les ennemis.\n",
+        "infoRaw": "Infligez 1 point(s) de dégâts à tous les ennemis.\n",
+        "name": "Séisme de Stammelford"
+    },
+    "113205": {
+        "info": "Détruisez un artefact.\n",
+        "infoRaw": "Détruisez un artefact.\n",
+        "name": "Bombe au dimeritium"
+    },
+    "113206": {
+        "info": "Détruisez tous les artefacts.\n",
+        "infoRaw": "Détruisez tous les artefacts.\n",
+        "name": "Froid blanc"
+    },
+    "113207": {
+        "info": "Améliorez 5 unités adjacentes de 3 point(s).\n",
+        "infoRaw": "Améliorez 5 unités adjacentes de 3 point(s).\n",
+        "name": "Cor du commandant"
+    },
+    "113208": {
+        "info": "Déploiement, Combat rapproché : augmentez la durée de tous les effets de ligne de 1 tour(s).\nDéploiement, Combat à distance : réduisez la durée de tous les effets de ligne de 1 tour(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : augmentez la durée de tous les effets de ligne de 1 tour(s).\n<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : réduisez la durée de tous les effets de ligne de 1 tour(s).\n",
+        "name": "Vaedermakar"
+    },
+    "113209": {
+        "info": "Jouez l'unité de votre jeu disposant de la force la plus élevée.\n",
+        "infoRaw": "Jouez l'unité de votre jeu disposant de la force la plus élevée.\n",
+        "name": "Double croix d'Alzur"
+    },
+    "113301": {
+        "info": "Infligez 5 point(s) de dégâts à une unité.\n",
+        "infoRaw": "Infligez 5 point(s) de dégâts à une unité.\n",
+        "name": "Foudre d'Alzur"
+    },
+    "113302": {
+        "info": "Appliquez cet effet de ligne sur une ligne ennemie :\nPendant 4 tour(s), infligez 2 point(s) de dégâts à l'unité la plus faible.\n",
+        "infoRaw": "Appliquez cet effet de ligne sur une ligne ennemie :\nPendant 4 tour(s), infligez 2 point(s) de dégâts à l'unité la plus faible.\n",
+        "name": "Froid mordant"
+    },
+    "113303": {
+        "info": "Dissipez tous les effets de ligne de votre côté.\n",
+        "infoRaw": "Dissipez tous les effets de ligne de votre côté.\n",
+        "name": "Temps dégagé"
+    },
+    "113305": {
+        "info": "Appliquez cet effet de ligne sur une ligne ennemie :\nPendant 4 tour(s), infligez 2 point(s) de dégâts à l'unité la plus forte.\n",
+        "infoRaw": "Appliquez cet effet de ligne sur une ligne ennemie :\nPendant 4 tour(s), infligez 2 point(s) de dégâts à l'unité la plus forte.\n",
+        "name": "Brume impénétrable"
+    },
+    "113306": {
+        "info": "Infligez 3 point(s) de dégâts à 3 ennemis.\n",
+        "infoRaw": "Infligez 3 point(s) de dégâts à 3 ennemis.\n",
+        "name": "Venin de manticore"
+    },
+    "113307": {
+        "info": "Ajoutez ou retirez l'attribut Tenace à une unité.\n",
+        "infoRaw": "Ajoutez ou retirez l'attribut <keyword=resilient>Tenace</keyword> à une unité.\n",
+        "name": "Poussée d'adrénaline"
+    },
+    "113308": {
+        "info": "Détruisez les unités disposant de la force la plus faible.\n",
+        "infoRaw": "Détruisez les unités disposant de la force la plus faible.\n",
+        "name": "Épidémie"
+    },
+    "113309": {
+        "info": "Détruisez les unités les plus fortes.\n",
+        "infoRaw": "Détruisez les unités les plus fortes.\n",
+        "name": "Incinération"
+    },
+    "113310": {
+        "info": "Améliorez une unité de 6 point(s).\n",
+        "infoRaw": "Améliorez une unité de 6 point(s).\n",
+        "name": "Hirondelle"
+    },
+    "113311": {
+        "info": "Zèle.\nOrdre : améliorez une unité de 2 point(s). \n3 utilisation(s).\n",
+        "infoRaw": "<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : améliorez une unité de 2 point(s). \n3 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Tonnerre"
+    },
+    "113312": {
+        "info": "Appliquez cet effet de ligne sur une ligne ennemie :\nPendant 4 tour(s), infligez 1 point(s) de dégâts à 2 unités sur cette ligne.\n",
+        "infoRaw": "Appliquez cet effet de ligne sur une ligne ennemie :\nPendant 4 tour(s), infligez 1 point(s) de dégâts à 2 unités sur cette ligne.\n",
+        "name": "Pluie torrentielle"
+    },
+    "113313": {
+        "info": "Déploiement : améliorez la présente unité d'un nombre de point équivalent aux points de dégâts subis par un ennemi.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez la présente unité d'un nombre de point équivalent aux points de dégâts subis par un ennemi.\n",
+        "name": "An Craite : crieur"
+    },
+    "113315": {
+        "info": "Choisissez une unité. Si elle est améliorée, infligez-lui un nombre de points de dégâts équivalant au double de son amélioration. Si elle est endommagée, améliorez-la d'un nombre de points équivalant au double des dégâts subis.\n",
+        "infoRaw": "Choisissez une unité. Si elle est améliorée, infligez-lui un nombre de points de dégâts équivalant au double de son amélioration. Si elle est endommagée, améliorez-la d'un nombre de points équivalant au double des dégâts subis.\n",
+        "name": "Miroir de Bekker"
+    },
+    "113316": {
+        "info": "Jouez une unité depuis votre cimetière.\n",
+        "infoRaw": "Jouez une unité depuis votre cimetière.\n",
+        "name": "Renouveau"
+    },
+    "113319": {
+        "info": "Verrouillez une unité et infligez-lui 3 point(s) de dégâts.\n",
+        "infoRaw": "<keyword=lock>Verrouillez</keyword> une unité et infligez-lui 3 point(s) de dégâts.\n",
+        "name": "Fers en dimeritium"
+    },
+    "113320": {
+        "info": "Infligez 3 point(s) de dégâts à une unité, puis améliorez-la de 9 point(s).\n",
+        "infoRaw": "Infligez 3 point(s) de dégâts à une unité, puis améliorez-la de 9 point(s).\n",
+        "name": "Mardrome"
+    },
+    "122101": {
+        "info": "Ordre : doublez le nombre d'utilisations d'un allié.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : doublez le nombre d'<keyword=charge>utilisations</keyword> d'un allié.\n",
+        "name": "Baron sanglant"
+    },
+    "122102": {
+        "info": "Espion.\nDéploiement : jouez les 2 premières cartes de votre jeu.\n",
+        "infoRaw": "<keyword=spying>Espion</keyword>.\n<keyword=deploy>Déploiement</keyword> : jouez les 2 premières cartes de votre jeu.\n",
+        "name": "Vernon Roche"
+    },
+    "122103": {
+        "info": "Combat rapproché : tant que la présente unité se trouve sur le champ de bataille, tous les alliés disposant de capacités Ordre gagnent l'attribut Zèle.\n",
+        "infoRaw": "<keyword=melee>Combat rapproché</keyword> : tant que la présente unité se trouve sur le champ de bataille, tous les alliés disposant de capacités <keyword=order>Ordre</keyword> gagnent l'attribut <keyword=zeal>Zèle</keyword>.\n",
+        "name": "Jan Natalis"
+    },
+    "122107": {
+        "info": "Déploiement : améliorez une unité aléatoire dans votre main de 4 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez une unité aléatoire dans votre main de 4 point(s).\n",
+        "name": "Triss : papillons"
+    },
+    "122108": {
+        "info": "Déploiement, Combat à distance : jouez un sort depuis votre jeu.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : jouez un sort depuis votre jeu.\n",
+        "name": "Keira Metz"
+    },
+    "122201": {
+        "info": "Combat à distance : chaque fois qu'un allié gagne une utilisation, améliorez-le de 1 point(s).\n",
+        "infoRaw": "<keyword=ranged>Combat à distance</keyword> : chaque fois qu'un allié gagne une <keyword=charge>utilisation</keyword>, améliorez-le de 1 point(s).\n",
+        "name": "Jaskier"
+    },
+    "122202": {
+        "info": "Zèle.\nOrdre : donnez 1 utilisation(s) à une unité. \nRéutilisation : 1 tour(s).\n",
+        "infoRaw": "<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : donnez 1 <keyword=charge>utilisation(s)</keyword> à une unité. \n<keyword=cooldown>Réutilisation</keyword> : 1 tour(s).\n",
+        "name": "Priscilla"
+    },
+    "122203": {
+        "info": "Déploiement : retirez toutes les utilisations d'une unité ennemie et ajoutez-les à la présente unité.\nOrdre : donnez 1 utilisation(s) à une unité alliée.\n0 utilisation(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : retirez toutes les <keyword=charge>utilisations</keyword> d'une unité ennemie et ajoutez-les à la présente unité.\n<keyword=order>Ordre</keyword> : donnez 1 <keyword=charge>utilisation(s)</keyword> à une unité alliée.\n0 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Talar"
+    },
+    "122204": {
+        "info": "Déploiement : infligez 4 point(s) de dégâts à un ennemi. \nOrdre : donnez l'attribut Zèle à un allié.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 4 point(s) de dégâts à un ennemi. \n<keyword=order>Ordre</keyword> : donnez l'attribut <keyword=zeal>Zèle</keyword> à un allié.\n",
+        "name": "Cyn"
+    },
+    "122205": {
+        "info": "Déploiement : infligez 2 point(s) de dégâts à un ennemi.\nOrdre : infligez 2 point(s) de dégâts à un ennemi.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 2 point(s) de dégâts à un ennemi.\n<keyword=order>Ordre</keyword> : infligez 2 point(s) de dégâts à un ennemi.\n",
+        "name": "Sheala"
+    },
+    "122206": {
+        "info": "Espion. \nBaroud d'honneur : infligez 3 point(s) de dégâts à toutes les unités sur cette ligne.\n",
+        "infoRaw": "<keyword=spying>Espion</keyword>. \n<keyword=deathwish>Baroud d'honneur</keyword> : infligez 3 point(s) de dégâts à toutes les unités sur cette ligne.\n",
+        "name": "Sabrina Glevissig"
+    },
+    "122207": {
+        "info": "Ordre, Combat à distance : infligez à un ennemi un nombre de points de dégâts équivalant à l'amélioration de Detmold.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword>, <keyword=ranged>Combat à distance</keyword> : infligez à un ennemi un nombre de points de dégâts équivalant à l'amélioration de Detmold.\n",
+        "name": "Detmold"
+    },
+    "122208": {
+        "info": "Déploiement : améliorez un allié de 2 point(s) et donnez-lui 2 utilisation(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez un allié de 2 point(s) et donnez-lui 2 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Prince Stennis"
+    },
+    "122210": {
+        "info": "Déploiement : mélangez une unité Bronze de votre cimetière et toutes ses copies dans votre jeu.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : mélangez une unité Bronze de votre cimetière et toutes ses copies dans votre jeu.\n",
+        "name": "Princesse Pavetta"
+    },
+    "122211": {
+        "info": "Zèle.\nOrdre : dépensez 3 utilisations pour verrouiller une unité ennemie.\n3 utilisation(s).\n",
+        "infoRaw": "<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : dépensez 3 <keyword=charge>utilisations</keyword> pour <keyword=lock>verrouiller</keyword> une unité ennemie.\n3 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Margarita Laux-Antille"
+    },
+    "122212": {
+        "info": "Ordre, Combat à distance : améliorez une unité de 1 point(s). \n3 utilisation(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword>, <keyword=ranged>Combat à distance</keyword> : améliorez une unité de 1 point(s). \n3 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Nenneke"
+    },
+    "122213": {
+        "info": "Déploiement : donnez 1 utilisation(s) à toutes les unités alliées.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : donnez 1 <keyword=charge>utilisation(s)</keyword> à toutes les unités alliées.\n",
+        "name": "Odrin"
+    },
+    "122214": {
+        "info": "Zèle.\nOrdre : améliorez un allié de 1 point(s). \n2 utilisation(s).\n",
+        "infoRaw": "<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : améliorez un allié de 1 point(s). \n2 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Sergent de Kaedwen"
+    },
+    "122216": {
+        "info": "Déploiement : pour chaque carte de votre main, infligez 1 point(s) de dégâts à une unité.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : pour chaque carte de votre main, infligez 1 point(s) de dégâts à une unité.\n",
+        "name": "Surin"
+    },
+    "122301": {
+        "info": "Ordre : infligez 1 point(s) de dégâts à une unité. \n1 utilisation(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : infligez 1 point(s) de dégâts à une unité. \n1 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Baliste"
+    },
+    "122302": {
+        "info": "Ordre : infligez 2 point(s) de dégâts à une unité.\n1 utilisation(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : infligez 2 point(s) de dégâts à une unité.\n1 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Baliste renforcée"
+    },
+    "122303": {
+        "info": "Ordre, Combat à distance : infligez 1 point(s) de dégâts à une unité. Si elle est détruite, infligez 1 point(s) de dégâts aux unités qui lui sont adjacentes.\n1 utilisation(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword>, <keyword=ranged>Combat à distance</keyword> : infligez 1 point(s) de dégâts à une unité. Si elle est détruite, infligez 1 point(s) de dégâts aux unités qui lui sont adjacentes.\n1 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Trébuchet"
+    },
+    "122304": {
+        "info": "Ordre, Combat rapproché : améliorez les alliés adjacents de 1 point(s). \n1 utilisation(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword>, <keyword=melee>Combat rapproché</keyword> : améliorez les alliés adjacents de 1 point(s). \n1 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Tour de siège"
+    },
+    "122309": {
+        "info": "Déploiement : donnez 2 utilisation(s) à une Machine de guerre alliée.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : donnez 2 <keyword=charge>utilisation(s)</keyword> à une Machine de guerre alliée.\n",
+        "name": "Aide de siège"
+    },
+    "122310": {
+        "info": "Déploiement, Combat rapproché : générez une copie d'un allié Bronze en bas de votre jeu.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : <keyword=spawn>générez</keyword> une copie d'un allié Bronze en bas de votre jeu.\n",
+        "name": "Éclaireur des Stries"
+    },
+    "122311": {
+        "info": "Ordre : invoquez une copie de la présente unité sur cette ligne depuis votre jeu.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : <keyword=summon>invoquez</keyword> une copie de la présente unité sur cette ligne depuis votre jeu.\n",
+        "name": "Stries : commando"
+    },
+    "122312": {
+        "info": "Déploiement : améliorez les unités adjacentes de 2 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez les unités adjacentes de 2 point(s).\n",
+        "name": "Médecin de terrain"
+    },
+    "122313": {
+        "info": "Déploiement : la présente unité obtient Zèle si elle est jouée adjacente à 2 Soldats.\nOrdre : infligez 3 point(s) de dégâts à un ennemi.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : la présente unité obtient <keyword=zeal>Zèle</keyword> si elle est jouée adjacente à 2 Soldats.\n<keyword=order>Ordre</keyword> : infligez 3 point(s) de dégâts à un ennemi.\n",
+        "name": "Bannière Brune"
+    },
+    "122314": {
+        "info": "Déploiement, Combat rapproché : retirez toutes les utilisations d'une unité ennemie, puis infligez-lui un nombre de points de dégâts équivalant au montant retiré.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : retirez toutes les <keyword=charge>utilisations</keyword> d'une unité ennemie, puis infligez-lui un nombre de points de dégâts équivalant au montant retiré.\n",
+        "name": "Cavalerie de Kaedwen"
+    },
+    "122315": {
+        "info": "Combat à distance : à la fin de chaque tour, infligez 1 point(s) de dégâts à un ennemi aléatoire sur la ligne de combat à distance.\n",
+        "infoRaw": "<keyword=ranged>Combat à distance</keyword> : à la fin de chaque tour, infligez 1 point(s) de dégâts à un ennemi aléatoire sur la ligne de combat à distance.\n",
+        "name": "Trébuchet renforcé"
+    },
+    "122316": {
+        "info": "Déploiement : infligez 1 point(s) de dégâts à un ennemi pour chaque unités améliorées sur cette ligne.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 1 point(s) de dégâts à un ennemi pour chaque unités améliorées sur cette ligne.\n",
+        "name": "Fantassin temerien"
+    },
+    "122318": {
+        "info": "Chaque fois qu'une Machine de guerre est placée sur cette ligne, ajoutez-lui l'attribut Zèle.\n",
+        "infoRaw": "Chaque fois qu'une Machine de guerre est placée sur cette ligne, ajoutez-lui l'attribut <keyword=zeal>Zèle</keyword>.\n",
+        "name": "Maître de siège"
+    },
+    "122401": {
+        "info": "À la fin de chaque tour, infligez 1 point(s) de dégâts à l'ennemi le plus fort. \nOrdre : transformation en Sommeillard.\n",
+        "infoRaw": "À la fin de chaque tour, infligez 1 point(s) de dégâts à l'ennemi le plus fort. \n<keyword=order>Ordre</keyword> : transformation en Sommeillard.\n",
+        "name": "Couvin"
+    },
+    "122402": {
+        "info": "À la fin de chaque tour, améliorez l'allié le plus faible de 1 point(s). \nOrdre : transformation en Couvin.\n",
+        "infoRaw": "À la fin de chaque tour, améliorez l'allié le plus faible de 1 point(s). \n<keyword=order>Ordre</keyword> : transformation en Couvin.\n",
+        "name": "Sommeillard"
+    },
+    "122403": {
+        "info": "Déploiement, Combat à distance : tirez une carte, puis placez une carte de votre main sur le dessus de votre jeu.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : tirez une carte, puis placez une carte de votre main sur le dessus de votre jeu.\n",
+        "name": "Novice de Vicovaro"
+    },
+    "123201": {
+        "info": "Générez une copie d'une unité Bronze et invoquez-la sur cette ligne.\n",
+        "infoRaw": "<keyword=spawn>Générez</keyword> une copie d'une unité Bronze et <keyword=summon>invoquez</keyword>-la sur cette ligne.\n",
+        "name": "Renforts"
+    },
+    "131101": {
+        "info": "Ordre : améliorez une unité de 4 point(s) et ajoutez-lui l'attribut Invulnérable.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : améliorez une unité de 4 point(s) et ajoutez-lui l'attribut <keyword=immune>Invulnérable</keyword>.\n",
+        "name": "Eredin Bréacc Glas"
+    },
+    "131102": {
+        "info": "Combat à distance : Chaque fois que vous jouez une unité qui possède un Baroud d'honneur, déclenchez sa capacité Baroud d'honneur.\n",
+        "infoRaw": "<keyword=ranged>Combat à distance</keyword> : Chaque fois que vous jouez une unité qui possède un <keyword=deathwish>Baroud d'honneur</keyword>, déclenchez sa capacité <keyword=deathwish>Baroud d'honneur</keyword>.\n",
+        "name": "Ge'els"
+    },
+    "132101": {
+        "info": "Déploiement : transformez tous les Humains alliés en Revenants de Kaedwen sans modifier leur force.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : transformez tous les Humains alliés en Revenants de Kaedwen sans modifier leur force.\n",
+        "name": "Draugr"
+    },
+    "132102": {
+        "info": "Infligez à une unité un nombre de dégâts égal à la force la plus élevée parmi vos alliés.\n",
+        "infoRaw": "Infligez à une unité un nombre de dégâts égal à la force la plus élevée parmi vos alliés.\n",
+        "name": "Fureur d'Imlerith"
+    },
+    "132103": {
+        "info": "Ordre : améliorez une unité dans votre main de 8 point(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : améliorez une unité dans votre main de 8 point(s).\n",
+        "name": "Leshen"
+    },
+    "132104": {
+        "info": "Déploiement : générez une copie d'une unité de force 1 depuis votre main sur la ligne de cette unité et invoquez-la sur cette ligne.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> une copie d'une unité de force 1 depuis votre main sur la ligne de cette unité et <keyword=summon>invoquez</keyword>-la sur cette ligne.\n",
+        "name": "Caranthir Ar-Feiniel"
+    },
+    "132105": {
+        "info": "Ordre : donnez l'attribut Invulnérable à une unité alliée.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : donnez l'attribut <keyword=immune>Invulnérable</keyword> à une unité alliée.\n",
+        "name": "Avallac'h"
+    },
+    "132106": {
+        "info": "Déploiement, Combat à distance : jouez un artefact depuis votre cimetière.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : jouez un artefact depuis votre cimetière.\n",
+        "name": "Fossoyeur"
+    },
+    "132107": {
+        "info": "Zèle.\nOrdre : dévorez un allié.\n3 utilisation(s).\n",
+        "infoRaw": "<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : <keyword=consume>dévorez</keyword> un allié.\n3 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Keyran"
+    },
+    "132108": {
+        "info": "Baroud d'honneur : saisissez un ennemi d'une force égale ou inférieur à 3.\n",
+        "infoRaw": "<keyword=deathwish>Baroud d'honneur</keyword> : <keyword=seize>saisissez</keyword> un ennemi d'une force égale ou inférieur à 3.\n",
+        "name": "Miruna"
+    },
+    "132201": {
+        "info": "Générez 2 Bourdon(s) arachas et invoquez-les sur cette ligne, puis améliorez tous les Insectoïdes sur cette ligne de 1 point(s).\n",
+        "infoRaw": "<keyword=spawn>Générez</keyword> 2 Bourdon(s) arachas et <keyword=summon>invoquez</keyword>-les sur cette ligne, puis améliorez tous les Insectoïdes sur cette ligne de 1 point(s).\n",
+        "name": "Mastodonte arachas"
+    },
+    "132202": {
+        "info": "Ordre : bannissez toutes les unités de votre cimetière, puis améliorez la présente unité de 1 point(s) pour chaque carte bannie.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : <keyword=banish>bannissez</keyword> toutes les unités de votre cimetière, puis améliorez la présente unité de 1 point(s) pour chaque carte bannie.\n",
+        "name": "Fourbe-veuve"
+    },
+    "132203": {
+        "info": "Développement. \nDéploiement : déclenchez la capacité Baroud d'honneur d'un allié Bronze.\n",
+        "infoRaw": "<keyword=thrive>Développement</keyword>. \n<keyword=deploy>Déploiement</keyword> : déclenchez la capacité <keyword=deathwish>Baroud d'honneur</keyword> d'un allié Bronze.\n",
+        "name": "Abaya"
+    },
+    "132204": {
+        "info": "Si 3 alliés sont détruits, réveillez l'Épouvanteur.\n",
+        "infoRaw": "Si 3 alliés sont détruits, réveillez l'Épouvanteur.\n",
+        "name": "Épouvanteur : endormi"
+    },
+    "132205": {
+        "info": "Déploiement : améliorez toutes les Bêtes alliées de 1 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez toutes les Bêtes alliées de 1 point(s).\n",
+        "name": "Morvudd"
+    },
+    "132206": {
+        "info": "Déploiement : infligez 2 point(s) de dégâts à un ennemi.\nQuand vous jouez Ambroisie ou Fuselle, augmentez les dégâts infligés par la présente unité de 2 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 2 point(s) de dégâts à un ennemi.\nQuand vous jouez Ambroisie ou Fuselle, augmentez les dégâts infligés par la présente unité de 2 point(s).\n",
+        "name": "Soupir"
+    },
+    "132207": {
+        "info": "Déploiement : dévorez 1 unité(s) alliée(s)\n. Quand vous jouez Soupir ou Fuselle, augmentez le nombre de cibles de 1.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : <keyword=consume>dévorez</keyword> 1 unité(s) alliée(s)\n. Quand vous jouez Soupir ou Fuselle, augmentez le nombre de cibles de 1.\n",
+        "name": "Ambroisie"
+    },
+    "132208": {
+        "info": "Déploiement : améliorez un allié de 2 point(s).\nQuand vous jouez Soupir ou Ambroisie, augmentez l'amélioration de 2 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez un allié de 2 point(s).\nQuand vous jouez Soupir ou Ambroisie, augmentez l'amélioration de 2 point(s).\n",
+        "name": "Fuselle"
+    },
+    "132209": {
+        "info": "Baroud d'honneur : détruisez l'ennemi disposant de la force la plus faible.\n",
+        "infoRaw": "<keyword=deathwish>Baroud d'honneur</keyword> : détruisez l'ennemi disposant de la force la plus faible.\n",
+        "name": "Manticore impériale"
+    },
+    "132210": {
+        "info": "Zèle.\nOrdre : infligez 1 point(s) de dégâts à toutes les unités de la ligne opposée.\nRéutilisation : 3 tour(s).\n",
+        "infoRaw": "<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : infligez 1 point(s) de dégâts à toutes les unités de la ligne opposée.\n<keyword=cooldown>Réutilisation</keyword> : 3 tour(s).\n",
+        "name": "Ifrit colossal"
+    },
+    "132211": {
+        "info": "Développement.\n",
+        "infoRaw": "<keyword=thrive>Développement</keyword>.\n",
+        "name": "Guerrier nekker"
+    },
+    "132212": {
+        "info": "Aucune capacité.\n",
+        "infoRaw": "Aucune capacité.\n",
+        "name": "Géant de glace"
+    },
+    "132213": {
+        "info": "Aucune capacité.\n",
+        "infoRaw": "Aucune capacité.\n",
+        "name": "D'ao primordial"
+    },
+    "132214": {
+        "info": "Déploiement : détruisez un artefact ennemi. Si vous contrôlez l'unité disposant de la force la plus élevée, infligez 2 point(s) de dégâts aux unités adjacentes à l'artefact.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : détruisez un artefact ennemi. Si vous contrôlez l'unité disposant de la force la plus élevée, infligez 2 point(s) de dégâts aux unités adjacentes à l'artefact.\n",
+        "name": "Nithral"
+    },
+    "132215": {
+        "info": "Déploiement : donnez à une unité ennemie l'attribut Condamnée.\nOrdre : détruisez un ennemi condamné.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : donnez à une unité ennemie l'attribut <keyword=doomed>Condamnée</keyword>.\n<keyword=order>Ordre</keyword> : détruisez un ennemi <keyword=doomed>condamné</keyword>.\n",
+        "name": "Gaunter de Meuré"
+    },
+    "132216": {
+        "info": "Déploiement, Combat rapproché : dévorez une unité dont la force est égale ou inférieure à 3.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : <keyword=consume>dévorez</keyword> une unité dont la force est égale ou inférieure à 3.\n",
+        "name": "Prince crapaud"
+    },
+    "132217": {
+        "info": "Déploiement : dévorez une unité alliée.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : <keyword=consume>dévorez</keyword> une unité alliée.\n",
+        "name": "Célénos"
+    },
+    "132218": {
+        "info": "Aucune capacité.\n",
+        "infoRaw": "Aucune capacité.\n",
+        "name": "Fer-de-lance : sieste"
+    },
+    "132301": {
+        "info": "Baroud d'honneur : invoquez une copie de la présente unité depuis votre jeu sur une ligne alliée aléatoire.\n",
+        "infoRaw": "<keyword=deathwish>Baroud d'honneur</keyword> : <keyword=summon>invoquez</keyword> une copie de la présente unité depuis votre jeu sur une ligne alliée aléatoire.\n",
+        "name": "Brumelin"
+    },
+    "132302": {
+        "info": "Baroud d'honneur : invoquez la présente unité depuis le cimetière sur la même ligne, améliorez-la de 4 points et donnez-lui l'attribut Condamnée.\n",
+        "infoRaw": "<keyword=deathwish>Baroud d'honneur</keyword> : <keyword=summon>invoquez</keyword> la présente unité depuis le cimetière sur la même ligne, améliorez-la de 4 points et donnez-lui l'attribut <keyword=doomed>Condamnée</keyword>.\n",
+        "name": "Vieux brumelin"
+    },
+    "132303": {
+        "info": "Déploiement : infligez 2 point(s) de dégâts à un ennemi.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 2 point(s) de dégâts à un ennemi.\n",
+        "name": "Wyvern"
+    },
+    "132304": {
+        "info": "Condamnée.\n",
+        "infoRaw": "<keyword=doomed>Condamnée</keyword>.\n",
+        "name": "Bourdon arachas"
+    },
+    "132305": {
+        "info": "Développement.\nDéploiement : générez une copie de base de la présente unité et invoquez-la sur cette ligne.\n",
+        "infoRaw": "<keyword=thrive>Développement</keyword>.\n<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> une copie de base de la présente unité et <keyword=summon>invoquez</keyword>-la sur cette ligne.\n",
+        "name": "Nekker"
+    },
+    "132306": {
+        "info": "Déploiement, Combat rapproché : dévorez une unité de votre cimetière.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : <keyword=consume>dévorez</keyword> une unité de votre cimetière.\n",
+        "name": "Goule"
+    },
+    "132307": {
+        "info": "Déploiement : détruisez un allié sur cette ligne. S'il n'y a pas d'unité, détruisez la présente unité.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : détruisez un allié sur cette ligne. S'il n'y a pas d'unité, détruisez la présente unité.\n",
+        "name": "Griffon"
+    },
+    "132308": {
+        "info": "Chaque fois qu'une unité est détruite durant votre tour, infligez 1 point(s) de dégâts à un ennemi aléatoire.\n",
+        "infoRaw": "Chaque fois qu'une unité est détruite durant votre tour, infligez 1 point(s) de dégâts à un ennemi aléatoire.\n",
+        "name": "Guerrier vran"
+    },
+    "132309": {
+        "info": "Déploiement : infligez 1 point(s) de dégâts à une unité pour chaque unité de la Chasse Sauvage présente sur cette ligne.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 1 point(s) de dégâts à une unité pour chaque unité de la Chasse Sauvage présente sur cette ligne.\n",
+        "name": "Chasse : guerrier"
+    },
+    "132310": {
+        "info": "Déploiement : si vous contrôlez l'unité disposant de la force la plus élevée, invoquez une copie du Cavalier de la Chasse Sauvage sur cette ligne depuis votre jeu.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : si vous contrôlez l'unité disposant de la force la plus élevée, <keyword=summon>invoquez</keyword> une copie du Cavalier de la Chasse Sauvage sur cette ligne depuis votre jeu.\n",
+        "name": "Chasse : cavalier"
+    },
+    "132312": {
+        "info": "Chaque joueur détruit son unité la plus faible.\n",
+        "infoRaw": "Chaque joueur détruit son unité la plus faible.\n",
+        "name": "Bond de prédateur"
+    },
+    "132314": {
+        "info": "Développement.\nDéploiement : infligez 2 point(s) de dégâts à un ennemi et déplacez-le vers une autre ligne.\n",
+        "infoRaw": "<keyword=thrive>Développement</keyword>.\n<keyword=deploy>Déploiement</keyword> : infligez 2 point(s) de dégâts à un ennemi et déplacez-le vers une autre ligne.\n",
+        "name": "Noyeur"
+    },
+    "132315": {
+        "info": "Condamnée.\n",
+        "infoRaw": "<keyword=doomed>Condamnée</keyword>.\n",
+        "name": "Harpie"
+    },
+    "132316": {
+        "info": "Baroud d'honneur : générez une harpie et invoquez-la sur une ligne alliée aléatoire.\n",
+        "infoRaw": "<keyword=deathwish>Baroud d'honneur</keyword> : <keyword=spawn>générez</keyword> une harpie et <keyword=summon>invoquez</keyword>-la sur une ligne alliée aléatoire.\n",
+        "name": "Œuf de harpie"
+    },
+    "132402": {
+        "info": "Déploiement : infligez 1 point(s) de dégâts à un ennemi. Si vous contrôlez l'unité disposant de la force la plus élevée, infligez 3 point(s) de dégâts à l'ennemi à la place.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 1 point(s) de dégâts à un ennemi. Si vous contrôlez l'unité disposant de la force la plus élevée, infligez 3 point(s) de dégâts à l'ennemi à la place.\n",
+        "name": "Chasse : molosse"
+    },
+    "132403": {
+        "info": "Déploiement : infligez 2 point(s) de dégâts à un ennemi.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 2 point(s) de dégâts à un ennemi.\n",
+        "name": "Meute de loups"
+    },
+    "132404": {
+        "info": "Déploiement : infligez 4 point(s) de dégâts à un ennemi.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 4 point(s) de dégâts à un ennemi.\n",
+        "name": "Ifrit enragé"
+    },
+    "132405": {
+        "info": "Déploiement : détruisez un artefact ennemi.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : détruisez un artefact ennemi.\n",
+        "name": "D'ao frénétique"
+    },
+    "132406": {
+        "info": "Déploiement : déclenchez la capacité Baroud d'honneur d'un allié Bronze.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : déclenchez la capacité <keyword=deathwish>Baroud d'honneur</keyword> d'un allié Bronze.\n",
+        "name": "Maerolorn"
+    },
+    "132407": {
+        "info": "Déploiement : révélez la première unité du jeu de votre adversaire et infligez à la présente unité un nombre de points de dégâts équivalant à sa force, puis mélangez-la dans le jeu.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : <keyword=reveal>révélez</keyword> la première unité du jeu de votre adversaire et infligez à la présente unité un nombre de points de dégâts équivalant à sa force, puis mélangez-la dans le jeu.\n",
+        "name": "Golem impérial"
+    },
+    "132408": {
+        "info": "Aucune capacité.\n",
+        "infoRaw": "Aucune capacité.\n",
+        "name": "Vieux Fer-de-lance"
+    },
+    "132409": {
+        "info": "Infligez 3 point(s) de dégâts à un ennemi et améliorez un allié de 3 point(s).\n",
+        "infoRaw": "Infligez 3 point(s) de dégâts à un ennemi et améliorez un allié de 3 point(s).\n",
+        "name": "Festin immonde"
+    },
+    "133301": {
+        "info": "Zèle.\nOrdre : améliorez une unité de 1 point(s). \nRéutilisation : 1 tour(s).\n",
+        "infoRaw": "<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : améliorez une unité de 1 point(s). \n<keyword=cooldown>Réutilisation</keyword> : 1 tour(s).\n",
+        "name": "Bouclier de wyvern"
+    },
+    "133302": {
+        "info": "Générez 4 Bourdon arachas disposant d'1 point de force et invoquez-les sur une ligne alliée.\n",
+        "infoRaw": "<keyword=spawn>Générez</keyword> 4 Bourdon arachas disposant d'1 point de force et <keyword=summon>invoquez</keyword>-les sur une ligne alliée.\n",
+        "name": "Nid d'arachas"
+    },
+    "142101": {
+        "info": "Invulnérable.\nOrdre : jusqu'à la fin du tour, la présente unité n'est plus invulnérable.\n",
+        "infoRaw": "<keyword=immune>Invulnérable</keyword>.\n<keyword=order>Ordre</keyword> : jusqu'à la fin du tour, la présente unité n'est plus <keyword=immune>invulnérable</keyword>.\n",
+        "name": "Saesenthessis"
+    },
+    "142102": {
+        "info": "Déploiement : améliorez tous les autres Elfes alliés de 1 point(s).\nChaque fois que vous jouez un Elfe, améliorez la présente unité de 1 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez tous les autres Elfes alliés de 1 point(s).\nChaque fois que vous jouez un Elfe, améliorez la présente unité de 1 point(s).\n",
+        "name": "Isengrim Faoiltiarna"
+    },
+    "142103": {
+        "info": "Déploiement : replacez un Piège allié dans votre main, puis jouez un Piège.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : replacez un Piège allié dans votre main, puis jouez un Piège.\n",
+        "name": "Iorveth"
+    },
+    "142104": {
+        "info": "Invulnérable.\nAméliorez la présente unité de 1 point(s) chaque fois que vous jouez une unité des Scoia'tael.\n",
+        "infoRaw": "<keyword=immune>Invulnérable</keyword>.\nAméliorez la présente unité de 1 point(s) chaque fois que vous jouez une unité des Scoia'tael.\n",
+        "name": "Milva"
+    },
+    "142105": {
+        "info": "Déploiement, Combat rapproché : détruisez une unité dont la force est inférieure ou égale au nombre de Nains alliés.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : détruisez une unité dont la force est inférieure ou égale au nombre de Nains alliés.\n",
+        "name": "Zoltan Chivay"
+    },
+    "142106": {
+        "info": "Déploiement : à la fin du tour, doublez le montant des améliorations sur la présente unité.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : à la fin du tour, doublez le montant des améliorations sur la présente unité.\n",
+        "name": "Aglaïs"
+    },
+    "142107": {
+        "info": "Déploiement : améliorez une unité Scoia'tael dans votre main de 4 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez une unité Scoia'tael dans votre main de 4 point(s).\n",
+        "name": "Ithlinne Aegli"
+    },
+    "142108": {
+        "info": "Zèle.\nOrdre : détruisez toutes les autres unités disposant de la même force que Schirrú.\n",
+        "infoRaw": "<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : détruisez toutes les autres unités disposant de la même force que Schirrú.\n",
+        "name": "Schirrú"
+    },
+    "142201": {
+        "info": "Déploiement, Combat rapproché : améliorez les unités adjacentes de 2 point(s).\nDéploiement, Combat à distance : améliorez toutes les autres unités sur cette ligne de 1 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : améliorez les unités adjacentes de 2 point(s).\n<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : améliorez toutes les autres unités sur cette ligne de 1 point(s).\n",
+        "name": "Dennis Cranmer"
+    },
+    "142202": {
+        "info": "Déploiement, Combat rapproché : détruisez un artefact.\nDéploiement, Combat à distance : améliorez une unité de 3 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : détruisez un artefact.\n<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : améliorez une unité de 3 point(s).\n",
+        "name": "Ida Emean aep Sivney"
+    },
+    "142203": {
+        "info": "Déploiement : infligez à un ennemi 1 point(s) de dégâts par Elfe allié.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez à un ennemi 1 point(s) de dégâts par Elfe allié.\n",
+        "name": "Yaevinn"
+    },
+    "142204": {
+        "info": "Déploiement, Combat rapproché : infligez 2 point(s) de dégâts aux ennemis situés à chaque extrémité d'une ligne.\nDéploiement, Combat à distance : infligez 1 point(s) de dégâts à tous les ennemis d'une ligne.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : infligez 2 point(s) de dégâts aux ennemis situés à chaque extrémité d'une ligne.\n<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : infligez 1 point(s) de dégâts à tous les ennemis d'une ligne.\n",
+        "name": "Toruviel"
+    },
+    "142205": {
+        "info": "Déploiement, Combat rapproché : déplacez une unité ennemie sur son autre ligne.\nDéploiement, Combat à distance : déplacez une unité alliée sur votre autre ligne.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : déplacez une unité ennemie sur son autre ligne.\n<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : déplacez une unité alliée sur votre autre ligne.\n",
+        "name": "Vrihedd : dragon"
+    },
+    "142206": {
+        "info": "Déploiement : verrouillez une unité et déplacez-la vers l'autre ligne.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : <keyword=lock>verrouillez</keyword> une unité et déplacez-la vers l'autre ligne.\n",
+        "name": "Ciaran aep Easnillen"
+    },
+    "142207": {
+        "info": "Déploiement : améliorez un allié de 1 point(s) par Nain allié.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez un allié de 1 point(s) par Nain allié.\n",
+        "name": "Barclay Els"
+    },
+    "142208": {
+        "info": "Déploiement, Combat rapproché : infligez 2 point(s) de dégâts à un ennemi.\nDéploiement, Combat à distance : verrouillez une unité.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : infligez 2 point(s) de dégâts à un ennemi.\n<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : <keyword=lock>verrouillez</keyword> une unité.\n",
+        "name": "Morenn"
+    },
+    "142209": {
+        "info": "Déploiement : si vous contrôlez au moins 2 Dryades, la présente unité gagne l'attribut Zèle.\nOrdre : infligez 1 point(s) de dégâts à un ennemi.\n3 utilisation(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : si vous contrôlez au moins 2 Dryades, la présente unité gagne l'attribut <keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : infligez 1 point(s) de dégâts à un ennemi.\n3 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Braenn"
+    },
+    "142210": {
+        "info": "Ordre : déplacez une unité vers l'autre ligne de son côté.\nRéutilisation : 2 tour(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : déplacez une unité vers l'autre ligne de son côté.\n<keyword=cooldown>Réutilisation</keyword> : 2 tour(s).\n",
+        "name": "Malena"
+    },
+    "142211": {
+        "info": "Si vous contrôlez 5 allié(s) Elfes ou plus à la fin du tour, invoquez la présente unité sur la ligne de combat rapproché depuis votre jeu.\n",
+        "infoRaw": "Si vous contrôlez 5 allié(s) Elfes ou plus à la fin du tour, <keyword=summon>invoquez</keyword> la présente unité sur la ligne de combat rapproché depuis votre jeu.\n",
+        "name": "Aelirenn"
+    },
+    "142212": {
+        "info": "Déploiement : infligez à un ennemi un montant de dégâts égal à la force de la présente unité.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez à un ennemi un montant de dégâts égal à la force de la présente unité.\n",
+        "name": "Sheldon Skaggs"
+    },
+    "142213": {
+        "info": "À la fin de chaque tour, s'il n'y a pas d'alliés sur le champ de bataille, améliorez la présente unité de 3 point(s).\n",
+        "infoRaw": "À la fin de chaque tour, s'il n'y a pas d'alliés sur le champ de bataille, améliorez la présente unité de 3 point(s).\n",
+        "name": "Yarpen Zigrin"
+    },
+    "142214": {
+        "info": "Déploiement : infligez 1 point(s) de dégâts à toutes les unités endommagées et améliorez toutes les unités améliorées de 1 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 1 point(s) de dégâts à toutes les unités endommagées et améliorez toutes les unités améliorées de 1 point(s).\n",
+        "name": "Ele'yas"
+    },
+    "142301": {
+        "info": "Déploiement, Combat rapproché : améliorez une unité alliée de 2 point(s).\nDéploiement, Combat à distance : soignez une unité alliée de 4 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : améliorez une unité alliée de 2 point(s).\n<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : <keyword=heal>soignez</keyword> une unité alliée de 4 point(s).\n",
+        "name": "Guérisseuse havekar"
+    },
+    "142302": {
+        "info": "Déploiement : infligez 2 point(s) de dégâts à un ennemi aléatoire.\nChaque fois que la Brigade Vrihedd est déplacée vers l'autre ligne, répétez sa capacité Déploiement.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 2 point(s) de dégâts à un ennemi aléatoire.\nChaque fois que la Brigade Vrihedd est déplacée vers l'autre ligne, répétez sa capacité <keyword=deploy>Déploiement</keyword>.\n",
+        "name": "Brigade Vrihedd"
+    },
+    "142303": {
+        "info": "Déploiement, Combat rapproché : infligez 3 point(s) de dégâts à un ennemi.\nDéploiement, Combat à distance : améliorez un allié de 3 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : infligez 3 point(s) de dégâts à un ennemi.\n<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : améliorez un allié de 3 point(s).\n",
+        "name": "Vrihedd : officier"
+    },
+    "142304": {
+        "info": "Déploiement : infligez 2 point(s) de dégâts à un ennemi aléatoire sur chaque ligne.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 2 point(s) de dégâts à un ennemi aléatoire sur chaque ligne.\n",
+        "name": "Blathanna : trappeuse"
+    },
+    "142305": {
+        "info": "Déploiement : infligez 3 point(s) de dégâts à un ennemi. S'il survit, améliorez la présente unité de 1 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 3 point(s) de dégâts à un ennemi. S'il survit, améliorez la présente unité de 1 point(s).\n",
+        "name": "Escarmoucheur nain"
+    },
+    "142306": {
+        "info": "À la fin de chaque tour, améliorez la présente unité de 1 point(s) si celle-ci a été améliorée.\n",
+        "infoRaw": "À la fin de chaque tour, améliorez la présente unité de 1 point(s) si celle-ci a été améliorée.\n",
+        "name": "Mahakam : défenseur"
+    },
+    "142307": {
+        "info": "Déploiement : si vous avez un Elfe dans votre main, détruisez un artefact ennemi.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : si vous avez un Elfe dans votre main, détruisez un artefact ennemi.\n",
+        "name": "Vrihedd : sapeur"
+    },
+    "142308": {
+        "info": "Si un allié Elfe est présent sur le champ de bataille, détruisez une unité ennemie aléatoire.\n",
+        "infoRaw": "Si un allié Elfe est présent sur le champ de bataille, détruisez une unité ennemie aléatoire.\n",
+        "name": "Déviation"
+    },
+    "142309": {
+        "info": "Déploiement : améliorez la présente unité de 1 point(s) pour chaque Elfe présent dans votre main.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez la présente unité de 1 point(s) pour chaque Elfe présent dans votre main.\n",
+        "name": "Vrihedd : avant-garde"
+    },
+    "142310": {
+        "info": "Déploiement, Combat rapproché : infligez 2 point(s) de dégâts à un ennemi.\nDéploiement, Combat à distance : infligez 1 point(s) de dégâts à 2 unités.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : infligez 2 point(s) de dégâts à un ennemi.\n<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : infligez 1 point(s) de dégâts à 2 unités.\n",
+        "name": "Blathanna : archère"
+    },
+    "142311": {
+        "info": "Ordre : infligez 1 point(s) de dégâts à un ennemi. \n1 utilisation(s).\nLa présente unité gagne 1 utilisation(s) quand vous jouez un Nain.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : infligez 1 point(s) de dégâts à un ennemi. \n1 <keyword=charge>utilisation(s)</keyword>.\nLa présente unité gagne 1 <keyword=charge>utilisation(s)</keyword> quand vous jouez un Nain.\n",
+        "name": "Mercenaire nain"
+    },
+    "142312": {
+        "info": "Déploiement : améliorez un allié de 1 point(s). Si vous contrôlez un artefact, améliorez la présente unité de 3 point(s) à la place.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez un allié de 1 point(s). Si vous contrôlez un artefact, améliorez la présente unité de 3 point(s) à la place.\n",
+        "name": "Marchand havekar"
+    },
+    "142313": {
+        "info": "Déploiement : si la présente unité est déjà améliorée, infligez 3 point(s) de dégâts à un ennemi.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : si la présente unité est déjà améliorée, infligez 3 point(s) de dégâts à un ennemi.\n",
+        "name": "Danseuse guerrière Elfe"
+    },
+    "142314": {
+        "info": "Déploiement : infligez 1 point(s) de dégâts à un ennemi pour chaque ligne qui le sépare de la présente unité.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 1 point(s) de dégâts à un ennemi pour chaque ligne qui le sépare de la présente unité.\n",
+        "name": "Blathanna : tireuse"
+    },
+    "142315": {
+        "info": "Combat rapproché : à la fin de chaque tour, améliorez une unité aléatoire dans votre main de 1 point(s).\n",
+        "infoRaw": "<keyword=melee>Combat rapproché</keyword> : à la fin de chaque tour, améliorez une unité aléatoire dans votre main de 1 point(s).\n",
+        "name": "Passeuse havekar"
+    },
+    "142316": {
+        "info": "Déploiement.\nCombat rapproché : infligez 4 point(s) de dégâts à un ennemi s'il n'y a aucune autre unité sur sa ligne.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>.\n<keyword=melee>Combat rapproché</keyword> : infligez 4 point(s) de dégâts à un ennemi s'il n'y a aucune autre unité sur sa ligne.\n",
+        "name": "Mont bleu : commando"
+    },
+    "142317": {
+        "info": "Déploiement : améliorez la présente unité d'un nombre de points équivalant au nombre de Nains alliés sur l'autre ligne.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez la présente unité d'un nombre de points équivalant au nombre de Nains alliés sur l'autre ligne.\n",
+        "name": "Mahakam : garde"
+    },
+    "142401": {
+        "info": "Déploiement : générez et invoquez une copie de base de la présente unité sur l'autre ligne alliée.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> et <keyword=summon>invoquez</keyword> une copie de base de la présente unité sur l'autre ligne alliée.\n",
+        "name": "Bleusaille Scoia'tael"
+    },
+    "143201": {
+        "info": "Embuscade : détruisez la prochaine carte spéciale jouée par votre adversaire avant qu'elle n'active une de ses capacités.\n",
+        "infoRaw": "<keyword=ambush>Embuscade</keyword> : détruisez la prochaine carte spéciale jouée par votre adversaire avant qu'elle n'active une de ses capacités.\n",
+        "name": "Piège à serpents"
+    },
+    "143301": {
+        "info": "Embuscade : infligez 5 point(s) de dégâts à la prochaine unité jouée par votre adversaire. \nZèle.\nOrdre : retournez une unité et infligez-lui 3 point(s) de dégâts.\n",
+        "infoRaw": "<keyword=ambush>Embuscade</keyword> : infligez 5 point(s) de dégâts à la prochaine unité jouée par votre adversaire. \n<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : retournez une unité et infligez-lui 3 point(s) de dégâts.\n",
+        "name": "Piège incinérant"
+    },
+    "152101": {
+        "info": "Déploiement, Combat rapproché : bannissez une unité de votre cimetière et infligez à un ennemi un nombre de points de dégâts équivalant à la force de l'unité bannie.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : <keyword=banish>bannissez</keyword> une unité de votre cimetière et infligez à un ennemi un nombre de points de dégâts équivalant à la force de l'unité bannie.\n",
+        "name": "Hjalmar an Craite"
+    },
+    "152103": {
+        "info": "Déploiement, Combat à distance : jouez une carte Alchimie depuis votre jeu.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : jouez une carte Alchimie depuis votre jeu.\n",
+        "name": "Sac-à-souris"
+    },
+    "152104": {
+        "info": "Déploiement : défaussez la carte la plus à droite de votre main, puis forcez l'adversaire à faire de même.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : <keyword=discard>défaussez</keyword> la carte la plus à droite de votre main, puis forcez l'adversaire à faire de même.\n",
+        "name": "Kambi"
+    },
+    "152105": {
+        "info": "Déploiement : tirez 2 cartes, puis défaussez 2 cartes.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : tirez 2 cartes, puis <keyword=discard>défaussez</keyword> 2 cartes.\n",
+        "name": "Birna Bran"
+    },
+    "152106": {
+        "info": "Déploiement : infligez à un ennemi un montant de dégâts égal au double du nombre d'ennemis endommagés.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez à un ennemi un montant de dégâts égal au double du nombre d'ennemis endommagés.\n",
+        "name": "Lugos le Dingue"
+    },
+    "152107": {
+        "info": "Ordre : défaussez une carte, puis tirez-en une. \n3 utilisation(s).\nChaque fois qu'une carte spéciale est défaussée, infligez 2 point(s) de dégâts à un ennemi.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : <keyword=discard>défaussez</keyword> une carte, puis tirez-en une. \n3 <keyword=charge>utilisation(s)</keyword>.\nChaque fois qu'une carte spéciale est <keyword=discard>défaussée</keyword>, infligez 2 point(s) de dégâts à un ennemi.\n",
+        "name": "Corail"
+    },
+    "152109": {
+        "info": "Déploiement, Combat rapproché : infligez 2 point(s) de dégâts à tous les ennemis endommagés.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : infligez 2 point(s) de dégâts à tous les ennemis endommagés.\n",
+        "name": "Sanglier des mers"
+    },
+    "152201": {
+        "info": "Chaque fois que la présente unité subit des dégâts, infligez 2 point(s) de dégâts à un ennemi aléatoire.\n",
+        "infoRaw": "Chaque fois que la présente unité subit des dégâts, infligez 2 point(s) de dégâts à un ennemi aléatoire.\n",
+        "name": "Lugos la Beigne"
+    },
+    "152202": {
+        "info": "Infligez 5 point(s) de dégâts à un ennemi. \nSoif de sang 3 : détruisez un ennemi à la place.\n",
+        "infoRaw": "Infligez 5 point(s) de dégâts à un ennemi. \n<keyword=bloodthirst>Soif de sang</keyword> 3 : détruisez un ennemi à la place.\n",
+        "name": "Charge de champion"
+    },
+    "152203": {
+        "info": "Soif de sang 1 : verrouillez une unité ennemie.\n",
+        "infoRaw": "<keyword=bloodthirst>Soif de sang</keyword> 1 : <keyword=lock>verrouillez</keyword> une unité ennemie.\n",
+        "name": "Dujangoth Frett"
+    },
+    "152204": {
+        "info": "Déploiement : infligez 2 point(s) de dégâts à une unité ennemie.\nSoif de sang 2 : infligez 5 point(s) de dégâts à un ennemi à la place.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 2 point(s) de dégâts à une unité ennemie.\n<keyword=bloodthirst>Soif de sang</keyword> 2 : infligez 5 point(s) de dégâts à un ennemi à la place.\n",
+        "name": "Donar an Hindar"
+    },
+    "152205": {
+        "info": "Déploiement : améliorez tous les alliés Guerriers de 1 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez tous les alliés Guerriers de 1 point(s).\n",
+        "name": "Draig Bon-Dhu"
+    },
+    "152206": {
+        "info": "Déploiement, Combat à distance : jouez une carte Alchimie Bronze depuis votre cimetière.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : jouez une carte Alchimie Bronze depuis votre cimetière.\n",
+        "name": "Gremist"
+    },
+    "152207": {
+        "info": "Chaque fois que vous jouez un Vaisseau, améliorez-le de 1 point(s).\nChaque fois que vous jouez un Pirate, infligez 1 point(s) de dégâts à un ennemi aléatoire.\n",
+        "infoRaw": "Chaque fois que vous jouez un Vaisseau, améliorez-le de 1 point(s).\nChaque fois que vous jouez un Pirate, infligez 1 point(s) de dégâts à un ennemi aléatoire.\n",
+        "name": "Holger Main-noire"
+    },
+    "152208": {
+        "info": "Déploiement : si Jutta an Dimun est l'unité disposant de la force la plus élevée sur le champ de bataille, la présente unité subit 6 point(s) de dégâts.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : si Jutta an Dimun est l'unité disposant de la force la plus élevée sur le champ de bataille, la présente unité subit 6 point(s) de dégâts.\n",
+        "name": "Jutta an Dimun"
+    },
+    "152209": {
+        "info": "Quand cette unité se déplace vers le cimetière, invoquez-la sur la ligne de combat rapproché et donnez-lui l'attribut Condamnée.\n",
+        "infoRaw": "Quand cette unité se déplace vers le cimetière, <keyword=summon>invoquez</keyword>-la sur la ligne de combat rapproché et donnez-lui l'attribut <keyword=doomed>Condamnée</keyword>.\n",
+        "name": "Morkvarg"
+    },
+    "152210": {
+        "info": "Zèle.\nDéploiement : la présente unité gagne 1 utilisation(s) par Ours sauvage dans le cimetière.\nOrdre : infligez 2 point(s) de dégâts à une unité.\n1 utilisation(s).\n",
+        "infoRaw": "<keyword=zeal>Zèle</keyword>.\n<keyword=deploy>Déploiement</keyword> : la présente unité gagne 1 <keyword=charge>utilisation(s)</keyword> par Ours sauvage dans le cimetière.\n<keyword=order>Ordre</keyword> : infligez 2 point(s) de dégâts à une unité.\n1 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Ours sauvage"
+    },
+    "152211": {
+        "info": "Invoquez un Guerrier sur une ligne alliée depuis votre cimetière.\n",
+        "infoRaw": "<keyword=summon>Invoquez</keyword> un Guerrier sur une ligne alliée depuis votre cimetière.\n",
+        "name": "Rituel de Sigrdrifa"
+    },
+    "152213": {
+        "info": "Déploiement, Soif de sang 3 : améliorez la présente unité de 5 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=bloodthirst>Soif de sang</keyword> 3 : améliorez la présente unité de 5 point(s).\n",
+        "name": "Svanrige Tuirseach"
+    },
+    "152214": {
+        "info": "Ordre : infligez 1 point(s) de dégâts à une unité.\n3 utilisation(s).\nSoif de sang 2 : la présente unité gagne l'attribut Zèle.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : infligez 1 point(s) de dégâts à une unité.\n3 <keyword=charge>utilisation(s)</keyword>.\n<keyword=bloodthirst>Soif de sang</keyword> 2 : la présente unité gagne l'attribut <keyword=zeal>Zèle</keyword>.\n",
+        "name": "Udalryk an Brokvar"
+    },
+    "152303": {
+        "info": "Déploiement : infligez 2 point(s) de dégâts à un ennemi. Si cette carte est jouée depuis le cimetière, infligez 4 point(s) de dégâts à la place.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 2 point(s) de dégâts à un ennemi. Si cette carte est jouée depuis le cimetière, infligez 4 point(s) de dégâts à la place.\n",
+        "name": "An Craite : guerrier"
+    },
+    "152304": {
+        "info": "Ordre : infligez 1 point(s) de dégâts à une unité. \n1 utilisation(s).\nGagnez 1 utilisation(s) chaque fois que vous défaussez une carte.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : infligez 1 point(s) de dégâts à une unité. \n1 <keyword=charge>utilisation(s)</keyword>.\nGagnez 1 <keyword=charge>utilisation(s)</keyword> chaque fois que vous <keyword=discard>défaussez</keyword> une carte.\n",
+        "name": "Brokvar : chasseur"
+    },
+    "152305": {
+        "info": "Déploiement : déplacez la carte du dessus de votre jeu vers votre cimetière.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : déplacez la carte du dessus de votre jeu vers votre cimetière.\n",
+        "name": "Dimun : pirate"
+    },
+    "152306": {
+        "info": "Déploiement.\nSoif de sang 2 : infligez 3 point(s) de dégâts à un ennemi.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>.\n<keyword=bloodthirst>Soif de sang</keyword> 2 : infligez 3 point(s) de dégâts à un ennemi.\n",
+        "name": "Dimun : capitaine"
+    },
+    "152307": {
+        "info": "Ordre : si la présente unité subit des dégâts, générez-en une copie de base et invoquez-la à sa droite.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : si la présente unité subit des dégâts, <keyword=spawn>générez</keyword>-en une copie de base et <keyword=summon>invoquez</keyword>-la à sa droite.\n",
+        "name": "Garde de la reine de Drummond"
+    },
+    "152308": {
+        "info": "Déploiement : défaussez une carte, puis piochez une carte.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : <keyword=discard>défaussez</keyword> une carte, puis piochez une carte.\n",
+        "name": "Heymaey : skalde"
+    },
+    "152309": {
+        "info": "Ordre : infligez 1 point(s) de dégâts à la présente unité et à un ennemi. \nRéutilisation : 1 tour(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : infligez 1 point(s) de dégâts à la présente unité et à un ennemi. \n<keyword=cooldown>Réutilisation</keyword> : 1 tour(s).\n",
+        "name": "Dimun : drakkar"
+    },
+    "152310": {
+        "info": "Jouez une unité Bronze depuis votre cimetière.\n",
+        "infoRaw": "Jouez une unité Bronze depuis votre cimetière.\n",
+        "name": "Bénédiction de Freya"
+    },
+    "152311": {
+        "info": "Ordre : améliorez un allié de 1 point(s). \n1 utilisation(s).\nGagnez 1 utilisation(s) chaque fois que vous jouez un Guerrier.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : améliorez un allié de 1 point(s). \n1 <keyword=charge>utilisation(s)</keyword>.\nGagnez 1 <keyword=charge>utilisation(s)</keyword> chaque fois que vous jouez un Guerrier.\n",
+        "name": "An Craite : forgeron"
+    },
+    "152312": {
+        "info": "Déploiement, Combat rapproché : détruisez un ennemi disposant d'une force inférieure ou égale à la moitié de sa force de base.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : détruisez un ennemi disposant d'une force inférieure ou égale à la moitié de sa force de base.\n",
+        "name": "Tuirseach : pionnier"
+    },
+    "152313": {
+        "info": "Lorsque la présente unité est défaussée, invoquez-la sur la ligne de combat rapproché depuis votre cimetière.\n",
+        "infoRaw": "Lorsque la présente unité est <keyword=discard>défaussée</keyword>, <keyword=summon>invoquez</keyword>-la sur la ligne de combat rapproché depuis votre cimetière.\n",
+        "name": "Tuirseach : soldat"
+    },
+    "152314": {
+        "info": "Chaque fois que votre adversaire joue une unité, infligez-lui 1 point(s) de dégâts.\n",
+        "infoRaw": "Chaque fois que votre adversaire joue une unité, infligez-lui 1 point(s) de dégâts.\n",
+        "name": "An Craite : drakkar"
+    },
+    "152315": {
+        "info": "Déploiement, Combat à distance : infligez à un ennemi un nombre de point(s) de dégâts équivalant au nombre d'unités endommagées de son côté.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : infligez à un ennemi un nombre de point(s) de dégâts équivalant au nombre d'unités endommagées de son côté.\n",
+        "name": "Brokvar : archer"
+    },
+    "152316": {
+        "info": "Infligez 4 point(s) de dégâts à une unité. \nSoif de sang 2 : infligez 6 point(s) de dégâts à une unité à la place.\n",
+        "infoRaw": "Infligez 4 point(s) de dégâts à une unité. \n<keyword=bloodthirst>Soif de sang</keyword> 2 : infligez 6 point(s) de dégâts à une unité à la place.\n",
+        "name": "Éviscération"
+    },
+    "152317": {
+        "info": "Déploiement : améliorez un allié de 1 point(s). S'il s'agit d'un Guerrier, améliorez-la de 3 point(s) à la place.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez un allié de 1 point(s). S'il s'agit d'un Guerrier, améliorez-la de 3 point(s) à la place.\n",
+        "name": "An Craite : armurier"
+    },
+    "152318": {
+        "info": "La prochaine fois que la présente unité est endommagée, invoquez-en une copie sur cette ligne depuis votre jeu.\n",
+        "infoRaw": "La prochaine fois que la présente unité est endommagée, <keyword=summon>invoquez</keyword>-en une copie sur cette ligne depuis votre jeu.\n",
+        "name": "Dummond : guerrière"
+    },
+    "152403": {
+        "info": "Répartissez aléatoirement 6 point(s) de dégâts entre toutes les unités sur un rang ennemi.\n",
+        "infoRaw": "Répartissez aléatoirement 6 point(s) de dégâts entre toutes les unités sur un rang ennemi.\n",
+        "name": "Psychose"
+    },
+    "152405": {
+        "info": "Aucune capacité.\n",
+        "infoRaw": "Aucune capacité.\n",
+        "name": "Ours ancien"
+    },
+    "152406": {
+        "info": "Déploiement : infligez 1 point(s) de dégâts à un allié situé à gauche de la présente unité. S'il n'y a pas d'allié à cet endroit, la présente unité subit 1 point(s) de dégâts à sa place.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 1 point(s) de dégâts à un allié situé à gauche de la présente unité. S'il n'y a pas d'allié à cet endroit, la présente unité subit 1 point(s) de dégâts à sa place.\n",
+        "name": "Ours déchaîné"
+    },
+    "153201": {
+        "info": "Soignez toutes les unités d'une ligne.\n",
+        "infoRaw": "<keyword=heal>Soignez</keyword> toutes les unités d'une ligne.\n",
+        "name": "Rétablissement"
+    },
+    "153301": {
+        "info": "Infligez 2 point(s) de dégâts à toutes les unités d'une ligne.\n",
+        "infoRaw": "Infligez 2 point(s) de dégâts à toutes les unités d'une ligne.\n",
+        "name": "Lacération"
+    },
+    "162101": {
+        "info": "Déploiement : retirez tous les retraits de cartes du chef ennemi.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : retirez tous les retraits de cartes du chef ennemi.\n",
+        "name": "Letho de Guletta"
+    },
+    "162102": {
+        "info": "Déploiement, Combat à distance : jouez une carte Tactique depuis votre jeu.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : jouez une carte Tactique depuis votre jeu.\n",
+        "name": "Menno Coehoorn"
+    },
+    "162103": {
+        "info": "Ordre, Combat rapproché : saisissez une unité ennemie verrouillée.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword>, <keyword=melee>Combat rapproché</keyword> : <keyword=seize>saisissez</keyword> une unité ennemie <keyword=lock>verrouillée</keyword>.\n",
+        "name": "Vattier de Rideaux"
+    },
+    "162104": {
+        "info": "Combat rapproché : chaque fois qu'un ennemi bénéficie d'une amélioration, améliorez la présente unité d'un montant équivalent.\n",
+        "infoRaw": "<keyword=melee>Combat rapproché</keyword> : chaque fois qu'un ennemi bénéficie d'une amélioration, améliorez la présente unité d'un montant équivalent.\n",
+        "name": "Cahir Dyffryn"
+    },
+    "162105": {
+        "info": "Déploiement, Combat rapproché : détruisez une unité ennemie, puis votre adversaire invoque la première unité de son jeu sur une ligne ennemie aléatoire.\nDéploiement, Combat à distance : détruisez une unité alliée, puis invoquez la première unité de votre jeu.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : détruisez une unité ennemie, puis votre adversaire <keyword=summon>invoque</keyword> la première unité de son jeu sur une ligne ennemie aléatoire.\n<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : détruisez une unité alliée, puis <keyword=summon>invoquez</keyword> la première unité de votre jeu.\n",
+        "name": "Vilgefortz"
+    },
+    "162106": {
+        "info": "Ordre : générez et jouez une copie d'une carte Tactique que vous avez jouée à ce tour-ci.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : <keyword=spawn>générez</keyword> et jouez une copie d'une carte Tactique que vous avez jouée à ce tour-ci.\n",
+        "name": "Stefan Skellen"
+    },
+    "162107": {
+        "info": "Déploiement : votre adversaire invoque la première unité de son jeu sur une ligne ennemie aléatoire.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : votre adversaire <keyword=summon>invoque</keyword> la première unité de son jeu sur une ligne ennemie aléatoire.\n",
+        "name": "Tibor Eggebracht"
+    },
+    "162108": {
+        "info": "Déploiement : révélez une carte aléatoire de votre jeu. S'il s'agit d'une unité, améliorez la présente unité d'un montant équivalant à sa force, puis mélangez-la dans votre jeu. S'il s'agit d'un artefact ou d'une carte spéciale, jouez-la.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : <keyword=reveal>révélez</keyword> une carte aléatoire de votre jeu. S'il s'agit d'une unité, améliorez la présente unité d'un montant équivalant à sa force, puis mélangez-la dans votre jeu. S'il s'agit d'un artefact ou d'une carte spéciale, jouez-la.\n",
+        "name": "Xarthisius"
+    },
+    "162201": {
+        "info": "Déploiement, Combat à distance : déplacez n'importe quelle carte de votre jeu vers le dessus de votre jeu. S'il s'agit d'une unité, améliorez-la de 2 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : déplacez n'importe quelle carte de votre jeu vers le dessus de votre jeu. S'il s'agit d'une unité, améliorez-la de 2 point(s).\n",
+        "name": "Albrich"
+    },
+    "162202": {
+        "info": "Déploiement, Combat rapproché : mélangez une carte du cimetière de votre adversaire dans son jeu.\nDéploiement, Combat à distance : mélangez une carte de votre cimetière dans votre jeu.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : mélangez une carte du cimetière de votre adversaire dans son jeu.\n<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : mélangez une carte de votre cimetière dans votre jeu.\n",
+        "name": "Assire var Anahid"
+    },
+    "162203": {
+        "info": "Déploiement, Combat rapproché : générez le Gardien et placez-le sur le dessus du jeu de votre adversaire.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : <keyword=spawn>générez</keyword> le Gardien et placez-le sur le dessus du jeu de votre adversaire.\n",
+        "name": "Cynthia"
+    },
+    "162204": {
+        "info": "Déploiement : rétablissez la force initiale d'une unité.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : rétablissez la force initiale d'une unité.\n",
+        "name": "Peter Saar Gwynleve"
+    },
+    "162205": {
+        "info": "Ordre : révélez une carte spéciale aléatoire du jeu de votre adversaire, puis générez-en une copie et jouez-la.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : <keyword=reveal>révélez</keyword> une carte spéciale aléatoire du jeu de votre adversaire, puis <keyword=spawn>générez</keyword>-en une copie et jouez-la.\n",
+        "name": "Fringilla Vigo"
+    },
+    "162206": {
+        "info": "Déploiement : infligez 1 point(s) de dégâts à un ennemi.\nPour chaque unité que vous avez révélée, augmentez les dégâts infligés à la présente unité de 1 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 1 point(s) de dégâts à un ennemi.\nPour chaque unité que vous avez <keyword=reveal>révélée</keyword>, augmentez les dégâts infligés à la présente unité de 1 point(s).\n",
+        "name": "Sweers"
+    },
+    "162207": {
+        "info": "Déploiement, Combat à distance : détruisez une unité ennemie verrouillée.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : détruisez une unité ennemie <keyword=lock>verrouillée</keyword>.\n",
+        "name": "Vanhemar"
+    },
+    "162208": {
+        "info": "Déploiement : verrouillez une unité ennemie.\nSi Serrit est dans votre main, verrouillez toutes les copies de cette unité dans la main de votre adversaire, dans son jeu ou de son côté du sur le champ de bataille.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : <keyword=lock>verrouillez</keyword> une unité ennemie.\nSi Serrit est dans votre main, <keyword=lock>verrouillez</keyword> toutes les copies de cette unité dans la main de votre adversaire, dans son jeu ou de son côté du sur le champ de bataille.\n",
+        "name": "Auckes"
+    },
+    "162209": {
+        "info": "Déploiement : infligez 3 point(s) de dégâts à un ennemi. Si Auckes est dans votre main, infligez 5 point(s) de dégâts à la place.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 3 point(s) de dégâts à un ennemi. Si Auckes est dans votre main, infligez 5 point(s) de dégâts à la place.\n",
+        "name": "Serrit"
+    },
+    "162210": {
+        "info": "Espion.\nDéploiement : jouez la première carte du jeu de votre adversaire.\n",
+        "infoRaw": "<keyword=spying>Espion</keyword>.\n<keyword=deploy>Déploiement</keyword> : jouez la première carte du jeu de votre adversaire.\n",
+        "name": "Cantarella"
+    },
+    "162211": {
+        "info": "Espion.\nDéploiement : jouez la première unité (Espion exclu) de votre jeu, puis améliorez-la de 8 point(s).\n",
+        "infoRaw": "<keyword=spying>Espion</keyword>.\n<keyword=deploy>Déploiement</keyword> : jouez la première unité (<keyword=spying>Espion</keyword> exclu) de votre jeu, puis améliorez-la de 8 point(s).\n",
+        "name": "Joachim de Wett"
+    },
+    "162212": {
+        "info": "Déploiement, Combat rapproché : déplacez un ennemi vers l'autre ligne.\nDéploiement, Combat à distance : détruisez un artefact ennemi.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : déplacez un ennemi vers l'autre ligne.\n<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : détruisez un artefact ennemi.\n",
+        "name": "Fausse Ciri"
+    },
+    "162213": {
+        "info": "Déploiement : retirez tous les attributs des unités présentes sur le champ de bataille.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : retirez tous les attributs des unités présentes sur le champ de bataille.\n",
+        "name": "Ceallach Dyffryn"
+    },
+    "162301": {
+        "info": "Quand vous révélez la présente unité, invoquez-la depuis votre jeu vers une ligne alliée aléatoire.\n",
+        "infoRaw": "Quand vous <keyword=reveal>révélez</keyword> la présente unité, <keyword=summon>invoquez</keyword>-la depuis votre jeu vers une ligne alliée aléatoire.\n",
+        "name": "Soldat daerlandais"
+    },
+    "162302": {
+        "info": "Déploiement, Combat à distance : générez et jouez une Carcasse de vache.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : <keyword=spawn>générez</keyword> et jouez une Carcasse de vache.\n",
+        "name": "Lanceur de carcasses"
+    },
+    "162303": {
+        "info": "Déploiement, Combat rapproché : révélez une unité aléatoire depuis le jeu de votre adversaire et améliorez la présente unité d'un montant équivalant à sa force.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : <keyword=reveal>révélez</keyword> une unité aléatoire depuis le jeu de votre adversaire et améliorez la présente unité d'un montant équivalant à sa force.\n",
+        "name": "Guetteur"
+    },
+    "162304": {
+        "info": "Jouez une unité Bronze depuis le cimetière de l'ennemi.\n",
+        "infoRaw": "Jouez une unité Bronze depuis le cimetière de l'ennemi.\n",
+        "name": "Remède expérimental"
+    },
+    "162305": {
+        "info": "Déploiement : infligez 2 point(s) de dégâts à un ennemi, puis révélez une unité aléatoire depuis chaque jeu. Si la vôtre dispose de la force la plus élevée, répétez la capacité de déploiement.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 2 point(s) de dégâts à un ennemi, puis <keyword=reveal>révélez</keyword> une unité aléatoire depuis chaque jeu. Si la vôtre dispose de la force la plus élevée, répétez la capacité de <keyword=deploy>déploiement</keyword>.\n",
+        "name": "Arbalète de Deithwen"
+    },
+    "162306": {
+        "info": "Ordre, Combat à distance : infligez 1 point(s) de dégâts à une unité. \n1 utilisation(s).\nLa présente unité gagne 1 utilisation(s) quand vous jouez une carte Tactique.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword>, <keyword=ranged>Combat à distance</keyword> : infligez 1 point(s) de dégâts à une unité. \n1 <keyword=charge>utilisation(s)</keyword>.\nLa présente unité gagne 1 <keyword=charge>utilisation(s)</keyword> quand vous jouez une carte Tactique.\n",
+        "name": "Scorpion incendiaire"
+    },
+    "162307": {
+        "info": "Déploiement, Combat rapproché : invoquez une copie de la présente unité sur cette ligne depuis votre jeu.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : <keyword=summon>invoquez</keyword> une copie de la présente unité sur cette ligne depuis votre jeu.\n",
+        "name": "Brigade Impera"
+    },
+    "162308": {
+        "info": "Ordre : infligez 2 point(s) de dégâts à un ennemi.\n1 utilisation(s).\nLa présente unité gagne 1 utilisation(s) quand vous jouez un Espion.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : infligez 2 point(s) de dégâts à un ennemi.\n1 <keyword=charge>utilisation(s)</keyword>.\nLa présente unité gagne 1 <keyword=charge>utilisation(s)</keyword> quand vous jouez un <keyword=spying>Espion</keyword>.\n",
+        "name": "Impera : estafiers"
+    },
+    "162309": {
+        "info": "Chaque fois qu'une unité disposant d'une capacité de déploiement est jouée, améliorez la présente unité de 1 point(s).\n",
+        "infoRaw": "Chaque fois qu'une unité disposant d'une capacité de <keyword=deploy>déploiement</keyword> est jouée, améliorez la présente unité de 1 point(s).\n",
+        "name": "Nausicaa : sergent"
+    },
+    "162310": {
+        "info": "Déploiement : infligez 3 point(s) de dégâts à une unité améliorée.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 3 point(s) de dégâts à une unité améliorée.\n",
+        "name": "Brigade Nausicaa"
+    },
+    "162311": {
+        "info": "Déploiement, Combat rapproché : infligez à un ennemi un nombre de points de dégâts équivalant au nombre d'unités présentes sur son autre ligne.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : infligez à un ennemi un nombre de points de dégâts équivalant au nombre d'unités présentes sur son autre ligne.\n",
+        "name": "Alba : piquier"
+    },
+    "162312": {
+        "info": "Déploiement : infligez 2 point(s) de dégâts à un ennemi. Augmentez le nombre de points de dégâts de 1 point(s) pour chaque Soldat adjacent.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 2 point(s) de dégâts à un ennemi. Augmentez le nombre de points de dégâts de 1 point(s) pour chaque Soldat adjacent.\n",
+        "name": "Alba : lancier"
+    },
+    "162313": {
+        "info": "Déploiement : améliorez la présente unité de 3 point(s) si vous contrôlez un artefact.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez la présente unité de 3 point(s) si vous contrôlez un artefact.\n",
+        "name": "Ingénieur militaire"
+    },
+    "162314": {
+        "info": "Espion.\nDéploiement : améliorez un allié de 7 point(s).\n",
+        "infoRaw": "<keyword=spying>Espion</keyword>.\n<keyword=deploy>Déploiement</keyword> : améliorez un allié de 7 point(s).\n",
+        "name": "Émissaire"
+    },
+    "162315": {
+        "info": "Créez et jouez une unité Bronze de la faction de votre adversaire.\n",
+        "infoRaw": "<keyword=create>Créez</keyword> et jouez une unité Bronze de la faction de votre adversaire.\n",
+        "name": "Diplomatie impériale"
+    },
+    "162316": {
+        "info": "Déploiement, Combat à distance : échangez la force de 2 alliés.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : échangez la force de 2 alliés.\n",
+        "name": "Alchimiste"
+    },
+    "162317": {
+        "info": "Chaque fois que vous révélez une carte, infligez 1 point(s) de dégâts à un ennemi aléatoire.\n",
+        "infoRaw": "Chaque fois que vous <keyword=reveal>révélez</keyword> une carte, infligez 1 point(s) de dégâts à un ennemi aléatoire.\n",
+        "name": "Mangonneau"
+    },
+    "162318": {
+        "info": "Déploiement : améliorez une unité ennemie de 2 point(s). S'il n'y a aucune unité ennemie, détruisez la présente unité.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez une unité ennemie de 2 point(s). S'il n'y a aucune unité ennemie, détruisez la présente unité.\n",
+        "name": "Nilfgaard : chevalier"
+    },
+    "162401": {
+        "info": "Aucune capacité.\n",
+        "infoRaw": "Aucune capacité.\n",
+        "name": "Golem de Dearhenna"
+    },
+    "162402": {
+        "info": "Espion. Condamnée.\nAprès 1 tour, à la fin du tour, détruisez la présente unité et celle située à sa gauche.\n",
+        "infoRaw": "<keyword=spying>Espion</keyword>. <keyword=doomed>Condamnée</keyword>.\nAprès 1 tour, à la fin du tour, détruisez la présente unité et celle située à sa gauche.\n",
+        "name": "Carcasse de vache"
+    },
+    "163101": {
+        "info": "Forcez une unité ennemie à infliger aux unités adjacentes des dégâts équivalant à sa propre force.\n",
+        "infoRaw": "Forcez une unité ennemie à infliger aux unités adjacentes des dégâts équivalant à sa propre force.\n",
+        "name": "Trahison"
+    },
+    "163201": {
+        "info": "Créez une unité depuis le jeu de départ de votre adversaire, puis jouez-la.\n",
+        "infoRaw": "<keyword=create>Créez</keyword> une unité depuis le jeu de départ de votre adversaire, puis jouez-la.\n",
+        "name": "Pot-de-vin"
+    },
+    "200008": {
+        "info": "Zèle.\nOrdre : améliorez un allié de 3 point(s) et donnez-lui l'attribut Zèle.\n",
+        "infoRaw": "<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : améliorez un allié de 3 point(s) et donnez-lui l'attribut <keyword=zeal>Zèle</keyword>.\n",
+        "name": "Philtre de Petri"
+    },
+    "200018": {
+        "info": "Bannissez une unité ou un artefact.\n",
+        "infoRaw": "<keyword=banish>Bannissez</keyword> une unité ou un artefact.\n",
+        "name": "Fournaise de Korath"
+    },
+    "200019": {
+        "info": "Jouez l'unité de votre jeu disposant de la force la plus faible.\n",
+        "infoRaw": "Jouez l'unité de votre jeu disposant de la force la plus faible.\n",
+        "name": "Ordres de marche"
+    },
+    "200020": {
+        "info": "Jouez une unité Bronze depuis votre cimetière et donnez-lui l'attribut Condamnée.\n",
+        "infoRaw": "Jouez une unité Bronze depuis votre cimetière et donnez-lui l'attribut <keyword=doomed>Condamnée</keyword>.\n",
+        "name": "Nécromancie"
+    },
+    "200022": {
+        "info": "Zèle.\nOrdre : jouez une unité depuis votre jeu dont le coût de recrutement est inférieur ou égal au nombre d'utilisations du Cercle d'invocation, puis retirez toutes les utilisations.\n0 utilisation(s).\nAu début de chaque tour, gagnez 1 utilisation(s).\n",
+        "infoRaw": "<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : jouez une unité depuis votre jeu dont le coût de recrutement est inférieur ou égal au nombre d'<keyword=charge>utilisations</keyword> du Cercle d'invocation, puis retirez toutes les <keyword=charge>utilisations</keyword>.\n0 <keyword=charge>utilisation(s)</keyword>.\nAu début de chaque tour, gagnez 1 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Cercle d'invocation"
+    },
+    "200023": {
+        "info": "Infligez 3 point(s) de dégâts à une unité. Si celle-ci est détruite, infligez 3 point(s) de dégâts aux unités adjacentes.\n",
+        "infoRaw": "Infligez 3 point(s) de dégâts à une unité. Si celle-ci est détruite, infligez 3 point(s) de dégâts aux unités adjacentes.\n",
+        "name": "Venin d'arachas"
+    },
+    "200026": {
+        "info": "Déploiement : améliorez une unité alliée de 1 point(s). Si vous contrôlez l'unité disposant de la force la plus élevée, améliorez l'allié de 3 point(s) à la place.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez une unité alliée de 1 point(s). Si vous contrôlez l'unité disposant de la force la plus élevée, améliorez l'allié de 3 point(s) à la place.\n",
+        "name": "Chasse : navigatrice"
+    },
+    "200028": {
+        "info": "Déploiement, Combat rapproché : détruisez un ennemi endommagé.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : détruisez un ennemi endommagé.\n",
+        "name": "Vabjorn"
+    },
+    "200030": {
+        "info": "Déploiement, Combat rapproché : infligez 4 point(s) de dégâts à un ennemi.\nDéploiement, Combat à distance : infligez 1 point(s) de dégâts à 4 ennemis.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : infligez 4 point(s) de dégâts à un ennemi.\n<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : infligez 1 point(s) de dégâts à 4 ennemis.\n",
+        "name": "Milaen"
+    },
+    "200031": {
+        "info": "Déploiement, Combat rapproché : détruisez un ennemi disposant d'une force égale ou supérieure à 8.\nDéploiement, Combat à distance : détruisez un Sorceleur.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : détruisez un ennemi disposant d'une force égale ou supérieure à 8.\n<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : détruisez un Sorceleur.\n",
+        "name": "Léo Bonhart"
+    },
+    "200032": {
+        "info": "Déploiement : améliorez un ennemi de 3 point(s), puis améliorez la présente unité de 3 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez un ennemi de 3 point(s), puis améliorez la présente unité de 3 point(s).\n",
+        "name": "Rainfarn d'Attre"
+    },
+    "200033": {
+        "info": "Zèle.\nOrdre, Combat à distance : donnez 1 utilisation(s) à une unité alliée.\nRéutilisation : 2 tour(s).\n",
+        "infoRaw": "<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword>, <keyword=ranged>Combat à distance</keyword> : donnez 1 <keyword=charge>utilisation(s)</keyword> à une unité alliée.\n<keyword=cooldown>Réutilisation</keyword> : 2 tour(s).\n",
+        "name": "Adepte d'Aretuza"
+    },
+    "200036": {
+        "info": "Déploiement, Combat rapproché, Soif de sang 1 : détruisez un artefact ennemi.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword>, <keyword=bloodthirst>Soif de sang</keyword> 1 : détruisez un artefact ennemi.\n",
+        "name": "Drummond : belliciste"
+    },
+    "200037": {
+        "info": "Déploiement : détruisez une unité alliée adjacente et infligez à un ennemi un nombre de points de dégâts équivalant à sa force.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : détruisez une unité alliée adjacente et infligez à un ennemi un nombre de points de dégâts équivalant à sa force.\n",
+        "name": "Cyclope"
+    },
+    "200038": {
+        "info": "Développement.\nDéploiement : infligez 2 point(s) de dégâts à un ennemi aléatoire. \nBaroud d'honneur : répétez la capacité de déploiement.\n",
+        "infoRaw": "<keyword=thrive>Développement</keyword>.\n<keyword=deploy>Déploiement</keyword> : infligez 2 point(s) de dégâts à un ennemi aléatoire. \n<keyword=deathwish>Baroud d'honneur</keyword> : répétez la capacité de <keyword=deploy>déploiement</keyword>.\n",
+        "name": "Ékinoppyre"
+    },
+    "200039": {
+        "info": "Combat rapproché : chaque fois qu'un ennemi est déplacé vers l'autre ligne, infligez-lui 1 point(s) de dégâts.\nCombat à distance : chaque fois qu'un allié est déplacé vers l'autre ligne, améliorez-le de 1 point(s).\n",
+        "infoRaw": "<keyword=melee>Combat rapproché</keyword> : chaque fois qu'un ennemi est déplacé vers l'autre ligne, infligez-lui 1 point(s) de dégâts.\n<keyword=ranged>Combat à distance</keyword> : chaque fois qu'un allié est déplacé vers l'autre ligne, améliorez-le de 1 point(s).\n",
+        "name": "Blathanna : défenseur"
+    },
+    "200040": {
+        "info": "Chaque fois qu'un ennemi sur la ligne du côté opposé subit des dégâts, améliorez la présente unité de 1 point(s).\n",
+        "infoRaw": "Chaque fois qu'un ennemi sur la ligne du côté opposé subit des dégâts, améliorez la présente unité de 1 point(s).\n",
+        "name": "An Craite : spadassin"
+    },
+    "200041": {
+        "info": "Invulnérable.\nOrdre : infligez 2 point(s) de dégâts à un ennemi pour chaque Soldat situé sur cette ligne.\n",
+        "infoRaw": "<keyword=immune>Invulnérable</keyword>.\n<keyword=order>Ordre</keyword> : infligez 2 point(s) de dégâts à un ennemi pour chaque Soldat situé sur cette ligne.\n",
+        "name": "Gros Helge"
+    },
+    "200042": {
+        "info": "Déploiement : si la présente unité est déjà améliorée, gagnez l'attribut Ténacité.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : si la présente unité est déjà améliorée, gagnez l'attribut <keyword=resilient>Ténacité</keyword>.\n",
+        "name": "Mahakam : maraudeur"
+    },
+    "200043": {
+        "info": "Déploiement : générez 3 Camarades de Harald et invoquez-les sur votre autre ligne alliée.\nOrdre : infligez 1 point(s) de dégâts à un allié.\nRéutilisation : 1 tour(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> 3 Camarades de Harald et <keyword=summon>invoquez</keyword>-les sur votre autre ligne alliée.\n<keyword=order>Ordre</keyword> : infligez 1 point(s) de dégâts à un allié.\n<keyword=cooldown>Réutilisation</keyword> : 1 tour(s).\n",
+        "name": "Harald Longmuseau"
+    },
+    "200044": {
+        "info": "À la fin de chaque tour, améliorez la présente unité de 1 point(s) s'il s'agit de la seule carte sur sa ligne.\n",
+        "infoRaw": "À la fin de chaque tour, améliorez la présente unité de 1 point(s) s'il s'agit de la seule carte sur sa ligne.\n",
+        "name": "Division Magne"
+    },
+    "200046": {
+        "info": "Déploiement : subissez 4 point(s) de dégâts.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : subissez 4 point(s) de dégâts.\n",
+        "name": "Tuirseach : vétéran"
+    },
+    "200048": {
+        "info": "Déploiement : améliorez un allié de 1 point(s) pour chacune de ses utilisations.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez un allié de 1 point(s) pour chacune de ses <keyword=charge>utilisations</keyword>.\n",
+        "name": "Ban Ard : professeur"
+    },
+    "200049": {
+        "info": "Déploiement : si vous contrôlez un Soldat, détruisez un artefact ennemi.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : si vous contrôlez un Soldat, détruisez un artefact ennemi.\n",
+        "name": "Bélier"
+    },
+    "200050": {
+        "info": "Déploiement : améliorez un Soldat allié et toutes ses copies de 2 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez un Soldat allié et toutes ses copies de 2 point(s).\n",
+        "name": "Vreemde"
+    },
+    "200052": {
+        "info": "Baroud d'honneur : votre adversaire invoque l'unité disposant de la force la plus faible sur la ligne opposée depuis son jeu.\n",
+        "infoRaw": "<keyword=deathwish>Baroud d'honneur</keyword> : votre adversaire <keyword=summon>invoque</keyword> l'unité disposant de la force la plus faible sur la ligne opposée depuis son jeu.\n",
+        "name": "Golyat"
+    },
+    "200053": {
+        "info": "Verrouillez une unité et rétablissez sa force initiale.\n",
+        "infoRaw": "<keyword=lock>Verrouillez</keyword> une unité et rétablissez sa force initiale.\n",
+        "name": "Compression"
+    },
+    "200055": {
+        "info": "Ordre : déclenchez la capacité Baroud d'honneur d'un allié.\nAu début de la manche, réinitialisez cette capacité.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : déclenchez la capacité <keyword=deathwish>Baroud d'honneur</keyword> d'un allié.\nAu début de la manche, réinitialisez cette capacité.\n",
+        "name": "Doyen des Invisibles"
+    },
+    "200056": {
+        "info": "Déploiement, Combat à distance : créez n'importe quelle carte spéciale.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : <keyword=create>créez</keyword> n'importe quelle carte spéciale.\n",
+        "name": "Aguara : vraie forme"
+    },
+    "200058": {
+        "info": "Créez et jouez une unité Or.\n",
+        "infoRaw": "<keyword=create>Créez</keyword> et jouez une unité Or.\n",
+        "name": "Malédiction d'Uma"
+    },
+    "200062": {
+        "info": "Déploiement, Combat rapproché : verrouillez une unité.\nDéploiement, Combat à distance : retirez l'attribut Verrouillée d'une unité.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : <keyword=lock>verrouillez</keyword> une unité.\n<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : retirez l'attribut <keyword=lock>Verrouillée</keyword> d'une unité.\n",
+        "name": "Aguara "
+    },
+    "200071": {
+        "info": "Déploiement : fixez à 1 la force de l'unité disposant de la force la plus élevée dans la main de votre adversaire.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : fixez à 1 la force de l'unité disposant de la force la plus élevée dans la main de votre adversaire.\n",
+        "name": "Shilard Fitz-Oesterlen"
+    },
+    "200073": {
+        "info": "Déploiement : si vous contrôlez l'unité disposant de la force la plus élevée, infligez 5 point(s) de dégâts à un ennemi.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : si vous contrôlez l'unité disposant de la force la plus élevée, infligez 5 point(s) de dégâts à un ennemi.\n",
+        "name": "Adda : strige"
+    },
+    "200078": {
+        "info": "Améliorez une unité jusqu'à 12 point(s) de force. S'il ne s'agit pas d'un Sorceleur, infligez-lui d'abord 6 point(s) de dégâts.\n",
+        "infoRaw": "Améliorez une unité jusqu'à 12 point(s) de force. S'il ne s'agit pas d'un Sorceleur, infligez-lui d'abord 6 point(s) de dégâts.\n",
+        "name": "Épreuve des herbes"
+    },
+    "200079": {
+        "info": "Jouez une unité depuis le cimetière de l'ennemi et donnez-lui l'attribut Condamnée.\n",
+        "infoRaw": "Jouez une unité depuis le cimetière de l'ennemi et donnez-lui l'attribut <keyword=doomed>Condamnée</keyword>.\n",
+        "name": "Rêve bleu d'Hanmarvyn"
+    },
+    "200080": {
+        "info": "Combat rapproché : chaque fois que cette unité bénéficie d'une amélioration, améliorez-la de 2 point(s) supplémentaire(s).\n",
+        "infoRaw": "<keyword=melee>Combat rapproché</keyword> : chaque fois que cette unité bénéficie d'une amélioration, améliorez-la de 2 point(s) supplémentaire(s).\n",
+        "name": "Xavier Moran"
+    },
+    "200081": {
+        "info": "Déploiement, Combat à distance : soignez un allié de 2 point(s), puis améliorez-le de 2 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : <keyword=heal>soignez</keyword> un allié de 2 point(s), puis améliorez-le de 2 point(s).\n",
+        "name": "Heymaey : herboriste"
+    },
+    "200083": {
+        "info": "Déploiement : tirez une carte de votre choix depuis votre jeu, puis défaussez une carte aléatoire.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : tirez une carte de votre choix depuis votre jeu, puis <keyword=discard>défaussez</keyword> une carte aléatoire.\n",
+        "name": "Compagnons d'Iris"
+    },
+    "200087": {
+        "info": "Déploiement : verrouillez une unité.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : <keyword=lock>verrouillez</keyword> une unité.\n",
+        "name": "Dorregaray de Vole"
+    },
+    "200088": {
+        "info": "Déploiement : améliorez la présente unité du montant des dégâts infligés aux ennemis durant le tour.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez la présente unité du montant des dégâts infligés aux ennemis durant le tour.\n",
+        "name": "Hubert Rejk"
+    },
+    "200089": {
+        "info": "Déploiement : déplacez toutes les unités d'une ligne vers l'autre.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : déplacez toutes les unités d'une ligne vers l'autre.\n",
+        "name": "Nivellen"
+    },
+    "200091": {
+        "info": "Combat à distance : après 2 tour(s), chaque joueur tire une unité et fixe sa force à 1.\n",
+        "infoRaw": "<keyword=ranged>Combat à distance</keyword> : après 2 tour(s), chaque joueur tire une unité et fixe sa force à 1.\n",
+        "name": "Stregobor"
+    },
+    "200098": {
+        "info": "Zèle.\nOrdre, Combat rapproché : fixez la force d'une unité ennemie à 1 (cartes améliorées exclues).\n",
+        "infoRaw": "<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword>, <keyword=melee>Combat rapproché</keyword> : fixez la force d'une unité ennemie à 1 (cartes améliorées exclues).\n",
+        "name": "Vincent Meis"
+    },
+    "200102": {
+        "info": "Déploiement : échangez la force de la présente unité avec celle d'une unité endommagée.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : échangez la force de la présente unité avec celle d'une unité endommagée.\n",
+        "name": "Blême"
+    },
+    "200103": {
+        "info": "Ordre : améliorez Olaf du double du nombre de points de dégâts subis.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : améliorez Olaf du double du nombre de points de dégâts subis.\n",
+        "name": "Olaf"
+    },
+    "200104": {
+        "info": "Déploiement : infligez à un ennemi un montant de dégâts égal à la moitié de sa force actuelle.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez à un ennemi un montant de dégâts égal à la moitié de sa force actuelle.\n",
+        "name": "Ulfhedinn"
+    },
+    "200105": {
+        "info": "Déploiement : infligez trois fois 1 point(s) de dégâts à un ennemi.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez trois fois 1 point(s) de dégâts à un ennemi.\n",
+        "name": "Dimun : galère"
+    },
+    "200112": {
+        "info": "Déploiement : améliorez un allié possédant une capacité de Baroud d'honneur de 3 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez un allié possédant une capacité de <keyword=deathwish>Baroud d'honneur</keyword> de 3 point(s).\n",
+        "name": "Sirène"
+    },
+    "200114": {
+        "info": "Invulnérabilité. Développement.\n",
+        "infoRaw": "<keyword=immune>Invulnérabilité</keyword>. <keyword=thrive>Développement</keyword>.\n",
+        "name": "Loup-garou alpha"
+    },
+    "200115": {
+        "info": "Infligez 6 point(s) de dégâts à une unité. Diminuez le nombre de points de dégâts de 1 pour chaque unité qui lui est adjacente.\n",
+        "infoRaw": "Infligez 6 point(s) de dégâts à une unité. Diminuez le nombre de points de dégâts de 1 pour chaque unité qui lui est adjacente.\n",
+        "name": "Assassinat"
+    },
+    "200118": {
+        "info": "Combat rapproché : à la fin de la manche, mélangez la présente unité dans le jeu de l'adversaire.\n",
+        "infoRaw": "<keyword=melee>Combat rapproché</keyword> : à la fin de la manche, mélangez la présente unité dans le jeu de l'adversaire.\n",
+        "name": "Infiltré"
+    },
+    "200124": {
+        "info": "Déploiement : révélez la première carte du jeu de l'adversaire et bannissez-la.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : <keyword=reveal>révélez</keyword> la première carte du jeu de l'adversaire et <keyword=banish>bannissez</keyword>-la.\n",
+        "name": "Sorceleur : Vipère"
+    },
+    "200135": {
+        "info": "Zèle.\nOrdre : détruisez un artefact allié et infligez 2 point(s) de dégâts à une unité. \nRéutilisation : 2 tour(s).\n",
+        "infoRaw": "<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : détruisez un artefact allié et infligez 2 point(s) de dégâts à une unité. \n<keyword=cooldown>Réutilisation</keyword> : 2 tour(s).\n",
+        "name": "Pyrotechnicien"
+    },
+    "200136": {
+        "info": "Déploiement, Combat à distance : révélez une carte aléatoire depuis votre jeu. S'il s'agit d'une carte spéciale, améliorez la présente unité de 2 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : <keyword=reveal>révélez</keyword> une carte aléatoire depuis votre jeu. S'il s'agit d'une carte spéciale, améliorez la présente unité de 2 point(s).\n",
+        "name": "Voyante"
+    },
+    "200138": {
+        "info": "Chaque fois que vous jouez une carte spéciale, améliorez la présente unité de 2 point(s).\n",
+        "infoRaw": "Chaque fois que vous jouez une carte spéciale, améliorez la présente unité de 2 point(s).\n",
+        "name": "Sage"
+    },
+    "200139": {
+        "info": "Déploiement : infligez 3 point(s) de dégâts à une unité ennemi (cartes Scoia'tael exclues).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 3 point(s) de dégâts à une unité ennemi (cartes Scoia'tael exclues).\n",
+        "name": "Panthère"
+    },
+    "200144": {
+        "info": "Déploiement : améliorez une Bête alliée de 2 point(s). Augmentez cette amélioration de 1 point(s) pour chaque Bête présente dans votre cimetière.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez une Bête alliée de 2 point(s). Augmentez cette amélioration de 1 point(s) pour chaque Bête présente dans votre cimetière.\n",
+        "name": "Tuirseach : dompteur"
+    },
+    "200145": {
+        "info": "Déploiement : infligez 1 point(s) de dégâts à une unité pour chaque Bateau en main.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 1 point(s) de dégâts à une unité pour chaque Bateau en main.\n",
+        "name": "Dimun : corsaire"
+    },
+    "200146": {
+        "info": "Déploiement, Combat rapproché : infligez 1 point(s) de dégâts à une unité, puis améliorez-la de 2 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : infligez 1 point(s) de dégâts à une unité, puis améliorez-la de 2 point(s).\n",
+        "name": "Dimun : passeur"
+    },
+    "200147": {
+        "info": "À la fin de chaque tour, soignez tous les alliés endommagés sur cette ligne de 1 point(s).\n",
+        "infoRaw": "À la fin de chaque tour, <keyword=heal>soignez</keyword> tous les alliés endommagés sur cette ligne de 1 point(s).\n",
+        "name": "Heymaey : flaminica"
+    },
+    "200149": {
+        "info": "Chaque fois qu'une unité adjacente subit des dégâts, améliorez la présente unité de 1 point(s).\n",
+        "infoRaw": "Chaque fois qu'une unité adjacente subit des dégâts, améliorez la présente unité de 1 point(s).\n",
+        "name": "Heymaey : protecteur"
+    },
+    "200154": {
+        "info": "Jouez une unité depuis votre jeu.\n",
+        "infoRaw": "Jouez une unité depuis votre jeu.\n",
+        "name": "Décret royal"
+    },
+    "200159": {
+        "info": "Ordre : défaussez une carte, puis tirez-en une.\nAu début de la manche, réinitialisez cette capacité.\nChaque fois que vous défaussez une carte, infligez 1 point(s) de dégâts à un ennemi aléatoire.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : <keyword=discard>défaussez</keyword> une carte, puis tirez-en une.\nAu début de la manche, réinitialisez cette capacité.\nChaque fois que vous <keyword=discard>défaussez</keyword> une carte, infligez 1 point(s) de dégâts à un ennemi aléatoire.\n",
+        "name": "Bran Tuirseach"
+    },
+    "200160": {
+        "info": "Ordre : infligez 1 point(s) de dégâts à un ennemi. \nRéutilisation : 2 tour(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : infligez 1 point(s) de dégâts à un ennemi. \n<keyword=cooldown>Réutilisation</keyword> : 2 tour(s).\n",
+        "name": "Crach an Craite"
+    },
+    "200161": {
+        "info": "Ordre : répartissez aléatoirement 8 point(s) de dégâts entre tous les ennemis.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : répartissez aléatoirement 8 point(s) de dégâts entre tous les ennemis.\n",
+        "name": "Harald l'Estropié"
+    },
+    "200162": {
+        "info": "Ordre : déplacez une carte depuis le champ de bataille vers votre main, puis jouez-en une.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : déplacez une carte depuis le champ de bataille vers votre main, puis jouez-en une.\n",
+        "name": "Emhyr var Emreis"
+    },
+    "200163": {
+        "info": "Ordre : révélez une carte aléatoire du jeu de votre adversaire. S'il s'agit d'une carte Bronze, améliorez un allié de 3 point(s). S'il s'agit d'une carte Or, améliorez-le de 4 point(s) à la place.\nAu début de la manche, réinitialisez cette capacité.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : <keyword=reveal>révélez</keyword> une carte aléatoire du jeu de votre adversaire. S'il s'agit d'une carte Bronze, améliorez un allié de 3 point(s). S'il s'agit d'une carte Or, améliorez-le de 4 point(s) à la place.\nAu début de la manche, réinitialisez cette capacité.\n",
+        "name": "Morvran Voorhis"
+    },
+    "200164": {
+        "info": "Ordre : regardez les 3 premières cartes de votre jeu et jouez-en une.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : regardez les 3 premières cartes de votre jeu et jouez-en une.\n",
+        "name": "Jan Calveit"
+    },
+    "200165": {
+        "info": "Ordre : jouez une carte spéciale depuis votre cimetière.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : jouez une carte spéciale depuis votre cimetière.\n",
+        "name": "Francesca Findabair"
+    },
+    "200166": {
+        "info": "Ordre : infligez 1 point(s) de dégâts à une unité.\n3 utilisation(s).\nAu début de la manche, réinitialisez les utilisations d'Eithné.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : infligez 1 point(s) de dégâts à une unité.\n3 <keyword=charge>utilisation(s)</keyword>.\nAu début de la manche, réinitialisez les <keyword=charge>utilisations</keyword> d'Eithné.\n",
+        "name": "Eithné"
+    },
+    "200167": {
+        "info": "Ordre : déplacez une unité vers l'autre ligne. S'il s'agit d'un ennemi, infligez-lui 2 point(s) de dégâts ",
+        "infoRaw": "<keyword=order>Ordre</keyword> : déplacez une unité vers l'autre ligne. S'il s'agit d'un ennemi, infligez-lui 2 point(s) de dégâts ",
+        "name": "Brouver Hoog"
+    },
+    "200168": {
+        "info": "Ordre : améliorez un allié de 1 point(s) et ajoutez-lui l'attribut Zèle.\n3 utilisation(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : améliorez un allié de 1 point(s) et ajoutez-lui l'attribut <keyword=zeal>Zèle</keyword>.\n3 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Roi Foltest"
+    },
+    "200170": {
+        "info": "Ordre : jouez une copie d'une unité alliée sur le champ de bataille depuis votre jeu, améliorez-la de 4 point(s) et ajoutez-lui l'attribut Zèle.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : jouez une copie d'une unité alliée sur le champ de bataille depuis votre jeu, améliorez-la de 4 point(s) et ajoutez-lui l'attribut <keyword=zeal>Zèle</keyword>.\n",
+        "name": "Roi Henselt"
+    },
+    "200171": {
+        "info": "Chaque fois que la présente unité bénéficie d'une amélioration, infligez 1 point(s) de dégâts à un ennemi aléatoire.\n",
+        "infoRaw": "Chaque fois que la présente unité bénéficie d'une amélioration, infligez 1 point(s) de dégâts à un ennemi aléatoire.\n",
+        "name": "Fantassin de Tridam"
+    },
+    "200177": {
+        "info": "Si la présente unité est dans votre cimetière, invoquez-la sur une ligne alliée aléatoire chaque fois que vous jouez une unité depuis votre cimetière.\n",
+        "infoRaw": "Si la présente unité est dans votre cimetière, <keyword=summon>invoquez</keyword>-la sur une ligne alliée aléatoire chaque fois que vous jouez une unité depuis votre cimetière.\n",
+        "name": "Cerys an Craite"
+    },
+    "200209": {
+        "info": "Ordre : infligez 2 point(s) de dégâts à une unité.\nRéutilisation : 4 tour(s).\nSi vous avez un Elfe, un Nain ou une Dryade dans votre main, réduisez le délai de réutilisation de 1 tour(s) (une fois seulement par catégorie).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : infligez 2 point(s) de dégâts à une unité.\n<keyword=cooldown>Réutilisation</keyword> : 4 tour(s).\nSi vous avez un Elfe, un Nain ou une Dryade dans votre main, réduisez le délai de <keyword=cooldown>réutilisation</keyword> de 1 tour(s) (une fois seulement par catégorie).\n",
+        "name": "Saskia"
+    },
+    "200212": {
+        "info": "Déploiement : infligez 4 point(s) de dégâts à un ennemi indemne.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 4 point(s) de dégâts à un ennemi indemne.\n",
+        "name": "Skjall"
+    },
+    "200218": {
+        "info": "Déploiement, Combat rapproché : améliorez la présente unité de 2 point(s) pour chaque unité de plus dont votre adversaire dispose sur le champ de bataille.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : améliorez la présente unité de 2 point(s) pour chaque unité de plus dont votre adversaire dispose sur le champ de bataille.\n",
+        "name": "Jotunn"
+    },
+    "200220": {
+        "info": "Déploiement, Combat à distance : jouez une carte organique depuis votre jeu.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : jouez une carte organique depuis votre jeu.\n",
+        "name": "Soupir : tribut"
+    },
+    "200221": {
+        "info": "Déclenchez les capacités Baroud d'honneur de tous les alliés.\n",
+        "infoRaw": "Déclenchez les capacités <keyword=deathwish>Baroud d'honneur</keyword> de tous les alliés.\n",
+        "name": "Sacrifice rituel"
+    },
+    "200222": {
+        "info": "Déploiement, Combat rapproché : dévorez une unité dans votre main et tirez une carte.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : <keyword=consume>dévorez</keyword> une unité dans votre main et tirez une carte.\n",
+        "name": "Fuselle : incantation"
+    },
+    "200223": {
+        "info": "Réinitialisez une unité.\n",
+        "infoRaw": "<keyword=reset>Réinitialisez</keyword> une unité.\n",
+        "name": "Mandragore"
+    },
+    "200224": {
+        "info": "Déclenchez la capacité Baroud d'honneur d'une unité Bronze.\n",
+        "infoRaw": "Déclenchez la capacité <keyword=deathwish>Baroud d'honneur</keyword> d'une unité Bronze.\n",
+        "name": "Œil de corbeau"
+    },
+    "200225": {
+        "info": "Saisissez un ennemi disposant d'une force inférieure ou égale à 5 et dévérrouillez-la.\n",
+        "infoRaw": "<keyword=seize>Saisissez</keyword> un ennemi disposant d'une force inférieure ou égale à 5 et <keyword=lock>dévérrouillez</keyword>-la.\n",
+        "name": "Muselière de Vigo"
+    },
+    "200226": {
+        "info": "Infligez 2 point(s) de dégâts à tous les ennemis disposant d'une force paire, ou infligez 2 point(s) de dégâts à tous les ennemis disposant d'une force impaire.\n",
+        "infoRaw": "Infligez 2 point(s) de dégâts à tous les ennemis disposant d'une force paire, ou infligez 2 point(s) de dégâts à tous les ennemis disposant d'une force impaire.\n",
+        "name": "Aconit"
+    },
+    "200228": {
+        "info": "Embuscade : détruisez la prochaine unité jouée par votre adversaire avant qu'elle n'active une de ses capacités.\n",
+        "infoRaw": "<keyword=ambush>Embuscade</keyword> : détruisez la prochaine unité jouée par votre adversaire avant qu'elle n'active une de ses capacités.\n",
+        "name": "Fosse piégée"
+    },
+    "200233": {
+        "info": "Déploiement : infligez 2 point(s) de dégâts à un ennemi pour chaque Bête adjacente.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 2 point(s) de dégâts à un ennemi pour chaque Bête adjacente.\n",
+        "name": "Cocatrix"
+    },
+    "200234": {
+        "info": "Déploiement : améliorez la présente unité de 4 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez la présente unité de 4 point(s).\n",
+        "name": "Misérable Fantassin dMD"
+    },
+    "200235": {
+        "info": "Déploiement : détruisez un ennemi Tenace.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : détruisez un ennemi <keyword=resilient>Tenace</keyword>.\n",
+        "name": "Lambert : fine lame"
+    },
+    "200236": {
+        "info": "Combat rapproché : à la fin de chaque tour, améliorez la présente unité de 1 point(s).\n",
+        "infoRaw": "<keyword=melee>Combat rapproché</keyword> : à la fin de chaque tour, améliorez la présente unité de 1 point(s).\n",
+        "name": "Eskel : pisteur"
+    },
+    "200237": {
+        "info": "Déploiement : améliorez tous les Sorceleurs dans votre main, votre jeu ou sur le champ de bataille de 1 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez tous les Sorceleurs dans votre main, votre jeu ou sur le champ de bataille de 1 point(s).\n",
+        "name": "Vesemir : mentor"
+    },
+    "200293": {
+        "info": "Déploiement, Combat à distance : améliorez un Nain depuis votre main de 2 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : améliorez un Nain depuis votre main de 2 point(s).\n",
+        "name": "Agitateur nain"
+    },
+    "200294": {
+        "info": "Déploiement : améliorez un allié de 2 point(s).\nChaque fois que vous révélez cette carte, améliorez un allié aléatoire de 2 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez un allié de 2 point(s).\nChaque fois que vous <keyword=reveal>révélez</keyword> cette carte, améliorez un allié aléatoire de 2 point(s).\n",
+        "name": "Porte-étendard"
+    },
+    "200295": {
+        "info": "Baroud d'honneur : infligez 4 point(s) de dégâts à un ennemi aléatoire.\n",
+        "infoRaw": "<keyword=deathwish>Baroud d'honneur</keyword> : infligez 4 point(s) de dégâts à un ennemi aléatoire.\n",
+        "name": "Putréfacteur"
+    },
+    "200296": {
+        "info": "Déploiement, Combat rapproché : verrouillez une unité ennemie.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : <keyword=lock>verrouillez</keyword> une unité ennemie.\n",
+        "name": "Alba : cavalier lourd"
+    },
+    "200299": {
+        "info": "Ordre : améliorez un allié de 1 point(s) et donnez-lui l'attribut Zèle.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : améliorez un allié de 1 point(s) et donnez-lui l'attribut <keyword=zeal>Zèle</keyword>.\n",
+        "name": "Tambour temerien"
+    },
+    "200300": {
+        "info": "Déplacez un ennemi sur son autre ligne et infligez-lui un montant de dégâts équivalant au nombre d'unités sur cette ligne.\n",
+        "infoRaw": "Déplacez un ennemi sur son autre ligne et infligez-lui un montant de dégâts équivalant au nombre d'unités sur cette ligne.\n",
+        "name": "Prise de prestige"
+    },
+    "200301": {
+        "info": "Regardez 2 cartes Or aléatoires de votre jeu, puis jouez-en une et replacez l'autre sur le dessus de votre jeu.\n",
+        "infoRaw": "Regardez 2 cartes Or aléatoires de votre jeu, puis jouez-en une et replacez l'autre sur le dessus de votre jeu.\n",
+        "name": "Naglfar"
+    },
+    "200320": {
+        "info": "Aucune capacité.\n",
+        "infoRaw": "Aucune capacité.\n",
+        "name": "Tschart"
+    },
+    "200502": {
+        "info": "À la fin de chaque tour, si vous possédez moins d'unités que votre adversaire, améliorez la présente unité de 1 point(s).\n",
+        "infoRaw": "À la fin de chaque tour, si vous possédez moins d'unités que votre adversaire, améliorez la présente unité de 1 point(s).\n",
+        "name": "Troll de glace"
+    },
+    "200518": {
+        "info": "Déploiement : si vous avez utilisé la capacité de votre chef durant ce tour, infligez 3 point(s) de dégâts à un ennemi.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : si vous avez utilisé la capacité de votre chef durant ce tour, infligez 3 point(s) de dégâts à un ennemi.\n",
+        "name": "Briscard de Venendal"
+    },
+    "200519": {
+        "info": "Améliorez une unité de 4 point(s) et retirez-lui l'attribut Verrouillée.\n",
+        "infoRaw": "Améliorez une unité de 4 point(s) et retirez-lui l'attribut <keyword=lock>Verrouillée</keyword>.\n",
+        "name": "Bière de Mahakam"
+    },
+    "200520": {
+        "info": "Ordre : jouez un artefact Bronze depuis votre cimetière.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : jouez un artefact Bronze depuis votre cimetière.\n",
+        "name": "Éibhear Hattori"
+    },
+    "200523": {
+        "info": "Déploiement, Combat rapproché : générez 2 Vaches de chaque côté de la présente unité.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : <keyword=spawn>générez</keyword> 2 Vaches de chaque côté de la présente unité.\n",
+        "name": "Germain Piquant"
+    },
+    "200528": {
+        "info": "Déploiement : infligez 3 point(s) de dégâts à un ennemi, puis subissez 2 point(s) de dégâts.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 3 point(s) de dégâts à un ennemi, puis subissez 2 point(s) de dégâts.\n",
+        "name": "Heymaey : lancière"
+    },
+    "200529": {
+        "info": "Déploiement : améliorez la présente unité de 5 point(s).\nInvoquez la présente unité depuis votre cimetière sur une ligne alliée aléatoire.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez la présente unité de 5 point(s).\n<keyword=summon>Invoquez</keyword> la présente unité depuis votre cimetière sur une ligne alliée aléatoire.\n",
+        "name": "Ronvid l'Importun"
+    },
+    "200530": {
+        "info": "Zèle.\nOrdre : infligez 2 point(s) de dégâts à une unité. \n3 utilisation(s).\n",
+        "infoRaw": "<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : infligez 2 point(s) de dégâts à une unité. \n3 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Bière contaminée"
+    },
+    "200532": {
+        "info": "Zèle.\nOrdre : améliorez une unité de 3 points.\nRéutilisation : 2 tour(s).\n",
+        "infoRaw": "<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : améliorez une unité de 3 points.\n<keyword=cooldown>Réutilisation</keyword> : 2 tour(s).\n",
+        "name": "Bière des ancêtres"
+    },
+    "200534": {
+        "info": "Combat rapproché : chaque fois qu'un allié est détruit durant votre tour, améliorez la présente unité de 2 point(s).\n",
+        "infoRaw": "<keyword=melee>Combat rapproché</keyword> : chaque fois qu'un allié est détruit durant votre tour, améliorez la présente unité de 2 point(s).\n",
+        "name": "Trollesse de Vergen"
+    },
+    "200535": {
+        "info": "Ordre, Combat rapproché : infligez 1 point(s) de dégâts à un ennemi.\nRéutilisation : 2 tour(s).\nChaque fois que vous jouez un Elfe, réduisez le délai de réutilisation de 1 tour(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword>, <keyword=melee>Combat rapproché</keyword> : infligez 1 point(s) de dégâts à un ennemi.\n<keyword=cooldown>Réutilisation</keyword> : 2 tour(s).\nChaque fois que vous jouez un Elfe, réduisez le délai de <keyword=cooldown>réutilisation</keyword> de 1 tour(s).\n",
+        "name": "Maître d'armes elfe"
+    },
+    "200539": {
+        "info": "Ordre : Dévorez un allié sur la ligne de la présente unité.\nRéutilisation : 1 tour(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : <keyword=consume>Dévorez</keyword> un allié sur la ligne de la présente unité.\n<keyword=cooldown>Réutilisation</keyword> : 1 tour(s).\n",
+        "name": "Slyzard"
+    },
+    "200540": {
+        "info": "Ordre : infligez 4 point(s) de dégâts à un ennemi.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : infligez 4 point(s) de dégâts à un ennemi.\n",
+        "name": "Massier d'Aedirn"
+    },
+    "201523": {
+        "info": "Déploiement : rétablissez la force de base de toutes les unités d'une ligne.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : rétablissez la force de base de toutes les unités d'une ligne.\n",
+        "name": "Geralt : Yrden"
+    },
+    "201559": {
+        "info": "Déploiement, Combat rapproché : si un Nain est présent sur cette ligne, invoquez-y une copie de la présent unité depuis votre jeu.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : si un Nain est présent sur cette ligne, <keyword=summon>invoquez</keyword>-y une copie de la présent unité depuis votre jeu.\n",
+        "name": "Mahakam : volontaires"
+    },
+    "201574": {
+        "info": "Baroud d'honneur : infligez 2 point(s) de dégâts à une unité ennemie aléatoire.\n",
+        "infoRaw": "<keyword=deathwish>Baroud d'honneur</keyword> : infligez 2 point(s) de dégâts à une unité ennemie aléatoire.\n",
+        "name": "Camarade de Harald"
+    },
+    "201576": {
+        "info": "Condamnée.\n",
+        "infoRaw": "<keyword=doomed>Condamnée</keyword>.\n",
+        "name": "Vache"
+    },
+    "201578": {
+        "info": "Déploiement.\nCombat rapproché : répartissez aléatoirement 4 point(s) de dégâts entre toutes les unités.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>.\n<keyword=melee>Combat rapproché</keyword> : répartissez aléatoirement 4 point(s) de dégâts entre toutes les unités.\n",
+        "name": "An Craite : maraudeur"
+    },
+    "201579": {
+        "info": "Au début de la manche, si le Phénix est dans votre cimetière, bannissez-le, puis générez un Jeune Phénix et invoquez-le sur une ligne alliée aléatoire.\n",
+        "infoRaw": "Au début de la manche, si le Phénix est dans votre cimetière, <keyword=banish>bannissez</keyword>-le, puis <keyword=spawn>générez</keyword> un Jeune Phénix et <keyword=summon>invoquez</keyword>-le sur une ligne alliée aléatoire.\n",
+        "name": "Phénix"
+    },
+    "201580": {
+        "info": "Au début de la partie, neutralisez le chef ennemi pendant la durée de la bataille.\n",
+        "infoRaw": "Au début de la partie, neutralisez le chef ennemi pendant la durée de la bataille.\n",
+        "name": "Usurpateur"
+    },
+    "201581": {
+        "info": "Créez et jouez une carte Bronze de Skellige.\n",
+        "infoRaw": "<keyword=create>Créez</keyword> et jouez une carte Bronze de Skellige.\n",
+        "name": "Rune : Stribog"
+    },
+    "201582": {
+        "info": "Créez et jouez une carte Bronze des royaumes du Nord.\n",
+        "infoRaw": "<keyword=create>Créez</keyword> et jouez une carte Bronze des royaumes du Nord.\n",
+        "name": "Rune : Zorya"
+    },
+    "201583": {
+        "info": "Créez et jouez une carte Bronze du Nilfgaard.\n",
+        "infoRaw": "<keyword=create>Créez</keyword> et jouez une carte Bronze du Nilfgaard.\n",
+        "name": "Rune : Dajbog"
+    },
+    "201584": {
+        "info": "Créez et jouez une carte Bronze de faction Monstre.\n",
+        "infoRaw": "<keyword=create>Créez</keyword> et jouez une carte Bronze de faction Monstre.\n",
+        "name": "Rune : Devana"
+    },
+    "201585": {
+        "info": "Créez et jouez une carte Scoia'tael Bronze.\n",
+        "infoRaw": "<keyword=create>Créez</keyword> et jouez une carte Scoia'tael Bronze.\n",
+        "name": "Rune : Morana"
+    },
+    "201587": {
+        "info": "Détruisez une unité alliée, puis générez et jouez-en une copie de base.\n",
+        "infoRaw": "Détruisez une unité alliée, puis <keyword=spawn>générez</keyword> et jouez-en une copie de base.\n",
+        "name": "Colline dolente"
+    },
+    "201589": {
+        "info": "Ordre : améliorez toutes les unités dans votre main de 1 point(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : améliorez toutes les unités dans votre main de 1 point(s).\n",
+        "name": "Filavandrel aén Fidháil"
+    },
+    "201595": {
+        "info": "Ordre : infligez 8 point(s) de dégâts à une unité.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : infligez 8 point(s) de dégâts à une unité.\n",
+        "name": "Princesse Adda"
+    },
+    "201597": {
+        "info": "Ordre : jouez un Guerrier depuis votre cimetière.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : jouez un Guerrier depuis votre cimetière.\n",
+        "name": "Eist Tuirseach"
+    },
+    "201598": {
+        "info": "Améliorez tous les alliés de 1 point(s).\n",
+        "infoRaw": "Améliorez tous les alliés de 1 point(s).\n",
+        "name": "Talisman d'os"
+    },
+    "201599": {
+        "info": "Développement.\nDéploiement : infligez 1 point(s) de dégâts à toutes les unités ennemies situées sur la ligne opposée.\nBaroud d'honneur : répétez la capacité de déploiement.\n",
+        "infoRaw": "<keyword=thrive>Développement</keyword>.\n<keyword=deploy>Déploiement</keyword> : infligez 1 point(s) de dégâts à toutes les unités ennemies situées sur la ligne opposée.\n<keyword=deathwish>Baroud d'honneur</keyword> : répétez la capacité de <keyword=deploy>déploiement</keyword>.\n",
+        "name": "Chat-garou"
+    },
+    "201600": {
+        "info": "Invulnérabilité.\n",
+        "infoRaw": "<keyword=immune>Invulnérabilité</keyword>.\n",
+        "name": "Loup-garou"
+    },
+    "201601": {
+        "info": "Choisissez n'importe quel artefact ou unité sur le champ de bataille et placez-le sur le dessus du jeu de son propriétaire.\n",
+        "infoRaw": "Choisissez n'importe quel artefact ou unité sur le champ de bataille et placez-le sur le dessus du jeu de son propriétaire.\n",
+        "name": "Invocation de Yennefer"
+    },
+    "201603": {
+        "info": "Déploiement : transformez la présente unité en une copie d'une autre unité, sans modifier sa force.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : transformez la présente unité en une copie d'une autre unité, sans modifier sa force.\n",
+        "name": "Letho : régicide"
+    },
+    "201606": {
+        "info": "Déploiement : infligez 1 point(s) de dégâts à toutes les unités.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 1 point(s) de dégâts à toutes les unités.\n",
+        "name": "Foënard"
+    },
+    "201609": {
+        "info": "Déploiement : si la ligne opposée comporte 4 unités ou plus, saisissez l'ennemi disposant de la force la plus faible sur cette ligne.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : si la ligne opposée comporte 4 unités ou plus, <keyword=seize>saisissez</keyword> l'ennemi disposant de la force la plus faible sur cette ligne.\n",
+        "name": "Chasseur d'esclaves"
+    },
+    "201610": {
+        "info": "Déploiement : transformez une unité alliée en Fantassin esclave.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : transformez une unité alliée en Fantassin esclave.\n",
+        "name": "Fantassin esclave"
+    },
+    "201611": {
+        "info": "Si vous possédez 4 pièges ou plus dans votre jeu de départ, jouez-en 2 aléatoirement depuis ce dernier.\n",
+        "infoRaw": "Si vous possédez 4 pièges ou plus dans votre jeu de départ, jouez-en 2 aléatoirement depuis ce dernier.\n",
+        "name": "Gambit de Iorveth"
+    },
+    "201612": {
+        "info": "Déploiement : infligez 2 point(s) de dégâts à un ennemi. Pour chaque unité ennemie verrouillée, augmentez les dégâts infligés de 1 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 2 point(s) de dégâts à un ennemi. Pour chaque unité ennemie <keyword=lock>verrouillée</keyword>, augmentez les dégâts infligés de 1 point(s).\n",
+        "name": "Esclavagiste"
+    },
+    "201613": {
+        "info": "Ordre : infligez 1 point(s) de dégâts à un ennemi. \n5 utilisation(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : infligez 1 point(s) de dégâts à un ennemi. \n5 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Saesenthessis : feu"
+    },
+    "201615": {
+        "info": "Regardez un Nain, une Dryade et un Elfe aléatoire depuis votre jeu puis jouez-en un.\n",
+        "infoRaw": "Regardez un Nain, une Dryade et un Elfe aléatoire depuis votre jeu puis jouez-en un.\n",
+        "name": "Conseil d'Isengrim"
+    },
+    "201616": {
+        "info": "Ordre : échangez la force de la présente unité avec celle d'un ennemi.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : échangez la force de la présente unité avec celle d'un ennemi.\n",
+        "name": "Maître-espion"
+    },
+    "201617": {
+        "info": "Déploiement : révélez une unité aléatoire de chaque jeu. Si la vôtre dispose d'une force plus élevée, améliorez la présente unité de 2 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : <keyword=reveal>révélez</keyword> une unité aléatoire de chaque jeu. Si la vôtre dispose d'une force plus élevée, améliorez la présente unité de 2 point(s).\n",
+        "name": "Recrue"
+    },
+    "201618": {
+        "info": "Ordre, Combat rapproché : affrontez une unité ennemie en duel.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword>, <keyword=melee>Combat rapproché</keyword> : affrontez une unité ennemie en <keyword=duel>duel</keyword>.\n",
+        "name": "Seltkirk de Guletta"
+    },
+    "201619": {
+        "info": "Améliorez un Soldat Bronze de 2 point(s) et répétez sa capacité de déploiement.\n",
+        "infoRaw": "Améliorez un Soldat Bronze de 2 point(s) et répétez sa capacité de <keyword=deploy>déploiement</keyword>.\n",
+        "name": "Onguent"
+    },
+    "201620": {
+        "info": "Ordre, Combat rapproché : infligez 1 point(s) de dégâts à une unité.\nRéutilisation : 1 tour(s).\nSi vous contrôlez la Lame de Vandergrift, infligez 2 point(s) de dégâts à une unité à la place.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword>, <keyword=melee>Combat rapproché</keyword> : infligez 1 point(s) de dégâts à une unité.\n<keyword=cooldown>Réutilisation</keyword> : 1 tour(s).\nSi vous contrôlez la Lame de Vandergrift, infligez 2 point(s) de dégâts à une unité à la place.\n",
+        "name": "Vandergrift"
+    },
+    "201621": {
+        "info": "Ordre : infligez à une unité un montant de dégâts équivalant au nombre d'utilisations de Kiyan.\n1 utilisation(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : infligez à une unité un montant de dégâts équivalant au nombre d'<keyword=charge>utilisations</keyword> de Kiyan.\n1 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Kiyan"
+    },
+    "201622": {
+        "info": "Déploiement : améliorez la présente unité de 4 point(s) si elle est jouée depuis le jeu.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez la présente unité de 4 point(s) si elle est jouée depuis le jeu.\n",
+        "name": "Chevalier de Kaedwen"
+    },
+    "201623": {
+        "info": "Déploiement, Combat rapproché : améliorez la présente unité de 1 point(s) pour chaque unité endommagée.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : améliorez la présente unité de 1 point(s) pour chaque unité endommagée.\n",
+        "name": "Sanglier géant"
+    },
+    "201624": {
+        "info": "Ordre : infligez 1 point(s) de dégâts à une unité. Si elle est détruite, générez une copie de base du Revenant de Kaedwen et invoquez-la sur cette ligne.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : infligez 1 point(s) de dégâts à une unité. Si elle est détruite, <keyword=spawn>générez</keyword> une copie de base du Revenant de Kaedwen et <keyword=summon>invoquez</keyword>-la sur cette ligne.\n",
+        "name": "Revenant de Kaedwen"
+    },
+    "201625": {
+        "info": "Déploiement : transformez une unité alliée (Chevalier maudit exclu) en Chevalier maudit sans modifier sa force.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : transformez une unité alliée (Chevalier maudit exclu) en Chevalier maudit sans modifier sa force.\n",
+        "name": "Chevalier maudit"
+    },
+    "201626": {
+        "info": "Au début du tour, invoquez la présente unité sur une ligne alliée aléatoire si elle est seule dans votre cimetière.\n",
+        "infoRaw": "Au début du tour, <keyword=summon>invoquez</keyword> la présente unité sur une ligne alliée aléatoire si elle est seule dans votre cimetière.\n",
+        "name": "Ciri : nova"
+    },
+    "201627": {
+        "info": "Condamnée.\nSi votre jeu de départ ne contient aucun doublon, envoyez Échøp à l'aventure.\n",
+        "infoRaw": "<keyword=doomed>Condamnée</keyword>.\nSi votre jeu de départ ne contient aucun doublon, envoyez Échøp à l'aventure.\n",
+        "name": "Repos d'Échøp"
+    },
+    "201628": {
+        "info": "Infligez à un ennemi 1 point(s) de dégâts par allié Spectre.\n",
+        "infoRaw": "Infligez à un ennemi 1 point(s) de dégâts par allié Spectre.\n",
+        "name": "Magie interdite"
+    },
+    "201630": {
+        "info": "Déploiement : infligez 3 point(s) de dégâts à un ennemi.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 3 point(s) de dégâts à un ennemi.\n",
+        "name": "Magicienne damnée"
+    },
+    "201631": {
+        "info": "Déploiement : choisissez une unité dans votre main, puis améliorez la présente unité du nombre d'unités dans votre main appartenant à la même catégorie principale.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : choisissez une unité dans votre main, puis améliorez la présente unité du nombre d'unités dans votre main appartenant à la même catégorie principale.\n",
+        "name": "Doppler"
+    },
+    "201632": {
+        "info": "Zèle.\nOrdre : infligez 1 point(s) de dégâts à un ennemi.\nRéutilisation : 1 tour(s).\nLorsque Sihil détruit un ennemi, augmentez les dégâts d'Order infligés de 1 point(s) jusqu'à ce qu'il soit déplacé sur le champ de bataille.\n",
+        "infoRaw": "<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : infligez 1 point(s) de dégâts à un ennemi.\n<keyword=cooldown>Réutilisation</keyword> : 1 tour(s).\nLorsque Sihil détruit un ennemi, augmentez les dégâts d'<keyword=order>Order</keyword> infligés de 1 point(s) jusqu'à ce qu'il soit déplacé sur le champ de bataille.\n",
+        "name": "Sihil"
+    },
+    "201633": {
+        "info": "Zèle.\nOrdre : infligez à un ennemi un montant de dégâts égal au nombre d'utilisations du Fléau ensanglanté, puis retirez toutes les utilisations.\n1 utilisation(s).\nChaque fois qu'une unité alliée gagne des utilisations, la présente unité en gagne autant.\n",
+        "infoRaw": "<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : infligez à un ennemi un montant de dégâts égal au nombre d'<keyword=charge>utilisations</keyword> du Fléau ensanglanté, puis retirez toutes les <keyword=charge>utilisations</keyword>.\n1 <keyword=charge>utilisation(s)</keyword>.\nChaque fois qu'une unité alliée gagne des <keyword=charge>utilisations</keyword>, la présente unité en gagne autant.\n",
+        "name": "Fléau ensanglanté"
+    },
+    "201634": {
+        "info": "Infligez 8 point(s) de dégâts à une unité.\n",
+        "infoRaw": "Infligez 8 point(s) de dégâts à une unité.\n",
+        "name": "Éboulement de Bekker"
+    },
+    "201635": {
+        "info": "Détruisez l'unité ayant la force de base la plus élevée.\n",
+        "infoRaw": "Détruisez l'unité ayant la force de base la plus élevée.\n",
+        "name": "Glorieuse chasse"
+    },
+    "201636": {
+        "info": "Déploiement : infligez à un ennemi 1 point(s) de dégâts par artefact que vous contrôlez.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez à un ennemi 1 point(s) de dégâts par artefact que vous contrôlez.\n",
+        "name": "Chasseur demi-elfe"
+    },
+    "201637": {
+        "info": "Appliquez cet effet de ligne sur une ligne ennemie :\nAprès 3 tours, au début du tour, explosez et infligez 3 point(s) de dégâts à toutes les unités sur cette ligne.\n",
+        "infoRaw": "Appliquez cet effet de ligne sur une ligne ennemie :\nAprès 3 tours, au début du tour, explosez et infligez 3 point(s) de dégâts à toutes les unités sur cette ligne.\n",
+        "name": "Rêve de dragon"
+    },
+    "201638": {
+        "info": "Quand un piège allié est déclenché, améliorez la présente unité de 2 point(s).\n",
+        "infoRaw": "Quand un piège allié est déclenché, améliorez la présente unité de 2 point(s).\n",
+        "name": "Éclaireuse elfe"
+    },
+    "201639": {
+        "info": "Améliorez une unité de 10 point(s).\n",
+        "infoRaw": "Améliorez une unité de 10 point(s).\n",
+        "name": "Garnison"
+    },
+    "201644": {
+        "info": "Ordre : soignez un allié de 1 point(s).\n1 utilisation(s).\nLa présente unité gagne 1 utilisation(s) chaque fois qu'une unité adjacente subit des dégâts,\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : <keyword=heal>soignez</keyword> un allié de 1 point(s).\n1 <keyword=charge>utilisation(s)</keyword>.\nLa présente unité gagne 1 <keyword=charge>utilisation(s)</keyword> chaque fois qu'une unité adjacente subit des dégâts,\n",
+        "name": "Yoana"
+    },
+    "201645": {
+        "info": "Embuscade : après 3 tour(s), au début du tour, infligez 2 point(s) de dégâts à toutes les unités ennemies sur la ligne comportant le plus d'unités. \nZèle.\nOrdre : retournez toutes les unités d'une ligne et infligez-leur 1 point(s) de dégâts.\n",
+        "infoRaw": "<keyword=ambush>Embuscade</keyword> : après 3 tour(s), au début du tour, infligez 2 point(s) de dégâts à toutes les unités ennemies sur la ligne comportant le plus d'unités. \n<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : retournez toutes les unités d'une ligne et infligez-leur 1 point(s) de dégâts.\n",
+        "name": "Piège écrasant"
+    },
+    "201646": {
+        "info": "Déploiement, Combat à distance : déplacez jusqu'à 3 cartes depuis votre jeu vers votre cimetière.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : déplacez jusqu'à 3 cartes depuis votre jeu vers votre cimetière.\n",
+        "name": "Derran"
+    },
+    "201647": {
+        "info": "Infligez 4 point(s) de dégâts à un ennemi et déplacez-le sur l'autre ligne.\n",
+        "infoRaw": "Infligez 4 point(s) de dégâts à un ennemi et déplacez-le sur l'autre ligne.\n",
+        "name": "Barrage de pierre"
+    },
+    "201648": {
+        "info": "Chaque fois que vous jouez un Soldat sur cette ligne, améliorez-le de 2 point(s).\n",
+        "infoRaw": "Chaque fois que vous jouez un Soldat sur cette ligne, améliorez-le de 2 point(s).\n",
+        "name": "Lame de Vandergrift"
+    },
+    "201650": {
+        "info": "Infligez 1 point(s) de dégâts à chaque unité (Spectres exclus). Si une unité est détruite, répétez cette capacité une fois.\n",
+        "infoRaw": "Infligez 1 point(s) de dégâts à chaque unité (Spectres exclus). Si une unité est détruite, répétez cette capacité une fois.\n",
+        "name": "Brasier de Sabrina"
+    },
+    "201653": {
+        "info": "Embuscade : quand votre adversaire passe, améliorez les unités adjacentes de 4 point(s).\n",
+        "infoRaw": "<keyword=ambush>Embuscade</keyword> : quand votre adversaire passe, améliorez les unités adjacentes de 4 point(s).\n",
+        "name": "Cor de Mahakam"
+    },
+    "201656": {
+        "info": "Zèle.\nOrdre : infligez 1 point(s) de dégâts à une unité. \nRéutilisation : 1 tour(s).\n",
+        "infoRaw": "<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : infligez 1 point(s) de dégâts à une unité. \n<keyword=cooldown>Réutilisation</keyword> : 1 tour(s).\n",
+        "name": "Lance de maître"
+    },
+    "201657": {
+        "info": "Infligez 6 point(s) de dégâts à un ennemi ou améliorez un allié de 6 point(s).\n",
+        "infoRaw": "Infligez 6 point(s) de dégâts à un ennemi ou améliorez un allié de 6 point(s).\n",
+        "name": "Parasite"
+    },
+    "201659": {
+        "info": "Jouez une Machine de guerre Bronze depuis votre cimetière.\n",
+        "infoRaw": "Jouez une Machine de guerre Bronze depuis votre cimetière.\n",
+        "name": "Treuil"
+    },
+    "201660": {
+        "info": "Baroud d'honneur : à la fin du tour, invoquez la présente unité sur une ligne alliée aléatoire depuis votre cimetière.\n",
+        "infoRaw": "<keyword=deathwish>Baroud d'honneur</keyword> : à la fin du tour, <keyword=summon>invoquez</keyword> la présente unité sur une ligne alliée aléatoire depuis votre cimetière.\n",
+        "name": "Afflictio"
+    },
+    "201662": {
+        "info": "Zèle.\nOrdre : détruisez la présente unité ainsi que toutes les unités dont la force est équivalente au nombre d'utilisations de la Cadavérine.\n0 utilisation(s).\nAu début de chaque tour, et chaque fois que vous jouez une carte Tactique, gagnez 1 utilisation(s).\n",
+        "infoRaw": "<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : détruisez la présente unité ainsi que toutes les unités dont la force est équivalente au nombre d'<keyword=charge>utilisations</keyword> de la Cadavérine.\n0 <keyword=charge>utilisation(s)</keyword>.\nAu début de chaque tour, et chaque fois que vous jouez une carte Tactique, gagnez 1 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Cadavérine"
+    },
+    "201664": {
+        "info": "Déploiement : déclenchez la capacité de déploiement des Soldats Bronze alliés.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : déclenchez la capacité de <keyword=deploy>déploiement</keyword> des Soldats Bronze alliés.\n",
+        "name": "Vrygheff"
+    },
+    "201676": {
+        "info": "Ordre : infligez 1 point(s) de dégâts à une unité. \nRéutilisation : 1 tour(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : infligez 1 point(s) de dégâts à une unité. \n<keyword=cooldown>Réutilisation</keyword> : 1 tour(s).\n",
+        "name": "Pavko Gale"
+    },
+    "201696": {
+        "info": "Ordre : améliorez l'unité de gauche de 4 point(s) ou ajoutez l'attribut Invulnérable à l'unité de droite.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : améliorez l'unité de gauche de 4 point(s) ou ajoutez l'attribut <keyword=immune>Invulnérable</keyword> à l'unité de droite.\n",
+        "name": "Paulie Dahlberg"
+    },
+    "201697": {
+        "info": "La prochaine fois qu'un ennemi bénéficie d'une amélioration, détruisez-le et détruisez la présente unité.\n",
+        "infoRaw": "La prochaine fois qu'un ennemi bénéficie d'une amélioration, détruisez-le et détruisez la présente unité.\n",
+        "name": "Sang noir"
+    },
+    "201698": {
+        "info": "Déploiement, Combat rapproché : dévorez une unité depuis le cimetière de l'adversaire.\nDéploiement, Combat à distance : dévorez une unité depuis votre cimetière.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : <keyword=consume>dévorez</keyword> une unité depuis le cimetière de l'adversaire.\n<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : <keyword=consume>dévorez</keyword> une unité depuis votre cimetière.\n",
+        "name": "Ozzrel"
+    },
+    "201700": {
+        "info": "Baroud d'honneur : améliorez l'allié le plus puissant de 4 point(s).\n",
+        "infoRaw": "<keyword=deathwish>Baroud d'honneur</keyword> : améliorez l'allié le plus puissant de 4 point(s).\n",
+        "name": "Troll du pont"
+    },
+    "201701": {
+        "info": "Ordre : dévorez une unité alliée.\n2 utilisation(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : <keyword=consume>dévorez</keyword> une unité alliée.\n2 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Barbegazi"
+    },
+    "201704": {
+        "info": "Déploiement : retirez un effet de ligne sur une ligne alliée.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : retirez un effet de ligne sur une ligne alliée.\n",
+        "name": "Éclaireur"
+    },
+    "201709": {
+        "info": "Infligez 2 point(s) de dégâts à tous les ennemis ayant une force impaire.\n",
+        "infoRaw": "Infligez 2 point(s) de dégâts à tous les ennemis ayant une force impaire.\n",
+        "name": "Égalité"
+    },
+    "201710": {
+        "info": "Infligez 2 point(s) de dégâts à tous les ennemis ayant une force paire.\n",
+        "infoRaw": "Infligez 2 point(s) de dégâts à tous les ennemis ayant une force paire.\n",
+        "name": "Perturbation"
+    },
+    "201725": {
+        "info": "Envoyez Échøp à l'académie pour garçons de Ban Ard.\n",
+        "infoRaw": "Envoyez Échøp à l'académie pour garçons de Ban Ard.\n",
+        "name": "Échøp : mage"
+    },
+    "201726": {
+        "info": "Déploiement : transformez la carte la plus à droite dans la main de chaque joueur en une carte spéciale aléatoire.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : transformez la carte la plus à droite dans la main de chaque joueur en une carte spéciale aléatoire.\n",
+        "name": "Échøp : mage"
+    },
+    "201727": {
+        "info": "Déploiement :  déplacez une unité aléatoire sur la ligne opposée.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> :  déplacez une unité aléatoire sur la ligne opposée.\n",
+        "name": "Échøp : mage"
+    },
+    "201728": {
+        "info": "Déploiement : appliquez un effet de ligne aléatoire sur toutes les lignes.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : appliquez un effet de ligne aléatoire sur toutes les lignes.\n",
+        "name": "Échøp : mage"
+    },
+    "201729": {
+        "info": "Déploiement : répartissez aléatoirement 13 point(s) de dégâts entre toutes les unités sur le champ de bataille.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : répartissez aléatoirement 13 point(s) de dégâts entre toutes les unités sur le champ de bataille.\n",
+        "name": "Échøp : mage"
+    },
+    "201730": {
+        "info": "Déploiement : générez et invoquez une unité aléatoire sur une ligne aléatoire du côté de chaque joueur.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> et <keyword=summon>invoquez</keyword> une unité aléatoire sur une ligne aléatoire du côté de chaque joueur.\n",
+        "name": "Échøp : mage"
+    },
+    "201731": {
+        "info": "Envoyez Échøp dans les forêts de Dol Blathanna.\n",
+        "infoRaw": "Envoyez Échøp dans les forêts de Dol Blathanna.\n",
+        "name": "Échøp : chasseur"
+    },
+    "201732": {
+        "info": "Déploiement : jouez une carte aléatoire depuis votre jeu.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : jouez une carte aléatoire depuis votre jeu.\n",
+        "name": "Échøp : chasseur"
+    },
+    "201733": {
+        "info": "Déploiement : répartissez aléatoirement 9 point(s) de dégâts entre toutes les unités ennemies.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : répartissez aléatoirement 9 point(s) de dégâts entre toutes les unités ennemies.\n",
+        "name": "Échøp : chasseur"
+    },
+    "201734": {
+        "info": "Déploiement : améliorez toutes les unités dans votre main de 1 et 2 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez toutes les unités dans votre main de 1 et 2 point(s).\n",
+        "name": "Échøp : chasseur"
+    },
+    "201735": {
+        "info": "Déploiement : détruisez un ennemi aléatoire.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : détruisez un ennemi aléatoire.\n",
+        "name": "Échøp : chasseur"
+    },
+    "201737": {
+        "info": "Envoyez Échøp à l'académie militaire de la cour impériale.\n",
+        "infoRaw": "Envoyez Échøp à l'académie militaire de la cour impériale.\n",
+        "name": "Échøp : chevalier"
+    },
+    "201738": {
+        "info": "Déploiement : infligez 4 point(s) de dégâts à un ennemi.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 4 point(s) de dégâts à un ennemi.\n",
+        "name": "Échøp : chevalier"
+    },
+    "201739": {
+        "info": "Déploiement : verrouillez une unité.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : <keyword=lock>verrouillez</keyword> une unité.\n",
+        "name": "Échøp : chevalier"
+    },
+    "201740": {
+        "info": "Déploiement : gagnez l'attribut Ténacité.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : gagnez l'attribut <keyword=resilient>Ténacité</keyword>.\n",
+        "name": "Échøp : chevalier"
+    },
+    "201741": {
+        "info": "Déploiement : détruisez un artefact ennemi.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : détruisez un artefact ennemi.\n",
+        "name": "Échøp : chevalier"
+    },
+    "201743": {
+        "info": "Chaque fois qu'une unité alliée est détruite durant votre tour, générez un Bourdon arachas et invoquez-le sur une ligne alliée aléatoire.\n",
+        "infoRaw": "Chaque fois qu'une unité alliée est détruite durant votre tour, <keyword=spawn>générez</keyword> un Bourdon arachas et <keyword=summon>invoquez</keyword>-le sur une ligne alliée aléatoire.\n",
+        "name": "Reine des arachas"
+    },
+    "201744": {
+        "info": "Rétablissez la force initiale d'une unité.\n",
+        "infoRaw": "Rétablissez la force initiale d'une unité.\n",
+        "name": "Spores"
+    },
+    "201748": {
+        "info": "Ordre, Combat rapproché : infligez 1 point(s) de dégâts à un ennemi et à tous les autres ennemis disposant de la même force. \n1 utilisation(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword>, <keyword=melee>Combat rapproché</keyword> : infligez 1 point(s) de dégâts à un ennemi et à tous les autres ennemis disposant de la même force. \n1 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Fierté de Foltest"
+    },
+    "201749": {
+        "info": "Améliorez toutes les unités d'une ligne de 2 point(s).\n",
+        "infoRaw": "Améliorez toutes les unités d'une ligne de 2 point(s).\n",
+        "name": "Mousse dorée"
+    },
+    "201753": {
+        "info": "Déploiement : améliorez un allié de 2 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez un allié de 2 point(s).\n",
+        "name": "Milice paysanne"
+    },
+    "201772": {
+        "info": "Déploiement, Combat rapproché : infligez 3 point(s) de dégâts à un ennemi. Si sa force est un multiple de 3, détruisez l'unité à la place.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : infligez 3 point(s) de dégâts à un ennemi. Si sa force est un multiple de 3, détruisez l'unité à la place.\n",
+        "name": "Geralt : spécialiste"
+    },
+    "201773": {
+        "info": "Déploiement, Combat à distance : créez et jouez une carte spéciale Bronze depuis le jeu actuel de chaque joueur.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : <keyword=create>créez</keyword> et jouez une carte spéciale Bronze depuis le jeu actuel de chaque joueur.\n",
+        "name": "Triss : télékinésie"
+    },
+    "201774": {
+        "info": "Déploiement : détruisez une Bête ennemie.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : détruisez une Bête ennemie.\n",
+        "name": "Jaskier : vantardise"
+    },
+    "201776": {
+        "info": "Déploiement : piochez une carte, puis jouez une carte.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : piochez une carte, puis jouez une carte.\n",
+        "name": "Jaskier : poète"
+    },
+    "201777": {
+        "info": "Ordre : saisissez un ennemi dont la force est inférieure ou égale au nombre d'utilisations de Roche : impitoyable, puis retirez toutes les utilisations de ce dernier. \n0 utilisation(s).\nAu début de chaque tour, la présente unité gagne 1 utilisation(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : <keyword=seize>saisissez</keyword> un ennemi dont la force est inférieure ou égale au nombre d'<keyword=charge>utilisations</keyword> de Roche : impitoyable, puis retirez toutes les <keyword=charge>utilisations</keyword> de ce dernier. \n0 <keyword=charge>utilisation(s)</keyword>.\nAu début de chaque tour, la présente unité gagne 1 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Roche : impitoyable"
+    },
+    "201779": {
+        "info": "Mélangez une unité alliée dans votre jeu, puis jouez une unité de la même catégorie principale depuis votre jeu et améliorez-la de 3 point(s).\n",
+        "infoRaw": "Mélangez une unité alliée dans votre jeu, puis jouez une unité de la même catégorie principale depuis votre jeu et améliorez-la de 3 point(s).\n",
+        "name": "Appel de la forêt"
+    },
+    "201780": {
+        "info": "Déploiement, Combat à distance : révélez une unité aléatoire de votre jeu et améliorez un allié d'un nombre de points équivalent à sa force.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : <keyword=reveal>révélez</keyword> une unité aléatoire de votre jeu et améliorez un allié d'un nombre de points équivalent à sa force.\n",
+        "name": "Yennefer : divination"
+    },
+    "201781": {
+        "info": "Ordre : si vous contrôlez l'unité disposant de la force la plus élevée, infligez 2 point(s) de dégâts à une unité. \nRéutilisation : 1 tour(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : si vous contrôlez l'unité disposant de la force la plus élevée, infligez 2 point(s) de dégâts à une unité. \n<keyword=cooldown>Réutilisation</keyword> : 1 tour(s).\n",
+        "name": "Imlerith"
+    },
+    "201817": {
+        "info": "Déploiement, Combat rapproché : chaque joueur invoque l'unité disposant du coût de recrutement le plus élevé sur la ligne de combat rapproché.\nDéploiement, Combat à distance : chaque joueur invoque l'unité disposant du coût de recrutement le plus faible sur la ligne de combat à distance.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : chaque joueur <keyword=summon>invoque</keyword> l'unité disposant du coût de recrutement le plus élevé sur la ligne de combat rapproché.\n<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : chaque joueur <keyword=summon>invoque</keyword> l'unité disposant du coût de recrutement le plus faible sur la ligne de combat à distance.\n",
+        "name": "Ihuarraquax"
+    },
+    "202044": {
+        "info": "Déploiement, Combat rapproché : infligez 3 point(s) de dégâts à un ennemi et à toutes ses copies.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : infligez 3 point(s) de dégâts à un ennemi et à toutes ses copies.\n",
+        "name": "Gerwin Patte-Folle"
+    },
+    "202054": {
+        "info": "Détruisez 2 unités alliées de même couleur, puis créez et jouez une unité de cette couleur.\n",
+        "infoRaw": "Détruisez 2 unités alliées de même couleur, puis <keyword=create>créez</keyword> et jouez une unité de cette couleur.\n",
+        "name": "Gratinée d'elfe"
+    },
+    "202064": {
+        "info": "Ordre, Combat rapproché : infligez 2 point(s) de dégâts à un ennemi.\n1 utilisation(s).\nLa présente unité gagne 1 utilisation(s) chaque fois que vous jouez un Sorceleur.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword>, <keyword=melee>Combat rapproché</keyword> : infligez 2 point(s) de dégâts à un ennemi.\n1 <keyword=charge>utilisation(s)</keyword>.\nLa présente unité gagne 1 <keyword=charge>utilisation(s)</keyword> chaque fois que vous jouez un Sorceleur.\n",
+        "name": "Ivo de Belhaven"
+    },
+    "202098": {
+        "info": "Déploiement : si vous avez un Dragon en main, gagnez l'attribut Zèle.\nOrdre : détruisez une unité disposant d'au moins 8 point(s) de force.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : si vous avez un Dragon en main, gagnez l'attribut <keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : détruisez une unité disposant d'au moins 8 point(s) de force.\n",
+        "name": "Eyck de Denesle"
+    },
+    "202099": {
+        "info": "Déploiement, Combat rapproché : améliorez la présente unité d'un montant aléatoire compris entre 0 et 11 points de force.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : améliorez la présente unité d'un montant aléatoire compris entre 0 et 11 points de force.\n",
+        "name": "Gascon"
+    },
+    "202100": {
+        "info": "Espion.\nDéploiement : jouez une carte Or aléatoire de votre jeu.\n",
+        "infoRaw": "<keyword=spying>Espion</keyword>.\n<keyword=deploy>Déploiement</keyword> : jouez une carte Or aléatoire de votre jeu.\n",
+        "name": "Prince Villem"
+    },
+    "202101": {
+        "info": "À la fin de chaque tour, déplacez la présente unité vers la ligne du champ de bataille où se situe l'unité disposant de la force la plus élevée.\n",
+        "infoRaw": "À la fin de chaque tour, déplacez la présente unité vers la ligne du champ de bataille où se situe l'unité disposant de la force la plus élevée.\n",
+        "name": "Comte Caldwell"
+    },
+    "202102": {
+        "info": "Déploiement, Combat rapproché : bannissez toutes les cartes du cimetière de votre adversaire.\nDéploiement, Combat à distance : bannissez toutes les cartes de votre cimetière.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : <keyword=banish>bannissez</keyword> toutes les cartes du cimetière de votre adversaire.\n<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : <keyword=banish>bannissez</keyword> toutes les cartes de votre cimetière.\n",
+        "name": "Xavier Lemmens"
+    },
+    "202103": {
+        "info": "Combat rapproché : à la fin de chaque tour, détruisez l'unité disposant de la force la plus faible du côté comportant le plus grand nombre d'unités.\n",
+        "infoRaw": "<keyword=melee>Combat rapproché</keyword> : à la fin de chaque tour, détruisez l'unité disposant de la force la plus faible du côté comportant le plus grand nombre d'unités.\n",
+        "name": "Keltullis"
+    },
+    "202104": {
+        "info": "Invulnérabilité.\n",
+        "infoRaw": "<keyword=immune>Invulnérabilité</keyword>.\n",
+        "name": "Épouvanteur : réveillé"
+    },
+    "202105": {
+        "info": "Déploiement : détruisez toutes les unités disposant de 1 point(s) de force. Pour chaque unité détruite, améliorez la présente unité de 2 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : détruisez toutes les unités disposant de 1 point(s) de force. Pour chaque unité détruite, améliorez la présente unité de 2 point(s).\n",
+        "name": "Glouton des vasières"
+    },
+    "202106": {
+        "info": "Déploiement, Combat rapproché : gagnez l'attribut Ténacité.\nDéploiement, Combat à distance : gagnez l'attribut Invulnérabilité.\nChaque fois que vous jouez un Nain, améliorez la présente unité de 1 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : gagnez l'attribut <keyword=resilient>Ténacité</keyword>.\n<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : gagnez l'attribut <keyword=immune>Invulnérabilité</keyword>.\nChaque fois que vous jouez un Nain, améliorez la présente unité de 1 point(s).\n",
+        "name": "Gabor Zigrin"
+    },
+    "202107": {
+        "info": "Déploiement : améliorez un allié Elfe, Nain et Dryade de 2 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez un allié Elfe, Nain et Dryade de 2 point(s).\n",
+        "name": "Barnabas Beckenbauer"
+    },
+    "202108": {
+        "info": "Ordre, Combat à distance : regardez la première carte de chaque jeu. Gardez-en une et donnez l'autre à votre adversaire.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword>, <keyword=ranged>Combat à distance</keyword> : regardez la première carte de chaque jeu. Gardez-en une et donnez l'autre à votre adversaire.\n",
+        "name": "Isbel de Hagge"
+    },
+    "202109": {
+        "info": "Déploiement, Combat à distance : remplacez votre cimetière par votre jeu.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=ranged>Combat à distance</keyword> : remplacez votre cimetière par votre jeu.\n",
+        "name": "Gudmund l'Effronté"
+    },
+    "202110": {
+        "info": "Combat rapproché : chaque fois qu'un ennemi est endommagé, améliorez la présente unité de 1 point(s).\n",
+        "infoRaw": "<keyword=melee>Combat rapproché</keyword> : chaque fois qu'un ennemi est endommagé, améliorez la présente unité de 1 point(s).\n",
+        "name": "Dagur Deux-Lames"
+    },
+    "202111": {
+        "info": "Déploiement : regardez les 3 premières cartes du jeu de votre adversaire, et déplacez-en 1 vers son cimetière.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : regardez les 3 premières cartes du jeu de votre adversaire, et déplacez-en 1 vers son cimetière.\n",
+        "name": "Traheaern var Vdyffir"
+    },
+    "202112": {
+        "info": "Chaque fois qu'une unité disposant d'utilisations est jouée, donnez-lui 1 utilisation.\n",
+        "infoRaw": "Chaque fois qu'une unité disposant d'<keyword=charge>utilisations</keyword> est jouée, donnez-lui 1 <keyword=charge>utilisation</keyword>.\n",
+        "name": "Reynard Odo"
+    },
+    "202113": {
+        "info": "Déploiement : infligez à un ennemi un montant de dégâts équivalant au nombre d'Humains alliés.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez à un ennemi un montant de dégâts équivalant au nombre d'Humains alliés.\n",
+        "name": "Rayla la Noire"
+    },
+    "202114": {
+        "info": "Condamnée. Zèle.\nOrdre : transformez la présente unité en Phénix.\n",
+        "infoRaw": "<keyword=doomed>Condamnée</keyword>. <keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : transformez la présente unité en Phénix.\n",
+        "name": "Jeune Phénix"
+    },
+    "202121": {
+        "info": "Déploiement : déplacez une unité sur une autre ligne de votre côté.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : déplacez une unité sur une autre ligne de votre côté.\n",
+        "name": "Chiens de Spalla"
+    },
+    "202122": {
+        "info": "Déploiement : détruisez un artefact ennemi.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : détruisez un artefact ennemi.\n",
+        "name": "Souleveur de bombes"
+    },
+    "202148": {
+        "info": "Ordre : donnez 1 utilisation(s) à une unité. \nRéutilisation : 2 tour(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : donnez 1 <keyword=charge>utilisation(s)</keyword> à une unité. \n<keyword=cooldown>Réutilisation</keyword> : 2 tour(s).\n",
+        "name": "Roi Demavend III"
+    },
+    "202149": {
+        "info": "Ordre : jouez un artefact aléatoire depuis le jeu de votre adversaire.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : jouez un artefact aléatoire depuis le jeu de votre adversaire.\n",
+        "name": "Angoulême"
+    },
+    "202150": {
+        "info": "Zèle.\nOrdre, Combat à distance : améliorez une unité de 1 point(s). \n1 utilisation(s).\nChaque fois qu'un joueur joue une carte, la présente unité gagne 1 utilisation(s).\n",
+        "infoRaw": "<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword>, <keyword=ranged>Combat à distance</keyword> : améliorez une unité de 1 point(s). \n1 <keyword=charge>utilisation(s)</keyword>.\nChaque fois qu'un joueur joue une carte, la présente unité gagne 1 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Vysogota de Corvo"
+    },
+    "202151": {
+        "info": "Déploiement, Combat rapproché : détruisez un ennemi possédant une capacité Ordre.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword>, <keyword=melee>Combat rapproché</keyword> : détruisez un ennemi possédant une capacité <keyword=order>Ordre</keyword>.\n",
+        "name": "Falibor"
+    },
+    "202152": {
+        "info": "À la fin de chaque tour, si la présent unité est améliorée, améliorez les unités adjacentes de 1 point(s).\n",
+        "infoRaw": "À la fin de chaque tour, si la présent unité est améliorée, améliorez les unités adjacentes de 1 point(s).\n",
+        "name": "Anna Strenger"
+    },
+    "202153": {
+        "info": "Chaque fois que vous jouez une unité possédant Ordre, améliorez la présente unité de 1 point(s).\n",
+        "infoRaw": "Chaque fois que vous jouez une unité possédant <keyword=order>Ordre</keyword>, améliorez la présente unité de 1 point(s).\n",
+        "name": "Cavalerie lyrienne"
+    },
+    "202154": {
+        "info": "Déploiement : infligez 1 point(s) de dégâts à un ennemi. S'il est détruit, infligez 3 point(s) de dégâts à un autre ennemi.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 1 point(s) de dégâts à un ennemi. S'il est détruit, infligez 3 point(s) de dégâts à un autre ennemi.\n",
+        "name": "Piquier de Riv"
+    },
+    "202155": {
+        "info": "Ordre : infligez 1 point(s) de dégâts à une unité. \n1 utilisation(s).\nChaque fois que vous jouez une carte possédant des Ordres, la présente unité gagne 1 utilisation(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : infligez 1 point(s) de dégâts à une unité. \n1 <keyword=charge>utilisation(s)</keyword>.\nChaque fois que vous jouez une carte possédant des <keyword=order>Ordres</keyword>, la présente unité gagne 1 <keyword=charge>utilisation(s)</keyword>.\n",
+        "name": "Arbalétrier lyrien"
+    },
+    "202156": {
+        "info": "Ordre : infligez 1 point(s) de dégâts à une unité. Si un Lansquenet lyrien a été améliorée, infligez 3 point(s) de dégâts à la place.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : infligez 1 point(s) de dégâts à une unité. Si un Lansquenet lyrien a été améliorée, infligez 3 point(s) de dégâts à la place.\n",
+        "name": "Lansquenet lyrien"
+    },
+    "202161": {
+        "info": "Déploiement : améliorez la présente unité de 1 point(s) par allié amélioré.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez la présente unité de 1 point(s) par allié amélioré.\n",
+        "name": "Faucheur lyrien"
+    }
+}

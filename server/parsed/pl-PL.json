@@ -1,0 +1,2596 @@
+{
+    "112101": {
+        "infoRaw": "Za każdym razem, gdy przegrasz rundę, cofnij tę jednostkę z pola bitwy do swojej ręki.\n",
+        "name": "Ciri"
+    },
+    "112102": {
+        "info": "Rozmieszczenie, bliskie starcie: Zniszcz najsilniejszą jednostkę lub jednostki w rzędzie przeciwnika o łącznej sile 15 lub większej.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Zniszcz najsilniejszą jednostkę lub jednostki w rzędzie przeciwnika o łącznej sile 15 lub większej.\n",
+        "name": "Geralt: Igni"
+    },
+    "112103": {
+        "info": "Rozmieszczenie: Zniszcz wroga o sile 8 lub większej.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zniszcz wroga o sile 8 lub większej.\n",
+        "name": "Geralt z Rivii"
+    },
+    "112104": {
+        "info": "Rozmieszczenie: Zadaj wszystkim wrogom w rzędzie 1 pkt obrażeń. Jeśli któryś ulegnie zniszczeniu, powtórz tę umiejętność.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wszystkim wrogom w rzędzie 1 pkt obrażeń. Jeśli któryś ulegnie zniszczeniu, powtórz tę umiejętność.\n",
+        "name": "Regis"
+    },
+    "112105": {
+        "info": "Rozmieszczenie, bliskie starcie: Wykradnij wrogowi wszystkie wzmocnienia.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: <keyword=drain>Wykradnij</keyword> wrogowi wszystkie wzmocnienia.\n",
+        "name": "Regis: Wampir Wyższy"
+    },
+    "112106": {
+        "info": "Rozmieszczenie, daleki zasięg: Ujawnij losową jednostkę ze swojej talii i zadaj wrogowi obrażenia równe jej sile.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: <keyword=reveal>Ujawnij</keyword> losową jednostkę ze swojej talii i zadaj wrogowi obrażenia równe jej sile.\n",
+        "name": "Triss Merigold"
+    },
+    "112107": {
+        "info": "Po 2 turach, na koniec tury, zniszcz najsilniejszą jednostkę na polu bitwy (nie licząc tej jednostki).\n",
+        "infoRaw": "Po 2 turach, na koniec tury, zniszcz najsilniejszą jednostkę na polu bitwy (nie licząc tej jednostki).\n",
+        "name": "Villentretenmerth"
+    },
+    "112108": {
+        "info": "Rozmieszczenie, bliskie starcie: Zadaj wszystkim innym jednostkom 2 pkt obrażeń.\nRozmieszczenie, daleki zasięg: Wzmocnij wszystkie inne jednostki o 2.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Zadaj wszystkim innym jednostkom 2 pkt obrażeń.\n<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Wzmocnij wszystkie inne jednostki o 2.\n",
+        "name": "Yennefer z Vengerbergu"
+    },
+    "112109": {
+        "info": "Rozmieszczenie, bliskie starcie: Stwórz i zagraj Dudę: Mąciciela.\nRozmieszczenie, daleki zasięg: Stwórz i zagraj Dudę: Towarzysza.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: <keyword=spawn>Stwórz</keyword> i zagraj Dudę: Mąciciela.\n<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: <keyword=spawn>Stwórz</keyword> i zagraj Dudę: Towarzysza.\n",
+        "name": "Zoltan: Szelma"
+    },
+    "112110": {
+        "info": "Po 4 turach, na początku tury, dobierz kartę.\n",
+        "infoRaw": "Po 4 turach, na początku tury, dobierz kartę.\n",
+        "name": "Ciri: Szarża"
+    },
+    "112111": {
+        "info": "Rozmieszczenie, bliskie starcie: Zadaj 2 pkt obrażeń 3 wrogom i przenieś ich do rzędu dalekiego zasięgu, jeśli to możliwe.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Zadaj 2 pkt obrażeń 3 wrogom i przenieś ich do rzędu dalekiego zasięgu, jeśli to możliwe.\n",
+        "name": "Geralt: Aard"
+    },
+    "112112": {
+        "info": "Rozmieszczenie, daleki zasięg: Zagraj Artefakt ze swojej talii.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Zagraj Artefakt ze swojej talii.\n",
+        "name": "Avallac'h: Wiedzący"
+    },
+    "112113": {
+        "info": "Rozkaz: Zadaj najsilniejszej jednostce/jednostkom wroga 1 pkt obrażeń.\nOdnowienie: 1.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zadaj najsilniejszej jednostce/jednostkom wroga 1 pkt obrażeń.\n<keyword=cooldown>Odnowienie</keyword>: 1.\n",
+        "name": "Yennefer: Klątwy"
+    },
+    "112201": {
+        "info": "Rozmieszczenie: Przemień kartę w bazowy egzemplarz wrogiej jednostki.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Przemień kartę w bazowy egzemplarz wrogiej jednostki.\n",
+        "name": "Dudu"
+    },
+    "112202": {
+        "info": "Rozmieszczenie: Wezwij do tego rzędu Vesemira i Lamberta ze swojej talii.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: <keyword=summon>Wezwij</keyword> do tego rzędu Vesemira i Lamberta ze swojej talii.\n",
+        "name": "Eskel"
+    },
+    "112203": {
+        "info": "Rozmieszczenie: Wezwij do tego rzędu Eskela i Lamberta ze swojej talii.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: <keyword=summon>Wezwij</keyword> do tego rzędu Eskela i Lamberta ze swojej talii.\n",
+        "name": "Vesemir"
+    },
+    "112204": {
+        "info": "Rozmieszczenie: Wezwij do tego rzędu Eskela i Vesemira ze swojej talii.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: <keyword=summon>Wezwij</keyword> do tego rzędu Eskela i Vesemira ze swojej talii.\n",
+        "name": "Lambert"
+    },
+    "112205": {
+        "info": "Rozkaz: Zadaj wrogowi 2 pkt obrażeń.\nŁadunki: 2.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zadaj wrogowi 2 pkt obrażeń.\n<keyword=charge>Ładunki</keyword>: 2.\n",
+        "name": "Myrgtabrakke"
+    },
+    "112206": {
+        "info": "Rozkaz: Zadaj wszystkim wrogom 1 pkt obrażeń.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zadaj wszystkim wrogom 1 pkt obrażeń.\n",
+        "name": "Ocvist"
+    },
+    "112207": {
+        "info": "Rozkaz: Uzdrów tę jednostkę.\nOdnowienie 1.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: <keyword=heal>Uzdrów</keyword> tę jednostkę.\n<keyword=cooldown>Odnowienie</keyword> 1.\n",
+        "name": "Olgierd von Everec"
+    },
+    "112208": {
+        "info": "Rozmieszczenie: Stwórz i wezwij bazowy egzemplarz brązowej jednostki ze swojej ręki do tego rzędu po stronie obu graczy.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: <keyword=spawn>Stwórz</keyword> i <keyword=summon>wezwij</keyword> bazowy egzemplarz brązowej jednostki ze swojej ręki do tego rzędu po stronie obu graczy.\n",
+        "name": "Operator"
+    },
+    "112209": {
+        "info": "Rozkaz: Przemień w Czarta.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Przemień w Czarta.\n",
+        "name": "Krowa Czempionka"
+    },
+    "112210": {
+        "info": "Za każdym razem, gdy zagrasz złotą kartę, wezwij tę jednostkę ze swojej talii do losowego rzędu sojuszniczego.\n",
+        "infoRaw": "Za każdym razem, gdy zagrasz złotą kartę, <keyword=summon>wezwij</keyword> tę jednostkę ze swojej talii do losowego rzędu sojuszniczego.\n",
+        "name": "Płotka"
+    },
+    "112211": {
+        "info": "Rozkaz: Zadaj jednostce 2 pkt obrażeń.\nŁadunki: 1.\nDaj tej jednostce ładunki (1) za każdym razem, gdy zagrywasz kartę specjalną.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zadaj jednostce 2 pkt obrażeń.\n<keyword=charge>Ładunki</keyword>: 1.\nDaj tej jednostce <keyword=charge>ładunki</keyword> (1) za każdym razem, gdy zagrywasz kartę specjalną.\n",
+        "name": "Janek"
+    },
+    "112212": {
+        "info": "Rozkaz: Wzmocnij jednostkę o 2.\nŁadunki: 1.\nDaj tej jednostce ładunki (1) za każdym razem, gdy zagrywasz kartę specjalną.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Wzmocnij jednostkę o 2.\n<keyword=charge>Ładunki</keyword>: 1.\nDaj tej jednostce <keyword=charge>ładunki</keyword> (1) za każdym razem, gdy zagrywasz kartę specjalną.\n",
+        "name": "Sara"
+    },
+    "112213": {
+        "info": "Na koniec każdej tury wzmocnij najsłabszą jednostkę w swojej ręce o 1.\n",
+        "infoRaw": "Na koniec każdej tury wzmocnij najsłabszą jednostkę w swojej ręce o 1.\n",
+        "name": "Król Żebraków"
+    },
+    "112214": {
+        "info": "Rozmieszczenie: Wygnaj jednostkę o sile 3 lub mniejszej.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: <keyword=banish>Wygnaj</keyword> jednostkę o sile 3 lub mniejszej.\n",
+        "name": "Cyprian Willey"
+    },
+    "112215": {
+        "info": "Rozmieszczenie, bliskie starcie: Zniszcz wrogi Artefakt.\nRozmieszczenie, daleki zasięg: Usuń wszystkie efekty z rzędów po swojej stronie.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Zniszcz wrogi Artefakt.\n<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Usuń wszystkie efekty z rzędów po swojej stronie.\n",
+        "name": "Iris von Everec"
+    },
+    "112401": {
+        "info": "Rozmieszczenie: Wzmocnij jednostkę o 4. Jeśli masz w ręce Chironexa, podwój wzmocnienie.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij jednostkę o 4. Jeśli masz w ręce Chironexa, podwój wzmocnienie.\n",
+        "name": "Jednorożec"
+    },
+    "112402": {
+        "info": "Rozmieszczenie: Zadaj jednostce 4 pkt obrażeń. Jeśli masz w ręce Jednorożca, podwój obrażenia.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj jednostce 4 pkt obrażeń. Jeśli masz w ręce Jednorożca, podwój obrażenia.\n",
+        "name": "Chironex"
+    },
+    "112405": {
+        "info": "Rozmieszczenie: Wzmocnij wszystkie jednostki z zemstą w swojej ręce o 1.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij wszystkie jednostki z <keyword=deathwish>zemstą</keyword> w swojej ręce o 1.\n",
+        "name": "Bies"
+    },
+    "113101": {
+        "info": "Zastosuj ten efekt w rzędzie przeciwnika:\nNa początku każdej tury zadaj najsilniejszej jednostce w tym rzędzie 2 pkt obrażeń.\n",
+        "infoRaw": "Zastosuj ten efekt w rzędzie przeciwnika:\nNa początku każdej tury zadaj najsilniejszej jednostce w tym rzędzie 2 pkt obrażeń.\n",
+        "name": "Ragh Nar Roog"
+    },
+    "113102": {
+        "info": "Podejrzyj wierzchnie karty ze swojej talii (2), następnie zagraj jedną i wygnaj drugą.\n",
+        "infoRaw": "Podejrzyj wierzchnie karty ze swojej talii (2), następnie zagraj jedną i <keyword=banish>wygnaj</keyword> drugą.\n",
+        "name": "Ostatnie Życzenie"
+    },
+    "113201": {
+        "info": "Wtasuj do swojej talii sojusznika z pola bitwy, następnie zagraj wierzchnią jednostkę ze swojej talii.\n",
+        "infoRaw": "Wtasuj do swojej talii sojusznika z pola bitwy, następnie zagraj wierzchnią jednostkę ze swojej talii.\n",
+        "name": "Atrapa"
+    },
+    "113202": {
+        "info": "Zadaj 5 wrogom 2 pkt obrażeń.\n",
+        "infoRaw": "Zadaj 5 wrogom 2 pkt obrażeń.\n",
+        "name": "Gradobicie Merigold"
+    },
+    "113203": {
+        "info": "Zastosuj ten efekt w rzędzie przeciwnika:\nNa początku każdej z 2 tur zadaj wszystkim jednostkom w tym rzędzie 1 pkt obrażeń.\n",
+        "infoRaw": "Zastosuj ten efekt w rzędzie przeciwnika:\nNa początku każdej z 2 tur zadaj wszystkim jednostkom w tym rzędzie 1 pkt obrażeń.\n",
+        "name": "Skelligijski Sztorm"
+    },
+    "113204": {
+        "info": "Zadaj wszystkim wrogom 1 pkt obrażeń.\n",
+        "infoRaw": "Zadaj wszystkim wrogom 1 pkt obrażeń.\n",
+        "name": "Wstrząsy Stammelforda"
+    },
+    "113205": {
+        "info": "Zniszcz Artefakt.\n",
+        "infoRaw": "Zniszcz Artefakt.\n",
+        "name": "Bomba dwimerytowa"
+    },
+    "113206": {
+        "info": "Zniszcz wszystkie Artefakty.\n",
+        "infoRaw": "Zniszcz wszystkie Artefakty.\n",
+        "name": "Białe Zimno"
+    },
+    "113207": {
+        "info": "Wzmocnij sąsiadujące jednostki (5) o 3.\n",
+        "infoRaw": "Wzmocnij sąsiadujące jednostki (5) o 3.\n",
+        "name": "Róg dowódcy"
+    },
+    "113208": {
+        "info": "Rozmieszczenie, bliskie starcie: Wydłuż czas trwania wszystkich efektów rzędów o 1.\nRozmieszczenie, daleki zasięg: Skróć czas trwania wszystkich efektów rzędów o 1.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Wydłuż czas trwania wszystkich efektów rzędów o 1.\n<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Skróć czas trwania wszystkich efektów rzędów o 1.\n",
+        "name": "Vaedermakar"
+    },
+    "113209": {
+        "info": "Zagraj najsilniejszą jednostkę ze swojej talii.\n",
+        "infoRaw": "Zagraj najsilniejszą jednostkę ze swojej talii.\n",
+        "name": "Krzyż Alzura"
+    },
+    "113301": {
+        "info": "Zadaj jednostce 5 pkt obrażeń.\n",
+        "infoRaw": "Zadaj jednostce 5 pkt obrażeń.\n",
+        "name": "Piorun Alzura"
+    },
+    "113302": {
+        "info": "Zastosuj ten efekt w rzędzie przeciwnika:\nNa początku każdej z 4 tur zadaj najsłabszej jednostce w tym rzędzie 2 pkt obrażeń.\n",
+        "infoRaw": "Zastosuj ten efekt w rzędzie przeciwnika:\nNa początku każdej z 4 tur zadaj najsłabszej jednostce w tym rzędzie 2 pkt obrażeń.\n",
+        "name": "Trzaskający Mróz"
+    },
+    "113303": {
+        "info": "Usuń wszystkie efekty z rzędów po swojej stronie.\n",
+        "infoRaw": "Usuń wszystkie efekty z rzędów po swojej stronie.\n",
+        "name": "Czyste Niebo"
+    },
+    "113305": {
+        "info": "Zastosuj ten efekt w rzędzie przeciwnika:\nNa początku każdej z 4 tur zadaj najsilniejszej jednostce w tym rzędzie 2 pkt obrażeń.\n",
+        "infoRaw": "Zastosuj ten efekt w rzędzie przeciwnika:\nNa początku każdej z 4 tur zadaj najsilniejszej jednostce w tym rzędzie 2 pkt obrażeń.\n",
+        "name": "Gęsta Mgła"
+    },
+    "113306": {
+        "info": "Zadaj 3 wrogom 3 pkt obrażeń.\n",
+        "infoRaw": "Zadaj 3 wrogom 3 pkt obrażeń.\n",
+        "name": "Jad Mantikory"
+    },
+    "113307": {
+        "info": "Daj lub odbierz jednostce wytrzymałość.\n",
+        "infoRaw": "Daj lub odbierz jednostce <keyword=resilient>wytrzymałość</keyword>.\n",
+        "name": "Adrenalina"
+    },
+    "113308": {
+        "info": "Zniszcz najsłabszą jednostkę lub jednostki.\n",
+        "infoRaw": "Zniszcz najsłabszą jednostkę lub jednostki.\n",
+        "name": "Epidemia"
+    },
+    "113309": {
+        "info": "Zniszcz najsilniejszą jednostkę lub jednostki.\n",
+        "infoRaw": "Zniszcz najsilniejszą jednostkę lub jednostki.\n",
+        "name": "Pożoga"
+    },
+    "113310": {
+        "info": "Wzmocnij jednostkę o 6.\n",
+        "infoRaw": "Wzmocnij jednostkę o 6.\n",
+        "name": "Jaskółka"
+    },
+    "113311": {
+        "info": "Zapał.\nRozkaz: Wzmocnij jednostkę o 2.\nŁadunki: 3.\n",
+        "infoRaw": "<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Wzmocnij jednostkę o 2.\n<keyword=charge>Ładunki</keyword>: 3.\n",
+        "name": "Grom"
+    },
+    "113312": {
+        "info": "Zastosuj ten efekt w rzędzie przeciwnika:\nNa początku każdej z 4 tur zadaj 2 losowym jednostkom w tym rzędzie 1 pkt obrażeń.\n",
+        "infoRaw": "Zastosuj ten efekt w rzędzie przeciwnika:\nNa początku każdej z 4 tur zadaj 2 losowym jednostkom w tym rzędzie 1 pkt obrażeń.\n",
+        "name": "Ulewny Deszcz"
+    },
+    "113313": {
+        "info": "Rozmieszczenie: Wzmocnij tę jednostkę o liczbę obrażeń odniesionych przez wroga.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij tę jednostkę o liczbę obrażeń odniesionych przez wroga.\n",
+        "name": "Ochotnicy an Craite"
+    },
+    "113315": {
+        "info": "Wybierz jednostkę. Jeśli jest wzmocniona, zadaj jej obrażenia równe dwukrotności wzmocnienia. Jeśli jest ranna, wzmocnij ją o dwukrotność obrażeń.\n",
+        "infoRaw": "Wybierz jednostkę. Jeśli jest wzmocniona, zadaj jej obrażenia równe dwukrotności wzmocnienia. Jeśli jest ranna, wzmocnij ją o dwukrotność obrażeń.\n",
+        "name": "Zwierciadło Bekkera"
+    },
+    "113316": {
+        "info": "Zagraj jednostkę ze swojego cmentarza.\n",
+        "infoRaw": "Zagraj jednostkę ze swojego cmentarza.\n",
+        "name": "Uzdrowienie"
+    },
+    "113319": {
+        "info": "Zablokuj jednostkę i zadaj jej 3 pkt obrażeń.\n",
+        "infoRaw": "<keyword=lock>Zablokuj</keyword> jednostkę i zadaj jej 3 pkt obrażeń.\n",
+        "name": "Kajdany z dwimerytu"
+    },
+    "113320": {
+        "info": "Zadaj wybranej jednostce 3 pkt obrażeń, następnie wzmocnij ją o 9.\n",
+        "infoRaw": "Zadaj wybranej jednostce 3 pkt obrażeń, następnie wzmocnij ją o 9.\n",
+        "name": "Mardroeme"
+    },
+    "122101": {
+        "info": "Rozkaz: Podwój liczbę ładunków sojusznika.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Podwój liczbę <keyword=charge>ładunków</keyword> sojusznika.\n",
+        "name": "Krwawy Baron"
+    },
+    "122102": {
+        "info": "Szpieg.\nRozmieszczenie: Zagraj wierzchnie karty (2) ze swojej talii.\n",
+        "infoRaw": "<keyword=spying>Szpieg</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: Zagraj wierzchnie karty (2) ze swojej talii.\n",
+        "name": "Vernon Roche"
+    },
+    "122103": {
+        "info": "Bliskie starcie: Gdy ta jednostka jest na polu bitwy, wszyscy sojusznicy z rozkazem zyskują zapał.\n",
+        "infoRaw": "<keyword=melee>Bliskie starcie</keyword>: Gdy ta jednostka jest na polu bitwy, wszyscy sojusznicy z <keyword=order>rozkazem</keyword> zyskują <keyword=zeal>zapał</keyword>.\n",
+        "name": "Jan Natalis"
+    },
+    "122107": {
+        "info": "Rozmieszczenie: Wzmocnij losową jednostkę w swojej ręce o 4.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij losową jednostkę w swojej ręce o 4.\n",
+        "name": "Triss: Motyle"
+    },
+    "122108": {
+        "info": "Rozmieszczenie, daleki zasięg: Zagraj Zaklęcie ze swojej talii.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Zagraj Zaklęcie ze swojej talii.\n",
+        "name": "Keira Metz"
+    },
+    "122201": {
+        "info": "Daleki zasięg: Za każdym razem, gdy sojusznik zyskuje ładunek, wzmocnij go o 1.\n",
+        "infoRaw": "<keyword=ranged>Daleki zasięg</keyword>: Za każdym razem, gdy sojusznik zyskuje <keyword=charge>ładunek</keyword>, wzmocnij go o 1.\n",
+        "name": "Jaskier"
+    },
+    "122202": {
+        "info": "Zapał.\nRozkaz: Daj jednostce ładunki (1).\nOdnowienie: 1.\n",
+        "infoRaw": "<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Daj jednostce <keyword=charge>ładunki</keyword> (1).\n<keyword=cooldown>Odnowienie</keyword>: 1.\n",
+        "name": "Priscilla"
+    },
+    "122203": {
+        "info": "Rozmieszczenie: Zabierz wszystkie ładunki wrogiej jednostce i daj je Talarowi.\nRozkaz: Daj sojuszniczej jednostce ładunki (1).\nŁadunki: 0.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zabierz wszystkie <keyword=charge>ładunki</keyword> wrogiej jednostce i daj je Talarowi.\n<keyword=order>Rozkaz</keyword>: Daj sojuszniczej jednostce <keyword=charge>ładunki</keyword> (1).\n<keyword=charge>Ładunki</keyword>: 0.\n",
+        "name": "Talar"
+    },
+    "122204": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 4 pkt obrażeń.\nRozkaz: Daj sojusznikowi Zapał.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 4 pkt obrażeń.\n<keyword=order>Rozkaz</keyword>: Daj sojusznikowi <keyword=zeal>Zapał</keyword>.\n",
+        "name": "Ves"
+    },
+    "122205": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 2 pkt obrażeń.\nRozkaz: Zadaj wrogowi 2 pkt obrażeń\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 2 pkt obrażeń.\n<keyword=order>Rozkaz</keyword>: Zadaj wrogowi 2 pkt obrażeń\n",
+        "name": "Sheala"
+    },
+    "122206": {
+        "info": "Szpieg.\nZemsta: Zadaj wszystkim jednostkom w tym rzędzie 3 pkt obrażeń.\n",
+        "infoRaw": "<keyword=spying>Szpieg</keyword>.\n<keyword=deathwish>Zemsta</keyword>: Zadaj wszystkim jednostkom w tym rzędzie 3 pkt obrażeń.\n",
+        "name": "Sabrina Glevissig"
+    },
+    "122207": {
+        "info": "Rozkaz, daleki zasięg: Zadaj wrogowi obrażenia równe wzmocnieniu Detmolda.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>, <keyword=ranged>daleki zasięg</keyword>: Zadaj wrogowi obrażenia równe wzmocnieniu Detmolda.\n",
+        "name": "Detmold"
+    },
+    "122208": {
+        "info": "Rozmieszczenie: Wzmocnij sojusznika o 2 i daj mu ładunki (2).\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij sojusznika o 2 i daj mu <keyword=charge>ładunki</keyword> (2).\n",
+        "name": "Książę Stennis"
+    },
+    "122210": {
+        "info": "Rozmieszczenie: Wtasuj brązową jednostkę i wszystkie jej kopie ze swojego cmentarza do swojej talii.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wtasuj brązową jednostkę i wszystkie jej kopie ze swojego cmentarza do swojej talii.\n",
+        "name": "Królewna Pavetta"
+    },
+    "122211": {
+        "info": "Zapał.\nRozkaz: Zużyj ładunki (3), by zablokować jednostkę wroga.\nŁadunki: 3.\n",
+        "infoRaw": "<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Zużyj <keyword=charge>ładunki</keyword> (3), by <keyword=lock>zablokować</keyword> jednostkę wroga.\n<keyword=charge>Ładunki</keyword>: 3.\n",
+        "name": "Margarita Laux-Antille"
+    },
+    "122212": {
+        "info": "Rozkaz, daleki zasięg: Wzmocnij jednostkę o 1.\nŁadunki: 3.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>, <keyword=ranged>daleki zasięg</keyword>: Wzmocnij jednostkę o 1.\n<keyword=charge>Ładunki</keyword>: 3.\n",
+        "name": "Nenneke"
+    },
+    "122213": {
+        "info": "Rozmieszczenie: Daj ładunki (1) wszystkim jednostkom sojuszniczym.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Daj <keyword=charge>ładunki</keyword> (1) wszystkim jednostkom sojuszniczym.\n",
+        "name": "Odrin"
+    },
+    "122214": {
+        "info": "Zapał.\nRozkaz: Wzmocnij sojusznika o 1.\nŁadunki: 2.\n",
+        "infoRaw": "<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Wzmocnij sojusznika o 1.\n<keyword=charge>Ładunki</keyword>: 2.\n",
+        "name": "Kaedweński setnik"
+    },
+    "122216": {
+        "info": "Rozmieszczenie: Zadaj jednostce 1 pkt obrażeń za każdą kartę w swojej ręce.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj jednostce 1 pkt obrażeń za każdą kartę w swojej ręce.\n",
+        "name": "Tasak"
+    },
+    "122301": {
+        "info": "Rozkaz: Zadaj jednostce 1 pkt obrażeń.\nŁadunki: 1.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zadaj jednostce 1 pkt obrażeń.\n<keyword=charge>Ładunki</keyword>: 1.\n",
+        "name": "Balista"
+    },
+    "122302": {
+        "info": "Rozkaz: Zadaj jednostce 2 pkt obrażeń.\nŁadunki: 1.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zadaj jednostce 2 pkt obrażeń.\n<keyword=charge>Ładunki</keyword>: 1.\n",
+        "name": "Wzmocniona Balista"
+    },
+    "122303": {
+        "info": "Rozkaz, daleki zasięg: Zadaj jednostce 1 pkt obrażeń. Jeśli zostanie zniszczona, zadaj sąsiadującym z nią jednostkom 1 pkt obrażeń.\nŁadunki: 1.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>, <keyword=ranged>daleki zasięg</keyword>: Zadaj jednostce 1 pkt obrażeń. Jeśli zostanie zniszczona, zadaj sąsiadującym z nią jednostkom 1 pkt obrażeń.\n<keyword=charge>Ładunki</keyword>: 1.\n",
+        "name": "Trebusz"
+    },
+    "122304": {
+        "info": "Rozkaz, bliskie starcie: Wzmocnij sąsiadujących sojuszników o 1.\nŁadunki: 1.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>, <keyword=melee>bliskie starcie</keyword>: Wzmocnij sąsiadujących sojuszników o 1.\n<keyword=charge>Ładunki</keyword>: 1.\n",
+        "name": "Wieża Oblężnicza"
+    },
+    "122309": {
+        "info": "Rozmieszczenie: Daj ładunki (2) sojuszniczej Maszynie.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Daj <keyword=charge>ładunki</keyword> (2) sojuszniczej Maszynie.\n",
+        "name": "Inżynier Oblężniczy"
+    },
+    "122310": {
+        "info": "Rozmieszczenie, bliskie starcie: Stwórz egzemplarz brązowego sojusznika na spód swojej talii.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: <keyword=spawn>Stwórz</keyword> egzemplarz brązowego sojusznika na spód swojej talii.\n",
+        "name": "Niebieskie Pasy: Zwiad"
+    },
+    "122311": {
+        "info": "Rozkaz: Wezwij egzemplarz tej jednostki ze swojej talii do tego rzędu.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: <keyword=summon>Wezwij</keyword> egzemplarz tej jednostki ze swojej talii do tego rzędu.\n",
+        "name": "Niebieskie Pasy"
+    },
+    "122312": {
+        "info": "Rozmieszczenie: Wzmocnij sąsiadujące jednostki o 2.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij sąsiadujące jednostki o 2.\n",
+        "name": "Medyk Polowy"
+    },
+    "122313": {
+        "info": "Rozmieszczenie: Daj tej jednostce Zapał, jeśli zostanie zagrana po sąsiedzku z 2 żołnierzami.\nRozkaz: Zadaj wrogowi 3 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Daj tej jednostce <keyword=zeal>Zapał</keyword>, jeśli zostanie zagrana po sąsiedzku z 2 żołnierzami.\n<keyword=order>Rozkaz</keyword>: Zadaj wrogowi 3 pkt obrażeń.\n",
+        "name": "Jazda Burej Chorągwi"
+    },
+    "122314": {
+        "info": "Rozmieszczenie, bliskie starcie: Odbierz wrogowi wszystkie ładunki, następnie zadaj mu obrażenia równe liczbie odebranych ładunków.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Odbierz wrogowi wszystkie <keyword=charge>ładunki</keyword>, następnie zadaj mu obrażenia równe liczbie odebranych ładunków.\n",
+        "name": "Zagon Burej Chorągwi"
+    },
+    "122315": {
+        "info": "Daleki zasięg: Na koniec każdej tury zadaj losowemu wrogowi w rzędzie dalekiego zasięgu 1 pkt obrażeń.\n",
+        "infoRaw": "<keyword=ranged>Daleki zasięg</keyword>: Na koniec każdej tury zadaj losowemu wrogowi w rzędzie dalekiego zasięgu 1 pkt obrażeń.\n",
+        "name": "Wzmocniony Trebusz"
+    },
+    "122316": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 1 pkt obrażeń za każdą wzmocnioną jednostkę w tym rzędzie.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 1 pkt obrażeń za każdą wzmocnioną jednostkę w tym rzędzie.\n",
+        "name": "Temerski Piechur"
+    },
+    "122318": {
+        "info": "Za każdym razem, gdy w rzędzie tej jednostki umieszczana jest Maszyna, daj jej zapał.\n",
+        "infoRaw": "Za każdym razem, gdy w rzędzie tej jednostki umieszczana jest Maszyna, daj jej <keyword=zeal>zapał</keyword>.\n",
+        "name": "Mistrz oblężeń"
+    },
+    "122401": {
+        "info": "Na koniec każdej tury zadaj najsilniejszemu wrogowi 1 pkt obrażeń.\nRozkaz: Przemień w Kłobuka.\n",
+        "infoRaw": "Na koniec każdej tury zadaj najsilniejszemu wrogowi 1 pkt obrażeń.\n<keyword=order>Rozkaz</keyword>: Przemień w Kłobuka.\n",
+        "name": "Poroniec"
+    },
+    "122402": {
+        "info": "Na koniec każdej tury wzmocnij najsłabszego sojusznika o 1.\nRozkaz: Przemień w Porońca.\n",
+        "infoRaw": "Na koniec każdej tury wzmocnij najsłabszego sojusznika o 1.\n<keyword=order>Rozkaz</keyword>: Przemień w Porońca.\n",
+        "name": "Kłobuk"
+    },
+    "122403": {
+        "info": "Rozmieszczenie, daleki zasięg: Dobierz kartę, następnie przenieś kartę z ręki na szczyt swojej talii.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Dobierz kartę, następnie przenieś kartę z ręki na szczyt swojej talii.\n",
+        "name": "Nowicjusz z Vicovaro"
+    },
+    "123201": {
+        "info": "Stwórz egzemplarz brązowej jednostki sojuszniczej i wezwij go do tego rzędu.\n",
+        "infoRaw": "<keyword=spawn>Stwórz</keyword> egzemplarz brązowej jednostki sojuszniczej i <keyword=summon>wezwij</keyword> go do tego rzędu.\n",
+        "name": "Posiłki"
+    },
+    "131101": {
+        "info": "Rozkaz: Ulepsz jednostkę o 4 i daj jej odporność.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Ulepsz jednostkę o 4 i daj jej <keyword=immune>odporność</keyword>.\n",
+        "name": "Eredin Bréacc Glas"
+    },
+    "131102": {
+        "info": "Daleki zasięg: Za każdym razem, gdy zagrywasz jednostkę z zemstą, aktywuj jej umiejętność zemsty.\n",
+        "infoRaw": "<keyword=ranged>Daleki zasięg</keyword>: Za każdym razem, gdy zagrywasz jednostkę z <keyword=deathwish>zemstą</keyword>, aktywuj jej umiejętność <keyword=deathwish>zemsty</keyword>.\n",
+        "name": "Ge'els"
+    },
+    "132101": {
+        "info": "Rozmieszczenie: Przekształć wszystkich ludzkich sojuszników w Kaedweńskie Upiory, nie zmieniając ich siły.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Przekształć wszystkich ludzkich sojuszników w Kaedweńskie Upiory, nie zmieniając ich siły.\n",
+        "name": "Draug"
+    },
+    "132102": {
+        "info": "Zadaj wrogowi obrażenia równe sile swojego najsilniejszego sojusznika.\n",
+        "infoRaw": "Zadaj wrogowi obrażenia równe sile swojego najsilniejszego sojusznika.\n",
+        "name": "Krwawa miazga"
+    },
+    "132103": {
+        "info": "Rozkaz: Wzmocnij jednostkę w swojej ręce o 8.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Wzmocnij jednostkę w swojej ręce o 8.\n",
+        "name": "Duch Lasu"
+    },
+    "132104": {
+        "info": "Rozmieszczenie: Stwórz egzemplarz jednostki ze swojej ręki o sile 1 i wezwij go do tego rzędu.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: <keyword=spawn>Stwórz</keyword> egzemplarz jednostki ze swojej ręki o sile 1 i <keyword=summon>wezwij</keyword> go do tego rzędu.\n",
+        "name": "Caranthir Ar-Feiniel"
+    },
+    "132105": {
+        "info": "Rozkaz: Daj sojuszniczej jednostce odporność.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Daj sojuszniczej jednostce <keyword=immune>odporność</keyword>.\n",
+        "name": "Avallac'h"
+    },
+    "132106": {
+        "info": "Rozmieszczenie, daleki zasięg: Zagraj Artefakt ze swojego cmentarza.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Zagraj Artefakt ze swojego cmentarza.\n",
+        "name": "Klucznik"
+    },
+    "132107": {
+        "info": "Zapał.\nRozkaz: Pochłoń sojusznika.\nŁadunki: 3.\n",
+        "infoRaw": "<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: <keyword=consume>Pochłoń</keyword> sojusznika.\n<keyword=charge>Ładunki</keyword>: 3.\n",
+        "name": "Kejran"
+    },
+    "132108": {
+        "info": "Zemsta: Przechwyć wroga o sile 3 lub mniejszej.\n",
+        "infoRaw": "<keyword=deathwish>Zemsta</keyword>: <keyword=seize>Przechwyć</keyword> wroga o sile 3 lub mniejszej.\n",
+        "name": "Miruna"
+    },
+    "132201": {
+        "info": "Stwórz Krabopająki (2) i wezwij je do tego rzędu, następnie wzmocnij wszystkie inne Insektoidy w tym rzędzie o 1.\n",
+        "infoRaw": "<keyword=spawn>Stwórz</keyword> Krabopająki (2) i <keyword=summon>wezwij</keyword> je do tego rzędu, następnie wzmocnij wszystkie inne Insektoidy w tym rzędzie o 1.\n",
+        "name": "Olbrzymi krabopająk"
+    },
+    "132202": {
+        "info": "Rozkaz: Wygnaj wszystkie jednostki ze swojego cmentarza, następnie wzmocnij tę jednostkę o 1 za każdą wygnaną.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: <keyword=banish>Wygnaj</keyword> wszystkie jednostki ze swojego cmentarza, następnie wzmocnij tę jednostkę o 1 za każdą wygnaną.\n",
+        "name": "Żalnica"
+    },
+    "132203": {
+        "info": "Pokrzepienie.\nRozmieszczenie: Aktywuj umiejętność zemsty brązowego sojusznika.\n",
+        "infoRaw": "<keyword=thrive>Pokrzepienie</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: Aktywuj umiejętność <keyword=deathwish>zemsty</keyword> brązowego sojusznika.\n",
+        "name": "Wodnica"
+    },
+    "132204": {
+        "info": "Obudź Przerazę, gdy zniszczeniu ulegnie 3 sojuszników.\n",
+        "infoRaw": "Obudź Przerazę, gdy zniszczeniu ulegnie 3 sojuszników.\n",
+        "name": "Przeraza: Uśpiona"
+    },
+    "132205": {
+        "info": "Rozmieszczenie: Wzmocnij wszystkie sojusznicze Bestie o 1.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij wszystkie sojusznicze Bestie o 1.\n",
+        "name": "Morvudd"
+    },
+    "132206": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 2 pkt obrażeń.\nZwiększ te obrażenia o 2 za każdym razem, gdy zagrasz Kuchtę albo Prządkę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 2 pkt obrażeń.\nZwiększ te obrażenia o 2 za każdym razem, gdy zagrasz Kuchtę albo Prządkę.\n",
+        "name": "Szepciucha"
+    },
+    "132207": {
+        "info": "Rozmieszczenie: Pochłoń jednostki sojusznicze (1).\nZwiększ liczbę celów o 1 za każdym razem, gdy zagrasz Szepciuchę albo Prządkę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: <keyword=consume>Pochłoń</keyword> jednostki sojusznicze (1).\nZwiększ liczbę celów o 1 za każdym razem, gdy zagrasz Szepciuchę albo Prządkę.\n",
+        "name": "Kuchta"
+    },
+    "132208": {
+        "info": "Rozmieszczenie: Wzmocnij sojusznika o 2.\nZwiększ to wzmocnienie o 2 za każdym razem, gdy zagrasz Szepciuchę lub Kuchtę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij sojusznika o 2.\nZwiększ to wzmocnienie o 2 za każdym razem, gdy zagrasz Szepciuchę lub Kuchtę.\n",
+        "name": "Prządka"
+    },
+    "132209": {
+        "info": "Zemsta: Zniszcz najsłabszego wroga.\n",
+        "infoRaw": "<keyword=deathwish>Zemsta</keyword>: Zniszcz najsłabszego wroga.\n",
+        "name": "Mantikora Cesarska"
+    },
+    "132210": {
+        "info": "Zapał.\nRozkaz: Zadaj wszystkim jednostkom w przeciwnym rzędzie 1 pkt obrażeń.\nOdnowienie: 3.\n",
+        "infoRaw": "<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Zadaj wszystkim jednostkom w przeciwnym rzędzie 1 pkt obrażeń.\n<keyword=cooldown>Odnowienie</keyword>: 3.\n",
+        "name": "Ifrit Kolos"
+    },
+    "132211": {
+        "info": "Pokrzepienie.\n",
+        "infoRaw": "<keyword=thrive>Pokrzepienie</keyword>.\n",
+        "name": "Nekker Wojownik"
+    },
+    "132212": {
+        "info": "Brak umiejętności.\n",
+        "infoRaw": "Brak umiejętności.\n",
+        "name": "Lodowy Gigant"
+    },
+    "132213": {
+        "info": "Brak umiejętności.\n",
+        "infoRaw": "Brak umiejętności.\n",
+        "name": "Przedwieczny D'ao"
+    },
+    "132214": {
+        "info": "Rozmieszczenie: Zniszcz wrogi Artefakt. Jeśli kontrolujesz najsilniejszą jednostkę, zadaj sąsiadującym z tym Artefaktem jednostkom 2 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zniszcz wrogi Artefakt. Jeśli kontrolujesz najsilniejszą jednostkę, zadaj sąsiadującym z tym Artefaktem jednostkom 2 pkt obrażeń.\n",
+        "name": "Nithral"
+    },
+    "132215": {
+        "info": "Rozmieszczenie: Daj wrogiej jednostce fatum.\nRozkaz: Zniszcz wroga z fatum.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Daj wrogiej jednostce <keyword=doomed>fatum</keyword>.\n<keyword=order>Rozkaz</keyword>: Zniszcz wroga z <keyword=doomed>fatum</keyword>.\n",
+        "name": "Gaunter O'Dimm"
+    },
+    "132216": {
+        "info": "Rozmieszczenie, bliskie starcie: Pochłoń jednostkę o sile 3 lub mniejszej.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: <keyword=consume>Pochłoń</keyword> jednostkę o sile 3 lub mniejszej.\n",
+        "name": "Królewicz Ropuch"
+    },
+    "132217": {
+        "info": "Rozmieszczenie: Pochłoń sojuszniczą jednostkę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: <keyword=consume>Pochłoń</keyword> sojuszniczą jednostkę.\n",
+        "name": "Harpia Celaeno"
+    },
+    "132218": {
+        "info": "Brak umiejętności.\n",
+        "infoRaw": "Brak umiejętności.\n",
+        "name": "Stary Grot: Sen"
+    },
+    "132301": {
+        "info": "Zemsta: Wezwij egzemplarz tej jednostki ze swojej talii do losowego rzędu sojuszniczego.\n",
+        "infoRaw": "<keyword=deathwish>Zemsta</keyword>: <keyword=summon>Wezwij</keyword> egzemplarz tej jednostki ze swojej talii do losowego rzędu sojuszniczego.\n",
+        "name": "Mglak"
+    },
+    "132302": {
+        "info": "Zemsta: Wezwij tę jednostkę z cmentarza do tego samego rzędu, wzmocnij ją o 4 i daj jej fatum.\n",
+        "infoRaw": "<keyword=deathwish>Zemsta</keyword>: <keyword=summon>Wezwij</keyword> tę jednostkę z cmentarza do tego samego rzędu, wzmocnij ją o 4 i daj jej <keyword=doomed>fatum</keyword>.\n",
+        "name": "Starożytny Mglak"
+    },
+    "132303": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 2 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 2 pkt obrażeń.\n",
+        "name": "Wiwerna"
+    },
+    "132304": {
+        "info": "Fatum.\n",
+        "infoRaw": "<keyword=doomed>Fatum</keyword>.\n",
+        "name": "Krabopająk truteń"
+    },
+    "132305": {
+        "info": "Pokrzepienie.\nRozmieszczenie: Stwórz egzemplarz bazowy tej jednostki i wezwij go do tego rzędu.\n",
+        "infoRaw": "<keyword=thrive>Pokrzepienie</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: <keyword=spawn>Stwórz</keyword> egzemplarz bazowy tej jednostki i <keyword=summon>wezwij</keyword> go do tego rzędu.\n",
+        "name": "Nekker"
+    },
+    "132306": {
+        "info": "Rozmieszczenie, bliskie starcie: Pochłoń jednostkę ze swojego cmentarza.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: <keyword=consume>Pochłoń</keyword> jednostkę ze swojego cmentarza.\n",
+        "name": "Ghul"
+    },
+    "132307": {
+        "info": "Rozmieszczenie: Zniszcz sojuszniczą jednostkę w tym rzędzie. Jeśli nie ma takich jednostek, zniszcz tę kartę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zniszcz sojuszniczą jednostkę w tym rzędzie. Jeśli nie ma takich jednostek, zniszcz tę kartę.\n",
+        "name": "Gryf"
+    },
+    "132308": {
+        "info": "Za każdym razem, gdy inna jednostka ulegnie zniszczeniu podczas twojej tury, zadaj 1 pkt obrażeń losowemu wrogowi.\n",
+        "infoRaw": "Za każdym razem, gdy inna jednostka ulegnie zniszczeniu podczas twojej tury, zadaj 1 pkt obrażeń losowemu wrogowi.\n",
+        "name": "Vran Wojownik"
+    },
+    "132309": {
+        "info": "Rozmieszczenie: Zadaj jednostce 1 pkt obrażeń za każdą jednostkę Dzikiego Gonu w tym rzędzie.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj jednostce 1 pkt obrażeń za każdą jednostkę Dzikiego Gonu w tym rzędzie.\n",
+        "name": "Wojownik Gonu"
+    },
+    "132310": {
+        "info": "Rozmieszczenie: Jeśli kontrolujesz najsilniejszą jednostkę, wezwij egzemplarz Jeźdźca Gonu ze swojej talii do tego rzędu.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Jeśli kontrolujesz najsilniejszą jednostkę, <keyword=summon>wezwij</keyword> egzemplarz Jeźdźca Gonu ze swojej talii do tego rzędu.\n",
+        "name": "Jeździec Gonu"
+    },
+    "132312": {
+        "info": "Każdy gracz niszczy swoją najsłabszą jednostkę.\n",
+        "infoRaw": "Każdy gracz niszczy swoją najsłabszą jednostkę.\n",
+        "name": "Atak z powietrza"
+    },
+    "132314": {
+        "info": "Pokrzepienie.\nRozmieszczenie: Zadaj wrogowi 2 pkt obrażeń i przenieś go do drugiego rzędu.\n",
+        "infoRaw": "<keyword=thrive>Pokrzepienie</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 2 pkt obrażeń i przenieś go do drugiego rzędu.\n",
+        "name": "Utopiec"
+    },
+    "132315": {
+        "info": "Fatum.\n",
+        "infoRaw": "<keyword=doomed>Fatum</keyword>.\n",
+        "name": "Harpia"
+    },
+    "132316": {
+        "info": "Zemsta: Stwórz Harpię i wezwij ją do losowego rzędu sojuszniczego.\n",
+        "infoRaw": "<keyword=deathwish>Zemsta</keyword>: <keyword=spawn>Stwórz</keyword> Harpię i <keyword=summon>wezwij</keyword> ją do losowego rzędu sojuszniczego.\n",
+        "name": "Jajo harpii"
+    },
+    "132402": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 1 pkt obrażeń. Jeśli kontrolujesz najsilniejszą jednostkę, zamiast tego zadaj 3 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 1 pkt obrażeń. Jeśli kontrolujesz najsilniejszą jednostkę, zamiast tego zadaj 3 pkt obrażeń.\n",
+        "name": "Ogar Dzikiego Gonu"
+    },
+    "132403": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 2 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 2 pkt obrażeń.\n",
+        "name": "Wataha"
+    },
+    "132404": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 4 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 4 pkt obrażeń.\n",
+        "name": "Wściekły Ifrit"
+    },
+    "132405": {
+        "info": "Rozmieszczenie: Zniszcz wrogi Artefakt.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zniszcz wrogi Artefakt.\n",
+        "name": "Opętany d'ao"
+    },
+    "132406": {
+        "info": "Rozmieszczenie: Aktywuj umiejętność zemsty brązowego sojusznika.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Aktywuj umiejętność <keyword=deathwish>zemsty</keyword> brązowego sojusznika.\n",
+        "name": "Bezkost"
+    },
+    "132407": {
+        "info": "Rozmieszczenie: Ujawnij jednostkę ze szczytu talii przeciwnika i zadaj tej karcie obrażenia równe sile ujawnionej, następnie wtasuj ją z powrotem.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: <keyword=reveal>Ujawnij</keyword> jednostkę ze szczytu talii przeciwnika i zadaj tej karcie obrażenia równe sile ujawnionej, następnie wtasuj ją z powrotem.\n",
+        "name": "Cesarski Golem"
+    },
+    "132408": {
+        "info": "Brak umiejętności.\n",
+        "infoRaw": "Brak umiejętności.\n",
+        "name": "Stary Grot"
+    },
+    "132409": {
+        "info": "Zadaj wrogowi 3 pkt obrażeń i wzmocnij sojusznika o 3.\n",
+        "infoRaw": "Zadaj wrogowi 3 pkt obrażeń i wzmocnij sojusznika o 3.\n",
+        "name": "Odrażająca Uczta"
+    },
+    "133301": {
+        "info": "Zapał.\nRozkaz: Wzmocnij jednostkę o 1.\nOdnowienie: 1.\n",
+        "infoRaw": "<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Wzmocnij jednostkę o 1.\n<keyword=cooldown>Odnowienie</keyword>: 1.\n",
+        "name": "Tarcza z łusek"
+    },
+    "133302": {
+        "info": "Stwórz Krabopająki (4) o sile 1 i wezwij je do sojuszniczego rzędu.\n",
+        "infoRaw": "<keyword=spawn>Stwórz</keyword> Krabopająki (4) o sile 1 i <keyword=summon>wezwij</keyword> je do sojuszniczego rzędu.\n",
+        "name": "Gniazdo krabopająków"
+    },
+    "142101": {
+        "info": "Odporność.\nRozkaz: Odbierz tej jednostce odporność na okres do końca tej tury.\n",
+        "infoRaw": "<keyword=immune>Odporność</keyword>.\n<keyword=order>Rozkaz</keyword>: Odbierz tej jednostce <keyword=immune>odporność</keyword> na okres do końca tej tury.\n",
+        "name": "Saesenthessis"
+    },
+    "142102": {
+        "info": "Rozmieszczenie: Wzmocnij wszystkie inne sojusznicze Elfy o 1.\nZa każdym razem, gdy zagrywasz Elfa, wzmocnij tę jednostkę o 1.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij wszystkie inne sojusznicze Elfy o 1.\nZa każdym razem, gdy zagrywasz Elfa, wzmocnij tę jednostkę o 1.\n",
+        "name": "Isengrim Faoiltiarna"
+    },
+    "142103": {
+        "info": "Rozmieszczenie: Cofnij sojuszniczą Pułapkę do ręki, następnie zagraj Pułapkę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Cofnij sojuszniczą Pułapkę do ręki, następnie zagraj Pułapkę.\n",
+        "name": "Iorweth"
+    },
+    "142104": {
+        "info": "Odporność.\nWzmocnij tę kartę o 1 za każdym razem, gdy zagrywasz jednostkę Scoia'tael.\n",
+        "infoRaw": "<keyword=immune>Odporność</keyword>.\nWzmocnij tę kartę o 1 za każdym razem, gdy zagrywasz jednostkę Scoia'tael.\n",
+        "name": "Milva"
+    },
+    "142105": {
+        "info": "Rozmieszczenie, bliskie starcie: Zniszcz jednostkę o sile równej liczbie sojuszniczych Krasnoludów lub mniejszej.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Zniszcz jednostkę o sile równej liczbie sojuszniczych Krasnoludów lub mniejszej.\n",
+        "name": "Zoltan Chivay"
+    },
+    "142106": {
+        "info": "Rozmieszczenie: Na koniec tury podwój wszystkie wzmocnienia wpływające na tę jednostkę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Na koniec tury podwój wszystkie wzmocnienia wpływające na tę jednostkę.\n",
+        "name": "Aglaïs"
+    },
+    "142107": {
+        "info": "Rozmieszczenie: Wzmocnij jednostkę Scoia'tael w swojej ręce o 4.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij jednostkę Scoia'tael w swojej ręce o 4.\n",
+        "name": "Ithlinne Aegli"
+    },
+    "142108": {
+        "info": "Zapał.\nRozkaz: Zniszcz wszystkie inne jednostki o takiej samej sile jak Schirrú.\n",
+        "infoRaw": "<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Zniszcz wszystkie inne jednostki o takiej samej sile jak Schirrú.\n",
+        "name": "Schirrú"
+    },
+    "142201": {
+        "info": "Rozmieszczenie, bliskie starcie: Wzmocnij sąsiadujące jednostki o 2.\nRozmieszczenie, daleki zasięg: Wzmocnij wszystkie inne jednostki w tym rzędzie o 1.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Wzmocnij sąsiadujące jednostki o 2.\n<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Wzmocnij wszystkie inne jednostki w tym rzędzie o 1.\n",
+        "name": "Dennis Cranmer"
+    },
+    "142202": {
+        "info": "Rozmieszczenie, bliskie starcie: Zniszcz Artefakt.\nRozmieszczenie, daleki zasięg: Wzmocnij jednostkę o 3.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Zniszcz Artefakt.\n<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Wzmocnij jednostkę o 3.\n",
+        "name": "Ida Emean aep Sivney"
+    },
+    "142203": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 1 pkt obrażeń za każdego sojuszniczego Elfa.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 1 pkt obrażeń za każdego sojuszniczego Elfa.\n",
+        "name": "Yaevinn"
+    },
+    "142204": {
+        "info": "Rozmieszczenie, bliskie starcie: Zadaj 2 pkt obrażeń wrogom przy krawędziach rzędu.\nRozmieszczenie, daleki zasięg: Zadaj 1 pkt obrażeń wszystkim wrogom w rzędzie.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Zadaj 2 pkt obrażeń wrogom przy krawędziach rzędu.\n<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Zadaj 1 pkt obrażeń wszystkim wrogom w rzędzie.\n",
+        "name": "Toruviel"
+    },
+    "142205": {
+        "info": "Rozmieszczenie, bliskie starcie: Przenieś wrogą jednostkę do drugiego rzędu przeciwnika.\nRozmieszczenie, daleki zasięg: Przenieś sojuszniczą jednostkę do swojego drugiego rzędu.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Przenieś wrogą jednostkę do drugiego rzędu przeciwnika.\n<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Przenieś sojuszniczą jednostkę do swojego drugiego rzędu.\n",
+        "name": "Dragoni Vrihedd"
+    },
+    "142206": {
+        "info": "Rozmieszczenie: Zablokuj jednostkę i przenieś ją do drugiego rzędu.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: <keyword=lock>Zablokuj</keyword> jednostkę i przenieś ją do drugiego rzędu.\n",
+        "name": "Ciaran"
+    },
+    "142207": {
+        "info": "Rozmieszczenie: Wzmocnij sojusznika o 1 za każdego sojuszniczego Krasnoluda.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij sojusznika o 1 za każdego sojuszniczego Krasnoluda.\n",
+        "name": "Barclay Els"
+    },
+    "142208": {
+        "info": "Rozmieszczenie, bliskie starcie: Zadaj wrogowi 2 pkt obrażeń.\nRozmieszczenie, daleki zasięg: Zablokuj jednostkę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Zadaj wrogowi 2 pkt obrażeń.\n<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: <keyword=lock>Zablokuj</keyword> jednostkę.\n",
+        "name": "Morenn"
+    },
+    "142209": {
+        "info": "Rozmieszczenie: Jeśli kontrolujesz Driady w liczbie co najmniej 2 zyskaj zapał.\nRozkaz: Zadaj wrogowi 1 pkt obrażeń.\nŁadunki: 3.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Jeśli kontrolujesz Driady w liczbie co najmniej 2 zyskaj <keyword=zeal>zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Zadaj wrogowi 1 pkt obrażeń.\n<keyword=charge>Ładunki</keyword>: 3.\n",
+        "name": "Braenn"
+    },
+    "142210": {
+        "info": "Rozkaz: Przenieś jednostkę do drugiego rzędu po jej stronie.\nOdnowienie: 2.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Przenieś jednostkę do drugiego rzędu po jej stronie.\n<keyword=cooldown>Odnowienie</keyword>: 2.\n",
+        "name": "Malena"
+    },
+    "142211": {
+        "info": "Jeśli na koniec tury kontrolujesz Elfich sojuszników w liczbie 5 lub większej, wezwij tę jednostkę ze swojej talii do rzędu bliskiego starcia.\n",
+        "infoRaw": "Jeśli na koniec tury kontrolujesz Elfich sojuszników w liczbie 5 lub większej, <keyword=summon>wezwij</keyword> tę jednostkę ze swojej talii do rzędu bliskiego starcia.\n",
+        "name": "Aelirenn"
+    },
+    "142212": {
+        "info": "Rozmieszczenie: Zadaj wrogowi obrażenia równe sile tej jednostki.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi obrażenia równe sile tej jednostki.\n",
+        "name": "Sheldon Skaggs"
+    },
+    "142213": {
+        "info": "Na koniec każdej tury wzmocnij tę jednostkę o 3, jeśli na polu bitwy nie ma sojuszniczych jednostek.\n",
+        "infoRaw": "Na koniec każdej tury wzmocnij tę jednostkę o 3, jeśli na polu bitwy nie ma sojuszniczych jednostek.\n",
+        "name": "Yarpen Zigrin"
+    },
+    "142214": {
+        "info": "Rozmieszczenie: Zadaj wszystkim rannym jednostkom 1 pkt obrażeń i wzmocnij wszystkie wzmocnione jednostki o 1.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wszystkim rannym jednostkom 1 pkt obrażeń i wzmocnij wszystkie wzmocnione jednostki o 1.\n",
+        "name": "Ele'yas"
+    },
+    "142301": {
+        "info": "Rozmieszczenie, bliskie starcie: Wzmocnij sojuszniczą jednostkę o 2.\nRozmieszczenie, daleki zasięg: Uzdrów sojuszniczą jednostkę z 4 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Wzmocnij sojuszniczą jednostkę o 2.\n<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: <keyword=heal>Uzdrów</keyword> sojuszniczą jednostkę z 4 pkt obrażeń.\n",
+        "name": "Havekarski medyk"
+    },
+    "142302": {
+        "info": "Rozmieszczenie: Zadaj losowemu wrogowi 2 pkt obrażeń.\nZa każdym razem, kiedy Brygada Vrihedd zostanie przeniesiona do drugiego rzędu, powtórz jej umiejętność rozmieszczenia.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj losowemu wrogowi 2 pkt obrażeń.\nZa każdym razem, kiedy Brygada Vrihedd zostanie przeniesiona do drugiego rzędu, powtórz jej umiejętność <keyword=deploy>rozmieszczenia</keyword>.\n",
+        "name": "Brygada Vrihedd"
+    },
+    "142303": {
+        "info": "Rozmieszczenie, bliskie starcie: Zadaj wrogowi 3 pkt obrażeń.\nRozmieszczenie, daleki zasięg: Wzmocnij sojusznika o 3.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Zadaj wrogowi 3 pkt obrażeń.\n<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Wzmocnij sojusznika o 3.\n",
+        "name": "Oficer Vrihedd"
+    },
+    "142304": {
+        "info": "Rozmieszczenie: Zadaj losowemu wrogowi w każdym rzędzie 2 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj losowemu wrogowi w każdym rzędzie 2 pkt obrażeń.\n",
+        "name": "Elfi Traper"
+    },
+    "142305": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 3 pkt obrażeń. Jeśli przeżył, wzmocnij tę jednostkę o 1.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 3 pkt obrażeń. Jeśli przeżył, wzmocnij tę jednostkę o 1.\n",
+        "name": "Krasnolud Harcownik"
+    },
+    "142306": {
+        "info": "Na koniec każdej tury wzmocnij tę jednostkę o 1, jeśli jest wzmocniona.\n",
+        "infoRaw": "Na koniec każdej tury wzmocnij tę jednostkę o 1, jeśli jest wzmocniona.\n",
+        "name": "Obrońcy Mahakamu"
+    },
+    "142307": {
+        "info": "Rozmieszczenie: Jeśli masz w ręce Elfa, zniszcz wrogi Artefakt.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Jeśli masz w ręce Elfa, zniszcz wrogi Artefakt.\n",
+        "name": "Saperzy Vrihedd"
+    },
+    "142308": {
+        "info": "Jeśli na polu bitwy znajduje się sojuszniczy Elf, zniszcz losową jednostkę wroga.\n",
+        "infoRaw": "Jeśli na polu bitwy znajduje się sojuszniczy Elf, zniszcz losową jednostkę wroga.\n",
+        "name": "Zaczepka"
+    },
+    "142309": {
+        "info": "Rozmieszczenie: Wzmocnij tę jednostkę o 1 za każdego Elfa w twojej ręce.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij tę jednostkę o 1 za każdego Elfa w twojej ręce.\n",
+        "name": "Awangarda Vrihedd"
+    },
+    "142310": {
+        "info": "Rozmieszczenie, bliskie starcie: Zadaj wrogowi 2 pkt obrażeń.\nRozmieszczenie, daleki zasięg: Zadaj 2 jednostkom 1 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Zadaj wrogowi 2 pkt obrażeń.\n<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Zadaj 2 jednostkom 1 pkt obrażeń.\n",
+        "name": "Elfi Łucznik"
+    },
+    "142311": {
+        "info": "Rozkaz: Zadaj wrogowi 1 pkt obrażeń.\nŁadunki: 1.\nDaj tej jednostce ładunki (1) za każdym razem, gdy zagrywasz Krasnoluda.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zadaj wrogowi 1 pkt obrażeń.\n<keyword=charge>Ładunki</keyword>: 1.\nDaj tej jednostce <keyword=charge>ładunki</keyword> (1) za każdym razem, gdy zagrywasz Krasnoluda.\n",
+        "name": "Krasnolud Najemnik"
+    },
+    "142312": {
+        "info": "Rozmieszczenie: Wzmocnij sojusznika o 1. Jeśli kontrolujesz Artefakt, zamiast tego wzmocnij sojusznika o 3.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij sojusznika o 1. Jeśli kontrolujesz Artefakt, zamiast tego wzmocnij sojusznika o 3.\n",
+        "name": "Havekarskie wsparcie"
+    },
+    "142313": {
+        "info": "Rozmieszczenie: Jeśli ta jednostka jest już wzmocniona, zadaj wrogowi 3 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Jeśli ta jednostka jest już wzmocniona, zadaj wrogowi 3 pkt obrażeń.\n",
+        "name": "Elfi Tancerz Ostrzy"
+    },
+    "142314": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 1 pkt obrażeń za każdy rząd oddzielający go od tej jednostki.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 1 pkt obrażeń za każdy rząd oddzielający go od tej jednostki.\n",
+        "name": "Strzelec Wyborowy"
+    },
+    "142315": {
+        "info": "Bliskie starcie: Na koniec każdej tury wzmocnij losową jednostkę w swojej ręce o 1.\n",
+        "infoRaw": "<keyword=melee>Bliskie starcie</keyword>: Na koniec każdej tury wzmocnij losową jednostkę w swojej ręce o 1.\n",
+        "name": "Havekar przemytnik"
+    },
+    "142316": {
+        "info": "Rozmieszczenie, bliskie starcie: Zadaj wrogowi 4 pkt obrażeń, jeśli w jego rzędzie nie ma innych jednostek.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Zadaj wrogowi 4 pkt obrażeń, jeśli w jego rzędzie nie ma innych jednostek.\n",
+        "name": "Komando z Gór Sinych"
+    },
+    "142317": {
+        "info": "Rozmieszczenie: Wzmocnij tę jednostkę o liczbę Krasnoludów w drugim rzędzie.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij tę jednostkę o liczbę Krasnoludów w drugim rzędzie.\n",
+        "name": "Straż Mahakamska"
+    },
+    "142401": {
+        "info": "Rozmieszczenie: Stwórz bazowy egzemplarz tej jednostki i wezwij go do drugiego sojuszniczego rzędu.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: <keyword=spawn>Stwórz</keyword> bazowy egzemplarz tej jednostki i <keyword=summon>wezwij</keyword> go do drugiego sojuszniczego rzędu.\n",
+        "name": "Neofita Scoia'tael"
+    },
+    "143201": {
+        "info": "Zasadzka: Zniszcz następną kartę specjalną zagraną przez przeciwnika zanim aktywuje jakiekolwiek umiejętności.\n",
+        "infoRaw": "<keyword=ambush>Zasadzka</keyword>: Zniszcz następną kartę specjalną zagraną przez przeciwnika zanim aktywuje jakiekolwiek umiejętności.\n",
+        "name": "Wężowa Pułapka"
+    },
+    "143301": {
+        "info": "Zasadzka: Zadaj następnej jednostce zagranej przez przeciwnika 5 pkt obrażeń.\nZapał.\nRozkaz: Odwróć jednostkę i zadaj jej 3 pkt obrażeń.\n",
+        "infoRaw": "<keyword=ambush>Zasadzka</keyword>: Zadaj następnej jednostce zagranej przez przeciwnika 5 pkt obrażeń.\n<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Odwróć jednostkę i zadaj jej 3 pkt obrażeń.\n",
+        "name": "Pułapka zapalająca"
+    },
+    "152101": {
+        "info": "Rozmieszczenie, bliskie starcie: Wygnaj jednostkę ze swojego cmentarza i zadaj wrogowi obrażenia równe jej sile.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: <keyword=banish>Wygnaj</keyword> jednostkę ze swojego cmentarza i zadaj wrogowi obrażenia równe jej sile.\n",
+        "name": "Hjalmar an Craite"
+    },
+    "152103": {
+        "info": "Rozmieszczenie, daleki zasięg: Zagraj kartę Alchemii ze swojej talii.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Zagraj kartę Alchemii ze swojej talii.\n",
+        "name": "Myszowór"
+    },
+    "152104": {
+        "info": "Rozmieszczenie: Odrzuć skrajną prawą kartę ze swojej ręki, następnie zmuś do tego samego przeciwnika.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: <keyword=discard>Odrzuć</keyword> skrajną prawą kartę ze swojej ręki, następnie zmuś do tego samego przeciwnika.\n",
+        "name": "Kambi"
+    },
+    "152105": {
+        "info": "Rozmieszczenie: Dobierz karty (2), a następnie odrzuć karty (2).\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Dobierz karty (2), a następnie <keyword=discard>odrzuć</keyword> karty (2).\n",
+        "name": "Birna Bran"
+    },
+    "152106": {
+        "info": "Rozmieszczenie: Zadaj wrogowi obrażenia równe dwukrotności liczby rannych wrogów.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi obrażenia równe dwukrotności liczby rannych wrogów.\n",
+        "name": "Lugos Szalony"
+    },
+    "152107": {
+        "info": "Rozkaz: Odrzuć kartę, następnie dobierz kartę.\nŁadunki: 3.\nZa każdym razem, gdy odrzucana jest karta specjalna, zadaj wrogowi 2 pkt obrażeń.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: <keyword=discard>Odrzuć</keyword> kartę, następnie dobierz kartę.\n<keyword=charge>Ładunki</keyword>: 3.\nZa każdym razem, gdy <keyword=discard>odrzucana</keyword> jest karta specjalna, zadaj wrogowi 2 pkt obrażeń.\n",
+        "name": "Koral"
+    },
+    "152109": {
+        "info": "Rozmieszczenie, bliskie starcie: Zadaj wszystkim rannym wrogom 2 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Zadaj wszystkim rannym wrogom 2 pkt obrażeń.\n",
+        "name": "Dzik Morski"
+    },
+    "152201": {
+        "info": "Za każdym razem, gdy ta jednostka otrzymuje obrażenia, zadaj losowemu wrogowi 2 pkt obrażeń.\n",
+        "infoRaw": "Za każdym razem, gdy ta jednostka otrzymuje obrażenia, zadaj losowemu wrogowi 2 pkt obrażeń.\n",
+        "name": "Lugos Siny"
+    },
+    "152202": {
+        "info": "Zadaj jednostce 5 pkt obrażeń.\nŻądza krwi 3: Zamiast tego zniszcz jednostkę.\n",
+        "infoRaw": "Zadaj jednostce 5 pkt obrażeń.\n<keyword=bloodthirst>Żądza krwi</keyword> 3: Zamiast tego zniszcz jednostkę.\n",
+        "name": "Wściekła szarża"
+    },
+    "152203": {
+        "info": "Żądza krwi 1: Zablokuj jednostkę wroga.\n",
+        "infoRaw": "<keyword=bloodthirst>Żądza krwi</keyword> 1: <keyword=lock>Zablokuj</keyword> jednostkę wroga.\n",
+        "name": "Djenge Frett"
+    },
+    "152204": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 2 pkt obrażeń.\nŻądza krwi 2: Zamiast tego zadaj wrogowi 5 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 2 pkt obrażeń.\n<keyword=bloodthirst>Żądza krwi</keyword> 2: Zamiast tego zadaj wrogowi 5 pkt obrażeń.\n",
+        "name": "Donar an Hindar"
+    },
+    "152205": {
+        "info": "Rozmieszczenie: Wzmocnij wszystkich sojuszniczych Wojowników o 1.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij wszystkich sojuszniczych Wojowników o 1.\n",
+        "name": "Draig Bon-Dhu"
+    },
+    "152206": {
+        "info": "Rozmieszczenie, daleki zasięg: Zagraj brązową kartę Alchemii ze swojego cmentarza.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Zagraj brązową kartę Alchemii ze swojego cmentarza.\n",
+        "name": "Gremista"
+    },
+    "152207": {
+        "info": "Za każdym razem, gdy zagrywasz Okręt, wzmocnij go o 1.\nZa każdym razem, gdy zagrywasz Pirata, zadaj losowemu wrogowi 1 pkt obrażeń.\n",
+        "infoRaw": "Za każdym razem, gdy zagrywasz Okręt, wzmocnij go o 1.\nZa każdym razem, gdy zagrywasz Pirata, zadaj losowemu wrogowi 1 pkt obrażeń.\n",
+        "name": "Holger Czarna Ręka"
+    },
+    "152208": {
+        "info": "Rozmieszczenie: Jeśli Jutta Dimun jest najsilniejszą jednostką, zadaj tej jednostce 6 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Jeśli Jutta Dimun jest najsilniejszą jednostką, zadaj tej jednostce 6 pkt obrażeń.\n",
+        "name": "Jutta Dimun"
+    },
+    "152209": {
+        "info": "Gdy ta jednostka przeniesie się na cmentarz, wezwij ją do rzędu bliskiego starcia i daj jej Fatum.\n",
+        "infoRaw": "Gdy ta jednostka przeniesie się na cmentarz, <keyword=summon>wezwij</keyword> ją do rzędu bliskiego starcia i daj jej <keyword=doomed>Fatum</keyword>.\n",
+        "name": "Morkvarg"
+    },
+    "152210": {
+        "info": "Zapał.\nRozmieszczenie: Zyskaj ładunki (1) za każdego Zdziczałego Niedźwiedzia na cmentarzu.\nRozkaz: Zadaj jednostce 2 pkt obrażeń.\nŁadunki: 1.\n",
+        "infoRaw": "<keyword=zeal>Zapał</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: Zyskaj <keyword=charge>ładunki</keyword> (1) za każdego Zdziczałego Niedźwiedzia na cmentarzu.\n<keyword=order>Rozkaz</keyword>: Zadaj jednostce 2 pkt obrażeń.\n<keyword=charge>Ładunki</keyword>: 1.\n",
+        "name": "Zdziczały niedźwiedź"
+    },
+    "152211": {
+        "info": "Wezwij Wojownika ze swojego cmentarza do rzędu sojuszniczego.\n",
+        "infoRaw": "<keyword=summon>Wezwij</keyword> Wojownika ze swojego cmentarza do rzędu sojuszniczego.\n",
+        "name": "Błogosławieństwo"
+    },
+    "152213": {
+        "info": "Rozmieszczenie, żądza krwi 3: Wzmocnij tę kartę o 5.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=bloodthirst>żądza krwi</keyword> 3: Wzmocnij tę kartę o 5.\n",
+        "name": "Svanrige Tuirseach"
+    },
+    "152214": {
+        "info": "Rozkaz: Zadaj jednostce 1 pkt obrażeń.\nŁadunki: 3.\nŻądza krwi 2: Zyskaj zapał.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zadaj jednostce 1 pkt obrażeń.\n<keyword=charge>Ładunki</keyword>: 3.\n<keyword=bloodthirst>Żądza krwi</keyword> 2: Zyskaj <keyword=zeal>zapał</keyword>.\n",
+        "name": "Udalryk an Brokvar"
+    },
+    "152303": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 2 pkt obrażeń. Jeśli zagrywasz tę jednostkę z cmentarza, zamiast tego zadaj 4 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 2 pkt obrażeń. Jeśli zagrywasz tę jednostkę z cmentarza, zamiast tego zadaj 4 pkt obrażeń.\n",
+        "name": "Wojownik an Craite"
+    },
+    "152304": {
+        "info": "Rozkaz: Zadaj jednostce 1 pkt obrażeń.\nŁadunki: 1.\nZyskaj ładunki (1) za każdym razem, gdy odrzucasz kartę.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zadaj jednostce 1 pkt obrażeń.\n<keyword=charge>Ładunki</keyword>: 1.\nZyskaj <keyword=charge>ładunki</keyword> (1) za każdym razem, gdy <keyword=discard>odrzucasz</keyword> kartę.\n",
+        "name": "Łowca Brokvar"
+    },
+    "152305": {
+        "info": "Rozmieszczenie: Przenieś wierzchnią kartę ze swojej talii na swój cmentarz.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Przenieś wierzchnią kartę ze swojej talii na swój cmentarz.\n",
+        "name": "Pirat Dimun"
+    },
+    "152306": {
+        "info": "Rozmieszczenie, żądza krwi 2: Zadaj wrogowi 3 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=bloodthirst>żądza krwi</keyword> 2: Zadaj wrogowi 3 pkt obrażeń.\n",
+        "name": "Kapitan Piratów"
+    },
+    "152307": {
+        "info": "Rozkaz: Jeśli ta jednostka odniosła obrażenia, stwórz jej bazowy egzemplarz i wezwij go z prawej strony.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Jeśli ta jednostka odniosła obrażenia, <keyword=spawn>stwórz</keyword> jej bazowy egzemplarz i <keyword=summon>wezwij</keyword> go z prawej strony.\n",
+        "name": "Straż Królowej"
+    },
+    "152308": {
+        "info": "Rozmieszczenie: Odrzuć kartę, następnie dobierz kartę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: <keyword=discard>Odrzuć</keyword> kartę, następnie dobierz kartę.\n",
+        "name": "Skald Heymaey"
+    },
+    "152309": {
+        "info": "Rozkaz: Zadaj tej jednostce i wrogowi po 1 pkt obrażeń.\nOdnowienie: 1.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zadaj tej jednostce i wrogowi po 1 pkt obrażeń.\n<keyword=cooldown>Odnowienie</keyword>: 1.\n",
+        "name": "Drakkar Dimun"
+    },
+    "152310": {
+        "info": "Zagraj brązową jednostkę ze swojego cmentarza.\n",
+        "infoRaw": "Zagraj brązową jednostkę ze swojego cmentarza.\n",
+        "name": "Ofiara dla Freyi"
+    },
+    "152311": {
+        "info": "Rozkaz: Wzmocnij sojusznika o 1.\nŁadunki: 1.\nZyskaj ładunki (1) za każdym razem, gdy zagrywasz Wojownika.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Wzmocnij sojusznika o 1.\n<keyword=charge>Ładunki</keyword>: 1.\nZyskaj <keyword=charge>ładunki</keyword> (1) za każdym razem, gdy zagrywasz Wojownika.\n",
+        "name": "Zbrojmistrz"
+    },
+    "152312": {
+        "info": "Rozmieszczenie, bliskie starcie: Zniszcz wroga o sile nie większej niż połowa jego siły bazowej.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Zniszcz wroga o sile nie większej niż połowa jego siły bazowej.\n",
+        "name": "Topornik Tuirseach"
+    },
+    "152313": {
+        "info": "Gdy ta jednostka zostanie odrzucona, wezwij ją ze swojego cmentarza do rzędu bliskiego starcia.\n",
+        "infoRaw": "Gdy ta jednostka zostanie <keyword=discard>odrzucona</keyword>, <keyword=summon>wezwij</keyword> ją ze swojego cmentarza do rzędu bliskiego starcia.\n",
+        "name": "Harcownicy Tuirseach"
+    },
+    "152314": {
+        "info": "Za każdym razem, gdy twój przeciwnik zagrywa jednostkę, zadaj jej 1 pkt obrażeń.\n",
+        "infoRaw": "Za każdym razem, gdy twój przeciwnik zagrywa jednostkę, zadaj jej 1 pkt obrażeń.\n",
+        "name": "Drakkar Bojowy"
+    },
+    "152315": {
+        "info": "Rozmieszczenie, daleki zasięg: Zadaj wrogowi obrażenia równe liczbie rannych jednostek po stronie przeciwnika.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Zadaj wrogowi obrażenia równe liczbie rannych jednostek po stronie przeciwnika.\n",
+        "name": "Łucznik Brokvar"
+    },
+    "152316": {
+        "info": "Zadaj jednostce 4 pkt obrażeń.\nŻądza krwi 2: Zamiast tego zadaj jednostce 6 pkt obrażeń.\n",
+        "infoRaw": "Zadaj jednostce 4 pkt obrażeń.\n<keyword=bloodthirst>Żądza krwi</keyword> 2: Zamiast tego zadaj jednostce 6 pkt obrażeń.\n",
+        "name": "Zamaszysty cios"
+    },
+    "152317": {
+        "info": "Rozmieszczenie: Wzmocnij sojusznika o 1. Jeśli to Wojownik, zamiast tego wzmocnij go o 3.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij sojusznika o 1. Jeśli to Wojownik, zamiast tego wzmocnij go o 3.\n",
+        "name": "Płatnerz an Craite"
+    },
+    "152318": {
+        "info": "Przy następnym zranieniu tej jednostki wezwij jej egzemplarz ze swojej talii do tego rzędu.\n",
+        "infoRaw": "Przy następnym zranieniu tej jednostki <keyword=summon>wezwij</keyword> jej egzemplarz ze swojej talii do tego rzędu.\n",
+        "name": "Tarczowniczka Drummond"
+    },
+    "152403": {
+        "info": "Rozdziel 6 pkt obrażeń losowo pomiędzy wszystkie jednostki w rzędzie przeciwnika.\n",
+        "infoRaw": "Rozdziel 6 pkt obrażeń losowo pomiędzy wszystkie jednostki w rzędzie przeciwnika.\n",
+        "name": "Maligna"
+    },
+    "152405": {
+        "info": "Brak umiejętności.\n",
+        "infoRaw": "Brak umiejętności.\n",
+        "name": "Niedźwiedź"
+    },
+    "152406": {
+        "info": "Rozmieszczenie: Zadaj sojusznikowi z lewej 1 pkt obrażeń. Jeśli nie ma tam sojusznika, zamiast tego zadaj 1 pkt obrażeń tej jednostce.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj sojusznikowi z lewej 1 pkt obrażeń. Jeśli nie ma tam sojusznika, zamiast tego zadaj 1 pkt obrażeń tej jednostce.\n",
+        "name": "Wściekły niedźwiedź"
+    },
+    "153201": {
+        "info": "Uzdrów wszystkie jednostki w rzędzie.\n",
+        "infoRaw": "<keyword=heal>Uzdrów</keyword> wszystkie jednostki w rzędzie.\n",
+        "name": "Odnowa"
+    },
+    "153301": {
+        "info": "Zadaj wszystkim jednostkom w wybranym rzędzie 2 pkt obrażeń.\n",
+        "infoRaw": "Zadaj wszystkim jednostkom w wybranym rzędzie 2 pkt obrażeń.\n",
+        "name": "Rozdarcie"
+    },
+    "162101": {
+        "info": "Rozmieszczenie: Odbierz wszystkie wymiany wrogiemu Przywódcy.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Odbierz wszystkie wymiany wrogiemu Przywódcy.\n",
+        "name": "Letho z Gulety"
+    },
+    "162102": {
+        "info": "Rozmieszczenie, daleki zasięg: Zagraj kartę Taktyki ze swojej talii.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Zagraj kartę Taktyki ze swojej talii.\n",
+        "name": "Menno Coehoorn"
+    },
+    "162103": {
+        "info": "Rozkaz, bliskie starcie: Przechwyć zablokowaną wrogą jednostkę.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>, <keyword=melee>bliskie starcie</keyword>: <keyword=seize>Przechwyć</keyword> <keyword=lock>zablokowaną</keyword> wrogą jednostkę.\n",
+        "name": "Vattier de Rideaux"
+    },
+    "162104": {
+        "info": "Bliskie starcie: Za każdym razem, gdy wróg otrzymuje wzmocnienie, wzmocnij tę jednostkę o tyle samo.\n",
+        "infoRaw": "<keyword=melee>Bliskie starcie</keyword>: Za każdym razem, gdy wróg otrzymuje wzmocnienie, wzmocnij tę jednostkę o tyle samo.\n",
+        "name": "Cahir Mawr Dyffryn"
+    },
+    "162105": {
+        "info": "Rozmieszczenie, bliskie starcie: Zniszcz wrogą jednostkę, następnie przeciwnik wzywa wierzchnią jednostkę ze swojej talii.\nRozmieszczenie, daleki zasięg: Zniszcz sojuszniczą jednostkę, następnie wezwij wierzchnią jednostkę ze swojej talii.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Zniszcz wrogą jednostkę, następnie przeciwnik <keyword=summon>wzywa</keyword> wierzchnią jednostkę ze swojej talii.\n<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Zniszcz sojuszniczą jednostkę, następnie <keyword=summon>wezwij</keyword> wierzchnią jednostkę ze swojej talii.\n",
+        "name": "Vilgefortz"
+    },
+    "162106": {
+        "info": "Rozkaz: Stwórz i zagraj egzemplarz karty Taktyki zagranej przez ciebie w tej turze.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: <keyword=spawn>Stwórz</keyword> i zagraj egzemplarz karty Taktyki zagranej przez ciebie w tej turze.\n",
+        "name": "Stefan Skellen"
+    },
+    "162107": {
+        "info": "Rozmieszczenie: Przeciwnik wzywa wierzchnią jednostkę ze swojej talii do losowego wrogiego rzędu.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Przeciwnik <keyword=summon>wzywa</keyword> wierzchnią jednostkę ze swojej talii do losowego wrogiego rzędu.\n",
+        "name": "Tibor Eggebracht"
+    },
+    "162108": {
+        "info": "Rozmieszczenie: Ujawnij losową kartę ze swojej talii. Jeśli to jednostka, wzmocnij tę kartę o siłę ujawnionej i wtasuj ją z powrotem. Jeśli jest to Artefakt lub karta specjalna, zagraj ją.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: <keyword=reveal>Ujawnij</keyword> losową kartę ze swojej talii. Jeśli to jednostka, wzmocnij tę kartę o siłę ujawnionej i wtasuj ją z powrotem. Jeśli jest to Artefakt lub karta specjalna, zagraj ją.\n",
+        "name": "Xarthisius"
+    },
+    "162201": {
+        "info": "Rozmieszczenie, daleki zasięg: Przenieś dowolną kartę ze swojej talii na jej szczyt. Jeśli to jednostka, wzmocnij ją o 2.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Przenieś dowolną kartę ze swojej talii na jej szczyt. Jeśli to jednostka, wzmocnij ją o 2.\n",
+        "name": "Albrich"
+    },
+    "162202": {
+        "info": "Rozmieszczenie, bliskie starcie: Wtasuj kartę z cmentarza przeciwnika do jego talii.\nRozmieszczenie, daleki zasięg: Wtasuj kartę ze swojego cmentarza do swojej talii.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Wtasuj kartę z cmentarza przeciwnika do jego talii.\n<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Wtasuj kartę ze swojego cmentarza do swojej talii.\n",
+        "name": "Assire var Anahid"
+    },
+    "162203": {
+        "info": "Rozmieszczenie, bliskie starcie: Stwórz Strażnika i umieść go na szczycie talii przeciwnika.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: <keyword=spawn>Stwórz</keyword> Strażnika i umieść go na szczycie talii przeciwnika.\n",
+        "name": "Cynthia"
+    },
+    "162204": {
+        "info": "Rozmieszczenie: Przywróć jednostce jej siłę bazową.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Przywróć jednostce jej siłę bazową.\n",
+        "name": "Peter Saar Gwynlew"
+    },
+    "162205": {
+        "info": "Rozkaz: Ujawnij losową kartę specjalną z talii przeciwnika, następnie stwórz i zagraj jej egzemplarz.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: <keyword=reveal>Ujawnij</keyword> losową kartę specjalną z talii przeciwnika, następnie <keyword=spawn>stwórz</keyword> i zagraj jej egzemplarz.\n",
+        "name": "Fringilla Vigo"
+    },
+    "162206": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 1 pkt obrażeń.\nZwiększ obrażenia tej jednostki o 1 za każdą ujawnioną przez ciebie kartę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 1 pkt obrażeń.\nZwiększ obrażenia tej jednostki o 1 za każdą <keyword=reveal>ujawnioną</keyword> przez ciebie kartę.\n",
+        "name": "Sweers"
+    },
+    "162207": {
+        "info": "Rozmieszczenie, daleki zasięg: Zniszcz zablokowaną wrogą jednostkę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Zniszcz <keyword=lock>zablokowaną</keyword> wrogą jednostkę.\n",
+        "name": "Vanhemar"
+    },
+    "162208": {
+        "info": "Rozmieszczenie: Zablokuj wrogą jednostkę.\nJeśli Serrit znajduje się w twojej ręce, zablokuj wszystkie egzemplarze tej wrogiej jednostki w ręce, talii i na polu bitwy.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: <keyword=lock>Zablokuj</keyword> wrogą jednostkę.\nJeśli Serrit znajduje się w twojej ręce, <keyword=lock>zablokuj</keyword> wszystkie egzemplarze tej wrogiej jednostki w ręce, talii i na polu bitwy.\n",
+        "name": "Egan"
+    },
+    "162209": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 3 pkt obrażeń. Jeśli w twojej ręce jest Egan, zamiast tego zadaj wrogowi 5 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 3 pkt obrażeń. Jeśli w twojej ręce jest Egan, zamiast tego zadaj wrogowi 5 pkt obrażeń.\n",
+        "name": "Serrit"
+    },
+    "162210": {
+        "info": "Szpieg.\nRozmieszczenie: Zagraj wierzchnią kartę z talii przeciwnika.\n",
+        "infoRaw": "<keyword=spying>Szpieg</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: Zagraj wierzchnią kartę z talii przeciwnika.\n",
+        "name": "Cantarella"
+    },
+    "162211": {
+        "info": "Szpieg.\nRozmieszczenie: Zagraj wierzchnią jednostkę niebędącą szpiegiem ze swojej talii, następnie wzmocnij ją o 8.\n",
+        "infoRaw": "<keyword=spying>Szpieg</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: Zagraj wierzchnią jednostkę niebędącą <keyword=spying>szpiegiem</keyword> ze swojej talii, następnie wzmocnij ją o 8.\n",
+        "name": "Joachim de Wett"
+    },
+    "162212": {
+        "info": "Rozmieszczenie, bliskie starcie: Przenieś wroga do drugiego rzędu.\nRozmieszczenie, daleki zasięg: Zniszcz wrogi Artefakt.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Przenieś wroga do drugiego rzędu.\n<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Zniszcz wrogi Artefakt.\n",
+        "name": "Fałszywa Cirilla"
+    },
+    "162213": {
+        "info": "Rozmieszczenie: Usuń wszystkie statusy wszystkich jednostek na polu bitwy.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Usuń wszystkie statusy wszystkich jednostek na polu bitwy.\n",
+        "name": "Ceallach Dyffryn"
+    },
+    "162301": {
+        "info": "Gdy ujawnisz tę jednostkę, wezwij ją ze swojej talii do losowego sojuszniczego rzędu.\n",
+        "infoRaw": "Gdy <keyword=reveal>ujawnisz</keyword> tę jednostkę, <keyword=summon>wezwij</keyword> ją ze swojej talii do losowego sojuszniczego rzędu.\n",
+        "name": "Daerlańscy Piechurzy"
+    },
+    "162302": {
+        "info": "Rozmieszczenie, daleki zasięg: Stwórz i zagraj Krowie Truchło.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: <keyword=spawn>Stwórz</keyword> i zagraj Krowie Truchło.\n",
+        "name": "Siewca zarazy"
+    },
+    "162303": {
+        "info": "Rozmieszczenie, bliskie starcie: Ujawnij losową jednostkę z talii przeciwnika i wzmocnij tę kartę o siłę ujawnionej.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: <keyword=reveal>Ujawnij</keyword> losową jednostkę z talii przeciwnika i wzmocnij tę kartę o siłę ujawnionej.\n",
+        "name": "Zwiadowca"
+    },
+    "162304": {
+        "info": "Zagraj brązową jednostkę z cmentarza przeciwnika.\n",
+        "infoRaw": "Zagraj brązową jednostkę z cmentarza przeciwnika.\n",
+        "name": "Terapia eksperymentalna"
+    },
+    "162305": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 2 pkt obrażeń, następnie ujawnij losową jednostkę z obu talii. Jeśli twoja jest silniejsza, powtórz umiejętność rozmieszczenia.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 2 pkt obrażeń, następnie <keyword=reveal>ujawnij</keyword> losową jednostkę z obu talii. Jeśli twoja jest silniejsza, powtórz umiejętność <keyword=deploy>rozmieszczenia</keyword>.\n",
+        "name": "Kusznik Deithwen"
+    },
+    "162306": {
+        "info": "Rozkaz, daleki zasięg: Zadaj jednostce 1 pkt obrażeń.\nŁadunki: 1.\nDaj tej jednostce ładunki (1) za każdym razem, gdy zagrywasz kartę Taktyki.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>, <keyword=ranged>daleki zasięg</keyword>: Zadaj jednostce 1 pkt obrażeń.\n<keyword=charge>Ładunki</keyword>: 1.\nDaj tej jednostce <keyword=charge>ładunki</keyword> (1) za każdym razem, gdy zagrywasz kartę Taktyki.\n",
+        "name": "Ognisty Skorpion"
+    },
+    "162307": {
+        "info": "Rozmieszczenie, bliskie starcie: Wezwij do tego rzędu egzemplarz tej jednostki ze swojej talii.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: <keyword=summon>Wezwij</keyword> do tego rzędu egzemplarz tej jednostki ze swojej talii.\n",
+        "name": "Brygada Impera"
+    },
+    "162308": {
+        "info": "Rozkaz: Zadaj wrogowi 2 pkt obrażeń.\nŁadunki: 1.\nDaj tej jednostce ładunki (1) za każdym razem, gdy zagrywasz szpiega.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zadaj wrogowi 2 pkt obrażeń.\n<keyword=charge>Ładunki</keyword>: 1.\nDaj tej jednostce <keyword=charge>ładunki</keyword> (1) za każdym razem, gdy zagrywasz <keyword=spying>szpiega</keyword>.\n",
+        "name": "Egzekutor Impery"
+    },
+    "162309": {
+        "info": "Za każdym razem, gdy zagrywana jest jednostka z umiejętnością rozmieszczenia, wzmocnij tę kartę o 1.\n",
+        "infoRaw": "Za każdym razem, gdy zagrywana jest jednostka z umiejętnością <keyword=deploy>rozmieszczenia</keyword>, wzmocnij tę kartę o 1.\n",
+        "name": "Sierżant Nauzikai"
+    },
+    "162310": {
+        "info": "Rozmieszczenie: Zadaj wzmocnionemu wrogowi 3 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wzmocnionemu wrogowi 3 pkt obrażeń.\n",
+        "name": "Brygada Nauzicaa"
+    },
+    "162311": {
+        "info": "Rozmieszczenie, bliskie starcie: Zadaj wrogowi obrażenia równe liczbie jednostek w drugim rzędzie przeciwnika.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Zadaj wrogowi obrażenia równe liczbie jednostek w drugim rzędzie przeciwnika.\n",
+        "name": "Pikinierzy Alby"
+    },
+    "162312": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 2 pkt obrażeń. Zwiększ obrażenia o 1 za każdego sąsiadującego Żołnierza.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 2 pkt obrażeń. Zwiększ obrażenia o 1 za każdego sąsiadującego Żołnierza.\n",
+        "name": "Włócznicy Alby"
+    },
+    "162313": {
+        "info": "Rozmieszczenie: Wzmocnij tę kartę o 3, jeśli kontrolujesz Artefakt.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij tę kartę o 3, jeśli kontrolujesz Artefakt.\n",
+        "name": "Saper"
+    },
+    "162314": {
+        "info": "Szpieg.\nRozmieszczenie: Wzmocnij sojusznika o 7.\n",
+        "infoRaw": "<keyword=spying>Szpieg</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij sojusznika o 7.\n",
+        "name": "Emisariusz"
+    },
+    "162315": {
+        "info": "Utwórz i zagraj brązową jednostkę z frakcji przeciwnika.\n",
+        "infoRaw": "<keyword=create>Utwórz</keyword> i zagraj brązową jednostkę z frakcji przeciwnika.\n",
+        "name": "Poselstwo"
+    },
+    "162316": {
+        "info": "Rozmieszczenie, daleki zasięg: Zamień siłę 2 sojuszników.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Zamień siłę 2 sojuszników.\n",
+        "name": "Alchemik"
+    },
+    "162317": {
+        "info": "Za każdym razem, gdy ujawnisz kartę, zadaj losowemu wrogowi 1 pkt obrażeń.\n",
+        "infoRaw": "Za każdym razem, gdy <keyword=reveal>ujawnisz</keyword> kartę, zadaj losowemu wrogowi 1 pkt obrażeń.\n",
+        "name": "Mangonela"
+    },
+    "162318": {
+        "info": "Rozmieszczenie: Wzmocnij wroga o 2. Jeśli nie ma wrogich jednostek, zniszcz tę jednostkę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij wroga o 2. Jeśli nie ma wrogich jednostek, zniszcz tę jednostkę.\n",
+        "name": "Nilfgaardzki rycerz"
+    },
+    "162401": {
+        "info": "Brak umiejętności.\n",
+        "infoRaw": "Brak umiejętności.\n",
+        "name": "Strażnik"
+    },
+    "162402": {
+        "info": "Szpieg. Fatum.\nPo 1 turze, na koniec tury, zniszcz tę jednostkę i jednostkę na lewo od niej.\n",
+        "infoRaw": "<keyword=spying>Szpieg</keyword>. <keyword=doomed>Fatum</keyword>.\nPo 1 turze, na koniec tury, zniszcz tę jednostkę i jednostkę na lewo od niej.\n",
+        "name": "Krowie truchło"
+    },
+    "163101": {
+        "info": "Zmuś wrogą jednostkę do zadania sąsiadującym z nią jednostkom obrażeń równym jej sile.\n",
+        "infoRaw": "Zmuś wrogą jednostkę do zadania sąsiadującym z nią jednostkom obrażeń równym jej sile.\n",
+        "name": "Zdrada"
+    },
+    "163201": {
+        "info": "Utwórz jednostkę z talii początkowej przeciwnika, następnie ją zagraj.\n",
+        "infoRaw": "<keyword=create>Utwórz</keyword> jednostkę z talii początkowej przeciwnika, następnie ją zagraj.\n",
+        "name": "Test lojalności"
+    },
+    "200008": {
+        "info": "Zapał.\nRozkaz: Wzmocnij sojusznika o 3 i daj mu Zapał.\n",
+        "infoRaw": "<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Wzmocnij sojusznika o 3 i daj mu <keyword=zeal>Zapał</keyword>.\n",
+        "name": "Filtr Petriego"
+    },
+    "200018": {
+        "info": "Wygnaj jednostkę lub Artefakt.\n",
+        "infoRaw": "<keyword=banish>Wygnaj</keyword> jednostkę lub Artefakt.\n",
+        "name": "Sirocco z Korath"
+    },
+    "200019": {
+        "info": "Zagraj najsłabszą jednostkę ze swojej talii.\n",
+        "infoRaw": "Zagraj najsłabszą jednostkę ze swojej talii.\n",
+        "name": "Rozkaz wymarszu"
+    },
+    "200020": {
+        "info": "Zagraj brązową jednostkę ze swojego cmentarza i daj jej Fatum.\n",
+        "infoRaw": "Zagraj brązową jednostkę ze swojego cmentarza i daj jej <keyword=doomed>Fatum</keyword>.\n",
+        "name": "Nekromancja"
+    },
+    "200022": {
+        "info": "Zapał.\nRozkaz: Zagraj ze swojej talii jednostkę o koszcie werbunku równym liczbie ładunków Kręgu Przywołań lub mniejszym, następnie usuń wszystkie ładunki.\nŁadunki: 0.\nNa początku każdej tury daj tej jednostce ładunki (1).\n",
+        "infoRaw": "<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Zagraj ze swojej talii jednostkę o koszcie werbunku równym liczbie <keyword=charge>ładunków</keyword> Kręgu Przywołań lub mniejszym, następnie usuń wszystkie <keyword=charge>ładunki</keyword>.\n<keyword=charge>Ładunki</keyword>: 0.\nNa początku każdej tury daj tej jednostce <keyword=charge>ładunki</keyword> (1).\n",
+        "name": "Krąg przywołań"
+    },
+    "200023": {
+        "info": "Zadaj jednostce 3 pkt obrażeń. Jeśli zostanie zniszczona, zadaj sąsiadującym z nią jednostkom 3 pkt obrażeń.\n",
+        "infoRaw": "Zadaj jednostce 3 pkt obrażeń. Jeśli zostanie zniszczona, zadaj sąsiadującym z nią jednostkom 3 pkt obrażeń.\n",
+        "name": "Toksyna krabopająka"
+    },
+    "200026": {
+        "info": "Rozmieszczenie: Wzmocnij sojuszniczą jednostkę o 1. Jeśli kontrolujesz najsilniejszą jednostkę, zamiast tego wzmocnij o 3.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij sojuszniczą jednostkę o 1. Jeśli kontrolujesz najsilniejszą jednostkę, zamiast tego wzmocnij o 3.\n",
+        "name": "Nawigator Gonu"
+    },
+    "200028": {
+        "info": "Rozmieszczenie, bliskie starcie: Zniszcz rannego wroga.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Zniszcz rannego wroga.\n",
+        "name": "Vabjorn"
+    },
+    "200030": {
+        "info": "Rozmieszczenie, bliskie starcie: Zadaj wrogowi 4 pkt obrażeń.\nRozmieszczenie, daleki zasięg: Zadaj 4 wrogom 1 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Zadaj wrogowi 4 pkt obrażeń.\n<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Zadaj 4 wrogom 1 pkt obrażeń.\n",
+        "name": "Milaen"
+    },
+    "200031": {
+        "info": "Rozmieszczenie, bliskie starcie: Zniszcz wroga o sile 8 lub większej.\nRozmieszczenie, daleki zasięg: Zniszcz Wiedźmina.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Zniszcz wroga o sile 8 lub większej.\n<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Zniszcz Wiedźmina.\n",
+        "name": "Leo Bonhart"
+    },
+    "200032": {
+        "info": "Rozmieszczenie: Wzmocnij wroga o 3, następnie wzmocnij tę jednostkę o 3.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij wroga o 3, następnie wzmocnij tę jednostkę o 3.\n",
+        "name": "Rainfarn z Attre"
+    },
+    "200033": {
+        "info": "Zapał.\nRozkaz, daleki zasięg: Daj ładunki (1) sojuszniczej jednostce.\nOdnowienie: 2.\n",
+        "infoRaw": "<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>, <keyword=ranged>daleki zasięg</keyword>: Daj <keyword=charge>ładunki</keyword> (1) sojuszniczej jednostce.\n<keyword=cooldown>Odnowienie</keyword>: 2.\n",
+        "name": "Adeptka z Aretuzy"
+    },
+    "200036": {
+        "info": "Rozmieszczenie, bliskie starcie. Żądza krwi 1: Zniszcz wrogi Artefakt.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>. <keyword=bloodthirst>Żądza krwi</keyword> 1: Zniszcz wrogi Artefakt.\n",
+        "name": "Łupieżca Drummond"
+    },
+    "200037": {
+        "info": "Rozmieszczenie: Zniszcz sąsiadującą jednostkę sojuszniczą i zadaj wybranemu wrogowi obrażenia równe jej sile.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zniszcz sąsiadującą jednostkę sojuszniczą i zadaj wybranemu wrogowi obrażenia równe jej sile.\n",
+        "name": "Cyklop"
+    },
+    "200038": {
+        "info": "Pokrzepienie.\nRozmieszczenie: Zadaj losowemu wrogowi 2 pkt obrażeń.\nZemsta: Powtórz umiejętność rozmieszczenia.\n",
+        "infoRaw": "<keyword=thrive>Pokrzepienie</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: Zadaj losowemu wrogowi 2 pkt obrażeń.\n<keyword=deathwish>Zemsta</keyword>: Powtórz umiejętność <keyword=deploy>rozmieszczenia</keyword>.\n",
+        "name": "Archespor"
+    },
+    "200039": {
+        "info": "Bliskie starcie: Za każdym razem, gdy wróg zostaje przeniesiony do drugiego rzędu, zadaj mu 1 pkt obrażeń.\nDaleki zasięg: Za każdym razem, gdy sojusznik zostaje przeniesiony do drugiego rzędu, wzmocnij go o 1.\n",
+        "infoRaw": "<keyword=melee>Bliskie starcie</keyword>: Za każdym razem, gdy wróg zostaje przeniesiony do drugiego rzędu, zadaj mu 1 pkt obrażeń.\n<keyword=ranged>Daleki zasięg</keyword>: Za każdym razem, gdy sojusznik zostaje przeniesiony do drugiego rzędu, wzmocnij go o 1.\n",
+        "name": "Elfi Obrońca"
+    },
+    "200040": {
+        "info": "Za każdym razem, gdy wróg w przeciwnym rzędzie odnosi obrażenia, wzmocnij tę jednostkę o 1.\n",
+        "infoRaw": "Za każdym razem, gdy wróg w przeciwnym rzędzie odnosi obrażenia, wzmocnij tę jednostkę o 1.\n",
+        "name": "Rębacz an Craite"
+    },
+    "200041": {
+        "info": "Odporność.\nRozkaz: Zadaj wrogowi 2 pkt obrażeń za każdego Żołnierza w tym rzędzie.\n",
+        "infoRaw": "<keyword=immune>Odporność</keyword>.\n<keyword=order>Rozkaz</keyword>: Zadaj wrogowi 2 pkt obrażeń za każdego Żołnierza w tym rzędzie.\n",
+        "name": "Gruba Helga"
+    },
+    "200042": {
+        "info": "Rozmieszczenie: Jeśli ta jednostka jest już wzmocniona, daj jej wytrzymałość.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Jeśli ta jednostka jest już wzmocniona, daj jej <keyword=resilient>wytrzymałość</keyword>.\n",
+        "name": "Mahakamski traper"
+    },
+    "200043": {
+        "info": "Rozmieszczenie: Stwórz 3 Druhów Haralda i wezwij ich do drugiego rzędu sojuszniczego.\nRozkaz: Zadaj sojusznikowi 1 pkt obrażeń.\nOdnowienie: 1.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: <keyword=spawn>Stwórz</keyword> 3 Druhów Haralda i <keyword=summon>wezwij</keyword> ich do drugiego rzędu sojuszniczego.\n<keyword=order>Rozkaz</keyword>: Zadaj sojusznikowi 1 pkt obrażeń.\n<keyword=cooldown>Odnowienie</keyword>: 1.\n",
+        "name": "Harald Psia Gęba"
+    },
+    "200044": {
+        "info": "Na koniec każdej tury wzmocnij tę jednostkę o 1, jeśli jest jedyną kartą w tym rzędzie.\n",
+        "infoRaw": "Na koniec każdej tury wzmocnij tę jednostkę o 1, jeśli jest jedyną kartą w tym rzędzie.\n",
+        "name": "Dywizja Magne"
+    },
+    "200046": {
+        "info": "Rozmieszczenie: Zadaj tej jednostce 4 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj tej jednostce 4 pkt obrażeń.\n",
+        "name": "Skelligijski Weteran"
+    },
+    "200048": {
+        "info": "Rozmieszczenie: Wzmocnij sojusznika o 1 za każdy z jego ładunków.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij sojusznika o 1 za każdy z jego <keyword=charge>ładunków</keyword>.\n",
+        "name": "Wykładowca z Ban Ard"
+    },
+    "200049": {
+        "info": "Rozmieszczenie: Jeśli kontrolujesz Żołnierza, zniszcz wrogi Artefakt.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Jeśli kontrolujesz Żołnierza, zniszcz wrogi Artefakt.\n",
+        "name": "Taran"
+    },
+    "200050": {
+        "info": "Rozmieszczenie: Wzmocnij sojuszniczego Żołnierza i wszystkie jego egzemplarze o 2.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij sojuszniczego Żołnierza i wszystkie jego egzemplarze o 2.\n",
+        "name": "Vreemde"
+    },
+    "200052": {
+        "info": "Zemsta: Przeciwnik wzywa najsłabszą jednostkę ze swojej talii do przeciwnego rzędu.\n",
+        "infoRaw": "<keyword=deathwish>Zemsta</keyword>: Przeciwnik <keyword=summon>wzywa</keyword> najsłabszą jednostkę ze swojej talii do przeciwnego rzędu.\n",
+        "name": "Goliat"
+    },
+    "200053": {
+        "info": "Zablokuj jednostkę i przywróć jej jednostce jej siłę bazową.\n",
+        "infoRaw": "<keyword=lock>Zablokuj</keyword> jednostkę i przywróć jej jednostce jej siłę bazową.\n",
+        "name": "Zaklęcie Kompresji"
+    },
+    "200055": {
+        "info": "Rozkaz: Aktywuj umiejętność zemsty sojusznika.\nNa początku rundy odśwież tę umiejętność.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Aktywuj umiejętność <keyword=deathwish>zemsty</keyword> sojusznika.\nNa początku rundy odśwież tę umiejętność.\n",
+        "name": "Ukryty"
+    },
+    "200056": {
+        "info": "Rozmieszczenie, daleki zasięg: Utwórz dowolną kartę specjalną.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: <keyword=create>Utwórz</keyword> dowolną kartę specjalną.\n",
+        "name": "Aguara: Lisica"
+    },
+    "200058": {
+        "info": "Utwórz i zagraj złotą jednostkę.\n",
+        "infoRaw": "<keyword=create>Utwórz</keyword> i zagraj złotą jednostkę.\n",
+        "name": "Klątwa Umy"
+    },
+    "200062": {
+        "info": "Rozmieszczenie, bliskie starcie: Zablokuj jednostkę.\nRozmieszczenie, daleki zasięg: Zdejmij z jednostki blokadę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: <keyword=lock>Zablokuj</keyword> jednostkę.\n<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Zdejmij z jednostki <keyword=lock>blokadę</keyword>.\n",
+        "name": "Aguara"
+    },
+    "200071": {
+        "info": "Rozmieszczenie: Zmień siłę najsilniejszej jednostki w ręce przeciwnika na 1.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zmień siłę najsilniejszej jednostki w ręce przeciwnika na 1.\n",
+        "name": "Shilard Fitz-Oesterlen"
+    },
+    "200073": {
+        "info": "Rozmieszczenie: Jeśli kontrolujesz najsilniejszą jednostkę, zadaj wrogowi 5 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Jeśli kontrolujesz najsilniejszą jednostkę, zadaj wrogowi 5 pkt obrażeń.\n",
+        "name": "Adda: Strzyga"
+    },
+    "200078": {
+        "info": "Wzmocnij jednostkę do siły 12. Jeśli nie jest Wiedźminem, najpierw zadaj jej 6 pkt obrażeń.\n",
+        "infoRaw": "Wzmocnij jednostkę do siły 12. Jeśli nie jest Wiedźminem, najpierw zadaj jej 6 pkt obrażeń.\n",
+        "name": "Próba Traw"
+    },
+    "200079": {
+        "info": "Zagraj jednostkę z cmentarza przeciwnika i daj jej fatum.\n",
+        "infoRaw": "Zagraj jednostkę z cmentarza przeciwnika i daj jej <keyword=doomed>fatum</keyword>.\n",
+        "name": "Niebieski sen Hanmarvyna"
+    },
+    "200080": {
+        "info": "Bliskie starcie: Za każdym razem, gdy ta jednostka jest wzmacniana, wzmocnij ją dodatkowo o 2.\n",
+        "infoRaw": "<keyword=melee>Bliskie starcie</keyword>: Za każdym razem, gdy ta jednostka jest wzmacniana, wzmocnij ją dodatkowo o 2.\n",
+        "name": "Xavier Moran"
+    },
+    "200081": {
+        "info": "Rozmieszczenie, daleki zasięg: Uzdrów sojusznika z 2 pkt obrażeń, następnie wzmocnij go o 2.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: <keyword=heal>Uzdrów</keyword> sojusznika z 2 pkt obrażeń, następnie wzmocnij go o 2.\n",
+        "name": "Zielarka Heymaey"
+    },
+    "200083": {
+        "info": "Rozmieszczenie: Dobierz wybraną kartę ze swojej talii, następnie odrzuć losową kartę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Dobierz wybraną kartę ze swojej talii, następnie <keyword=discard>odrzuć</keyword> losową kartę.\n",
+        "name": "Towarzysze Iris"
+    },
+    "200087": {
+        "info": "Rozmieszczenie: Zablokuj jednostkę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: <keyword=lock>Zablokuj</keyword> jednostkę.\n",
+        "name": "Dorregaray z Vole"
+    },
+    "200088": {
+        "info": "Rozmieszczenie: Wzmocnij tę jednostkę o liczbę obrażeń zadanych przez siebie wrogom w tej turze.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij tę jednostkę o liczbę obrażeń zadanych przez siebie wrogom w tej turze.\n",
+        "name": "Hubert Rejk"
+    },
+    "200089": {
+        "info": "Rozmieszczenie: Przenieś wszystkie jednostki z jednego rzędu do drugiego.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Przenieś wszystkie jednostki z jednego rzędu do drugiego.\n",
+        "name": "Nivellen"
+    },
+    "200091": {
+        "info": "Daleki zasięg: Po 2 turach każdy gracz dobiera jednostkę i zmienia jej siłę na 1.\n",
+        "infoRaw": "<keyword=ranged>Daleki zasięg</keyword>: Po 2 turach każdy gracz dobiera jednostkę i zmienia jej siłę na 1.\n",
+        "name": "Stregobor"
+    },
+    "200098": {
+        "info": "Zapał.\nRozkaz, bliskie starcie: Zmień siłę niewzmocnionego wroga na 1.\n",
+        "infoRaw": "<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>, <keyword=melee>bliskie starcie</keyword>: Zmień siłę niewzmocnionego wroga na 1.\n",
+        "name": "Vincent Meiss"
+    },
+    "200102": {
+        "info": "Rozmieszczenie: Zamień siłę tej jednostki z siłą rannej jednostki.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zamień siłę tej jednostki z siłą rannej jednostki.\n",
+        "name": "Him"
+    },
+    "200103": {
+        "info": "Rozkaz: Wzmocnij Olafa o dwukrotność odniesionych przez niego obrażeń.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Wzmocnij Olafa o dwukrotność odniesionych przez niego obrażeń.\n",
+        "name": "Olaf"
+    },
+    "200104": {
+        "info": "Rozmieszczenie: Zadaj wrogowi obrażenia równe połowie jego aktualnej siły.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi obrażenia równe połowie jego aktualnej siły.\n",
+        "name": "Ulfhedinn"
+    },
+    "200105": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 1 pkt obrażeń trzy razy.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 1 pkt obrażeń trzy razy.\n",
+        "name": "Drakkar łupieżców"
+    },
+    "200112": {
+        "info": "Rozmieszczenie: Wzmocnij sojusznika z zemstą o 3.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij sojusznika z <keyword=deathwish>zemstą</keyword> o 3.\n",
+        "name": "Syrena"
+    },
+    "200114": {
+        "info": "Odporność. Pokrzepienie.\n",
+        "infoRaw": "<keyword=immune>Odporność</keyword>. <keyword=thrive>Pokrzepienie</keyword>.\n",
+        "name": "Wilkołak Alfa"
+    },
+    "200115": {
+        "info": "Zadaj wybranej jednostce 6 pkt obrażeń. Zmniejsz obrażenia o 1 za każdą sąsiadującą z nią jednostkę.\n",
+        "infoRaw": "Zadaj wybranej jednostce 6 pkt obrażeń. Zmniejsz obrażenia o 1 za każdą sąsiadującą z nią jednostkę.\n",
+        "name": "Skrytobójstwo"
+    },
+    "200118": {
+        "info": "Bliskie starcie: Na koniec rundy wtasuj tę jednostkę do talii przeciwnika.\n",
+        "infoRaw": "<keyword=melee>Bliskie starcie</keyword>: Na koniec rundy wtasuj tę jednostkę do talii przeciwnika.\n",
+        "name": "Infiltrator"
+    },
+    "200124": {
+        "info": "Rozmieszczenie: Ujawnij wierzchnią kartę z talii przeciwnika i ją wygnaj.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: <keyword=reveal>Ujawnij</keyword> wierzchnią kartę z talii przeciwnika i ją <keyword=banish>wygnaj</keyword>.\n",
+        "name": "Wiedźmin szkoły Żmii"
+    },
+    "200135": {
+        "info": "Zapał.\nRozkaz: Zniszcz sojuszniczy Artefakt i zadaj jednostce 2 pkt obrażeń.\nOdnowienie: 2.\n",
+        "infoRaw": "<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Zniszcz sojuszniczy Artefakt i zadaj jednostce 2 pkt obrażeń.\n<keyword=cooldown>Odnowienie</keyword>: 2.\n",
+        "name": "Pirotechnik"
+    },
+    "200136": {
+        "info": "Rozmieszczenie, daleki zasięg: Ujawnij losową kartę ze swojej talii. Jeśli to karta specjalna, wzmocnij tę jednostkę o 2.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: <keyword=reveal>Ujawnij</keyword> losową kartę ze swojej talii. Jeśli to karta specjalna, wzmocnij tę jednostkę o 2.\n",
+        "name": "Wyrocznia"
+    },
+    "200138": {
+        "info": "Za każdym razem, gdy zagrasz kartę specjalną, wzmocnij tę jednostkę o 2.\n",
+        "infoRaw": "Za każdym razem, gdy zagrasz kartę specjalną, wzmocnij tę jednostkę o 2.\n",
+        "name": "Wiedzący"
+    },
+    "200139": {
+        "info": "Rozmieszczenie: Zadaj jednostce wroga spoza Scoia'tael 3 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj jednostce wroga spoza Scoia'tael 3 pkt obrażeń.\n",
+        "name": "Czarna Pantera"
+    },
+    "200144": {
+        "info": "Rozmieszczenie: Wzmocnij sojuszniczą Bestię o 2. Zwiększ wzmocnienie o 1 za każdą Bestię na twoim cmentarzu.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij sojuszniczą Bestię o 2. Zwiększ wzmocnienie o 1 za każdą Bestię na twoim cmentarzu.\n",
+        "name": "Treser Tuirseach"
+    },
+    "200145": {
+        "info": "Rozmieszczenie: Zadaj jednostce 1 pkt obrażeń za każdy Okręt w twojej ręce.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj jednostce 1 pkt obrażeń za każdy Okręt w twojej ręce.\n",
+        "name": "Korsarz Dimun"
+    },
+    "200146": {
+        "info": "Rozmieszczenie, bliskie starcie: Zadaj jednostce 1 pkt obrażeń, następnie wzmocnij ją o 2.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Zadaj jednostce 1 pkt obrażeń, następnie wzmocnij ją o 2.\n",
+        "name": "Przemytnik Dimun"
+    },
+    "200147": {
+        "info": "Na koniec każdej tury uzdrów wszystkich rannych sojuszników w tym rzędzie z 1 pkt obrażeń.\n",
+        "infoRaw": "Na koniec każdej tury <keyword=heal>uzdrów</keyword> wszystkich rannych sojuszników w tym rzędzie z 1 pkt obrażeń.\n",
+        "name": "Flaminika Heymaey"
+    },
+    "200149": {
+        "info": "Za każdym razem, gdy sąsiadująca jednostka odnosi obrażenia, wzmocnij tę kartę o 1.\n",
+        "infoRaw": "Za każdym razem, gdy sąsiadująca jednostka odnosi obrażenia, wzmocnij tę kartę o 1.\n",
+        "name": "Obrońca Heymaey"
+    },
+    "200154": {
+        "info": "Zagraj jednostkę ze swojej talii.\n",
+        "infoRaw": "Zagraj jednostkę ze swojej talii.\n",
+        "name": "Dekret królewski"
+    },
+    "200159": {
+        "info": "Rozkaz: Odrzuć kartę, następnie dobierz kartę.\nNa początku rundy odśwież tę umiejętność.\nZa każdym razem, gdy odrzucasz kartę, zadaj losowemu wrogowi 1 pkt obrażeń.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: <keyword=discard>Odrzuć</keyword> kartę, następnie dobierz kartę.\nNa początku rundy odśwież tę umiejętność.\nZa każdym razem, gdy <keyword=discard>odrzucasz</keyword> kartę, zadaj losowemu wrogowi 1 pkt obrażeń.\n",
+        "name": "Bran Tuirseach"
+    },
+    "200160": {
+        "info": "Rozkaz: Zadaj jednostce 1 pkt obrażeń.\nOdnowienie: 2.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zadaj jednostce 1 pkt obrażeń.\n<keyword=cooldown>Odnowienie</keyword>: 2.\n",
+        "name": "Crach an Craite"
+    },
+    "200161": {
+        "info": "Rozkaz: Rozdziel losowo 8 pkt obrażeń pomiędzy wszystkich wrogów.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Rozdziel losowo 8 pkt obrażeń pomiędzy wszystkich wrogów.\n",
+        "name": "Harald Chromy"
+    },
+    "200162": {
+        "info": "Rozkaz: Przenieś kartę z pola bitwy do swojej ręki, następnie zagraj kartę.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Przenieś kartę z pola bitwy do swojej ręki, następnie zagraj kartę.\n",
+        "name": "Emhyr var Emreis"
+    },
+    "200163": {
+        "info": "Rozkaz: Ujawnij losową kartę z talii przeciwnika. Jeśli jest brązowa, wzmocnij sojusznika o 3. Jeśli jest złota, wzmocnij zamiast tego o 4.\nNa początku rundy odśwież tę umiejętność.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: <keyword=reveal>Ujawnij</keyword> losową kartę z talii przeciwnika. Jeśli jest brązowa, wzmocnij sojusznika o 3. Jeśli jest złota, wzmocnij zamiast tego o 4.\nNa początku rundy odśwież tę umiejętność.\n",
+        "name": "Morvran Voorhis"
+    },
+    "200164": {
+        "info": "Rozkaz: Zapoznaj się z 3 kartami ze szczytu swojej talii i zagraj jedną z nich.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zapoznaj się z 3 kartami ze szczytu swojej talii i zagraj jedną z nich.\n",
+        "name": "Jan Calveit"
+    },
+    "200165": {
+        "info": "Rozkaz: Zagraj kartę specjalną ze swojego cmentarza.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zagraj kartę specjalną ze swojego cmentarza.\n",
+        "name": "Francesca Findabair"
+    },
+    "200166": {
+        "info": "Rozkaz: Zadaj jednostce 1 pkt obrażeń.\nŁadunki: 3.\nNa początku rundy odśwież ładunki Eithné.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zadaj jednostce 1 pkt obrażeń.\n<keyword=charge>Ładunki</keyword>: 3.\nNa początku rundy odśwież <keyword=charge>ładunki</keyword> Eithné.\n",
+        "name": "Eithné"
+    },
+    "200167": {
+        "info": "Rozkaz: Przenieś jednostkę do drugiego rzędu. Jeśli to wróg, zadaj mu 2 pkt obrażeń",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Przenieś jednostkę do drugiego rzędu. Jeśli to wróg, zadaj mu 2 pkt obrażeń",
+        "name": "Brouver Hoog"
+    },
+    "200168": {
+        "info": "Rozkaz: Wzmocnij sojusznika o 1 i daj mu Zapał.\nŁadunki: 3.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Wzmocnij sojusznika o 1 i daj mu <keyword=zeal>Zapał</keyword>.\n<keyword=charge>Ładunki</keyword>: 3.\n",
+        "name": "Król Foltest"
+    },
+    "200170": {
+        "info": "Rozkaz: Zagraj egzemplarz znajdującej się na polu bitwy sojuszniczej jednostki ze swojej talii, wzmocnij ją o 4 i daj jej zapał.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zagraj egzemplarz znajdującej się na polu bitwy sojuszniczej jednostki ze swojej talii, wzmocnij ją o 4 i daj jej <keyword=zeal>zapał</keyword>.\n",
+        "name": "Król Henselt"
+    },
+    "200171": {
+        "info": "Za każdym razem, gdy ta jednostka jest wzmacniana, zadaj losowemu wrogowi 1 pkt obrażeń.\n",
+        "infoRaw": "Za każdym razem, gdy ta jednostka jest wzmacniana, zadaj losowemu wrogowi 1 pkt obrażeń.\n",
+        "name": "Tridamski piechur"
+    },
+    "200177": {
+        "info": "Jeśli ta jednostka jest na cmentarzu, wezwij ją do losowego rzędu sojuszniczego za każdym razem, gdy zagrywasz jednostkę ze swojego cmentarza.\n",
+        "infoRaw": "Jeśli ta jednostka jest na cmentarzu, <keyword=summon>wezwij</keyword> ją do losowego rzędu sojuszniczego za każdym razem, gdy zagrywasz jednostkę ze swojego cmentarza.\n",
+        "name": "Cerys an Craite"
+    },
+    "200209": {
+        "info": "Rozkaz: Zadaj wrogowi 2 pkt obrażeń.\nOdnowienie: 4.\nJeśli masz w ręce Elfa, Krasnoluda lub Driadę, skróć licznik odnowienia o 1 (raz na kategorię).\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zadaj wrogowi 2 pkt obrażeń.\n<keyword=cooldown>Odnowienie</keyword>: 4.\nJeśli masz w ręce Elfa, Krasnoluda lub Driadę, skróć licznik <keyword=cooldown>odnowienia</keyword> o 1 (raz na kategorię).\n",
+        "name": "Saskia"
+    },
+    "200212": {
+        "info": "Rozmieszczenie: Zadaj niezranionemu wrogowi 4 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj niezranionemu wrogowi 4 pkt obrażeń.\n",
+        "name": "Skjall"
+    },
+    "200218": {
+        "info": "Rozmieszczenie, bliskie starcie: Wzmocnij tę kartę o 2 za każdą jednostkę przewagi wroga na polu bitwy.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Wzmocnij tę kartę o 2 za każdą jednostkę przewagi wroga na polu bitwy.\n",
+        "name": "Jotunn"
+    },
+    "200220": {
+        "info": "Rozmieszczenie, daleki zasięg: Zagraj Organiczną kartę ze swojej talii.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Zagraj Organiczną kartę ze swojej talii.\n",
+        "name": "Szepciucha: Trybut"
+    },
+    "200221": {
+        "info": "Aktywuj umiejętności zemsty wszystkich sojuszników.\n",
+        "infoRaw": "Aktywuj umiejętności <keyword=deathwish>zemsty</keyword> wszystkich sojuszników.\n",
+        "name": "Rytualna Ofiara"
+    },
+    "200222": {
+        "info": "Rozmieszczenie, bliskie starcie: Pochłoń jednostkę ze swojej ręki i dobierz kartę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: <keyword=consume>Pochłoń</keyword> jednostkę ze swojej ręki i dobierz kartę.\n",
+        "name": "Prządka: Inkantacja"
+    },
+    "200223": {
+        "info": "Zresetuj jednostkę.\n",
+        "infoRaw": "<keyword=reset>Zresetuj</keyword> jednostkę.\n",
+        "name": "Mandragora"
+    },
+    "200224": {
+        "info": "Aktywuj umiejętność zemsty brązowej jednostki.\n",
+        "infoRaw": "Aktywuj umiejętność <keyword=deathwish>zemsty</keyword> brązowej jednostki.\n",
+        "name": "Wronie oko"
+    },
+    "200225": {
+        "info": "Przechwyć wroga o sile 5 lub mniejszej i go zablokuj.\n",
+        "infoRaw": "<keyword=seize>Przechwyć</keyword> wroga o sile 5 lub mniejszej i go <keyword=lock>zablokuj</keyword>.\n",
+        "name": "Kaganiec Vigo"
+    },
+    "200226": {
+        "info": "Zadaj 2 pkt obrażeń wszystkim wrogom z parzystą siłą lub zadaj 2 pkt obrażeń wszystkim wrogom z nieparzystą siłą.\n",
+        "infoRaw": "Zadaj 2 pkt obrażeń wszystkim wrogom z parzystą siłą lub zadaj 2 pkt obrażeń wszystkim wrogom z nieparzystą siłą.\n",
+        "name": "Tojad"
+    },
+    "200228": {
+        "info": "Zasadzka: Zniszcz następną jednostkę zagraną przez twojego przeciwnika zanim aktywuje jakiekolwiek umiejętności.\n",
+        "infoRaw": "<keyword=ambush>Zasadzka</keyword>: Zniszcz następną jednostkę zagraną przez twojego przeciwnika zanim aktywuje jakiekolwiek umiejętności.\n",
+        "name": "Wilczy Dół"
+    },
+    "200233": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 2 pkt obrażeń za każdą sąsiadującą Bestię.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 2 pkt obrażeń za każdą sąsiadującą Bestię.\n",
+        "name": "Kuroliszek"
+    },
+    "200234": {
+        "info": "Rozmieszczenie: Wzmocnij tę jednostkę o 4.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij tę jednostkę o 4.\n",
+        "name": "Biedna Pierdolona Piechota"
+    },
+    "200235": {
+        "info": "Rozmieszczenie: Zniszcz wroga z wytrzymałością.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zniszcz wroga z <keyword=resilient>wytrzymałością</keyword>.\n",
+        "name": "Lambert: Fechmistrz"
+    },
+    "200236": {
+        "info": "Bliskie starcie: Na koniec każdej tury wzmocnij tę jednostkę o 1.\n",
+        "infoRaw": "<keyword=melee>Bliskie starcie</keyword>: Na koniec każdej tury wzmocnij tę jednostkę o 1.\n",
+        "name": "Eskel: Tropiciel"
+    },
+    "200237": {
+        "info": "Rozmieszczenie: Wzmocnij wszystkich sojuszniczych Wiedźminów w ręce, talii lub na polu bitwy o 1.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij wszystkich sojuszniczych Wiedźminów w ręce, talii lub na polu bitwy o 1.\n",
+        "name": "Vesemir: Mentor"
+    },
+    "200293": {
+        "info": "Rozmieszczenie, daleki zasięg: Wzmocnij Krasnoluda w swojej ręce o 2.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Wzmocnij Krasnoluda w swojej ręce o 2.\n",
+        "name": "Agitator Scoia'tael"
+    },
+    "200294": {
+        "info": "Rozmieszczenie: Wzmocnij sojusznika o 2.\nZa każdym razem, gdy ujawniasz tę kartę, wzmocnij losowego sojusznika o 2.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij sojusznika o 2.\nZa każdym razem, gdy <keyword=reveal>ujawniasz</keyword> tę kartę, wzmocnij losowego sojusznika o 2.\n",
+        "name": "Nilfgaardzki oficer"
+    },
+    "200295": {
+        "info": "Zemsta: Zadaj losowemu wrogowi 4 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deathwish>Zemsta</keyword>: Zadaj losowemu wrogowi 4 pkt obrażeń.\n",
+        "name": "Zgnilec"
+    },
+    "200296": {
+        "info": "Rozmieszczenie, bliskie starcie: Zablokuj wrogą jednostkę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: <keyword=lock>Zablokuj</keyword> wrogą jednostkę.\n",
+        "name": "Konnica Dywizji Alba"
+    },
+    "200299": {
+        "info": "Rozkaz: Wzmocnij sojusznika o 1 i daj mu Zapał.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Wzmocnij sojusznika o 1 i daj mu <keyword=zeal>Zapał</keyword>.\n",
+        "name": "Temerski Werblista"
+    },
+    "200300": {
+        "info": "Przenieś wroga do drugiego rzędu i zadaj mu obrażenia równe liczbie jednostek w tym rzędzie.\n",
+        "infoRaw": "Przenieś wroga do drugiego rzędu i zadaj mu obrażenia równe liczbie jednostek w tym rzędzie.\n",
+        "name": "Krwawy połów"
+    },
+    "200301": {
+        "info": "Podejrzyj losowe złote karty (2) ze swojej talii, a następnie zagraj jedną, a drugą umieść na wierzchu swojej talii.\n",
+        "infoRaw": "Podejrzyj losowe złote karty (2) ze swojej talii, a następnie zagraj jedną, a drugą umieść na wierzchu swojej talii.\n",
+        "name": "Naglfar"
+    },
+    "200320": {
+        "info": "Brak umiejętności.\n",
+        "infoRaw": "Brak umiejętności.\n",
+        "name": "Czart"
+    },
+    "200502": {
+        "info": "Na koniec każdej tury, jeśli masz mniej jednostek niż przeciwnik, wzmocnij tę jednostkę o 1.\n",
+        "infoRaw": "Na koniec każdej tury, jeśli masz mniej jednostek niż przeciwnik, wzmocnij tę jednostkę o 1.\n",
+        "name": "Lodowy troll"
+    },
+    "200518": {
+        "info": "Rozmieszczenie: Jeśli w tej turze użyto umiejętności twojego Przywódcy, zadaj wrogowi 3 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Jeśli w tej turze użyto umiejętności twojego Przywódcy, zadaj wrogowi 3 pkt obrażeń.\n",
+        "name": "Dywizja Venendal"
+    },
+    "200519": {
+        "info": "Wzmocnij jednostkę o 4 i zdejmij z niej blokadę.\n",
+        "infoRaw": "Wzmocnij jednostkę o 4 i zdejmij z niej <keyword=lock>blokadę</keyword>.\n",
+        "name": "Mahakamski Dwójniak"
+    },
+    "200520": {
+        "info": "Rozkaz: Zagraj brązowy Artefakt ze swojego cmentarza.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zagraj brązowy Artefakt ze swojego cmentarza.\n",
+        "name": "Éibhear Hattori"
+    },
+    "200523": {
+        "info": "Rozmieszczenie, bliskie starcie Stwórz Krowy (2) po obu stronach tej jednostki.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword> <keyword=spawn>Stwórz</keyword> Krowy (2) po obu stronach tej jednostki.\n",
+        "name": "Maćko z Lisich Dołów"
+    },
+    "200528": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 3 pkt obrażeń, następnie zadaj tej jednostce 2 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 3 pkt obrażeń, następnie zadaj tej jednostce 2 pkt obrażeń.\n",
+        "name": "Włóczniczka Heymaey"
+    },
+    "200529": {
+        "info": "Rozmieszczenie: Wzmocnij tę jednostkę o 5.\nza każdym razem, gdy zagrywasz Żołnierza, wezwij tę jednostkę ze swojego cmentarza do losowego rzędu sojuszniczego.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij tę jednostkę o 5.\nza każdym razem, gdy zagrywasz Żołnierza, <keyword=summon>wezwij</keyword> tę jednostkę ze swojego cmentarza do losowego rzędu sojuszniczego.\n",
+        "name": "Ronvid z Małego Łęgu"
+    },
+    "200530": {
+        "info": "Zapał.\nRozkaz: Zadaj jednostce 2 pkt obrażeń.\nŁadunki: 3.\n",
+        "infoRaw": "<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Zadaj jednostce 2 pkt obrażeń.\n<keyword=charge>Ładunki</keyword>: 3.\n",
+        "name": "Zatruty Miód"
+    },
+    "200532": {
+        "info": "Zapał.\nRozkaz: Wzmocnij jednostkę o 3.\nOdnowienie: 2.\n",
+        "infoRaw": "<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Wzmocnij jednostkę o 3.\n<keyword=cooldown>Odnowienie</keyword>: 2.\n",
+        "name": "Miód Przodków"
+    },
+    "200534": {
+        "info": "Bliskie starcie: Za każdym razem, gdy podczas twojej tury zniszczony zostaje sojusznik, wzmocnij tę jednostkę o 2.\n",
+        "infoRaw": "<keyword=melee>Bliskie starcie</keyword>: Za każdym razem, gdy podczas twojej tury zniszczony zostaje sojusznik, wzmocnij tę jednostkę o 2.\n",
+        "name": "Trollica"
+    },
+    "200535": {
+        "info": "Rozkaz, bliskie starcie: Zadaj wrogowi 1 pkt obrażeń.\nOdnowienie: 2.\nZa każdym razem, gdy zagrywasz Elfa, zmniejsz odnowienie o 1.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>, <keyword=melee>bliskie starcie</keyword>: Zadaj wrogowi 1 pkt obrażeń.\n<keyword=cooldown>Odnowienie</keyword>: 2.\nZa każdym razem, gdy zagrywasz Elfa, zmniejsz <keyword=cooldown>odnowienie</keyword> o 1.\n",
+        "name": "Mistrzyni Miecza"
+    },
+    "200539": {
+        "info": "Rozkaz: Pochłoń sojuszniczą jednostkę w tym rzędzie.\nOdnowienie: 1.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: <keyword=consume>Pochłoń</keyword> sojuszniczą jednostkę w tym rzędzie.\n<keyword=cooldown>Odnowienie</keyword>: 1.\n",
+        "name": "Oszluzg"
+    },
+    "200540": {
+        "info": "Rozkaz: Zadaj wrogowi 4 pkt obrażeń.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zadaj wrogowi 4 pkt obrażeń.\n",
+        "name": "Aedirnski Rębajło"
+    },
+    "201523": {
+        "info": "Rozmieszczenie: Przywróć wszystkim jednostkom w rzędzie ich siłę bazową.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Przywróć wszystkim jednostkom w rzędzie ich siłę bazową.\n",
+        "name": "Geralt: Yrden"
+    },
+    "201559": {
+        "info": "Rozmieszczenie, bliskie starcie: Jeśli w tym rzędzie jest Krasnolud, wezwij do niego egzemplarz tej jednostki ze swojej talii.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Jeśli w tym rzędzie jest Krasnolud, <keyword=summon>wezwij</keyword> do niego egzemplarz tej jednostki ze swojej talii.\n",
+        "name": "Huf Mahakamski"
+    },
+    "201574": {
+        "info": "Zemsta: Zadaj losowej wrogiej jednostce 2 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deathwish>Zemsta</keyword>: Zadaj losowej wrogiej jednostce 2 pkt obrażeń.\n",
+        "name": "Druh Haralda"
+    },
+    "201576": {
+        "info": "Fatum.\n",
+        "infoRaw": "<keyword=doomed>Fatum</keyword>.\n",
+        "name": "Krasula z Beauclair"
+    },
+    "201578": {
+        "info": "Rozmieszczenie, bliskie starcie: Rozdziel losowo 4 pkt obrażeń pomiędzy wszystkie jednostki.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Rozdziel losowo 4 pkt obrażeń pomiędzy wszystkie jednostki.\n",
+        "name": "Skelligijski Maruder"
+    },
+    "201579": {
+        "info": "Jeśli na początku rundy Feniks jest na twoim cmentarzu, wygnaj go, następnie stwórz Młode Feniksa i wezwij je do losowego rzędu sojuszniczego.\n",
+        "infoRaw": "Jeśli na początku rundy Feniks jest na twoim cmentarzu, <keyword=banish>wygnaj</keyword> go, następnie <keyword=spawn>stwórz</keyword> Młode Feniksa i <keyword=summon>wezwij</keyword> je do losowego rzędu sojuszniczego.\n",
+        "name": "Feniks"
+    },
+    "201580": {
+        "info": "Na początku gry wyłącz Przywódcę wroga na cały czas jej trwania.\n",
+        "infoRaw": "Na początku gry wyłącz Przywódcę wroga na cały czas jej trwania.\n",
+        "name": "Uzurpator"
+    },
+    "201581": {
+        "info": "Utwórz i zagraj brązową kartę Skellige.\n",
+        "infoRaw": "<keyword=create>Utwórz</keyword> i zagraj brązową kartę Skellige.\n",
+        "name": "Runa Strzybóg"
+    },
+    "201582": {
+        "info": "Utwórz i zagraj brązową kartę Królestw Północy.\n",
+        "infoRaw": "<keyword=create>Utwórz</keyword> i zagraj brązową kartę Królestw Północy.\n",
+        "name": "Runa Zoria"
+    },
+    "201583": {
+        "info": "Utwórz i zagraj brązową kartę Nilfgaardu.\n",
+        "infoRaw": "<keyword=create>Utwórz</keyword> i zagraj brązową kartę Nilfgaardu.\n",
+        "name": "Runa Darzbóg"
+    },
+    "201584": {
+        "info": "Utwórz i zagraj brązową kartę z frakcji Potworów.\n",
+        "infoRaw": "<keyword=create>Utwórz</keyword> i zagraj brązową kartę z frakcji Potworów.\n",
+        "name": "Runa Dziewanna"
+    },
+    "201585": {
+        "info": "Utwórz i zagraj brązową kartę Scoia'tael.\n",
+        "infoRaw": "<keyword=create>Utwórz</keyword> i zagraj brązową kartę Scoia'tael.\n",
+        "name": "Runa Morana"
+    },
+    "201587": {
+        "info": "Zniszcz sojuszniczą jednostkę, następnie stwórz i zagraj jej egzemplarz bazowy.\n",
+        "infoRaw": "Zniszcz sojuszniczą jednostkę, następnie <keyword=spawn>stwórz</keyword> i zagraj jej egzemplarz bazowy.\n",
+        "name": "Szepczące Wzgórze"
+    },
+    "201589": {
+        "info": "Rozkaz: Wzmocnij wszystkie jednostki w swojej ręce o 1.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Wzmocnij wszystkie jednostki w swojej ręce o 1.\n",
+        "name": "Filavandrel aén Fidháil"
+    },
+    "201595": {
+        "info": "Rozkaz: Zadaj jednostce 8 pkt obrażeń.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zadaj jednostce 8 pkt obrażeń.\n",
+        "name": "Królewna Adda"
+    },
+    "201597": {
+        "info": "Rozkaz: Zagraj Wojownika ze swojego cmentarza.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zagraj Wojownika ze swojego cmentarza.\n",
+        "name": "Eist Tuirseach"
+    },
+    "201598": {
+        "info": "Wzmocnij wszystkich sojuszników o 1.\n",
+        "infoRaw": "Wzmocnij wszystkich sojuszników o 1.\n",
+        "name": "Kościany talizman"
+    },
+    "201599": {
+        "info": "Pokrzepienie.\nRozmieszczenie: Zadaj wszystkim jednostkom wroga w przeciwnym rzędzie 1 pkt obrażeń.\nZemsta: Powtórz umiejętność rozmieszczenia.\n",
+        "infoRaw": "<keyword=thrive>Pokrzepienie</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wszystkim jednostkom wroga w przeciwnym rzędzie 1 pkt obrażeń.\n<keyword=deathwish>Zemsta</keyword>: Powtórz umiejętność <keyword=deploy>rozmieszczenia</keyword>.\n",
+        "name": "Kotołak"
+    },
+    "201600": {
+        "info": "Odporność.\n",
+        "infoRaw": "<keyword=immune>Odporność</keyword>.\n",
+        "name": "Wilkołak"
+    },
+    "201601": {
+        "info": "Wybierz dowolną jednostkę lub Artefakt na polu bitwy i umieść ją na szczycie talii właściciela.\n",
+        "infoRaw": "Wybierz dowolną jednostkę lub Artefakt na polu bitwy i umieść ją na szczycie talii właściciela.\n",
+        "name": "Magiczny wstrząs"
+    },
+    "201603": {
+        "info": "Rozmieszczenie: Przemień w egzemplarz innej jednostki na polu bitwy bez zmiany jej siły.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Przemień w egzemplarz innej jednostki na polu bitwy bez zmiany jej siły.\n",
+        "name": "Letho: Królobójca"
+    },
+    "201606": {
+        "info": "Rozmieszczenie: Zadaj wszystkim innym jednostkom 1 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wszystkim innym jednostkom 1 pkt obrażeń.\n",
+        "name": "Widłogon"
+    },
+    "201609": {
+        "info": "Rozmieszczenie: Jeśli w przeciwnym rzędzie są jednostki w liczbie co najmniej 4, przechwyć najsłabszego wroga z tego rzędu.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Jeśli w przeciwnym rzędzie są jednostki w liczbie co najmniej 4, <keyword=seize>przechwyć</keyword> najsłabszego wroga z tego rzędu.\n",
+        "name": "Łowca niewolników"
+    },
+    "201610": {
+        "info": "Rozmieszczenie: Przemień sojuszniczą jednostkę w Niewolniczą Piechotę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Przemień sojuszniczą jednostkę w Niewolniczą Piechotę.\n",
+        "name": "Niewolnicza piechota"
+    },
+    "201611": {
+        "info": "Jeśli masz w swojej talii początkowej Pułapki w liczbie co najmniej 4, zagraj losowo 2 z nich.\n",
+        "infoRaw": "Jeśli masz w swojej talii początkowej Pułapki w liczbie co najmniej 4, zagraj losowo 2 z nich.\n",
+        "name": "Podstęp Iorwetha"
+    },
+    "201612": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 2 pkt obrażeń. Zwiększ obrażenia o 1 za każdą zablokowaną jednostkę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 2 pkt obrażeń. Zwiększ obrażenia o 1 za każdą <keyword=lock>zablokowaną</keyword> jednostkę.\n",
+        "name": "Nadzorca niewolników"
+    },
+    "201613": {
+        "info": "Rozkaz: Zadaj wrogowi 1 pkt obrażeń.\nŁadunki: 5.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zadaj wrogowi 1 pkt obrażeń.\n<keyword=charge>Ładunki</keyword>: 5.\n",
+        "name": "Saskia: Smoczy Ogień"
+    },
+    "201615": {
+        "info": "Podejrzyj losowego Krasnoluda, Driadę i Elfa ze swojej talii, następnie zagraj jedną z tych kart.\n",
+        "infoRaw": "Podejrzyj losowego Krasnoluda, Driadę i Elfa ze swojej talii, następnie zagraj jedną z tych kart.\n",
+        "name": "Rada Isengrima"
+    },
+    "201616": {
+        "info": "Rozkaz: Zamień siłę tej jednostki z siłą wybranego wroga.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zamień siłę tej jednostki z siłą wybranego wroga.\n",
+        "name": "Mistrz kamuflażu"
+    },
+    "201617": {
+        "info": "Rozmieszczenie: Ujawnij losową jednostkę z obu talii. Jeśli twoja jest silniejsza, wzmocnij ją o 2.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: <keyword=reveal>Ujawnij</keyword> losową jednostkę z obu talii. Jeśli twoja jest silniejsza, wzmocnij ją o 2.\n",
+        "name": "Rekrut"
+    },
+    "201618": {
+        "info": "Rozkaz, bliskie starcie: Stocz pojedynek z jednostką wroga.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>, <keyword=melee>bliskie starcie</keyword>: Stocz <keyword=duel>pojedynek</keyword> z jednostką wroga.\n",
+        "name": "Seltkirk"
+    },
+    "201619": {
+        "info": "Wzmocnij brązowego Żołnierza o 2 i ponownie aktywuj jego umiejętność rozmieszczenia.\n",
+        "infoRaw": "Wzmocnij brązowego Żołnierza o 2 i ponownie aktywuj jego umiejętność <keyword=deploy>rozmieszczenia</keyword>.\n",
+        "name": "Mazidło"
+    },
+    "201620": {
+        "info": "Rozkaz, bliskie starcie: Zadaj jednostce 1 pkt obrażeń.\nOdnowienie: 1.\nJeśli kontrolujesz Miecz Vandergrifta, zamiast tego zadaj jednostce 2 pkt obrażeń.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>, <keyword=melee>bliskie starcie</keyword>: Zadaj jednostce 1 pkt obrażeń.\n<keyword=cooldown>Odnowienie</keyword>: 1.\nJeśli kontrolujesz Miecz Vandergrifta, zamiast tego zadaj jednostce 2 pkt obrażeń.\n",
+        "name": "Vandergrift"
+    },
+    "201621": {
+        "info": "Rozkaz: Zadaj jednostce tyle pkt obrażeń, ile ładunków posiada Kiyan.\nŁadunki: 1.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zadaj jednostce tyle pkt obrażeń, ile <keyword=charge>ładunków</keyword> posiada Kiyan.\n<keyword=charge>Ładunki</keyword>: 1.\n",
+        "name": "Kiyan"
+    },
+    "201622": {
+        "info": "Rozmieszczenie: Wzmocnij tę jednostkę o 4, jeśli zagrywasz ją z talii.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij tę jednostkę o 4, jeśli zagrywasz ją z talii.\n",
+        "name": "Rycerz z Kaedwen"
+    },
+    "201623": {
+        "info": "Rozmieszczenie, bliskie starcie: Wzmocnij tę jednostkę o 1 za każdą zranioną jednostkę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Wzmocnij tę jednostkę o 1 za każdą zranioną jednostkę.\n",
+        "name": "Olbrzymi dzik"
+    },
+    "201624": {
+        "info": "Rozkaz: Zadaj jednostce 1 pkt obrażeń. Jeśli została zniszczona, stwórz egzemplarz bazowy Kaedweńskiego Upiora i wezwij go do tego rzędu.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zadaj jednostce 1 pkt obrażeń. Jeśli została zniszczona, <keyword=spawn>stwórz</keyword> egzemplarz bazowy Kaedweńskiego Upiora i <keyword=summon>wezwij</keyword> go do tego rzędu.\n",
+        "name": "Kaedweński Upiór"
+    },
+    "201625": {
+        "info": "Rozmieszczenie: Przekształć sojuszniczą jednostkę niebędącą Przeklętym Rycerzem w Przeklętego Rycerza, nie zmieniając jego siły.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Przekształć sojuszniczą jednostkę niebędącą Przeklętym Rycerzem w Przeklętego Rycerza, nie zmieniając jego siły.\n",
+        "name": "Przeklęty Rycerz"
+    },
+    "201626": {
+        "info": "Jeśli na początku tury na twoim cmentarzu znajduje się tylko ta jednostka, wezwij ją do losowego rzędu sojuszniczego.\n",
+        "infoRaw": "Jeśli na początku tury na twoim cmentarzu znajduje się tylko ta jednostka, <keyword=summon>wezwij</keyword> ją do losowego rzędu sojuszniczego.\n",
+        "name": "Ciri: Erupcja Mocy"
+    },
+    "201627": {
+        "info": "Fatum.\nJeśli w twojej talii początkowej nie ma duplikatów, wyślij Sklepa na spotkanie przygody.\n",
+        "infoRaw": "<keyword=doomed>Fatum</keyword>.\nJeśli w twojej talii początkowej nie ma duplikatów, wyślij Sklepa na spotkanie przygody.\n",
+        "name": "Przygody Sklepa"
+    },
+    "201628": {
+        "info": "Zadaj wrogowi 1 pkt obrażeń za każdego sojuszniczego Upiora.\n",
+        "infoRaw": "Zadaj wrogowi 1 pkt obrażeń za każdego sojuszniczego Upiora.\n",
+        "name": "Czarna Magia"
+    },
+    "201630": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 3 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 3 pkt obrażeń.\n",
+        "name": "Widmo Czarodziejki"
+    },
+    "201631": {
+        "info": "Rozmieszczenie: Wybierz jednostkę ze swojej ręki, następnie wzmocnij tę kartę o sumę jednostek w twojej ręce o tej samej kategorii głównej jak wybrana.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wybierz jednostkę ze swojej ręki, następnie wzmocnij tę kartę o sumę jednostek w twojej ręce o tej samej kategorii głównej jak wybrana.\n",
+        "name": "Doppler"
+    },
+    "201632": {
+        "info": "Zapał.\nRozkaz: Zadaj wrogowi 1 pkt obrażeń.\nOdnowienie: 1.\nZa każdym razem, kiedy Sihill zniszczy wroga, zwiększ obrażenia zadawane przez rozkaz Sihilla o 1 (aż do momentu, w którym zostanie przeniesiony z pola bitwy).\n",
+        "infoRaw": "<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Zadaj wrogowi 1 pkt obrażeń.\n<keyword=cooldown>Odnowienie</keyword>: 1.\nZa każdym razem, kiedy Sihill zniszczy wroga, zwiększ obrażenia zadawane przez <keyword=order>rozkaz</keyword> Sihilla o 1 (aż do momentu, w którym zostanie przeniesiony z pola bitwy).\n",
+        "name": "Sihill"
+    },
+    "201633": {
+        "info": "Zapał.\nRozkaz: Zadaj wrogowi obrażenia równe liczbie ładunków Krwawego Korbacza, następnie odbierz tej jednostce wszystkie ładunki.\nŁadunki: 1.\nZa każdym razem, gdy sojusznicza jednostka zyskuje ładunki, daj tej jednostce tyle samo.\n",
+        "infoRaw": "<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Zadaj wrogowi obrażenia równe liczbie <keyword=charge>ładunków</keyword> Krwawego Korbacza, następnie odbierz tej jednostce wszystkie <keyword=charge>ładunki</keyword>.\n<keyword=charge>Ładunki</keyword>: 1.\nZa każdym razem, gdy sojusznicza jednostka zyskuje <keyword=charge>ładunki</keyword>, daj tej jednostce tyle samo.\n",
+        "name": "Krwawy korbacz"
+    },
+    "201634": {
+        "info": "Zadaj jednostce 8 pkt obrażeń.\n",
+        "infoRaw": "Zadaj jednostce 8 pkt obrażeń.\n",
+        "name": "Lawina Bekkera"
+    },
+    "201635": {
+        "info": "Zniszcz jednostkę o największej sile bazowej.\n",
+        "infoRaw": "Zniszcz jednostkę o największej sile bazowej.\n",
+        "name": "Udane Łowy"
+    },
+    "201636": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 1 pkt obrażeń za każdy Artefakt, który kontrolujesz.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 1 pkt obrażeń za każdy Artefakt, który kontrolujesz.\n",
+        "name": "Pół-elf łowca"
+    },
+    "201637": {
+        "info": "Zastosuj ten efekt w rzędzie przeciwnika:\nPo 3 turach, na początku tury, wybuchnij i zadaj wszystkim jednostkom w tym rzędzie 3 pkt obrażeń.\n",
+        "infoRaw": "Zastosuj ten efekt w rzędzie przeciwnika:\nPo 3 turach, na początku tury, wybuchnij i zadaj wszystkim jednostkom w tym rzędzie 3 pkt obrażeń.\n",
+        "name": "Smoczy Sen"
+    },
+    "201638": {
+        "info": "Za każdym razem, gdy uruchomiona zostanie Pułapka po twojej stronie, wzmocnij tę jednostkę o 2.\n",
+        "infoRaw": "Za każdym razem, gdy uruchomiona zostanie Pułapka po twojej stronie, wzmocnij tę jednostkę o 2.\n",
+        "name": "Elfi zwiadowcy"
+    },
+    "201639": {
+        "info": "Wzmocnij jednostkę o 10.\n",
+        "infoRaw": "Wzmocnij jednostkę o 10.\n",
+        "name": "Obsadzony Garnizon"
+    },
+    "201644": {
+        "info": "Rozkaz: Uzdrów sojusznika z 1 pkt obrażeń.\nŁadunki: 1.\nDaj tej jednostce ładunki (1) za każdym razem, gdy sąsiadująca jednostka odnosi obrażenia.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: <keyword=heal>Uzdrów</keyword> sojusznika z 1 pkt obrażeń.\n<keyword=charge>Ładunki</keyword>: 1.\nDaj tej jednostce <keyword=charge>ładunki</keyword> (1) za każdym razem, gdy sąsiadująca jednostka odnosi obrażenia.\n",
+        "name": "Yoana"
+    },
+    "201645": {
+        "info": "Zasadzka: Po 3 turach, na początku tury, zadaj 2 pkt obrażeń wszystkim jednostkom wroga w rzędzie z największą liczbą jednostek.\nZapał.\nRozkaz: Odwróć wszystkie jednostki w wybranym rzędzie i zadaj im 1 pkt obrażeń.\n",
+        "infoRaw": "<keyword=ambush>Zasadzka</keyword>: Po 3 turach, na początku tury, zadaj 2 pkt obrażeń wszystkim jednostkom wroga w rzędzie z największą liczbą jednostek.\n<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Odwróć wszystkie jednostki w wybranym rzędzie i zadaj im 1 pkt obrażeń.\n",
+        "name": "Pułapka Miażdżąca"
+    },
+    "201646": {
+        "info": "Rozmieszczenie, daleki zasięg: Przenieś jednostki (maks. 3) ze swojej talii na swój cmentarz.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Przenieś jednostki (maks. 3) ze swojej talii na swój cmentarz.\n",
+        "name": "Derran"
+    },
+    "201647": {
+        "info": "Zadaj wrogowi 4 pkt obrażeń i przenieś go do drugiego rzędu.\n",
+        "infoRaw": "Zadaj wrogowi 4 pkt obrażeń i przenieś go do drugiego rzędu.\n",
+        "name": "Grad Kamieni"
+    },
+    "201648": {
+        "info": "Za każdym razem, gdy zagrywasz do tego rzędu Żołnierza, wzmocnij go o 2.\n",
+        "infoRaw": "Za każdym razem, gdy zagrywasz do tego rzędu Żołnierza, wzmocnij go o 2.\n",
+        "name": "Miecz Vandergrifta"
+    },
+    "201650": {
+        "info": "Zadaj wszystkim jednostkom, które nie są Upiorami, 1 pkt obrażeń. Jeśli jakaś jednostka została zniszczona, powtórz tę umiejętność jeden raz.\n",
+        "infoRaw": "Zadaj wszystkim jednostkom, które nie są Upiorami, 1 pkt obrażeń. Jeśli jakaś jednostka została zniszczona, powtórz tę umiejętność jeden raz.\n",
+        "name": "Inferno Sabriny"
+    },
+    "201653": {
+        "info": "Zasadzka: Gdy przeciwnik spasuje, wzmocnij sąsiadujące jednostki o 4.\n",
+        "infoRaw": "<keyword=ambush>Zasadzka</keyword>: Gdy przeciwnik spasuje, wzmocnij sąsiadujące jednostki o 4.\n",
+        "name": "Mahakamski róg"
+    },
+    "201656": {
+        "info": "Zapał.\nRozkaz: Zadaj jednostce 1 pkt obrażeń.\nOdnowienie: 1.\n",
+        "infoRaw": "<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Zadaj jednostce 1 pkt obrażeń.\n<keyword=cooldown>Odnowienie</keyword>: 1.\n",
+        "name": "Mistrzowska Włócznia"
+    },
+    "201657": {
+        "info": "Zadaj wrogowi 6 pkt obrażeń lub wzmocnij sojusznika o 6.\n",
+        "infoRaw": "Zadaj wrogowi 6 pkt obrażeń lub wzmocnij sojusznika o 6.\n",
+        "name": "Pasożyt"
+    },
+    "201659": {
+        "info": "Zagraj brązową Maszynę ze swojego cmentarza.\n",
+        "infoRaw": "Zagraj brązową Maszynę ze swojego cmentarza.\n",
+        "name": "Kołowrót"
+    },
+    "201660": {
+        "info": "Zemsta: Na koniec tury wezwij tę jednostkę ze swojego cmentarza do losowego rzędu sojuszniczego.\n",
+        "infoRaw": "<keyword=deathwish>Zemsta</keyword>: Na koniec tury <keyword=summon>wezwij</keyword> tę jednostkę ze swojego cmentarza do losowego rzędu sojuszniczego.\n",
+        "name": "Jennik"
+    },
+    "201662": {
+        "info": "Zapał.\nRozkaz: Zniszcz tę jednostkę i wszystkie jednostki, których siła równa się liczbie ładunków Jadu Wisielców.\nŁadunki: 0.\nNa początku każdej tury i za każdym razem, gdy zagrywasz kartę Taktyki, daj tej jednostce 1 ładunek.\n",
+        "infoRaw": "<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Zniszcz tę jednostkę i wszystkie jednostki, których siła równa się liczbie <keyword=charge>ładunków</keyword> Jadu Wisielców.\n<keyword=charge>Ładunki</keyword>: 0.\nNa początku każdej tury i za każdym razem, gdy zagrywasz kartę Taktyki, daj tej jednostce 1 <keyword=charge>ładunek</keyword>.\n",
+        "name": "Jad Wisielców"
+    },
+    "201664": {
+        "info": "Rozmieszczenie: Aktywuj umiejętność rozmieszczenia sąsiadujących brązowych Żołnierzy.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Aktywuj umiejętność <keyword=deploy>rozmieszczenia</keyword> sąsiadujących brązowych Żołnierzy.\n",
+        "name": "Vrygheff"
+    },
+    "201676": {
+        "info": "Rozkaz: Zadaj jednostce 1 pkt obrażeń.\nOdnowienie: 1.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zadaj jednostce 1 pkt obrażeń.\n<keyword=cooldown>Odnowienie</keyword>: 1.\n",
+        "name": "Pavko Gale"
+    },
+    "201696": {
+        "info": "Rozkaz: Wzmocnij jednostkę po lewej stronie o 4 lub daj jednostce po prawej stronie odporność.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Wzmocnij jednostkę po lewej stronie o 4 lub daj jednostce po prawej stronie <keyword=immune>odporność</keyword>.\n",
+        "name": "Paulie Dahlberg"
+    },
+    "201697": {
+        "info": "Następnym razem, gdy wróg zostanie wzmocniony, zniszcz go wraz z tą jednostką.\n",
+        "infoRaw": "Następnym razem, gdy wróg zostanie wzmocniony, zniszcz go wraz z tą jednostką.\n",
+        "name": "Czarna Krew"
+    },
+    "201698": {
+        "info": "Rozmieszczenie, bliskie starcie: Pochłoń jednostkę z cmentarza wroga.\nRozmieszczenie, daleki zasięg: Pochłoń jednostkę ze swojego cmentarza.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: <keyword=consume>Pochłoń</keyword> jednostkę z cmentarza wroga.\n<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: <keyword=consume>Pochłoń</keyword> jednostkę ze swojego cmentarza.\n",
+        "name": "Ozzrel"
+    },
+    "201700": {
+        "info": "Zemsta: Wzmocnij najsilniejszego sojusznika o 4.\n",
+        "infoRaw": "<keyword=deathwish>Zemsta</keyword>: Wzmocnij najsilniejszego sojusznika o 4.\n",
+        "name": "Troll mostowy"
+    },
+    "201701": {
+        "info": "Rozkaz: Pochłoń sojuszniczą jednostkę.\nŁadunki: 2.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: <keyword=consume>Pochłoń</keyword> sojuszniczą jednostkę.\n<keyword=charge>Ładunki</keyword>: 2.\n",
+        "name": "Barbegazi"
+    },
+    "201704": {
+        "info": "Rozmieszczenie: Usuń efekt z sojuszniczego rzędu.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Usuń efekt z sojuszniczego rzędu.\n",
+        "name": "Zwiadowca"
+    },
+    "201709": {
+        "info": "Zadaj wszystkim wrogom o nieparzystej sile 2 pkt obrażeń.\n",
+        "infoRaw": "Zadaj wszystkim wrogom o nieparzystej sile 2 pkt obrażeń.\n",
+        "name": "Wyrównywacz"
+    },
+    "201710": {
+        "info": "Zadaj wszystkim wrogom o parzystej sile 2 pkt obrażeń.\n",
+        "infoRaw": "Zadaj wszystkim wrogom o parzystej sile 2 pkt obrażeń.\n",
+        "name": "Mąciciel"
+    },
+    "201725": {
+        "info": "Wyślij Sklepa do akademii dla chłopców w Ban Ard.\n",
+        "infoRaw": "Wyślij Sklepa do akademii dla chłopców w Ban Ard.\n",
+        "name": "Sklep: Czarodziej"
+    },
+    "201726": {
+        "info": "Rozmieszczenie: Przemień skrajną prawą kartę w ręce każdego z graczy w losową kartę specjalną.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Przemień skrajną prawą kartę w ręce każdego z graczy w losową kartę specjalną.\n",
+        "name": "Sklep: Czarodziej"
+    },
+    "201727": {
+        "info": "Rozmieszczenie: Przenieś losową jednostkę do przeciwnego rzędu.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Przenieś losową jednostkę do przeciwnego rzędu.\n",
+        "name": "Sklep: Czarodziej"
+    },
+    "201728": {
+        "info": "Rozmieszczenie: Zastosuj losowy efekt rzędu we wszystkich rzędach.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zastosuj losowy efekt rzędu we wszystkich rzędach.\n",
+        "name": "Sklep: Czarodziej"
+    },
+    "201729": {
+        "info": "Rozmieszczenie: Rozdziel 13 pkt obrażeń losowo pomiędzy wszystkie inne jednostki na polu bitwy.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Rozdziel 13 pkt obrażeń losowo pomiędzy wszystkie inne jednostki na polu bitwy.\n",
+        "name": "Sklep: Czarodziej"
+    },
+    "201730": {
+        "info": "Rozmieszczenie: Stwórz losową jednostkę i wezwij ją do losowego rzędu po stronie każdego z graczy.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: <keyword=spawn>Stwórz</keyword> losową jednostkę i <keyword=summon>wezwij</keyword> ją do losowego rzędu po stronie każdego z graczy.\n",
+        "name": "Sklep: Czarodziej"
+    },
+    "201731": {
+        "info": "Wyślij Sklepa do lasów Dol Blathanna.\n",
+        "infoRaw": "Wyślij Sklepa do lasów Dol Blathanna.\n",
+        "name": "Sklep: Łowca"
+    },
+    "201732": {
+        "info": "Szpieg.Rozmieszczenie: Zagraj losową kartę ze swojej talii.\n",
+        "infoRaw": "Szpieg.<keyword=deploy>Rozmieszczenie</keyword>: Zagraj losową kartę ze swojej talii.\n",
+        "name": "Sklep: Łowca"
+    },
+    "201733": {
+        "info": "Rozmieszczenie: Rozdziel 9 pkt obrażeń losowo pomiędzy wszystkie wrogie jednostki.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Rozdziel 9 pkt obrażeń losowo pomiędzy wszystkie wrogie jednostki.\n",
+        "name": "Sklep: Łowca"
+    },
+    "201734": {
+        "info": "Rozmieszczenie: Wzmocnij wszystkie jednostki w swojej ręce o punkty siły w przedziale od 1 do 2.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij wszystkie jednostki w swojej ręce o punkty siły w przedziale od 1 do 2.\n",
+        "name": "Sklep: Łowca"
+    },
+    "201735": {
+        "info": "Rozmieszczenie: Zniszcz losowego wroga.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zniszcz losowego wroga.\n",
+        "name": "Sklep: Łowca"
+    },
+    "201737": {
+        "info": "Wyślij Sklepa do Cesarskiej Akademii Wojskowej.\n",
+        "infoRaw": "Wyślij Sklepa do Cesarskiej Akademii Wojskowej.\n",
+        "name": "Sklep: Paladyn"
+    },
+    "201738": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 4 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 4 pkt obrażeń.\n",
+        "name": "Sklep: Paladyn"
+    },
+    "201739": {
+        "info": "Rozmieszczenie: Zablokuj jednostkę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: <keyword=lock>Zablokuj</keyword> jednostkę.\n",
+        "name": "Sklep: Paladyn"
+    },
+    "201740": {
+        "info": "Rozmieszczenie: Zyskaj wytrzymałość.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zyskaj <keyword=resilient>wytrzymałość</keyword>.\n",
+        "name": "Sklep: Paladyn"
+    },
+    "201741": {
+        "info": "Rozmieszczenie: Zniszcz wrogi Artefakt.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zniszcz wrogi Artefakt.\n",
+        "name": "Sklep: Paladyn"
+    },
+    "201743": {
+        "info": "Za każdym razem, gdy sojusznicza jednostka zostanie zniszczona podczas twojej tury, stwórz Krabopająka i wezwij go do losowego sojuszniczego rzędu.\n",
+        "infoRaw": "Za każdym razem, gdy sojusznicza jednostka zostanie zniszczona podczas twojej tury, <keyword=spawn>stwórz</keyword> Krabopająka i <keyword=summon>wezwij</keyword> go do losowego sojuszniczego rzędu.\n",
+        "name": "Królowa Krabopająków"
+    },
+    "201744": {
+        "info": "Przywróć jednostce jej siłę bazową.\n",
+        "infoRaw": "Przywróć jednostce jej siłę bazową.\n",
+        "name": "Zarodniki"
+    },
+    "201748": {
+        "info": "Rozkaz, bliskie starcie: Zadaj wrogowi i wszystkim innym wrogom o tej samej sile 1 pkt obrażeń.\nŁadunki: 1.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>, <keyword=melee>bliskie starcie</keyword>: Zadaj wrogowi i wszystkim innym wrogom o tej samej sile 1 pkt obrażeń.\n<keyword=charge>Ładunki</keyword>: 1.\n",
+        "name": "Duma Foltesta"
+    },
+    "201749": {
+        "info": "Wzmocnij wszystkie jednostki w wybranym rzędzie o 2.\n",
+        "infoRaw": "Wzmocnij wszystkie jednostki w wybranym rzędzie o 2.\n",
+        "name": "Złocista Piana"
+    },
+    "201753": {
+        "info": "Rozmieszczenie: Wzmocnij sojusznika o 2.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij sojusznika o 2.\n",
+        "name": "Chłopska Milicja"
+    },
+    "201772": {
+        "info": "Rozmieszczenie, bliskie starcie: Zadaj wrogowi 3 pkt obrażeń. Jeśli siła wrogiej jednostki jest wielokrotnością 3, zamiast tego ją zniszcz.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Zadaj wrogowi 3 pkt obrażeń. Jeśli siła wrogiej jednostki jest wielokrotnością 3, zamiast tego ją zniszcz.\n",
+        "name": "Geralt: Zawodowiec"
+    },
+    "201773": {
+        "info": "Rozmieszczenie, daleki zasięg: Utwórz i zagraj brązową kartę specjalną z aktualnej talii dowolnego gracza.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: <keyword=create>Utwórz</keyword> i zagraj brązową kartę specjalną z aktualnej talii dowolnego gracza.\n",
+        "name": "Triss: Telekineza"
+    },
+    "201774": {
+        "info": "Rozmieszczenie: Zniszcz wrogą Bestię.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zniszcz wrogą Bestię.\n",
+        "name": "Jaskier: Przechwałki"
+    },
+    "201776": {
+        "info": "Rozmieszczenie: Dobierz kartę, a następnie zagraj kartę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Dobierz kartę, a następnie zagraj kartę.\n",
+        "name": "Jaskier: Poeta"
+    },
+    "201777": {
+        "info": "Rozkaz: Przechwyć wroga o sile nie większej od liczby ładunków Roche: Bezlitosnego, następnie wyzeruj ładunki.\nŁadunki: 0.\nNa początku każdej tury zyskaj ładunki (1).\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: <keyword=seize>Przechwyć</keyword> wroga o sile nie większej od liczby <keyword=charge>ładunków</keyword> Roche: Bezlitosnego, następnie wyzeruj <keyword=charge>ładunki</keyword>.\n<keyword=charge>Ładunki</keyword>: 0.\nNa początku każdej tury zyskaj <keyword=charge>ładunki</keyword> (1).\n",
+        "name": "Roche: Bezlitosny"
+    },
+    "201779": {
+        "info": "Wtasuj sojuszniczą jednostkę do swojej talii, następnie zagraj z talii jednostkę z tej samej kategorii podstawowej i wzmocnij ją o 3.\n",
+        "infoRaw": "Wtasuj sojuszniczą jednostkę do swojej talii, następnie zagraj z talii jednostkę z tej samej kategorii podstawowej i wzmocnij ją o 3.\n",
+        "name": "Zew Lasu"
+    },
+    "201780": {
+        "info": "Rozmieszczenie, daleki zasięg: Ujawnij losową jednostkę ze swojej talii, następnie wzmocnij sojusznika o jej siłę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: <keyword=reveal>Ujawnij</keyword> losową jednostkę ze swojej talii, następnie wzmocnij sojusznika o jej siłę.\n",
+        "name": "Yennefer: Wróżba"
+    },
+    "201781": {
+        "info": "Rozkaz: Jeśli kontrolujesz najsilniejszą jednostkę, zadaj jednostce 2 pkt obrażeń.\nOdnowienie: 1.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Jeśli kontrolujesz najsilniejszą jednostkę, zadaj jednostce 2 pkt obrażeń.\n<keyword=cooldown>Odnowienie</keyword>: 1.\n",
+        "name": "Imlerith"
+    },
+    "201817": {
+        "info": "Rozmieszczenie, bliskie starcie: Wezwij jednostkę o najwyższym koszcie werbunku z talii obu graczy do odpowiednich rzędów bliskiego starcia.\nRozmieszczenie, daleki zasięg: Wezwij jednostkę o najniższym koszcie werbunku z talii obu graczy do odpowiednich rzędów dalekiego zasięgu.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: <keyword=summon>Wezwij</keyword> jednostkę o najwyższym koszcie werbunku z talii obu graczy do odpowiednich rzędów bliskiego starcia.\n<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: <keyword=summon>Wezwij</keyword> jednostkę o najniższym koszcie werbunku z talii obu graczy do odpowiednich rzędów dalekiego zasięgu.\n",
+        "name": "Ihuarraquax"
+    },
+    "202044": {
+        "info": "Rozmieszczenie, bliskie starcie: Zadaj wrogowi i wszystkim jego egzemplarzom 3 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Zadaj wrogowi i wszystkim jego egzemplarzom 3 pkt obrażeń.\n",
+        "name": "Kulawy Gerwin"
+    },
+    "202054": {
+        "info": "Zniszcz sojusznicze jednostki tego samego koloru (2), następnie utwórz i zagraj jednostkę tego koloru.\n",
+        "infoRaw": "Zniszcz sojusznicze jednostki tego samego koloru (2), następnie <keyword=create>utwórz</keyword> i zagraj jednostkę tego koloru.\n",
+        "name": "Zupa elfio-cebulowa"
+    },
+    "202064": {
+        "info": "Rozkaz, bliskie starcie: Zadaj wrogowi 2 pkt obrażeń.\nŁadunki: 1.\nDaj tej jednostce ładunki (1) za każdym razem, gdy zagrywasz Wiedźmina.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>, <keyword=melee>bliskie starcie</keyword>: Zadaj wrogowi 2 pkt obrażeń.\n<keyword=charge>Ładunki</keyword>: 1.\nDaj tej jednostce <keyword=charge>ładunki</keyword> (1) za każdym razem, gdy zagrywasz Wiedźmina.\n",
+        "name": "Iwo z Belhaven"
+    },
+    "202098": {
+        "info": "Rozmieszczenie: Jeśli masz w ręce Smoka, zyskaj zapał.\nRozkaz: Zniszcz jednostkę o sile 8 lub większej.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Jeśli masz w ręce Smoka, zyskaj <keyword=zeal>zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Zniszcz jednostkę o sile 8 lub większej.\n",
+        "name": "Eyck z Denesle"
+    },
+    "202099": {
+        "info": "Rozmieszczenie, bliskie starcie: Wzmocnij tę jednostkę o punkty siły w przedziale od 0 do 11.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Wzmocnij tę jednostkę o punkty siły w przedziale od 0 do 11.\n",
+        "name": "Gascon"
+    },
+    "202100": {
+        "info": "Szpieg.\nRozmieszczenie: Zagraj losową złotą kartę ze swojej talii.\n",
+        "infoRaw": "<keyword=spying>Szpieg</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: Zagraj losową złotą kartę ze swojej talii.\n",
+        "name": "Książę Vilem"
+    },
+    "202101": {
+        "info": "Na koniec każdej tury przenieś do rzędu z najsilniejszą jednostką na polu bitwy.\n",
+        "infoRaw": "Na koniec każdej tury przenieś do rzędu z najsilniejszą jednostką na polu bitwy.\n",
+        "name": "Hrabia Caldwell"
+    },
+    "202102": {
+        "info": "Rozmieszczenie, bliskie starcie: Wygnaj wszystkie karty z cmentarza przeciwnika.\nRozmieszczenie, daleki zasięg: Wygnaj wszystkie karty ze swojego cmentarza.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: <keyword=banish>Wygnaj</keyword> wszystkie karty z cmentarza przeciwnika.\n<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: <keyword=banish>Wygnaj</keyword> wszystkie karty ze swojego cmentarza.\n",
+        "name": "Xavier Lemmens"
+    },
+    "202103": {
+        "info": "Bliskie starcie: Na koniec każdej tury zniszcz najsłabszą jednostkę po stronie z większą liczbą jednostek.\n",
+        "infoRaw": "<keyword=melee>Bliskie starcie</keyword>: Na koniec każdej tury zniszcz najsłabszą jednostkę po stronie z większą liczbą jednostek.\n",
+        "name": "Keltullis"
+    },
+    "202104": {
+        "info": "Odporność.\n",
+        "infoRaw": "<keyword=immune>Odporność</keyword>.\n",
+        "name": "Przeraza: Obudzona"
+    },
+    "202105": {
+        "info": "Rozmieszczenie: Zniszcz wszystkie jednostki o sile 1. Wzmocnij tę jednostkę o 2 za każdą zniszczoną jednostkę.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zniszcz wszystkie jednostki o sile 1. Wzmocnij tę jednostkę o 2 za każdą zniszczoną jednostkę.\n",
+        "name": "Żagnica"
+    },
+    "202106": {
+        "info": "Rozmieszczenie, bliskie starcie: Daj tej jednostce wytrzymałość.\nRozmieszczenie, daleki zasięg: Daj tej jednostce odporność.\nWzmocnij tę jednostkę o 1 za każdym razem, gdy zagrywasz Krasnoluda.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Daj tej jednostce <keyword=resilient>wytrzymałość</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Daj tej jednostce <keyword=immune>odporność</keyword>.\nWzmocnij tę jednostkę o 1 za każdym razem, gdy zagrywasz Krasnoluda.\n",
+        "name": "Gabor Zigrin"
+    },
+    "202107": {
+        "info": "Rozmieszczenie: Wzmocnij sojuszniczego Elfa, Krasnoluda i Driadę o 2.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij sojuszniczego Elfa, Krasnoluda i Driadę o 2.\n",
+        "name": "Barnaba Beckenbauer"
+    },
+    "202108": {
+        "info": "Rozkaz, daleki zasięg: Podejrzyj wierzchnią kartę z obu talii. Zatrzymaj jedną z nich, a drugą oddaj swojemu przeciwnikowi.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>, <keyword=ranged>daleki zasięg</keyword>: Podejrzyj wierzchnią kartę z obu talii. Zatrzymaj jedną z nich, a drugą oddaj swojemu przeciwnikowi.\n",
+        "name": "Isbel z Hagge"
+    },
+    "202109": {
+        "info": "Rozmieszczenie, daleki zasięg: Zamień wszystkie karty na swoim cmentarzu z kartami z talii.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=ranged>daleki zasięg</keyword>: Zamień wszystkie karty na swoim cmentarzu z kartami z talii.\n",
+        "name": "Gudmund Pyskaty"
+    },
+    "202110": {
+        "info": "Bliskie starcie: Za każdym razem, gdy wróg odnosi obrażenia, wzmocnij tę jednostkę o 1.\n",
+        "infoRaw": "<keyword=melee>Bliskie starcie</keyword>: Za każdym razem, gdy wróg odnosi obrażenia, wzmocnij tę jednostkę o 1.\n",
+        "name": "Dagur Dwa Ostrza"
+    },
+    "202111": {
+        "info": "Rozmieszczenie: Podejrzyj wierzchnie karty (3) z talii przeciwnika i przenieś 1 na jego cmentarz.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Podejrzyj wierzchnie karty (3) z talii przeciwnika i przenieś 1 na jego cmentarz.\n",
+        "name": "Traheaern var Vdyffir"
+    },
+    "202112": {
+        "info": "Za każdym razem, gdy zagrywana jest jednostka z ładunkiem, daj jej 1 ładunek.\n",
+        "infoRaw": "Za każdym razem, gdy zagrywana jest jednostka z <keyword=charge>ładunkiem</keyword>, daj jej 1 <keyword=charge>ładunek</keyword>.\n",
+        "name": "Raynard Odo"
+    },
+    "202113": {
+        "info": "Rozmieszczenie: Zadaj wrogowi obrażenia równe liczbie ludzkich sojuszników.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi obrażenia równe liczbie ludzkich sojuszników.\n",
+        "name": "Czarna Rayla"
+    },
+    "202114": {
+        "info": "Fatum. Zapał.\nRozkaz: Przemień się w Feniksa.\n",
+        "infoRaw": "<keyword=doomed>Fatum</keyword>. <keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Przemień się w Feniksa.\n",
+        "name": "Młode Feniksa"
+    },
+    "202121": {
+        "info": "Rozmieszczenie: Przenieś jednostkę do innego rzędu po jej stronie.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Przenieś jednostkę do innego rzędu po jej stronie.\n",
+        "name": "Kundle ze Spalli"
+    },
+    "202122": {
+        "info": "Rozmieszczenie: Zniszcz wrogi Artefakt.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zniszcz wrogi Artefakt.\n",
+        "name": "Miotacz petard"
+    },
+    "202148": {
+        "info": "Rozkaz: Daj jednostce ładunki (1).\nOdnowienie: 2.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Daj jednostce <keyword=charge>ładunki</keyword> (1).\n<keyword=cooldown>Odnowienie</keyword>: 2.\n",
+        "name": "Król Demawend"
+    },
+    "202149": {
+        "info": "Rozkaz: Zagraj losowy Artefakt z talii przeciwnika.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zagraj losowy Artefakt z talii przeciwnika.\n",
+        "name": "Angoulême"
+    },
+    "202150": {
+        "info": "Zapał.\nRozkaz, daleki zasięg: Wzmocnij jednostkę o 1.\nŁadunki: 1.\nDaj tej jednostce ładunki (1) za każdym razem, gdy któryś z graczy zagrywa kartę.\n",
+        "infoRaw": "<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>, <keyword=ranged>daleki zasięg</keyword>: Wzmocnij jednostkę o 1.\n<keyword=charge>Ładunki</keyword>: 1.\nDaj tej jednostce <keyword=charge>ładunki</keyword> (1) za każdym razem, gdy któryś z graczy zagrywa kartę.\n",
+        "name": "Vysogota z Corvo"
+    },
+    "202151": {
+        "info": "Rozmieszczenie, bliskie starcie: Zniszcz wrogą jednostkę z rozkazem.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: Zniszcz wrogą jednostkę z <keyword=order>rozkazem</keyword>.\n",
+        "name": "Falibor"
+    },
+    "202152": {
+        "info": "Jeśli na koniec tury ta jednostka jest wzmocniona, wzmocnij sąsiadujące jednostki o 1.\n",
+        "infoRaw": "Jeśli na koniec tury ta jednostka jest wzmocniona, wzmocnij sąsiadujące jednostki o 1.\n",
+        "name": "Anna Strenger"
+    },
+    "202153": {
+        "info": "Za każdym razem, gdy zagrywasz jednostkę z rozkazem, wzmocnij tę kartę o 1.\n",
+        "infoRaw": "Za każdym razem, gdy zagrywasz jednostkę z <keyword=order>rozkazem</keyword>, wzmocnij tę kartę o 1.\n",
+        "name": "Lyrijski kawalerzysta"
+    },
+    "202154": {
+        "info": "Rozmieszczenie: Zadaj wrogowi 1 pkt obrażeń. Jeśli został zniszczony, zadaj innemu wrogowi 3 pkt obrażeń.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogowi 1 pkt obrażeń. Jeśli został zniszczony, zadaj innemu wrogowi 3 pkt obrażeń.\n",
+        "name": "Rivski pikinier"
+    },
+    "202155": {
+        "info": "Rozkaz: Zadaj jednostce 1 pkt obrażeń.\nŁadunki: 1.\nDaj tej jednostce ładunki (1) za każdym razem, gdy zagrywasz jednostkę z rozkazem.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zadaj jednostce 1 pkt obrażeń.\n<keyword=charge>Ładunki</keyword>: 1.\nDaj tej jednostce <keyword=charge>ładunki</keyword> (1) za każdym razem, gdy zagrywasz jednostkę z <keyword=order>rozkazem</keyword>.\n",
+        "name": "Lyrijski kusznik"
+    },
+    "202156": {
+        "info": "Rozkaz: Zadaj jednostce 1 pkt obrażeń. Jeśli Lyrijski Knecht jest wzmocniony, zamiast tego zadaj jednostce 3 pkt obrażeń.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Zadaj jednostce 1 pkt obrażeń. Jeśli Lyrijski Knecht jest wzmocniony, zamiast tego zadaj jednostce 3 pkt obrażeń.\n",
+        "name": "Lyrijski knecht"
+    },
+    "202161": {
+        "info": "Rozmieszczenie: Wzmocnij tę jednostkę o 1 za każdego wzmocnionego sojusznika.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij tę jednostkę o 1 za każdego wzmocnionego sojusznika.\n",
+        "name": "Lyrijski kosynier"
+    }
+}

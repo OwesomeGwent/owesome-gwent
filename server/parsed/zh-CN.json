@@ -1,0 +1,2596 @@
+{
+    "112101": {
+        "infoRaw": "己方输掉小局时返回手牌。\n",
+        "name": "希里"
+    },
+    "112102": {
+        "info": "部署，近战：选择一个总战力不低于 15 点的对方单排，摧毁其上最强的单位。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>选择一个总战力不低于 15 点的对方单排，摧毁其上最强的单位。\n",
+        "name": "杰洛特：伊格尼法印"
+    },
+    "112103": {
+        "info": "部署：摧毁 1 个战力不低于 8 点的敌军单位。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>摧毁 1 个战力不低于 8 点的敌军单位。\n",
+        "name": "利维亚的杰洛特"
+    },
+    "112104": {
+        "info": "部署：对单排上的所有敌军单位造成 1 点伤害。若有敌军单位被摧毁，则重复此能力。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对单排上的所有敌军单位造成 1 点伤害。若有敌军单位被摧毁，则重复此能力。\n",
+        "name": "雷吉斯"
+    },
+    "112105": {
+        "info": "部署，近战：汲食 1 个敌军单位的所有增益。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword><keyword=drain>汲食</keyword> 1 个敌军单位的所有增益。\n",
+        "name": "雷吉斯：高等吸血鬼"
+    },
+    "112106": {
+        "info": "部署，远程：揭示己方牌组 1 张随机单位牌，并用其战力对 1 名敌军单位造成伤害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword><keyword=reveal>揭示</keyword>己方牌组 1 张随机单位牌，并用其战力对 1 名敌军单位造成伤害。\n",
+        "name": "特莉丝·梅莉葛德"
+    },
+    "112107": {
+        "info": "2 回合后，在回合结束时，摧毁战场上除自身外战力最高的单位。\n",
+        "infoRaw": "2 回合后，在回合结束时，摧毁战场上除自身外战力最高的单位。\n",
+        "name": "维伦特瑞坦梅斯"
+    },
+    "112108": {
+        "info": "部署，近战：对所有其他单位造成 2 点伤害。\n部署，远程：使所有其他单位获得 2 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>对所有其他单位造成 2 点伤害。\n<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>使所有其他单位获得 2 点增益。\n",
+        "name": "温格堡的叶奈法"
+    },
+    "112109": {
+        "info": "部署，近战：生成并打出“话篓子：捣蛋鬼”。\n部署，远程：生成并打出“话篓子：伙伴”。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword><keyword=spawn>生成</keyword>并打出“话篓子：捣蛋鬼”。\n<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword><keyword=spawn>生成</keyword>并打出“话篓子：伙伴”。\n",
+        "name": "卓尔坦：街头狂徒"
+    },
+    "112110": {
+        "info": "4 回合后，在回合开始时，抽 1 张牌。\n",
+        "infoRaw": "4 回合后，在回合开始时，抽 1 张牌。\n",
+        "name": "希里：冲刺"
+    },
+    "112111": {
+        "info": "部署，近战：对 3 个敌军单位造成 2 点伤害，若可能，则将其移至远程排。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>对 3 个敌军单位造成 2 点伤害，若可能，则将其移至远程排。\n",
+        "name": "杰洛特：阿尔德法印"
+    },
+    "112112": {
+        "info": "部署，远程：从己方牌组打出 1 个神器。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>从己方牌组打出 1 个神器。\n",
+        "name": "阿瓦拉克：贤者"
+    },
+    "112113": {
+        "info": "指令：对战力最高的敌军单位造成 1 点伤害。\n冷却：1。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>对战力最高的敌军单位造成 1 点伤害。\n<keyword=cooldown>冷却：</keyword>1。\n",
+        "name": "叶奈法：咒术师"
+    },
+    "112201": {
+        "info": "部署：转变为 1 个敌军单位的基础同名牌。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>转变为 1 个敌军单位的基础同名牌。\n",
+        "name": "杜度"
+    },
+    "112202": {
+        "info": "部署：从牌组召唤“维瑟米尔”和“兰伯特”至同排。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>从牌组<keyword=summon>召唤</keyword>“维瑟米尔”和“兰伯特”至同排。\n",
+        "name": "艾斯卡尔"
+    },
+    "112203": {
+        "info": "部署：从牌组召唤“艾斯卡尔”和“兰伯特”至同排。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>从牌组<keyword=summon>召唤</keyword>“艾斯卡尔”和“兰伯特”至同排。\n",
+        "name": "维瑟米尔"
+    },
+    "112204": {
+        "info": "部署：从牌组召唤“维瑟米尔”和“艾斯卡尔”至同排。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>从牌组<keyword=summon>召唤</keyword>“维瑟米尔”和“艾斯卡尔”至同排。\n",
+        "name": "兰伯特"
+    },
+    "112205": {
+        "info": "指令：对 1 名敌军单位造成 2 点伤害。\n充能：2。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>对 1 名敌军单位造成 2 点伤害。\n<keyword=charge>充能：</keyword>2。\n",
+        "name": "米尔加塔布雷克"
+    },
+    "112206": {
+        "info": "指令：对所有敌军单位造成 1 点伤害。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>对所有敌军单位造成 1 点伤害。\n",
+        "name": "奥克维斯塔"
+    },
+    "112207": {
+        "info": "指令：治愈自身。\n冷却：1。\n",
+        "infoRaw": "<keyword=order>指令：</keyword><keyword=heal>治愈</keyword>自身。\n<keyword=cooldown>冷却：</keyword>1。\n",
+        "name": "欧吉尔德‧伊佛瑞克"
+    },
+    "112208": {
+        "info": "部署：生成己方手牌中 1 个铜色单位的 1 张原始同名牌，并召唤至双方战场同排。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword><keyword=spawn>生成</keyword>己方手牌中 1 个铜色单位的 1 张原始同名牌，并<keyword=summon>召唤</keyword>至双方战场同排。\n",
+        "name": "操作者"
+    },
+    "112209": {
+        "info": "指令：变成羊角魔。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>变成羊角魔。\n",
+        "name": "获奖奶牛"
+    },
+    "112210": {
+        "info": "己方每打出 1 张金色牌，便从己方牌组召唤此单位至己方随机一排。\n",
+        "infoRaw": "己方每打出 1 张金色牌，便从己方牌组<keyword=summon>召唤</keyword>此单位至己方随机一排。\n",
+        "name": "萝卜"
+    },
+    "112211": {
+        "info": "指令：对 1 个单位造成 2 点伤害。\n充能：1。\n己方每打出 1 张“特殊牌”，便获得充能 +1。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>对 1 个单位造成 2 点伤害。\n<keyword=charge>充能：</keyword>1。\n己方每打出 1 张“特殊牌”，便获得<keyword=charge>充能</keyword> +1。\n",
+        "name": "乔尼"
+    },
+    "112212": {
+        "info": "指令：使 1 个单位获得 2 点增益。\n充能：1。\n己方每打出 1 张“特殊牌”，便获得充能  +1。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>使 1 个单位获得 2 点增益。\n<keyword=charge>充能：</keyword>1。\n己方每打出 1 张“特殊牌”，便获得<keyword=charge>充能</keyword>  +1。\n",
+        "name": "莎拉"
+    },
+    "112213": {
+        "info": "每回合结束时，使己方手牌中 1 张战力最低的单位牌获得 1 点增益。\n",
+        "infoRaw": "每回合结束时，使己方手牌中 1 张战力最低的单位牌获得 1 点增益。\n",
+        "name": "乞丐王"
+    },
+    "112214": {
+        "info": "部署：放逐 1 个战力不高于 3 点的单位。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword><keyword=banish>放逐</keyword> 1 个战力不高于 3 点的单位。\n",
+        "name": "赛浦利安·威利"
+    },
+    "112215": {
+        "info": "部署，近战：摧毁 1 个敌军神器。\n部署，远程：清除己方半场所有“整排效果”。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>摧毁 1 个敌军神器。\n<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>清除己方半场所有“整排效果”。\n",
+        "name": "爱丽丝‧伊佛瑞克"
+    },
+    "112401": {
+        "info": "部署：使 1 个单位获得 4 点增益。若己方手牌中有“梦魇独角兽”，则该增益翻倍。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使 1 个单位获得 4 点增益。若己方手牌中有“梦魇独角兽”，则该增益翻倍。\n",
+        "name": "独角兽"
+    },
+    "112402": {
+        "info": "部署：对 1 个单位造成 4 点伤害。若己方手牌中有“独角兽”，则该伤害翻倍。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个单位造成 4 点伤害。若己方手牌中有“独角兽”，则该伤害翻倍。\n",
+        "name": "梦魇独角兽"
+    },
+    "112405": {
+        "info": "部署：使己方手牌中所有遗愿单位获得 1 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使己方手牌中所有<keyword=deathwish>遗愿</keyword>单位获得 1 点增益。\n",
+        "name": "鹿首魔"
+    },
+    "113101": {
+        "info": "在对方单排降下整排效果：\n每回合开始时，对同排战力最高的单位造成 2 点伤害。\n",
+        "infoRaw": "在对方单排降下整排效果：\n每回合开始时，对同排战力最高的单位造成 2 点伤害。\n",
+        "name": "终末之战"
+    },
+    "113102": {
+        "info": "检视己方牌组顶端的 2 张牌，打出 1 张，放逐其他牌。\n",
+        "infoRaw": "检视己方牌组顶端的 2 张牌，打出 1 张，<keyword=banish>放逐</keyword>其他牌。\n",
+        "name": "最后的愿望"
+    },
+    "113201": {
+        "info": "将 1 名友军从战场洗回己方牌组，随后打出己方牌组顶端的单位牌。\n",
+        "infoRaw": "将 1 名友军从战场洗回己方牌组，随后打出己方牌组顶端的单位牌。\n",
+        "name": "诱饵"
+    },
+    "113202": {
+        "info": "对 5 个敌军单位造成 2 点伤害。\n",
+        "infoRaw": "对 5 个敌军单位造成 2 点伤害。\n",
+        "name": "特莉丝雹暴术"
+    },
+    "113203": {
+        "info": "在对方单排降下整排效果：\n2 回合内，在回合开始时，对同排所有单位造成 1 点伤害。\n",
+        "infoRaw": "在对方单排降下整排效果：\n2 回合内，在回合开始时，对同排所有单位造成 1 点伤害。\n",
+        "name": "史凯利格风暴"
+    },
+    "113204": {
+        "info": "对所有敌军单位造成 1 点伤害。\n",
+        "infoRaw": "对所有敌军单位造成 1 点伤害。\n",
+        "name": "斯丹莫福德的山崩术"
+    },
+    "113205": {
+        "info": "摧毁 1 个神器。\n",
+        "infoRaw": "摧毁 1 个神器。\n",
+        "name": "阻魔金炸弹"
+    },
+    "113206": {
+        "info": "摧毁所有神器。\n",
+        "infoRaw": "摧毁所有神器。\n",
+        "name": "白霜"
+    },
+    "113207": {
+        "info": "使 5 个相邻单位获得 3 点增益。\n",
+        "infoRaw": "使 5 个相邻单位获得 3 点增益。\n",
+        "name": "指挥号角"
+    },
+    "113208": {
+        "info": "部署，近战：使场上所有“整排效果”的持续时间 +1。\n部署，远程：使场上所有“整排效果”的持续时间 -1。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>使场上所有“整排效果”的持续时间 +1。\n<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>使场上所有“整排效果”的持续时间 -1。\n",
+        "name": "德鲁伊控天者"
+    },
+    "113209": {
+        "info": "从己方牌组打出战力最高的单位。\n",
+        "infoRaw": "从己方牌组打出战力最高的单位。\n",
+        "name": "阿尔祖召唤术"
+    },
+    "113301": {
+        "info": "对 1 个单位造成 5 点伤害。\n",
+        "infoRaw": "对 1 个单位造成 5 点伤害。\n",
+        "name": "阿尔祖落雷术"
+    },
+    "113302": {
+        "info": "在对方单排降下整排效果：\n4 回合内，在回合开始时，对同排上战力最低的单位造成 2 点伤害。\n",
+        "infoRaw": "在对方单排降下整排效果：\n4 回合内，在回合开始时，对同排上战力最低的单位造成 2 点伤害。\n",
+        "name": "刺骨冰霜"
+    },
+    "113303": {
+        "info": "清除己方半场的所有“整排效果”。\n",
+        "infoRaw": "清除己方半场的所有“整排效果”。\n",
+        "name": "晴空"
+    },
+    "113305": {
+        "info": "在对方单排降下整排效果：\n4 回合内，在回合开始时，对同排上战力最高的单位造成 2 点伤害。\n",
+        "infoRaw": "在对方单排降下整排效果：\n4 回合内，在回合开始时，对同排上战力最高的单位造成 2 点伤害。\n",
+        "name": "蔽日浓雾"
+    },
+    "113306": {
+        "info": "对 3 个敌军单位造成 3 点伤害。\n",
+        "infoRaw": "对 3 个敌军单位造成 3 点伤害。\n",
+        "name": "蝎尾狮毒液"
+    },
+    "113307": {
+        "info": "改变 1 个单位的坚韧状态。\n",
+        "infoRaw": "改变 1 个单位的<keyword=resilient>坚韧</keyword>状态。\n",
+        "name": "战意激升"
+    },
+    "113308": {
+        "info": "摧毁战力最低的单位。\n",
+        "infoRaw": "摧毁战力最低的单位。\n",
+        "name": "瘟疫"
+    },
+    "113309": {
+        "info": "摧毁战力最高的单位。\n",
+        "infoRaw": "摧毁战力最高的单位。\n",
+        "name": "烧灼"
+    },
+    "113310": {
+        "info": "使 1 个单位获得 6 点增益。\n",
+        "infoRaw": "使 1 个单位获得 6 点增益。\n",
+        "name": "燕子"
+    },
+    "113311": {
+        "info": "狂热。\n指令：使 1 个单位获得 2 点增益。\n充能：3。\n",
+        "infoRaw": "<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>使 1 个单位获得 2 点增益。\n<keyword=charge>充能：</keyword>3。\n",
+        "name": "雷霆"
+    },
+    "113312": {
+        "info": "在对方单排降下整排效果：\n4 回合内，在回合开始时，对同排上 2 个随机单位造成 1 点伤害。\n",
+        "infoRaw": "在对方单排降下整排效果：\n4 回合内，在回合开始时，对同排上 2 个随机单位造成 1 点伤害。\n",
+        "name": "倾盆大雨"
+    },
+    "113313": {
+        "info": "部署：用某个敌军单位受到的伤害量增益自身。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>用某个敌军单位受到的伤害量增益自身。\n",
+        "name": "奎特家族战吼者"
+    },
+    "113315": {
+        "info": "选择 1 个单位。若它已获得增益，则对其造成所获得增益 2 倍的伤害。若它已受伤，则使其获得所受伤害 2 倍的增益。\n",
+        "infoRaw": "选择 1 个单位。若它已获得增益，则对其造成所获得增益 2 倍的伤害。若它已受伤，则使其获得所受伤害 2 倍的增益。\n",
+        "name": "贝克尔的黑暗之镜"
+    },
+    "113316": {
+        "info": "从己方墓场打出 1 个单位。\n",
+        "infoRaw": "从己方墓场打出 1 个单位。\n",
+        "name": "复原"
+    },
+    "113319": {
+        "info": "锁定 1 个单位，并对其造成 3 点伤害。\n",
+        "infoRaw": "<keyword=lock>锁定</keyword> 1 个单位，并对其造成 3 点伤害。\n",
+        "name": "阻魔金镣铐"
+    },
+    "113320": {
+        "info": "对 1 个单位造成 3 点伤害，随后使其获得 9 点增益。\n",
+        "infoRaw": "对 1 个单位造成 3 点伤害，随后使其获得 9 点增益。\n",
+        "name": "致幻菌菇"
+    },
+    "122101": {
+        "info": "指令：将 1 个友军单位的充能数翻倍。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>将 1 个友军单位的<keyword=charge>充能</keyword>数翻倍。\n",
+        "name": "血红男爵"
+    },
+    "122102": {
+        "info": "间谍。\n部署：打出己方牌组顶端的 2 张牌。\n",
+        "infoRaw": "<keyword=spying>间谍</keyword>。\n<keyword=deploy>部署：</keyword>打出己方牌组顶端的 2 张牌。\n",
+        "name": "弗农·罗契"
+    },
+    "122103": {
+        "info": "近战：若位于战场，则所有拥有指令能力的友军单位获得狂热。\n",
+        "infoRaw": "<keyword=melee>近战：</keyword>若位于战场，则所有拥有<keyword=order>指令</keyword>能力的友军单位获得<keyword=zeal>狂热</keyword>。\n",
+        "name": "约翰·纳塔利斯"
+    },
+    "122107": {
+        "info": "部署：使手牌中的 1 个随机单位获得 4 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使手牌中的 1 个随机单位获得 4 点增益。\n",
+        "name": "特莉丝：蝴蝶咒语"
+    },
+    "122108": {
+        "info": "部署，远程：从己方牌组打出 1 张法术牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>从己方牌组打出 1 张法术牌。\n",
+        "name": "凯拉·梅兹"
+    },
+    "122201": {
+        "info": "远程：每有 1 个友军单位获得充能，则使其获得 1 点增益。\n",
+        "infoRaw": "<keyword=ranged>远程：</keyword>每有 1 个友军单位获得<keyword=charge>充能</keyword>，则使其获得 1 点增益。\n",
+        "name": "丹德里恩"
+    },
+    "122202": {
+        "info": "狂热。\n指令：使 1 个单位获得充能 +1。\n冷却：1。\n",
+        "infoRaw": "<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>使 1 个单位获得<keyword=charge>充能</keyword> +1。\n<keyword=cooldown>冷却：</keyword>1。\n",
+        "name": "普西拉"
+    },
+    "122203": {
+        "info": "部署：移除 1 个敌军单位的所有充能数，并全数转移给“塔勒”。\n指令：赋予 1 个友军单位充能 +1。\n充能：0。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>移除 1 个敌军单位的所有<keyword=charge>充能</keyword>数，并全数转移给“塔勒”。\n<keyword=order>指令：</keyword>赋予 1 个友军单位<keyword=charge>充能</keyword> +1。\n<keyword=charge>充能：</keyword>0。\n",
+        "name": "塔勒"
+    },
+    "122204": {
+        "info": "部署：对 1 个敌军单位造成 4 点伤害。\n指令：使 1 个友军单位获得狂热。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 4 点伤害。\n<keyword=order>指令：</keyword>使 1 个友军单位获得<keyword=zeal>狂热</keyword>。\n",
+        "name": "薇丝"
+    },
+    "122205": {
+        "info": "部署：对 1 个敌军单位造成 2 点伤害。\n指令：对 1 个敌军单位造成 2 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 2 点伤害。\n<keyword=order>指令：</keyword>对 1 个敌军单位造成 2 点伤害。\n",
+        "name": "席儿·德·坦沙维耶"
+    },
+    "122206": {
+        "info": "间谍。\n遗愿：对同排所有单位造成 3 点伤害。\n",
+        "infoRaw": "<keyword=spying>间谍</keyword>。\n<keyword=deathwish>遗愿：</keyword>对同排所有单位造成 3 点伤害。\n",
+        "name": "萨宾娜·葛丽维希格"
+    },
+    "122207": {
+        "info": "指令，远程：对 1 个敌军单位造成“戴斯摩”所获增益数量的伤害。\n",
+        "infoRaw": "<keyword=order>指令</keyword>，<keyword=ranged>远程：</keyword>对 1 个敌军单位造成“戴斯摩”所获增益数量的伤害。\n",
+        "name": "戴斯摩"
+    },
+    "122208": {
+        "info": "部署：使 1 个友军单位获得 2 点增益和充能 +2。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使 1 个友军单位获得 2 点增益和<keyword=charge>充能</keyword> +2。\n",
+        "name": "斯坦尼斯王子"
+    },
+    "122210": {
+        "info": "部署：将 1 个铜色单位和它的所有同名牌从己方墓场洗入己方牌组。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>将 1 个铜色单位和它的所有同名牌从己方墓场洗入己方牌组。\n",
+        "name": "帕薇塔公主"
+    },
+    "122211": {
+        "info": "狂热。\n指令：消耗 3 点充能来锁定 1 个敌军单位。\n充能：3。\n",
+        "infoRaw": "<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>消耗 3 点<keyword=charge>充能</keyword>来<keyword=lock>锁定</keyword> 1 个敌军单位。\n<keyword=charge>充能：</keyword>3。\n",
+        "name": "玛格丽塔·露克斯安提尔"
+    },
+    "122212": {
+        "info": "指令，远程：使 1 个单位获得 1 点增益。\n充能：3。\n",
+        "infoRaw": "<keyword=order>指令</keyword>，<keyword=ranged>远程：</keyword>使 1 个单位获得 1 点增益。\n<keyword=charge>充能：</keyword>3。\n",
+        "name": "南尼克"
+    },
+    "122213": {
+        "info": "部署：使所有友军单位获得充能 +1。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使所有友军单位获得<keyword=charge>充能</keyword> +1。\n",
+        "name": "欧德林"
+    },
+    "122214": {
+        "info": "狂热。\n指令：使 1 个友军单位获得 1 点增益。\n充能：2。\n",
+        "infoRaw": "<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>使 1 个友军单位获得 1 点增益。\n<keyword=charge>充能：</keyword>2。\n",
+        "name": "科德温中士"
+    },
+    "122216": {
+        "info": "部署：己方每有 1 张手牌，便对 1 个单位造成 1 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>己方每有 1 张手牌，便对 1 个单位造成 1 点伤害。\n",
+        "name": "卡罗“砍刀”凡瑞西"
+    },
+    "122301": {
+        "info": "指令：对 1 个单位造成 1 点伤害。\n充能：1。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>对 1 个单位造成 1 点伤害。\n<keyword=charge>充能：</keyword>1。\n",
+        "name": "弩炮"
+    },
+    "122302": {
+        "info": "指令：对 1 个单位造成 2 点伤害。\n充能：1。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>对 1 个单位造成 2 点伤害。\n<keyword=charge>充能：</keyword>1。\n",
+        "name": "加强型弩炮"
+    },
+    "122303": {
+        "info": "指令，远程：对 1 个单位造成 1 点伤害。若将其摧毁，对与其相邻的单位造成 1 点伤害。\n充能：1。\n",
+        "infoRaw": "<keyword=order>指令</keyword>，<keyword=ranged>远程：</keyword>对 1 个单位造成 1 点伤害。若将其摧毁，对与其相邻的单位造成 1 点伤害。\n<keyword=charge>充能：</keyword>1。\n",
+        "name": "投石机"
+    },
+    "122304": {
+        "info": "指令，近战：使相邻的友军单位获得 1 点增益。\n充能：1。\n",
+        "infoRaw": "<keyword=order>指令</keyword>，<keyword=melee>近战：</keyword>使相邻的友军单位获得 1 点增益。\n<keyword=charge>充能：</keyword>1。\n",
+        "name": "攻城塔"
+    },
+    "122309": {
+        "info": "部署：使 1 个友军“机械”获得充能 +2 。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使 1 个友军“机械”获得<keyword=charge>充能</keyword> +2 。\n",
+        "name": "攻城后援"
+    },
+    "122310": {
+        "info": "部署，近战：在牌组底部生成 1 个铜色友军单位的 1 张同名牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>在牌组底部<keyword=spawn>生成</keyword> 1 个铜色友军单位的 1 张同名牌。\n",
+        "name": "蓝衣铁卫斥候"
+    },
+    "122311": {
+        "info": "指令：从己方牌组召唤 1 张自身的同名牌至同排。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>从己方牌组<keyword=summon>召唤</keyword> 1 张自身的同名牌至同排。\n",
+        "name": "蓝衣铁卫突击队"
+    },
+    "122312": {
+        "info": "部署：使相邻单位获得 2 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使相邻单位获得 2 点增益。\n",
+        "name": "战地医师"
+    },
+    "122313": {
+        "info": "部署：若打出后与 2 个“士兵”单位相邻，则获得狂热。\n指令：对 1 个敌军单位造成 3 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>若打出后与 2 个“士兵”单位相邻，则获得<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>对 1 个敌军单位造成 3 点伤害。\n",
+        "name": "褐旗营"
+    },
+    "122314": {
+        "info": "部署，近战：移除 1 个敌军单位的所有充能数，随后对其造成等量的伤害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>移除 1 个敌军单位的所有<keyword=charge>充能</keyword>数，随后对其造成等量的伤害。\n",
+        "name": "科德温骑兵"
+    },
+    "122315": {
+        "info": "远程：每回合结束时，对远程排上的 1 个随机敌军单位造成 1 点伤害。\n",
+        "infoRaw": "<keyword=ranged>远程：</keyword>每回合结束时，对远程排上的 1 个随机敌军单位造成 1 点伤害。\n",
+        "name": "加强型投石机"
+    },
+    "122316": {
+        "info": "部署：同排每有 1 个受到增益的单位，便对 1 个敌军单位造成 1 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>同排每有 1 个受到增益的单位，便对 1 个敌军单位造成 1 点伤害。\n",
+        "name": "泰莫利亚步兵"
+    },
+    "122318": {
+        "info": "每有 1 个“机械”单位被打出至此排，便使其获得狂热。\n",
+        "infoRaw": "每有 1 个“机械”单位被打出至此排，便使其获得<keyword=zeal>狂热</keyword>。\n",
+        "name": "攻城大师"
+    },
+    "122401": {
+        "info": "每回合结束时，对战力最高的敌军单位造成 1 点伤害。\n指令：转变为 1 只“家事妖精”。\n",
+        "infoRaw": "每回合结束时，对战力最高的敌军单位造成 1 点伤害。\n<keyword=order>指令：</keyword>转变为 1 只“家事妖精”。\n",
+        "name": "异婴"
+    },
+    "122402": {
+        "info": "每回合结束时，使战力最低的友军单位获得 1 点增益。\n指令：转变为 1 只“异婴”。\n",
+        "infoRaw": "每回合结束时，使战力最低的友军单位获得 1 点增益。\n<keyword=order>指令：</keyword>转变为 1 只“异婴”。\n",
+        "name": "家事妖精"
+    },
+    "122403": {
+        "info": "部署，远程：抽 1 张牌，随后将 1 张手牌置于己方牌组顶端。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>抽 1 张牌，随后将 1 张手牌置于己方牌组顶端。\n",
+        "name": "维可瓦罗见习法师"
+    },
+    "123201": {
+        "info": "生成 1 个铜色友军单位的 1 张同名牌，并将其召唤至同排。\n",
+        "infoRaw": "<keyword=spawn>生成</keyword> 1 个铜色友军单位的 1 张同名牌，并将其<keyword=summon>召唤</keyword>至同排。\n",
+        "name": "增援"
+    },
+    "131101": {
+        "info": "指令：使 1 个单位获得 4 点增益和免疫。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>使 1 个单位获得 4 点增益和<keyword=immune>免疫</keyword>。\n",
+        "name": "艾瑞汀"
+    },
+    "131102": {
+        "info": "远程：己方每打出 1 个遗愿单位，便触发其遗愿能力。\n",
+        "infoRaw": "<keyword=ranged>远程：</keyword>己方每打出 1 个<keyword=deathwish>遗愿</keyword>单位，便触发其<keyword=deathwish>遗愿</keyword>能力。\n",
+        "name": "盖尔"
+    },
+    "132101": {
+        "info": "部署：将所有“人类”友军变为“科德温亡魂”，战力不变。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>将所有“人类”友军变为“科德温亡魂”，战力不变。\n",
+        "name": "战灵"
+    },
+    "132102": {
+        "info": "对 1 个敌军单位造成伤害，其数值等同于己方最强单位的战力。\n",
+        "infoRaw": "对 1 个敌军单位造成伤害，其数值等同于己方最强单位的战力。\n",
+        "name": "伊勒瑞斯之怒"
+    },
+    "132103": {
+        "info": "指令：使己方手牌中 1 张单位牌获得 8 点增益。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>使己方手牌中 1 张单位牌获得 8 点增益。\n",
+        "name": "林妖"
+    },
+    "132104": {
+        "info": "部署：生成己方手牌中 1 个单位的同名牌，战力为 1 点，并将其召唤至同排。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword><keyword=spawn>生成</keyword>己方手牌中 1 个单位的同名牌，战力为 1 点，并将其<keyword=summon>召唤</keyword>至同排。\n",
+        "name": "卡兰希尔"
+    },
+    "132105": {
+        "info": "指令：使 1 个友军单位获得免疫。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>使 1 个友军单位获得<keyword=immune>免疫</keyword>。\n",
+        "name": "阿瓦拉克"
+    },
+    "132106": {
+        "info": "部署，远程：从己方墓场打出 1 个神器。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>从己方墓场打出 1 个神器。\n",
+        "name": "看门人"
+    },
+    "132107": {
+        "info": "狂热。\n指令：吞噬 1 个友军单位。\n充能：3。\n",
+        "infoRaw": "<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword><keyword=consume>吞噬</keyword> 1 个友军单位。\n<keyword=charge>充能：</keyword>3。\n",
+        "name": "巨章鱼怪"
+    },
+    "132108": {
+        "info": "遗愿：抓捕 1 个战力不高于 3 点的敌军单位。\n",
+        "infoRaw": "<keyword=deathwish>遗愿：</keyword><keyword=seize>抓捕</keyword> 1 个战力不高于 3 点的敌军单位。\n",
+        "name": "米卢娜"
+    },
+    "132201": {
+        "info": "生成 2 只“蟹蜘蛛雄蛛”，将其召唤至同排，再使同排所有其他“类虫生物”获得 1 点增益。\n",
+        "infoRaw": "<keyword=spawn>生成</keyword> 2 只“蟹蜘蛛雄蛛”，将其<keyword=summon>召唤</keyword>至同排，再使同排所有其他“类虫生物”获得 1 点增益。\n",
+        "name": "蟹蜘蛛巨兽"
+    },
+    "132202": {
+        "info": "指令：放逐己方墓场中全部单位。每放逐 1 个，自身便获得 1 点增益。\n",
+        "infoRaw": "<keyword=order>指令：</keyword><keyword=banish>放逐</keyword>己方墓场中全部单位。每放逐 1 个，自身便获得 1 点增益。\n",
+        "name": "莫恩塔特"
+    },
+    "132203": {
+        "info": "成长。\n部署：触发 1 个铜色友军单位的遗愿能力。\n",
+        "infoRaw": "<keyword=thrive>成长</keyword>。\n<keyword=deploy>部署：</keyword>触发 1 个铜色友军单位的<keyword=deathwish>遗愿</keyword>能力。\n",
+        "name": "阿巴亚"
+    },
+    "132204": {
+        "info": "在 3 个友军单位被摧毁后，唤醒“畏惧者”。\n",
+        "infoRaw": "在 3 个友军单位被摧毁后，唤醒“畏惧者”。\n",
+        "name": "畏惧者：休眠"
+    },
+    "132205": {
+        "info": "部署：使己方所有“野兽”单位获得 1 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使己方所有“野兽”单位获得 1 点增益。\n",
+        "name": "莫伍德"
+    },
+    "132206": {
+        "info": "部署：对 1 个敌军单位造成 2 点伤害。\n己方打出“煮婆”或“织婆”后，此伤害提高 2 点。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 2 点伤害。\n己方打出“煮婆”或“织婆”后，此伤害提高 2 点。\n",
+        "name": "呢喃婆"
+    },
+    "132207": {
+        "info": "部署：吞噬 1 个友军单位。\n己方打出“呢喃婆”或“织婆”后，吞噬目标数量增加 1。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword><keyword=consume>吞噬</keyword> 1 个友军单位。\n己方打出“呢喃婆”或“织婆”后，吞噬目标数量增加 1。\n",
+        "name": "煮婆"
+    },
+    "132208": {
+        "info": "部署：使 1 个友军单位获得 2 点增益。\n己方打出“呢喃婆”或“煮婆”后，此增益效果提高 2 点。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使 1 个友军单位获得 2 点增益。\n己方打出“呢喃婆”或“煮婆”后，此增益效果提高 2 点。\n",
+        "name": "织婆"
+    },
+    "132209": {
+        "info": "遗愿：摧毁战力最低的敌军单位。\n",
+        "infoRaw": "<keyword=deathwish>遗愿：</keyword>摧毁战力最低的敌军单位。\n",
+        "name": "帝国蝎尾狮"
+    },
+    "132210": {
+        "info": "狂热。\n指令：对对方同排所有单位造成 1 点伤害。\n冷却：3。\n",
+        "infoRaw": "<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>对对方同排所有单位造成 1 点伤害。\n<keyword=cooldown>冷却：</keyword>3。\n",
+        "name": "伊夫利特巨像"
+    },
+    "132211": {
+        "info": "成长。\n",
+        "infoRaw": "<keyword=thrive>成长</keyword>。\n",
+        "name": "孽鬼战士"
+    },
+    "132212": {
+        "info": "无特殊能力。\n",
+        "infoRaw": "无特殊能力。\n",
+        "name": "寒冰巨人"
+    },
+    "132213": {
+        "info": "无特殊能力。\n",
+        "infoRaw": "无特殊能力。\n",
+        "name": "元初杜奥"
+    },
+    "132214": {
+        "info": "部署：摧毁 1 个敌军神器。若己方控制最强的单位，则对被摧毁神器相邻的单位造成 2 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>摧毁 1 个敌军神器。若己方控制最强的单位，则对被摧毁神器相邻的单位造成 2 点伤害。\n",
+        "name": "尼斯里拉"
+    },
+    "132215": {
+        "info": "部署：使 1 个敌军单位获得佚亡。\n指令：摧毁 1 个佚亡敌军单位。\n",
+        "infoRaw": "<keyword=deploy>部署：使 1 个敌军单位获得</keyword><keyword=doomed>佚亡</keyword>。\n<keyword=order>指令：</keyword>摧毁 1 个<keyword=doomed>佚亡</keyword>敌军单位。\n",
+        "name": "刚特·欧迪姆"
+    },
+    "132216": {
+        "info": "部署，近战：吞噬 1 个战力不高于 3 点的单位。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword><keyword=consume>吞噬</keyword> 1 个战力不高于 3 点的单位。\n",
+        "name": "蟾蜍王子"
+    },
+    "132217": {
+        "info": "部署：吞噬 1 个友军单位。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword><keyword=consume>吞噬</keyword> 1 个友军单位。\n",
+        "name": "赛尔伊诺鹰身女妖"
+    },
+    "132218": {
+        "info": "无特殊能力。\n",
+        "infoRaw": "无特殊能力。\n",
+        "name": "老矛头：昏睡"
+    },
+    "132301": {
+        "info": "遗愿：从己方牌组召唤 1 张此单位的同名牌至己方随机一排。\n",
+        "infoRaw": "<keyword=deathwish>遗愿：</keyword>从己方牌组<keyword=summon>召唤</keyword> 1 张此单位的同名牌至己方随机一排。\n",
+        "name": "小雾妖"
+    },
+    "132302": {
+        "info": "遗愿：从墓场召唤 自身至原战场排，获得 4 点增益和佚亡。\n",
+        "infoRaw": "<keyword=deathwish>遗愿：</keyword>从墓场<keyword=summon>召唤</keyword> 自身至原战场排，获得 4 点增益和<keyword=doomed>佚亡</keyword>。\n",
+        "name": "远古小雾妖"
+    },
+    "132303": {
+        "info": "部署：对 1 个敌军单位造成 2 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 2 点伤害。\n",
+        "name": "翼手龙"
+    },
+    "132304": {
+        "info": "佚亡。\n",
+        "infoRaw": "<keyword=doomed>佚亡</keyword>。\n",
+        "name": "蟹蜘蛛雄蛛"
+    },
+    "132305": {
+        "info": "成长。\n部署：生成 1 张自身的同名牌，并将其召唤至同排。\n",
+        "infoRaw": "<keyword=thrive>成长</keyword>。\n<keyword=deploy>部署：</keyword><keyword=spawn>生成</keyword> 1 张自身的同名牌，并将其<keyword=summon>召唤</keyword>至同排。\n",
+        "name": "孽鬼"
+    },
+    "132306": {
+        "info": "部署，近战：吞噬己方墓场的 1 个单位。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword><keyword=consume>吞噬</keyword>己方墓场的 1 个单位。\n",
+        "name": "食尸鬼"
+    },
+    "132307": {
+        "info": "部署：摧毁此排的 1 个友军单位。若此排没有其他单位，则摧毁自身。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>摧毁此排的 1 个友军单位。若此排没有其他单位，则摧毁自身。\n",
+        "name": "狮鹫"
+    },
+    "132308": {
+        "info": "每有 1 个单位在己方回合被摧毁，便对 1 个随机敌人造成 1 点伤害。\n",
+        "infoRaw": "每有 1 个单位在己方回合被摧毁，便对 1 个随机敌人造成 1 点伤害。\n",
+        "name": "蜥蜴人战士"
+    },
+    "132309": {
+        "info": "部署：同排每有 1 个“狂猎”单位，便对 1 个单位造成 1 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>同排每有 1 个“狂猎”单位，便对 1 个单位造成 1 点伤害。\n",
+        "name": "狂猎战士"
+    },
+    "132310": {
+        "info": "部署：若己方控制最强的单位，则从己方牌组召唤 1 张“狂猎骑士”的同名牌至同排。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>若己方控制最强的单位，则从己方牌组<keyword=summon>召唤</keyword> 1 张“狂猎骑士”的同名牌至同排。\n",
+        "name": "狂猎骑士"
+    },
+    "132312": {
+        "info": "双方摧毁各自战力最低的单位。\n",
+        "infoRaw": "双方摧毁各自战力最低的单位。\n",
+        "name": "捕食俯冲"
+    },
+    "132314": {
+        "info": "成长.\n部署：对 1 个敌军单位造成 2 点伤害，并将其移至所在半场另一排。\n",
+        "infoRaw": "<keyword=thrive>成长</keyword>.\n<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 2 点伤害，并将其移至所在半场另一排。\n",
+        "name": "水鬼"
+    },
+    "132315": {
+        "info": "佚亡。\n",
+        "infoRaw": "<keyword=doomed>佚亡</keyword>。\n",
+        "name": "鹰身女妖"
+    },
+    "132316": {
+        "info": "遗愿： 生成 1 只“鹰身女妖”，并将其召唤至己方随机一排。\n",
+        "infoRaw": "<keyword=deathwish>遗愿：</keyword> <keyword=spawn>生成</keyword> 1 只“鹰身女妖”，并将其<keyword=summon>召唤</keyword>至己方随机一排。\n",
+        "name": "鹰身女妖蛋"
+    },
+    "132402": {
+        "info": "部署：对 1 个敌军单位造成 1 点伤害。若己方控制最强的单位，则改为造成 3 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 1 点伤害。若己方控制最强的单位，则改为造成 3 点伤害。\n",
+        "name": "狂猎之犬"
+    },
+    "132403": {
+        "info": "部署：对 1 个敌军单位造成 2 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 2 点伤害。\n",
+        "name": "狼群"
+    },
+    "132404": {
+        "info": "部署：对 1 个敌军单位造成 4 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 4 点伤害。\n",
+        "name": "狂怒的伊夫利特"
+    },
+    "132405": {
+        "info": "部署：摧毁 1 个敌军神器。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>摧毁 1 个敌军神器。\n",
+        "name": "狂躁的杜奥"
+    },
+    "132406": {
+        "info": "部署：触发 1 个铜色友军单位的遗愿能力。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>触发 1 个铜色友军单位的<keyword=deathwish>遗愿</keyword>能力。\n",
+        "name": "无骨者"
+    },
+    "132407": {
+        "info": "部署：揭示对方牌组顶端的 1 张单位牌，随后自身受到其战力的伤害，再将它洗回牌组。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword><keyword=reveal>揭示</keyword>对方牌组顶端的 1 张单位牌，随后自身受到其战力的伤害，再将它洗回牌组。\n",
+        "name": "帝国魔像"
+    },
+    "132408": {
+        "info": "无特殊能力。\n",
+        "infoRaw": "无特殊能力。\n",
+        "name": "老矛头"
+    },
+    "132409": {
+        "info": "对 1 个敌军单位造成 3 点伤害，使 1 个友军单位获得 3 点增益。\n",
+        "infoRaw": "对 1 个敌军单位造成 3 点伤害，使 1 个友军单位获得 3 点增益。\n",
+        "name": "可怖盛宴"
+    },
+    "133301": {
+        "info": "狂热。\n指令：使 1 个单位获得 1 点增益。\n冷却：1 。\n",
+        "infoRaw": "<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>使 1 个单位获得 1 点增益。\n<keyword=cooldown>冷却：</keyword>1 。\n",
+        "name": "翼手龙鳞甲盾牌"
+    },
+    "133302": {
+        "info": "生成 4 个战力为 1 点的“蟹蜘蛛雄蛛”，并召唤至己方单排。\n",
+        "infoRaw": "<keyword=spawn>生成</keyword> 4 个战力为 1 点的“蟹蜘蛛雄蛛”，并<keyword=summon>召唤</keyword>至己方单排。\n",
+        "name": "蟹蜘蛛巢穴"
+    },
+    "142101": {
+        "info": "免疫。\n指令：在回合结束前移除自身的免疫状态。\n",
+        "infoRaw": "<keyword=immune>免疫</keyword>。\n<keyword=order>指令：在回合结束前</keyword>移除自身的<keyword=immune>免疫</keyword>状态。\n",
+        "name": "萨琪亚萨司"
+    },
+    "142102": {
+        "info": "部署：使所有其他“精灵”友军单位获得 1 点增益。\n己方每打出 1 个“精灵”单位，自身便获得 1 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使所有其他“精灵”友军单位获得 1 点增益。\n己方每打出 1 个“精灵”单位，自身便获得 1 点增益。\n",
+        "name": "伊森格林"
+    },
+    "142103": {
+        "info": "部署：将 1 张友军“陷阱”牌返回手牌，再打出 1 张“陷阱”牌。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>将 1 张友军“陷阱”牌返回手牌，再打出 1 张“陷阱”牌。\n",
+        "name": "伊欧菲斯"
+    },
+    "142104": {
+        "info": "免疫。\n己方每打出 1 个“松鼠党”单位，自身便获得 1 点增益。\n",
+        "infoRaw": "<keyword=immune>免疫</keyword>。\n己方每打出 1 个“松鼠党”单位，自身便获得 1 点增益。\n",
+        "name": "米尔瓦"
+    },
+    "142105": {
+        "info": "部署，近战：摧毁 1 个单位，其战力不高于场上友军“矮人”单位的数量。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>摧毁 1 个单位，其战力不高于场上友军“矮人”单位的数量。\n",
+        "name": "卓尔坦·齐瓦"
+    },
+    "142106": {
+        "info": "部署：回合结束时，将自身带有的的增益翻倍。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>回合结束时，将自身带有的的增益翻倍。\n",
+        "name": "艾格莱丝"
+    },
+    "142107": {
+        "info": "部署：使己方手牌中 1 个“松鼠党”单位获得 4 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使己方手牌中 1 个“松鼠党”单位获得 4 点增益。\n",
+        "name": "伊斯琳妮"
+    },
+    "142108": {
+        "info": "狂热。\n指令：摧毁与“希鲁”战力相同的所有其他单位。\n",
+        "infoRaw": "<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>摧毁与“希鲁”战力相同的所有其他单位。\n",
+        "name": "希鲁"
+    },
+    "142201": {
+        "info": "部署，近战：使相邻单位获得 2 点增益。\n部署，远程：使同排所有其他单位获得 1 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>使相邻单位获得 2 点增益。\n<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>使同排所有其他单位获得 1 点增益。\n",
+        "name": "丹尼斯·克莱默"
+    },
+    "142202": {
+        "info": "部署，近战：摧毁 1 个神器。\n部署，远程：使 1 个单位获得 3 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>摧毁 1 个神器。\n<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>使 1 个单位获得 3 点增益。\n",
+        "name": "艾达·艾敏"
+    },
+    "142203": {
+        "info": "部署：每有 1 个友军“精灵”单位，便对 1 个敌军单位造成 1 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>每有 1 个友军“精灵”单位，便对 1 个敌军单位造成 1 点伤害。\n",
+        "name": "亚伊文"
+    },
+    "142204": {
+        "info": "部署，近战：对单排两端的敌军单位造成 2 点伤害。\n部署，远程：对单排上的所有敌军单位造成 1 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>对单排两端的敌军单位造成 2 点伤害。\n<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>对单排上的所有敌军单位造成 1 点伤害。\n",
+        "name": "托露薇尔"
+    },
+    "142205": {
+        "info": "部署，近战：将 1 个敌军单位移至其半场的另一排。\n部署，远程：将 1 个友军单位移至其半场的另一排。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>将 1 个敌军单位移至其半场的另一排。\n<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>将 1 个友军单位移至其半场的另一排。\n",
+        "name": "维里赫德旅骑兵"
+    },
+    "142206": {
+        "info": "部署：锁定 1 个单位，并将其移至所在半场的另一排。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword><keyword=lock>锁定</keyword> 1 个单位，并将其移至所在半场的另一排。\n",
+        "name": "席朗·依斯尼兰"
+    },
+    "142207": {
+        "info": "部署：每有 1 个友军“矮人”，便使 1 个友军单位获得 1 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>每有 1 个友军“矮人”，便使 1 个友军单位获得 1 点增益。\n",
+        "name": "巴克莱·艾尔斯"
+    },
+    "142208": {
+        "info": "部署，近战：对 1 个敌军单位造成 2 点伤害。\n部署，远程：锁定 1 个单位。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>对 1 个敌军单位造成 2 点伤害。\n<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword><keyword=lock>锁定</keyword> 1 个单位。\n",
+        "name": "莫丽恩"
+    },
+    "142209": {
+        "info": "部署：若己方控制 2 个或更多“树精”，则获得狂热。\n指令：对 1 名敌军单位造成 1 点伤害。\n充能：3。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>若己方控制 2 个或更多“树精”，则获得<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>对 1 名敌军单位造成 1 点伤害。\n<keyword=charge>充能：</keyword>3。\n",
+        "name": "布蕾恩"
+    },
+    "142210": {
+        "info": "指令：将 1 个单位移至所在半场的另一排。\n冷却：2。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>将 1 个单位移至所在半场的另一排。\n<keyword=cooldown>冷却：</keyword>2。\n",
+        "name": "玛丽娜"
+    },
+    "142211": {
+        "info": "若回合结束时，己方控制 5 个或更多“精灵”友军单位，则从己方牌组召唤自身至近战排。\n",
+        "infoRaw": "若回合结束时，己方控制 5 个或更多“精灵”友军单位，则从己方牌组<keyword=summon>召唤</keyword>自身至近战排。\n",
+        "name": "爱黎瑞恩"
+    },
+    "142212": {
+        "info": "部署：对 1 个敌军单位造成等同于自身战力的伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成等同于自身战力的伤害。\n",
+        "name": "谢尔顿·斯卡格斯"
+    },
+    "142213": {
+        "info": "每回合结束时，若战场上没有其他友军单位，则自身获得 3 点增益。\n",
+        "infoRaw": "每回合结束时，若战场上没有其他友军单位，则自身获得 3 点增益。\n",
+        "name": "亚尔潘·齐格林"
+    },
+    "142214": {
+        "info": "部署：对所有受伤的单位造成 1 点伤害，使所有受到增益的单位获得 1 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对所有受伤的单位造成 1 点伤害，使所有受到增益的单位获得 1 点增益。\n",
+        "name": "艾雷亚斯"
+    },
+    "142301": {
+        "info": "部署，近战：使 1 个友军单位获得 2 点增益。\n部署，远程：治愈 1 个友军单位 4 点战力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>使 1 个友军单位获得 2 点增益。\n<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword><keyword=heal>治愈</keyword> 1 个友军单位 4 点战力。\n",
+        "name": "私枭治疗者"
+    },
+    "142302": {
+        "info": "部署：对 1 个随机敌军单位造成 2 点伤害。\n每当“维里赫德旅”移至所在半场的另一排，则再次触发该部署能力。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个随机敌军单位造成 2 点伤害。\n每当“维里赫德旅”移至所在半场的另一排，则再次触发该<keyword=deploy>部署</keyword>能力。\n",
+        "name": "维里赫德旅"
+    },
+    "142303": {
+        "info": "部署，近战：对 1 个敌军单位造成 3 点伤害。\n部署，远程：使 1 个友军单位获得 3 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>对 1 个敌军单位造成 3 点伤害。\n<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>使 1 个友军单位获得 3 点增益。\n",
+        "name": "维里赫德旅军官"
+    },
+    "142304": {
+        "info": "部署：对每排的 1 个随机敌军单位造成 2 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对每排的 1 个随机敌军单位造成 2 点伤害。\n",
+        "name": "多尔·布雷坦纳爆破手"
+    },
+    "142305": {
+        "info": "部署：对 1 个敌军单位造成 3 点伤害。若它存活，则使自身获得 1 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 3 点伤害。若它存活，则使自身获得 1 点增益。\n",
+        "name": "矮人好斗分子"
+    },
+    "142306": {
+        "info": "每回合结束时，若自身带有增益，则获得 1 点增益。\n",
+        "infoRaw": "每回合结束时，若自身带有增益，则获得 1 点增益。\n",
+        "name": "玛哈坎捍卫者"
+    },
+    "142307": {
+        "info": "部署：若己方手牌中有“精灵”单位，则摧毁 1 个敌军神器。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>若己方手牌中有“精灵”单位，则摧毁 1 个敌军神器。\n",
+        "name": "维里赫德旅工兵"
+    },
+    "142308": {
+        "info": "若战场上有友军“精灵”单位，则摧毁 1 个敌军随机单位。\n",
+        "infoRaw": "若战场上有友军“精灵”单位，则摧毁 1 个敌军随机单位。\n",
+        "name": "伏击"
+    },
+    "142309": {
+        "info": "部署：己方手牌中每有 1 个“精灵”单位，自身便获得 1 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>己方手牌中每有 1 个“精灵”单位，自身便获得 1 点增益。\n",
+        "name": "维里赫德旅先锋"
+    },
+    "142310": {
+        "info": "部署，近战：对 1 个敌军单位造成 2 点伤害。\n部署，远程：对 2 个单位造成 1 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>对 1 个敌军单位造成 2 点伤害。\n<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>对 2 个单位造成 1 点伤害。\n",
+        "name": "多尔·布雷坦纳弓箭手"
+    },
+    "142311": {
+        "info": "指令：对 1 个敌军单位造成 1 点伤害。\n充能：1。\n己方每打出 1 张“矮人”牌，便获得充能 +1。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>对 1 个敌军单位造成 1 点伤害。\n<keyword=charge>充能：</keyword>1。\n己方每打出 1 张“矮人”牌，便获得<keyword=charge>充能</keyword> +1。\n",
+        "name": "矮人佣兵"
+    },
+    "142312": {
+        "info": "部署：使 1 个友军单位获得 1 点增益。若己方控制神器，则改为增益 3 点。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使 1 个友军单位获得 1 点增益。若己方控制神器，则改为增益 3 点。\n",
+        "name": "私枭后援者"
+    },
+    "142313": {
+        "info": "部署：若自身已受增益，则对 1 个敌军单位造成 3 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>若自身已受增益，则对 1 个敌军单位造成 3 点伤害。\n",
+        "name": "精灵战舞者"
+    },
+    "142314": {
+        "info": "部署：对 1 个敌军单位造成 1 点伤害，数值等同于该单位与自身之间的战场排数量。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 1 点伤害，数值等同于该单位与自身之间的战场排数量。\n",
+        "name": "多尔·布雷坦纳射手"
+    },
+    "142315": {
+        "info": "近战：每回合结束时，使手牌中 1 张随机单位牌获得 1 点增益。\n",
+        "infoRaw": "<keyword=melee>近战：</keyword>每回合结束时，使手牌中 1 张随机单位牌获得 1 点增益。\n",
+        "name": "私枭走私者"
+    },
+    "142316": {
+        "info": "部署，近战：若 1 个敌军单位的所在排没有其他单位，则对其造成 4 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署，</keyword><keyword=melee>近战：</keyword>若 1 个敌军单位的所在排没有其他单位，则对其造成 4 点伤害。\n",
+        "name": "蓝山精锐"
+    },
+    "142317": {
+        "info": "部署：获得等同于己方另一排所有“矮人”友军单位数量的增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>获得等同于己方另一排所有“矮人”友军单位数量的增益。\n",
+        "name": "玛哈坎守卫"
+    },
+    "142401": {
+        "info": "部署：生成 1 张自身原始同名牌，将其召唤至己方另一排。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword><keyword=spawn>生成</keyword> 1 张自身原始同名牌，将其<keyword=summon>召唤</keyword>至己方另一排。\n",
+        "name": "松鼠党新兵"
+    },
+    "143201": {
+        "info": "伏击：在对方打出的下一张“特殊”牌触发任何能力之前，摧毁它。\n",
+        "infoRaw": "<keyword=ambush>伏击：</keyword>在对方打出的下一张“特殊”牌触发任何能力之前，摧毁它。\n",
+        "name": "毒蛇陷阱"
+    },
+    "143301": {
+        "info": "伏击：对对方打出的下一个单位造成 5 点伤害。\n狂热。\n指令：正面朝上翻开，对 1 个单位造成 3 点伤害。\n",
+        "infoRaw": "<keyword=ambush>伏击：</keyword>对对方打出的下一个单位造成 5 点伤害。\n<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>正面朝上翻开，对 1 个单位造成 3 点伤害。\n",
+        "name": "焚烧陷阱"
+    },
+    "152101": {
+        "info": "部署，近战：放逐己方墓场 1 个单位，并对 1 名敌军单位造成被放逐单位战力的伤害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword><keyword=banish>放逐</keyword>己方墓场 1 个单位，并对 1 名敌军单位造成被放逐单位战力的伤害。\n",
+        "name": "哈尔玛·奎特"
+    },
+    "152103": {
+        "info": "部署，远程：从己方牌组打出 1 张“炼金”牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>从己方牌组打出 1 张“炼金”牌。\n",
+        "name": "莫斯萨克"
+    },
+    "152104": {
+        "info": "部署：丢弃己方手牌最右侧的卡牌，并迫使对方也这样做。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword><keyword=discard>丢弃</keyword>己方手牌最右侧的卡牌，并迫使对方也这样做。\n",
+        "name": "坎比"
+    },
+    "152105": {
+        "info": "部署：抽 2 张牌，随后丢弃 2 张牌。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>抽 2 张牌，随后<keyword=discard>丢弃</keyword> 2 张牌。\n",
+        "name": "碧尔娜·布兰"
+    },
+    "152106": {
+        "info": "部署：对 1 个敌军单位造成两倍于已受伤敌军单位数量的伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成两倍于已受伤敌军单位数量的伤害。\n",
+        "name": "“疯子”卢戈"
+    },
+    "152107": {
+        "info": "指令：丢弃 1 张牌，随后抽 1 张牌。\n充能：3。\n每有 1 张“特殊”牌被丢弃，便对 1 个敌军单位造成 2 点伤害。\n",
+        "infoRaw": "<keyword=order>指令：</keyword><keyword=discard>丢弃</keyword> 1 张牌，随后抽 1 张牌。\n<keyword=charge>充能：</keyword>3。\n每有 1 张“特殊”牌被丢弃，便对 1 个敌军单位造成 2 点伤害。\n",
+        "name": "珊瑚"
+    },
+    "152109": {
+        "info": "部署，近战：对所有受伤的敌军单位造成 2 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>对所有受伤的敌军单位造成 2 点伤害。\n",
+        "name": "海上野猪"
+    },
+    "152201": {
+        "info": "每当受到伤害时，对 1 个随机敌军单位造成 2 点伤害。\n",
+        "infoRaw": "每当受到伤害时，对 1 个随机敌军单位造成 2 点伤害。\n",
+        "name": "“阿蓝”卢戈"
+    },
+    "152202": {
+        "info": "对 1 名单位造成 5 点伤害。\n嗜血：3，改为摧毁 1 个单位。\n",
+        "infoRaw": "对 1 名单位造成 5 点伤害。\n<keyword=bloodthirst>嗜血：</keyword>3，改为摧毁 1 个单位。\n",
+        "name": "冠军的冲锋"
+    },
+    "152203": {
+        "info": "嗜血：1，锁定 1 个敌军单位。\n",
+        "infoRaw": "<keyword=bloodthirst>嗜血：</keyword>1，<keyword=lock>锁定</keyword> 1 个敌军单位。\n",
+        "name": "邓戈·费特"
+    },
+    "152204": {
+        "info": "部署：对 1 名敌军单位造成 2 点伤害。\n嗜血：2，改为对 1 个敌军单位造成 5 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 名敌军单位造成 2 点伤害。\n<keyword=bloodthirst>嗜血：</keyword>2，改为对 1 个敌军单位造成 5 点伤害。\n",
+        "name": "多纳·印达"
+    },
+    "152205": {
+        "info": "部署：使所有友军“战士”单位获得 1 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使所有友军“战士”单位获得 1 点增益。\n",
+        "name": "德莱格·波·德乌"
+    },
+    "152206": {
+        "info": "部署，远程：从己方墓场打出 1 张铜色“炼金”牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>从己方墓场打出 1 张铜色“炼金”牌。\n",
+        "name": "格雷密斯特"
+    },
+    "152207": {
+        "info": "己方每打出 1 张“船只”牌，便获得 1 点增益。\n己方每打出 1 张“海盗”牌，便对 1 个随机敌军单位造成 1 点伤害。\n",
+        "infoRaw": "己方每打出 1 张“船只”牌，便获得 1 点增益。\n己方每打出 1 张“海盗”牌，便对 1 个随机敌军单位造成 1 点伤害。\n",
+        "name": "“黑手”霍格"
+    },
+    "152208": {
+        "info": "部署：若“茱塔‧迪门”为战力最高的单位，则自身受到 6 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>若“茱塔‧迪门”为战力最高的单位，则自身受到 6 点伤害。\n",
+        "name": "茱塔·迪门"
+    },
+    "152209": {
+        "info": "移动至墓场时，召唤至近战排，并获得佚亡。\n",
+        "infoRaw": "移动至墓场时，<keyword=summon>召唤</keyword>至近战排，并获得<keyword=doomed>佚亡</keyword>。\n",
+        "name": "莫克瓦格"
+    },
+    "152210": {
+        "info": "狂热。\n部署：墓场每有 1 张“恶熊”，便获得充能 +1。\n指令：对 1 个单位造成 2 点伤害。\n充能：1。\n",
+        "infoRaw": "<keyword=zeal>狂热</keyword>。\n<keyword=deploy>部署：</keyword>墓场每有 1 张“恶熊”，便获得<keyword=charge>充能</keyword> +1。\n<keyword=order>指令：</keyword>对 1 个单位造成 2 点伤害。\n<keyword=charge>充能：</keyword>1。\n",
+        "name": "恶熊"
+    },
+    "152211": {
+        "info": "从己方墓场召唤 1 张“战士”牌至己方单排。\n",
+        "infoRaw": "从己方墓场<keyword=summon>召唤</keyword> 1 张“战士”牌至己方单排。\n",
+        "name": "茜格德莉法的仪式"
+    },
+    "152213": {
+        "info": "部署，嗜血：3，获得 5 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=bloodthirst>嗜血：</keyword>3，获得 5 点增益。\n",
+        "name": "斯凡瑞吉·图尔赛克"
+    },
+    "152214": {
+        "info": "指令：对 1 个单位造成 1 点伤害。\n充能：3。\n嗜血：2，获得狂热。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>对 1 个单位造成 1 点伤害。\n<keyword=charge>充能：</keyword>3。\n<keyword=bloodthirst>嗜血：</keyword>2，获得<keyword=zeal>狂热</keyword>。\n",
+        "name": "乌达瑞克"
+    },
+    "152303": {
+        "info": "部署：对 1 个敌军单位造成 2 点伤害。若从墓场打出，则伤害改为 4 点。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 2 点伤害。若从墓场打出，则伤害改为 4 点。\n",
+        "name": "奎特家族战士"
+    },
+    "152304": {
+        "info": "指令：对 1 个单位造成 1 点伤害。\n充能：1。\n己方每丢弃 1 张牌，便获得充能 +1。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>对 1 个单位造成 1 点伤害。\n<keyword=charge>充能：</keyword>1。\n己方每<keyword=discard>丢弃</keyword> 1 张牌，便获得<keyword=charge>充能</keyword> +1。\n",
+        "name": "布洛克瓦尔家族猎人"
+    },
+    "152305": {
+        "info": "部署：将己方牌组最顶端的牌移至己方墓场。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>将己方牌组最顶端的牌移至己方墓场。\n",
+        "name": "迪门家族海盗"
+    },
+    "152306": {
+        "info": "部署。\n嗜血：2，对 1 个敌军单位造成 3 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>。\n<keyword=bloodthirst>嗜血：</keyword>2，对 1 个敌军单位造成 3 点伤害。\n",
+        "name": "迪门家族海盗船长"
+    },
+    "152307": {
+        "info": "指令：若受到伤害，则生成自身的 1 张原始同名牌，并将其召唤至自身右侧。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>若受到伤害，则<keyword=spawn>生成</keyword>自身的 1 张原始同名牌，并将其<keyword=summon>召唤</keyword>至自身右侧。\n",
+        "name": "德拉蒙家族女王卫队"
+    },
+    "152308": {
+        "info": "部署：丢弃 1 张牌，随后抽 1 张牌。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword><keyword=discard>丢弃</keyword> 1 张牌，随后抽 1 张牌。\n",
+        "name": "海玫家族诗人"
+    },
+    "152309": {
+        "info": "指令：对自身和 1 个敌军单位造成 1 点伤害。\n冷却：1。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>对自身和 1 个敌军单位造成 1 点伤害。\n<keyword=cooldown>冷却：</keyword>1。\n",
+        "name": "迪门家族轻型长船"
+    },
+    "152310": {
+        "info": "从己方墓场打出 1 个铜色单位。\n",
+        "infoRaw": "从己方墓场打出 1 个铜色单位。\n",
+        "name": "弗蕾雅的祝福"
+    },
+    "152311": {
+        "info": "指令：使 1 个友军单位获得 1 点增益。\n充能：1。\n己方每打出 1 张“战士”牌，便获得充能 +1。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>使 1 个友军单位获得 1 点增益。\n<keyword=charge>充能：</keyword>1。\n己方每打出 1 张“战士”牌，便获得<keyword=charge>充能</keyword> +1。\n",
+        "name": "奎特家族盾牌匠"
+    },
+    "152312": {
+        "info": "部署，近战：摧毁 1 个不高于自身基础战力一半的敌军单位。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>摧毁 1 个不高于自身基础战力一半的敌军单位。\n",
+        "name": "图尔赛克家族斧兵"
+    },
+    "152313": {
+        "info": "若被丢弃，则从己方墓场召唤至近战排。\n",
+        "infoRaw": "若被<keyword=discard>丢弃</keyword>，则从己方墓场<keyword=summon>召唤</keyword>至近战排。\n",
+        "name": "图尔赛克家族好斗分子"
+    },
+    "152314": {
+        "info": "对方每打出 1 个单位，便对其造成 1 点伤害。\n",
+        "infoRaw": "对方每打出 1 个单位，便对其造成 1 点伤害。\n",
+        "name": "奎特家族作战长船"
+    },
+    "152315": {
+        "info": "部署，远程：对 1 个敌军单位造成伤害，数值等同于其半场受伤单位的数量。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>对 1 个敌军单位造成伤害，数值等同于其半场受伤单位的数量。\n",
+        "name": "布洛克瓦尔家族弓箭手"
+    },
+    "152316": {
+        "info": "对 1 名单位造成 4 点伤害。\n嗜血：2，改为造成 6 点伤害。\n",
+        "infoRaw": "对 1 名单位造成 4 点伤害。\n<keyword=bloodthirst>嗜血：</keyword>2，改为造成 6 点伤害。\n",
+        "name": "巨斧挥击"
+    },
+    "152317": {
+        "info": "部署：使 1 个友军单位获得 1 点增益。若其为“战士”牌，则改为使其获得 3 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使 1 个友军单位获得 1 点增益。若其为“战士”牌，则改为使其获得 3 点增益。\n",
+        "name": "奎特家族盔甲匠"
+    },
+    "152318": {
+        "info": "下次受到伤害时，从己方牌组召唤 1 张同名牌至同排。\n",
+        "infoRaw": "下次受到伤害时，从己方牌组<keyword=summon>召唤</keyword> 1 张同名牌至同排。\n",
+        "name": "德拉蒙家族持盾女卫"
+    },
+    "152403": {
+        "info": "对对方单排所有单位造成共计 6 点伤害，由它们随机分摊。\n",
+        "infoRaw": "对对方单排所有单位造成共计 6 点伤害，由它们随机分摊。\n",
+        "name": "幻觉"
+    },
+    "152405": {
+        "info": "无特殊能力。\n",
+        "infoRaw": "无特殊能力。\n",
+        "name": "老熊"
+    },
+    "152406": {
+        "info": "部署：对左侧的 1 个友军单位造成 1 点伤害。若左侧没有友军，则自身承受 1 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对左侧的 1 个友军单位造成 1 点伤害。若左侧没有友军，则自身承受 1 点伤害。\n",
+        "name": "暴怒的熊"
+    },
+    "153201": {
+        "info": "治愈单排所有单位。\n",
+        "infoRaw": "<keyword=heal>治愈</keyword>单排所有单位。\n",
+        "name": "回复"
+    },
+    "153301": {
+        "info": "对单排所有单位造成 2 点伤害。\n",
+        "infoRaw": "对单排所有单位造成 2 点伤害。\n",
+        "name": "撕裂"
+    },
+    "162101": {
+        "info": "部署：移除对方领袖的所有重新抽牌机会。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>移除对方领袖的所有重新抽牌机会。\n",
+        "name": "古雷特的雷索"
+    },
+    "162102": {
+        "info": "部署，远程：从己方牌组打出 1 张“谋略”牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>从己方牌组打出 1 张“谋略”牌。\n",
+        "name": "门诺·库霍恩"
+    },
+    "162103": {
+        "info": "指令，近战：抓捕 1 个被 锁定的敌军单位。\n",
+        "infoRaw": "<keyword=order>指令</keyword>，<keyword=melee>近战：</keyword><keyword=seize>抓捕</keyword> 1 个被 <keyword=lock>锁定</keyword>的敌军单位。\n",
+        "name": "瓦提尔·德·李道克斯"
+    },
+    "162104": {
+        "info": "近战：每有 1 个敌军单位获得增益，则自身获得等量的增益。\n",
+        "infoRaw": "<keyword=melee>近战：</keyword>每有 1 个敌军单位获得增益，则自身获得等量的增益。\n",
+        "name": "卡西尔·迪弗林"
+    },
+    "162105": {
+        "info": "部署，近战：摧毁 1 个敌军单位，随后对方召唤其牌组顶端的单位至其半场随机一排。\n部署，远程：摧毁 1 个友军单位，随后召唤己方牌组顶端的单位至己方随机一排。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>摧毁 1 个敌军单位，随后对方<keyword=summon>召唤</keyword>其牌组顶端的单位至其半场随机一排。\n<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>摧毁 1 个友军单位，随后<keyword=summon>召唤</keyword>己方牌组顶端的单位至己方随机一排。\n",
+        "name": "威戈佛特兹"
+    },
+    "162106": {
+        "info": "指令：生成并打出本回合打出过的 1 张“谋略”牌的同名牌。\n",
+        "infoRaw": "<keyword=order>指令：</keyword><keyword=spawn>生成</keyword>并打出本回合打出过的 1 张“谋略”牌的同名牌。\n",
+        "name": "史提芬·史凯伦"
+    },
+    "162107": {
+        "info": "部署：对方召唤其牌组顶端的单位牌至其半场随机一排。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对方<keyword=summon>召唤</keyword>其牌组顶端的单位牌至其半场随机一排。\n",
+        "name": "蒂博尔·艾格布拉杰"
+    },
+    "162108": {
+        "info": "部署：揭示己方牌组随机 1 张牌。若它为单位牌，则自身获得其战力的增益，并将其洗回。若为“神器”或“特殊”牌，则直接打出。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword><keyword=reveal>揭示</keyword>己方牌组随机 1 张牌。若它为单位牌，则自身获得其战力的增益，并将其洗回。若为“神器”或“特殊”牌，则直接打出。\n",
+        "name": "沙斯希乌斯"
+    },
+    "162201": {
+        "info": "部署，远程：将己方牌组中的任一牌移至顶端，若它为单位牌，则使其获得 2 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>将己方牌组中的任一牌移至顶端，若它为单位牌，则使其获得 2 点增益。\n",
+        "name": "亚伯力奇"
+    },
+    "162202": {
+        "info": "部署，近战：将对方墓场中 1 张牌洗回其牌组。\n部署，远程：将己方墓场中 1 张牌洗回己方牌组。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>将对方墓场中 1 张牌洗回其牌组。\n<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>将己方墓场中 1 张牌洗回己方牌组。\n",
+        "name": "艾希蕾·阿纳兴"
+    },
+    "162203": {
+        "info": "部署，近战：生成“魔像守卫”，并置于对方牌组顶端。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword><keyword=spawn>生成</keyword>“魔像守卫”，并置于对方牌组顶端。\n",
+        "name": "辛西亚"
+    },
+    "162204": {
+        "info": "部署，恢复 1 个单位的战力至基础值。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，恢复 1 个单位的战力至基础值。\n",
+        "name": "彼得·萨尔格温利"
+    },
+    "162205": {
+        "info": "指令：揭示对方牌组的 1 张随机“特殊”牌，随后生成并打出 1 张它的同名牌。\n",
+        "infoRaw": "<keyword=order>指令：</keyword><keyword=reveal>揭示</keyword>对方牌组的 1 张随机“特殊”牌，随后<keyword=spawn>生成</keyword>并打出 1 张它的同名牌。\n",
+        "name": "芙琳吉拉·薇歌"
+    },
+    "162206": {
+        "info": "部署：对 1 个敌军单位造成 1 点伤害。\n己方每揭示 1 张牌，伤害便 + 1。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 1 点伤害。\n己方每<keyword=reveal>揭示</keyword> 1 张牌，伤害便 + 1。\n",
+        "name": "斯维尔"
+    },
+    "162207": {
+        "info": "部署，远程：摧毁 1 个被锁定的敌军单位。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>摧毁 1 个被<keyword=lock>锁定</keyword>的敌军单位。\n",
+        "name": "凡赫玛"
+    },
+    "162208": {
+        "info": "部署：锁定 1 个敌军单位。\n若己方手牌中有“瑟瑞特”，则锁定位于对方手牌、牌组和对方半场的所有该敌军单位的同名牌。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword><keyword=lock>锁定</keyword> 1 个敌军单位。\n若己方手牌中有“瑟瑞特”，则<keyword=lock>锁定</keyword>位于对方手牌、牌组和对方半场的所有该敌军单位的同名牌。\n",
+        "name": "奥克斯"
+    },
+    "162209": {
+        "info": "部署：对 1 个敌军单位造成 3 点伤害。若手牌中有“奥克斯”，则改为对该敌军单位造成 5 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 3 点伤害。若手牌中有“奥克斯”，则改为对该敌军单位造成 5 点伤害。\n",
+        "name": "瑟瑞特"
+    },
+    "162210": {
+        "info": "间谍。\n部署：打出对方牌组顶端的 1 张牌。\n",
+        "infoRaw": "<keyword=spying>间谍</keyword>。\n<keyword=deploy>部署：</keyword>打出对方牌组顶端的 1 张牌。\n",
+        "name": "坎塔蕾拉"
+    },
+    "162211": {
+        "info": "间谍。\n部署：打出己方牌组顶端的非间谍单位牌，并使其获得 8 点增益。\n",
+        "infoRaw": "<keyword=spying>间谍</keyword>。\n<keyword=deploy>部署：</keyword>打出己方牌组顶端的非<keyword=spying>间谍</keyword>单位牌，并使其获得 8 点增益。\n",
+        "name": "约阿希姆·德·维特"
+    },
+    "162212": {
+        "info": "部署：，近战：将 1 个敌军单位移至所在半场的其他排。\n部署：，远程：摧毁 1 个敌军神器。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>，<keyword=melee>近战：</keyword>将 1 个敌军单位移至所在半场的其他排。\n<keyword=deploy>部署：</keyword>，<keyword=ranged>远程：</keyword>摧毁 1 个敌军神器。\n",
+        "name": "冒牌希里"
+    },
+    "162213": {
+        "info": "部署：移除战场上所有单位的所有“状态”。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>移除战场上所有单位的所有“状态”。\n",
+        "name": "契拉克·迪弗林"
+    },
+    "162301": {
+        "info": "被揭示时，从己方牌组召唤至己方随机一排。\n",
+        "infoRaw": "被<keyword=reveal>揭示</keyword>时，从己方牌组<keyword=summon>召唤</keyword>至己方随机一排。\n",
+        "name": "迪尔兰士兵"
+    },
+    "162302": {
+        "info": "部署，远程：生成并打出 1 个“牛尸”。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword><keyword=spawn>生成</keyword>并打出 1 个“牛尸”。\n",
+        "name": "帝国投石机"
+    },
+    "162303": {
+        "info": "部署，近战：揭示对方牌组中 1 张随机单位牌，自身获得相当于其战力的增益。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword><keyword=reveal>揭示</keyword>对方牌组中 1 张随机单位牌，自身获得相当于其战力的增益。\n",
+        "name": "侦察员"
+    },
+    "162304": {
+        "info": "从对方墓场打出 1 个铜色单位。\n",
+        "infoRaw": "从对方墓场打出 1 个铜色单位。\n",
+        "name": "实验药品"
+    },
+    "162305": {
+        "info": "部署：对 1 个敌军单位造成 2 点伤害，随后各揭示双方牌组 1 个随机单位。若己方被揭示单位的战力更高，则再次触发部署能力。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 2 点伤害，随后各<keyword=reveal>揭示</keyword>双方牌组 1 个随机单位。若己方被揭示单位的战力更高，则再次触发<keyword=deploy>部署</keyword>能力。\n",
+        "name": "戴斯文强弩手"
+    },
+    "162306": {
+        "info": "指令，远程：对 1 个单位造成 1 点伤害。\n充能：1。\n己方每打出 1 张“谋略”牌，便获得充能 +1。\n",
+        "infoRaw": "<keyword=order>指令</keyword>，<keyword=ranged>远程：</keyword>对 1 个单位造成 1 点伤害。\n<keyword=charge>充能：</keyword>1。\n己方每打出 1 张“谋略”牌，便获得<keyword=charge>充能</keyword> +1。\n",
+        "name": "火蝎攻城弩"
+    },
+    "162307": {
+        "info": "部署，近战：从己方牌组召唤 1 张同名牌至同排。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>从己方牌组<keyword=summon>召唤</keyword> 1 张同名牌至同排。\n",
+        "name": "近卫军"
+    },
+    "162308": {
+        "info": "指令：对 1 个敌军单位造成 2 点伤害。\n充能：1。\n己方每打出 1 个间谍单位，便获得充能 +1。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>对 1 个敌军单位造成 2 点伤害。\n<keyword=charge>充能：</keyword>1。\n己方每打出 1 个<keyword=spying>间谍</keyword>单位，便获得<keyword=charge>充能</keyword> +1。\n",
+        "name": "近卫军铁卫"
+    },
+    "162309": {
+        "info": "每有 1 个拥有部署能力的单位被打出，自身便获得 1 点增益。\n",
+        "infoRaw": "每有 1 个拥有<keyword=deploy>部署</keyword>能力的单位被打出，自身便获得 1 点增益。\n",
+        "name": "那乌西卡旅中士"
+    },
+    "162310": {
+        "info": "部署：对 1 个受到增益的敌军单位造成 3 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个受到增益的敌军单位造成 3 点伤害。\n",
+        "name": "那乌西卡旅"
+    },
+    "162311": {
+        "info": "部署，近战：对 1 个敌军单位造成伤害，数值等同于其半场另一排的单位数量。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>对 1 个敌军单位造成伤害，数值等同于其半场另一排的单位数量。\n",
+        "name": "阿尔巴师枪兵"
+    },
+    "162312": {
+        "info": "部署：对 1 个敌军单位造成 2 点伤害。每有 1 张相邻的“士兵”牌，则伤害 +1。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 2 点伤害。每有 1 张相邻的“士兵”牌，则伤害 +1。\n",
+        "name": "阿尔巴师矛兵"
+    },
+    "162313": {
+        "info": "部署：若己方控制神器，则自身获得 3 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>若己方控制神器，则自身获得 3 点增益。\n",
+        "name": "作战工程师"
+    },
+    "162314": {
+        "info": "间谍。\n部署：使 1 个友军单位获得 7 点增益。\n",
+        "infoRaw": "<keyword=spying>间谍</keyword>。\n<keyword=deploy>部署：</keyword>使 1 个友军单位获得 7 点增益。\n",
+        "name": "特使"
+    },
+    "162315": {
+        "info": "创造并打出对方阵营的 1 张铜色单位牌。\n",
+        "infoRaw": "<keyword=create>创造</keyword>并打出对方阵营的 1 张铜色单位牌。\n",
+        "name": "帝国外交"
+    },
+    "162316": {
+        "info": "部署，远程：将 2 个友军单位的战力互换。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>将 2 个友军单位的战力互换。\n",
+        "name": "炼金术士"
+    },
+    "162317": {
+        "info": "己方每揭示 1 张牌，便对 1 个随机敌军单位造成 1 点伤害。\n",
+        "infoRaw": "己方每<keyword=reveal>揭示</keyword> 1 张牌，便对 1 个随机敌军单位造成 1 点伤害。\n",
+        "name": "射石机"
+    },
+    "162318": {
+        "info": "部署：使 1 个敌军单位获得 2 点增益。若没有敌军单位，则摧毁自身。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使 1 个敌军单位获得 2 点增益。若没有敌军单位，则摧毁自身。\n",
+        "name": "尼弗迦德骑士"
+    },
+    "162401": {
+        "info": "无特殊能力。\n",
+        "infoRaw": "无特殊能力。\n",
+        "name": "魔像守卫"
+    },
+    "162402": {
+        "info": "间谍。佚亡\n1 回合后，在回合结束时，摧毁自身和左侧的单位。\n",
+        "infoRaw": "<keyword=spying>间谍</keyword>。<keyword=doomed>佚亡</keyword>\n1 回合后，在回合结束时，摧毁自身和左侧的单位。\n",
+        "name": "牛尸"
+    },
+    "163101": {
+        "info": "迫使 1 个敌军单位对与其相邻单位造成伤害，数值等同于该敌军单位的战力。\n",
+        "infoRaw": "迫使 1 个敌军单位对与其相邻单位造成伤害，数值等同于该敌军单位的战力。\n",
+        "name": "通敌"
+    },
+    "163201": {
+        "info": "创造对方起始牌组的 1 张单位牌，并将其打出。\n",
+        "infoRaw": "<keyword=create>创造</keyword>对方起始牌组的 1 张单位牌，并将其打出。\n",
+        "name": "贿赂"
+    },
+    "200008": {
+        "info": "狂热。\n指令：使 1 个友军单位获得 3 点增益和狂热。\n",
+        "infoRaw": "<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>使 1 个友军单位获得 3 点增益和<keyword=zeal>狂热</keyword>。\n",
+        "name": "佩特里的魔药"
+    },
+    "200018": {
+        "info": "放逐 1 个单位或 1 个神器。\n",
+        "infoRaw": "<keyword=banish>放逐</keyword> 1 个单位或 1 个神器。\n",
+        "name": "科拉兹热浪"
+    },
+    "200019": {
+        "info": "从己方牌组打出战力最低的单位。\n",
+        "infoRaw": "从己方牌组打出战力最低的单位。\n",
+        "name": "行军令"
+    },
+    "200020": {
+        "info": "从己方墓场打出 1 个铜色单位，并使其获得佚亡。\n",
+        "infoRaw": "从己方墓场打出 1 个铜色单位，并使其获得<keyword=doomed>佚亡</keyword>。\n",
+        "name": "死灵术"
+    },
+    "200022": {
+        "info": "狂热。\n指令：从己方牌组打出 1 个所需招募费用不高于“召唤法阵”充能数的单位，随后移除所有充能。\n充能：0。\n每回合开始时，获得充能 +1。\n",
+        "infoRaw": "<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>从己方牌组打出 1 个所需招募费用不高于“召唤法阵”<keyword=charge>充能</keyword>数的单位，随后移除所有<keyword=charge>充能</keyword>。\n<keyword=charge>充能：</keyword>0。\n每回合开始时，获得<keyword=charge>充能</keyword> +1。\n",
+        "name": "召唤法阵"
+    },
+    "200023": {
+        "info": "对 1 个单位造成 3 点伤害。若它被摧毁，则对与其相邻的单位造成 3 点伤害。\n",
+        "infoRaw": "对 1 个单位造成 3 点伤害。若它被摧毁，则对与其相邻的单位造成 3 点伤害。\n",
+        "name": "蟹蜘蛛毒液"
+    },
+    "200026": {
+        "info": "部署：使 1 个友军单位获得 1 点增益。若己方控制最强的单位，则改为使其获得 3 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使 1 个友军单位获得 1 点增益。若己方控制最强的单位，则改为使其获得 3 点增益。\n",
+        "name": "狂猎导航员"
+    },
+    "200028": {
+        "info": "部署，近战：摧毁 1 个受伤的敌军单位。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>摧毁 1 个受伤的敌军单位。\n",
+        "name": "维伯约恩"
+    },
+    "200030": {
+        "info": "部署，近战：对 1 个敌军单位造成 4 点伤害。\n部署，远程：对 4 个单位造成 1 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>对 1 个敌军单位造成 4 点伤害。\n<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>对 4 个单位造成 1 点伤害。\n",
+        "name": "麦莉"
+    },
+    "200031": {
+        "info": "部署，近战：摧毁 1 个战力不低于 8 点的敌军单位。\n部署，远程：摧毁 1 个“猎魔人”。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>摧毁 1 个战力不低于 8 点的敌军单位。\n<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>摧毁 1 个“猎魔人”。\n",
+        "name": "雷欧·邦纳特"
+    },
+    "200032": {
+        "info": "部署：使 1 个敌军单位获得 3 点增益，随后自身获得 3 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使 1 个敌军单位获得 3 点增益，随后自身获得 3 点增益。\n",
+        "name": "亚特里的林法恩"
+    },
+    "200033": {
+        "info": "狂热。\n指令，远程：使 1 个友军单位获得充能 +1。\n冷却：2。\n",
+        "infoRaw": "<keyword=zeal>狂热</keyword>。\n<keyword=order>指令</keyword>，<keyword=ranged>远程：</keyword>使 1 个友军单位获得<keyword=charge>充能</keyword> +1。\n<keyword=cooldown>冷却：</keyword>2。\n",
+        "name": "艾瑞图萨学院学员"
+    },
+    "200036": {
+        "info": "部署、近战、嗜血：1，摧毁 1 个敌军神器。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近战</keyword>、<keyword=bloodthirst>嗜血：</keyword>1，摧毁 1 个敌军神器。\n",
+        "name": "德拉蒙家族好战分子"
+    },
+    "200037": {
+        "info": "部署：摧毁 1 个相邻的友军单位，并用其战力对 1 个敌军单位造成伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>摧毁 1 个相邻的友军单位，并用其战力对 1 个敌军单位造成伤害。\n",
+        "name": "独眼巨人"
+    },
+    "200038": {
+        "info": "成长。\n部署：对 1 个随机敌军单位造成 2 点伤害。\n遗愿：再次触发部署能力。\n",
+        "infoRaw": "<keyword=thrive>成长</keyword>。\n<keyword=deploy>部署：</keyword>对 1 个随机敌军单位造成 2 点伤害。\n<keyword=deathwish>遗愿：</keyword>再次触发<keyword=deploy>部署</keyword>能力。\n",
+        "name": "巨棘魔树"
+    },
+    "200039": {
+        "info": "近战：每有 1 个敌军单位被移至其他排，便对其造成 1 点伤害。\n远程：每有 1 个友军单位被移至其他排，便使其获得 1 点增益。\n",
+        "infoRaw": "<keyword=melee>近战：</keyword>每有 1 个敌军单位被移至其他排，便对其造成 1 点伤害。\n<keyword=ranged>远程：</keyword>每有 1 个友军单位被移至其他排，便使其获得 1 点增益。\n",
+        "name": "多尔·布雷坦纳哨兵"
+    },
+    "200040": {
+        "info": "对方同排每有 1 个敌军单位受到伤害，自身便获得 1 点增益。\n",
+        "infoRaw": "对方同排每有 1 个敌军单位受到伤害，自身便获得 1 点增益。\n",
+        "name": "奎特家族巨剑士"
+    },
+    "200041": {
+        "info": "免疫。\n指令：同排每有 1 张“士兵”牌，便对 1 个敌军单位造成 2 点伤害。\n",
+        "infoRaw": "<keyword=immune>免疫</keyword>。\n<keyword=order>指令：</keyword>同排每有 1 张“士兵”牌，便对 1 个敌军单位造成 2 点伤害。\n",
+        "name": "重弩海尔格"
+    },
+    "200042": {
+        "info": "部署：若已获得增益，则获得坚韧。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>若已获得增益，则获得<keyword=resilient>坚韧</keyword>。\n",
+        "name": "玛哈坎劫掠者"
+    },
+    "200043": {
+        "info": "部署：在己方另一排生成 3 个“哈罗德的伙伴”，并将其召唤至己方另一排。\n指令：对 1 个友军单位造成 1 点伤害。\n冷却：1。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>在己方另一排<keyword=spawn>生成</keyword> 3 个“哈罗德的伙伴”，并将其<keyword=summon>召唤</keyword>至己方另一排。\n<keyword=order>指令：</keyword>对 1 个友军单位造成 1 点伤害。\n<keyword=cooldown>冷却：</keyword>1。\n",
+        "name": "哈罗德·霍兹诺特"
+    },
+    "200044": {
+        "info": "每回合结束时，若自身为同排唯一卡牌，则获得 1 点增益。\n",
+        "infoRaw": "每回合结束时，若自身为同排唯一卡牌，则获得 1 点增益。\n",
+        "name": "马格尼师"
+    },
+    "200046": {
+        "info": "部署：承受 4 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>承受 4 点伤害。\n",
+        "name": "图尔赛克家族老兵"
+    },
+    "200048": {
+        "info": "部署：选择 1 个友军单位，其每有 1 层充能，便使其获得 1 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>选择 1 个友军单位，其每有 1 层<keyword=charge>充能</keyword>，便使其获得 1 点增益。\n",
+        "name": "班·阿德导师"
+    },
+    "200049": {
+        "info": "部署：若己方控制 1 名“士兵”，则摧毁 1 个敌军神器。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>若己方控制 1 名“士兵”，则摧毁 1 个敌军神器。\n",
+        "name": "攻城槌"
+    },
+    "200050": {
+        "info": "部署：使 1 个友军“士兵”单位和其所有同名牌获得 2 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使 1 个友军“士兵”单位和其所有同名牌获得 2 点增益。\n",
+        "name": "弗林姆德"
+    },
+    "200052": {
+        "info": "遗愿：对方从其牌组召唤战力最低的 1 个单位至对称排。\n",
+        "infoRaw": "<keyword=deathwish>遗愿：</keyword>对方从其牌组<keyword=summon>召唤</keyword>战力最低的 1 个单位至对称排。\n",
+        "name": "哥亚特"
+    },
+    "200053": {
+        "info": "锁定 1 个单位，并将其战力恢复至基础值。\n",
+        "infoRaw": "<keyword=lock>锁定</keyword> 1 个单位，并将其战力恢复至基础值。\n",
+        "name": "化器封形"
+    },
+    "200055": {
+        "info": "指令：触发 1 个友军单位的遗愿能力。\n小局开始时，刷新此能力。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>触发 1 个友军单位的<keyword=deathwish>遗愿</keyword>能力。\n小局开始时，刷新此能力。\n",
+        "name": "暗影长者"
+    },
+    "200056": {
+        "info": "部署，远程：创造任意 1 张特殊牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword><keyword=create>创造</keyword>任意 1 张特殊牌。\n",
+        "name": "狐妖：真身"
+    },
+    "200058": {
+        "info": "创造并打出 1 个金色单位。\n",
+        "infoRaw": "<keyword=create>创造</keyword>并打出 1 个金色单位。\n",
+        "name": "乌马的诅咒"
+    },
+    "200062": {
+        "info": "部署，近战：锁定 1 个单位。\n部署，远程：移除 1 个单位的锁定状态。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword><keyword=lock>锁定</keyword> 1 个单位。\n<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>移除 1 个单位的<keyword=lock>锁定</keyword>状态。\n",
+        "name": "狐妖"
+    },
+    "200071": {
+        "info": "部署：将对方手牌中最强单位的战力设为 1 点。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>将对方手牌中最强单位的战力设为 1 点。\n",
+        "name": "希拉德·费兹奥耶斯泰兰"
+    },
+    "200073": {
+        "info": "部署：若己方控制最强的单位，则对 1 个敌军单位造成 5 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>若己方控制最强的单位，则对 1 个敌军单位造成 5 点伤害。\n",
+        "name": "雅妲：吸血妖鸟"
+    },
+    "200078": {
+        "info": "增益 1 个单位至 12 点战力。若它不是猎魔人，则先对其造成 6 点伤害。\n",
+        "infoRaw": "增益 1 个单位至 12 点战力。若它不是猎魔人，则先对其造成 6 点伤害。\n",
+        "name": "青草试炼"
+    },
+    "200079": {
+        "info": "从对方墓场打出 1 个单位，并使其获得佚亡。\n",
+        "infoRaw": "从对方墓场打出 1 个单位，并使其获得<keyword=doomed>佚亡</keyword>。\n",
+        "name": "哈马维的蓝色梦境"
+    },
+    "200080": {
+        "info": "近战：每当受到增益时，额外再获得 2 点增益。\n",
+        "infoRaw": "<keyword=melee>近战：</keyword>每当受到增益时，额外再获得 2 点增益。\n",
+        "name": "泽维尔·莫兰"
+    },
+    "200081": {
+        "info": "部署，远程： 治愈 1 个友军单位 2 点战力，随后使其获得 2 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword> <keyword=heal>治愈</keyword> 1 个友军单位 2 点战力，随后使其获得 2 点增益。\n",
+        "name": "海玫家族草药医生"
+    },
+    "200083": {
+        "info": "部署：从己方牌组选择并抽 1 张牌，随后随机丢弃 1 张牌。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>从己方牌组选择并抽 1 张牌，随后随机<keyword=discard>丢弃</keyword> 1 张牌。\n",
+        "name": "爱丽丝的同伴"
+    },
+    "200087": {
+        "info": "部署：锁定 1 个单位。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword><keyword=lock>锁定</keyword> 1 个单位。\n",
+        "name": "多瑞加雷"
+    },
+    "200088": {
+        "info": "部署：用本回合对敌军单位造成的伤害值增益自身。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>用本回合对敌军单位造成的伤害值增益自身。\n",
+        "name": "休伯特·雷亚克"
+    },
+    "200089": {
+        "info": "部署：将单排上所有单位移至所在半场的另一排。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>将单排上所有单位移至所在半场的另一排。\n",
+        "name": "纳威伦"
+    },
+    "200091": {
+        "info": "远程：2 回合后，双方各抽 1 张单位牌，将其战力设为 1 点。\n",
+        "infoRaw": "<keyword=ranged>远程：</keyword>2 回合后，双方各抽 1 张单位牌，将其战力设为 1 点。\n",
+        "name": "斯崔葛布"
+    },
+    "200098": {
+        "info": "狂热。\n指令，近战：将 1 个未受增益的敌军单位战力设为 1 点。\n",
+        "infoRaw": "<keyword=zeal>狂热</keyword>。\n<keyword=order>指令</keyword>，<keyword=melee>近战：</keyword>将 1 个未受增益的敌军单位战力设为 1 点。\n",
+        "name": "文森特·梅斯"
+    },
+    "200102": {
+        "info": "部署：与 1 个受伤的单位交换战力。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>与 1 个受伤的单位交换战力。\n",
+        "name": "希姆"
+    },
+    "200103": {
+        "info": "指令：“奥拉夫”获得已受伤害值 2 倍的增益。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>“奥拉夫”获得已受伤害值 2 倍的增益。\n",
+        "name": "奥拉夫"
+    },
+    "200104": {
+        "info": "部署：对 1 个敌军单位造成其当前战力一半的伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成其当前战力一半的伤害。\n",
+        "name": "乌弗海登"
+    },
+    "200105": {
+        "info": "部署：对 1 个敌军单位造成 1 点伤害，连续 3 次。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 1 点伤害，连续 3 次。\n",
+        "name": "迪门家族战船"
+    },
+    "200112": {
+        "info": "部署：使 1 个友军遗愿单位获得 3 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使 1 个友军<keyword=deathwish>遗愿</keyword>单位获得 3 点增益。\n",
+        "name": "女海妖"
+    },
+    "200114": {
+        "info": "免疫。成长。\n",
+        "infoRaw": "<keyword=immune>免疫</keyword>。<keyword=thrive>成长</keyword>。\n",
+        "name": "狼人头领"
+    },
+    "200115": {
+        "info": "对 1 个单位造成 6 点伤害。它每有 1 个相邻单位，则该伤害 -1。\n",
+        "infoRaw": "对 1 个单位造成 6 点伤害。它每有 1 个相邻单位，则该伤害 -1。\n",
+        "name": "暗袭"
+    },
+    "200118": {
+        "info": "近战：小局结束时，洗入对方牌组。\n",
+        "infoRaw": "<keyword=melee>近战：</keyword>小局结束时，洗入对方牌组。\n",
+        "name": "渗透者"
+    },
+    "200124": {
+        "info": "部署：揭示对方牌组顶端的 1 张牌，并将其放逐。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword><keyword=reveal>揭示</keyword>对方牌组顶端的 1 张牌，并将其<keyword=banish>放逐</keyword>。\n",
+        "name": "毒蛇学派猎魔人"
+    },
+    "200135": {
+        "info": "狂热。\n指令：摧毁 1 个友军神器，并对 1 个单位造成 2 点伤害。\n冷却：2。\n",
+        "infoRaw": "<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>摧毁 1 个友军神器，并对 1 个单位造成 2 点伤害。\n<keyword=cooldown>冷却：</keyword>2。\n",
+        "name": "烟火技师"
+    },
+    "200136": {
+        "info": "部署，远程：揭示己方牌组 1 张随机牌。若为“特殊”牌，则自身获得 2 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword><keyword=reveal>揭示</keyword>己方牌组 1 张随机牌。若为“特殊”牌，则自身获得 2 点增益。\n",
+        "name": "先知"
+    },
+    "200138": {
+        "info": "每打出 1 张“特殊”牌，自身便获得 2 点增益。\n",
+        "infoRaw": "每打出 1 张“特殊”牌，自身便获得 2 点增益。\n",
+        "name": "贤者"
+    },
+    "200139": {
+        "info": "部署：对 1 个非“松鼠党”敌军单位造成 3 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个非“松鼠党”敌军单位造成 3 点伤害。\n",
+        "name": "黑豹"
+    },
+    "200144": {
+        "info": "部署：使 1 个友军“野兽”单位获得 2 点增益。己方墓场中每有 1 个“野兽”，则该增益 +1。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使 1 个友军“野兽”单位获得 2 点增益。己方墓场中每有 1 个“野兽”，则该增益 +1。\n",
+        "name": "图尔赛克家族驯兽师"
+    },
+    "200145": {
+        "info": "部署：己方手中每有 1 张“船只”牌，便对 1 个单位造成 1 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>己方手中每有 1 张“船只”牌，便对 1 个单位造成 1 点伤害。\n",
+        "name": "迪门家族海贼"
+    },
+    "200146": {
+        "info": "部署，近战：对 1 个单位造成 1 点伤害，随后再使其获得 2 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>对 1 个单位造成 1 点伤害，随后再使其获得 2 点增益。\n",
+        "name": "迪门家族走私贩"
+    },
+    "200147": {
+        "info": "每回合结束时，治愈同排所有受伤的友军单位 1 点战力。\n",
+        "infoRaw": "每回合结束时，<keyword=heal>治愈</keyword>同排所有受伤的友军单位 1 点战力。\n",
+        "name": "佛兰明妮卡"
+    },
+    "200149": {
+        "info": "每有 1 个相邻友军单位受到伤害，自身便获得 1 点增益。\n",
+        "infoRaw": "每有 1 个相邻友军单位受到伤害，自身便获得 1 点增益。\n",
+        "name": "海玫家族保卫者"
+    },
+    "200154": {
+        "info": "从己方牌组打出 1 张单位牌。\n",
+        "infoRaw": "从己方牌组打出 1 张单位牌。\n",
+        "name": "皇家谕令"
+    },
+    "200159": {
+        "info": "指令：丢弃 1 张牌，随后抽 1 张牌。\n在小局开始时，刷新该能力。\n每丢弃 1 张牌，便对 1 个随机敌军单位造成 1 点伤害。\n",
+        "infoRaw": "<keyword=order>指令：</keyword><keyword=discard>丢弃</keyword> 1 张牌，随后抽 1 张牌。\n在小局开始时，刷新该能力。\n每<keyword=discard>丢弃</keyword> 1 张牌，便对 1 个随机敌军单位造成 1 点伤害。\n",
+        "name": "布兰王"
+    },
+    "200160": {
+        "info": "指令：对 1 个单位造成 1 点伤害。\n冷却：2。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>对 1 个单位造成 1 点伤害。\n<keyword=cooldown>冷却：</keyword>2。\n",
+        "name": "克拉茨·奎特"
+    },
+    "200161": {
+        "info": "指令：对所有敌军单位造成共计 8 点伤害，由它们随机分摊。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>对所有敌军单位造成共计 8 点伤害，由它们随机分摊。\n",
+        "name": "“瘸子”哈罗德"
+    },
+    "200162": {
+        "info": "指令：将 1 张牌从战场收回手牌，随后打出 1 张牌。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>将 1 张牌从战场收回手牌，随后打出 1 张牌。\n",
+        "name": "恩希尔·恩瑞斯"
+    },
+    "200163": {
+        "info": "指令：随机揭示对方牌组的 1 张牌。若为铜色牌，则使 1 个友军单位获得 3 点增益。若为金色牌，则改为 4 点增益。\n小局开始时，刷新此能力。\n",
+        "infoRaw": "<keyword=order>指令：随机</keyword><keyword=reveal>揭示</keyword>对方牌组的 1 张牌。若为铜色牌，则使 1 个友军单位获得 3 点增益。若为金色牌，则改为 4 点增益。\n小局开始时，刷新此能力。\n",
+        "name": "莫尔凡·符里斯"
+    },
+    "200164": {
+        "info": "指令：检视己方牌组顶端的 3 张牌，并打出 1 张。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>检视己方牌组顶端的 3 张牌，并打出 1 张。\n",
+        "name": "约翰·卡尔维特"
+    },
+    "200165": {
+        "info": "指令：从己方墓场打出 1 张“特殊”牌。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>从己方墓场打出 1 张“特殊”牌。\n",
+        "name": "法兰茜丝卡"
+    },
+    "200166": {
+        "info": "指令：对 1 个单位造成 1 点伤害。\n充能：3。\n在小局开始时，刷新“艾思娜”的充能数。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>对 1 个单位造成 1 点伤害。\n<keyword=charge>充能：</keyword>3。\n在小局开始时，刷新“艾思娜”的<keyword=charge>充能</keyword>数。\n",
+        "name": "艾思娜"
+    },
+    "200167": {
+        "info": "指令：将 1 个单位移至它所在半场的另一排。若为敌军单位，则对它造成 2 点伤害；若为友军单位，则使它获得 2 点增益。\n充能：3。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>将 1 个单位移至它所在半场的另一排。若为敌军单位，则对它造成 2 点伤害；若为友军单位，则使它获得 2 点增益。\n<keyword=charge>充能：</keyword>3。\n",
+        "name": "布罗瓦尔·霍格"
+    },
+    "200168": {
+        "info": "指令：使 1 个友军单位获得 1 点增益和狂热。\n充能：3。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>使 1 个友军单位获得 1 点增益和<keyword=zeal>狂热</keyword>。\n<keyword=charge>充能：</keyword>3。\n",
+        "name": "弗尔泰斯特国王"
+    },
+    "200170": {
+        "info": "指令：从己方牌组打出 1 个友军单位的 1 张同名牌至战场，并使其获得 4 点增益和狂热。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>从己方牌组打出 1 个友军单位的 1 张同名牌至战场，并使其获得 4 点增益和<keyword=zeal>狂热</keyword>。\n",
+        "name": "亨赛特国王"
+    },
+    "200171": {
+        "info": "每当受到增益，便对 1 个随机敌军单位造成 1 点伤害。\n",
+        "infoRaw": "每当受到增益，便对 1 个随机敌军单位造成 1 点伤害。\n",
+        "name": "崔丹姆步兵"
+    },
+    "200177": {
+        "info": "若位于墓场，当己方从墓场打出单位时，召唤自身至己方随机一排。\n",
+        "infoRaw": "若位于墓场，当己方从墓场打出单位时，<keyword=summon>召唤</keyword>自身至己方随机一排。\n",
+        "name": "凯瑞丝·奎特"
+    },
+    "200209": {
+        "info": "指令：对 1 个敌军单位造成 2 点伤害。\n冷却：4。\n若手中有“精灵”、“矮人”或“树精”牌，则冷却 -1（每个类别仅限一次）。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>对 1 个敌军单位造成 2 点伤害。\n<keyword=cooldown>冷却：</keyword>4。\n若手中有“精灵”、“矮人”或“树精”牌，则<keyword=cooldown>冷却</keyword> -1（每个类别仅限一次）。\n",
+        "name": "萨琪亚"
+    },
+    "200212": {
+        "info": "部署：对 1 个未受伤的敌军单位造成 4 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个未受伤的敌军单位造成 4 点伤害。\n",
+        "name": "史凯裘"
+    },
+    "200218": {
+        "info": "部署，近战：己方比对方在战场上每少 1 个单位，则自身获得 2 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>己方比对方在战场上每少 1 个单位，则自身获得 2 点增益。\n",
+        "name": "约顿"
+    },
+    "200220": {
+        "info": "部署，远程：从己方牌组打出 1 张“生物”牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>从己方牌组打出 1 张“生物”牌。\n",
+        "name": "呢喃婆：供品"
+    },
+    "200221": {
+        "info": "触发所有友军单位的遗愿能力。\n",
+        "infoRaw": "触发所有友军单位的<keyword=deathwish>遗愿</keyword>能力。\n",
+        "name": "仪式献祭"
+    },
+    "200222": {
+        "info": "部署，近战：吞噬己方手牌中的 1 个单位，随后抽 1 张牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword><keyword=consume>吞噬</keyword>己方手牌中的 1 个单位，随后抽 1 张牌。\n",
+        "name": "织婆：咒文"
+    },
+    "200223": {
+        "info": "重置 1 个单位。\n",
+        "infoRaw": "<keyword=reset>重置</keyword> 1 个单位。\n",
+        "name": "曼德拉草"
+    },
+    "200224": {
+        "info": "触发 1 个铜色单位的遗愿能力。\n",
+        "infoRaw": "触发 1 个铜色单位的<keyword=deathwish>遗愿</keyword>能力。\n",
+        "name": "乌鸦眼"
+    },
+    "200225": {
+        "info": "抓捕 1 个战力不高于 5 点的敌军单位，并将其锁定。\n",
+        "infoRaw": "<keyword=seize>抓捕</keyword> 1 个战力不高于 5 点的敌军单位，并将其<keyword=lock>锁定</keyword>。\n",
+        "name": "薇歌的嘴套"
+    },
+    "200226": {
+        "info": "对所有战力为偶数的敌军单位造成 2 点伤害；或对所有战力为奇数的敌军单位造成 2 点伤害。\n",
+        "infoRaw": "对所有战力为偶数的敌军单位造成 2 点伤害；或对所有战力为奇数的敌军单位造成 2 点伤害。\n",
+        "name": "附子草"
+    },
+    "200228": {
+        "info": "伏击：在对方打出的下一张单位牌触发任何能力之前，将其摧毁。\n",
+        "infoRaw": "<keyword=ambush>伏击：</keyword>在对方打出的下一张单位牌触发任何能力之前，将其摧毁。\n",
+        "name": "陷坑陷阱"
+    },
+    "200233": {
+        "info": "部署：每有 1 张“野兽”牌与自身相邻，便对 1 个敌军单位造成 2 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>每有 1 张“野兽”牌与自身相邻，便对 1 个敌军单位造成 2 点伤害。\n",
+        "name": "石化鸡蛇"
+    },
+    "200234": {
+        "info": "部署：获得 4 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>获得 4 点增益。\n",
+        "name": "可怜的步兵"
+    },
+    "200235": {
+        "info": "部署：摧毁 1 个具有坚韧状态的敌军单位。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>摧毁 1 个具有<keyword=resilient>坚韧</keyword>状态的敌军单位。\n",
+        "name": "兰伯特：剑术大师"
+    },
+    "200236": {
+        "info": "近战：每回合结束时，获得 1 点增益。\n",
+        "infoRaw": "<keyword=melee>近战：</keyword>每回合结束时，获得 1 点增益。\n",
+        "name": "艾斯卡尔：寻路者"
+    },
+    "200237": {
+        "info": "部署：使战场、手牌或牌组中的所有友军“猎魔人”单位获得 1 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使战场、手牌或牌组中的所有友军“猎魔人”单位获得 1 点增益。\n",
+        "name": "维瑟米尔：学派导师"
+    },
+    "200293": {
+        "info": "部署，远程：使己方手牌中 1 个“矮人”单位获得 2 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>使己方手牌中 1 个“矮人”单位获得 2 点增益。\n",
+        "name": "矮人煽动分子"
+    },
+    "200294": {
+        "info": "部署：使 1 个友军单位获得 2 点增益。\n每次被己方揭示时，便使 1 个随机友军单位获得 2 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使 1 个友军单位获得 2 点增益。\n每次被己方<keyword=reveal>揭示</keyword>时，便使 1 个随机友军单位获得 2 点增益。\n",
+        "name": "军旗手"
+    },
+    "200295": {
+        "info": "遗愿：对 1 个随机敌军单位造成 4 点伤害。\n",
+        "infoRaw": "<keyword=deathwish>遗愿：</keyword>对 1 个随机敌军单位造成 4 点伤害。\n",
+        "name": "腐食魔"
+    },
+    "200296": {
+        "info": "部署，近战：锁定 1 个敌军单位。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword><keyword=lock>锁定</keyword> 1 个敌军单位。\n",
+        "name": "阿尔巴师装甲骑兵"
+    },
+    "200299": {
+        "info": "指令：使 1 个友军单位获得 1 点增益和狂热。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>使 1 个友军单位获得 1 点增益和<keyword=zeal>狂热</keyword>。\n",
+        "name": "泰莫利亚鼓手"
+    },
+    "200300": {
+        "info": "将 1 个敌军单位移至其半场的另一排，并对它造成等同于同排单位数量的伤害。\n",
+        "infoRaw": "将 1 个敌军单位移至其半场的另一排，并对它造成等同于同排单位数量的伤害。\n",
+        "name": "荣耀猎捕"
+    },
+    "200301": {
+        "info": "检视己方牌组 2 张随机金色牌，随后打出 1 张，将其他牌置于牌组顶部。\n",
+        "infoRaw": "检视己方牌组 2 张随机金色牌，随后打出 1 张，将其他牌置于牌组顶部。\n",
+        "name": "纳吉尔法"
+    },
+    "200320": {
+        "info": "无特殊能力。\n",
+        "infoRaw": "无特殊能力。\n",
+        "name": "羊角魔"
+    },
+    "200502": {
+        "info": "每回合结束时，若己方单位少于对方，则自身获得 1 点增益。\n",
+        "infoRaw": "每回合结束时，若己方单位少于对方，则自身获得 1 点增益。\n",
+        "name": "冰巨魔"
+    },
+    "200518": {
+        "info": "部署：若本回合使用过己方领袖能力，则对 1 个敌军单位造成 3 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>若本回合使用过己方领袖能力，则对 1 个敌军单位造成 3 点伤害。\n",
+        "name": "文登达尔精锐"
+    },
+    "200519": {
+        "info": "使 1 个单位获得 4 点增益，并移除其锁定状态。\n",
+        "infoRaw": "使 1 个单位获得 4 点增益，并移除其<keyword=lock>锁定</keyword>状态。\n",
+        "name": "玛哈坎麦酒"
+    },
+    "200520": {
+        "info": "指令：从己方墓场打出 1 个铜色神器。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>从己方墓场打出 1 个铜色神器。\n",
+        "name": "哈托利"
+    },
+    "200523": {
+        "info": "部署，近战：在自身两侧生成 2 头“牛”。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>在自身两侧<keyword=spawn>生成</keyword> 2 头“牛”。\n",
+        "name": "吉尔曼"
+    },
+    "200528": {
+        "info": "部署：对 1 个敌军单位造成 3 点伤害，随后自身受到 2 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 3 点伤害，随后自身受到 2 点伤害。\n",
+        "name": "海玫家族女矛手"
+    },
+    "200529": {
+        "info": "部署：获得 5 点增益。\n己方每打出 1 个“士兵”单位，便从己方墓场召唤自身至己方随机一排。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>获得 5 点增益。\n己方每打出 1 个“士兵”单位，便从己方墓场<keyword=summon>召唤</keyword>自身至己方随机一排。\n",
+        "name": "没完没了的朗维德"
+    },
+    "200530": {
+        "info": "狂热。\n指令：对 1 个单位造成 2 点伤害。\n充能：3。\n",
+        "infoRaw": "<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>对 1 个单位造成 2 点伤害。\n<keyword=charge>充能：</keyword>3。\n",
+        "name": "污浊的麦酒"
+    },
+    "200532": {
+        "info": "狂热。\n指令：使 1 个单位获得 3 点增益。\n冷却：2 。\n",
+        "infoRaw": "<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>使 1 个单位获得 3 点增益。\n<keyword=cooldown>冷却：</keyword>2 。\n",
+        "name": "先祖麦酒"
+    },
+    "200534": {
+        "info": "近战：每有 1 个友军单位在己方回合被摧毁，便获得 2 点增益。\n",
+        "infoRaw": "<keyword=melee>近战：</keyword>每有 1 个友军单位在己方回合被摧毁，便获得 2 点增益。\n",
+        "name": "维尔金的女巨魔"
+    },
+    "200535": {
+        "info": "指令，近战：对 1 个敌军单位造成 1 点伤害。\n冷却：2。\n己方每打出 1 张“精灵”牌，冷却便 -1。\n",
+        "infoRaw": "<keyword=order>指令</keyword>，<keyword=melee>近战：</keyword>对 1 个敌军单位造成 1 点伤害。\n<keyword=cooldown>冷却：</keyword>2。\n己方每打出 1 张“精灵”牌，<keyword=cooldown>冷却</keyword>便 -1。\n",
+        "name": "精灵剑术大师"
+    },
+    "200539": {
+        "info": "指令：吞噬同排的 1 个友军单位。\n冷却：1。\n",
+        "infoRaw": "<keyword=order>指令：</keyword><keyword=consume>吞噬</keyword>同排的 1 个友军单位。\n<keyword=cooldown>冷却：</keyword>1。\n",
+        "name": "飞蜥"
+    },
+    "200540": {
+        "info": "指令：对 1 个敌军单位造成 4 点伤害。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>对 1 个敌军单位造成 4 点伤害。\n",
+        "name": "亚甸槌击者"
+    },
+    "201523": {
+        "info": "部署：将单排所有单位恢复至其基础战力。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>将单排所有单位恢复至其基础战力。\n",
+        "name": "杰洛特：亚登法印"
+    },
+    "201559": {
+        "info": "部署，近战：若同排有“矮人”，则从己方牌组召唤 1 张自身的同名牌至同排。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>若同排有“矮人”，则从己方牌组<keyword=summon>召唤</keyword> 1 张自身的同名牌至同排。\n",
+        "name": "玛哈坎志愿军"
+    },
+    "201574": {
+        "info": "遗愿：对 1 个敌军随机单位造成 2 点伤害。\n",
+        "infoRaw": "<keyword=deathwish>遗愿：</keyword>对 1 个敌军随机单位造成 2 点伤害。\n",
+        "name": "哈罗德的伙伴"
+    },
+    "201576": {
+        "info": "佚亡。\n",
+        "infoRaw": "<keyword=doomed>佚亡</keyword>。\n",
+        "name": "牛"
+    },
+    "201578": {
+        "info": "部署。\n近战：造成 4 点伤害，由所有单位随机分摊。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>。\n<keyword=melee>近战：</keyword>造成 4 点伤害，由所有单位随机分摊。\n",
+        "name": "奎特家族劫掠者"
+    },
+    "201579": {
+        "info": "小局开始时，若“凤凰”位于己方墓场，则将其放逐，生成“雏凤”，并将其召唤至己方随机一排。\n",
+        "infoRaw": "小局开始时，若“凤凰”位于己方墓场，则将其<keyword=banish>放逐</keyword>，<keyword=spawn>生成</keyword>“雏凤”，并将其<keyword=summon>召唤</keyword>至己方随机一排。\n",
+        "name": "凤凰"
+    },
+    "201580": {
+        "info": "对局开始时，使对方领袖无法在本场战斗发挥作用。\n",
+        "infoRaw": "对局开始时，使对方领袖无法在本场战斗发挥作用。\n",
+        "name": "篡位者"
+    },
+    "201581": {
+        "info": "创造并打出 1 张铜色“史凯利格”牌。\n",
+        "infoRaw": "<keyword=create>创造</keyword>并打出 1 张铜色“史凯利格”牌。\n",
+        "name": "史璀伯格符文石"
+    },
+    "201582": {
+        "info": "创造并打出 1 张铜色“北方领域”牌。\n",
+        "infoRaw": "<keyword=create>创造</keyword>并打出 1 张铜色“北方领域”牌。\n",
+        "name": "佐里亚符文石"
+    },
+    "201583": {
+        "info": "创造并打出 1 张铜色“尼弗迦德” 牌。\n",
+        "infoRaw": "<keyword=create>创造</keyword>并打出 1 张铜色“尼弗迦德” 牌。\n",
+        "name": "达兹伯格符文石"
+    },
+    "201584": {
+        "info": "创造并打出 1 张铜色“怪兽”阵营牌。\n",
+        "infoRaw": "<keyword=create>创造</keyword>并打出 1 张铜色“怪兽”阵营牌。\n",
+        "name": "戴维娜符文石"
+    },
+    "201585": {
+        "info": "创造并打出 1 张铜色“松鼠党”牌。\n",
+        "infoRaw": "<keyword=create>创造</keyword>并打出 1 张铜色“松鼠党”牌。\n",
+        "name": "莫拉纳符文石"
+    },
+    "201587": {
+        "info": "摧毁 1 个友军单位，随后生成并打出 1 张它的原始同名牌。\n",
+        "infoRaw": "摧毁 1 个友军单位，随后<keyword=spawn>生成</keyword>并打出 1 张它的原始同名牌。\n",
+        "name": "呢喃山丘"
+    },
+    "201589": {
+        "info": "指令：使己方手牌的所有单位牌获得 1 点增益。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>使己方手牌的所有单位牌获得 1 点增益。\n",
+        "name": "菲拉凡德芮"
+    },
+    "201595": {
+        "info": "指令：对 1 个单位造成 8 点伤害。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>对 1 个单位造成 8 点伤害。\n",
+        "name": "雅妲公主"
+    },
+    "201597": {
+        "info": "指令：从己方墓场打出 1 张“战士”牌。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>从己方墓场打出 1 张“战士”牌。\n",
+        "name": "埃斯特·图尔赛克"
+    },
+    "201598": {
+        "info": "使所有友军单位获得 1 点增益。\n",
+        "infoRaw": "使所有友军单位获得 1 点增益。\n",
+        "name": "骨制护符"
+    },
+    "201599": {
+        "info": "成长。\n部署：对对方同排的所有敌军单位造成 1 点伤害。\n遗愿：再次触发部署能力。\n",
+        "infoRaw": "<keyword=thrive>成长</keyword>。\n<keyword=deploy>部署：</keyword>对对方同排的所有敌军单位造成 1 点伤害。\n<keyword=deathwish>遗愿：</keyword>再次触发<keyword=deploy>部署</keyword>能力。\n",
+        "name": "猫人"
+    },
+    "201600": {
+        "info": "免疫。\n",
+        "infoRaw": "<keyword=immune>免疫</keyword>。\n",
+        "name": "狼人"
+    },
+    "201601": {
+        "info": "选择战场上任一单位或神器，并将其置于其所有者牌组的顶端。\n",
+        "infoRaw": "选择战场上任一单位或神器，并将其置于其所有者牌组的顶端。\n",
+        "name": "叶奈法的符咒"
+    },
+    "201603": {
+        "info": "部署：转变为 1 张位于战场的其他单位的同名牌，战力不变。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>转变为 1 张位于战场的其他单位的同名牌，战力不变。\n",
+        "name": "雷索：弑王者"
+    },
+    "201606": {
+        "info": "部署：对所有其他单位造成 1 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对所有其他单位造成 1 点伤害。\n",
+        "name": "叉尾龙"
+    },
+    "201609": {
+        "info": "部署：若对方同排的单位不少于 4 个，则抓捕该排战力最低的敌军单位。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>若对方同排的单位不少于 4 个，则<keyword=seize>抓捕</keyword>该排战力最低的敌军单位。\n",
+        "name": "奴隶猎人"
+    },
+    "201610": {
+        "info": "部署：将 1 个友军单位转变为“奴隶步兵”。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>将 1 个友军单位转变为“奴隶步兵”。\n",
+        "name": "奴隶步兵"
+    },
+    "201611": {
+        "info": "若起始牌组中有至少 4 张“陷阱”牌，则随机打出 2 张。\n",
+        "infoRaw": "若起始牌组中有至少 4 张“陷阱”牌，则随机打出 2 张。\n",
+        "name": "伊欧菲斯的赌局"
+    },
+    "201612": {
+        "info": "部署：对 1 个敌军单位造成 2 点伤害。每有 1 个被锁定的单位，则该伤害 +1 点。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 2 点伤害。每有 1 个被<keyword=lock>锁定</keyword>的单位，则该伤害 +1 点。\n",
+        "name": "奴隶贩子"
+    },
+    "201613": {
+        "info": "指令：对 1 个敌军单位造成 1 点伤害。\n充能：5。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>对 1 个敌军单位造成 1 点伤害。\n<keyword=charge>充能：</keyword>5。\n",
+        "name": "萨琪亚萨司：龙焰"
+    },
+    "201615": {
+        "info": "检视己方牌组中 1 张随机“矮人”、“树精”和“精灵”牌，随后打出 1 张。\n",
+        "infoRaw": "检视己方牌组中 1 张随机“矮人”、“树精”和“精灵”牌，随后打出 1 张。\n",
+        "name": "伊森格林的劝告"
+    },
+    "201616": {
+        "info": "指令：与 1 个敌军单位交换战力。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>与 1 个敌军单位交换战力。\n",
+        "name": "伪装大师"
+    },
+    "201617": {
+        "info": "部署：揭示双方牌组中 1 个随机单位。若己方被揭示单位的战力更高，则自身获得 2 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword><keyword=reveal>揭示</keyword>双方牌组中 1 个随机单位。若己方被揭示单位的战力更高，则自身获得 2 点增益。\n",
+        "name": "新兵"
+    },
+    "201618": {
+        "info": "指令，近战：与 1 个敌军单位对决。\n",
+        "infoRaw": "<keyword=order>指令</keyword>，<keyword=melee>近战：</keyword>与 1 个敌军单位<keyword=duel>对决</keyword>。\n",
+        "name": "古雷特的赛尔奇克"
+    },
+    "201619": {
+        "info": "使 1 个铜色“士兵”获得 2 点增益，并重新触发它的部署能力。\n",
+        "infoRaw": "使 1 个铜色“士兵”获得 2 点增益，并重新触发它的<keyword=deploy>部署</keyword>能力。\n",
+        "name": "油膏"
+    },
+    "201620": {
+        "info": "指令，近战：对 1 个单位造成 1 点伤害。\n冷却：1。\n若己方控制“范德格里夫特之剑”，则改为对 1 个单位造成 2 点伤害。\n",
+        "infoRaw": "<keyword=order>指令</keyword>，<keyword=melee>近战：</keyword>对 1 个单位造成 1 点伤害。\n<keyword=cooldown>冷却：</keyword>1。\n若己方控制“范德格里夫特之剑”，则改为对 1 个单位造成 2 点伤害。\n",
+        "name": "范德格里夫特"
+    },
+    "201621": {
+        "info": "指令：对 1 个单位造成等同于“凯亚恩”充能数的伤害。\n充能：1。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>对 1 个单位造成等同于“凯亚恩”<keyword=charge>充能</keyword>数的伤害。\n<keyword=charge>充能：</keyword>1。\n",
+        "name": "凯亚恩"
+    },
+    "201622": {
+        "info": "部署：若从牌组打出，则获得 4 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>若从牌组打出，则获得 4 点增益。\n",
+        "name": "科德温骑士"
+    },
+    "201623": {
+        "info": "部署，近战：每有 1 个受伤的单位，自身便获得 1 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>每有 1 个受伤的单位，自身便获得 1 点增益。\n",
+        "name": "大野猪"
+    },
+    "201624": {
+        "info": "指令：对 1 个单位造成 1 点伤害。若它被摧毁，则生成 1 张“科德温亡魂”的同名牌，并召唤至同排。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>对 1 个单位造成 1 点伤害。若它被摧毁，则<keyword=spawn>生成</keyword> 1 张“科德温亡魂”的同名牌，并<keyword=summon>召唤</keyword>至同排。\n",
+        "name": "科德温亡魂"
+    },
+    "201625": {
+        "info": "部署：将 1 个不是“被诅咒的骑士”的友军单位转变为“被诅咒的骑士”，战力不变。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>将 1 个不是“被诅咒的骑士”的友军单位转变为“被诅咒的骑士”，战力不变。\n",
+        "name": "被诅咒的骑士"
+    },
+    "201626": {
+        "info": "回合开始时，若为己方墓场唯一单位，则召唤自身至己方随机一排。\n",
+        "infoRaw": "回合开始时，若为己方墓场唯一单位，则<keyword=summon>召唤</keyword>自身至己方随机一排。\n",
+        "name": "希里：新星"
+    },
+    "201627": {
+        "info": "佚亡。\n若己方起始牌组没有重复牌，则派“店店”去冒险。\n",
+        "infoRaw": "<keyword=doomed>佚亡</keyword>。\n若己方起始牌组没有重复牌，则派“店店”去冒险。\n",
+        "name": "店店的大冒险"
+    },
+    "201628": {
+        "info": "每有 1 个友军“鬼灵”，便对 1 个敌军单位造成 1 点伤害。\n",
+        "infoRaw": "每有 1 个友军“鬼灵”，便对 1 个敌军单位造成 1 点伤害。\n",
+        "name": "禁术"
+    },
+    "201630": {
+        "info": "部署：对 1 个敌军单位造成 3 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 3 点伤害。\n",
+        "name": "中邪的女术士"
+    },
+    "201631": {
+        "info": "部署：选择己方手牌中 1 张单位牌，用己方手牌中与它共享主要类别的单位牌数量增益自身。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>选择己方手牌中 1 张单位牌，用己方手牌中与它共享主要类别的单位牌数量增益自身。\n",
+        "name": "变形怪"
+    },
+    "201632": {
+        "info": "狂热。\n指令：对 1 个敌军单位造成 1 点伤害。\n冷却：1。\n每当“矮人符文剑”摧毁 1 个敌军单位，其 指令能力的伤害便提高 1 点，移出战场后重置。\n",
+        "infoRaw": "<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>对 1 个敌军单位造成 1 点伤害。\n<keyword=cooldown>冷却：</keyword>1。\n每当“矮人符文剑”摧毁 1 个敌军单位，其 <keyword=order>指令</keyword>能力的伤害便提高 1 点，移出战场后重置。\n",
+        "name": "矮人符文剑"
+    },
+    "201633": {
+        "info": "狂热。\n指令：对 1 个敌军单位造成“染血连枷”充能数的伤害，之后移除所有充能。\n充能：1。\n每有友军单位获得充能，自身获得等量充能。\n",
+        "infoRaw": "<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>对 1 个敌军单位造成“染血连枷”<keyword=charge>充能</keyword>数的伤害，之后移除所有<keyword=charge>充能</keyword>。\n<keyword=charge>充能：</keyword>1。\n每有友军单位获得<keyword=charge>充能</keyword>，自身获得等量<keyword=charge>充能</keyword>。\n",
+        "name": "染血连枷"
+    },
+    "201634": {
+        "info": "对 1 个单位造成 8 点伤害。\n",
+        "infoRaw": "对 1 个单位造成 8 点伤害。\n",
+        "name": "贝克尔的岩崩术"
+    },
+    "201635": {
+        "info": "摧毁基础战力最高的单位。\n",
+        "infoRaw": "摧毁基础战力最高的单位。\n",
+        "name": "豪猎而归"
+    },
+    "201636": {
+        "info": "部署：己方每控制 1 个神器，便对 1 个敌军单位造成 1 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>己方每控制 1 个神器，便对 1 个敌军单位造成 1 点伤害。\n",
+        "name": "半精灵猎人"
+    },
+    "201637": {
+        "info": "在对方单排降下整排效果：\n3 回合后，在回合开始时，爆炸并对同排所有单位造成 3 点伤害。\n",
+        "infoRaw": "在对方单排降下整排效果：\n3 回合后，在回合开始时，爆炸并对同排所有单位造成 3 点伤害。\n",
+        "name": "龙之梦"
+    },
+    "201638": {
+        "info": "每有 1 个己方“陷阱”被触发，便获得 2 点增益。\n",
+        "infoRaw": "每有 1 个己方“陷阱”被触发，便获得 2 点增益。\n",
+        "name": "精灵斥候"
+    },
+    "201639": {
+        "info": "使 1 个单位获得 10 点增益。\n",
+        "infoRaw": "使 1 个单位获得 10 点增益。\n",
+        "name": "军营"
+    },
+    "201644": {
+        "info": "指令：治愈 1 个友军单位 1 点战力。\n充能：1。\n每有 1 个相邻单位受到伤害，则充能 +1。\n",
+        "infoRaw": "<keyword=order>指令：</keyword><keyword=heal>治愈</keyword> 1 个友军单位 1 点战力。\n<keyword=charge>充能：</keyword>1。\n每有 1 个相邻单位受到伤害，则<keyword=charge>充能</keyword> +1。\n",
+        "name": "尤娜"
+    },
+    "201645": {
+        "info": "伏击：3 回合后，对对方单位最多一排上的所有敌军单位造成 2 点伤害。\n狂热。\n指令：正面朝上翻开，对单排的所有单位造成 1 点伤害。\n",
+        "infoRaw": "<keyword=ambush>伏击：</keyword>3 回合后，对对方单位最多一排上的所有敌军单位造成 2 点伤害。\n<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>正面朝上翻开，对单排的所有单位造成 1 点伤害。\n",
+        "name": "碎骨陷阱"
+    },
+    "201646": {
+        "info": "部署，远程：将己方牌组中最多 3 张卡牌移至己方墓场。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>将己方牌组中最多 3 张卡牌移至己方墓场。\n",
+        "name": "迪兰"
+    },
+    "201647": {
+        "info": "对 1 个敌军单位造成 4 点伤害，并将其移至所在半场另一排。\n",
+        "infoRaw": "对 1 个敌军单位造成 4 点伤害，并将其移至所在半场另一排。\n",
+        "name": "乱石飞舞"
+    },
+    "201648": {
+        "info": "每打出 1 名“士兵”至同排，便使其获得 2 点增益。\n",
+        "infoRaw": "每打出 1 名“士兵”至同排，便使其获得 2 点增益。\n",
+        "name": "范德格里夫特之剑"
+    },
+    "201650": {
+        "info": "对每个非“鬼灵”单位造成 1 点伤害。若有任意一个被摧毁，则重复此能力。\n",
+        "infoRaw": "对每个非“鬼灵”单位造成 1 点伤害。若有任意一个被摧毁，则重复此能力。\n",
+        "name": "萨宾娜的地狱之火"
+    },
+    "201653": {
+        "info": "伏击：当对方放弃跟牌时，使相邻单位获得 4 点增益。\n",
+        "infoRaw": "<keyword=ambush>伏击：</keyword>当对方放弃跟牌时，使相邻单位获得 4 点增益。\n",
+        "name": "玛哈坎号角"
+    },
+    "201656": {
+        "info": "狂热。\n指令：对 1 个敌军单位造成 1 点伤害。\n冷却：1。\n",
+        "infoRaw": "<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>对 1 个敌军单位造成 1 点伤害。\n<keyword=cooldown>冷却：</keyword>1。\n",
+        "name": "精良的长矛"
+    },
+    "201657": {
+        "info": "对 1 个敌军单位造成 6 点伤害，或使 1 个友军单位获得 6 点增益。\n",
+        "infoRaw": "对 1 个敌军单位造成 6 点伤害，或使 1 个友军单位获得 6 点增益。\n",
+        "name": "寄生虫"
+    },
+    "201659": {
+        "info": "从己方墓场打出 1 张铜色“机械”牌。\n",
+        "infoRaw": "从己方墓场打出 1 张铜色“机械”牌。\n",
+        "name": "绞盘"
+    },
+    "201660": {
+        "info": "遗愿：回合结束时，从己方墓场召唤此单位至己方随机一排。\n",
+        "infoRaw": "<keyword=deathwish>遗愿：</keyword>回合结束时，从己方墓场<keyword=summon>召唤</keyword>此单位至己方随机一排。\n",
+        "name": "卢恩"
+    },
+    "201662": {
+        "info": "狂热。\n指令：摧毁自身和所有战力与“吊死鬼之毒”充能数相同的单位。\n充能：0。\n每回合开始时，以及每当己方打出 1 张“谋略”牌时，自身获得充能 +1。\n",
+        "infoRaw": "<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>摧毁自身和所有战力与“吊死鬼之毒”<keyword=charge>充能</keyword>数相同的单位。\n<keyword=charge>充能：</keyword>0。\n每回合开始时，以及每当己方打出 1 张“谋略”牌时，自身获得<keyword=charge>充能</keyword> +1。\n",
+        "name": "吊死鬼之毒"
+    },
+    "201664": {
+        "info": "部署：触发相邻铜色“士兵”单位的部署能力。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>触发相邻铜色“士兵”单位的<keyword=deploy>部署</keyword>能力。\n",
+        "name": "维尔海夫"
+    },
+    "201676": {
+        "info": "指令：对 1 个单位造成 1 点伤害。\n冷却：1。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>对 1 个单位造成 1 点伤害。\n<keyword=cooldown>冷却：</keyword>1。\n",
+        "name": "帕扶科“舅舅”盖尔"
+    },
+    "201696": {
+        "info": "指令：使左边 1 个单位获得 4 点增益；或使右边 1 个单位获得免疫。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>使左边 1 个单位获得 4 点增益；或使右边 1 个单位获得<keyword=immune>免疫</keyword>。\n",
+        "name": "保利·达尔伯格"
+    },
+    "201697": {
+        "info": "下一次有敌军单位获得增益时，将其与自身一并摧毁。\n",
+        "infoRaw": "下一次有敌军单位获得增益时，将其与自身一并摧毁。\n",
+        "name": "黑血"
+    },
+    "201698": {
+        "info": "部署，近战：吞噬对方墓场中的 1 个单位。\n部署，远程：吞噬己方墓场中的 1 个单位。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword><keyword=consume>吞噬</keyword>对方墓场中的 1 个单位。\n<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword><keyword=consume>吞噬</keyword>己方墓场中的 1 个单位。\n",
+        "name": "欧兹瑞尔"
+    },
+    "201700": {
+        "info": "遗愿：使战力最高的友军单位获得 4 点增益。\n",
+        "infoRaw": "<keyword=deathwish>遗愿：</keyword>使战力最高的友军单位获得 4 点增益。\n",
+        "name": "守桥巨魔"
+    },
+    "201701": {
+        "info": "指令：吞噬 1 个友军单位。\n充能：2。\n",
+        "infoRaw": "<keyword=order>指令：</keyword><keyword=consume>吞噬</keyword> 1 个友军单位。\n<keyword=charge>充能：</keyword>2。\n",
+        "name": "须岩怪"
+    },
+    "201704": {
+        "info": "部署：从己方单排移除 1 个“整排效果”。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>从己方单排移除 1 个“整排效果”。\n",
+        "name": "斥候"
+    },
+    "201709": {
+        "info": "对战力为奇数的所有敌军单位造成 2 点伤害。\n",
+        "infoRaw": "对战力为奇数的所有敌军单位造成 2 点伤害。\n",
+        "name": "均衡"
+    },
+    "201710": {
+        "info": "对战力为偶数的所有敌军单位造成 2 点伤害。\n",
+        "infoRaw": "对战力为偶数的所有敌军单位造成 2 点伤害。\n",
+        "name": "分裂"
+    },
+    "201725": {
+        "info": "派“店店”去班·阿德学院，见见那里的小伙子们。\n",
+        "infoRaw": "派“店店”去班·阿德学院，见见那里的小伙子们。\n",
+        "name": "店店：法师"
+    },
+    "201726": {
+        "info": "部署：将双方手牌中最右侧的牌转变为 1 张随机“特殊”牌。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>将双方手牌中最右侧的牌转变为 1 张随机“特殊”牌。\n",
+        "name": "店店：法师"
+    },
+    "201727": {
+        "info": "部署：将 1 个随机单位移至对称排。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>将 1 个随机单位移至对称排。\n",
+        "name": "店店：法师"
+    },
+    "201728": {
+        "info": "部署：在所有排降下 1 个随机“整排效果”。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>在所有排降下 1 个随机“整排效果”。\n",
+        "name": "店店：法师"
+    },
+    "201729": {
+        "info": "部署：对战场上所有其他单位造成共计 13 点伤害，由它们随机分摊。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对战场上所有其他单位造成共计 13 点伤害，由它们随机分摊。\n",
+        "name": "店店：法师"
+    },
+    "201730": {
+        "info": "部署：在双方半场随机一排各生成并召唤 1 个随机单位。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>在双方半场随机一排各<keyword=spawn>生成</keyword>并<keyword=summon>召唤</keyword> 1 个随机单位。\n",
+        "name": "店店：法师"
+    },
+    "201731": {
+        "info": "派“店店”去多尔·布雷坦纳的森林。\n",
+        "infoRaw": "派“店店”去多尔·布雷坦纳的森林。\n",
+        "name": "店店：猎人"
+    },
+    "201732": {
+        "info": "部署：从己方牌组随机打出 1 张牌。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>从己方牌组随机打出 1 张牌。\n",
+        "name": "店店：猎人"
+    },
+    "201733": {
+        "info": "部署：对所有敌军单位造成共计 9 点伤害，由它们随机分摊。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对所有敌军单位造成共计 9 点伤害，由它们随机分摊。\n",
+        "name": "店店：猎人"
+    },
+    "201734": {
+        "info": "部署：使己方手牌中所有单位获得 1 - 2 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使己方手牌中所有单位获得 1 - 2 点增益。\n",
+        "name": "店店：猎人"
+    },
+    "201735": {
+        "info": "部署：随机摧毁 1 个敌军单位。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>随机摧毁 1 个敌军单位。\n",
+        "name": "店店：猎人"
+    },
+    "201737": {
+        "info": "派“店店”去帝国宫廷军事学院。\n",
+        "infoRaw": "派“店店”去帝国宫廷军事学院。\n",
+        "name": "店店：骑士"
+    },
+    "201738": {
+        "info": "部署：对 1 个敌军单位造成 4 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 4 点伤害。\n",
+        "name": "店店：骑士"
+    },
+    "201739": {
+        "info": "部署：锁定 1 个单位。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword><keyword=lock>锁定</keyword> 1 个单位。\n",
+        "name": "店店：骑士"
+    },
+    "201740": {
+        "info": "部署：获得坚韧。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>获得<keyword=resilient>坚韧</keyword>。\n",
+        "name": "店店：骑士"
+    },
+    "201741": {
+        "info": "部署：摧毁 1 个敌军神器。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>摧毁 1 个敌军神器。\n",
+        "name": "店店：骑士"
+    },
+    "201743": {
+        "info": "在己方回合，每有 1 个友军单位被摧毁，则生成 1 个“蟹蜘蛛雄蛛”，并将其召唤至己方随机一排。\n",
+        "infoRaw": "在己方回合，每有 1 个友军单位被摧毁，则<keyword=spawn>生成</keyword> 1 个“蟹蜘蛛雄蛛”，并将其<keyword=summon>召唤</keyword>至己方随机一排。\n",
+        "name": "蟹蜘蛛女王"
+    },
+    "201744": {
+        "info": "将 1 个单位的战力恢复至基础值。\n",
+        "infoRaw": "将 1 个单位的战力恢复至基础值。\n",
+        "name": "孢子"
+    },
+    "201748": {
+        "info": "指令，近战：对 1 个敌军单位和战力与之相同的所有其他敌军单位造成 1 点伤害。\n充能：1。\n",
+        "infoRaw": "<keyword=order>指令</keyword>，<keyword=melee>近战：</keyword>对 1 个敌军单位和战力与之相同的所有其他敌军单位造成 1 点伤害。\n<keyword=charge>充能：</keyword>1。\n",
+        "name": "弗尔泰斯特之傲"
+    },
+    "201749": {
+        "info": "使单排所有单位获得 2 点增益。\n",
+        "infoRaw": "使单排所有单位获得 2 点增益。\n",
+        "name": "黄金酒沫"
+    },
+    "201753": {
+        "info": "部署：使 1 个友军单位获得 2 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使 1 个友军单位获得 2 点增益。\n",
+        "name": "农民民兵"
+    },
+    "201772": {
+        "info": "部署，近战：对 1 个敌军单位造成 3 点伤害。若其战力为 3 的倍数，则改为将其摧毁。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>对 1 个敌军单位造成 3 点伤害。若其战力为 3 的倍数，则改为将其摧毁。\n",
+        "name": "杰洛特：猎魔专家"
+    },
+    "201773": {
+        "info": "部署，远程：创造并打出双方当前牌组中 1 张铜色“特殊”牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword><keyword=create>创造</keyword>并打出双方当前牌组中 1 张铜色“特殊”牌。\n",
+        "name": "特莉丝：心灵传动"
+    },
+    "201774": {
+        "info": "部署：摧毁 1 个敌军“野兽”单位。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>摧毁 1 个敌军“野兽”单位。\n",
+        "name": "丹德里恩：虚妄荣光"
+    },
+    "201776": {
+        "info": "部署：抽 1 张牌，随后打出 1 张牌。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>抽 1 张牌，随后打出 1 张牌。\n",
+        "name": "丹德里恩：传奇诗人"
+    },
+    "201777": {
+        "info": "指令：抓捕 1 个战力不高于“罗契：冷酷之心”充能数的敌军单位，随后移除所有充能。\n充能：0。\n每回合开始时，获得充能 +1。\n",
+        "infoRaw": "<keyword=order>指令：</keyword><keyword=seize>抓捕</keyword> 1 个战力不高于“罗契：冷酷之心”<keyword=charge>充能</keyword>数的敌军单位，随后移除所有<keyword=charge>充能</keyword>。\n<keyword=charge>充能：</keyword>0。\n每回合开始时，获得<keyword=charge>充能</keyword> +1。\n",
+        "name": "罗契：冷酷之心"
+    },
+    "201779": {
+        "info": "将 1 个友军单位洗回己方牌组，随后从己方牌组打出 1 个主类别相同的单位，并使其获得 3 点增益。\n",
+        "infoRaw": "将 1 个友军单位洗回己方牌组，随后从己方牌组打出 1 个主类别相同的单位，并使其获得 3 点增益。\n",
+        "name": "森林的召唤"
+    },
+    "201780": {
+        "info": "部署，远程：随机揭示己方牌组 1 张单位牌，并使 1 个友军单位获得其战力的增益。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>随机<keyword=reveal>揭示</keyword>己方牌组 1 张单位牌，并使 1 个友军单位获得其战力的增益。\n",
+        "name": "叶奈法：未卜先知"
+    },
+    "201781": {
+        "info": "指令：若己方控制最强的单位，则对 1 个单位造成 2 点伤害。\n冷却：1。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>若己方控制最强的单位，则对 1 个单位造成 2 点伤害。\n<keyword=cooldown>冷却：</keyword>1。\n",
+        "name": "伊勒瑞斯"
+    },
+    "201817": {
+        "info": "部署，近战：召唤双方牌组中招募费用最高的单位至各自近战排。\n部署，远程：召唤双方牌组中招募费用最低的单位至各自远程排。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword><keyword=summon>召唤</keyword>双方牌组中招募费用最高的单位至各自近战排。\n<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword><keyword=summon>召唤</keyword>双方牌组中招募费用最低的单位至各自远程排。\n",
+        "name": "伊瓦拉夸克斯"
+    },
+    "202044": {
+        "info": "部署，近战：对 1 个敌军单位和所有它的同名牌造成 3 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>对 1 个敌军单位和所有它的同名牌造成 3 点伤害。\n",
+        "name": "“瘸子”戈温"
+    },
+    "202054": {
+        "info": "摧毁 2 个相同颜色的友军单位，随后创造并打出 1 张相同颜色的单位牌。\n",
+        "infoRaw": "摧毁 2 个相同颜色的友军单位，随后<keyword=create>创造</keyword>并打出 1 张相同颜色的单位牌。\n",
+        "name": "精灵洋葱汤"
+    },
+    "202064": {
+        "info": "指令，近战：对 1 个敌军单位造成 2 点伤害。\n充能：1。\n己方每打出 1 张“猎魔人”牌，便获得充能 +1。\n",
+        "infoRaw": "<keyword=order>指令</keyword>，<keyword=melee>近战：</keyword>对 1 个敌军单位造成 2 点伤害。\n<keyword=charge>充能：</keyword>1。\n己方每打出 1 张“猎魔人”牌，便获得<keyword=charge>充能</keyword> +1。\n",
+        "name": "贝哈文的伊沃"
+    },
+    "202098": {
+        "info": "部署：若己方手牌中有“巨龙”牌，则获得狂热\n指令：摧毁 1 个战力不低于 8 点的单位。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>若己方手牌中有“巨龙”牌，则获得<keyword=zeal>狂热</keyword>\n<keyword=order>指令：</keyword>摧毁 1 个战力不低于 8 点的单位。\n",
+        "name": "德内斯勒的艾克"
+    },
+    "202099": {
+        "info": "部署，近战：获得增益，在 0 - 11 点之间随机选择。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>获得增益，在 0 - 11 点之间随机选择。\n",
+        "name": "加斯科"
+    },
+    "202100": {
+        "info": "间谍。\n部署：从己方牌组随机打出 1 张金色牌。\n",
+        "infoRaw": "<keyword=spying>间谍</keyword>。\n<keyword=deploy>部署：</keyword>从己方牌组随机打出 1 张金色牌。\n",
+        "name": "维尔姆王子"
+    },
+    "202101": {
+        "info": "每回合结束时，移动至战场上战力最高单位的同排。\n",
+        "infoRaw": "每回合结束时，移动至战场上战力最高单位的同排。\n",
+        "name": "考德威尔伯爵"
+    },
+    "202102": {
+        "info": "部署，近战：放逐对方墓场中所有牌。\n部署，远程：放逐己方墓场中所有牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword><keyword=banish>放逐</keyword>对方墓场中所有牌。\n<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword><keyword=banish>放逐</keyword>己方墓场中所有牌。\n",
+        "name": "泽维尔·雷曼斯"
+    },
+    "202103": {
+        "info": "近战：每回合结束时，场上单位较多的一方，其最弱的单位将被摧毁。\n",
+        "infoRaw": "<keyword=melee>近战：</keyword>每回合结束时，场上单位较多的一方，其最弱的单位将被摧毁。\n",
+        "name": "克尔图里斯"
+    },
+    "202104": {
+        "info": "免疫。\n",
+        "infoRaw": "<keyword=immune>免疫</keyword>。\n",
+        "name": "畏惧者：破土而出"
+    },
+    "202105": {
+        "info": "部署：摧毁所有战力为 1 的单位。每摧毁 1 个单位，自身获得 2 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>摧毁所有战力为 1 的单位。每摧毁 1 个单位，自身获得 2 点增益。\n",
+        "name": "污水怪"
+    },
+    "202106": {
+        "info": "部署，近战：获得 坚韧。\n部署，远程：获得 免疫。\n己方每打出 1 个“矮人”单位，则自身获得 1 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>获得 <keyword=resilient>坚韧</keyword>。\n<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>获得 <keyword=immune>免疫</keyword>。\n己方每打出 1 个“矮人”单位，则自身获得 1 点增益。\n",
+        "name": "加博·齐格林"
+    },
+    "202107": {
+        "info": "部署：使 1 个友军“精灵”、“矮人”和“树精”单位获得 2 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>使 1 个友军“精灵”、“矮人”和“树精”单位获得 2 点增益。\n",
+        "name": "巴纳巴斯·贝肯鲍尔"
+    },
+    "202108": {
+        "info": "指令，远程：检视双方牌组顶端的牌。保留 1 张，将另 1 张置入对手手牌。\n",
+        "infoRaw": "<keyword=order>指令</keyword>，<keyword=ranged>远程：</keyword>检视双方牌组顶端的牌。保留 1 张，将另 1 张置入对手手牌。\n",
+        "name": "哈吉的伊斯贝尔"
+    },
+    "202109": {
+        "info": "部署，远程：交换己方牌组和己方墓场中的所有卡牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=ranged>远程：</keyword>交换己方牌组和己方墓场中的所有卡牌。\n",
+        "name": "“快嘴”古德蒙"
+    },
+    "202110": {
+        "info": "近战：每有 1 个敌军单位受到伤害，自身便获得 1 点增益。\n",
+        "infoRaw": "<keyword=melee>近战：</keyword>每有 1 个敌军单位受到伤害，自身便获得 1 点增益。\n",
+        "name": "“双刃”达葛"
+    },
+    "202111": {
+        "info": "部署：查看对方牌组顶端 3 张牌，将其中 1 张置入对方墓场。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>查看对方牌组顶端 3 张牌，将其中 1 张置入对方墓场。\n",
+        "name": "特拉席恩·维迪法"
+    },
+    "202112": {
+        "info": "每有 1 个拥有充能的友军单位被打出，使其获得充能 +1。\n",
+        "infoRaw": "每有 1 个拥有<keyword=charge>充能</keyword>的友军单位被打出，使其获得<keyword=charge>充能</keyword> +1。\n",
+        "name": "雷纳德·奥多"
+    },
+    "202113": {
+        "info": "部署：对 1 个敌军单位造成等同于友军“人类”单位数量的伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成等同于友军“人类”单位数量的伤害。\n",
+        "name": "黑蕾拉"
+    },
+    "202114": {
+        "info": "佚亡，狂热。\n指令：变为“凤凰”。\n",
+        "infoRaw": "<keyword=doomed>佚亡</keyword>，<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>变为“凤凰”。\n",
+        "name": "雏凤"
+    },
+    "202121": {
+        "info": "部署：将 1 个单位移至其所在半场的另一排。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>将 1 个单位移至其所在半场的另一排。\n",
+        "name": "史帕拉流亡军"
+    },
+    "202122": {
+        "info": "部署：摧毁 1 个敌军神器。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>摧毁 1 个敌军神器。\n",
+        "name": "炸弹手"
+    },
+    "202148": {
+        "info": "指令：赋予 1 个单位充能 +1。\n冷却：2。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>赋予 1 个单位<keyword=charge>充能</keyword> +1。\n<keyword=cooldown>冷却：</keyword>2。\n",
+        "name": "德马维三世"
+    },
+    "202149": {
+        "info": "指令：从对方牌组打出 1 个随机“神器”。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>从对方牌组打出 1 个随机“神器”。\n",
+        "name": "安古兰"
+    },
+    "202150": {
+        "info": "狂热。\n指令， 远程：使 1 个单位获得 1 点增益。\n充能：1。\n任意方每打出 1 张牌，充能 +1。\n",
+        "infoRaw": "<keyword=zeal>狂热</keyword>。\n<keyword=order>指令</keyword>， <keyword=ranged>远程：</keyword>使 1 个单位获得 1 点增益。\n<keyword=charge>充能：</keyword>1。\n任意方每打出 1 张牌，<keyword=charge>充能</keyword> +1。\n",
+        "name": "科沃的维索戈塔"
+    },
+    "202151": {
+        "info": "部署，近战：摧毁 1 个拥有指令能力的敌军单位。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>，<keyword=melee>近战：</keyword>摧毁 1 个拥有<keyword=order>指令</keyword>能力的敌军单位。\n",
+        "name": "法利波"
+    },
+    "202152": {
+        "info": "每回合结束时，若自身带有增益，则使相邻友军单位获得 1 点增益。\n",
+        "infoRaw": "每回合结束时，若自身带有增益，则使相邻友军单位获得 1 点增益。\n",
+        "name": "安娜·斯特伦格"
+    },
+    "202153": {
+        "info": "每打出 1 个拥有指令能力的单位，自身便获得 1 点增益。\n",
+        "infoRaw": "每打出 1 个拥有<keyword=order>指令</keyword>能力的单位，自身便获得 1 点增益。\n",
+        "name": "莱里亚骑兵"
+    },
+    "202154": {
+        "info": "部署：对 1 个敌军单位造成 1 点伤害。若其被摧毁，则对另一个敌军单位造成 3 点伤害。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 1 点伤害。若其被摧毁，则对另一个敌军单位造成 3 点伤害。\n",
+        "name": "利维亚矛兵"
+    },
+    "202155": {
+        "info": "指令：对 1 个单位造成 1 点伤害。\n充能：1。\n己方每打出 1 张拥有指令能力的牌，便获得充能 +1。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>对 1 个单位造成 1 点伤害。\n<keyword=charge>充能：</keyword>1。\n己方每打出 1 张拥有<keyword=order>指令</keyword>能力的牌，便获得<keyword=charge>充能</keyword> +1。\n",
+        "name": "莱里亚强弩手"
+    },
+    "202156": {
+        "info": "指令：对 1 个单位造成 1 点伤害。若“莱里亚长矛兵”带有增益，则改为对 1 个单位造成 3 点伤害。\n",
+        "infoRaw": "<keyword=order>指令：</keyword>对 1 个单位造成 1 点伤害。若“莱里亚长矛兵”带有增益，则改为对 1 个单位造成 3 点伤害。\n",
+        "name": "莱里亚长矛兵"
+    },
+    "202161": {
+        "info": "部署：每有 1 个带有增益的友军单位，自身便获得 1 点增益。\n",
+        "infoRaw": "<keyword=deploy>部署：</keyword>每有 1 个带有增益的友军单位，自身便获得 1 点增益。\n",
+        "name": "莱里亚镰刀手"
+    }
+}

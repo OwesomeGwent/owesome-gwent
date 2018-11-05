@@ -1,0 +1,2596 @@
+{
+    "112101": {
+        "infoRaw": "Sempre que você perder uma rodada, retorne esta unidade do campo de batalha para a sua mão.\n",
+        "name": "Ciri"
+    },
+    "112102": {
+        "info": "Mobilização, Corpo a corpo : destrói a(s) unidade(s) mais alta(s) de uma fileira inimiga com poder total de ao menos 15.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword> : destrói a(s) unidade(s) mais alta(s) de uma fileira inimiga com poder total de ao menos 15.\n",
+        "name": "Geralt: Igni"
+    },
+    "112103": {
+        "info": "Mobilização: destrói um inimigo com 8 de poder ou mais.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: destrói um inimigo com 8 de poder ou mais.\n",
+        "name": "Geralt de Rívia"
+    },
+    "112104": {
+        "info": "Mobilização: causa 1 de dano a todos os inimigos em uma fileira. Se algum for destruído, repete esta habilidade.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 1 de dano a todos os inimigos em uma fileira. Se algum for destruído, repete esta habilidade.\n",
+        "name": "Regis"
+    },
+    "112105": {
+        "info": "Mobilização, Corpo a corpo: drena todos os reforços de um inimigo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: <keyword=drain>drena</keyword> todos os reforços de um inimigo.\n",
+        "name": "Regis: Vampiro Ancião"
+    },
+    "112106": {
+        "info": "Mobilização, Longa distância: revela uma unidade aleatória do seu baralho e causa dano a um inimigo equivalente ao seu poder.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: <keyword=reveal>revela</keyword> uma unidade aleatória do seu baralho e causa dano a um inimigo equivalente ao seu poder.\n",
+        "name": "Triss Merigold"
+    },
+    "112107": {
+        "info": "Após 2 turnos, no fim do turno, destrói a unidade mais alta no campo de batalha, com exceção de si mesma.\n",
+        "infoRaw": "Após 2 turnos, no fim do turno, destrói a unidade mais alta no campo de batalha, com exceção de si mesma.\n",
+        "name": "Villentretenmerth"
+    },
+    "112108": {
+        "info": "Mobilização, Corpo a corpo: causa 2 a todas as outras unidades. \nMobilização, Longa distância: reforça todas as outras unidades em 2.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: causa 2 a todas as outras unidades. \n<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: reforça todas as outras unidades em 2.\n",
+        "name": "Yennefer"
+    },
+    "112109": {
+        "info": "Mobilização, Corpo a corpo: faz surgir Duda: Agitador e o usa.\nMobilização, Longa distância: faz surgir Duda: Companheiro e o usa.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: <keyword=spawn>faz surgir</keyword> Duda: Agitador e o usa.\n<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: <keyword=spawn>faz surgir</keyword> Duda: Companheiro e o usa.\n",
+        "name": "Zoltan: Patife"
+    },
+    "112110": {
+        "info": "Após 4 turnos, no começo do turno, compra uma carta.\n",
+        "infoRaw": "Após 4 turnos, no começo do turno, compra uma carta.\n",
+        "name": "Ciri: Investida"
+    },
+    "112111": {
+        "info": "Mobilização, Corpo a corpo: causa 2 de dano a 3 inimigos e, se possível, move eles para a fileira de longa distância.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: causa 2 de dano a 3 inimigos e, se possível, move eles para a fileira de longa distância.\n",
+        "name": "Geralt: Aard"
+    },
+    "112112": {
+        "info": "Mobilização,Longa distância: usa um artefato do seu baralho.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>,<keyword=ranged>Longa distância</keyword>: usa um artefato do seu baralho.\n",
+        "name": "Avallac'h: Sábio"
+    },
+    "112113": {
+        "info": "Ordem: causa 1 de dano à(s) unidade(s) mais alta(s) do inimigo. \nTempo de espera: 1.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: causa 1 de dano à(s) unidade(s) mais alta(s) do inimigo. \n<keyword=cooldown>Tempo de espera</keyword>: 1.\n",
+        "name": "Yennefer: Conjuradora"
+    },
+    "112201": {
+        "info": "Mobilização: se transforma em uma cópia básica de uma unidade inimiga.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: se transforma em uma cópia básica de uma unidade inimiga.\n",
+        "name": "Dudu"
+    },
+    "112202": {
+        "info": "Mobilização: invoca Vesemir e Lambert do seu baralho para esta fileira.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: <keyword=summon>invoca</keyword> Vesemir e Lambert do seu baralho para esta fileira.\n",
+        "name": "Eskel"
+    },
+    "112203": {
+        "info": "Mobilização: invoca Eskel e Lambert do seu baralho para esta fileira.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: <keyword=summon>invoca</keyword> Eskel e Lambert do seu baralho para esta fileira.\n",
+        "name": "Vesemir"
+    },
+    "112204": {
+        "info": "Mobilização: invoca Eskel e Vesemir do seu baralho para esta fileira.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: <keyword=summon>invoca</keyword> Eskel e Vesemir do seu baralho para esta fileira.\n",
+        "name": "Lambert"
+    },
+    "112205": {
+        "info": "Ordem: causa 2 de dano a um inimigo. \nCarga: 2.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: causa 2 de dano a um inimigo. \n<keyword=charge>Carga</keyword>: 2.\n",
+        "name": "Myrgtabrakke"
+    },
+    "112206": {
+        "info": "Ordem: causa 1 de dano a todos os inimigos.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: causa 1 de dano a todos os inimigos.\n",
+        "name": "Ocvist"
+    },
+    "112207": {
+        "info": "Ordem: cura a si mesma.\nTempo de espera: 1.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: <keyword=heal>cura</keyword> a si mesma.\n<keyword=cooldown>Tempo de espera</keyword>: 1.\n",
+        "name": "Olgierd von Everec"
+    },
+    "112208": {
+        "info": "Mobilização: faz surgir e invoca uma cópia básica de uma unidade de bronze da sua mão para esta fileira em cada lado do jogador.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: <keyword=spawn>faz surgir</keyword> e <keyword=summon>invoca</keyword> uma cópia básica de uma unidade de bronze da sua mão para esta fileira em cada lado do jogador.\n",
+        "name": "Operador"
+    },
+    "112209": {
+        "info": "Ordem: transforma-se em Chorabash.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: transforma-se em Chorabash.\n",
+        "name": "Vaca Premiada"
+    },
+    "112210": {
+        "info": "Sempre que usar uma carta de ouro, invoca esta unidade do seu baralho para uma fileira aliada aleatória.\n",
+        "infoRaw": "Sempre que usar uma carta de ouro, <keyword=summon>invoca</keyword> esta unidade do seu baralho para uma fileira aliada aleatória.\n",
+        "name": "Carpeado"
+    },
+    "112211": {
+        "info": "Ordem: causa 2 de dano a uma unidade.\nCarga: 1.\nGanha 1 de carga sempre que jogar uma carta especial.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: causa 2 de dano a uma unidade.\n<keyword=charge>Carga</keyword>: 1.\nGanha 1 de <keyword=charge>carga</keyword> sempre que jogar uma carta especial.\n",
+        "name": "Johnny"
+    },
+    "112212": {
+        "info": "Ordem: reforça uma unidade em 2.\nCarga: 1.\nSempre que usar uma carta especial, ganha 1 de carga.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: reforça uma unidade em 2.\n<keyword=charge>Carga</keyword>: 1.\nSempre que usar uma carta especial, ganha 1 de <keyword=charge>carga</keyword>.\n",
+        "name": "Sarah"
+    },
+    "112213": {
+        "info": "A cada turno, no fim do turno, reforça a unidade mais baixa na sua mão em 1.\n",
+        "infoRaw": "A cada turno, no fim do turno, reforça a unidade mais baixa na sua mão em 1.\n",
+        "name": "Rei dos Mendigos"
+    },
+    "112214": {
+        "info": "Mobilização: bane uma unidade com 3 de poder ou menos.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: <keyword=banish>bane</keyword> uma unidade com 3 de poder ou menos.\n",
+        "name": "Wily Cipriano"
+    },
+    "112215": {
+        "info": "Mobilização, Corpo a corpo: destrói um artefato inimigo.\nMobilização, Longa distância: retira todos os efeitos de fileira do seu lado.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: destrói um artefato inimigo.\n<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: retira todos os efeitos de fileira do seu lado.\n",
+        "name": "Iris von Everec"
+    },
+    "112401": {
+        "info": "Mobilização: reforça uma unidade em 4. Se você tiver Chironex na mão, a quantidade dobra.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça uma unidade em 4. Se você tiver Chironex na mão, a quantidade dobra.\n",
+        "name": "Unicórnio"
+    },
+    "112402": {
+        "info": "Mobilização: causa 4 de dano a uma unidade. Se você tiver Unicórnio na mão, a quantidade dobra.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 4 de dano a uma unidade. Se você tiver Unicórnio na mão, a quantidade dobra.\n",
+        "name": "Chironex"
+    },
+    "112405": {
+        "info": "Mobilização: reforça todas as unidades de Desejo de Morte na sua mão em 1.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça todas as unidades de <keyword=deathwish>Desejo de Morte</keyword> na sua mão em 1.\n",
+        "name": "Demônio"
+    },
+    "113101": {
+        "info": "Aplica este efeito de fileira a uma fileira inimiga:\nA cada turno, no começo do turno, causa 2 de dano à unidade mais alta da fileira.\n",
+        "infoRaw": "Aplica este efeito de fileira a uma fileira inimiga:\nA cada turno, no começo do turno, causa 2 de dano à unidade mais alta da fileira.\n",
+        "name": "Ragh Nar Roog"
+    },
+    "113102": {
+        "info": "Olha as 2 cartas no topo do seu baralho, depois usa uma e bane a outra.\n",
+        "infoRaw": "Olha as 2 cartas no topo do seu baralho, depois usa uma e <keyword=banish>bane</keyword> a outra.\n",
+        "name": "O Último Desejo"
+    },
+    "113201": {
+        "info": "Embaralha um aliado do campo de batalha no seu baralho, depois usa a unidade no topo do seu baralho.\n",
+        "infoRaw": "Embaralha um aliado do campo de batalha no seu baralho, depois usa a unidade no topo do seu baralho.\n",
+        "name": "Isca"
+    },
+    "113202": {
+        "info": "Causa 2 de dano a 5 inimigos.\n",
+        "infoRaw": "Causa 2 de dano a 5 inimigos.\n",
+        "name": "Merigold: Granizo"
+    },
+    "113203": {
+        "info": "Aplica este efeito de fileira a uma fileira inimiga:\nPor 2 turnos, no começo do turno, causa 1 de dano a todas as unidades da fileira.\n",
+        "infoRaw": "Aplica este efeito de fileira a uma fileira inimiga:\nPor 2 turnos, no começo do turno, causa 1 de dano a todas as unidades da fileira.\n",
+        "name": "Skellige: Tempestade"
+    },
+    "113204": {
+        "info": "Causa 1 de dano a todos os inimigos.\n",
+        "infoRaw": "Causa 1 de dano a todos os inimigos.\n",
+        "name": "Tremores"
+    },
+    "113205": {
+        "info": "Destrói um artefato.\n",
+        "infoRaw": "Destrói um artefato.\n",
+        "name": "Bomba de Dimerítio"
+    },
+    "113206": {
+        "info": "Destrói todos os artefatos.\n",
+        "infoRaw": "Destrói todos os artefatos.\n",
+        "name": "Geada Branca"
+    },
+    "113207": {
+        "info": "Reforça 5 unidades adjacentes em 3.\n",
+        "infoRaw": "Reforça 5 unidades adjacentes em 3.\n",
+        "name": "Comandante: Corneta"
+    },
+    "113208": {
+        "info": "Mobilização, Corpo a corpo: aumenta a duração de todos os efeitos de fileira em 1.\nMobilização, Longa distância: reduz todas as durações de efeitos de fileira em 1.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: aumenta a duração de todos os efeitos de fileira em 1.\n<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: reduz todas as durações de efeitos de fileira em 1.\n",
+        "name": "Vaedermakar"
+    },
+    "113209": {
+        "info": "Usa a unidade mais alta do seu baralho.\n",
+        "infoRaw": "Usa a unidade mais alta do seu baralho.\n",
+        "name": "Cruz Dupla de Alzur"
+    },
+    "113301": {
+        "info": "Causa 5 de dano a uma unidade.\n",
+        "infoRaw": "Causa 5 de dano a uma unidade.\n",
+        "name": "Trovão de Alzur"
+    },
+    "113302": {
+        "info": "Aplica este efeito de fileira a uma fileira inimiga: \nPor 4 turnos, no começo do turno, causa 2 de dano à unidade mais baixa desta fileira.\n",
+        "infoRaw": "Aplica este efeito de fileira a uma fileira inimiga: \nPor 4 turnos, no começo do turno, causa 2 de dano à unidade mais baixa desta fileira.\n",
+        "name": "Frio Congelante"
+    },
+    "113303": {
+        "info": "Retira todos os efeitos de fileira do seu lado.\n",
+        "infoRaw": "Retira todos os efeitos de fileira do seu lado.\n",
+        "name": "Céu Limpo"
+    },
+    "113305": {
+        "info": "Aplica este efeito de fileira a uma fileira inimiga:\nPor 4 turnos, no começo do turno, causa 2 de dano à unidade mais alta desta fileira.\n",
+        "infoRaw": "Aplica este efeito de fileira a uma fileira inimiga:\nPor 4 turnos, no começo do turno, causa 2 de dano à unidade mais alta desta fileira.\n",
+        "name": "Névoa Impenetrável"
+    },
+    "113306": {
+        "info": "Causa 3 de dano a 3 inimigos.\n",
+        "infoRaw": "Causa 3 de dano a 3 inimigos.\n",
+        "name": "Veneno de mantícora"
+    },
+    "113307": {
+        "info": "Concede ou remove resiliência de uma unidade.\n",
+        "infoRaw": "Concede ou remove <keyword=resilient>resiliência</keyword> de uma unidade.\n",
+        "name": "Pico de Adrenalina"
+    },
+    "113308": {
+        "info": "Destrói a(s) unidade(s) mais baixa(s).\n",
+        "infoRaw": "Destrói a(s) unidade(s) mais baixa(s).\n",
+        "name": "Epidemia"
+    },
+    "113309": {
+        "info": "Destrói a(s) unidade(s) mais alta(s).\n",
+        "infoRaw": "Destrói a(s) unidade(s) mais alta(s).\n",
+        "name": "Incinerar"
+    },
+    "113310": {
+        "info": "Reforça uma unidade em 6.\n",
+        "infoRaw": "Reforça uma unidade em 6.\n",
+        "name": "Andorinha"
+    },
+    "113311": {
+        "info": "Zelo.\nOrdem: reforça uma unidade em 2.\nCarga: 3.\n",
+        "infoRaw": "<keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>: reforça uma unidade em 2.\n<keyword=charge>Carga</keyword>: 3.\n",
+        "name": "Trovoada"
+    },
+    "113312": {
+        "info": "Aplica este efeito de fileira a uma fileira inimiga:\nPor 4 turnos, no começo do turno, causa 1 de dano a 2 unidades aleatórias da fileira.\n",
+        "infoRaw": "Aplica este efeito de fileira a uma fileira inimiga:\nPor 4 turnos, no começo do turno, causa 1 de dano a 2 unidades aleatórias da fileira.\n",
+        "name": "Chuva Torrencial"
+    },
+    "113313": {
+        "info": "Mobilização: reforça a si mesma com a quantidade de dano sofrido por um inimigo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça a si mesma com a quantidade de dano sofrido por um inimigo.\n",
+        "name": "An Craite: Clamante"
+    },
+    "113315": {
+        "info": "Escolha uma unidade. Se estiver reforçada, causa dano a ela equivalente a duas vezes o seu reforço. Se estiver danificada, reforça-a em duas vezes o seu dano sofrido.\n",
+        "infoRaw": "Escolha uma unidade. Se estiver reforçada, causa dano a ela equivalente a duas vezes o seu reforço. Se estiver danificada, reforça-a em duas vezes o seu dano sofrido.\n",
+        "name": "Espelho de Bekker"
+    },
+    "113316": {
+        "info": "Usa uma unidade da sua pilha de descarte.\n",
+        "infoRaw": "Usa uma unidade da sua pilha de descarte.\n",
+        "name": "Renovar"
+    },
+    "113319": {
+        "info": "Bloqueia uma unidade e causa 3 de dano a ela.\n",
+        "infoRaw": "<keyword=lock>Bloqueia</keyword> uma unidade e causa 3 de dano a ela.\n",
+        "name": "Grilhão de Dimerítio"
+    },
+    "113320": {
+        "info": "Causa 3 de dano em uma unidade, depois a reforça em 9.\n",
+        "infoRaw": "Causa 3 de dano em uma unidade, depois a reforça em 9.\n",
+        "name": "Mardroeme"
+    },
+    "122101": {
+        "info": "Ordem: dobra a contagem de carga de uma unidade aliada.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: dobra a contagem de <keyword=charge>carga</keyword> de uma unidade aliada.\n",
+        "name": "Barão Sanguinário"
+    },
+    "122102": {
+        "info": "Espionagem.\nMobilização: usa as 2 cartas no topo do seu baralho.\n",
+        "infoRaw": "<keyword=spying>Espionagem</keyword>.\n<keyword=deploy>Mobilização</keyword>: usa as 2 cartas no topo do seu baralho.\n",
+        "name": "Vernon Roche"
+    },
+    "122103": {
+        "info": "Corpo a corpo: enquanto esta unidade estiver no campo de batalha, todas as unidades aliadas com Ordens ganham Zelo.\n",
+        "infoRaw": "<keyword=melee>Corpo a corpo</keyword>: enquanto esta unidade estiver no campo de batalha, todas as unidades aliadas com <keyword=order>Ordens</keyword> ganham <keyword=zeal>Zelo</keyword>.\n",
+        "name": "John Natalis"
+    },
+    "122107": {
+        "info": "Mobilização: Reforça uma unidade aleatória na sua mão em 4.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: Reforça uma unidade aleatória na sua mão em 4.\n",
+        "name": "Triss: Borboletas"
+    },
+    "122108": {
+        "info": "Mobilização, Longa distância: usa um feitiço do seu baralho.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: usa um feitiço do seu baralho.\n",
+        "name": "Keira Metz"
+    },
+    "122201": {
+        "info": "Longa distância: sempre que um aliado ganha uma carga, reforça-o em 1.\n",
+        "infoRaw": "<keyword=ranged>Longa distância</keyword>: sempre que um aliado ganha uma <keyword=charge>carga</keyword>, reforça-o em 1.\n",
+        "name": "Dandelion"
+    },
+    "122202": {
+        "info": "Zelo.\nOrdem: concede 1 de carga a uma unidade.\nTempo de espera: 1.\n",
+        "infoRaw": "<keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>: concede 1 de <keyword=charge>carga</keyword> a uma unidade.\n<keyword=cooldown>Tempo de espera</keyword>: 1.\n",
+        "name": "Priscilla"
+    },
+    "122203": {
+        "info": "Mobilização: remove todas as cargas de um inimigo e a dá elas a Thaler.\nOrdem: concede 1 de carga a uma unidade aliada.\nCarga: 0.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: remove todas as <keyword=charge>cargas</keyword> de um inimigo e a dá elas a Thaler.\n<keyword=order>Ordem</keyword>: concede 1 de <keyword=charge>carga</keyword> a uma unidade aliada.\n<keyword=charge>Carga</keyword>: 0.\n",
+        "name": "Thaler"
+    },
+    "122204": {
+        "info": "Mobilização: causa 4 de dano a um inimigo. \nOrdem: concede Zelo a um aliado.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 4 de dano a um inimigo. \n<keyword=order>Ordem</keyword>: concede <keyword=zeal>Zelo</keyword> a um aliado.\n",
+        "name": "Ves"
+    },
+    "122205": {
+        "info": "Mobilização: causa 2 de dano a um inimigo.\nOrdem: causa 2 de dano a um inimigo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 2 de dano a um inimigo.\n<keyword=order>Ordem</keyword>: causa 2 de dano a um inimigo.\n",
+        "name": "Síle de Tansarville"
+    },
+    "122206": {
+        "info": "Espionagem.\nDesejo de Morte: causa 3 de dano a todas as unidades nesta fileira.\n",
+        "infoRaw": "<keyword=spying>Espionagem</keyword>.\n<keyword=deathwish>Desejo de Morte</keyword>: causa 3 de dano a todas as unidades nesta fileira.\n",
+        "name": "Sabrina Glevissig"
+    },
+    "122207": {
+        "info": "Ordem, Longa distância: causa dano a um inimigo equivalente à quantidade de reforço recebido por Dethmold.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>, <keyword=ranged>Longa distância</keyword>: causa dano a um inimigo equivalente à quantidade de reforço recebido por Dethmold.\n",
+        "name": "Dethmold"
+    },
+    "122208": {
+        "info": "Mobilização: reforça um aliado em 2 e lhe concede 2 de carga.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça um aliado em 2 e lhe concede 2 de <keyword=charge>carga</keyword>.\n",
+        "name": "Príncipe Stennis"
+    },
+    "122210": {
+        "info": "Mobilização: embaralha uma unidade de bronze e todas as suas cópias da sua pilha de descarte no seu baralho.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: embaralha uma unidade de bronze e todas as suas cópias da sua pilha de descarte no seu baralho.\n",
+        "name": "Princesa Pavetta"
+    },
+    "122211": {
+        "info": "Zelo.\nOrdem: gasta 3 cargas para bloquear uma unidade inimiga.\nCarga: 3.\n",
+        "infoRaw": "<keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>: gasta 3 <keyword=charge>cargas</keyword> para <keyword=lock>bloquear</keyword> uma unidade inimiga.\n<keyword=charge>Carga</keyword>: 3.\n",
+        "name": "Margarita Laux-Antille"
+    },
+    "122212": {
+        "info": "Ordem, Longa distância: reforça uma unidade em 1.\nCarga: 3.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>, <keyword=ranged>Longa distância</keyword>: reforça uma unidade em 1.\n<keyword=charge>Carga</keyword>: 3.\n",
+        "name": "Nenneke"
+    },
+    "122213": {
+        "info": "Mobilização: concede 1 de carga a todas as unidades aliadas.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: concede 1 de <keyword=charge>carga</keyword> a todas as unidades aliadas.\n",
+        "name": "Odrin"
+    },
+    "122214": {
+        "info": "Zelo.\nOrdem: reforça um aliado em 1.\nCarga: 2.\n",
+        "infoRaw": "<keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>: reforça um aliado em 1.\n<keyword=charge>Carga</keyword>: 2.\n",
+        "name": "Kaedwen: Sargento"
+    },
+    "122216": {
+        "info": "Mobilização: causa 1 a uma unidade para cada carta na sua mão.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 1 a uma unidade para cada carta na sua mão.\n",
+        "name": "Cutelo"
+    },
+    "122301": {
+        "info": "Ordem: causa 1 de dano a uma unidade. \nCarga: 1.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: causa 1 de dano a uma unidade. \n<keyword=charge>Carga</keyword>: 1.\n",
+        "name": "Balista"
+    },
+    "122302": {
+        "info": "Ordem: causa 2 de dano a uma unidade. \nCarga: 1.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: causa 2 de dano a uma unidade. \n<keyword=charge>Carga</keyword>: 1.\n",
+        "name": "Balista Reforçada"
+    },
+    "122303": {
+        "info": "Ordem, Longa distância: causa 1 de dano a uma unidade. Se ela for destruída, causa 1 de dano às unidades adjacentes a ela.\nCarga:1.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>, <keyword=ranged>Longa distância</keyword>: causa 1 de dano a uma unidade. Se ela for destruída, causa 1 de dano às unidades adjacentes a ela.\n<keyword=charge>Carga</keyword>:1.\n",
+        "name": "Trabuco"
+    },
+    "122304": {
+        "info": "Ordem, Corpo a corpo: reforça aliados adjacentes em 1.\nCarga: 1.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>, <keyword=melee>Corpo a corpo</keyword>: reforça aliados adjacentes em 1.\n<keyword=charge>Carga</keyword>: 1.\n",
+        "name": "Torre de Cerco"
+    },
+    "122309": {
+        "info": "Mobilização: concede 2 de carga a uma máquina aliada.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: concede 2 de <keyword=charge>carga</keyword> a uma máquina aliada.\n",
+        "name": "Auxiliar de Cerco"
+    },
+    "122310": {
+        "info": "Mobilização, Corpo a corpo: faz surgir uma cópia de um aliado de bronze para o fim do seu baralho.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: <keyword=spawn>faz surgir</keyword> uma cópia de um aliado de bronze para o fim do seu baralho.\n",
+        "name": "Batedor dos Listras Azuis"
+    },
+    "122311": {
+        "info": "Ordem: invoca uma cópia desta unidade do seu baralho para esta fileira.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: <keyword=summon>invoca</keyword> uma cópia desta unidade do seu baralho para esta fileira.\n",
+        "name": "Listra Azul: Comando"
+    },
+    "122312": {
+        "info": "Mobilização: reforça unidades adjacentes em 2.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça unidades adjacentes em 2.\n",
+        "name": "Médica de Campo"
+    },
+    "122313": {
+        "info": "Mobilização: ganha Zelo se usado adjacente a 2 soldados.\nOrdem: causa 3 de dano a um inimigo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: ganha <keyword=zeal>Zelo</keyword> se usado adjacente a 2 soldados.\n<keyword=order>Ordem</keyword>: causa 3 de dano a um inimigo.\n",
+        "name": "Bandeira de Dun"
+    },
+    "122314": {
+        "info": "Mobilização, Corpo a corpo: remove todas as cargas de um inimigo, depois causa dano a ele equivalente ao número de cargas removidas.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: remove todas as <keyword=charge>cargas</keyword> de um inimigo, depois causa dano a ele equivalente ao número de cargas removidas.\n",
+        "name": "Kaedwen: Cavalaria"
+    },
+    "122315": {
+        "info": "Longa distância: a cada turno, no fim do turno, causa 1 de dano a um inimigo aleatório na fileira de longa distância.\n",
+        "infoRaw": "<keyword=ranged>Longa distância</keyword>: a cada turno, no fim do turno, causa 1 de dano a um inimigo aleatório na fileira de longa distância.\n",
+        "name": "Trabuco Reforçado"
+    },
+    "122316": {
+        "info": "Mobilização: causa 1 de dano a um inimigo por cada unidade reforçada nesta fileira.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 1 de dano a um inimigo por cada unidade reforçada nesta fileira.\n",
+        "name": "Teméria: Infantaria"
+    },
+    "122318": {
+        "info": "Sempre que uma máquina é colocada nesta fileira, concede zelo a ela.\n",
+        "infoRaw": "Sempre que uma máquina é colocada nesta fileira, concede <keyword=zeal>zelo</keyword> a ela.\n",
+        "name": "Mestre em Cerco"
+    },
+    "122401": {
+        "info": "A cada turno, no fim do turno, causa 1 de dano ao inimigo mais poderoso.\nOrdem: transforma-se em um Protego.\n",
+        "infoRaw": "A cada turno, no fim do turno, causa 1 de dano ao inimigo mais poderoso.\n<keyword=order>Ordem</keyword>: transforma-se em um Protego.\n",
+        "name": "Fetulho"
+    },
+    "122402": {
+        "info": "A cada turno, no fim do turno, reforça o aliado menos poderoso em 1.\nOrdem: transforma-se em um Fetulho.\n",
+        "infoRaw": "A cada turno, no fim do turno, reforça o aliado menos poderoso em 1.\n<keyword=order>Ordem</keyword>: transforma-se em um Fetulho.\n",
+        "name": "Protego"
+    },
+    "122403": {
+        "info": "Mobilização, Longa distância: compra uma carta, depois coloca uma carta da sua mão no topo do seu baralho.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: compra uma carta, depois coloca uma carta da sua mão no topo do seu baralho.\n",
+        "name": "Novato de Vicovaro"
+    },
+    "123201": {
+        "info": "Faz surgir uma cópia de uma unidade de bronze aliada e a invoca para esta fileira.\n",
+        "infoRaw": "<keyword=spawn>Faz surgir</keyword> uma cópia de uma unidade de bronze aliada e a <keyword=summon>invoca</keyword> para esta fileira.\n",
+        "name": "Reforços"
+    },
+    "131101": {
+        "info": "Ordem: reforça uma unidade em 4 e concede a ela imune.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: reforça uma unidade em 4 e concede a ela <keyword=immune>imune</keyword>.\n",
+        "name": "Eredin Bréacc Glas"
+    },
+    "131102": {
+        "info": "Longa distância: sempre que você usa uma unidade com Desejo de Morte, sua habilidade de Desejo de Morte é ativada.\n",
+        "infoRaw": "<keyword=ranged>Longa distância</keyword>: sempre que você usa uma unidade com <keyword=deathwish>Desejo de Morte</keyword>, sua habilidade de <keyword=deathwish>Desejo de Morte</keyword> é ativada.\n",
+        "name": "Ge'els"
+    },
+    "132101": {
+        "info": "Mobilização: transforma todos os aliados humanos em Kaedwen: Regressários sem mudar o poder deles.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: transforma todos os aliados humanos em Kaedwen: Regressários sem mudar o poder deles.\n",
+        "name": "Draug"
+    },
+    "132102": {
+        "info": "Causa dano a um inimigo no valor do poder do seu aliado mais alto.\n",
+        "infoRaw": "Causa dano a um inimigo no valor do poder do seu aliado mais alto.\n",
+        "name": "Ira de Imlerith"
+    },
+    "132103": {
+        "info": "Ordem: reforça uma unidade na sua mão em 8.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: reforça uma unidade na sua mão em 8.\n",
+        "name": "Espírito do Bosque"
+    },
+    "132104": {
+        "info": "Mobilização: faz surgir uma cópia com 1 de poder de uma unidade da sua mão e a invoca para esta fileira.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: <keyword=spawn>faz surgir</keyword> uma cópia com 1 de poder de uma unidade da sua mão e a <keyword=summon>invoca</keyword> para esta fileira.\n",
+        "name": "Caranthir Ar-Feiniel"
+    },
+    "132105": {
+        "info": "Ordem: concede Imune a uma unidade aliada.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: concede <keyword=immune>Imune</keyword> a uma unidade aliada.\n",
+        "name": "Avallac'h"
+    },
+    "132106": {
+        "info": "Mobilização, Longa distância: usa um artefato da sua pilha de descarte.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: usa um artefato da sua pilha de descarte.\n",
+        "name": "Caseiro"
+    },
+    "132107": {
+        "info": "Zelo.\nOrdem: Consome um aliado.\nCarga: 3.\n",
+        "infoRaw": "<keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>: <keyword=consume>Consome</keyword> um aliado.\n<keyword=charge>Carga</keyword>: 3.\n",
+        "name": "Kayran"
+    },
+    "132108": {
+        "info": "Desejo de Morte: toma um inimigo com 3 de poder ou menos.\n",
+        "infoRaw": "<keyword=deathwish>Desejo de Morte</keyword>: <keyword=seize>toma</keyword> um inimigo com 3 de poder ou menos.\n",
+        "name": "Miruna"
+    },
+    "132201": {
+        "info": "Faz surgir 2 aracnas machos e os invoca para esta fileira, depois reforça todos os outros Insectoides nesta fileira em 1.\n",
+        "infoRaw": "<keyword=spawn>Faz surgir</keyword> 2 aracnas machos e os <keyword=summon>invoca</keyword> para esta fileira, depois reforça todos os outros Insectoides nesta fileira em 1.\n",
+        "name": "Aracna Gigante"
+    },
+    "132202": {
+        "info": "Ordem: bane todas as unidades na sua pilha de descarte, depois reforça a si mesma em 1 por cada unidade banida.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: <keyword=banish>bane</keyword> todas as unidades na sua pilha de descarte, depois reforça a si mesma em 1 por cada unidade banida.\n",
+        "name": "Bruxa Lamuriosa"
+    },
+    "132203": {
+        "info": "Prosperar.\nMobilização: ativa a habilidade de Desejo de Morte de um aliado de bronze.\n",
+        "infoRaw": "<keyword=thrive>Prosperar</keyword>.\n<keyword=deploy>Mobilização</keyword>: ativa a habilidade de <keyword=deathwish>Desejo de Morte</keyword> de um aliado de bronze.\n",
+        "name": "Abaya"
+    },
+    "132204": {
+        "info": "Após 3 unidades aliadas terem sido destruídas, acorda o Espanto.\n",
+        "infoRaw": "Após 3 unidades aliadas terem sido destruídas, acorda o Espanto.\n",
+        "name": "Espanto: Dormente"
+    },
+    "132205": {
+        "info": "Mobilização: reforça todos os aliados Feras em 1.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça todos os aliados Feras em 1.\n",
+        "name": "Morvudd"
+    },
+    "132206": {
+        "info": "Mobilização: causa 2 de dano a um inimigo.\nAumenta este dano em 2 sempre que usar Alquimista ou Tecelã.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 2 de dano a um inimigo.\nAumenta este dano em 2 sempre que usar Alquimista ou Tecelã.\n",
+        "name": "Sibilante"
+    },
+    "132207": {
+        "info": "Mobilização: consome 1 unidade(s) aliada(s).\nAumenta o número de alvos em 1 sempre que usa Sibilante ou Tecelã.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: <keyword=consume>consome</keyword> 1 unidade(s) aliada(s).\nAumenta o número de alvos em 1 sempre que usa Sibilante ou Tecelã.\n",
+        "name": "Alquimista"
+    },
+    "132208": {
+        "info": "Mobilização: reforça um aliado em 2.\nAumenta este reforço em 2 sempre que usar Sibilante ou Alquimista.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça um aliado em 2.\nAumenta este reforço em 2 sempre que usar Sibilante ou Alquimista.\n",
+        "name": "Tecelã"
+    },
+    "132209": {
+        "info": "Desejo de Morte: destrói o inimigo mais baixo.\n",
+        "infoRaw": "<keyword=deathwish>Desejo de Morte</keyword>: destrói o inimigo mais baixo.\n",
+        "name": "Mantícora Imperial"
+    },
+    "132210": {
+        "info": "Zelo.\nOrdem: causa 1 de dano a todas as unidades na fileira oposta.\nTempo de espera: 3.\n",
+        "infoRaw": "<keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>: causa 1 de dano a todas as unidades na fileira oposta.\n<keyword=cooldown>Tempo de espera</keyword>: 3.\n",
+        "name": "Ifrit Colossal"
+    },
+    "132211": {
+        "info": "Prosperar.\n",
+        "infoRaw": "<keyword=thrive>Prosperar</keyword>.\n",
+        "name": "Nekker guerreiro"
+    },
+    "132212": {
+        "info": "Sem habilidade.\n",
+        "infoRaw": "Sem habilidade.\n",
+        "name": "Gigante de Gelo"
+    },
+    "132213": {
+        "info": "Sem habilidade.\n",
+        "infoRaw": "Sem habilidade.\n",
+        "name": "D'ao Primordial"
+    },
+    "132214": {
+        "info": "Mobilização: destrói um artefato inimigo. Se você controla a unidade mais alta, causa 2 de dano às unidades adjacentes ao artefato.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: destrói um artefato inimigo. Se você controla a unidade mais alta, causa 2 de dano às unidades adjacentes ao artefato.\n",
+        "name": "Nithral"
+    },
+    "132215": {
+        "info": "Mobilização: concede Condenado a uma unidade inimiga.\nOrdem: destrói um inimigo Condenado.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: concede <keyword=doomed>Condenado</keyword> a uma unidade inimiga.\n<keyword=order>Ordem</keyword>: destrói um inimigo <keyword=doomed>Condenado</keyword>.\n",
+        "name": "Gaunter O'Dim"
+    },
+    "132216": {
+        "info": "Mobilização, Corpo a corpo: consome uma unidade com 3 de poder ou menos.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: <keyword=consume>consome</keyword> uma unidade com 3 de poder ou menos.\n",
+        "name": "Sapo Príncipe"
+    },
+    "132217": {
+        "info": "Mobilização: consome uma unidade aliada.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: <keyword=consume>consome</keyword> uma unidade aliada.\n",
+        "name": "Harpia celaeno"
+    },
+    "132218": {
+        "info": "Sem habilidade.\n",
+        "infoRaw": "Sem habilidade.\n",
+        "name": "Velho Lança: Dormente"
+    },
+    "132301": {
+        "info": "Desejo de Morte: invoca uma cópia desta unidade do seu baralho a uma fileira aliada aleatória.\n",
+        "infoRaw": "<keyword=deathwish>Desejo de Morte</keyword>: <keyword=summon>invoca</keyword> uma cópia desta unidade do seu baralho a uma fileira aliada aleatória.\n",
+        "name": "Nevoloso"
+    },
+    "132302": {
+        "info": "Desejo de Morte: invoca esta unidade da pilha de descarte para a mesma fileira, reforça-a em 4 e a concede Condenado.\n",
+        "infoRaw": "<keyword=deathwish>Desejo de Morte</keyword>: <keyword=summon>invoca</keyword> esta unidade da pilha de descarte para a mesma fileira, reforça-a em 4 e a concede <keyword=doomed>Condenado</keyword>.\n",
+        "name": "Antigo Nevoloso"
+    },
+    "132303": {
+        "info": "Mobilização: causa 2 de dano a um inimigo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 2 de dano a um inimigo.\n",
+        "name": "Wyvern"
+    },
+    "132304": {
+        "info": "Condenado.\n",
+        "infoRaw": "<keyword=doomed>Condenado</keyword>.\n",
+        "name": "Aracna macho"
+    },
+    "132305": {
+        "info": "Prosperar.\nMobilização: faz surgir uma cópia básica desta unidade e a invoca para esta fileira.\n",
+        "infoRaw": "<keyword=thrive>Prosperar</keyword>.\n<keyword=deploy>Mobilização</keyword>: <keyword=spawn>faz surgir</keyword> uma cópia básica desta unidade e a <keyword=summon>invoca</keyword> para esta fileira.\n",
+        "name": "Nekker"
+    },
+    "132306": {
+        "info": "Mobilização, Corpo a corpo: consome uma unidade na sua pilha de descarte.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: <keyword=consume>consome</keyword> uma unidade na sua pilha de descarte.\n",
+        "name": "Carniçal"
+    },
+    "132307": {
+        "info": "Mobilização: destrói uma unidade aliada nesta fileira. Se não há unidades, destrói a si mesma.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: destrói uma unidade aliada nesta fileira. Se não há unidades, destrói a si mesma.\n",
+        "name": "Grifo"
+    },
+    "132308": {
+        "info": "Sempre que uma unidade é destruída durante o seu turno, causa 1 de dano a um inimigo aleatório.\n",
+        "infoRaw": "Sempre que uma unidade é destruída durante o seu turno, causa 1 de dano a um inimigo aleatório.\n",
+        "name": "Guerreiro Vran"
+    },
+    "132309": {
+        "info": "Mobilização: causa 1 de dano a uma unidade por unidade de Caçada Selvagem nesta fileira.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 1 de dano a uma unidade por unidade de Caçada Selvagem nesta fileira.\n",
+        "name": "Caçada: Guerreiro"
+    },
+    "132310": {
+        "info": "Mobilização: se você controla a unidade mais alta, invoca uma cópia de Cavaleiro da Caçada Selvagem do seu baralho para esta fileira.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: se você controla a unidade mais alta, <keyword=summon>invoca</keyword> uma cópia de Cavaleiro da Caçada Selvagem do seu baralho para esta fileira.\n",
+        "name": "Caçada: Cavaleiro"
+    },
+    "132312": {
+        "info": "Cada jogador destrói a sua unidade mais baixa.\n",
+        "infoRaw": "Cada jogador destrói a sua unidade mais baixa.\n",
+        "name": "Mergulho de Predador"
+    },
+    "132314": {
+        "info": "Prosperar.\nMobilização: causa 2 de dano a um inimigo e o move para a outra fileira.\n",
+        "infoRaw": "<keyword=thrive>Prosperar</keyword>.\n<keyword=deploy>Mobilização</keyword>: causa 2 de dano a um inimigo e o move para a outra fileira.\n",
+        "name": "Afogador"
+    },
+    "132315": {
+        "info": "Condenado.\n",
+        "infoRaw": "<keyword=doomed>Condenado</keyword>.\n",
+        "name": "Harpia"
+    },
+    "132316": {
+        "info": "Desejo de Morte: faz surgir uma Harpia e a invoca para uma fileira aliada aleatória.\n",
+        "infoRaw": "<keyword=deathwish>Desejo de Morte</keyword>: <keyword=spawn>faz surgir</keyword> uma Harpia e a <keyword=summon>invoca</keyword> para uma fileira aliada aleatória.\n",
+        "name": "Ovo de Harpia"
+    },
+    "132402": {
+        "info": "Mobilização: causa 1 de dano a um inimigo. Se você controla a unidade mais alta, causa 3 de dano em vez disso.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 1 de dano a um inimigo. Se você controla a unidade mais alta, causa 3 de dano em vez disso.\n",
+        "name": "Caçada: Cérberos"
+    },
+    "132403": {
+        "info": "Mobilização: causa 2 de dano a um inimigo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 2 de dano a um inimigo.\n",
+        "name": "Alcateia"
+    },
+    "132404": {
+        "info": "Mobilização: causa 4 de dano a um inimigo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 4 de dano a um inimigo.\n",
+        "name": "Ifrit Enfurecido"
+    },
+    "132405": {
+        "info": "Mobilização: destrói um artefato inimigo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: destrói um artefato inimigo.\n",
+        "name": "D'ao Frenético"
+    },
+    "132406": {
+        "info": "Mobilização: ativa a habilidade de Desejo de Morte de um aliado de bronze.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: ativa a habilidade de <keyword=deathwish>Desejo de Morte</keyword> de um aliado de bronze.\n",
+        "name": "Maerolorn"
+    },
+    "132407": {
+        "info": "Mobilização: revela a unidade no topo do baralho do seu oponente e causa dano a si mesma equivalente ao poder da unidade revelada, depois a embaralha de volta.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: <keyword=reveal>revela</keyword> a unidade no topo do baralho do seu oponente e causa dano a si mesma equivalente ao poder da unidade revelada, depois a embaralha de volta.\n",
+        "name": "Golem Imperial"
+    },
+    "132408": {
+        "info": "Sem habilidade.\n",
+        "infoRaw": "Sem habilidade.\n",
+        "name": "Velho Lança"
+    },
+    "132409": {
+        "info": "Causa 3 de dano a um inimigo e reforça um aliado em 3.\n",
+        "infoRaw": "Causa 3 de dano a um inimigo e reforça um aliado em 3.\n",
+        "name": "Banquete Horrendo"
+    },
+    "133301": {
+        "info": "Zelo.\nOrdem: reforça uma unidade em 1. \nTempo de espera: 1.\n",
+        "infoRaw": "<keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>: reforça uma unidade em 1. \n<keyword=cooldown>Tempo de espera</keyword>: 1.\n",
+        "name": "Escudo de Wyvern"
+    },
+    "133302": {
+        "info": "Faz surgir 4 Aracnas Machos com 1 de poder e as invoca para uma fileira aliada.\n",
+        "infoRaw": "<keyword=spawn>Faz surgir</keyword> 4 Aracnas Machos com 1 de poder e as <keyword=summon>invoca</keyword> para uma fileira aliada.\n",
+        "name": "Ninho de Aracnas"
+    },
+    "142101": {
+        "info": "Imune.\nOrdem: remove o status Imune desta unidade pelo restante do turno.\n",
+        "infoRaw": "<keyword=immune>Imune</keyword>.\n<keyword=order>Ordem</keyword>: remove o status <keyword=immune>Imune</keyword> desta unidade pelo restante do turno.\n",
+        "name": "Saesenthessis"
+    },
+    "142102": {
+        "info": "Mobilização: reforça todos os outros aliados elfos em 1.\nSempre que usar um elfo, reforça a si mesma em 1.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça todos os outros aliados elfos em 1.\nSempre que usar um elfo, reforça a si mesma em 1.\n",
+        "name": "Isengrim Faoiltiarna"
+    },
+    "142103": {
+        "info": "Mobilização: devolve uma armadilha aliada para a sua mão, depois usa uma armadilha.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: devolve uma armadilha aliada para a sua mão, depois usa uma armadilha.\n",
+        "name": "Iorveth"
+    },
+    "142104": {
+        "info": "Imune.\nReforça a si mesma em 1 sempre que você usa uma unidade Scoia'tael.\n",
+        "infoRaw": "<keyword=immune>Imune</keyword>.\nReforça a si mesma em 1 sempre que você usa uma unidade Scoia'tael.\n",
+        "name": "Milva"
+    },
+    "142105": {
+        "info": "Mobilização, Corpo a corpo: destrói uma unidade com poder menor ou igual ao número de anões aliados.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: destrói uma unidade com poder menor ou igual ao número de anões aliados.\n",
+        "name": "Zoltan Chivay"
+    },
+    "142106": {
+        "info": "Mobilização: no final do turno, dobra os reforços em si mesma.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: no final do turno, dobra os reforços em si mesma.\n",
+        "name": "Aglaïs"
+    },
+    "142107": {
+        "info": "Mobilização: reforça uma unidade Scoia'tael na sua mão em 4.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça uma unidade Scoia'tael na sua mão em 4.\n",
+        "name": "Ithlinne Aegli"
+    },
+    "142108": {
+        "info": "Zelo.\nOrdem: destrói todas as outras unidades com o mesmo poder que Schirrú.\n",
+        "infoRaw": "<keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>: destrói todas as outras unidades com o mesmo poder que Schirrú.\n",
+        "name": "Schirrú"
+    },
+    "142201": {
+        "info": "Mobilização, Corpo a corpo: reforça as unidades adjacentes em 2.\nMobilização, Longa distância: reforça todas as outras unidades nesta fileira em 1.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: reforça as unidades adjacentes em 2.\n<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: reforça todas as outras unidades nesta fileira em 1.\n",
+        "name": "Dennis Cranmer"
+    },
+    "142202": {
+        "info": "Mobilização, Corpo a corpo: destrói um artefato.\nMobilização, Longa distância: reforça uma unidade em 3.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: destrói um artefato.\n<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: reforça uma unidade em 3.\n",
+        "name": "Ida Emean aep Sivney"
+    },
+    "142203": {
+        "info": "Mobilização: causa 1 de dano a um inimigo por cada elfo aliado.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 1 de dano a um inimigo por cada elfo aliado.\n",
+        "name": "Yaevinn"
+    },
+    "142204": {
+        "info": "Mobilização, Corpo a corpo: causa 2 de dano a inimigos nas pontas de uma fileira.\nMobilização, Longa distância: causa 1 de dano a todos os inimigos em uma fileira.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: causa 2 de dano a inimigos nas pontas de uma fileira.\n<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: causa 1 de dano a todos os inimigos em uma fileira.\n",
+        "name": "Toruviel"
+    },
+    "142205": {
+        "info": "Mobilização, Corpo a corpo: move uma unidade inimiga para sua outra fileira.\nMobilização, Longa distância: move uma unidade aliada para sua outra fileira.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: move uma unidade inimiga para sua outra fileira.\n<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: move uma unidade aliada para sua outra fileira.\n",
+        "name": "Dragão Vrihedd"
+    },
+    "142206": {
+        "info": "Mobilização: bloqueia uma unidade e a move para a outra fileira.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: <keyword=lock>bloqueia</keyword> uma unidade e a move para a outra fileira.\n",
+        "name": "Ciaran aep Easnillen"
+    },
+    "142207": {
+        "info": "Mobilização: reforça um aliado em 1 por cada anão aliado.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça um aliado em 1 por cada anão aliado.\n",
+        "name": "Barclay Els"
+    },
+    "142208": {
+        "info": "Mobilização, Corpo a corpo: causa 2 de dano a um inimigo.\nMobilização, Longa distância: bloqueia uma unidade.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: causa 2 de dano a um inimigo.\n<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: <keyword=lock>bloqueia</keyword> uma unidade.\n",
+        "name": "Morenn"
+    },
+    "142209": {
+        "info": "Mobilização: se você controla 2 ou mais dríades, ganha zelo.\nOrdem: causa 1 de dano a um inimigo.\nCarga: 3.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: se você controla 2 ou mais dríades, ganha <keyword=zeal>zelo</keyword>.\n<keyword=order>Ordem</keyword>: causa 1 de dano a um inimigo.\n<keyword=charge>Carga</keyword>: 3.\n",
+        "name": "Braenn"
+    },
+    "142210": {
+        "info": "Ordem: move uma unidade para a outra fileira no lado dela.\nTempo de espera: 2.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: move uma unidade para a outra fileira no lado dela.\n<keyword=cooldown>Tempo de espera</keyword>: 2.\n",
+        "name": "Malena"
+    },
+    "142211": {
+        "info": "Se, no fim do turno, você controlar 5 ou mais elfos aliados, invoca esta unidade do seu baralho para a fileira de combate corpo a corpo.\n",
+        "infoRaw": "Se, no fim do turno, você controlar 5 ou mais elfos aliados, <keyword=summon>invoca</keyword> esta unidade do seu baralho para a fileira de combate corpo a corpo.\n",
+        "name": "Aelirenn"
+    },
+    "142212": {
+        "info": "Mobilização: causa dano a um inimigo equivalente ao poder desta unidade.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa dano a um inimigo equivalente ao poder desta unidade.\n",
+        "name": "Sheldon Skaggs"
+    },
+    "142213": {
+        "info": "A cada turno, no fim do turno, se não há unidades aliadas no campo de batalha, reforça a si mesma em 3.\n",
+        "infoRaw": "A cada turno, no fim do turno, se não há unidades aliadas no campo de batalha, reforça a si mesma em 3.\n",
+        "name": "Yarpen Zigrin"
+    },
+    "142214": {
+        "info": "Mobilização: causa 1 de dano a todas as unidades danificadas e reforça em 1 todas as unidades reforçadas.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 1 de dano a todas as unidades danificadas e reforça em 1 todas as unidades reforçadas.\n",
+        "name": "Ele'yas"
+    },
+    "142301": {
+        "info": "Mobilização, Corpo a corpo: reforça uma unidade aliada em 2.\nMobilização, Longa distância: cura uma unidade aliada em 4.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: reforça uma unidade aliada em 2.\n<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: <keyword=heal>cura</keyword> uma unidade aliada em 4.\n",
+        "name": "Curandeira Havekar"
+    },
+    "142302": {
+        "info": "Mobilização: causa 2 de dano a um inimigo aleatório.\nSempre que Brigada Vrihedd for movida para a outra fileira, repete sua habilidade de Mobilização.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 2 de dano a um inimigo aleatório.\nSempre que Brigada Vrihedd for movida para a outra fileira, repete sua habilidade de <keyword=deploy>Mobilização</keyword>.\n",
+        "name": "Brigada Vrihedd"
+    },
+    "142303": {
+        "info": "Mobilização, Corpo a corpo: causa 3 de dano a uma unidade inimiga.\nMobilização, Longa distância: reforça um aliado em 3.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: causa 3 de dano a uma unidade inimiga.\n<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: reforça um aliado em 3.\n",
+        "name": "Oficial Vrihedd"
+    },
+    "142304": {
+        "info": "Mobilização: causa 2 de dano a um inimigo aleatório em cada fileira.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 2 de dano a um inimigo aleatório em cada fileira.\n",
+        "name": "Dol Blathanna: Pícara"
+    },
+    "142305": {
+        "info": "Mobilização: causa 3 de dano a um inimigo. Se ele sobreviver, reforça a si mesma em 1.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 3 de dano a um inimigo. Se ele sobreviver, reforça a si mesma em 1.\n",
+        "name": "Anão Escaramuçador"
+    },
+    "142306": {
+        "info": "A cada turno, no fim do turno, reforça a si mesma em 1 se esta unidade já foi reforçada.\n",
+        "infoRaw": "A cada turno, no fim do turno, reforça a si mesma em 1 se esta unidade já foi reforçada.\n",
+        "name": "Defensor de Mahakam"
+    },
+    "142307": {
+        "info": "Mobilização: se você tem um elfo na sua mão, destrói um artefato inimigo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: se você tem um elfo na sua mão, destrói um artefato inimigo.\n",
+        "name": "Sapadores Vrihedd"
+    },
+    "142308": {
+        "info": "Se há um elfo aliado no campo de batalha, destrói uma unidade inimiga aleatória.\n",
+        "infoRaw": "Se há um elfo aliado no campo de batalha, destrói uma unidade inimiga aleatória.\n",
+        "name": "Extorquir"
+    },
+    "142309": {
+        "info": "Mobilização: reforça a si mesmo em 1 para cada elfo na sua mão.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça a si mesmo em 1 para cada elfo na sua mão.\n",
+        "name": "Vanguarda Vrihedd"
+    },
+    "142310": {
+        "info": "Mobilização, Corpo a corpo: causa 2 de dano a um inimigo.\nMobilização, Longa distância: causa 1 de dano a 2 unidades.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: causa 2 de dano a um inimigo.\n<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: causa 1 de dano a 2 unidades.\n",
+        "name": "Dol Blathanna: Arco"
+    },
+    "142311": {
+        "info": "Ordem: causa 1 de dano a um inimigo.\nCarga: 1.\nGanha 1 de carga sempre que você usar um Anão.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: causa 1 de dano a um inimigo.\n<keyword=charge>Carga</keyword>: 1.\nGanha 1 de <keyword=charge>carga</keyword> sempre que você usar um Anão.\n",
+        "name": "Anão Mercenário"
+    },
+    "142312": {
+        "info": "Mobilização: reforça um aliado em 1. Se você controla um artefato, reforça-o em 3 em vez disso.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça um aliado em 1. Se você controla um artefato, reforça-o em 3 em vez disso.\n",
+        "name": "Auxiliar Havekar"
+    },
+    "142313": {
+        "info": "Mobilização: se esta unidade está reforçada, causa 3 de dano a um inimigo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: se esta unidade está reforçada, causa 3 de dano a um inimigo.\n",
+        "name": "Elfa Dançarina de Guerra"
+    },
+    "142314": {
+        "info": "Mobilização: causa 1 de dano a um inimigo por fileira entre ele e esta unidade.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 1 de dano a um inimigo por fileira entre ele e esta unidade.\n",
+        "name": "Dol Blathanna: Flecha"
+    },
+    "142315": {
+        "info": "Corpo a corpo: a cada turno, no fim do turno, reforça uma unidade aleatória na sua mão em 1.\n",
+        "infoRaw": "<keyword=melee>Corpo a corpo</keyword>: a cada turno, no fim do turno, reforça uma unidade aleatória na sua mão em 1.\n",
+        "name": "Contrabando Havekar"
+    },
+    "142316": {
+        "info": "Mobilização, Corpo a corpo: causa 4 de dano a um inimigo se não há outras unidades na sua fileira.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: causa 4 de dano a um inimigo se não há outras unidades na sua fileira.\n",
+        "name": "Elite Élfica"
+    },
+    "142317": {
+        "info": "Mobilização: reforça a si mesma pelo número de aliados anões na outra fileira.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça a si mesma pelo número de aliados anões na outra fileira.\n",
+        "name": "Guarda de Mahakam"
+    },
+    "142401": {
+        "info": "Mobilização: faz surgir e invoca uma cópia básica desta unidade para a outra fileira aliada.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: <keyword=spawn>faz surgir</keyword> e <keyword=summon>invoca</keyword> uma cópia básica desta unidade para a outra fileira aliada.\n",
+        "name": "Neófito Scoia'tael"
+    },
+    "143201": {
+        "info": "Emboscada: destrói a próxima carta especial usada por seu oponente antes que qualquer habilidade seja ativada.\n",
+        "infoRaw": "<keyword=ambush>Emboscada</keyword>: destrói a próxima carta especial usada por seu oponente antes que qualquer habilidade seja ativada.\n",
+        "name": "Armadilha de Serpente"
+    },
+    "143301": {
+        "info": "Emboscada: causa 5 de dano à próxima unidade que seu oponente usar.\nZelo.\nOrdem: vira para cima e causa 3 de dano a uma unidade.\n",
+        "infoRaw": "<keyword=ambush>Emboscada</keyword>: causa 5 de dano à próxima unidade que seu oponente usar.\n<keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>: vira para cima e causa 3 de dano a uma unidade.\n",
+        "name": "Armadilha com Fogo"
+    },
+    "152101": {
+        "info": "Mobilização, Corpo a corpo: bane uma unidade na sua pilha de descarte e causa dano a um inimigo equivalente ao poder dela.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: <keyword=banish>bane</keyword> uma unidade na sua pilha de descarte e causa dano a um inimigo equivalente ao poder dela.\n",
+        "name": "Hjalmar an Craite"
+    },
+    "152103": {
+        "info": "Mobilização, Longa distância: usa uma carta de alquimia do seu baralho.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: usa uma carta de alquimia do seu baralho.\n",
+        "name": "Arminho"
+    },
+    "152104": {
+        "info": "Mobilização: descarta a carta mais à direita na sua mão, depois obriga seu oponente a fazer o mesmo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: <keyword=discard>descarta</keyword> a carta mais à direita na sua mão, depois obriga seu oponente a fazer o mesmo.\n",
+        "name": "Kambi"
+    },
+    "152105": {
+        "info": "Mobilização: compra 2 cartas, depois descarta 2 cartas.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: compra 2 cartas, depois <keyword=discard>descarta</keyword> 2 cartas.\n",
+        "name": "Birna Bran"
+    },
+    "152106": {
+        "info": "Mobilização: causa dano a um inimigo equivalente a duas vezes o número de inimigos que sofreram dano.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa dano a um inimigo equivalente a duas vezes o número de inimigos que sofreram dano.\n",
+        "name": "Lugos Maluco"
+    },
+    "152107": {
+        "info": "Ordem: descarta uma carta, depois compra uma carta.\nCarga: 3.\nSempre que uma carta especial é descartada, causa 2 de dano a um inimigo.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: <keyword=discard>descarta</keyword> uma carta, depois compra uma carta.\n<keyword=charge>Carga</keyword>: 3.\nSempre que uma carta especial é <keyword=discard>descartada</keyword>, causa 2 de dano a um inimigo.\n",
+        "name": "Coral"
+    },
+    "152109": {
+        "info": "Mobilização, Corpo a corpo: causa 2 de dano a todos os inimigos danificados.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: causa 2 de dano a todos os inimigos danificados.\n",
+        "name": "Javardo dos Mares"
+    },
+    "152201": {
+        "info": "Sempre que esta unidade sofre dano, causa 2 de dano a uma unidade inimiga aleatória.\n",
+        "infoRaw": "Sempre que esta unidade sofre dano, causa 2 de dano a uma unidade inimiga aleatória.\n",
+        "name": "Lugos Todo Roxo"
+    },
+    "152202": {
+        "info": "Causa 5 de dano a uma unidade. \nSede de Sangue 3: destrói uma unidade em vez disso.\n",
+        "infoRaw": "Causa 5 de dano a uma unidade. \n<keyword=bloodthirst>Sede de Sangue</keyword> 3: destrói uma unidade em vez disso.\n",
+        "name": "Investida do Campeão"
+    },
+    "152203": {
+        "info": "Sede de Sangue 1: bloqueia uma unidade inimiga.\n",
+        "infoRaw": "<keyword=bloodthirst>Sede de Sangue</keyword> 1: <keyword=lock>bloqueia</keyword> uma unidade inimiga.\n",
+        "name": "Djenge Frett"
+    },
+    "152204": {
+        "info": "Mobilização: causa 2 de dano a um inimigo.\nSede de Sangue 2: causa 5 de dano a um inimigo em vez disso.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 2 de dano a um inimigo.\n<keyword=bloodthirst>Sede de Sangue</keyword> 2: causa 5 de dano a um inimigo em vez disso.\n",
+        "name": "Donar an Hindar"
+    },
+    "152205": {
+        "info": "Mobilização: reforça todos os aliados Guerreiros em 1.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça todos os aliados Guerreiros em 1.\n",
+        "name": "Draig Bon-Dhu"
+    },
+    "152206": {
+        "info": "Mobilização, Longa distância: usa uma carta de Alquimia de bronze da sua pilha de descarte.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: usa uma carta de Alquimia de bronze da sua pilha de descarte.\n",
+        "name": "Gremist"
+    },
+    "152207": {
+        "info": "Sempre que você usar um Navio, reforce-o em 1.\nSempre que você usar um Pirata, causa 1 de dano a um inimigo aleatório.\n",
+        "infoRaw": "Sempre que você usar um Navio, reforce-o em 1.\nSempre que você usar um Pirata, causa 1 de dano a um inimigo aleatório.\n",
+        "name": "Holger Mão-Negra"
+    },
+    "152208": {
+        "info": "Mobilização: se Jutta an Dimun é a unidade mais alta, causa 6 de dano a si mesma.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: se Jutta an Dimun é a unidade mais alta, causa 6 de dano a si mesma.\n",
+        "name": "Jutta an Dimun"
+    },
+    "152209": {
+        "info": "Quando esta unidade vai para a pilha de descarte, ela é invocada para a fileira corpo a corpo e ganha Condenado.\n",
+        "infoRaw": "Quando esta unidade vai para a pilha de descarte, ela é <keyword=summon>invocada</keyword> para a fileira corpo a corpo e ganha <keyword=doomed>Condenado</keyword>.\n",
+        "name": "Morkvarg"
+    },
+    "152210": {
+        "info": "Zelo.\nMobilização: ganha 1 de carga por cada Urso Selvagem na pilha de descarte.\nOrdem: causa 2 de dano a uma unidade.\nCarga: 1.\n",
+        "infoRaw": "<keyword=zeal>Zelo</keyword>.\n<keyword=deploy>Mobilização</keyword>: ganha 1 de <keyword=charge>carga</keyword> por cada Urso Selvagem na pilha de descarte.\n<keyword=order>Ordem</keyword>: causa 2 de dano a uma unidade.\n<keyword=charge>Carga</keyword>: 1.\n",
+        "name": "Urso Selvagem"
+    },
+    "152211": {
+        "info": "Invoca um guerreiro da sua pilha de descarte para uma fileira aliada.\n",
+        "infoRaw": "<keyword=summon>Invoca</keyword> um guerreiro da sua pilha de descarte para uma fileira aliada.\n",
+        "name": "Rito de Sigrdrifa"
+    },
+    "152213": {
+        "info": "Mobilização, Sede de Sangue 3: reforça a si mesma em 5.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=bloodthirst>Sede de Sangue</keyword> 3: reforça a si mesma em 5.\n",
+        "name": "Svanrige Tuirseach"
+    },
+    "152214": {
+        "info": "Ordem: causa 1 de dano a uma unidade.\nCarga: 3.\nSede de Sangue 2: ganha zelo.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: causa 1 de dano a uma unidade.\n<keyword=charge>Carga</keyword>: 3.\n<keyword=bloodthirst>Sede de Sangue</keyword> 2: ganha <keyword=zeal>zelo</keyword>.\n",
+        "name": "Udalryk an Brokvar"
+    },
+    "152303": {
+        "info": "Mobilização: causa 2 de dano a um inimigo. Se for usada da pilha de descarte, causa 4 de dano em vez disso.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 2 de dano a um inimigo. Se for usada da pilha de descarte, causa 4 de dano em vez disso.\n",
+        "name": "An Craite: Guerreiro"
+    },
+    "152304": {
+        "info": "Ordem: causa 1 de dano a uma unidade.\nCarga: 1.\nGanha 1 de carga sempre que descartar uma carta.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: causa 1 de dano a uma unidade.\n<keyword=charge>Carga</keyword>: 1.\nGanha 1 de <keyword=charge>carga</keyword> sempre que <keyword=discard>descartar</keyword> uma carta.\n",
+        "name": "Caçador Brokvar"
+    },
+    "152305": {
+        "info": "Mobilização: move a carta no topo do seu baralho para a sua pilha de descarte.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: move a carta no topo do seu baralho para a sua pilha de descarte.\n",
+        "name": "Dimun: Pirata"
+    },
+    "152306": {
+        "info": "Mobilização.\nSede de Sangue 2: causa 3 de dano a um inimigo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>.\n<keyword=bloodthirst>Sede de Sangue</keyword> 2: causa 3 de dano a um inimigo.\n",
+        "name": "Dimun: Capitão pirata"
+    },
+    "152307": {
+        "info": "Ordem: se esta unidade sofre dano, faz surgir uma cópia básica dela e a invoca à direita.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: se esta unidade sofre dano, <keyword=spawn>faz surgir</keyword> uma cópia básica dela e a <keyword=summon>invoca</keyword> à direita.\n",
+        "name": "Guarda Real Drummond"
+    },
+    "152308": {
+        "info": "Mobilização: descarta uma carta, depois compra uma carta.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: <keyword=discard>descarta</keyword> uma carta, depois compra uma carta.\n",
+        "name": "Heymaey: Escaldo"
+    },
+    "152309": {
+        "info": "Ordem: causa 1 de dano a si mesma e a um inimigo.\nTempo de espera: 1.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: causa 1 de dano a si mesma e a um inimigo.\n<keyword=cooldown>Tempo de espera</keyword>: 1.\n",
+        "name": "Dimun: Dracar leve"
+    },
+    "152310": {
+        "info": "Usa uma unidade de bronze da sua pilha de descarte.\n",
+        "infoRaw": "Usa uma unidade de bronze da sua pilha de descarte.\n",
+        "name": "Bênção de Freya"
+    },
+    "152311": {
+        "info": "Ordem: reforça um aliado em 1.\nCarga: 1.\nGanha 1 de carga sempre que você usa um guerreiro.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: reforça um aliado em 1.\n<keyword=charge>Carga</keyword>: 1.\nGanha 1 de <keyword=charge>carga</keyword> sempre que você usa um guerreiro.\n",
+        "name": "An Craite: Ferreiro"
+    },
+    "152312": {
+        "info": "Mobilização, Corpo a corpo: destrói um inimigo com metade da sua base de poder ou menos.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: destrói um inimigo com metade da sua base de poder ou menos.\n",
+        "name": "Tuirseach: Machadeiro"
+    },
+    "152313": {
+        "info": "Quando esta unidade é descartada, é invocada da sua pilha de descarte para a fileira de combate corpo a corpo.\n",
+        "infoRaw": "Quando esta unidade é <keyword=discard>descartada</keyword>, é <keyword=summon>invocada</keyword> da sua pilha de descarte para a fileira de combate corpo a corpo.\n",
+        "name": "Tuirseach: Combatente"
+    },
+    "152314": {
+        "info": "Sempre que seu oponente usa uma unidade, causa 1 de dano a ela.\n",
+        "infoRaw": "Sempre que seu oponente usa uma unidade, causa 1 de dano a ela.\n",
+        "name": "An Craite: Dracar"
+    },
+    "152315": {
+        "info": "Mobilização, Longa distância: causa dano a um inimigo equivalente ao número de unidades danificadas no lado dele.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: causa dano a um inimigo equivalente ao número de unidades danificadas no lado dele.\n",
+        "name": "Arqueiro Brokvar"
+    },
+    "152316": {
+        "info": "Causa 4 de dano a uma unidade.\nSede de Sangue 2: causa 6 de dano a uma unidade em vez disso.\n",
+        "infoRaw": "Causa 4 de dano a uma unidade.\n<keyword=bloodthirst>Sede de Sangue</keyword> 2: causa 6 de dano a uma unidade em vez disso.\n",
+        "name": "Golpe Estripador"
+    },
+    "152317": {
+        "info": "Mobilização: reforça um aliado em 1. Se ele é um guerreiro, reforça-o em 3 em vez disso.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça um aliado em 1. Se ele é um guerreiro, reforça-o em 3 em vez disso.\n",
+        "name": "An Craite: Armeiro"
+    },
+    "152318": {
+        "info": "Na próxima vez em que esta unidade sofrer dano, invoca uma cópia dela do seu baralho para esta fileira.\n",
+        "infoRaw": "Na próxima vez em que esta unidade sofrer dano, <keyword=summon>invoca</keyword> uma cópia dela do seu baralho para esta fileira.\n",
+        "name": "Escudeira dos Drummond"
+    },
+    "152403": {
+        "info": "Divide 6 de dano aleatoriamente entre todas as unidades em uma fileira inimiga.\n",
+        "infoRaw": "Divide 6 de dano aleatoriamente entre todas as unidades em uma fileira inimiga.\n",
+        "name": "Delírio"
+    },
+    "152405": {
+        "info": "Sem habilidade.\n",
+        "infoRaw": "Sem habilidade.\n",
+        "name": "Urso Ancião"
+    },
+    "152406": {
+        "info": "Mobilização: causa 1 de dano a um aliado à esquerda. Se não há um aliado, causa 1 de dano a si mesma.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 1 de dano a um aliado à esquerda. Se não há um aliado, causa 1 de dano a si mesma.\n",
+        "name": "Urso Feroz"
+    },
+    "153201": {
+        "info": "Cura todas as unidades em uma fileira.\n",
+        "infoRaw": "<keyword=heal>Cura</keyword> todas as unidades em uma fileira.\n",
+        "name": "Restaurar"
+    },
+    "153301": {
+        "info": "Causa 2 de dano a todas as unidades em uma fileira.\n",
+        "infoRaw": "Causa 2 de dano a todas as unidades em uma fileira.\n",
+        "name": "Lacerar"
+    },
+    "162101": {
+        "info": "Mobilização: remove todas as possibilidades de comprar novamente do líder inimigo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: remove todas as possibilidades de comprar novamente do líder inimigo.\n",
+        "name": "Letho de Gulet"
+    },
+    "162102": {
+        "info": "Mobilização, Longa distância: usa uma carta de tática do seu baralho.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: usa uma carta de tática do seu baralho.\n",
+        "name": "Menno Coehoorn"
+    },
+    "162103": {
+        "info": "Ordem, Corpo a corpo: toma uma unidade inimiga bloqueada.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>, <keyword=melee>Corpo a corpo</keyword>: <keyword=seize>toma</keyword> uma unidade inimiga <keyword=lock>bloqueada</keyword>.\n",
+        "name": "Vattier de Rideaux"
+    },
+    "162104": {
+        "info": "Corpo a corpo: sempre que um inimigo é reforçado, reforça a si mesma em um valor equivalente.\n",
+        "infoRaw": "<keyword=melee>Corpo a corpo</keyword>: sempre que um inimigo é reforçado, reforça a si mesma em um valor equivalente.\n",
+        "name": "Cahir Dyffryn"
+    },
+    "162105": {
+        "info": "Mobilização, Corpo a corpo: destrói uma unidade inimiga, depois seu oponente invoca a unidade no topo do baralho dele para uma fileira inimiga aleatória.\nMobilização, Longa distância: destrói uma unidade aliada, depois invoca a unidade no topo do seu baralho para uma fileira aliada aleatória.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: destrói uma unidade inimiga, depois seu oponente <keyword=summon>invoca</keyword> a unidade no topo do baralho dele para uma fileira inimiga aleatória.\n<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: destrói uma unidade aliada, depois <keyword=summon>invoca</keyword> a unidade no topo do seu baralho para uma fileira aliada aleatória.\n",
+        "name": "Vilgefortz"
+    },
+    "162106": {
+        "info": "Ordem: faz surgir e usa uma cópia de uma carta de tática que você usou neste turno.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: <keyword=spawn>faz surgir</keyword> e usa uma cópia de uma carta de tática que você usou neste turno.\n",
+        "name": "Stefan Skellen"
+    },
+    "162107": {
+        "info": "Mobilização: seu oponente invoca a unidade no topo do baralho dele para uma fileira inimiga aleatória.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: seu oponente <keyword=summon>invoca</keyword> a unidade no topo do baralho dele para uma fileira inimiga aleatória.\n",
+        "name": "Tibor Eggebracht"
+    },
+    "162108": {
+        "info": "Mobilização: revela uma carta aleatória do seu baralho. Se for uma unidade, reforça a si mesma com o poder dela e a embaralha de volta. Se for um artefato ou uma carta especial, usa a carta.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: <keyword=reveal>revela</keyword> uma carta aleatória do seu baralho. Se for uma unidade, reforça a si mesma com o poder dela e a embaralha de volta. Se for um artefato ou uma carta especial, usa a carta.\n",
+        "name": "Xarthisius"
+    },
+    "162201": {
+        "info": "Mobilização, Longa distância: move qualquer carta do seu baralho para o topo. Se for uma unidade, reforça-a em 2.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: move qualquer carta do seu baralho para o topo. Se for uma unidade, reforça-a em 2.\n",
+        "name": "Albrich"
+    },
+    "162202": {
+        "info": "Mobilização, Corpo a corpo: embaralha uma carta da pilha de descarte do oponente no baralho dele.\nMobilização, Longa distância: embaralha uma carta da sua pilha de descarte no seu baralho.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: embaralha uma carta da pilha de descarte do oponente no baralho dele.\n<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: embaralha uma carta da sua pilha de descarte no seu baralho.\n",
+        "name": "Assire var Anahid"
+    },
+    "162203": {
+        "info": "Mobilização, Corpo a corpo: faz surgir o Guardião e o coloca no topo do baralho do oponente.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: <keyword=spawn>faz surgir</keyword> o Guardião e o coloca no topo do baralho do oponente.\n",
+        "name": "Cynthia"
+    },
+    "162204": {
+        "info": "Mobilização: restaura uma unidade para sua base de poder.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: restaura uma unidade para sua base de poder.\n",
+        "name": "Peter Saar Gwynleve"
+    },
+    "162205": {
+        "info": "Ordem: revela uma carta especial aleatória do baralho do oponente, depois faz surgir e usa uma cópia dela.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: <keyword=reveal>revela</keyword> uma carta especial aleatória do baralho do oponente, depois <keyword=spawn>faz surgir</keyword> e usa uma cópia dela.\n",
+        "name": "Fringilla Vigo"
+    },
+    "162206": {
+        "info": "Mobilização: causa 1 de dano a um inimigo.\nAumenta o dano desta unidade em 1 por cada carta que você revelou.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 1 de dano a um inimigo.\nAumenta o dano desta unidade em 1 por cada carta que você <keyword=reveal>revelou</keyword>.\n",
+        "name": "Sweers"
+    },
+    "162207": {
+        "info": "Mobilização, Longa distância: destrói uma unidade inimiga bloqueada.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: destrói uma unidade inimiga <keyword=lock>bloqueada</keyword>.\n",
+        "name": "Vanhemar"
+    },
+    "162208": {
+        "info": "Mobilização: bloqueia uma unidade inimiga.\nSe Serrit está na sua mão, bloqueia todas as cópias desta unidade na mão, no baralho ou no campo de batalha do oponente.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: <keyword=lock>bloqueia</keyword> uma unidade inimiga.\nSe Serrit está na sua mão, <keyword=lock>bloqueia</keyword> todas as cópias desta unidade na mão, no baralho ou no campo de batalha do oponente.\n",
+        "name": "Auckes"
+    },
+    "162209": {
+        "info": "Mobilização: causa 3 de dano a um inimigo. Se Auckes está na sua mão, causa 5 de dano em vez disso.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 3 de dano a um inimigo. Se Auckes está na sua mão, causa 5 de dano em vez disso.\n",
+        "name": "Serrit"
+    },
+    "162210": {
+        "info": "Espionagem.\nMobilização: usa a carta no topo do baralho do seu oponente.\n",
+        "infoRaw": "<keyword=spying>Espionagem</keyword>.\n<keyword=deploy>Mobilização</keyword>: usa a carta no topo do baralho do seu oponente.\n",
+        "name": "Cantarella"
+    },
+    "162211": {
+        "info": "Espionagem.\nMobilização: usa a unidade no topo do seu baralho, exceto espiã, e a reforça em 8.\n",
+        "infoRaw": "<keyword=spying>Espionagem</keyword>.\n<keyword=deploy>Mobilização</keyword>: usa a unidade no topo do seu baralho, exceto <keyword=spying>espiã</keyword>, e a reforça em 8.\n",
+        "name": "Joachim de Wett"
+    },
+    "162212": {
+        "info": "Mobilização, Corpo a corpo: move um inimigo para a outra fileira.\nMobilização, Longa distância: destrói um artefato inimigo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: move um inimigo para a outra fileira.\n<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: destrói um artefato inimigo.\n",
+        "name": "Ciri Falsa"
+    },
+    "162213": {
+        "info": "Mobilização: remove os status de todas as unidades no campo de batalha.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: remove os status de todas as unidades no campo de batalha.\n",
+        "name": "Ceallach Dyffryn"
+    },
+    "162301": {
+        "info": "Ao revelar esta unidade, você invoca uma cópia dela do seu baralho a uma fileira aliada aleatória.\n",
+        "infoRaw": "Ao <keyword=reveal>revelar</keyword> esta unidade, você <keyword=summon>invoca</keyword> uma cópia dela do seu baralho a uma fileira aliada aleatória.\n",
+        "name": "Soldado Daerlan"
+    },
+    "162302": {
+        "info": "Mobilização, Longa distância: faz surgir e usa uma Carcaça de Vaca.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: <keyword=spawn>faz surgir</keyword> e usa uma Carcaça de Vaca.\n",
+        "name": "Lançador de Podridão"
+    },
+    "162303": {
+        "info": "Mobilização, Corpo a corpo: revela uma unidade aleatória do baralho do seu oponente e reforça a si mesma com o poder dela.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: <keyword=reveal>revela</keyword> uma unidade aleatória do baralho do seu oponente e reforça a si mesma com o poder dela.\n",
+        "name": "Observador"
+    },
+    "162304": {
+        "info": "Usa uma unidade de bronze da pilha de descarte do oponente.\n",
+        "infoRaw": "Usa uma unidade de bronze da pilha de descarte do oponente.\n",
+        "name": "Remédio Experimental"
+    },
+    "162305": {
+        "info": "Mobilização: causa 2 de dano a um inimigo, depois revela uma unidade aleatória de ambos os baralhos. Se o poder da sua for maior, repete a habilidade de Mobilização.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 2 de dano a um inimigo, depois <keyword=reveal>revela</keyword> uma unidade aleatória de ambos os baralhos. Se o poder da sua for maior, repete a habilidade de <keyword=deploy>Mobilização</keyword>.\n",
+        "name": "Besteiro de Deithwen"
+    },
+    "162306": {
+        "info": "Ordem, Longa distância: causa 1 de dano a uma unidade.\nCarga: 1.\nGanha 1 de carga sempre que você usa uma carta de tática.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>, <keyword=ranged>Longa distância</keyword>: causa 1 de dano a uma unidade.\n<keyword=charge>Carga</keyword>: 1.\nGanha 1 de <keyword=charge>carga</keyword> sempre que você usa uma carta de tática.\n",
+        "name": "Escorpião de Fogo"
+    },
+    "162307": {
+        "info": "Mobilização, Corpo a corpo: invoca uma cópia desta unidade do seu baralho para esta fileira.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: <keyword=summon>invoca</keyword> uma cópia desta unidade do seu baralho para esta fileira.\n",
+        "name": "Brigada Imperial"
+    },
+    "162308": {
+        "info": "Ordem: causa 2 de dano a um inimigo.\nCarga: 1.\nGanha 1 de carga sempre que você usar uma unidade de Espionagem.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: causa 2 de dano a um inimigo.\n<keyword=charge>Carga</keyword>: 1.\nGanha 1 de <keyword=charge>carga</keyword> sempre que você usar uma unidade de <keyword=spying>Espionagem</keyword>.\n",
+        "name": "Sentinela Imperial"
+    },
+    "162309": {
+        "info": "Sempre que uma unidade com Mobilização é usada, reforça a si mesma em 1.\n",
+        "infoRaw": "Sempre que uma unidade com <keyword=deploy>Mobilização</keyword> é usada, reforça a si mesma em 1.\n",
+        "name": "Sargento Nauzicaa"
+    },
+    "162310": {
+        "info": "Mobilização: causa 3 de dano a um inimigo reforçado.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 3 de dano a um inimigo reforçado.\n",
+        "name": "Brigada Nauzicaa"
+    },
+    "162311": {
+        "info": "Mobilização, Corpo a corpo: causa dano a um inimigo equivalente ao número de unidades na outra fileira dele.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: causa dano a um inimigo equivalente ao número de unidades na outra fileira dele.\n",
+        "name": "Piqueiro Alba"
+    },
+    "162312": {
+        "info": "Mobilização: causa 2 de dano a um inimigo. Aumenta o dano em 1 por soldado adjacente.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 2 de dano a um inimigo. Aumenta o dano em 1 por soldado adjacente.\n",
+        "name": "Lanceiro Alba"
+    },
+    "162313": {
+        "info": "Mobilização: se você controla um artefato, reforça a si mesma em 3.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: se você controla um artefato, reforça a si mesma em 3.\n",
+        "name": "Engenheiro Bélico"
+    },
+    "162314": {
+        "info": "Espionagem.\nMobilização: reforça um aliado em 7.\n",
+        "infoRaw": "<keyword=spying>Espionagem</keyword>.\n<keyword=deploy>Mobilização</keyword>: reforça um aliado em 7.\n",
+        "name": "Emissário"
+    },
+    "162315": {
+        "info": "Cria e usa uma unidade de bronze da facção do seu oponente.\n",
+        "infoRaw": "<keyword=create>Cria</keyword> e usa uma unidade de bronze da facção do seu oponente.\n",
+        "name": "Diplomacia Imperial"
+    },
+    "162316": {
+        "info": "Mobilização, Longa distância: troca o poder de 2 aliados.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: troca o poder de 2 aliados.\n",
+        "name": "Iniciado"
+    },
+    "162317": {
+        "info": "Sempre que você revela uma carta, causa 1 de dano a um inimigo aleatório.\n",
+        "infoRaw": "Sempre que você <keyword=reveal>revela</keyword> uma carta, causa 1 de dano a um inimigo aleatório.\n",
+        "name": "Manganela"
+    },
+    "162318": {
+        "info": "Mobilização: reforça um inimigo em 2. Se não há unidades inimigas, destrói a si mesma.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça um inimigo em 2. Se não há unidades inimigas, destrói a si mesma.\n",
+        "name": "Nilfgaard: Cavaleiro"
+    },
+    "162401": {
+        "info": "Sem habilidade.\n",
+        "infoRaw": "Sem habilidade.\n",
+        "name": "O Guardião"
+    },
+    "162402": {
+        "info": "Espionagem. Condenado.\nApós 1 turno, no fim do turno, destrói esta unidade e a unidade à esquerda dela.\n",
+        "infoRaw": "<keyword=spying>Espionagem</keyword>. <keyword=doomed>Condenado</keyword>.\nApós 1 turno, no fim do turno, destrói esta unidade e a unidade à esquerda dela.\n",
+        "name": "Carcaça de Vaca"
+    },
+    "163101": {
+        "info": "Força uma unidade inimiga a causar dano às unidades adjacentes equivalente ao seu próprio poder.\n",
+        "infoRaw": "Força uma unidade inimiga a causar dano às unidades adjacentes equivalente ao seu próprio poder.\n",
+        "name": "Traição"
+    },
+    "163201": {
+        "info": "Cria uma unidade a partir do baralho inicial do seu oponente, depois a usa.\n",
+        "infoRaw": "<keyword=create>Cria</keyword> uma unidade a partir do baralho inicial do seu oponente, depois a usa.\n",
+        "name": "Suborno"
+    },
+    "200008": {
+        "info": "Zelo.\nOrdem: reforça um aliado em 3 e concede zelo a ele.\n",
+        "infoRaw": "<keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>: reforça um aliado em 3 e concede <keyword=zeal>zelo</keyword> a ele.\n",
+        "name": "Filtro de Petri"
+    },
+    "200018": {
+        "info": "Bane uma unidade ou artefato.\n",
+        "infoRaw": "<keyword=banish>Bane</keyword> uma unidade ou artefato.\n",
+        "name": "Korathi Chamardente"
+    },
+    "200019": {
+        "info": "Usa a unidade mais baixa do seu baralho.\n",
+        "infoRaw": "Usa a unidade mais baixa do seu baralho.\n",
+        "name": "Ordens de Marcha"
+    },
+    "200020": {
+        "info": "Usa uma unidade de bronze da sua pilha de descarte e concede Condenado a ela.\n",
+        "infoRaw": "Usa uma unidade de bronze da sua pilha de descarte e concede <keyword=doomed>Condenado</keyword> a ela.\n",
+        "name": "Necromancia"
+    },
+    "200022": {
+        "info": "Zelo.\nOrdem: usa uma unidade do seu baralho com custo de recrutamento igual ou menor à contagem de cargas do Círculo de Invocação, depois remove todas as cargas.\nCarga: 0.\nA cada turno, no começo do turno, ganha 1 de carga.\n",
+        "infoRaw": "<keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>: usa uma unidade do seu baralho com custo de recrutamento igual ou menor à contagem de <keyword=charge>cargas</keyword> do Círculo de Invocação, depois remove todas as <keyword=charge>cargas</keyword>.\n<keyword=charge>Carga</keyword>: 0.\nA cada turno, no começo do turno, ganha 1 de <keyword=charge>carga</keyword>.\n",
+        "name": "Círculo de Invocação"
+    },
+    "200023": {
+        "info": "Causa 3 de dano a uma unidade. Se ela for destruída, causa 3 de dano às unidades adjacentes.\n",
+        "infoRaw": "Causa 3 de dano a uma unidade. Se ela for destruída, causa 3 de dano às unidades adjacentes.\n",
+        "name": "Veneno de Aracna"
+    },
+    "200026": {
+        "info": "Mobilização: reforça uma unidade aliada em 1. Se você controla a unidade mais alta, reforça-a em 3 em vez disso.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça uma unidade aliada em 1. Se você controla a unidade mais alta, reforça-a em 3 em vez disso.\n",
+        "name": "Caçada: Navegadora"
+    },
+    "200028": {
+        "info": "Mobilização, Corpo a corpo: destrói um inimigo danificado.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: destrói um inimigo danificado.\n",
+        "name": "Vabjorn"
+    },
+    "200030": {
+        "info": "Mobilização, Corpo a corpo: causa 4 de dano a um inimigo.\nMobilização, Longa distância: causa 1 de dano a 4 inimigos.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: causa 4 de dano a um inimigo.\n<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: causa 1 de dano a 4 inimigos.\n",
+        "name": "Milaen"
+    },
+    "200031": {
+        "info": "Mobilização, Corpo a corpo: destrói um inimigo com 8 de poder ou mais.\nMobilização, Longa distância: destrói um bruxo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: destrói um inimigo com 8 de poder ou mais.\n<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: destrói um bruxo.\n",
+        "name": "Leo Bonhart"
+    },
+    "200032": {
+        "info": "Mobilização: reforça um inimigo em 3, depois reforça a si mesma em 3.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça um inimigo em 3, depois reforça a si mesma em 3.\n",
+        "name": "Rainfarn de Attre"
+    },
+    "200033": {
+        "info": "Zelo.\nOrdem, Longa distância: concede 1 de carga a uma unidade aliada.\nTempo de espera: 2.\n",
+        "infoRaw": "<keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>, <keyword=ranged>Longa distância</keyword>: concede 1 de <keyword=charge>carga</keyword> a uma unidade aliada.\n<keyword=cooldown>Tempo de espera</keyword>: 2.\n",
+        "name": "Adepta de Aretuza"
+    },
+    "200036": {
+        "info": "Mobilização, Corpo a corpo, Sede de Sangue 1: destrói um artefato inimigo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>, <keyword=bloodthirst>Sede de Sangue</keyword> 1: destrói um artefato inimigo.\n",
+        "name": "Drummond: Belicista"
+    },
+    "200037": {
+        "info": "Mobilização: destrói uma unidade aliada adjacente e causa dano a um inimigo equivalente ao poder dela.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: destrói uma unidade aliada adjacente e causa dano a um inimigo equivalente ao poder dela.\n",
+        "name": "Ciclope"
+    },
+    "200038": {
+        "info": "Prosperar.\nMobilização: causa 2 de dano a um inimigo aleatório.\nDesejo de Morte: repete a habilidade de Mobilização.\n",
+        "infoRaw": "<keyword=thrive>Prosperar</keyword>.\n<keyword=deploy>Mobilização</keyword>: causa 2 de dano a um inimigo aleatório.\n<keyword=deathwish>Desejo de Morte</keyword>: repete a habilidade de <keyword=deploy>Mobilização</keyword>.\n",
+        "name": "Arquespora"
+    },
+    "200039": {
+        "info": "Corpo a corpo: sempre que um inimigo for movido para a outra fileira, ele sofre 1 de dano.\nLonga distância: sempre que um aliado for movido para outra fileira, é reforçado em 1.\n",
+        "infoRaw": "<keyword=melee>Corpo a corpo</keyword>: sempre que um inimigo for movido para a outra fileira, ele sofre 1 de dano.\n<keyword=ranged>Longa distância</keyword>: sempre que um aliado for movido para outra fileira, é reforçado em 1.\n",
+        "name": "Dol Blathanna: Guarda"
+    },
+    "200040": {
+        "info": "Sempre que um inimigo na fileira oposta sofrer dano, reforça a si mesma em 1.\n",
+        "infoRaw": "Sempre que um inimigo na fileira oposta sofrer dano, reforça a si mesma em 1.\n",
+        "name": "An Craite: Espada"
+    },
+    "200041": {
+        "info": "Imune.\nOrdem: causa 2 de dano a um inimigo por cada soldado nesta fileira.\n",
+        "infoRaw": "<keyword=immune>Imune</keyword>.\n<keyword=order>Ordem</keyword>: causa 2 de dano a um inimigo por cada soldado nesta fileira.\n",
+        "name": "Helge Pesado"
+    },
+    "200042": {
+        "info": "Mobilização: se esta unidade está reforçada, ganha Resiliência.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: se esta unidade está reforçada, ganha <keyword=resilient>Resiliência</keyword>.\n",
+        "name": "Saqueador de Mahakam"
+    },
+    "200043": {
+        "info": "Mobilização: faz surgir 3 dos Amigos de Harald e os invoca na sua outra fileira aliada.\nOrdem: causa 1 de dano a um aliado.\nTempo de espera: 1.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: <keyword=spawn>faz surgir</keyword> 3 dos Amigos de Harald e os <keyword=summon>invoca</keyword> na sua outra fileira aliada.\n<keyword=order>Ordem</keyword>: causa 1 de dano a um aliado.\n<keyword=cooldown>Tempo de espera</keyword>: 1.\n",
+        "name": "Harald Houndsnout"
+    },
+    "200044": {
+        "info": "A cada turno, no fim do turno, reforça a si mesma em 1 se for a única carta nesta fileira.\n",
+        "infoRaw": "A cada turno, no fim do turno, reforça a si mesma em 1 se for a única carta nesta fileira.\n",
+        "name": "Divisão Magne"
+    },
+    "200046": {
+        "info": "Mobilização: causa 4 de dano a si mesma.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 4 de dano a si mesma.\n",
+        "name": "Tuirseach: Veterano"
+    },
+    "200048": {
+        "info": "Mobilização: reforça um aliado em 1 por cada carga que ele possui.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça um aliado em 1 por cada <keyword=charge>carga</keyword> que ele possui.\n",
+        "name": "Tutor de Ban Ard"
+    },
+    "200049": {
+        "info": "Mobilização: se você controla um Soldado, destrói um artefato inimigo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: se você controla um Soldado, destrói um artefato inimigo.\n",
+        "name": "Aríete"
+    },
+    "200050": {
+        "info": "Mobilização: reforça um soldado aliado e todas as cópias dele em 2.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça um soldado aliado e todas as cópias dele em 2.\n",
+        "name": "Vreemde"
+    },
+    "200052": {
+        "info": "Desejo de Morte: seu oponente invoca a unidade de poder mais baixo do baralho dele na fileira oposta.\n",
+        "infoRaw": "<keyword=deathwish>Desejo de Morte</keyword>: seu oponente <keyword=summon>invoca</keyword> a unidade de poder mais baixo do baralho dele na fileira oposta.\n",
+        "name": "Golyat"
+    },
+    "200053": {
+        "info": "Bloqueia uma unidade e a restaura para sua base de poder.\n",
+        "infoRaw": "<keyword=lock>Bloqueia</keyword> uma unidade e a restaura para sua base de poder.\n",
+        "name": "Artefato: Compressão"
+    },
+    "200055": {
+        "info": "Ordem: ativa a habilidade de Desejo de Morte de um aliado.\nNo começo da rodada, restaura essa habilidade.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: ativa a habilidade de <keyword=deathwish>Desejo de Morte</keyword> de um aliado.\nNo começo da rodada, restaura essa habilidade.\n",
+        "name": "Ancião Sonegado"
+    },
+    "200056": {
+        "info": "Mobilização, Longa distância: cria qualquer carta especial.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: <keyword=create>cria</keyword> qualquer carta especial.\n",
+        "name": "Aguara: Forma Real"
+    },
+    "200058": {
+        "info": "Cria e usa uma unidade de ouro.\n",
+        "infoRaw": "<keyword=create>Cria</keyword> e usa uma unidade de ouro.\n",
+        "name": "Maldição de Uma"
+    },
+    "200062": {
+        "info": "Mobilização, Corpo a corpo: bloqueia uma unidade.\nMobilização, Longa distância: remove o bloqueio de uma unidade.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: <keyword=lock>bloqueia</keyword> uma unidade.\n<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: remove o <keyword=lock>bloqueio</keyword> de uma unidade.\n",
+        "name": "Aguara"
+    },
+    "200071": {
+        "info": "Mobilização: define o poder da unidade mais alta na mão do seu oponente para 1.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: define o poder da unidade mais alta na mão do seu oponente para 1.\n",
+        "name": "Shilard Fitz-Oesterlen"
+    },
+    "200073": {
+        "info": "Mobilização: se você controla a unidade mais alta, causa 5 de dano a um inimigo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: se você controla a unidade mais alta, causa 5 de dano a um inimigo.\n",
+        "name": "Adda: Estrige"
+    },
+    "200078": {
+        "info": "Reforça uma unidade até 12 de poder. Se não é um bruxo, causa 6 de dano a ela antes disso.\n",
+        "infoRaw": "Reforça uma unidade até 12 de poder. Se não é um bruxo, causa 6 de dano a ela antes disso.\n",
+        "name": "O Teste das Ervas"
+    },
+    "200079": {
+        "info": "Usa uma unidade da pilha de descarte do oponente e concede Condenado a ela.\n",
+        "infoRaw": "Usa uma unidade da pilha de descarte do oponente e concede <keyword=doomed>Condenado</keyword> a ela.\n",
+        "name": "Sonho Azul"
+    },
+    "200080": {
+        "info": "Corpo a corpo: sempre que esta unidade for reforçada, receberá mais 2 de reforço.\n",
+        "infoRaw": "<keyword=melee>Corpo a corpo</keyword>: sempre que esta unidade for reforçada, receberá mais 2 de reforço.\n",
+        "name": "Xavier Moran"
+    },
+    "200081": {
+        "info": "Mobilização, Longa distância: cura um aliado em 2, depois o reforça em 2.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: <keyword=heal>cura</keyword> um aliado em 2, depois o reforça em 2.\n",
+        "name": "Heymaey: Herbalista"
+    },
+    "200083": {
+        "info": "Mobilização: compra uma carta de sua escolha do seu baralho, depois descarta uma carta aleatória.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: compra uma carta de sua escolha do seu baralho, depois <keyword=discard>descarta</keyword> uma carta aleatória.\n",
+        "name": "Companheiros de Iris"
+    },
+    "200087": {
+        "info": "Mobilização: bloqueia uma unidade.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: <keyword=lock>bloqueia</keyword> uma unidade.\n",
+        "name": "Dorregaray de Vole"
+    },
+    "200088": {
+        "info": "Mobilização: reforça a si mesma pela quantidade de dano que você causou aos inimigos neste turno.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça a si mesma pela quantidade de dano que você causou aos inimigos neste turno.\n",
+        "name": "Hubert Rejk"
+    },
+    "200089": {
+        "info": "Mobilização: move todas as unidades de uma fileira para a outra.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: move todas as unidades de uma fileira para a outra.\n",
+        "name": "Nivellen"
+    },
+    "200091": {
+        "info": "Longa distância: após 2 turnos, cada jogador compra uma unidade e define seu poder para 1.\n",
+        "infoRaw": "<keyword=ranged>Longa distância</keyword>: após 2 turnos, cada jogador compra uma unidade e define seu poder para 1.\n",
+        "name": "Stregobor"
+    },
+    "200098": {
+        "info": "Zelo.\nOrdem, Corpo a corpo: define o poder de um inimigo não reforçado para 1.\n",
+        "infoRaw": "<keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>, <keyword=melee>Corpo a corpo</keyword>: define o poder de um inimigo não reforçado para 1.\n",
+        "name": "Vincent Meis"
+    },
+    "200102": {
+        "info": "Mobilização: troca o poder desta unidade pelo de uma unidade danificada.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: troca o poder desta unidade pelo de uma unidade danificada.\n",
+        "name": "Hym"
+    },
+    "200103": {
+        "info": "Ordem: reforça Olaf com o dobro do dano que ele sofreu.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: reforça Olaf com o dobro do dano que ele sofreu.\n",
+        "name": "Olaf"
+    },
+    "200104": {
+        "info": "Mobilização: causa dano a um inimigo equivalente a metade do poder atual dele.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa dano a um inimigo equivalente a metade do poder atual dele.\n",
+        "name": "Ulfhedinn"
+    },
+    "200105": {
+        "info": "Mobilização: causa 1 de dano a um inimigo três vezes.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 1 de dano a um inimigo três vezes.\n",
+        "name": "Dimun: Navio"
+    },
+    "200112": {
+        "info": "Mobilização: reforça um aliado com Desejo de Morte em 3.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça um aliado com <keyword=deathwish>Desejo de Morte</keyword> em 3.\n",
+        "name": "Sereia"
+    },
+    "200114": {
+        "info": "Imune. Prosperar.\n",
+        "infoRaw": "<keyword=immune>Imune</keyword>. <keyword=thrive>Prosperar</keyword>.\n",
+        "name": "Lobisomem Alfa"
+    },
+    "200115": {
+        "info": "Causa 6 de dano a uma unidade. Reduz o dano em 1 por unidade adjacente a ela.\n",
+        "infoRaw": "Causa 6 de dano a uma unidade. Reduz o dano em 1 por unidade adjacente a ela.\n",
+        "name": "Assassinato"
+    },
+    "200118": {
+        "info": "Corpo a corpo: no fim da rodada, embaralha esta unidade no baralho do oponente.\n",
+        "infoRaw": "<keyword=melee>Corpo a corpo</keyword>: no fim da rodada, embaralha esta unidade no baralho do oponente.\n",
+        "name": "Infiltrador"
+    },
+    "200124": {
+        "info": "Mobilização: revela a carta no topo do baralho do oponente e a bane.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: <keyword=reveal>revela</keyword> a carta no topo do baralho do oponente e a <keyword=banish>bane</keyword>.\n",
+        "name": "Bruxo Víbora"
+    },
+    "200135": {
+        "info": "Zelo.\nOrdem: destrói um artefato aliado e causa 2 de dano a uma unidade.\nTempo de espera: 2.\n",
+        "infoRaw": "<keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>: destrói um artefato aliado e causa 2 de dano a uma unidade.\n<keyword=cooldown>Tempo de espera</keyword>: 2.\n",
+        "name": "Pirotécnico"
+    },
+    "200136": {
+        "info": "Mobilização, Longa distância: revela uma carta aleatória do seu baralho. Se for uma carta especial, reforça a si mesma em 2.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: <keyword=reveal>revela</keyword> uma carta aleatória do seu baralho. Se for uma carta especial, reforça a si mesma em 2.\n",
+        "name": "Vidente"
+    },
+    "200138": {
+        "info": "Sempre que você usar uma carta especial, reforça a si mesma em 2.\n",
+        "infoRaw": "Sempre que você usar uma carta especial, reforça a si mesma em 2.\n",
+        "name": "Sábio"
+    },
+    "200139": {
+        "info": "Mobilização: causa 3 de dano a uma unidade inimiga não Scoia'tael.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 3 de dano a uma unidade inimiga não Scoia'tael.\n",
+        "name": "Pantera"
+    },
+    "200144": {
+        "info": "Mobilização: reforça uma fera aliada em 2. Aumenta o reforço em 1 por cada fera na sua pilha de descarte.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça uma fera aliada em 2. Aumenta o reforço em 1 por cada fera na sua pilha de descarte.\n",
+        "name": "Tuirseach: Domador"
+    },
+    "200145": {
+        "info": "Mobilização: causa 1 de dano por navio na sua mão.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 1 de dano por navio na sua mão.\n",
+        "name": "Dimun: Corsário"
+    },
+    "200146": {
+        "info": "Mobilização, Corpo a corpo: causa 1 de dano a uma unidade, depois a reforça em 2.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: causa 1 de dano a uma unidade, depois a reforça em 2.\n",
+        "name": "Dimun: Contrabando"
+    },
+    "200147": {
+        "info": "A cada turno, no fim do turno, cura todos os aliados danificados nesta fileira em 1.\n",
+        "infoRaw": "A cada turno, no fim do turno, <keyword=heal>cura</keyword> todos os aliados danificados nesta fileira em 1.\n",
+        "name": "Heymaey: Flaminique"
+    },
+    "200149": {
+        "info": "Sempre que uma unidade adjacente sofre dano, reforça a si mesma em 1.\n",
+        "infoRaw": "Sempre que uma unidade adjacente sofre dano, reforça a si mesma em 1.\n",
+        "name": "Heymaey: Protetor"
+    },
+    "200154": {
+        "info": "Usa uma unidade do seu baralho.\n",
+        "infoRaw": "Usa uma unidade do seu baralho.\n",
+        "name": "Decreto Real"
+    },
+    "200159": {
+        "info": "Ordem: descarta uma carta, depois compra uma carta.\nNo começo da rodada, restaura esta habilidade.\nSempre que você descarta uma carta, causa 1 de dano a um inimigo aleatório.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: <keyword=discard>descarta</keyword> uma carta, depois compra uma carta.\nNo começo da rodada, restaura esta habilidade.\nSempre que você <keyword=discard>descarta</keyword> uma carta, causa 1 de dano a um inimigo aleatório.\n",
+        "name": "Bran Tuirseach"
+    },
+    "200160": {
+        "info": "Ordem: causa 1 de dano a uma unidade. \nTempo de espera: 2.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: causa 1 de dano a uma unidade. \n<keyword=cooldown>Tempo de espera</keyword>: 2.\n",
+        "name": "Crach an Craite"
+    },
+    "200161": {
+        "info": "Ordem: divide 8 de dano aleatoriamente entre todos os inimigos.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: divide 8 de dano aleatoriamente entre todos os inimigos.\n",
+        "name": "Harald, o Aleijado"
+    },
+    "200162": {
+        "info": "Ordem: move uma carta do campo de batalha para a sua mão, depois usa uma carta.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: move uma carta do campo de batalha para a sua mão, depois usa uma carta.\n",
+        "name": "Emhyr var Emreis"
+    },
+    "200163": {
+        "info": "Ordem: revela uma carta aleatória do baralho do seu oponente. Se ela for de bronze, reforça um aliado em 3. Se for de ouro, reforça em 4.\nNo começo da rodada, restaura esta habilidade.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: <keyword=reveal>revela</keyword> uma carta aleatória do baralho do seu oponente. Se ela for de bronze, reforça um aliado em 3. Se for de ouro, reforça em 4.\nNo começo da rodada, restaura esta habilidade.\n",
+        "name": "Morvran Voorhis"
+    },
+    "200164": {
+        "info": "Ordem: olha 3 cartas do topo do seu baralho e usa uma.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: olha 3 cartas do topo do seu baralho e usa uma.\n",
+        "name": "Jan Calveit"
+    },
+    "200165": {
+        "info": "Ordem: usa uma carta especial da sua pilha de descarte.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: usa uma carta especial da sua pilha de descarte.\n",
+        "name": "Francesca Findabair"
+    },
+    "200166": {
+        "info": "Ordem: causa 1 de dano a uma unidade.\nCarga: 3.\nNo início da rodada, restaura a contagem de cargas de Eithné.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: causa 1 de dano a uma unidade.\n<keyword=charge>Carga</keyword>: 3.\nNo início da rodada, restaura a contagem de <keyword=charge>cargas</keyword> de Eithné.\n",
+        "name": "Eithné"
+    },
+    "200167": {
+        "info": "Ordem: move uma unidade para a outra fileira. Se for um inimigo, causa 2 de dano a ele",
+        "infoRaw": "<keyword=order>Ordem</keyword>: move uma unidade para a outra fileira. Se for um inimigo, causa 2 de dano a ele",
+        "name": "Brouver Hoog"
+    },
+    "200168": {
+        "info": "Ordem: reforça um aliado em 1 e concede Zelo a ele.\nCarga: 3.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: reforça um aliado em 1 e concede <keyword=zeal>Zelo</keyword> a ele.\n<keyword=charge>Carga</keyword>: 3.\n",
+        "name": "Rei Foltest"
+    },
+    "200170": {
+        "info": "Ordem: usa uma cópia de uma unidade aliada do seu baralho no campo de batalha, reforça-a em 4 e concede Zelo a ela.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: usa uma cópia de uma unidade aliada do seu baralho no campo de batalha, reforça-a em 4 e concede <keyword=zeal>Zelo</keyword> a ela.\n",
+        "name": "Rei Henselt"
+    },
+    "200171": {
+        "info": "Sempre que esta unidade é reforçada, causa 1 de dano a um inimigo aleatório.\n",
+        "infoRaw": "Sempre que esta unidade é reforçada, causa 1 de dano a um inimigo aleatório.\n",
+        "name": "Infantaria de Tridam"
+    },
+    "200177": {
+        "info": "Se estiver na pilha de descarte, esta unidade é invocada para uma fileira aliada aleatória quando você usa uma unidade da sua pilha de descarte.\n",
+        "infoRaw": "Se estiver na pilha de descarte, esta unidade é <keyword=summon>invocada</keyword> para uma fileira aliada aleatória quando você usa uma unidade da sua pilha de descarte.\n",
+        "name": "Cerys an Craite"
+    },
+    "200209": {
+        "info": "Ordem: causa 2 de dano a um inimigo.\nTempo de espera: 4.\nSe você tem um elfo, anão ou dríade na sua mão, reduz o tempo de espera em 1 (limitado a uma vez por categoria).\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: causa 2 de dano a um inimigo.\n<keyword=cooldown>Tempo de espera</keyword>: 4.\nSe você tem um elfo, anão ou dríade na sua mão, reduz o <keyword=cooldown>tempo de espera</keyword> em 1 (limitado a uma vez por categoria).\n",
+        "name": "Saskia"
+    },
+    "200212": {
+        "info": "Mobilização: causa 4 de dano a um inimigo não danificado.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 4 de dano a um inimigo não danificado.\n",
+        "name": "Skjall"
+    },
+    "200218": {
+        "info": "Mobilização, Corpo a corpo: reforça a si mesma em 2 por cada unidade a mais que seu oponente tem no campo de batalha.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: reforça a si mesma em 2 por cada unidade a mais que seu oponente tem no campo de batalha.\n",
+        "name": "Jotunn"
+    },
+    "200220": {
+        "info": "Mobilização, Longa distância: usa uma carta orgânica do seu baralho.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: usa uma carta orgânica do seu baralho.\n",
+        "name": "Sibilante: Tributo"
+    },
+    "200221": {
+        "info": "Ativa as habilidades de Desejo de Morte de todos os aliados.\n",
+        "infoRaw": "Ativa as habilidades de <keyword=deathwish>Desejo de Morte</keyword> de todos os aliados.\n",
+        "name": "Sacrifício Ritual"
+    },
+    "200222": {
+        "info": "Mobilização, Corpo a corpo: consome uma unidade na sua mão e compra uma carta.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: <keyword=consume>consome</keyword> uma unidade na sua mão e compra uma carta.\n",
+        "name": "Tecelã: Encantamento"
+    },
+    "200223": {
+        "info": "Redefine uma unidade.\n",
+        "infoRaw": "<keyword=reset>Redefine</keyword> uma unidade.\n",
+        "name": "Mandrágora"
+    },
+    "200224": {
+        "info": "Ativa a habilidade de Desejo de Morte de uma unidade de bronze.\n",
+        "infoRaw": "Ativa a habilidade de <keyword=deathwish>Desejo de Morte</keyword> de uma unidade de bronze.\n",
+        "name": "Olho de Corvo"
+    },
+    "200225": {
+        "info": "Toma um inimigo com 5 de poder ou menos e o bloqueia.\n",
+        "infoRaw": "<keyword=seize>Toma</keyword> um inimigo com 5 de poder ou menos e o <keyword=lock>bloqueia</keyword>.\n",
+        "name": "Mordaça de Vigo"
+    },
+    "200226": {
+        "info": "Causa 2 de dano a todos os inimigos com poder par, ou causa 2 de dano a todos os inimigos com poder ímpar.\n",
+        "infoRaw": "Causa 2 de dano a todos os inimigos com poder par, ou causa 2 de dano a todos os inimigos com poder ímpar.\n",
+        "name": "Acônito"
+    },
+    "200228": {
+        "info": "Emboscada: destrói a próxima unidade usada por seu oponente antes que qualquer habilidade seja ativada.\n",
+        "infoRaw": "<keyword=ambush>Emboscada</keyword>: destrói a próxima unidade usada por seu oponente antes que qualquer habilidade seja ativada.\n",
+        "name": "Armadilha de Alçapão"
+    },
+    "200233": {
+        "info": "Mobilização: causa 2 de dano a um inimigo por cada Fera adjacente.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 2 de dano a um inimigo por cada Fera adjacente.\n",
+        "name": "Cocatriz"
+    },
+    "200234": {
+        "info": "Mobilização: reforça a si mesma em 4.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça a si mesma em 4.\n",
+        "name": "Pobre Fodida Infantaria"
+    },
+    "200235": {
+        "info": "Mobilização: destrói um inimigo com Resiliência.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: destrói um inimigo com <keyword=resilient>Resiliência</keyword>.\n",
+        "name": "Lambert: Espadachim"
+    },
+    "200236": {
+        "info": "Corpo a corpo: a cada turno, no fim do turno, reforça a si mesma em 1.\n",
+        "infoRaw": "<keyword=melee>Corpo a corpo</keyword>: a cada turno, no fim do turno, reforça a si mesma em 1.\n",
+        "name": "Eskel: Desbravador"
+    },
+    "200237": {
+        "info": "Mobilização: reforça todos os bruxos aliados na mão, no baralho ou no campo de batalha em 1.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça todos os bruxos aliados na mão, no baralho ou no campo de batalha em 1.\n",
+        "name": "Vesemir: Mentor"
+    },
+    "200293": {
+        "info": "Mobilização, Longa distância: reforça um anão na sua mão em 2.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: reforça um anão na sua mão em 2.\n",
+        "name": "Anão Agitador"
+    },
+    "200294": {
+        "info": "Mobilização: reforça um aliado em 2.\nSempre que você revela esta carta, reforça um aliado aleatório em 2.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça um aliado em 2.\nSempre que você <keyword=reveal>revela</keyword> esta carta, reforça um aliado aleatório em 2.\n",
+        "name": "Porta-Estandarte"
+    },
+    "200295": {
+        "info": "Desejo de Morte: causa 4 de dano a um inimigo aleatório.\n",
+        "infoRaw": "<keyword=deathwish>Desejo de Morte</keyword>: causa 4 de dano a um inimigo aleatório.\n",
+        "name": "Necroso"
+    },
+    "200296": {
+        "info": "Mobilização, Corpo a corpo: bloqueia uma unidade inimiga.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: <keyword=lock>bloqueia</keyword> uma unidade inimiga.\n",
+        "name": "Cavalaria Alba"
+    },
+    "200299": {
+        "info": "Ordem: reforça um aliado em 1 e concede zelo a ele.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: reforça um aliado em 1 e concede <keyword=zeal>zelo</keyword> a ele.\n",
+        "name": "Teméria: Tambor"
+    },
+    "200300": {
+        "info": "Move um inimigo para a outra fileira e causa dano no valor de unidades nesta fileira.\n",
+        "infoRaw": "Move um inimigo para a outra fileira e causa dano no valor de unidades nesta fileira.\n",
+        "name": "Troféu de Pesca"
+    },
+    "200301": {
+        "info": "Olha 2 cartas de ouro aleatórias do seu baralho, depois usa uma e coloca a outra no topo.\n",
+        "infoRaw": "Olha 2 cartas de ouro aleatórias do seu baralho, depois usa uma e coloca a outra no topo.\n",
+        "name": "Naglfar"
+    },
+    "200320": {
+        "info": "Sem habilidade.\n",
+        "infoRaw": "Sem habilidade.\n",
+        "name": "Chorabash"
+    },
+    "200502": {
+        "info": "A cada turno, no fim do turno, se você tem menos unidades do que o seu oponente, reforça a si mesma em 1.\n",
+        "infoRaw": "A cada turno, no fim do turno, se você tem menos unidades do que o seu oponente, reforça a si mesma em 1.\n",
+        "name": "Troll do Gelo"
+    },
+    "200518": {
+        "info": "Mobilização: se a habilidade do seu líder foi usada neste turno, causa 3 de dano a um inimigo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: se a habilidade do seu líder foi usada neste turno, causa 3 de dano a um inimigo.\n",
+        "name": "Elite de Venendal"
+    },
+    "200519": {
+        "info": "Reforça uma unidade em 4 e remove seu bloqueio.\n",
+        "infoRaw": "Reforça uma unidade em 4 e remove seu <keyword=lock>bloqueio</keyword>.\n",
+        "name": "Cerveja de Mahakam"
+    },
+    "200520": {
+        "info": "Ordem: usa um artefato de bronze da sua pilha de descarte.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: usa um artefato de bronze da sua pilha de descarte.\n",
+        "name": "Éibhear Hattori"
+    },
+    "200523": {
+        "info": "Mobilização, Corpo a corpo: faz surgir 2 Vacas nos dois lados desta unidade.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: <keyword=spawn>faz surgir</keyword> 2 Vacas nos dois lados desta unidade.\n",
+        "name": "Germain Piquant"
+    },
+    "200528": {
+        "info": "Mobilização: causa 3 de dano a um inimigo, depois causa 2 de dano a si mesma.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 3 de dano a um inimigo, depois causa 2 de dano a si mesma.\n",
+        "name": "Heymaey: Lanceira"
+    },
+    "200529": {
+        "info": "Mobilização: reforça a si mesma em 5.\nSempre que você usa um soldado, invoca esta unidade da sua pilha de descarte para uma fileira aliada aleatória.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça a si mesma em 5.\nSempre que você usa um soldado, <keyword=summon>invoca</keyword> esta unidade da sua pilha de descarte para uma fileira aliada aleatória.\n",
+        "name": "Ronvid, o Incessante"
+    },
+    "200530": {
+        "info": "Zelo.\nOrdem: causa 2 de dano a uma unidade.\nCarga: 3.\n",
+        "infoRaw": "<keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>: causa 2 de dano a uma unidade.\n<keyword=charge>Carga</keyword>: 3.\n",
+        "name": "Cerveja Estragada"
+    },
+    "200532": {
+        "info": "Zelo.\nOrdem: reforça uma unidade em 3. \nTempo de espera: 2.\n",
+        "infoRaw": "<keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>: reforça uma unidade em 3. \n<keyword=cooldown>Tempo de espera</keyword>: 2.\n",
+        "name": "Breja dos Ancestrais"
+    },
+    "200534": {
+        "info": "Corpo a corpo: sempre que um aliado for destruído durante seu turno, reforça a si mesma em 2.\n",
+        "infoRaw": "<keyword=melee>Corpo a corpo</keyword>: sempre que um aliado for destruído durante seu turno, reforça a si mesma em 2.\n",
+        "name": "Dona Troll de Vergen"
+    },
+    "200535": {
+        "info": "Ordem, Corpo a corpo: causa 1 de dano a um inimigo.\nTempo de espera: 2.\nSempre que você usar um elfo, diminui o tempo de espera em 1.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>, <keyword=melee>Corpo a corpo</keyword>: causa 1 de dano a um inimigo.\n<keyword=cooldown>Tempo de espera</keyword>: 2.\nSempre que você usar um elfo, diminui o <keyword=cooldown>tempo de espera</keyword> em 1.\n",
+        "name": "Espadachim Elfo"
+    },
+    "200539": {
+        "info": "Ordem: consome uma unidade aliada nesta fileira.\nTempo de espera: 1.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: <keyword=consume>consome</keyword> uma unidade aliada nesta fileira.\n<keyword=cooldown>Tempo de espera</keyword>: 1.\n",
+        "name": "Lagaz"
+    },
+    "200540": {
+        "info": "Ordem: causa 4 de dano a um inimigo.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: causa 4 de dano a um inimigo.\n",
+        "name": "Destruidor de Aedirn"
+    },
+    "201523": {
+        "info": "Mobilização: restaura todas as unidades em uma fileira para sua base de poder.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: restaura todas as unidades em uma fileira para sua base de poder.\n",
+        "name": "Geralt: Yrden"
+    },
+    "201559": {
+        "info": "Mobilização, Corpo a corpo: se há um anão nesta fileira, invoca uma cópia desta unidade do seu baralho para esta fileira.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: se há um anão nesta fileira, <keyword=summon>invoca</keyword> uma cópia desta unidade do seu baralho para esta fileira.\n",
+        "name": "Recrutas de Mahakam"
+    },
+    "201574": {
+        "info": "Desejo de Morte: causa 2 de dano a uma unidade inimiga aleatória.\n",
+        "infoRaw": "<keyword=deathwish>Desejo de Morte</keyword>: causa 2 de dano a uma unidade inimiga aleatória.\n",
+        "name": "Amigo de Harald"
+    },
+    "201576": {
+        "info": "Condenado.\n",
+        "infoRaw": "<keyword=doomed>Condenado</keyword>.\n",
+        "name": "Vaca"
+    },
+    "201578": {
+        "info": "Mobilização, Corpo a corpo: divide 4 de dano aleatoriamente entre todas as unidades.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: divide 4 de dano aleatoriamente entre todas as unidades.\n",
+        "name": "An Craite: Saqueador"
+    },
+    "201579": {
+        "info": "No começo da rodada, se Fênix está na sua pilha de descarte, bane-a, faz surgir Filhote de Fênix e a invoca para uma fileira aliada aleatória.\n",
+        "infoRaw": "No começo da rodada, se Fênix está na sua pilha de descarte, <keyword=banish>bane-a</keyword>, <keyword=spawn>faz surgir</keyword> Filhote de Fênix e a <keyword=summon>invoca</keyword> para uma fileira aliada aleatória.\n",
+        "name": "Fênix"
+    },
+    "201580": {
+        "info": "No começo da partida, desativa o líder inimigo por toda a duração da batalha.\n",
+        "infoRaw": "No começo da partida, desativa o líder inimigo por toda a duração da batalha.\n",
+        "name": "Usurpador"
+    },
+    "201581": {
+        "info": "Cria e usa uma carta Skellige de bronze.\n",
+        "infoRaw": "<keyword=create>Cria</keyword> e usa uma carta Skellige de bronze.\n",
+        "name": "Pedra rúnica Stribog"
+    },
+    "201582": {
+        "info": "Cria e usa uma carta dos Reinos do Norte de bronze.\n",
+        "infoRaw": "<keyword=create>Cria</keyword> e usa uma carta dos Reinos do Norte de bronze.\n",
+        "name": "Pedra rúnica Zoria"
+    },
+    "201583": {
+        "info": "Cria e usa uma carta de Nilfgaard de bronze.\n",
+        "infoRaw": "<keyword=create>Cria</keyword> e usa uma carta de Nilfgaard de bronze.\n",
+        "name": "Pedra rúnica Dazhbog"
+    },
+    "201584": {
+        "info": "Cria e usa uma carta da facção Monstros de bronze.\n",
+        "infoRaw": "<keyword=create>Cria</keyword> e usa uma carta da facção Monstros de bronze.\n",
+        "name": "Pedra rúnica Devana"
+    },
+    "201585": {
+        "info": "Cria e usa uma carta Scoia'tael de bronze.\n",
+        "infoRaw": "<keyword=create>Cria</keyword> e usa uma carta Scoia'tael de bronze.\n",
+        "name": "Pedra rúnica Morana"
+    },
+    "201587": {
+        "info": "Destrói uma unidade aliada, depois faz surgir e usa uma cópia básica dela.\n",
+        "infoRaw": "Destrói uma unidade aliada, depois <keyword=spawn>faz surgir</keyword> e usa uma cópia básica dela.\n",
+        "name": "Colina Sussurrante"
+    },
+    "201589": {
+        "info": "Ordem: reforça todas as unidades na sua mão em 1.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: reforça todas as unidades na sua mão em 1.\n",
+        "name": "Filavandrel"
+    },
+    "201595": {
+        "info": "Ordem: causa 8 de dano a uma unidade.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: causa 8 de dano a uma unidade.\n",
+        "name": "Princesa Adda"
+    },
+    "201597": {
+        "info": "Ordem: usa um guerreiro da sua pilha de descarte.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: usa um guerreiro da sua pilha de descarte.\n",
+        "name": "Eist Tuirseach"
+    },
+    "201598": {
+        "info": "Reforça todos os aliados em 1.\n",
+        "infoRaw": "Reforça todos os aliados em 1.\n",
+        "name": "Talismã de Osso"
+    },
+    "201599": {
+        "info": "Prosperar.\nMobilização: causa 1 de dano a todas as unidades inimigas na fileira oposta.\nDesejo de Morte: repete a habilidade de Mobilização.\n",
+        "infoRaw": "<keyword=thrive>Prosperar</keyword>.\n<keyword=deploy>Mobilização</keyword>: causa 1 de dano a todas as unidades inimigas na fileira oposta.\n<keyword=deathwish>Desejo de Morte</keyword>: repete a habilidade de <keyword=deploy>Mobilização</keyword>.\n",
+        "name": "Felinomem"
+    },
+    "201600": {
+        "info": "Imune\n",
+        "infoRaw": "<keyword=immune>Imune</keyword>\n",
+        "name": "Lobisomem"
+    },
+    "201601": {
+        "info": "Escolha qualquer unidade ou artefato no campo de batalha e o coloque no topo do baralho de seu dono.\n",
+        "infoRaw": "Escolha qualquer unidade ou artefato no campo de batalha e o coloque no topo do baralho de seu dono.\n",
+        "name": "Invocação de Yennefer"
+    },
+    "201603": {
+        "info": "Mobilização: transforma-se em uma cópia de outra unidade no campo de batalha sem alterar seu poder.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: transforma-se em uma cópia de outra unidade no campo de batalha sem alterar seu poder.\n",
+        "name": "Letho: Regicida"
+    },
+    "201606": {
+        "info": "Mobilização: causa 1 de dano a todas as outras unidades.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 1 de dano a todas as outras unidades.\n",
+        "name": "Tordo"
+    },
+    "201609": {
+        "info": "Mobilização: se há 4 unidades na fileira oposta ou mais, toma o inimigo mais baixo na fileira em questão.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: se há 4 unidades na fileira oposta ou mais, <keyword=seize>toma</keyword> o inimigo mais baixo na fileira em questão.\n",
+        "name": "Caçador de escravos"
+    },
+    "201610": {
+        "info": "Mobilização: transforma uma unidade aliada em Infantaria Escrava.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: transforma uma unidade aliada em Infantaria Escrava.\n",
+        "name": "Infantaria Escrava"
+    },
+    "201611": {
+        "info": "Se você tem 4 armadilhas ou mais no seu baralho inicial, usa duas delas aleatoriamente.\n",
+        "infoRaw": "Se você tem 4 armadilhas ou mais no seu baralho inicial, usa duas delas aleatoriamente.\n",
+        "name": "Aposta de Iorveth"
+    },
+    "201612": {
+        "info": "Mobilização: causa 2 de dano a um inimigo. Aumenta o dano em 1 por cada unidade bloqueada.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 2 de dano a um inimigo. Aumenta o dano em 1 por cada unidade <keyword=lock>bloqueada</keyword>.\n",
+        "name": "Escravagista"
+    },
+    "201613": {
+        "info": "Ordem: causa 1 de dano a um inimigo.\nCarga: 5.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: causa 1 de dano a um inimigo.\n<keyword=charge>Carga</keyword>: 5.\n",
+        "name": "Saesenthessis: Fogo"
+    },
+    "201615": {
+        "info": "Olha um anão, uma dríade e um elfo aleatórios do seu baralho, depois usa um.\n",
+        "infoRaw": "Olha um anão, uma dríade e um elfo aleatórios do seu baralho, depois usa um.\n",
+        "name": "Conselho de Isengrim"
+    },
+    "201616": {
+        "info": "Ordem: troca o poder desta unidade pelo de um inimigo.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: troca o poder desta unidade pelo de um inimigo.\n",
+        "name": "Mestre do disfarce"
+    },
+    "201617": {
+        "info": "Mobilização: revela uma unidade aleatória de ambos os baralhos. Se o poder da sua for maior, reforça a si mesma em 2.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: <keyword=reveal>revela</keyword> uma unidade aleatória de ambos os baralhos. Se o poder da sua for maior, reforça a si mesma em 2.\n",
+        "name": "Recrutar"
+    },
+    "201618": {
+        "info": "Ordem, Corpo a corpo: duela contra uma unidade inimiga.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>, <keyword=melee>Corpo a corpo</keyword>: <keyword=duel>duela</keyword> contra uma unidade inimiga.\n",
+        "name": "Seltkirk de Gulet"
+    },
+    "201619": {
+        "info": "Reforça um soldado de bronze em 2 e repete sua habilidade de Mobilização.\n",
+        "infoRaw": "Reforça um soldado de bronze em 2 e repete sua habilidade de <keyword=deploy>Mobilização</keyword>.\n",
+        "name": "Unguento"
+    },
+    "201620": {
+        "info": "Ordem, Corpo a corpo: causa 1 de dano a uma unidade.\nTempo de espera: 1.\nSe você controla Lâmina de Vandergrift, causa 2 de dano em vez disso.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>, <keyword=melee>Corpo a corpo</keyword>: causa 1 de dano a uma unidade.\n<keyword=cooldown>Tempo de espera</keyword>: 1.\nSe você controla Lâmina de Vandergrift, causa 2 de dano em vez disso.\n",
+        "name": "Vandergrift"
+    },
+    "201621": {
+        "info": "Ordem: causa dano a uma unidade equivalente à contagem de cargas de Kiyan.\nCarga: 1.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: causa dano a uma unidade equivalente à contagem de <keyword=charge>cargas</keyword> de Kiyan.\n<keyword=charge>Carga</keyword>: 1.\n",
+        "name": "Kiyan"
+    },
+    "201622": {
+        "info": "Mobilização: se usada do baralho, reforça a si mesma em 4.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: se usada do baralho, reforça a si mesma em 4.\n",
+        "name": "Kaedwen: Cavaleiro"
+    },
+    "201623": {
+        "info": "Mobilização, Corpo a corpo: reforça a si mesma em 1 por unidade danificada.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: reforça a si mesma em 1 por unidade danificada.\n",
+        "name": "Javali Gigante"
+    },
+    "201624": {
+        "info": "Ordem: causa 1 de dano a uma unidade. Se ela for destruída, faz surgir uma cópia básica de Kaedwen: Regressário e a invoca para esta fileira.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: causa 1 de dano a uma unidade. Se ela for destruída, <keyword=spawn>faz surgir</keyword> uma cópia básica de Kaedwen: Regressário e a <keyword=summon>invoca</keyword> para esta fileira.\n",
+        "name": "Kaedwen: Regressário"
+    },
+    "201625": {
+        "info": "Mobilização: transforma uma unidade aliada, exceto Cavaleiro Maldito, em um Cavaleiro Maldito sem mudar seu poder.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: transforma uma unidade aliada, exceto Cavaleiro Maldito, em um Cavaleiro Maldito sem mudar seu poder.\n",
+        "name": "Cavaleiro Maldito"
+    },
+    "201626": {
+        "info": "No começo do turno, se esta unidade for a única na sua pilha de descarte, invoca-a para uma fileira aliada aleatória.\n",
+        "infoRaw": "No começo do turno, se esta unidade for a única na sua pilha de descarte, <keyword=summon>invoca-a</keyword> para uma fileira aliada aleatória.\n",
+        "name": "Ciri: Nova"
+    },
+    "201627": {
+        "info": "Condenado.\nSe seu baralho inicial não tiver repetidas, envie Lojø em uma aventura.\n",
+        "infoRaw": "<keyword=doomed>Condenado</keyword>.\nSe seu baralho inicial não tiver repetidas, envie Lojø em uma aventura.\n",
+        "name": "Folga do Lojø"
+    },
+    "201628": {
+        "info": "Causa 1 de dano a um inimigo por cada espectro aliado.\n",
+        "infoRaw": "Causa 1 de dano a um inimigo por cada espectro aliado.\n",
+        "name": "Magia Proibida"
+    },
+    "201630": {
+        "info": "Mobilização: causa 3 de dano a um inimigo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 3 de dano a um inimigo.\n",
+        "name": "Feiticeira Condenada"
+    },
+    "201631": {
+        "info": "Mobilização: escolhe uma unidade na sua mão, depois reforça a si mesma em um valor equivalente ao número total de unidades na sua mão com a mesma categoria primária da unidade escolhida.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: escolhe uma unidade na sua mão, depois reforça a si mesma em um valor equivalente ao número total de unidades na sua mão com a mesma categoria primária da unidade escolhida.\n",
+        "name": "Dúplice"
+    },
+    "201632": {
+        "info": "Zelo.\nOrdem: causa 1 de dano a um inimigo.\nTempo de espera: 1.\nSempre que Sihil destruir um inimigo, aumenta o dano de Ordem de Sihil em 1 até ser removido do campo de batalha.\n",
+        "infoRaw": "<keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>: causa 1 de dano a um inimigo.\n<keyword=cooldown>Tempo de espera</keyword>: 1.\nSempre que Sihil destruir um inimigo, aumenta o dano de <keyword=order>Ordem</keyword> de Sihil em 1 até ser removido do campo de batalha.\n",
+        "name": "Sihil"
+    },
+    "201633": {
+        "info": "Zelo.\nOrdem: causa dano a um inimigo equivalente à contagem de cargas do Mangual Sangrento, depois remove todas as cargas.\nCarga: 1.\nQuando uma unidade aliada ganha cargas, recebe a mesma quantidade.\n",
+        "infoRaw": "<keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>: causa dano a um inimigo equivalente à contagem de <keyword=charge>cargas</keyword> do Mangual Sangrento, depois remove todas as <keyword=charge>cargas</keyword>.\n<keyword=charge>Carga</keyword>: 1.\nQuando uma unidade aliada ganha <keyword=charge>cargas</keyword>, recebe a mesma quantidade.\n",
+        "name": "Mangual Sangrento"
+    },
+    "201634": {
+        "info": "Causa 8 de dano a uma unidade.\n",
+        "infoRaw": "Causa 8 de dano a uma unidade.\n",
+        "name": "Avalanche de Bekker"
+    },
+    "201635": {
+        "info": "Destrói a unidade com a base de poder mais alta.\n",
+        "infoRaw": "Destrói a unidade com a base de poder mais alta.\n",
+        "name": "Caçada Gloriosa"
+    },
+    "201636": {
+        "info": "Mobilização: causa 1 de dano a um inimigo por cada artefato que você controla.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 1 de dano a um inimigo por cada artefato que você controla.\n",
+        "name": "Caçador Meio-elfo"
+    },
+    "201637": {
+        "info": "Aplica este efeito de fileira a uma fileira inimiga:\nApós 3 turnos, no começo do turno, explode e causa 3 de dano a todas as unidades nesta fileira.\n",
+        "infoRaw": "Aplica este efeito de fileira a uma fileira inimiga:\nApós 3 turnos, no começo do turno, explode e causa 3 de dano a todas as unidades nesta fileira.\n",
+        "name": "Sonho do Dragão"
+    },
+    "201638": {
+        "info": "Sempre que uma armadilha aliada é ativada, reforça a si mesma em 2.\n",
+        "infoRaw": "Sempre que uma armadilha aliada é ativada, reforça a si mesma em 2.\n",
+        "name": "Batedor élfico"
+    },
+    "201639": {
+        "info": "Reforça uma unidade em 10.\n",
+        "infoRaw": "Reforça uma unidade em 10.\n",
+        "name": "Guarnição"
+    },
+    "201644": {
+        "info": "Ordem: cura um aliado em 1.\nCarga: 1.\nGanha 1 de carga sempre que uma unidade adjacente sofre dano.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: <keyword=heal>cura</keyword> um aliado em 1.\n<keyword=charge>Carga</keyword>: 1.\nGanha 1 de <keyword=charge>carga</keyword> sempre que uma unidade adjacente sofre dano.\n",
+        "name": "Yoana"
+    },
+    "201645": {
+        "info": "Emboscada: após 3 turnos, no começo do turno, causa 2 de dano a todas as unidades na fileira inimiga com mais unidades.\nZelo.\nOrdem: vira para cima e causa 1 de dano a todas as unidades em uma fileira.\n",
+        "infoRaw": "<keyword=ambush>Emboscada</keyword>: após 3 turnos, no começo do turno, causa 2 de dano a todas as unidades na fileira inimiga com mais unidades.\n<keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>: vira para cima e causa 1 de dano a todas as unidades em uma fileira.\n",
+        "name": "Armadilha Esmagadora"
+    },
+    "201646": {
+        "info": "Mobilização, Longa distância: move até 3 cartas do seu baralho para a sua pilha de descarte.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: move até 3 cartas do seu baralho para a sua pilha de descarte.\n",
+        "name": "Derran"
+    },
+    "201647": {
+        "info": "Causa 4 de dano a um inimigo e move ele para a outra fileira.\n",
+        "infoRaw": "Causa 4 de dano a um inimigo e move ele para a outra fileira.\n",
+        "name": "Barreira de pedra"
+    },
+    "201648": {
+        "info": "Sempre que você usa um soldado nesta fileira, reforça-o em 2.\n",
+        "infoRaw": "Sempre que você usa um soldado nesta fileira, reforça-o em 2.\n",
+        "name": "Vandergrift: Lâmina"
+    },
+    "201650": {
+        "info": "Causa 1 de dano a todas as unidades, exceto espectros. Se alguma for destruída, repete esta habilidade uma vez.\n",
+        "infoRaw": "Causa 1 de dano a todas as unidades, exceto espectros. Se alguma for destruída, repete esta habilidade uma vez.\n",
+        "name": "Inferno de Sabrina"
+    },
+    "201653": {
+        "info": "Emboscada: quando seu oponente passa, reforça as unidades adjacentes em 4.\n",
+        "infoRaw": "<keyword=ambush>Emboscada</keyword>: quando seu oponente passa, reforça as unidades adjacentes em 4.\n",
+        "name": "Chifre de Mahakam"
+    },
+    "201656": {
+        "info": "Zelo.\nOrdem: causa 1 de dano a uma unidade.\nTempo de espera: 1.\n",
+        "infoRaw": "<keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>: causa 1 de dano a uma unidade.\n<keyword=cooldown>Tempo de espera</keyword>: 1.\n",
+        "name": "Lança obra-prima"
+    },
+    "201657": {
+        "info": "Causa 6 de dano a um inimigo ou reforça um aliado em 6.\n",
+        "infoRaw": "Causa 6 de dano a um inimigo ou reforça um aliado em 6.\n",
+        "name": "Parasita"
+    },
+    "201659": {
+        "info": "Usa uma máquina de bronze da sua pilha de descarte.\n",
+        "infoRaw": "Usa uma máquina de bronze da sua pilha de descarte.\n",
+        "name": "Guincho"
+    },
+    "201660": {
+        "info": "Desejo de Morte: no fim do turno, invoca esta unidade da sua pilha de descarte para uma fileira aliada aleatória.\n",
+        "infoRaw": "<keyword=deathwish>Desejo de Morte</keyword>: no fim do turno, <keyword=summon>invoca</keyword> esta unidade da sua pilha de descarte para uma fileira aliada aleatória.\n",
+        "name": "Ruehin"
+    },
+    "201662": {
+        "info": "Zelo.\nOrdem: destrói a si mesma e todas as unidades com poder igual à contagem de cargas de Cadaverina.\nCarga: 0.\nA cada turno, no começo do turno e sempre que você usa uma tática, ganha 1 de carga.\n",
+        "infoRaw": "<keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>: destrói a si mesma e todas as unidades com poder igual à contagem de <keyword=charge>cargas</keyword> de Cadaverina.\n<keyword=charge>Carga</keyword>: 0.\nA cada turno, no começo do turno e sempre que você usa uma tática, ganha 1 de <keyword=charge>carga</keyword>.\n",
+        "name": "Cadaverina"
+    },
+    "201664": {
+        "info": "Mobilização: ativa as habilidades de Mobilização dos soldados de bronze adjacentes.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: ativa as habilidades de <keyword=deploy>Mobilização</keyword> dos soldados de bronze adjacentes.\n",
+        "name": "Vrygheff"
+    },
+    "201676": {
+        "info": "Ordem: causa 1 de dano a uma unidade. \nTempo de espera: 1.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: causa 1 de dano a uma unidade. \n<keyword=cooldown>Tempo de espera</keyword>: 1.\n",
+        "name": "Pavko Gale"
+    },
+    "201696": {
+        "info": "Ordem: reforça a unidade da esquerda em 4, ou concede imune à da direita.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: reforça a unidade da esquerda em 4, ou concede <keyword=immune>imune</keyword> à da direita.\n",
+        "name": "Paulie Dahlberg"
+    },
+    "201697": {
+        "info": "Na próxima vez em que um inimigo for reforçado, destrói esta unidade e a si mesma.\n",
+        "infoRaw": "Na próxima vez em que um inimigo for reforçado, destrói esta unidade e a si mesma.\n",
+        "name": "Sangue preto"
+    },
+    "201698": {
+        "info": "Mobilização, Corpo a corpo: consome uma unidade da pilha de descarte do seu oponente.\nMobilização, Longa distância: consome uma unidade da sua pilha de descarte.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: <keyword=consume>consome</keyword> uma unidade da pilha de descarte do seu oponente.\n<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: <keyword=consume>consome</keyword> uma unidade da sua pilha de descarte.\n",
+        "name": "Ozzrel"
+    },
+    "201700": {
+        "info": "Desejo de Morte: reforça o aliado mais alto em 4.\n",
+        "infoRaw": "<keyword=deathwish>Desejo de Morte</keyword>: reforça o aliado mais alto em 4.\n",
+        "name": "Troll da ponte"
+    },
+    "201701": {
+        "info": "Ordem: consome uma unidade aliada.\nCarga: 2.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: <keyword=consume>consome</keyword> uma unidade aliada.\n<keyword=charge>Carga</keyword>: 2.\n",
+        "name": "Barbegazi"
+    },
+    "201704": {
+        "info": "Mobilização: remove um efeito de uma fileira aliada.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: remove um efeito de uma fileira aliada.\n",
+        "name": "Batedor"
+    },
+    "201709": {
+        "info": "Causa 2 de dano a todos os inimigos com poder par.\n",
+        "infoRaw": "Causa 2 de dano a todos os inimigos com poder par.\n",
+        "name": "Equalizar"
+    },
+    "201710": {
+        "info": "Causa 2 de dano a todos os inimigos com poder ímpar.\n",
+        "infoRaw": "Causa 2 de dano a todos os inimigos com poder ímpar.\n",
+        "name": "Atrapalhar"
+    },
+    "201725": {
+        "info": "Envia Lojø para a Academia Ban Ard para Rapazes.\n",
+        "infoRaw": "Envia Lojø para a Academia Ban Ard para Rapazes.\n",
+        "name": "Shupe: Mago"
+    },
+    "201726": {
+        "info": "Mobilização: transforma a carta mais à direita na mão de cada jogador em uma carta especial aleatória.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: transforma a carta mais à direita na mão de cada jogador em uma carta especial aleatória.\n",
+        "name": "Shupe: Mago"
+    },
+    "201727": {
+        "info": "Mobilização: move uma unidade aleatória para a fileira oposta.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: move uma unidade aleatória para a fileira oposta.\n",
+        "name": "Shupe: Mago"
+    },
+    "201728": {
+        "info": "Mobilização: aplica um efeito de fileira aleatório em todas as fileiras.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: aplica um efeito de fileira aleatório em todas as fileiras.\n",
+        "name": "Shupe: Mago"
+    },
+    "201729": {
+        "info": "Mobilização: divide 13 de dano aleatoriamente entre todas as outras unidades no campo de batalha.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: divide 13 de dano aleatoriamente entre todas as outras unidades no campo de batalha.\n",
+        "name": "Shupe: Mago"
+    },
+    "201730": {
+        "info": "Mobilização: faz surgir e invoca uma unidade aleatória para uma fileira aleatória em cada lado.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: <keyword=spawn>faz surgir</keyword> e <keyword=summon>invoca</keyword> uma unidade aleatória para uma fileira aleatória em cada lado.\n",
+        "name": "Shupe: Mago"
+    },
+    "201731": {
+        "info": "Envia Lojø para as florestas de Dol Blathanna.\n",
+        "infoRaw": "Envia Lojø para as florestas de Dol Blathanna.\n",
+        "name": "Shupe: Caçador"
+    },
+    "201732": {
+        "info": "Mobilização: usa uma carta aleatória do seu baralho.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: usa uma carta aleatória do seu baralho.\n",
+        "name": "Shupe: Caçador"
+    },
+    "201733": {
+        "info": "Mobilização: divide 9 de dano aleatoriamente entre todas as unidades inimigas.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: divide 9 de dano aleatoriamente entre todas as unidades inimigas.\n",
+        "name": "Shupe: Caçador"
+    },
+    "201734": {
+        "info": "Mobilização: reforça todas as unidades na sua mão entre 1 e 2 de poder.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça todas as unidades na sua mão entre 1 e 2 de poder.\n",
+        "name": "Shupe: Caçador"
+    },
+    "201735": {
+        "info": "Mobilização: destrói um inimigo aleatório.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: destrói um inimigo aleatório.\n",
+        "name": "Shupe: Caçador"
+    },
+    "201737": {
+        "info": "Envia Lojø para a Academia Militar da Corte Imperial.\n",
+        "infoRaw": "Envia Lojø para a Academia Militar da Corte Imperial.\n",
+        "name": "Shupe: Cavaleiro"
+    },
+    "201738": {
+        "info": "Mobilização: causa 4 de dano a um inimigo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 4 de dano a um inimigo.\n",
+        "name": "Shupe: Cavaleiro"
+    },
+    "201739": {
+        "info": "Mobilização: bloqueia uma unidade.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: <keyword=lock>bloqueia</keyword> uma unidade.\n",
+        "name": "Shupe: Cavaleiro"
+    },
+    "201740": {
+        "info": "Mobilização: ganha Resiliência.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: ganha <keyword=resilient>Resiliência</keyword>.\n",
+        "name": "Shupe: Cavaleiro"
+    },
+    "201741": {
+        "info": "Mobilização: destrói um artefato inimigo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: destrói um artefato inimigo.\n",
+        "name": "Shupe: Cavaleiro"
+    },
+    "201743": {
+        "info": "Sempre que uma unidade aliada é destruída no seu turno, faz surgir uma aracna macho e a invoca para uma fileira aliada inimiga.\n",
+        "infoRaw": "Sempre que uma unidade aliada é destruída no seu turno, <keyword=spawn>faz surgir</keyword> uma aracna macho e a <keyword=summon>invoca</keyword> para uma fileira aliada inimiga.\n",
+        "name": "Aracna Rainha"
+    },
+    "201744": {
+        "info": "Restaura uma unidade para sua base de poder.\n",
+        "infoRaw": "Restaura uma unidade para sua base de poder.\n",
+        "name": "Esporos"
+    },
+    "201748": {
+        "info": "Ordem, Corpo a corpo: causa 1 de dano a um inimigo e a todos os outros inimigos com o mesmo poder.\nCarga: 1.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>, <keyword=melee>Corpo a corpo</keyword>: causa 1 de dano a um inimigo e a todos os outros inimigos com o mesmo poder.\n<keyword=charge>Carga</keyword>: 1.\n",
+        "name": "Orgulho de Foltest"
+    },
+    "201749": {
+        "info": "Reforça todas as unidades em uma fileira em 2.\n",
+        "infoRaw": "Reforça todas as unidades em uma fileira em 2.\n",
+        "name": "Espuma Dourada"
+    },
+    "201753": {
+        "info": "Mobilização: reforça um aliado em 2.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça um aliado em 2.\n",
+        "name": "Milícia Camponesa"
+    },
+    "201772": {
+        "info": "Mobilização, Corpo a corpo: causa 3 de dano a um inimigo. Se o poder dele é múltiplo de 3, destrua-o em vez disso.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: causa 3 de dano a um inimigo. Se o poder dele é múltiplo de 3, destrua-o em vez disso.\n",
+        "name": "Geralt: Profissional"
+    },
+    "201773": {
+        "info": "Mobilização, Longa distância: cria e usa uma carta especial de bronze do baralho atual de qualquer um dos jogadores.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: <keyword=create>cria</keyword> e usa uma carta especial de bronze do baralho atual de qualquer um dos jogadores.\n",
+        "name": "Triss: Telecinese"
+    },
+    "201774": {
+        "info": "Mobilização: destrói uma fera inimiga.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: destrói uma fera inimiga.\n",
+        "name": "Dandelion: Vanglória"
+    },
+    "201776": {
+        "info": "Mobilização: compra uma carta, depois usa uma carta.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: compra uma carta, depois usa uma carta.\n",
+        "name": "Dandelion: Poeta"
+    },
+    "201777": {
+        "info": "Ordem: toma um inimigo com poder igual ou menor do que a contagem de cargas de Roche: Impiedoso e depois remove todas as cargas.\nCarga: 0.\nA cada turno, no começo do turno, ganha 1 de carga.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: <keyword=seize>toma</keyword> um inimigo com poder igual ou menor do que a contagem de <keyword=charge>cargas</keyword> de Roche: Impiedoso e depois remove todas as <keyword=charge>cargas</keyword>.\n<keyword=charge>Carga</keyword>: 0.\nA cada turno, no começo do turno, ganha 1 de <keyword=charge>carga</keyword>.\n",
+        "name": "Roche: Impiedoso"
+    },
+    "201779": {
+        "info": "Embaralha uma unidade aliada no seu baralho, depois usa uma unidade da mesma categoria principal do seu baralho e reforça-a em 3.\n",
+        "infoRaw": "Embaralha uma unidade aliada no seu baralho, depois usa uma unidade da mesma categoria principal do seu baralho e reforça-a em 3.\n",
+        "name": "Chamado da Floresta"
+    },
+    "201780": {
+        "info": "Mobilização, Longa distância: revela uma unidade aleatória do seu baralho, depois reforça um aliado com o poder dela.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: <keyword=reveal>revela</keyword> uma unidade aleatória do seu baralho, depois reforça um aliado com o poder dela.\n",
+        "name": "Yennefer: Divinação"
+    },
+    "201781": {
+        "info": "Ordem: se você controla a unidade mais alta, causa 2 de dano a uma unidade.\nTempo de espera: 1.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: se você controla a unidade mais alta, causa 2 de dano a uma unidade.\n<keyword=cooldown>Tempo de espera</keyword>: 1.\n",
+        "name": "Imlerith"
+    },
+    "201817": {
+        "info": "Mobilização, Corpo a corpo: cada jogador invoca a unidade com o Custo de Recruta mais alto de seu baralho para a fileira corpo a corpo.\nMobilização, Longa distância: cada jogador invoca a unidade com o Custo de Recruta mais baixo de seu baralho para a fileira de longa distância.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: cada jogador <keyword=summon>invoca</keyword> a unidade com o Custo de Recruta mais alto de seu baralho para a fileira corpo a corpo.\n<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: cada jogador <keyword=summon>invoca</keyword> a unidade com o Custo de Recruta mais baixo de seu baralho para a fileira de longa distância.\n",
+        "name": "Ihuarraquax"
+    },
+    "202044": {
+        "info": "Mobilização, Corpo a corpo: causa 3 de dano a um inimigo e a todas as cópias dele.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: causa 3 de dano a um inimigo e a todas as cópias dele.\n",
+        "name": "Gerwin Coxo"
+    },
+    "202054": {
+        "info": "Destrói 2 unidades aliadas da mesma cor, depois cria e usa uma unidade da cor em questão.\n",
+        "infoRaw": "Destrói 2 unidades aliadas da mesma cor, depois <keyword=create>cria</keyword> e usa uma unidade da cor em questão.\n",
+        "name": "Sopa: cebola com elfo"
+    },
+    "202064": {
+        "info": "Ordem, Corpo a corpo: causa 2 de dano a um inimigo.\nCarga: 1.\nGanha 1 de carga sempre que você usa um bruxo.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>, <keyword=melee>Corpo a corpo</keyword>: causa 2 de dano a um inimigo.\n<keyword=charge>Carga</keyword>: 1.\nGanha 1 de <keyword=charge>carga</keyword> sempre que você usa um bruxo.\n",
+        "name": "Ivo de Belhaven"
+    },
+    "202098": {
+        "info": "Mobilização: se há um dragão na sua mão, ganha Zelo.\nOrdem: destrói uma unidade com 8 ou mais de poder.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: se há um dragão na sua mão, ganha <keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>: destrói uma unidade com 8 ou mais de poder.\n",
+        "name": "Eyck de Denesle"
+    },
+    "202099": {
+        "info": "Mobilização, Corpo a corpo: reforça a si mesma em um valor aleatório entre 0 e 11 de poder.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: reforça a si mesma em um valor aleatório entre 0 e 11 de poder.\n",
+        "name": "Gascon"
+    },
+    "202100": {
+        "info": "Espionagem.\nMobilização: usa uma carta de ouro aleatória do seu baralho.\n",
+        "infoRaw": "<keyword=spying>Espionagem</keyword>.\n<keyword=deploy>Mobilização</keyword>: usa uma carta de ouro aleatória do seu baralho.\n",
+        "name": "Príncipe Villem"
+    },
+    "202101": {
+        "info": "A cada turno, no fim do turno, move-se para a fileira com a unidade mais alta no campo de batalha.\n",
+        "infoRaw": "A cada turno, no fim do turno, move-se para a fileira com a unidade mais alta no campo de batalha.\n",
+        "name": "Conde Caldwell"
+    },
+    "202102": {
+        "info": "Mobilização, Corpo a corpo: bane todas as cartas na pilha de descarte do oponente.\nMobilização, Longa distância: bane todas as cartas na sua pilha de descarte.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: <keyword=banish>bane</keyword> todas as cartas na pilha de descarte do oponente.\n<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: <keyword=banish>bane</keyword> todas as cartas na sua pilha de descarte.\n",
+        "name": "Xavier Lemmens"
+    },
+    "202103": {
+        "info": "Corpo a corpo: a cada turno, no fim do turno, destrói a unidade mais baixa no lado com mais unidades.\n",
+        "infoRaw": "<keyword=melee>Corpo a corpo</keyword>: a cada turno, no fim do turno, destrói a unidade mais baixa no lado com mais unidades.\n",
+        "name": "Keltullis"
+    },
+    "202104": {
+        "info": "Imune\n",
+        "infoRaw": "<keyword=immune>Imune</keyword>\n",
+        "name": "Espanto: Desperto"
+    },
+    "202105": {
+        "info": "Mobilização: destrói todas as unidades com 1 de poder. Para cada unidade destruída, reforça a si mesma em 2.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: destrói todas as unidades com 1 de poder. Para cada unidade destruída, reforça a si mesma em 2.\n",
+        "name": "Glustyworp"
+    },
+    "202106": {
+        "info": "Mobilização, Corpo a corpo: concede resiliência.\nMobilização, Longa distância: concede imune.\nSempre que usar um anão, reforça a si mesma em 1.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: concede <keyword=resilient>resiliência</keyword>.\n<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: concede <keyword=immune>imune</keyword>.\nSempre que usar um anão, reforça a si mesma em 1.\n",
+        "name": "Gabor Zigrin"
+    },
+    "202107": {
+        "info": "Mobilização: reforça um elfo, anão e uma aliada dríade em 2.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça um elfo, anão e uma aliada dríade em 2.\n",
+        "name": "Barnabas Beckenbauer"
+    },
+    "202108": {
+        "info": "Ordem, Longa distância: olha a carta no topo de ambos os baralhos. Fica com uma e dá a outra para o oponente.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>, <keyword=ranged>Longa distância</keyword>: olha a carta no topo de ambos os baralhos. Fica com uma e dá a outra para o oponente.\n",
+        "name": "Isbel de Hagge"
+    },
+    "202109": {
+        "info": "Mobilização, Longa distância: troca todas as cartas na sua pilha de descarte com seu baralho.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=ranged>Longa distância</keyword>: troca todas as cartas na sua pilha de descarte com seu baralho.\n",
+        "name": "Gudmund Beiçudo"
+    },
+    "202110": {
+        "info": "Corpo a corpo: sempre que um inimigo sofre dano, reforça a si mesma em 1.\n",
+        "infoRaw": "<keyword=melee>Corpo a corpo</keyword>: sempre que um inimigo sofre dano, reforça a si mesma em 1.\n",
+        "name": "Dagur Duas Espadas"
+    },
+    "202111": {
+        "info": "Mobilização: olha as 3 cartas no topo do baralho do oponente e move 1 para a pilha de descarte dele.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: olha as 3 cartas no topo do baralho do oponente e move 1 para a pilha de descarte dele.\n",
+        "name": "Traheaern var Vdyffir"
+    },
+    "202112": {
+        "info": "Sempre que uma unidade aliada com carga é usada, concede 1 de carga a ela.\n",
+        "infoRaw": "Sempre que uma unidade aliada com <keyword=charge>carga</keyword> é usada, concede 1 de <keyword=charge>carga</keyword> a ela.\n",
+        "name": "Reynard Odo"
+    },
+    "202113": {
+        "info": "Mobilização: causa dano a um inimigo equivalente ao número de aliados humanos.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa dano a um inimigo equivalente ao número de aliados humanos.\n",
+        "name": "Rayla Negra"
+    },
+    "202114": {
+        "info": "Condenado. Zelo.\nOrdem: transforma-se em Fênix.\n",
+        "infoRaw": "<keyword=doomed>Condenado</keyword>. <keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>: transforma-se em Fênix.\n",
+        "name": "Filhote de Fênix"
+    },
+    "202121": {
+        "info": "Mobilização: move uma unidade para a outra fileira.​\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: move uma unidade para a outra fileira.​\n",
+        "name": "Vira-Latas de Spalla"
+    },
+    "202122": {
+        "info": "Mobilização: destrói um artefato inimigo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: destrói um artefato inimigo.\n",
+        "name": "Carregador de Bomba"
+    },
+    "202148": {
+        "info": "Ordem: concede 1 de carga a uma unidade.\nTempo de espera: 2.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: concede 1 de <keyword=charge>carga</keyword> a uma unidade.\n<keyword=cooldown>Tempo de espera</keyword>: 2.\n",
+        "name": "Rei Demavend III"
+    },
+    "202149": {
+        "info": "Ordem: usa um artefato aleatório do baralho do seu oponente.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: usa um artefato aleatório do baralho do seu oponente.\n",
+        "name": "Angoulême"
+    },
+    "202150": {
+        "info": "Zelo.\nOrdem, Longa distância: reforça uma unidade em 1.\nCarga: 1.\nGanha 1 de carga sempre que um dos jogadores usa uma carta.\n",
+        "infoRaw": "<keyword=zeal>Zelo</keyword>.\n<keyword=order>Ordem</keyword>, <keyword=ranged>Longa distância</keyword>: reforça uma unidade em 1.\n<keyword=charge>Carga</keyword>: 1.\nGanha 1 de <keyword=charge>carga</keyword> sempre que um dos jogadores usa uma carta.\n",
+        "name": "Vysogota de Corvo"
+    },
+    "202151": {
+        "info": "Mobilização, Corpo a corpo: destrói uma unidade inimiga com Ordens.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>, <keyword=melee>Corpo a corpo</keyword>: destrói uma unidade inimiga com <keyword=order>Ordens</keyword>.\n",
+        "name": "Falibor"
+    },
+    "202152": {
+        "info": "Se esta unidade estiver reforçada no fim do turno, reforça unidades adjacentes em 1.\n",
+        "infoRaw": "Se esta unidade estiver reforçada no fim do turno, reforça unidades adjacentes em 1.\n",
+        "name": "Anna Strenger"
+    },
+    "202153": {
+        "info": "Sempre que usar uma unidade com Ordens, reforça a si mesma em 1.\n",
+        "infoRaw": "Sempre que usar uma unidade com <keyword=order>Ordens</keyword>, reforça a si mesma em 1.\n",
+        "name": "Cavalaria de Lyria"
+    },
+    "202154": {
+        "info": "Mobilização: causa 1 de dano a um inimigo. Se ele foi destruído, causa 3 de dano a outro inimigo.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 1 de dano a um inimigo. Se ele foi destruído, causa 3 de dano a outro inimigo.\n",
+        "name": "Piqueiro Riviano"
+    },
+    "202155": {
+        "info": "Ordem: causa 1 de dano a uma unidade.\nCarga: 1.\nGanha 1 de carga sempre que usar uma carta com Ordens.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: causa 1 de dano a uma unidade.\n<keyword=charge>Carga</keyword>: 1.\nGanha 1 de <keyword=charge>carga</keyword> sempre que usar uma carta com <keyword=order>Ordens</keyword>.\n",
+        "name": "Besteiro lyriano"
+    },
+    "202156": {
+        "info": "Ordem: causa 1 de dano a uma unidade. Se Lansquenete Lyriano foi reforçado, causa 3 de dano a uma unidade.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: causa 1 de dano a uma unidade. Se Lansquenete Lyriano foi reforçado, causa 3 de dano a uma unidade.\n",
+        "name": "Lansquenete Lyriano"
+    },
+    "202161": {
+        "info": "Mobilização: reforça a si mesma em 1 para cada aliado reforçado.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça a si mesma em 1 para cada aliado reforçado.\n",
+        "name": "Ceifador lyriano"
+    }
+}

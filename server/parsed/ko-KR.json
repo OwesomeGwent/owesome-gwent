@@ -1,0 +1,2596 @@
+{
+    "112101": {
+        "infoRaw": "라운드에서 패할 때마다 이 유닛을 전장에서 당신의 손으로 되돌린다.\n",
+        "name": "시리"
+    },
+    "112102": {
+        "info": "배치, 근접: 총 전력이 15 이상인 적 전열 하나에서 가장 높은 유닛을 파괴한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 총 전력이 15 이상인 적 전열 하나에서 가장 높은 유닛을 파괴한다.\n",
+        "name": "게롤트: 이그니"
+    },
+    "112103": {
+        "info": "배치: 전력이 8 이상인 적 하나를 파괴한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 전력이 8 이상인 적 하나를 파괴한다.\n",
+        "name": "리비아의 게롤트"
+    },
+    "112104": {
+        "info": "배치: 한 전열에 있는 모든 적에게 1만큼 피해를 준다. 파괴되는 유닛이 하나라도 있는 경우 이 능력을 반복한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 한 전열에 있는 모든 적에게 1만큼 피해를 준다. 파괴되는 유닛이 하나라도 있는 경우 이 능력을 반복한다.\n",
+        "name": "레지스"
+    },
+    "112105": {
+        "info": "배치, 근접: 적 하나의 모든 증폭량을 흡수한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 적 하나의 모든 증폭량을 <keyword=drain>흡수</keyword>한다.\n",
+        "name": "레지스: 고위 흡혈귀"
+    },
+    "112106": {
+        "info": "배치, 원거리: 당신의 덱에서 무작위 유닛 하나를 공개하고 적 하나에게 그 유닛의 전력만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 당신의 덱에서 무작위 유닛 하나를 <keyword=reveal>공개</keyword>하고 적 하나에게 그 유닛의 전력만큼 피해를 준다.\n",
+        "name": "트리스 메리골드"
+    },
+    "112107": {
+        "info": "2턴 후 턴 종료 시, 전장에서 자기 자신을 제외하고 가장 높은 유닛을 파괴한다.\n",
+        "infoRaw": "2턴 후 턴 종료 시, 전장에서 자기 자신을 제외하고 가장 높은 유닛을 파괴한다.\n",
+        "name": "빌렌트레텐메르스"
+    },
+    "112108": {
+        "info": "배치, 근접: 다른 모든 유닛에게 2만큼 피해를 준다. \n배치, 원거리: 다른 모든 유닛을 2만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 다른 모든 유닛에게 2만큼 피해를 준다. \n<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 다른 모든 유닛을 2만큼 증폭한다.\n",
+        "name": "벤거버그의 예니퍼"
+    },
+    "112109": {
+        "info": "배치, 근접: 두다: 욕쟁이를 생성하고 낸다.\n배치, 원거리: 두다: 귀염둥이를생성하고 낸다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 두다: 욕쟁이를 <keyword=spawn>생성</keyword>하고 낸다.\n<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 두다: 귀염둥이를<keyword=spawn>생성</keyword>하고 낸다.\n",
+        "name": "졸탄: 악당"
+    },
+    "112110": {
+        "info": "4턴 후, 턴 시작 시, 카드 한 장을 뽑는다.\n",
+        "infoRaw": "4턴 후, 턴 시작 시, 카드 한 장을 뽑는다.\n",
+        "name": "시리: 돌진"
+    },
+    "112111": {
+        "info": "배치, 근접: 적 3명에게 2만큼 피해를 주고 가능한 경우, 해당 적을 원거리 전열로 옮긴다\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 적 3명에게 2만큼 피해를 주고 가능한 경우, 해당 적을 원거리 전열로 옮긴다\n",
+        "name": "게롤트: 아드"
+    },
+    "112112": {
+        "info": "배치, 원거리: 당신의 덱에서 인공물 하나를 가져와서 낸다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 당신의 덱에서 인공물 하나를 가져와서 낸다.\n",
+        "name": "아발라크: 현자"
+    },
+    "112113": {
+        "info": "명령: 가장 높은 적 유닛에게 1만큼 피해를 준다.\n 쿨다운: 1.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 가장 높은 적 유닛에게 1만큼 피해를 준다.\n <keyword=cooldown>쿨다운</keyword>: 1.\n",
+        "name": "예니퍼: 마술사"
+    },
+    "112201": {
+        "info": "배치: 적 유닛 하나의 기본 상태로 변이한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 유닛 하나의 기본 상태로 변이한다.\n",
+        "name": "두두"
+    },
+    "112202": {
+        "info": "배치: 당신의 덱에서 베스미어와 램버트를 이 전열로 소환한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신의 덱에서 베스미어와 램버트를 이 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "에스켈"
+    },
+    "112203": {
+        "info": "배치: 당신의 덱에서 에스켈과 램버트를 이 전열로 소환한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신의 덱에서 에스켈과 램버트를 이 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "베스미어"
+    },
+    "112204": {
+        "info": "배치: 당신의 덱에서 에스켈과 베스미어를 이 전열로 소환한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신의 덱에서 에스켈과 베스미어를 이 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "램버트"
+    },
+    "112205": {
+        "info": "명령: 적 하나에게 2만큼 피해를 준다. \n충전: 2.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 적 하나에게 2만큼 피해를 준다. \n<keyword=charge>충전</keyword>: 2.\n",
+        "name": "미르그타브라케"
+    },
+    "112206": {
+        "info": "명령: 모든 적에게 1만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 모든 적에게 1만큼 피해를 준다.\n",
+        "name": "오크비스트"
+    },
+    "112207": {
+        "info": "명령: 스스로 치유한다.\n쿨다운: 1.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 스스로 <keyword=heal>치유</keyword>한다.\n<keyword=cooldown>쿨다운</keyword>: 1.\n",
+        "name": "올지어드 폰 에버렉"
+    },
+    "112208": {
+        "info": "배치: 당신 손에 있는 브론즈 유닛 하나를 기본 상태로 복사해 생성하고 각 플레이어 진영의 이 전열로 소환한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신 손에 있는 브론즈 유닛 하나를 기본 상태로 복사해 <keyword=spawn>생성</keyword>하고 각 플레이어 진영의 이 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "조작자"
+    },
+    "112209": {
+        "info": "명령: 초트로 변이한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 초트로 변이한다.\n",
+        "name": "특등급 소"
+    },
+    "112210": {
+        "info": "골드 카드 한 장을 낼 때마다 당신의 덱에서 이 유닛을 무작위 아군 전열로 소환한다.\n",
+        "infoRaw": "골드 카드 한 장을 낼 때마다 당신의 덱에서 이 유닛을 무작위 아군 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "로취"
+    },
+    "112211": {
+        "info": "명령: 유닛 하나에게 2만큼 피해를 준다. \n충전: 1.\n당신이 특수 카드 한 장을 낼 때마다 1 충전을 획득한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 유닛 하나에게 2만큼 피해를 준다. \n<keyword=charge>충전</keyword>: 1.\n당신이 특수 카드 한 장을 낼 때마다 1 <keyword=charge>충전</keyword>을 획득한다.\n",
+        "name": "조니"
+    },
+    "112212": {
+        "info": "명령: 유닛 하나를 2만큼 증폭한다. \n충전: 1.\n당신이 특수 카드 한 장을 낼 때마다 1 충전을 획득한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 유닛 하나를 2만큼 증폭한다. \n<keyword=charge>충전</keyword>: 1.\n당신이 특수 카드 한 장을 낼 때마다 1 <keyword=charge>충전</keyword>을 획득한다.\n",
+        "name": "사라"
+    },
+    "112213": {
+        "info": "매 턴 종료 시, 당신의 손에 있는 가장 낮은 유닛을 1만큼 증폭한다.\n",
+        "infoRaw": "매 턴 종료 시, 당신의 손에 있는 가장 낮은 유닛을 1만큼 증폭한다.\n",
+        "name": "거지 왕초"
+    },
+    "112214": {
+        "info": "배치: 전력이 3이하인 유닛 하나를 추방한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 전력이 3이하인 유닛 하나를 <keyword=banish>추방</keyword>한다.\n",
+        "name": "사이프리언 와일리"
+    },
+    "112215": {
+        "info": "배치, 근접: 적 인공물 하나를 파괴한다.\n배치, 원거리: 당신 진영에 적용된 모든 전열 효과를 제거한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 적 인공물 하나를 파괴한다.\n<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 당신 진영에 적용된 모든 전열 효과를 제거한다.\n",
+        "name": "이리스 폰 에버렉"
+    },
+    "112401": {
+        "info": "배치: 유닛 하나를 4만큼 증폭한다. 당신의 손에 키로넥스가 있다면 두 배만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 유닛 하나를 4만큼 증폭한다. 당신의 손에 키로넥스가 있다면 두 배만큼 증폭한다.\n",
+        "name": "유니콘"
+    },
+    "112402": {
+        "info": "배치: 유닛 하나에게 4만큼 피해를 준다. 당신의 손에 유니콘이 있다면 두 배만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 유닛 하나에게 4만큼 피해를 준다. 당신의 손에 유니콘이 있다면 두 배만큼 피해를 준다.\n",
+        "name": "키로넥스"
+    },
+    "112405": {
+        "info": "배치: 당신의 손에 있는 모든 유언 유닛을 1만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신의 손에 있는 모든 <keyword=deathwish>유언</keyword> 유닛을 1만큼 증폭한다.\n",
+        "name": "마귀"
+    },
+    "113101": {
+        "info": "이 전열 효과를 적 전열 하나에 적용한다.\n매 턴 시작 시, 이 전열에서 가장 높은 유닛에게 2만큼 피해를 준다.\n",
+        "infoRaw": "이 전열 효과를 적 전열 하나에 적용한다.\n매 턴 시작 시, 이 전열에서 가장 높은 유닛에게 2만큼 피해를 준다.\n",
+        "name": "라그 나 루그"
+    },
+    "113102": {
+        "info": "당신의 덱 맨 위에 있는 카드 2장을 확인한다. 1장을 내고 다른 한 장은 추방한다.\n",
+        "infoRaw": "당신의 덱 맨 위에 있는 카드 2장을 확인한다. 1장을 내고 다른 한 장은 <keyword=banish>추방</keyword>한다.\n",
+        "name": "마지막 소원"
+    },
+    "113201": {
+        "info": "전장에 있는 아군 하나를 당신의 덱에 넣어 섞은 후, 당신의 덱 맨 위에 있는 유닛 하나를 가져와서 낸다.\n",
+        "infoRaw": "전장에 있는 아군 하나를 당신의 덱에 넣어 섞은 후, 당신의 덱 맨 위에 있는 유닛 하나를 가져와서 낸다.\n",
+        "name": "미끼"
+    },
+    "113202": {
+        "info": "적 5명에게 2만큼 피해를 준다.\n",
+        "infoRaw": "적 5명에게 2만큼 피해를 준다.\n",
+        "name": "메리골드의 얼음폭풍"
+    },
+    "113203": {
+        "info": "이 전열 효과를 적 전열 하나에 적용한다.\n2턴 동안, 턴 시작 시, 이 전열에 있는 모든 유닛에게 1만큼 피해를 준다.\n",
+        "infoRaw": "이 전열 효과를 적 전열 하나에 적용한다.\n2턴 동안, 턴 시작 시, 이 전열에 있는 모든 유닛에게 1만큼 피해를 준다.\n",
+        "name": "스켈리게 폭풍우"
+    },
+    "113204": {
+        "info": "모든 적에게 1만큼 피해를 준다.\n",
+        "infoRaw": "모든 적에게 1만큼 피해를 준다.\n",
+        "name": "스태멜포드의 지진"
+    },
+    "113205": {
+        "info": "인공물 하나를 파괴한다.\n",
+        "infoRaw": "인공물 하나를 파괴한다.\n",
+        "name": "디메리티움 폭탄"
+    },
+    "113206": {
+        "info": "모든 인공물을 파괴한다.\n",
+        "infoRaw": "모든 인공물을 파괴한다.\n",
+        "name": "백색 서리"
+    },
+    "113207": {
+        "info": "인접한 유닛 5개를 3만큼 증폭한다.\n",
+        "infoRaw": "인접한 유닛 5개를 3만큼 증폭한다.\n",
+        "name": "지휘관의 뿔나팔"
+    },
+    "113208": {
+        "info": "배치, 근접: 모든 전열 효과의 지속 시간이 1만큼 증가한다.\n배치, 원거리: 모든 전열 효과의 지속 시간이 1만큼 감소한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 모든 전열 효과의 지속 시간이 1만큼 증가한다.\n<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 모든 전열 효과의 지속 시간이 1만큼 감소한다.\n",
+        "name": "베더마카"
+    },
+    "113209": {
+        "info": "당신의 덱에서 가장 높은 유닛을 가져와서 낸다.\n",
+        "infoRaw": "당신의 덱에서 가장 높은 유닛을 가져와서 낸다.\n",
+        "name": "알주르의 이중 교잡"
+    },
+    "113301": {
+        "info": "유닛 하나에게 5만큼 피해를 준다.\n",
+        "infoRaw": "유닛 하나에게 5만큼 피해를 준다.\n",
+        "name": "알주르의 천둥"
+    },
+    "113302": {
+        "info": "이 전열 효과를 적 전열 하나에 적용한다.\n4턴 동안, 턴 시작 시, 이 전열에서 가장 낮은 유닛에게 2만큼 피해를 준다.\n",
+        "infoRaw": "이 전열 효과를 적 전열 하나에 적용한다.\n4턴 동안, 턴 시작 시, 이 전열에서 가장 낮은 유닛에게 2만큼 피해를 준다.\n",
+        "name": "살을 에는 서리"
+    },
+    "113303": {
+        "info": "당신 진영에 적용된 모든 전열 효과를 제거한다.\n",
+        "infoRaw": "당신 진영에 적용된 모든 전열 효과를 제거한다.\n",
+        "name": "화창한 하늘"
+    },
+    "113305": {
+        "info": "이 전열 효과를 적 전열 하나에 적용한다.\n4턴 동안, 턴 시작 시, 이 전열에서 가장 높은 유닛에게 2만큼 피해를 준다.\n",
+        "infoRaw": "이 전열 효과를 적 전열 하나에 적용한다.\n4턴 동안, 턴 시작 시, 이 전열에서 가장 높은 유닛에게 2만큼 피해를 준다.\n",
+        "name": "빽빽한 안개"
+    },
+    "113306": {
+        "info": "적 3명에게 3만큼 피해를 준다.\n",
+        "infoRaw": "적 3명에게 3만큼 피해를 준다.\n",
+        "name": "만티코어 독"
+    },
+    "113307": {
+        "info": "유닛 하나의 잔류를 주거나 없앤다.\n",
+        "infoRaw": "유닛 하나의 <keyword=resilient>잔류</keyword>를 주거나 없앤다.\n",
+        "name": "아드레날린 폭주"
+    },
+    "113308": {
+        "info": "가장 낮은 유닛을 파괴한다.\n",
+        "infoRaw": "가장 낮은 유닛을 파괴한다.\n",
+        "name": "전염병"
+    },
+    "113309": {
+        "info": "가장 높은 유닛을 파괴한다.\n",
+        "infoRaw": "가장 높은 유닛을 파괴한다.\n",
+        "name": "연소"
+    },
+    "113310": {
+        "info": "유닛 하나를 6만큼 증폭한다.\n",
+        "infoRaw": "유닛 하나를 6만큼 증폭한다.\n",
+        "name": "제비"
+    },
+    "113311": {
+        "info": "열의.\n명령: 유닛 하나를 2만큼 증폭한다. \n충전: 3.\n",
+        "infoRaw": "<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 유닛 하나를 2만큼 증폭한다. \n<keyword=charge>충전</keyword>: 3.\n",
+        "name": "벼락"
+    },
+    "113312": {
+        "info": "이 전열 효과를 적 전열 하나에 적용한다.\n4턴 동안, 턴 시작 시, 해당 전열에 있는 무작위 유닛 2개에게 1만큼 피해를 준다.\n",
+        "infoRaw": "이 전열 효과를 적 전열 하나에 적용한다.\n4턴 동안, 턴 시작 시, 해당 전열에 있는 무작위 유닛 2개에게 1만큼 피해를 준다.\n",
+        "name": "폭우"
+    },
+    "113313": {
+        "info": "배치: 적 하나가 받은 피해량만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나가 받은 피해량만큼 스스로 증폭한다.\n",
+        "name": "안 크라이트 함성꾼"
+    },
+    "113315": {
+        "info": "유닛 하나를 선택한다. 해당 유닛이 증폭된 경우, 증폭량의 2배만큼 피해를 준다. 해당 유닛이 피해를 받은 경우, 피해량의 2배만큼 증폭한다.\n",
+        "infoRaw": "유닛 하나를 선택한다. 해당 유닛이 증폭된 경우, 증폭량의 2배만큼 피해를 준다. 해당 유닛이 피해를 받은 경우, 피해량의 2배만큼 증폭한다.\n",
+        "name": "베커의 사악한 거울"
+    },
+    "113316": {
+        "info": "당신의 무덤에서 유닛 하나를 가져와서 낸다.\n",
+        "infoRaw": "당신의 무덤에서 유닛 하나를 가져와서 낸다.\n",
+        "name": "소생"
+    },
+    "113319": {
+        "info": "유닛 하나를 구속하고 3만큼 피해를 준다.\n",
+        "infoRaw": "유닛 하나를 <keyword=lock>구속</keyword>하고 3만큼 피해를 준다.\n",
+        "name": "디메리티움 족쇄"
+    },
+    "113320": {
+        "info": "유닛 하나에게 3만큼 피해를 준 후, 해당 유닛을 9만큼 증폭한다.\n",
+        "infoRaw": "유닛 하나에게 3만큼 피해를 준 후, 해당 유닛을 9만큼 증폭한다.\n",
+        "name": "마드로엠므"
+    },
+    "122101": {
+        "info": "명령: 아군 유닛 하나의 충전량을 2배로 만든다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 아군 유닛 하나의 <keyword=charge>충전</keyword>량을 2배로 만든다.\n",
+        "name": "피의 남작"
+    },
+    "122102": {
+        "info": "첩보원.\n배치: 당신의 덱에서 위에 있는 카드 2장을 가져와서 낸다.\n",
+        "infoRaw": "<keyword=spying>첩보원</keyword>.\n<keyword=deploy>배치</keyword>: 당신의 덱에서 위에 있는 카드 2장을 가져와서 낸다.\n",
+        "name": "버논 로치"
+    },
+    "122103": {
+        "info": "근접: 이 유닛이 전장에 있으면 명령 능력이 있는 모든 아군 유닛이 열의를 획득한다.\n",
+        "infoRaw": "<keyword=melee>근접</keyword>: 이 유닛이 전장에 있으면 <keyword=order>명령</keyword> 능력이 있는 모든 아군 유닛이 <keyword=zeal>열의</keyword>를 획득한다.\n",
+        "name": "존 나탈리스"
+    },
+    "122107": {
+        "info": "배치: 당신의 손에 있는 무작위 유닛 하나를 4만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신의 손에 있는 무작위 유닛 하나를 4만큼 증폭한다.\n",
+        "name": "트리스: 나비 주문"
+    },
+    "122108": {
+        "info": "배치, 원거리: 당신의 덱에서 주문 카드 한 장을 가져와서 낸다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 당신의 덱에서 주문 카드 한 장을 가져와서 낸다.\n",
+        "name": "키이라 메츠"
+    },
+    "122201": {
+        "info": "원거리: 아군 하나가 충전을 획득할 때마다 해당 아군을 1만큼 증폭한다.\n",
+        "infoRaw": "<keyword=ranged>원거리</keyword>: 아군 하나가 <keyword=charge>충전</keyword>을 획득할 때마다 해당 아군을 1만큼 증폭한다.\n",
+        "name": "단델라이온"
+    },
+    "122202": {
+        "info": "열의.\n명령: 유닛 하나에게 1 충전을 준다. \n쿨다운: 1.\n",
+        "infoRaw": "<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 유닛 하나에게 1 <keyword=charge>충전</keyword>을 준다. \n<keyword=cooldown>쿨다운</keyword>: 1.\n",
+        "name": "프리실라"
+    },
+    "122203": {
+        "info": "배치: 적 유닛 하나의 충전량을 모두 제거하고 탈러에게 그 값만큼 준다.\n명령: 아군 유닛 하나에게 1 충전을 준다.\n충전: 0.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 유닛 하나의 <keyword=charge>충전량</keyword>을 모두 제거하고 탈러에게 그 값만큼 준다.\n<keyword=order>명령</keyword>: 아군 유닛 하나에게 1 <keyword=charge>충전</keyword>을 준다.\n<keyword=charge>충전</keyword>: 0.\n",
+        "name": "탈러"
+    },
+    "122204": {
+        "info": "배치: 적 하나에게 4만큼 피해를 준다. \n명령: 아군 하나에게 열의 능력을 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 4만큼 피해를 준다. \n<keyword=order>명령</keyword>: 아군 하나에게 <keyword=zeal>열의</keyword> 능력을 준다.\n",
+        "name": "베스"
+    },
+    "122205": {
+        "info": "배치: 적 하나에게 2만큼 피해를 준다. \n명령 : 적 하나에게 2만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 2만큼 피해를 준다. \n<keyword=order>명령</keyword> : 적 하나에게 2만큼 피해를 준다.\n",
+        "name": "쉴라 드 탄자빌"
+    },
+    "122206": {
+        "info": "첩보원. \n유언: 이 전열에 있는 모든 유닛에게 3만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=spying>첩보원</keyword>. \n<keyword=deathwish>유언</keyword>: 이 전열에 있는 모든 유닛에게 3만큼 피해를 준다.\n",
+        "name": "사브리나 글레비시그"
+    },
+    "122207": {
+        "info": "명령, 원거리: 적 하나에게 데스몰드의 증폭량만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>, <keyword=ranged>원거리</keyword>: 적 하나에게 데스몰드의 증폭량만큼 피해를 준다.\n",
+        "name": "데스몰드"
+    },
+    "122208": {
+        "info": "배치: 아군 하나를 2만큼 증폭하고 2 충전을 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 아군 하나를 2만큼 증폭하고 2 <keyword=charge>충전</keyword>을 준다.\n",
+        "name": "스테니스 왕자"
+    },
+    "122210": {
+        "info": "배치: 당신의 무덤에 있는 브론즈 유닛 하나를 포함해 그와 동일한 모든 유닛을 꺼내 당신의 덱에 섞는다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신의 무덤에 있는 브론즈 유닛 하나를 포함해 그와 동일한 모든 유닛을 꺼내 당신의 덱에 섞는다.\n",
+        "name": "파베타 공주"
+    },
+    "122211": {
+        "info": "열의.\n명령: 3 충전량을 써서 적 하나를 구속한다.\n충전: 3.\n",
+        "infoRaw": "<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 3 <keyword=charge>충전량</keyword>을 써서 적 하나를 <keyword=lock>구속</keyword>한다.\n<keyword=charge>충전</keyword>: 3.\n",
+        "name": "마르가리타 록스 안틸레"
+    },
+    "122212": {
+        "info": "명령, 원거리: 유닛 하나를 1만큼 증폭한다. \n충전: 3.\n",
+        "infoRaw": "<keyword=order>명령</keyword>, <keyword=ranged>원거리</keyword>: 유닛 하나를 1만큼 증폭한다. \n<keyword=charge>충전</keyword>: 3.\n",
+        "name": "넨네케"
+    },
+    "122213": {
+        "info": "배치: 모든 아군 유닛에게 1 충전을 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 모든 아군 유닛에게 1 <keyword=charge>충전</keyword>을 준다.\n",
+        "name": "오드린"
+    },
+    "122214": {
+        "info": "열의.\n명령: 아군 하나를 1만큼 증폭한다. \n충전: 2.\n",
+        "infoRaw": "<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 아군 하나를 1만큼 증폭한다. \n<keyword=charge>충전</keyword>: 2.\n",
+        "name": "케드웬 지휘관"
+    },
+    "122216": {
+        "info": "배치: 유닛 하나에게 당신이 손에 든 카드 한 장당 1만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 유닛 하나에게 당신이 손에 든 카드 한 장당 1만큼 피해를 준다.\n",
+        "name": "클리버"
+    },
+    "122301": {
+        "info": "명령: 유닛 하나에게 1만큼 피해를 준다. \n충전: 1.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 유닛 하나에게 1만큼 피해를 준다. \n<keyword=charge>충전</keyword>: 1.\n",
+        "name": "노포"
+    },
+    "122302": {
+        "info": "명령: 유닛 하나에게 2만큼 피해를 준다. \n충전: 1.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 유닛 하나에게 2만큼 피해를 준다. \n<keyword=charge>충전</keyword>: 1.\n",
+        "name": "강화 노포"
+    },
+    "122303": {
+        "info": "명령, 원거리: 유닛 하나에게 1만큼 피해를 준다. 해당 유닛이 파괴되면 인접한 유닛에게 1만큼 피해를 준다.\n충전: 1.\n",
+        "infoRaw": "<keyword=order>명령</keyword>, <keyword=ranged>원거리</keyword>: 유닛 하나에게 1만큼 피해를 준다. 해당 유닛이 파괴되면 인접한 유닛에게 1만큼 피해를 준다.\n<keyword=charge>충전</keyword>: 1.\n",
+        "name": "트레뷰셋"
+    },
+    "122304": {
+        "info": "명령, 근접: 인접한 아군을 1만큼 증폭한다. \n충전: 1.\n",
+        "infoRaw": "<keyword=order>명령</keyword>, <keyword=melee>근접</keyword>: 인접한 아군을 1만큼 증폭한다. \n<keyword=charge>충전</keyword>: 1.\n",
+        "name": "공성탑"
+    },
+    "122309": {
+        "info": "배치: 아군 병기 하나에게 2 충전을 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 아군 병기 하나에게 2 <keyword=charge>충전</keyword>을 준다.\n",
+        "name": "공성 지원병"
+    },
+    "122310": {
+        "info": "배치, 근접: 당신의 덱 가장 아래의 브론즈 아군 하나를 생성한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 당신의 덱 가장 아래의 브론즈 아군 하나를 <keyword=spawn>생성</keyword>한다.\n",
+        "name": "블루스트라이프 정찰병"
+    },
+    "122311": {
+        "info": "명령: 당신의 덱에서 이 유닛과 동일한 유닛 하나를 이 전열로 소환한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 당신의 덱에서 이 유닛과 동일한 유닛 하나를 이 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "블루스트라이프 특공대"
+    },
+    "122312": {
+        "info": "배치: 인접한 유닛을 2만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 인접한 유닛을 2만큼 증폭한다.\n",
+        "name": "야전 의무병"
+    },
+    "122313": {
+        "info": "배치: 2개 병사에 인접하게 낸 경우 열의 능력을 획득한다.\n명령: 적 하나에게 3만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 2개 병사에 인접하게 낸 경우 <keyword=zeal>열의</keyword> 능력을 획득한다.\n<keyword=order>명령</keyword>: 적 하나에게 3만큼 피해를 준다.\n",
+        "name": "던 배너"
+    },
+    "122314": {
+        "info": "배치, 근접: 적 하나의 모든 충전을 제거한 후, 제거한 양만큼 해당 적에게 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 적 하나의 모든 <keyword=charge>충전</keyword>을 제거한 후, 제거한 양만큼 해당 적에게 피해를 준다.\n",
+        "name": "케드웬 중기병"
+    },
+    "122315": {
+        "info": "원거리: 매 턴 종료 시, 원거리 전열에 있는 무작위 적 하나에게 1만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=ranged>원거리</keyword>: 매 턴 종료 시, 원거리 전열에 있는 무작위 적 하나에게 1만큼 피해를 준다.\n",
+        "name": "강화 트레뷰셋"
+    },
+    "122316": {
+        "info": "배치: 적 하나에게 이 전열의 증폭된 유닛 하나당 1만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 이 전열의 증폭된 유닛 하나당 1만큼 피해를 준다.\n",
+        "name": "테메리아 보병"
+    },
+    "122318": {
+        "info": "이 전열에 병기 하나를 낼 때마다 해당 유닛에게 열의를 준다.\n",
+        "infoRaw": "이 전열에 병기 하나를 낼 때마다 해당 유닛에게 <keyword=zeal>열의</keyword>를 준다.\n",
+        "name": "공성 전문가"
+    },
+    "122401": {
+        "info": "매 턴 종료 시, 가장 높은 적에게 1만큼 피해를 준다. \n명령: 러버킨으로 변이한다.\n",
+        "infoRaw": "매 턴 종료 시, 가장 높은 적에게 1만큼 피해를 준다. \n<keyword=order>명령</keyword>: 러버킨으로 변이한다.\n",
+        "name": "보츨링"
+    },
+    "122402": {
+        "info": "매 턴 종료 시, 가장 낮은 아군을 1만큼 증폭한다. \n명령: 보츨링으로 변이한다.\n",
+        "infoRaw": "매 턴 종료 시, 가장 낮은 아군을 1만큼 증폭한다. \n<keyword=order>명령</keyword>: 보츨링으로 변이한다.\n",
+        "name": "러버킨"
+    },
+    "122403": {
+        "info": "배치, 원거리: 카드 한 장을 뽑은 후, 당신의 손에 있는 카드 한 장을 당신의 덱 맨 위에 놓는다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 카드 한 장을 뽑은 후, 당신의 손에 있는 카드 한 장을 당신의 덱 맨 위에 놓는다.\n",
+        "name": "비코바로 견습생"
+    },
+    "123201": {
+        "info": "브론즈 아군 유닛 하나를 복사하여 생성하고 해당 아군을 이 전열로 소환한다.\n",
+        "infoRaw": "브론즈 아군 유닛 하나를 복사하여 <keyword=spawn>생성</keyword>하고 해당 아군을 이 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "증원군"
+    },
+    "131101": {
+        "info": "명령: 유닛 하나를 4만큼 증폭하고 해당 유닛에게  면역을 준다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 유닛 하나를 4만큼 증폭하고 해당 유닛에게 <keyword=immune> 면역</keyword>을 준다.\n",
+        "name": "에레딘 브리악 글라스"
+    },
+    "131102": {
+        "info": "원거리: 당신이 유언 능력이 있는 유닛 하나를 낼 때마다 해당 유닛의 유언 능력이 발동된다.\n",
+        "infoRaw": "<keyword=ranged>원거리</keyword>: 당신이 <keyword=deathwish>유언</keyword> 능력이 있는 유닛 하나를 낼 때마다 해당 유닛의 <keyword=deathwish>유언</keyword> 능력이 발동된다.\n",
+        "name": "게엘스"
+    },
+    "132101": {
+        "info": "배치: 모든 인간 아군을 케드웬 망령으로 변이한다. 전력은 변하지 않는다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 모든 인간 아군을 케드웬 망령으로 변이한다. 전력은 변하지 않는다.\n",
+        "name": "드라우그"
+    },
+    "132102": {
+        "info": "적 하나에게 전력이 가장 높은 아군 유닛의 전력만큼 피해를 준다.\n",
+        "infoRaw": "적 하나에게 전력이 가장 높은 아군 유닛의 전력만큼 피해를 준다.\n",
+        "name": "임레리스의 분노"
+    },
+    "132103": {
+        "info": "명령: 당신의 손에 있는 유닛 하나를 8만큼 증폭한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 당신의 손에 있는 유닛 하나를 8만큼 증폭한다.\n",
+        "name": "삼림의 정령"
+    },
+    "132104": {
+        "info": "배치: 당신의 손에서 유닛 하나를 복사해 전력이 1인 유닛으로 생성하고 이 전열로 소환한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신의 손에서 유닛 하나를 복사해 전력이 1인 유닛으로 <keyword=spawn>생성</keyword>하고 이 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "카란티어 아르페니엘"
+    },
+    "132105": {
+        "info": "명령: 아군 유닛 하나에게 면역을 준다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 아군 유닛 하나에게 <keyword=immune>면역</keyword>을 준다.\n",
+        "name": "아발라크"
+    },
+    "132106": {
+        "info": "배치, 원거리: 당신의 무덤에서 인공물 하나를 가져와서 낸다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 당신의 무덤에서 인공물 하나를 가져와서 낸다.\n",
+        "name": "무덤지기"
+    },
+    "132107": {
+        "info": "열의.\n명령: 아군 하나를 섭취한다.\n충전: 3.\n",
+        "infoRaw": "<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 아군 하나를 <keyword=consume>섭취</keyword>한다.\n<keyword=charge>충전</keyword>: 3.\n",
+        "name": "케이런"
+    },
+    "132108": {
+        "info": "유언: 전력이 3이하인 적 하나를 강탈한다.\n",
+        "infoRaw": "<keyword=deathwish>유언</keyword>: 전력이 3이하인 적 하나를 <keyword=seize>강탈</keyword>한다.\n",
+        "name": "미루나"
+    },
+    "132201": {
+        "info": "아라카스 일꾼 2마리를 생성하고 이 전열로 소환한 후, 같은 전열에 있는 다른 모든 곤충류를 1만큼 증폭한다.\n",
+        "infoRaw": "아라카스 일꾼 2마리를 <keyword=spawn>생성</keyword>하고 이 전열로 <keyword=summon>소환</keyword>한 후, 같은 전열에 있는 다른 모든 곤충류를 1만큼 증폭한다.\n",
+        "name": "거대 아라카스"
+    },
+    "132202": {
+        "info": "명령: 당신의 무덤에서 모든 유닛을 추방하고 추방한 유닛 하나당 1만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 당신의 무덤에서 모든 유닛을 <keyword=banish>추방</keyword>하고 추방한 유닛 하나당 1만큼 스스로 증폭한다.\n",
+        "name": "모운타르트"
+    },
+    "132203": {
+        "info": "번창. \n배치: 브론즈 아군 유닛 하나의 유언 능력을 발동한다.\n",
+        "infoRaw": "<keyword=thrive>번창</keyword>. \n<keyword=deploy>배치</keyword>: 브론즈 아군 유닛 하나의 <keyword=deathwish>유언</keyword> 능력을 발동한다.\n",
+        "name": "아바야"
+    },
+    "132204": {
+        "info": "아군 유닛 3개가 파괴되면 공포스러운 괴물이 깨어난다.\n",
+        "infoRaw": "아군 유닛 3개가 파괴되면 공포스러운 괴물이 깨어난다.\n",
+        "name": "공포스러운 괴물: 휴면"
+    },
+    "132205": {
+        "info": "배치: 모든 아군 야수를 1만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 모든 아군 야수를 1만큼 증폭한다.\n",
+        "name": "모르부드"
+    },
+    "132206": {
+        "info": "배치: 적 하나에게 2만큼 피해를 준다.\n당신이 달임 마녀나 뜨개 마녀를 낼 때마다 이 유닛에게 2만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 2만큼 피해를 준다.\n당신이 달임 마녀나 뜨개 마녀를 낼 때마다 이 유닛에게 2만큼 피해를 준다.\n",
+        "name": "속삭 마녀"
+    },
+    "132207": {
+        "info": "배치: 아군 유닛 1명을 섭취한다.\n당신이 속삭 마녀나 뜨개 마녀를 낼 때마다 대상 수가 1만큼 증가한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 아군 유닛 1명을 <keyword=consume>섭취</keyword>한다.\n당신이 속삭 마녀나 뜨개 마녀를 낼 때마다 대상 수가 1만큼 증가한다.\n",
+        "name": "달임 마녀"
+    },
+    "132208": {
+        "info": "배치: 아군 하나를 2만큼 증폭한다.\n당신이 속삭 마녀나 달임 마녀를 낼 때마다 이 유닛이 주는 증폭량이 2만큼 증가한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 아군 하나를 2만큼 증폭한다.\n당신이 속삭 마녀나 달임 마녀를 낼 때마다 이 유닛이 주는 증폭량이 2만큼 증가한다.\n",
+        "name": "뜨개 마녀"
+    },
+    "132209": {
+        "info": "유언: 가장 낮은 적을 파괴한다.\n",
+        "infoRaw": "<keyword=deathwish>유언</keyword>: 가장 낮은 적을 파괴한다.\n",
+        "name": "황제 만티코어"
+    },
+    "132210": {
+        "info": "열의.\n명령: 반대편 전열에 있는 모든 유닛에게 1만큼 피해를 준다.\n쿨다운: 3.\n",
+        "infoRaw": "<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 반대편 전열에 있는 모든 유닛에게 1만큼 피해를 준다.\n<keyword=cooldown>쿨다운</keyword>: 3.\n",
+        "name": "거대 이프리트"
+    },
+    "132211": {
+        "info": "번창.\n",
+        "infoRaw": "<keyword=thrive>번창</keyword>.\n",
+        "name": "넥커 전사"
+    },
+    "132212": {
+        "info": "능력 없음.\n",
+        "infoRaw": "능력 없음.\n",
+        "name": "얼음 거인"
+    },
+    "132213": {
+        "info": "능력 없음.\n",
+        "infoRaw": "능력 없음.\n",
+        "name": "원시 다오"
+    },
+    "132214": {
+        "info": "배치: 적 인공물 하나를 파괴한다. 당신의 전장에 가장 높은 유닛이 있으면 인접한 유닛에게 2만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 인공물 하나를 파괴한다. 당신의 전장에 가장 높은 유닛이 있으면 인접한 유닛에게 2만큼 피해를 준다.\n",
+        "name": "니트랄"
+    },
+    "132215": {
+        "info": "배치: 적 유닛 하나에게 소멸을 준다. \n명령: 소멸이 있는 적 하나를 파괴한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 유닛 하나에게 <keyword=doomed>소멸</keyword>을 준다. \n<keyword=order>명령</keyword>: <keyword=doomed>소멸</keyword>이 있는 적 하나를 파괴한다.\n",
+        "name": "군터 오딤"
+    },
+    "132216": {
+        "info": "배치, 근접: 전력이 3 이하인 유닛 하나를 섭취한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 전력이 3 이하인 유닛 하나를 <keyword=consume>섭취</keyword>한다.\n",
+        "name": "두꺼비 왕자"
+    },
+    "132217": {
+        "info": "배치: 아군 유닛 하나를 섭취한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 아군 유닛 하나를 <keyword=consume>섭취</keyword>한다.\n",
+        "name": "셀레이노 하피"
+    },
+    "132218": {
+        "info": "능력 없음.\n",
+        "infoRaw": "능력 없음.\n",
+        "name": "늙은 창날: 잠듦"
+    },
+    "132301": {
+        "info": "유언: 당신의 덱에서 이 유닛과 동일한 유닛 하나를 무작위 아군 전열로 소환한다.\n",
+        "infoRaw": "<keyword=deathwish>유언</keyword>: 당신의 덱에서 이 유닛과 동일한 유닛 하나를 무작위 아군 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "포글렛"
+    },
+    "132302": {
+        "info": "유언: 무덤에서 이 유닛을 같은 전열로 소환하고, 4만큼 증폭한 후, 해당 유닛에게 소멸을 준다.\n",
+        "infoRaw": "<keyword=deathwish>유언</keyword>: 무덤에서 이 유닛을 같은 전열로 <keyword=summon>소환</keyword>하고, 4만큼 증폭한 후, 해당 유닛에게 <keyword=doomed>소멸</keyword>을 준다.\n",
+        "name": "고대 포글렛"
+    },
+    "132303": {
+        "info": "배치: 적 하나에게 2만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 2만큼 피해를 준다.\n",
+        "name": "와이번"
+    },
+    "132304": {
+        "info": "소멸.\n",
+        "infoRaw": "<keyword=doomed>소멸</keyword>.\n",
+        "name": "아라카스 일꾼"
+    },
+    "132305": {
+        "info": "번창.\n배치: 이 유닛 하나를 기본 상태로 복사해 생성하고 이 전열로 소환한다.\n",
+        "infoRaw": "<keyword=thrive>번창</keyword>.\n<keyword=deploy>배치</keyword>: 이 유닛 하나를 기본 상태로 복사해 <keyword=spawn>생성</keyword>하고 이 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "넥커"
+    },
+    "132306": {
+        "info": "배치, 근접: 당신의 무덤에 있는 유닛 하나를 섭취한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 당신의 무덤에 있는 유닛 하나를 <keyword=consume>섭취</keyword>한다.\n",
+        "name": "구울"
+    },
+    "132307": {
+        "info": "배치: 이 전열에 있는 아군 유닛 하나를 파괴한다. 파괴할 유닛이 없으면 스스로 파괴된다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 이 전열에 있는 아군 유닛 하나를 파괴한다. 파괴할 유닛이 없으면 스스로 파괴된다.\n",
+        "name": "그리핀"
+    },
+    "132308": {
+        "info": "당신의 턴 동안 유닛 하나가 파괴될 때마다 무작위 적 하나에게 1만큼 피해를 준다.\n",
+        "infoRaw": "당신의 턴 동안 유닛 하나가 파괴될 때마다 무작위 적 하나에게 1만큼 피해를 준다.\n",
+        "name": "브란 전사"
+    },
+    "132309": {
+        "info": "배치: 유닛 하나에게 이 전열에 있는 와일드 헌트 유닛 하나당 1만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 유닛 하나에게 이 전열에 있는 와일드 헌트 유닛 하나당 1만큼 피해를 준다.\n",
+        "name": "와일드 헌트 전사"
+    },
+    "132310": {
+        "info": "배치: 당신의 전장에 가장 높은 유닛이 있으면 당신의 덱에서 와일드 헌트 기수 하나를 이 전열로 소환한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신의 전장에 가장 높은 유닛이 있으면 당신의 덱에서 와일드 헌트 기수 하나를 이 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "와일드 헌트 기수"
+    },
+    "132312": {
+        "info": "두 플레이어 모두 가장 낮은 유닛을 파괴한다.\n",
+        "infoRaw": "두 플레이어 모두 가장 낮은 유닛을 파괴한다.\n",
+        "name": "포식자의 습격"
+    },
+    "132314": {
+        "info": "번창.\n배치: 적 하나에게 2만큼 피해를 주고 해당 적을 다른 전열로 옮긴다.\n",
+        "infoRaw": "<keyword=thrive>번창</keyword>.\n<keyword=deploy>배치</keyword>: 적 하나에게 2만큼 피해를 주고 해당 적을 다른 전열로 옮긴다.\n",
+        "name": "익사체"
+    },
+    "132315": {
+        "info": "소멸.\n",
+        "infoRaw": "<keyword=doomed>소멸</keyword>.\n",
+        "name": "하피"
+    },
+    "132316": {
+        "info": "유언: 하피 한 마리를 생성하고 무작위 아군 전열로 소환한다.\n",
+        "infoRaw": "<keyword=deathwish>유언</keyword>: 하피 한 마리를 <keyword=spawn>생성</keyword>하고 무작위 아군 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "하피 알"
+    },
+    "132402": {
+        "info": "배치: 적 하나에게 1만큼 피해를 준다. 당신의 전장에 가장 높은 유닛이 있으면 해당 적에게 3만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 1만큼 피해를 준다. 당신의 전장에 가장 높은 유닛이 있으면 해당 적에게 3만큼 피해를 준다.\n",
+        "name": "와일드 헌트 사냥개"
+    },
+    "132403": {
+        "info": "배치: 적 하나에게 2만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 2만큼 피해를 준다.\n",
+        "name": "늑대 무리"
+    },
+    "132404": {
+        "info": "배치: 적 하나에게 4만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 4만큼 피해를 준다.\n",
+        "name": "격분한 이프리트"
+    },
+    "132405": {
+        "info": "배치: 적 인공물 하나를 파괴한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 인공물 하나를 파괴한다.\n",
+        "name": "광란의 다오"
+    },
+    "132406": {
+        "info": "배치: 브론즈 아군 유닛 하나의 유언 능력을 발동한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 브론즈 아군 유닛 하나의 <keyword=deathwish>유언</keyword> 능력을 발동한다.\n",
+        "name": "마에로론"
+    },
+    "132407": {
+        "info": "배치: 적 덱의 맨 위에 있는 유닛을 공개하고 자신에게 해당 적의 전력만큼 피해를 준 후 다시 덱으로 가서 섞인다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 덱의 맨 위에 있는 유닛을 <keyword=reveal>공개</keyword>하고 자신에게 해당 적의 전력만큼 피해를 준 후 다시 덱으로 가서 섞인다.\n",
+        "name": "황제 골렘"
+    },
+    "132408": {
+        "info": "능력 없음.\n",
+        "infoRaw": "능력 없음.\n",
+        "name": "늙은 창날"
+    },
+    "132409": {
+        "info": "적 하나에게 3만큼 피해를 주고 아군 하나를 3만큼 증폭한다.\n",
+        "infoRaw": "적 하나에게 3만큼 피해를 주고 아군 하나를 3만큼 증폭한다.\n",
+        "name": "끔찍한 연회"
+    },
+    "133301": {
+        "info": "열의.\n명령: 유닛 하나를 1만큼 증폭한다. \n쿨다운: 1.\n",
+        "infoRaw": "<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 유닛 하나를 1만큼 증폭한다. \n<keyword=cooldown>쿨다운</keyword>: 1.\n",
+        "name": "와이번 비늘 방패"
+    },
+    "133302": {
+        "info": "전력이 1인 아라카스 일꾼 4마리를 생성하고 아군 전열 하나로 소환한다.\n",
+        "infoRaw": "전력이 1인 아라카스 일꾼 4마리를 <keyword=spawn>생성</keyword>하고 아군 전열 하나로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "아라카스 둥지"
+    },
+    "142101": {
+        "info": "면역.\n명령: 남은 턴 동안 이 유닛의 면역을 제거한다.\n",
+        "infoRaw": "<keyword=immune>면역</keyword>.\n<keyword=order>명령</keyword>: 남은 턴 동안 이 유닛의 <keyword=immune>면역</keyword>을 제거한다.\n",
+        "name": "세센테시스"
+    },
+    "142102": {
+        "info": "배치: 다른 모든 엘프 아군을 1만큼 증폭한다.\n당신이 엘프 하나를 낼 때마다 1만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 다른 모든 엘프 아군을 1만큼 증폭한다.\n당신이 엘프 하나를 낼 때마다 1만큼 스스로 증폭한다.\n",
+        "name": "아이센그림 파올리타나"
+    },
+    "142103": {
+        "info": "배치: 아군 함정 하나를 당신의 손으로 되돌린 후, 함정 하나를 낸다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 아군 함정 하나를 당신의 손으로 되돌린 후, 함정 하나를 낸다.\n",
+        "name": "이오베스"
+    },
+    "142104": {
+        "info": "면역.\n당신이 스코이아텔 유닛 하나를 낼 때마다 1만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=immune>면역</keyword>.\n당신이 스코이아텔 유닛 하나를 낼 때마다 1만큼 스스로 증폭한다.\n",
+        "name": "밀바"
+    },
+    "142105": {
+        "info": "배치, 근접: 아군 드워프 수 이하의 전력을 가진 유닛 하나를 파괴한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 아군 드워프 수 이하의 전력을 가진 유닛 하나를 파괴한다.\n",
+        "name": "졸탄 치베이"
+    },
+    "142106": {
+        "info": "배치: 턴 종료 시, 자기 자신의 증폭량이 두 배가 된다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 턴 종료 시, 자기 자신의 증폭량이 두 배가 된다.\n",
+        "name": "아글라이스"
+    },
+    "142107": {
+        "info": "배치: 당신의 손에 있는 스코이아텔 유닛 하나를 4만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신의 손에 있는 스코이아텔 유닛 하나를 4만큼 증폭한다.\n",
+        "name": "이틀린 아에글리"
+    },
+    "142108": {
+        "info": "열의.\n명령: 시류와 전력이 같은 다른 모든 유닛을 파괴한다.\n",
+        "infoRaw": "<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 시류와 전력이 같은 다른 모든 유닛을 파괴한다.\n",
+        "name": "치루"
+    },
+    "142201": {
+        "info": "배치, 근접: 인접한 유닛을 2만큼 증폭한다.\n배치, 원거리: 이 전열에 있는 다른 모든 유닛을 1만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 인접한 유닛을 2만큼 증폭한다.\n<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 이 전열에 있는 다른 모든 유닛을 1만큼 증폭한다.\n",
+        "name": "데니스 크랜머"
+    },
+    "142202": {
+        "info": "배치, 근접: 인공물 하나를 파괴한다.\n배치, 원거리: 유닛 하나를 3만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 인공물 하나를 파괴한다.\n<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 유닛 하나를 3만큼 증폭한다.\n",
+        "name": "이다 에민 아엡 시브니"
+    },
+    "142203": {
+        "info": "배치: 아군 엘프 하나를 낼 때마다 적 하나에게 1만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 아군 엘프 하나를 낼 때마다 적 하나에게 1만큼 피해를 준다.\n",
+        "name": "예빈"
+    },
+    "142204": {
+        "info": "배치, 근접: 한 전열의 양 끝에 있는 적에게 2만큼 피해를 준다.\n배치, 원거리: 한 전열에 있는 모든 적에게 1만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 한 전열의 양 끝에 있는 적에게 2만큼 피해를 준다.\n<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 한 전열에 있는 모든 적에게 1만큼 피해를 준다.\n",
+        "name": "토루비엘"
+    },
+    "142205": {
+        "info": "배치, 근접: 적 유닛 하나를 적 진영의 다른 전열로 옮긴다.\n배치, 원거리: 아군 유닛 하나를 아군 진영의 다른 전열로 옮긴다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 적 유닛 하나를 적 진영의 다른 전열로 옮긴다.\n<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 아군 유닛 하나를 아군 진영의 다른 전열로 옮긴다.\n",
+        "name": "브라이헤드 용기병"
+    },
+    "142206": {
+        "info": "배치: 유닛 하나를 구속하고 해당 진영의 다른 전열로 옮긴다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 유닛 하나를 <keyword=lock>구속</keyword>하고 해당 진영의 다른 전열로 옮긴다.\n",
+        "name": "키아란 아엡 에스닐리엔"
+    },
+    "142207": {
+        "info": "배치: 아군 드워프 하나당 아군 유닛 하나를 1만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 아군 드워프 하나당 아군 유닛 하나를 1만큼 증폭한다.\n",
+        "name": "바클리 엘스"
+    },
+    "142208": {
+        "info": "배치, 근접: 적 하나에게 2만큼 피해를 준다.\n배치, 원거리: 유닛 하나를 구속한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 적 하나에게 2만큼 피해를 준다.\n<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 유닛 하나를 <keyword=lock>구속</keyword>한다.\n",
+        "name": "모렌"
+    },
+    "142209": {
+        "info": "배치: 당신의 전장에 드라이어드가 2개 이상이면 열의를 획득한다.\n명령: 적 하나에게 1만큼 피해를 준다.\n충전: 3\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신의 전장에 드라이어드가 2개 이상이면 <keyword=zeal>열의</keyword>를 획득한다.\n<keyword=order>명령</keyword>: 적 하나에게 1만큼 피해를 준다.\n<keyword=charge>충전</keyword>: 3\n",
+        "name": "브라엔"
+    },
+    "142210": {
+        "info": "명령: 유닛 하나를 해당 진영의 다른 전열로 옮긴다.\n쿨다운: 2.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 유닛 하나를 해당 진영의 다른 전열로 옮긴다.\n<keyword=cooldown>쿨다운</keyword>: 2.\n",
+        "name": "말레나"
+    },
+    "142211": {
+        "info": "턴 종료 시, 당신의 전장에 아군 엘프가 5장 이상 있다면 당신의 덱에서 이 유닛을 근접 전열로 소환한다.\n",
+        "infoRaw": "턴 종료 시, 당신의 전장에 아군 엘프가 5장 이상 있다면 당신의 덱에서 이 유닛을 근접 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "아엘리렌"
+    },
+    "142212": {
+        "info": "배치: 적 하나에게 이 유닛의 전력만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 이 유닛의 전력만큼 피해를 준다.\n",
+        "name": "쉘든 스켁스"
+    },
+    "142213": {
+        "info": "매 턴 종료 시, 전장에 아군 유닛이 없으면 3만큼 스스로 증폭한다.\n",
+        "infoRaw": "매 턴 종료 시, 전장에 아군 유닛이 없으면 3만큼 스스로 증폭한다.\n",
+        "name": "야르펜 지그린"
+    },
+    "142214": {
+        "info": "배치: 피해받은 모든 유닛에게 1만큼 피해를 주고 증폭된 모든 유닛을 1만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 피해받은 모든 유닛에게 1만큼 피해를 주고 증폭된 모든 유닛을 1만큼 증폭한다.\n",
+        "name": "엘리야스"
+    },
+    "142301": {
+        "info": "배치, 근접: 아군 유닛 하나를 2만큼 증폭한다.\n배치, 원거리: 아군 유닛 하나를 4만큼 치유한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 아군 유닛 하나를 2만큼 증폭한다.\n<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 아군 유닛 하나를 4만큼 <keyword=heal>치유</keyword>한다.\n",
+        "name": "행상 치유사"
+    },
+    "142302": {
+        "info": "배치: 무작위 적 하나에게 2만큼 피해를 준다.\n브라이헤드 여단이 다른 전열로 이동할 때마다 해당 유닛의 배치 능력을 반복한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 무작위 적 하나에게 2만큼 피해를 준다.\n브라이헤드 여단이 다른 전열로 이동할 때마다 해당 유닛의 <keyword=deploy>배치</keyword> 능력을 반복한다.\n",
+        "name": "브라이헤드 여단"
+    },
+    "142303": {
+        "info": "배치, 근접: 적 하나에게 3만큼 피해를 준다.\n배치, 원거리: 아군 하나를 3만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 적 하나에게 3만큼 피해를 준다.\n<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 아군 하나를 3만큼 증폭한다.\n",
+        "name": "브라이헤드 장교"
+    },
+    "142304": {
+        "info": "배치: 각 전열의 무작위 적 하나에게 2만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 각 전열의 무작위 적 하나에게 2만큼 피해를 준다.\n",
+        "name": "돌 블라타나 폭탄병"
+    },
+    "142305": {
+        "info": "배치: 적 하나에게 3만큼 피해를 준다. 적이 살아남으면 1만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 3만큼 피해를 준다. 적이 살아남으면 1만큼 스스로 증폭한다.\n",
+        "name": "드워프 척후병"
+    },
+    "142306": {
+        "info": "매 턴 종료시, 이 유닛이 증폭된 경우 1만큼 스스로 증폭한다.\n",
+        "infoRaw": "매 턴 종료시, 이 유닛이 증폭된 경우 1만큼 스스로 증폭한다.\n",
+        "name": "마하캄 수호자"
+    },
+    "142307": {
+        "info": "배치: 당신의 손에 엘프가 하나 있는 경우 적 인공물 하나를 파괴한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신의 손에 엘프가 하나 있는 경우 적 인공물 하나를 파괴한다.\n",
+        "name": "브라이헤드 공병대"
+    },
+    "142308": {
+        "info": "전장에 아군 엘프가 하나 있는 경우 무작위 적 유닛 하나를 파괴한다.\n",
+        "infoRaw": "전장에 아군 엘프가 하나 있는 경우 무작위 적 유닛 하나를 파괴한다.\n",
+        "name": "급습"
+    },
+    "142309": {
+        "info": "배치: 당신의 손에 있는 엘프 하나당 1만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신의 손에 있는 엘프 하나당 1만큼 스스로 증폭한다.\n",
+        "name": "브라이헤드 선봉대"
+    },
+    "142310": {
+        "info": "배치, 근접: 적 하나에게 2만큼 피해를 준다.\n배치, 원거리: 유닛 2개에게 1만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 적 하나에게 2만큼 피해를 준다.\n<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 유닛 2개에게 1만큼 피해를 준다.\n",
+        "name": "돌 블라타나 궁수"
+    },
+    "142311": {
+        "info": "명령: 적 하나에게 1만큼 피해를 준다. \n충전: 1.\n당신이 드워프 하나를 낼 때마다 1 충전을 획득한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 적 하나에게 1만큼 피해를 준다. \n<keyword=charge>충전</keyword>: 1.\n당신이 드워프 하나를 낼 때마다 1 <keyword=charge>충전</keyword>을 획득한다.\n",
+        "name": "드워프 용병"
+    },
+    "142312": {
+        "info": "배치: 아군 하나를 1만큼 증폭한다. 아군 인공물 하나가 있으면 아군 하나를 3만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 아군 하나를 1만큼 증폭한다. 아군 인공물 하나가 있으면 아군 하나를 3만큼 증폭한다.\n",
+        "name": "행상 지원병"
+    },
+    "142313": {
+        "info": "배치: 이 유닛이 이미 증폭된 경우 적 하나에게 3만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 이 유닛이 이미 증폭된 경우 적 하나에게 3만큼 피해를 준다.\n",
+        "name": "엘프 칼춤꾼"
+    },
+    "142314": {
+        "info": "배치: 이 유닛과 적 유닛 하나 사이의 전열 한 칸당 해당 적에게 1만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 이 유닛과 적 유닛 하나 사이의 전열 한 칸당 해당 적에게 1만큼 피해를 준다.\n",
+        "name": "돌 블라타나 궁병"
+    },
+    "142315": {
+        "info": "근접: 매 턴 종료 시, 당신의 손에 있는 무작위 유닛 하나를 1만큼 증폭한다.\n",
+        "infoRaw": "<keyword=melee>근접</keyword>: 매 턴 종료 시, 당신의 손에 있는 무작위 유닛 하나를 1만큼 증폭한다.\n",
+        "name": "행상 밀수꾼"
+    },
+    "142316": {
+        "info": "배치, 근접: 적 하나가 전열에 자기 자신뿐인 경우 해당 적에게 4만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 적 하나가 전열에 자기 자신뿐인 경우 해당 적에게 4만큼 피해를 준다.\n",
+        "name": "푸른 산맥 정예병"
+    },
+    "142317": {
+        "info": "배치: 다른 아군 전열에 있는 아군 드워프 수만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 다른 아군 전열에 있는 아군 드워프 수만큼 스스로 증폭한다.\n",
+        "name": "마하캄 경비병"
+    },
+    "142401": {
+        "info": "배치: 이 유닛 하나를 기본 상태로 복사해 생성하고 다른 아군 전열로 소환한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 이 유닛 하나를 기본 상태로 복사해 <keyword=spawn>생성</keyword>하고 다른 아군 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "스코이아텔 신참"
+    },
+    "143201": {
+        "info": "매복: 다음에 상대가 내는 특수 카드의 능력이 발동되기 전에 해당 카드를 파괴한다.\n",
+        "infoRaw": "<keyword=ambush>매복</keyword>: 다음에 상대가 내는 특수 카드의 능력이 발동되기 전에 해당 카드를 파괴한다.\n",
+        "name": "뱀 함정"
+    },
+    "143301": {
+        "info": "매복: 다음에 상대가 내는 유닛에게 5만큼 피해를 준다. \n열의.\n명령: 카드 앞면을 드러내고 유닛 하나에게 3만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=ambush>매복</keyword>: 다음에 상대가 내는 유닛에게 5만큼 피해를 준다. \n<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 카드 앞면을 드러내고 유닛 하나에게 3만큼 피해를 준다.\n",
+        "name": "소각 함정"
+    },
+    "152101": {
+        "info": "배치, 근접: 당신의 무덤에서 유닛 하나를 추방하고 적 하나에게 추방한 유닛의 전력만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 당신의 무덤에서 유닛 하나를 <keyword=banish>추방</keyword>하고 적 하나에게 추방한 유닛의 전력만큼 피해를 준다.\n",
+        "name": "얄마르 안 크라이트"
+    },
+    "152103": {
+        "info": "배치, 원거리: 당신의 덱에서 연금술 카드 한 장을 가져와서 낸다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 당신의 덱에서 연금술 카드 한 장을 가져와서 낸다.\n",
+        "name": "에르미온"
+    },
+    "152104": {
+        "info": "배치: 당신의 손에서 가장 오른쪽에 있는 카드를 버린다. 상대도 똑같이 버리게 만든다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신의 손에서 가장 오른쪽에 있는 카드를 <keyword=discard>버린다</keyword>. 상대도 똑같이 버리게 만든다.\n",
+        "name": "캄비"
+    },
+    "152105": {
+        "info": "배치: 카드 2장을 뽑은 후 카드 2장을 버린다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 카드 2장을 뽑은 후 카드 2장을 <keyword=discard>버린다</keyword>.\n",
+        "name": "비르나 브랜"
+    },
+    "152106": {
+        "info": "배치: 적 하나에게 피해받은 적 수의 두 배만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 피해받은 적 수의 두 배만큼 피해를 준다.\n",
+        "name": "미치광이 루고스"
+    },
+    "152107": {
+        "info": "명령: 카드 한 장을 버린 후, 카드 한 장을 뽑는다.\n충전: 3.\n특수 카드 한 장이버려질 때마다 적 하나에게 2만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 카드 한 장을 <keyword=discard>버린</keyword> 후, 카드 한 장을 뽑는다.\n<keyword=charge>충전</keyword>: 3.\n특수 카드 한 장이<keyword=discard>버려질</keyword> 때마다 적 하나에게 2만큼 피해를 준다.\n",
+        "name": "코랄"
+    },
+    "152109": {
+        "info": "배치, 근접: 피해받은 모든 적에게 2만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 피해받은 모든 적에게 2만큼 피해를 준다.\n",
+        "name": "바다의 멧돼지"
+    },
+    "152201": {
+        "info": "이 유닛이 피해받을 때마다 무작위 적 유닛 하나에게 2만큼 피해를 준다.\n",
+        "infoRaw": "이 유닛이 피해받을 때마다 무작위 적 유닛 하나에게 2만큼 피해를 준다.\n",
+        "name": "블루보이 루고스"
+    },
+    "152202": {
+        "info": "적 하나에게 5만큼 피해를 준다. \n피의 굶주림 3: 적 유닛 하나를 파괴한다.\n",
+        "infoRaw": "적 하나에게 5만큼 피해를 준다. \n<keyword=bloodthirst>피의 굶주림</keyword> 3: 적 유닛 하나를 파괴한다.\n",
+        "name": "투사의 돌격"
+    },
+    "152203": {
+        "info": "피의 굶주림 1: 적 유닛 하나를 구속한다.\n",
+        "infoRaw": "<keyword=bloodthirst>피의 굶주림</keyword> 1: 적 유닛 하나를 <keyword=lock>구속</keyword>한다.\n",
+        "name": "뎅게 프레트"
+    },
+    "152204": {
+        "info": "배치: 적 하나에게 2만큼 피해를 준다. \n피의 굶주림 2: 적 하나에게 5만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 2만큼 피해를 준다. \n<keyword=bloodthirst>피의 굶주림</keyword> 2: 적 하나에게 5만큼 피해를 준다.\n",
+        "name": "도나르 안 힌다르"
+    },
+    "152205": {
+        "info": "배치: 모든 아군 전사를 1만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 모든 아군 전사를 1만큼 증폭한다.\n",
+        "name": "드레이그 본 두"
+    },
+    "152206": {
+        "info": "배치, 원거리: 당신의 무덤에서 브론즈 연금술 카드 한 장을 가져와서 낸다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 당신의 무덤에서 브론즈 연금술 카드 한 장을 가져와서 낸다.\n",
+        "name": "그레미스트"
+    },
+    "152207": {
+        "info": "당신이 배 하나를 낼 때마다 해당 유닛을 1만큼 증폭한다.\n해적 하나를 낼 때마다 무작위 적 하나에게 1만큼 피해를 준다.\n",
+        "infoRaw": "당신이 배 하나를 낼 때마다 해당 유닛을 1만큼 증폭한다.\n해적 하나를 낼 때마다 무작위 적 하나에게 1만큼 피해를 준다.\n",
+        "name": "홀거 블랙핸드"
+    },
+    "152208": {
+        "info": "배치: 유타 안 디문이 가장 높은 유닛이면6만큼 스스로 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 유타 안 디문이 가장 높은 유닛이면6만큼 스스로 피해를 준다.\n",
+        "name": "유타 안 디문"
+    },
+    "152209": {
+        "info": "이 유닛이 무덤으로 이동하면 해당 유닛을 근접 전열로 소환하고 소멸을 준다.\n",
+        "infoRaw": "이 유닛이 무덤으로 이동하면 해당 유닛을 근접 전열로 <keyword=summon>소환</keyword>하고 <keyword=doomed>소멸</keyword>을 준다.\n",
+        "name": "모크바그"
+    },
+    "152210": {
+        "info": "열의.\n배치: 무덤에 있는 난폭한 곰 하나당 1 충전을 획득한다.\n명령: 유닛 하나에게 2만큼 피해를 준다.\n충전: 1.\n",
+        "infoRaw": "<keyword=zeal>열의</keyword>.\n<keyword=deploy>배치</keyword>: 무덤에 있는 난폭한 곰 하나당 1 <keyword=charge>충전</keyword>을 획득한다.\n<keyword=order>명령</keyword>: 유닛 하나에게 2만큼 피해를 준다.\n<keyword=charge>충전</keyword>: 1.\n",
+        "name": "난폭한 곰"
+    },
+    "152211": {
+        "info": "당신의 무덤에서 전사 하나를 아군 전열로 소환한다.\n",
+        "infoRaw": "당신의 무덤에서 전사 하나를 아군 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "시그르드리파의 의식"
+    },
+    "152213": {
+        "info": "배치, 피의 굶주림 3: 5만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=bloodthirst>피의 굶주림</keyword> 3: 5만큼 스스로 증폭한다.\n",
+        "name": "스반리게 튀샤흐"
+    },
+    "152214": {
+        "info": "명령: 유닛 하나에게 1만큼 피해를 준다. \n충전: 3.\n피의 굶주림 2: 열의를 획득한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 유닛 하나에게 1만큼 피해를 준다. \n<keyword=charge>충전</keyword>: 3.\n<keyword=bloodthirst>피의 굶주림</keyword> 2: <keyword=zeal>열의</keyword>를 획득한다.\n",
+        "name": "우달리크 안 브록바"
+    },
+    "152303": {
+        "info": "배치: 적 하나에게 2만큼 피해를 준다. 이 카드를 무덤에서 낼 경우, 해당 적에게 4만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 2만큼 피해를 준다. 이 카드를 무덤에서 낼 경우, 해당 적에게 4만큼 피해를 준다.\n",
+        "name": "안 크라이트 전사"
+    },
+    "152304": {
+        "info": "명령: 적 하나에게 1만큼 피해를 준다. \n충전: 1.\n당신이 카드 한 장을 버릴 때마다 1 충전을 획득한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 적 하나에게 1만큼 피해를 준다. \n<keyword=charge>충전</keyword>: 1.\n당신이 카드 한 장을 <keyword=discard>버릴</keyword> 때마다 1 <keyword=charge>충전</keyword>을 획득한다.\n",
+        "name": "브록바 사냥꾼"
+    },
+    "152305": {
+        "info": "배치: 당신의 덱 맨 위에 있는 카드를 당신의 무덤으로 옮긴다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신의 덱 맨 위에 있는 카드를 당신의 무덤으로 옮긴다.\n",
+        "name": "디문 해적"
+    },
+    "152306": {
+        "info": "배치, 피의 굶주림 2: 적 하나에게 3만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=bloodthirst>피의 굶주림</keyword> 2: 적 하나에게 3만큼 피해를 준다.\n",
+        "name": "디문 해적 선장"
+    },
+    "152307": {
+        "info": "명령: 이 유닛이 피해를 받은 경우, 해당 유닛 하나를 기본 상태로 복사해 생성하고 해당 유닛의 오른쪽에 소환한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 이 유닛이 피해를 받은 경우, 해당 유닛 하나를 기본 상태로 복사해 <keyword=spawn>생성</keyword>하고 해당 유닛의 오른쪽에 <keyword=summon>소환</keyword>한다.\n",
+        "name": "드러먼드 여왕호위대"
+    },
+    "152308": {
+        "info": "배치: 카드 한 장을 버린 후 카드 한 장을 뽑는다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 카드 한 장을 <keyword=discard>버린</keyword> 후 카드 한 장을 뽑는다.\n",
+        "name": "헤이마에이 음유시인"
+    },
+    "152309": {
+        "info": "명령: 자기 자신과 적 하나에게 1만큼 피해를 준다.\n쿨다운: 1.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 자기 자신과 적 하나에게 1만큼 피해를 준다.\n<keyword=cooldown>쿨다운</keyword>: 1.\n",
+        "name": "디문 롱쉽"
+    },
+    "152310": {
+        "info": "당신의 무덤에서 브론즈 유닛 하나를 가져와서 낸다.\n",
+        "infoRaw": "당신의 무덤에서 브론즈 유닛 하나를 가져와서 낸다.\n",
+        "name": "프레야의 축복"
+    },
+    "152311": {
+        "info": "명령: 아군 하나를 1만큼 증폭한다. \n충전: 1.\n당신이 전사 하나를 낼 때마다 1 충전을 획득한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 아군 하나를 1만큼 증폭한다. \n<keyword=charge>충전</keyword>: 1.\n당신이 전사 하나를 낼 때마다 1 <keyword=charge>충전</keyword>을 획득한다.\n",
+        "name": "안 크라이트 대장장이"
+    },
+    "152312": {
+        "info": "배치, 근접: 기본 전력의 절반 값 이하의 전력을 가진 적 하나를 파괴한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 기본 전력의 절반 값 이하의 전력을 가진 적 하나를 파괴한다.\n",
+        "name": "튀샤흐 도끼병"
+    },
+    "152313": {
+        "info": "이 유닛이 버려지는 경우, 당신의 무덤에서 해당 유닛을 근접 전열로 소환한다.\n",
+        "infoRaw": "이 유닛이 <keyword=discard>버려지는</keyword> 경우, 당신의 무덤에서 해당 유닛을 근접 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "튀샤흐 척후병"
+    },
+    "152314": {
+        "info": "상대가 유닛 하나를 낼 때마다 해당 유닛에게 1만큼 피해를 준다.\n",
+        "infoRaw": "상대가 유닛 하나를 낼 때마다 해당 유닛에게 1만큼 피해를 준다.\n",
+        "name": "안 크라이트 롱쉽"
+    },
+    "152315": {
+        "info": "배치, 원거리: 적 하나에게 적 진영의 피해받은 유닛 수만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 적 하나에게 적 진영의 피해받은 유닛 수만큼 피해를 준다.\n",
+        "name": "브록바 궁수"
+    },
+    "152316": {
+        "info": "유닛 하나에게 4만큼 피해를 준다. \n피의 굶주림 2: 유닛 하나에게 6만큼 피해를 준다.\n",
+        "infoRaw": "유닛 하나에게 4만큼 피해를 준다. \n<keyword=bloodthirst>피의 굶주림</keyword> 2: 유닛 하나에게 6만큼 피해를 준다.\n",
+        "name": "도살의 일격"
+    },
+    "152317": {
+        "info": "배치: 아군 하나를 1만큼 증폭한다. 해당 아군이 전사면 3만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 아군 하나를 1만큼 증폭한다. 해당 아군이 전사면 3만큼 증폭한다.\n",
+        "name": "안 크라이트 방어구 제작자"
+    },
+    "152318": {
+        "info": "다음에 이 유닛이 피해를 받는 경우, 당신의 덱에서 이 유닛과 동일한 유닛 하나를 이 전열로 소환한다.\n",
+        "infoRaw": "다음에 이 유닛이 피해를 받는 경우, 당신의 덱에서 이 유닛과 동일한 유닛 하나를 이 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "드러먼드 여전사"
+    },
+    "152403": {
+        "info": "적 전열 하나에 있는 모든 유닛에게 무작위로 6의 피해를 나누어 준다.\n",
+        "infoRaw": "적 전열 하나에 있는 모든 유닛에게 무작위로 6의 피해를 나누어 준다.\n",
+        "name": "정신착란"
+    },
+    "152405": {
+        "info": "능력 없음.\n",
+        "infoRaw": "능력 없음.\n",
+        "name": "늙은 곰"
+    },
+    "152406": {
+        "info": "배치: 이 유닛의 왼쪽에 있는 아군 하나에게 1만큼 피해를 준다. 아군이 없다면 1만큼 스스로 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 이 유닛의 왼쪽에 있는 아군 하나에게 1만큼 피해를 준다. 아군이 없다면 1만큼 스스로 피해를 준다.\n",
+        "name": "분노한 곰"
+    },
+    "153201": {
+        "info": "한 전열에 있는 모든 유닛을 치유한다.\n",
+        "infoRaw": "한 전열에 있는 모든 유닛을 <keyword=heal>치유</keyword>한다.\n",
+        "name": "복원"
+    },
+    "153301": {
+        "info": "한 전열에 있는 모든 유닛에게 2만큼 피해를 준다.\n",
+        "infoRaw": "한 전열에 있는 모든 유닛에게 2만큼 피해를 준다.\n",
+        "name": "난도질"
+    },
+    "162101": {
+        "info": "배치: 적 리더의 모든 카드 다시 뽑기 횟수를 제거한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 리더의 모든 카드 다시 뽑기 횟수를 제거한다.\n",
+        "name": "걸렛의 레토"
+    },
+    "162102": {
+        "info": "배치, 원거리: 당신의 덱에서 전술 카드 한 장을 가져와서 낸다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 당신의 덱에서 전술 카드 한 장을 가져와서 낸다.\n",
+        "name": "메노 코에훈"
+    },
+    "162103": {
+        "info": "명령, 근접: 구속된 적 유닛 하나를 강탈한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>, <keyword=melee>근접</keyword>: <keyword=lock>구속된</keyword> 적 유닛 하나를 <keyword=seize>강탈</keyword>한다.\n",
+        "name": "바티에 드 리도"
+    },
+    "162104": {
+        "info": "근접: 적 하나가 증폭을 받을 때마다, 그 값만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=melee>근접</keyword>: 적 하나가 증폭을 받을 때마다, 그 값만큼 스스로 증폭한다.\n",
+        "name": "카히르 디플린"
+    },
+    "162105": {
+        "info": "배치, 근접: 적 유닛 하나를 파괴한다. 그 후, 상대는 자신의 덱 맨 위에 있는 유닛을 무작위 적 전열로 소환한다.\n배치, 원거리: 아군 유닛 하나를 파괴한다. 그 후, 당신의 덱 맨 위에 있는 유닛을 무작위 아군 전열로 소환한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 적 유닛 하나를 파괴한다. 그 후, 상대는 자신의 덱 맨 위에 있는 유닛을 무작위 적 전열로 <keyword=summon>소환</keyword>한다.\n<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 아군 유닛 하나를 파괴한다. 그 후, 당신의 덱 맨 위에 있는 유닛을 무작위 아군 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "빌게포츠"
+    },
+    "162106": {
+        "info": "명령: 이 턴에 당신이 낸 전술 카드와 동일한 카드 한 장을 생성하고 낸다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 이 턴에 당신이 낸 전술 카드와 동일한 카드 한 장을 <keyword=spawn>생성</keyword>하고 낸다.\n",
+        "name": "스테판 스켈렌"
+    },
+    "162107": {
+        "info": "배치: 상대가 자신의 덱 맨 위에 있는 유닛을 무작위 적 전열로 소환한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 상대가 자신의 덱 맨 위에 있는 유닛을 무작위 적 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "티보르 에게브라흐트"
+    },
+    "162108": {
+        "info": "배치: 당신의 덱에 있는 무작위 카드 한 장을 공개한다. 해당 카드가 유닛이면 그 카드의 전력만큼 스스로 증폭한 후, 해당 카드를 다시 덱에 섞는다. 해당 카드가 인공물 또는 특수 카드면 해당 카드를 가져와서 낸다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신의 덱에 있는 무작위 카드 한 장을 <keyword=reveal>공개</keyword>한다. 해당 카드가 유닛이면 그 카드의 전력만큼 스스로 증폭한 후, 해당 카드를 다시 덱에 섞는다. 해당 카드가 인공물 또는 특수 카드면 해당 카드를 가져와서 낸다.\n",
+        "name": "자르티시우스"
+    },
+    "162201": {
+        "info": "배치, 원거리: 당신의 덱에 있는 카드 중 원하는 카드를 당신의 덱 맨 위로 보낸다. 해당 카드가 유닛이라면 해당 유닛을 2만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 당신의 덱에 있는 카드 중 원하는 카드를 당신의 덱 맨 위로 보낸다. 해당 카드가 유닛이라면 해당 유닛을 2만큼 증폭한다.\n",
+        "name": "알브리히"
+    },
+    "162202": {
+        "info": "배치, 근접: 상대의 무덤에 있는 카드 한 장을 상대의 덱에 섞는다. \n배치, 원거리: 당신의 무덤에 있는 카드 한 장을 가져와서 당신의 덱에 섞는다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 상대의 무덤에 있는 카드 한 장을 상대의 덱에 섞는다. \n<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 당신의 무덤에 있는 카드 한 장을 가져와서 당신의 덱에 섞는다.\n",
+        "name": "아시르 바 아나히드"
+    },
+    "162203": {
+        "info": "배치, 근접: 수호자 하나를 생성하고 상대의 덱 맨 위에 둔다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 수호자 하나를 <keyword=spawn>생성</keyword>하고 상대의 덱 맨 위에 둔다.\n",
+        "name": "신시아"
+    },
+    "162204": {
+        "info": "배치: 유닛 하나의 전력을 기본 전력으로 복구한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 유닛 하나의 전력을 기본 전력으로 복구한다.\n",
+        "name": "패터 사르 그윈레브"
+    },
+    "162205": {
+        "info": "명령: 상대의 덱에서 무작위 특수 카드 한 장을 공개한 후, 해당 카드와 동일한 카드 한 장을 생성하고 낸다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 상대의 덱에서 무작위 특수 카드 한 장을 <keyword=reveal>공개</keyword>한 후, 해당 카드와 동일한 카드 한 장을 <keyword=spawn>생성</keyword>하고 낸다.\n",
+        "name": "프린질라 비고"
+    },
+    "162206": {
+        "info": "배치: 적 하나에게 1만큼 피해를 준다.\n당신이 카드 한 장을 공개할 때마다 이 유닛의 피해량이 1만큼 증가한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 1만큼 피해를 준다.\n당신이 카드 한 장을 <keyword=reveal>공개</keyword>할 때마다 이 유닛의 피해량이 1만큼 증가한다.\n",
+        "name": "스위어스"
+    },
+    "162207": {
+        "info": "배치, 원거리: 구속된 적 유닛 하나를 파괴한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: <keyword=lock>구속된</keyword> 적 유닛 하나를 파괴한다.\n",
+        "name": "반헤마르"
+    },
+    "162208": {
+        "info": "배치: 적 유닛 하나를 구속한다.\n당신의 손에 세리트가 있다면 상대의 손, 덱 및 전장에 있는 해당 적 유닛과 동일한 모든 유닛을 구속한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 유닛 하나를 <keyword=lock>구속</keyword>한다.\n당신의 손에 세리트가 있다면 상대의 손, 덱 및 전장에 있는 해당 적 유닛과 동일한 모든 유닛을 <keyword=lock>구속</keyword>한다.\n",
+        "name": "옥스"
+    },
+    "162209": {
+        "info": "배치: 적 하나에게 3만큼 피해를 준다. 당신의 손에 옥스가 있으면 해당 적 유닛에게 5만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 3만큼 피해를 준다. 당신의 손에 옥스가 있으면 해당 적 유닛에게 5만큼 피해를 준다.\n",
+        "name": "세리트"
+    },
+    "162210": {
+        "info": "첩보원.\n배치: 상대 덱의 맨 위에 있는 카드를 가져와서 낸다.\n",
+        "infoRaw": "<keyword=spying>첩보원</keyword>.\n<keyword=deploy>배치</keyword>: 상대 덱의 맨 위에 있는 카드를 가져와서 낸다.\n",
+        "name": "칸타렐라"
+    },
+    "162211": {
+        "info": "첩보원.\n배치: 당신의 덱 맨 위에 있는 첩보원이 아닌 카드를 가져와서 내고 8만큼 증폭한다.\n",
+        "infoRaw": "<keyword=spying>첩보원</keyword>.\n<keyword=deploy>배치</keyword>: 당신의 덱 맨 위에 있는 <keyword=spying>첩보원</keyword>이 아닌 카드를 가져와서 내고 8만큼 증폭한다.\n",
+        "name": "요아힘 드 베트"
+    },
+    "162212": {
+        "info": "배치, 근접: 적 하나를 다른 전열로 옮긴다.\n배치, 원거리: 적 인공물 하나를 파괴한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 적 하나를 다른 전열로 옮긴다.\n<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 적 인공물 하나를 파괴한다.\n",
+        "name": "가짜 시리"
+    },
+    "162213": {
+        "info": "배치: 전장에 있는 모든 유닛의 상태를 제거한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 전장에 있는 모든 유닛의 상태를 제거한다.\n",
+        "name": "셀락 디플린"
+    },
+    "162301": {
+        "info": "이 유닛을 공개할 때마다 당신의 덱에서 해당 유닛을 무작위 아군 전열로 소환한다.\n",
+        "infoRaw": "이 유닛을 <keyword=reveal>공개</keyword>할 때마다 당신의 덱에서 해당 유닛을 무작위 아군 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "데어란 병사"
+    },
+    "162302": {
+        "info": "배치, 원거리: 소 시체 하나를 생성하고 낸다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 소 시체 하나를 <keyword=spawn>생성</keyword>하고 낸다.\n",
+        "name": "썩은 시체 투기병"
+    },
+    "162303": {
+        "info": "배치, 근접: 상대의 덱에서 무작위 유닛 하나를 공개하고 해당 유닛의 전력만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 상대의 덱에서 무작위 유닛 하나를 <keyword=reveal>공개</keyword>하고 해당 유닛의 전력만큼 스스로 증폭한다.\n",
+        "name": "감시자"
+    },
+    "162304": {
+        "info": "상대의 무덤에서 브론즈 유닛 하나를 가져와서 낸다.\n",
+        "infoRaw": "상대의 무덤에서 브론즈 유닛 하나를 가져와서 낸다.\n",
+        "name": "실험적인 치료법"
+    },
+    "162305": {
+        "info": "배치: 적 하나에게 2만큼 피해를 준 후, 양쪽 덱에서 무작위 유닛 하나를 공개한다. 당신이 공개한 유닛의 전력이 더 높으면 해당 배치 능력을 반복한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 2만큼 피해를 준 후, 양쪽 덱에서 무작위 유닛 하나를 <keyword=reveal>공개</keyword>한다. 당신이 공개한 유닛의 전력이 더 높으면 해당 <keyword=deploy>배치</keyword> 능력을 반복한다.\n",
+        "name": "데이스웬 석궁병"
+    },
+    "162306": {
+        "info": "명령, 원거리: 유닛 하나에게 1만큼 피해를 준다. \n충전: 1.\n당신이 전술 카드 한 장을 낼 때마다 1 충전을 획득한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>, <keyword=ranged>원거리</keyword>: 유닛 하나에게 1만큼 피해를 준다. \n<keyword=charge>충전</keyword>: 1.\n당신이 전술 카드 한 장을 낼 때마다 1 <keyword=charge>충전</keyword>을 획득한다.\n",
+        "name": "화염 전갈"
+    },
+    "162307": {
+        "info": "배치, 근접: 당신의 덱에서 이 유닛과 동일한 유닛 하나를 이 전열로 소환한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 당신의 덱에서 이 유닛과 동일한 유닛 하나를 이 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "제국 여단"
+    },
+    "162308": {
+        "info": "명령: 적 하나에게 2만큼 피해를 준다.\n충전: 1.\n당신이 첩보원 유닛 하나를 낼 때마다 1 충전을 획득한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 적 하나에게 2만큼 피해를 준다.\n<keyword=charge>충전</keyword>: 1.\n당신이 <keyword=spying>첩보원</keyword> 유닛 하나를 낼 때마다 1 <keyword=charge>충전</keyword>을 획득한다.\n",
+        "name": "제국 집행부대"
+    },
+    "162309": {
+        "info": "배치 능력이 있는 유닛 하나를 낼 때마다 1만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword> 능력이 있는 유닛 하나를 낼 때마다 1만큼 스스로 증폭한다.\n",
+        "name": "나우지카 지휘관"
+    },
+    "162310": {
+        "info": "배치: 증폭된 적 하나에게 3만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 증폭된 적 하나에게 3만큼 피해를 준다.\n",
+        "name": "나우지카 여단"
+    },
+    "162311": {
+        "info": "배치, 근접: 적 하나에게 적의 다른 전열에 있는 유닛 수만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 적 하나에게 적의 다른 전열에 있는 유닛 수만큼 피해를 준다.\n",
+        "name": "알바 장창병"
+    },
+    "162312": {
+        "info": "배치: 적 하나에게 2만큼 피해를 준다. 인접한 병사 하나당 1만큼 피해량이 증가한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 2만큼 피해를 준다. 인접한 병사 하나당 1만큼 피해량이 증가한다.\n",
+        "name": "알바 창병"
+    },
+    "162313": {
+        "info": "배치: 당신의 전장에 인공물 하나가 있다면 3만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신의 전장에 인공물 하나가 있다면 3만큼 스스로 증폭한다.\n",
+        "name": "전투 공병"
+    },
+    "162314": {
+        "info": "첩보원.\n배치: 아군 하나를 7만큼 증폭한다.\n",
+        "infoRaw": "<keyword=spying>첩보원</keyword>.\n<keyword=deploy>배치</keyword>: 아군 하나를 7만큼 증폭한다.\n",
+        "name": "사절"
+    },
+    "162315": {
+        "info": "상대 세력의 브론즈 유닛 하나를 창조하고 낸다.\n",
+        "infoRaw": "상대 세력의 브론즈 유닛 하나를 <keyword=create>창조</keyword>하고 낸다.\n",
+        "name": "제국의 외교"
+    },
+    "162316": {
+        "info": "배치, 원거리: 아군 2명의 전력을 교체한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 아군 2명의 전력을 교체한다.\n",
+        "name": "연금술사"
+    },
+    "162317": {
+        "info": "카드 한 장을 공개할 때마다, 무작위 적 하나에게 1만큼 피해를 준다.\n",
+        "infoRaw": "카드 한 장을 <keyword=reveal>공개</keyword>할 때마다, 무작위 적 하나에게 1만큼 피해를 준다.\n",
+        "name": "망고넬"
+    },
+    "162318": {
+        "info": "배치: 적 하나를 2만큼 증폭한다. 적 유닛이 없으면 스스로 파괴된다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나를 2만큼 증폭한다. 적 유닛이 없으면 스스로 파괴된다.\n",
+        "name": "닐프가드 기사"
+    },
+    "162401": {
+        "info": "능력 없음.\n",
+        "infoRaw": "능력 없음.\n",
+        "name": "수호자"
+    },
+    "162402": {
+        "info": "첩보원. 소멸.\n1턴 후 턴 종료 시 이 유닛과 이 유닛의 왼쪽에 있는 유닛을 파괴한다.\n",
+        "infoRaw": "<keyword=spying>첩보원</keyword>. <keyword=doomed>소멸</keyword>.\n1턴 후 턴 종료 시 이 유닛과 이 유닛의 왼쪽에 있는 유닛을 파괴한다.\n",
+        "name": "소 시체"
+    },
+    "163101": {
+        "info": "적 유닛 하나가 그 전력만큼 인접 유닛에게 피해를 주게 만든다.\n",
+        "infoRaw": "적 유닛 하나가 그 전력만큼 인접 유닛에게 피해를 주게 만든다.\n",
+        "name": "배반"
+    },
+    "163201": {
+        "info": "상대의 원래 덱에 있는 유닛 하나를 창조하고 낸다.\n",
+        "infoRaw": "상대의 원래 덱에 있는 유닛 하나를 <keyword=create>창조</keyword>하고 낸다.\n",
+        "name": "매수"
+    },
+    "200008": {
+        "info": "열의.\n명령: 아군 하나를 3만큼 증폭하고 해당 아군에게 열의를 준다.\n",
+        "infoRaw": "<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 아군 하나를 3만큼 증폭하고 해당 아군에게 <keyword=zeal>열의</keyword>를 준다.\n",
+        "name": "페트리의 미약"
+    },
+    "200018": {
+        "info": "유닛 또는 인공물 하나를 추방한다.\n",
+        "infoRaw": "유닛 또는 인공물 하나를 <keyword=banish>추방</keyword>한다.\n",
+        "name": "코라스의 폭염"
+    },
+    "200019": {
+        "info": "당신의 덱에서 가장 낮은 유닛을 가져와서 낸다.\n",
+        "infoRaw": "당신의 덱에서 가장 낮은 유닛을 가져와서 낸다.\n",
+        "name": "행군 명령"
+    },
+    "200020": {
+        "info": "당신의 무덤에서 브론즈 유닛 하나를 내고 소멸 능력을 준다.\n",
+        "infoRaw": "당신의 무덤에서 브론즈 유닛 하나를 내고 <keyword=doomed>소멸</keyword> 능력을 준다.\n",
+        "name": "강령술"
+    },
+    "200022": {
+        "info": "열의.\n명령: 당신의 덱에서 소환진의 충전 횟수 이하의 유지비를 가진 유닛 하나를 낸 후, 모든 충전 횟수를 제거한다.\n충전: 0.\n매 턴 시작 시, 1 충전을 획득한다.\n",
+        "infoRaw": "<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 당신의 덱에서 소환진의 <keyword=charge>충전</keyword> 횟수 이하의 유지비를 가진 유닛 하나를 낸 후, 모든 <keyword=charge>충전</keyword> 횟수를 제거한다.\n<keyword=charge>충전</keyword>: 0.\n매 턴 시작 시, 1 <keyword=charge>충전</keyword>을 획득한다.\n",
+        "name": "소환진"
+    },
+    "200023": {
+        "info": "유닛 하나에게 3만큼 피해를 준다. 해당 유닛이 파괴되면 인접한 유닛에게 3만큼 피해를 준다.\n",
+        "infoRaw": "유닛 하나에게 3만큼 피해를 준다. 해당 유닛이 파괴되면 인접한 유닛에게 3만큼 피해를 준다.\n",
+        "name": "아라카스 독"
+    },
+    "200026": {
+        "info": "배치: 아군 유닛 하나를 1만큼 증폭한다. 당신의 전장에 가장 높은 유닛이 있으면 해당 아군을 3만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 아군 유닛 하나를 1만큼 증폭한다. 당신의 전장에 가장 높은 유닛이 있으면 해당 아군을 3만큼 증폭한다.\n",
+        "name": "와일드 헌트 항법사"
+    },
+    "200028": {
+        "info": "배치, 근접: 피해받은 적 하나를 파괴한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 피해받은 적 하나를 파괴한다.\n",
+        "name": "바브욘"
+    },
+    "200030": {
+        "info": "배치, 근접: 적 하나에게 4만큼 피해를 준다.\n배치, 원거리: 적 4명에게 1만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 적 하나에게 4만큼 피해를 준다.\n<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 적 4명에게 1만큼 피해를 준다.\n",
+        "name": "밀렌"
+    },
+    "200031": {
+        "info": "배치, 근접: 전력이 8 이상인 적 하나를 파괴한다. \n배치, 원거리: 위쳐 한 명을 파괴한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 전력이 8 이상인 적 하나를 파괴한다. \n<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 위쳐 한 명을 파괴한다.\n",
+        "name": "레오 본하트"
+    },
+    "200032": {
+        "info": "배치: 적 하나를 3만큼 증폭한 후, 3만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나를 3만큼 증폭한 후, 3만큼 스스로 증폭한다.\n",
+        "name": "아트레의 레인파른"
+    },
+    "200033": {
+        "info": "열의.\n명령, 원거리: 아군 유닛 하나에게 1 충전을 준다.\n쿨다운: 2.\n",
+        "infoRaw": "<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>, <keyword=ranged>원거리</keyword>: 아군 유닛 하나에게 1 <keyword=charge>충전</keyword>을 준다.\n<keyword=cooldown>쿨다운</keyword>: 2.\n",
+        "name": "아레투자 마법 생도"
+    },
+    "200036": {
+        "info": "배치, 근접, 피의 굶주림 1: 적 인공물 하나를 파괴한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>, <keyword=bloodthirst>피의 굶주림</keyword> 1: 적 인공물 하나를 파괴한다.\n",
+        "name": "드러먼드 전쟁광"
+    },
+    "200037": {
+        "info": "배치: 인접한 아군 유닛 하나를 파괴하고 적 하나에게 그 전력만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 인접한 아군 유닛 하나를 파괴하고 적 하나에게 그 전력만큼 피해를 준다.\n",
+        "name": "사이클롭스"
+    },
+    "200038": {
+        "info": "번창.\n배치: 무작위 적 하나에게 2만큼 피해를 준다. \n유언: 해당 배치 능력을 반복한다.\n",
+        "infoRaw": "<keyword=thrive>번창</keyword>.\n<keyword=deploy>배치</keyword>: 무작위 적 하나에게 2만큼 피해를 준다. \n<keyword=deathwish>유언</keyword>: 해당 <keyword=deploy>배치</keyword> 능력을 반복한다.\n",
+        "name": "아키스포어"
+    },
+    "200039": {
+        "info": "근접: 적 하나가 다른 전열로 이동할 때마다 해당 적에게 1만큼 피해를 준다.\n원거리: 아군 하나가 다른 전열로 이동할 때마다 해당 아군을 1만큼 증폭한다.\n",
+        "infoRaw": "<keyword=melee>근접</keyword>: 적 하나가 다른 전열로 이동할 때마다 해당 적에게 1만큼 피해를 준다.\n<keyword=ranged>원거리</keyword>: 아군 하나가 다른 전열로 이동할 때마다 해당 아군을 1만큼 증폭한다.\n",
+        "name": "돌 블라타나 보초"
+    },
+    "200040": {
+        "info": "반대편 전열에 있는 적이 피해를 받을 때마다 1만큼 스스로 증폭한다.\n",
+        "infoRaw": "반대편 전열에 있는 적이 피해를 받을 때마다 1만큼 스스로 증폭한다.\n",
+        "name": "안 크라이트 대검사"
+    },
+    "200041": {
+        "info": "면역.\n명령: 적 하나에게 이 전열에 있는 병사 하나당 2만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=immune>면역</keyword>.\n<keyword=order>명령</keyword>: 적 하나에게 이 전열에 있는 병사 하나당 2만큼 피해를 준다.\n",
+        "name": "육중한 헬게"
+    },
+    "200042": {
+        "info": "배치: 이 유닛이 이미 증폭된 경우, 잔류를 획득한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 이 유닛이 이미 증폭된 경우, <keyword=resilient>잔류</keyword>를 획득한다.\n",
+        "name": "마하캄 약탈자"
+    },
+    "200043": {
+        "info": "배치: 하랄드의 친구 3개를 생성하고 당신의 다른 아군 전열로 소환한다.\n명령: 아군 하나에게 1만큼 피해를 준다.\n쿨다운: 1.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 하랄드의 친구 3개를 <keyword=spawn>생성</keyword>하고 당신의 다른 아군 전열로 <keyword=summon>소환</keyword>한다.\n<keyword=order>명령</keyword>: 아군 하나에게 1만큼 피해를 준다.\n<keyword=cooldown>쿨다운</keyword>: 1.\n",
+        "name": "개코 하랄드"
+    },
+    "200044": {
+        "info": "매 턴 종료시, 이 카드가 이 전열에 있는 유일한 카드면 해당 카드를 1만큼 스스로 증폭한다.\n",
+        "infoRaw": "매 턴 종료시, 이 카드가 이 전열에 있는 유일한 카드면 해당 카드를 1만큼 스스로 증폭한다.\n",
+        "name": "마그네 사단"
+    },
+    "200046": {
+        "info": "배치: 4만큼 스스로 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 4만큼 스스로 피해를 준다.\n",
+        "name": "튀샤흐 참전용사"
+    },
+    "200048": {
+        "info": "배치: 아군 하나를 해당 아군의 충전량당 1만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 아군 하나를 해당 아군의 <keyword=charge>충전량</keyword>당 1만큼 증폭한다.\n",
+        "name": "반 아드 교사"
+    },
+    "200049": {
+        "info": "배치: 당신의 전장에 병사 하나가 있다면 적 인공물 하나를 파괴한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신의 전장에 병사 하나가 있다면 적 인공물 하나를 파괴한다.\n",
+        "name": "공성 망치"
+    },
+    "200050": {
+        "info": "배치: 아군 병사 하나와 해당 병사와 동일한 모든 유닛을 2만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 아군 병사 하나와 해당 병사와 동일한 모든 유닛을 2만큼 증폭한다.\n",
+        "name": "브림데"
+    },
+    "200052": {
+        "info": "유언: 상대가 자신의 덱에서 가장 낮은 유닛을 반대편 전열로 소환한다.\n",
+        "infoRaw": "<keyword=deathwish>유언</keyword>: 상대가 자신의 덱에서 가장 낮은 유닛을 반대편 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "골리앗"
+    },
+    "200053": {
+        "info": "유닛 하나를 구속하고 해당 유닛의 전력을 기본 전력으로 복구시킨다.\n",
+        "infoRaw": "유닛 하나를 <keyword=lock>구속</keyword>하고 해당 유닛의 전력을 기본 전력으로 복구시킨다.\n",
+        "name": "압축 주문"
+    },
+    "200055": {
+        "info": "명령: 아군 하나의 유언 능력을 발동한다.\n이 리더의 능력은 매 라운드 사용할 수 있다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 아군 하나의 <keyword=deathwish>유언</keyword> 능력을 발동한다.\n이 리더의 능력은 매 라운드 사용할 수 있다.\n",
+        "name": "은자들의 장로"
+    },
+    "200056": {
+        "info": "배치, 원거리: 특수 카드 한 장을 창조한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 특수 카드 한 장을 <keyword=create>창조</keyword>한다.\n",
+        "name": "아구아라: 본모습"
+    },
+    "200058": {
+        "info": "골드 유닛 하나를 창조하고 낸다.\n",
+        "infoRaw": "골드 유닛 하나를 <keyword=create>창조</keyword>하고 낸다.\n",
+        "name": "우마의 저주"
+    },
+    "200062": {
+        "info": "배치, 근접: 유닛 하나를 구속한다.\n배치, 원거리: 유닛 하나의 구속을 제거한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 유닛 하나를 <keyword=lock>구속</keyword>한다.\n<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 유닛 하나의 <keyword=lock>구속</keyword>을 제거한다.\n",
+        "name": "아구아라"
+    },
+    "200071": {
+        "info": "배치: 상대의 손에 있는 가장 높은 유닛의 전력을 1(으)로 설정한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 상대의 손에 있는 가장 높은 유닛의 전력을 1(으)로 설정한다.\n",
+        "name": "쉴라드 피츠 오스터렌"
+    },
+    "200073": {
+        "info": "배치: 당신의 전장에 가장 높은 유닛이 있으면 적 하나에게 5만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신의 전장에 가장 높은 유닛이 있으면 적 하나에게 5만큼 피해를 준다.\n",
+        "name": "아다: 스트리가"
+    },
+    "200078": {
+        "info": "유닛 하나의 전력을 12만큼 증폭한다. 대상이 위쳐가 아닌 경우, 먼저 6만큼 피해를 준다.\n",
+        "infoRaw": "유닛 하나의 전력을 12만큼 증폭한다. 대상이 위쳐가 아닌 경우, 먼저 6만큼 피해를 준다.\n",
+        "name": "풀의 시험"
+    },
+    "200079": {
+        "info": "상대의 무덤에서 유닛 하나를 내고 소멸을 준다.\n",
+        "infoRaw": "상대의 무덤에서 유닛 하나를 내고 <keyword=doomed>소멸</keyword>을 준다.\n",
+        "name": "한마빈의 푸른몽환술"
+    },
+    "200080": {
+        "info": "근접: 이 유닛이 증폭을 받을 때마다 해당 유닛을 추가로 2만큼 증폭한다.\n",
+        "infoRaw": "<keyword=melee>근접</keyword>: 이 유닛이 증폭을 받을 때마다 해당 유닛을 추가로 2만큼 증폭한다.\n",
+        "name": "자비에 모란"
+    },
+    "200081": {
+        "info": "배치, 원거리: 아군 하나를 2만큼 치유한 후, 2만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 아군 하나를 2만큼 <keyword=heal>치유</keyword>한 후, 2만큼 증폭한다.\n",
+        "name": "헤이마에이 약초사"
+    },
+    "200083": {
+        "info": "배치: 당신의 덱에서 원하는 카드 한 장을 뽑은 후 무작위 카드 한 장을 버린다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신의 덱에서 원하는 카드 한 장을 뽑은 후 무작위 카드 한 장을 <keyword=discard>버린다</keyword>.\n",
+        "name": "이리스의 동료"
+    },
+    "200087": {
+        "info": "배치: 유닛 하나를 구속한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 유닛 하나를 <keyword=lock>구속</keyword>한다.\n",
+        "name": "볼르의 도레게레이"
+    },
+    "200088": {
+        "info": "배치: 이 턴에서 당신이 적에게 준 피해량만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 이 턴에서 당신이 적에게 준 피해량만큼 스스로 증폭한다.\n",
+        "name": "휴버트 레익"
+    },
+    "200089": {
+        "info": "배치: 한 전열에 있는 모든 유닛을 다른 전열로 옮긴다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 한 전열에 있는 모든 유닛을 다른 전열로 옮긴다.\n",
+        "name": "니벨렌"
+    },
+    "200091": {
+        "info": "원거리: 2턴 후, 각 플레이어는 유닛 하나를 뽑는다. 뽑은 유닛의 전력은 1(으)로 설정된다.\n",
+        "infoRaw": "<keyword=ranged>원거리</keyword>: 2턴 후, 각 플레이어는 유닛 하나를 뽑는다. 뽑은 유닛의 전력은 1(으)로 설정된다.\n",
+        "name": "스트레고보르"
+    },
+    "200098": {
+        "info": "열의.\n명령, 근접: 증폭되지 않은 적 하나의 전력을 1(으)로 설정한다.\n",
+        "infoRaw": "<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>, <keyword=melee>근접</keyword>: 증폭되지 않은 적 하나의 전력을 1(으)로 설정한다.\n",
+        "name": "빈센트 메이스"
+    },
+    "200102": {
+        "info": "배치: 이 유닛의 전력을 피해받은 유닛 하나의 전력과 교체한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 이 유닛의 전력을 피해받은 유닛 하나의 전력과 교체한다.\n",
+        "name": "힘"
+    },
+    "200103": {
+        "info": "명령: 올라프를 받은 피해량의 두 배만큼 증폭한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 올라프를 받은 피해량의 두 배만큼 증폭한다.\n",
+        "name": "올라프"
+    },
+    "200104": {
+        "info": "배치: 적 하나에게 현재 적 전력의 절반만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 현재 적 전력의 절반만큼 피해를 준다.\n",
+        "name": "울프헤딘"
+    },
+    "200105": {
+        "info": "배치: 적 하나에게 1만큼 3번 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 1만큼 3번 피해를 준다.\n",
+        "name": "디문 전함"
+    },
+    "200112": {
+        "info": "배치: 유언 능력이 있는 아군 하나를 3만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: <keyword=deathwish>유언</keyword> 능력이 있는 아군 하나를 3만큼 증폭한다.\n",
+        "name": "사이렌"
+    },
+    "200114": {
+        "info": "면역. 번창.\n",
+        "infoRaw": "<keyword=immune>면역</keyword>. <keyword=thrive>번창</keyword>.\n",
+        "name": "늑대인간 우두머리"
+    },
+    "200115": {
+        "info": "유닛 하나에게 6만큼 피해를 준다. 해당 유닛 주위에 인접한 유닛 하나당 1만큼 피해가 감소한다.\n",
+        "infoRaw": "유닛 하나에게 6만큼 피해를 준다. 해당 유닛 주위에 인접한 유닛 하나당 1만큼 피해가 감소한다.\n",
+        "name": "암살"
+    },
+    "200118": {
+        "info": "근접: 라운드 종료 시, 이 유닛을 상대의 덱에 넣어 섞는다.\n",
+        "infoRaw": "<keyword=melee>근접</keyword>: 라운드 종료 시, 이 유닛을 상대의 덱에 넣어 섞는다.\n",
+        "name": "잠입자"
+    },
+    "200124": {
+        "info": "배치: 상대 덱의 맨 위에 있는 카드를 공개하고 추방한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 상대 덱의 맨 위에 있는 카드를 <keyword=reveal>공개</keyword>하고 <keyword=banish>추방</keyword>한다.\n",
+        "name": "바이퍼 위쳐"
+    },
+    "200135": {
+        "info": "열의.\n명령: 아군 인공물 하나를 파괴하고 유닛 하나에게 2만큼 피해를 준다. \n쿨다운: 2.\n",
+        "infoRaw": "<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 아군 인공물 하나를 파괴하고 유닛 하나에게 2만큼 피해를 준다. \n<keyword=cooldown>쿨다운</keyword>: 2.\n",
+        "name": "폭탄 전문가"
+    },
+    "200136": {
+        "info": "배치, 원거리: 당신의 덱에서 무작위 카드 한 장을 공개한다. 공개한 카드가 특수 카드인 경우, 2만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 당신의 덱에서 무작위 카드 한 장을 <keyword=reveal>공개</keyword>한다. 공개한 카드가 특수 카드인 경우, 2만큼 스스로 증폭한다.\n",
+        "name": "선견자"
+    },
+    "200138": {
+        "info": "당신이 특수 카드 한 장을 낼 때마다 2만큼 스스로 증폭한다.\n",
+        "infoRaw": "당신이 특수 카드 한 장을 낼 때마다 2만큼 스스로 증폭한다.\n",
+        "name": "현자"
+    },
+    "200139": {
+        "info": "배치: 스코이아텔이 아닌 적 유닛 하나에게 3만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 스코이아텔이 아닌 적 유닛 하나에게 3만큼 피해를 준다.\n",
+        "name": "흑표범"
+    },
+    "200144": {
+        "info": "배치: 아군 야수 하나를 2만큼 증폭한다. 증폭량은 당신의 무덤에 있는 야수 하나당 1만큼 증가한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 아군 야수 하나를 2만큼 증폭한다. 증폭량은 당신의 무덤에 있는 야수 하나당 1만큼 증가한다.\n",
+        "name": "튀샤흐 야수 조련사"
+    },
+    "200145": {
+        "info": "배치: 유닛 하나에게 당신의 손에 있는 배 하나당 1만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 유닛 하나에게 당신의 손에 있는 배 하나당 1만큼 피해를 준다.\n",
+        "name": "디문 용병 해적"
+    },
+    "200146": {
+        "info": "배치, 근접: 유닛 하나에게 1만큼 피해를 준 후, 해당 유닛을 2만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 유닛 하나에게 1만큼 피해를 준 후, 해당 유닛을 2만큼 증폭한다.\n",
+        "name": "디문 밀수꾼"
+    },
+    "200147": {
+        "info": "매 턴 종료 시, 이 전열에 있는 피해받은 모든 아군을 1만큼 치유한다.\n",
+        "infoRaw": "매 턴 종료 시, 이 전열에 있는 피해받은 모든 아군을 1만큼 <keyword=heal>치유</keyword>한다.\n",
+        "name": "헤이마에이 제관"
+    },
+    "200149": {
+        "info": "인접한 유닛 하나가 피해를 받을 때마다 1만큼 스스로 증폭한다.\n",
+        "infoRaw": "인접한 유닛 하나가 피해를 받을 때마다 1만큼 스스로 증폭한다.\n",
+        "name": "헤이마에이 보호자"
+    },
+    "200154": {
+        "info": "당신의 덱에서 유닛 하나를 가져와서 낸다.\n",
+        "infoRaw": "당신의 덱에서 유닛 하나를 가져와서 낸다.\n",
+        "name": "칙령"
+    },
+    "200159": {
+        "info": "명령: 카드 한 장을 버린 후 카드 한 장을 뽑는다.\n당신이 카드 한 장을 버릴 때마다 무작위 적 하나에게 1만큼 피해를 준다.\n이 리더의 능력은 매 라운드 사용할 수 있다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 카드 한 장을 <keyword=discard>버린</keyword> 후 카드 한 장을 뽑는다.\n당신이 카드 한 장을 <keyword=discard>버릴</keyword> 때마다 무작위 적 하나에게 1만큼 피해를 준다.\n이 리더의 능력은 매 라운드 사용할 수 있다.\n",
+        "name": "브랜 튀샤흐"
+    },
+    "200160": {
+        "info": "명령: 유닛 하나에게 1만큼 피해를 준다. \n쿨다운: 2.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 유닛 하나에게 1만큼 피해를 준다. \n<keyword=cooldown>쿨다운</keyword>: 2.\n",
+        "name": "크래치 안 크라이트"
+    },
+    "200161": {
+        "info": "명령: 모든 적에게 무작위로 8의 피해를 나누어 준다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 모든 적에게 무작위로 8의 피해를 나누어 준다.\n",
+        "name": "절름발이 하랄드"
+    },
+    "200162": {
+        "info": "명령: 전장에 있는 카드 한 장을 당신의 손으로 옮긴 후, 카드 한 장을 낸다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 전장에 있는 카드 한 장을 당신의 손으로 옮긴 후, 카드 한 장을 낸다.\n",
+        "name": "에미르 바 엠레이스"
+    },
+    "200163": {
+        "info": "명령: 상대의 덱에서 무작위 카드 한 장을 공개한다. 공개한 카드가 브론즈면 아군 하나를 3만큼 증폭한다. 골드 카드면 4만큼 증폭한다.\n이 리더의 능력은 매 라운드 사용할 수 있다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 상대의 덱에서 무작위 카드 한 장을 <keyword=reveal>공개</keyword>한다. 공개한 카드가 브론즈면 아군 하나를 3만큼 증폭한다. 골드 카드면 4만큼 증폭한다.\n이 리더의 능력은 매 라운드 사용할 수 있다.\n",
+        "name": "모르브란 부히스"
+    },
+    "200164": {
+        "info": "명령: 당신의 덱에서 위에 있는 카드 3장을 확인한 후 한 장을 가져와서 낸다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 당신의 덱에서 위에 있는 카드 3장을 확인한 후 한 장을 가져와서 낸다.\n",
+        "name": "얀 칼베이트"
+    },
+    "200165": {
+        "info": "명령: 당신의 무덤에서 특수 카드 한 장을 가져와서 낸다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 당신의 무덤에서 특수 카드 한 장을 가져와서 낸다.\n",
+        "name": "프란체스카 핀다베어"
+    },
+    "200166": {
+        "info": "명령: 유닛 하나에게 1만큼 피해를 준다.\n충전: 3.\n라운드 시작 시, 에트나의 충전 횟수가 초기화된다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 유닛 하나에게 1만큼 피해를 준다.\n<keyword=charge>충전</keyword>: 3.\n라운드 시작 시, 에트나의 <keyword=charge>충전</keyword> 횟수가 초기화된다.\n",
+        "name": "에트나"
+    },
+    "200167": {
+        "info": "명령: 유닛 하나를 다른 전열로 옮긴다. 해당 유닛이 적일 경우, 해당 적에게 2만큼 피해를 준다. 해당 유닛이 아군일 경우, 해당 아군을 2만큼 증폭한다. \n충전: 3.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 유닛 하나를 다른 전열로 옮긴다. 해당 유닛이 적일 경우, 해당 적에게 2만큼 피해를 준다. 해당 유닛이 아군일 경우, 해당 아군을 2만큼 증폭한다. \n<keyword=charge>충전</keyword>: 3.\n",
+        "name": "브루버 후그"
+    },
+    "200168": {
+        "info": "명령: 아군 하나를 1만큼 증폭하고 열의 능력을 준다.\n충전: 3.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 아군 하나를 1만큼 증폭하고 <keyword=zeal>열의</keyword> 능력을 준다.\n<keyword=charge>충전</keyword>: 3.\n",
+        "name": "폴테스트 왕"
+    },
+    "200170": {
+        "info": "명령: 당신의 덱에서 아군 유닛 하나를 복사해 전장에 내고 4만큼 증폭한 후, 해당 유닛에게 열의를 준다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 당신의 덱에서 아군 유닛 하나를 복사해 전장에 내고 4만큼 증폭한 후, 해당 유닛에게 <keyword=zeal>열의</keyword>를 준다.\n",
+        "name": "헨젤트 왕"
+    },
+    "200171": {
+        "info": "이 유닛이 증폭을 받을 때마다 무작위 적 하나에게 1만큼 피해를 준다.\n",
+        "infoRaw": "이 유닛이 증폭을 받을 때마다 무작위 적 하나에게 1만큼 피해를 준다.\n",
+        "name": "트리담 보병"
+    },
+    "200177": {
+        "info": "이 유닛이 무덤에 있는 경우, 당신의 무덤에서 유닛 하나를 낼 때마다 이 유닛을 무작위 아군 전열로 소환한다.\n",
+        "infoRaw": "이 유닛이 무덤에 있는 경우, 당신의 무덤에서 유닛 하나를 낼 때마다 이 유닛을 무작위 아군 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "세리스 안 크라이트"
+    },
+    "200209": {
+        "info": "명령: 적 하나에게 2만큼 피해를 준다.\n쿨다운: 4.\n당신의 손에 엘프, 드워프, 또는 드라이어드가 한 장이라도 있다면 쿨다운이 1만큼 감소한다(유형별 한 번만 사용 가능).\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 적 하나에게 2만큼 피해를 준다.\n<keyword=cooldown>쿨다운</keyword>: 4.\n당신의 손에 엘프, 드워프, 또는 드라이어드가 한 장이라도 있다면 <keyword=cooldown>쿨다운</keyword>이 1만큼 감소한다(유형별 한 번만 사용 가능).\n",
+        "name": "사스키아"
+    },
+    "200212": {
+        "info": "배치: 피해받지 않은 적 하나에게 4만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 피해받지 않은 적 하나에게 4만큼 피해를 준다.\n",
+        "name": "스칼"
+    },
+    "200218": {
+        "info": "배치, 근접: 전장에 있는 유닛이 상대보다 많은 경우, 부족한 유닛 하나당 2만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 전장에 있는 유닛이 상대보다 많은 경우, 부족한 유닛 하나당 2만큼 스스로 증폭한다.\n",
+        "name": "요툰"
+    },
+    "200220": {
+        "info": "배치, 원거리: 당신의 덱에서 생체 카드 한 장을 가져와서 낸다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 당신의 덱에서 생체 카드 한 장을 가져와서 낸다.\n",
+        "name": "속삭 마녀: 공물"
+    },
+    "200221": {
+        "info": "모든 아군의 유언 능력을 발동한다.\n",
+        "infoRaw": "모든 아군의 <keyword=deathwish>유언</keyword> 능력을 발동한다.\n",
+        "name": "의식의 제물"
+    },
+    "200222": {
+        "info": "배치, 근접: 당신의 손에 있는 유닛 하나를 섭취하고 카드 한 장을 뽑는다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 당신의 손에 있는 유닛 하나를 <keyword=consume>섭취</keyword>하고 카드 한 장을 뽑는다.\n",
+        "name": "뜨개 마녀: 주문"
+    },
+    "200223": {
+        "info": "유닛 하나를 초기화한다.\n",
+        "infoRaw": "유닛 하나를 <keyword=reset>초기화</keyword>한다.\n",
+        "name": "맨드레이크"
+    },
+    "200224": {
+        "info": "브론즈 유닛 하나의 유언 능력을 발동한다.\n",
+        "infoRaw": "브론즈 유닛 하나의 <keyword=deathwish>유언</keyword> 능력을 발동한다.\n",
+        "name": "까마귀의 눈"
+    },
+    "200225": {
+        "info": "전력이 5 이하인 적 하나를 강탈하고 구속한다.\n",
+        "infoRaw": "전력이 5 이하인 적 하나를 <keyword=seize>강탈</keyword>하고 <keyword=lock>구속</keyword>한다.\n",
+        "name": "비고의 재갈"
+    },
+    "200226": {
+        "info": "짝수 전력을 가진 모든 적에게 2만큼 피해를 준다. 또는 홀수 전력을 가진 모든 적에게 2만큼 피해를 준다.\n",
+        "infoRaw": "짝수 전력을 가진 모든 적에게 2만큼 피해를 준다. 또는 홀수 전력을 가진 모든 적에게 2만큼 피해를 준다.\n",
+        "name": "투구꽃"
+    },
+    "200228": {
+        "info": "매복: 다음에 상대 진영에 등장하는 유닛을 해당 유닛의 능력이 발동되기 전에 파괴한다.\n",
+        "infoRaw": "<keyword=ambush>매복</keyword>: 다음에 상대 진영에 등장하는 유닛을 해당 유닛의 능력이 발동되기 전에 파괴한다.\n",
+        "name": "구멍 함정"
+    },
+    "200233": {
+        "info": "배치: 적 하나에게 인접한 야수 하나당 2만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 인접한 야수 하나당 2만큼 피해를 준다.\n",
+        "name": "코카트리스"
+    },
+    "200234": {
+        "info": "배치: 4만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 4만큼 스스로 증폭한다.\n",
+        "name": "찢어지게 가난한 보병"
+    },
+    "200235": {
+        "info": "배치: 잔류가 있는 적 하나를 파괴한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: <keyword=resilient>잔류</keyword>가 있는 적 하나를 파괴한다.\n",
+        "name": "램버트: 소드마스터"
+    },
+    "200236": {
+        "info": "근접: 매 턴 종료 시, 1만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=melee>근접</keyword>: 매 턴 종료 시, 1만큼 스스로 증폭한다.\n",
+        "name": "에스켈: 길잡이"
+    },
+    "200237": {
+        "info": "배치: 손, 덱 또는 전장에 있는 모든 위쳐 아군을 1만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 손, 덱 또는 전장에 있는 모든 위쳐 아군을 1만큼 증폭한다.\n",
+        "name": "베스미어: 스승"
+    },
+    "200293": {
+        "info": "배치, 원거리: 당신의 손에 있는 드워프 하나를 2만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 당신의 손에 있는 드워프 하나를 2만큼 증폭한다.\n",
+        "name": "드워프 선동자"
+    },
+    "200294": {
+        "info": "배치: 아군 하나를 2만큼 증폭한다.\n당신이 이 카드를 공개할 때마다, 무작위 아군 하나를 2만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 아군 하나를 2만큼 증폭한다.\n당신이 이 카드를 <keyword=reveal>공개</keyword>할 때마다, 무작위 아군 하나를 2만큼 증폭한다.\n",
+        "name": "기수"
+    },
+    "200295": {
+        "info": "유언: 무작위 적 하나에게 4만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deathwish>유언</keyword>: 무작위 적 하나에게 4만큼 피해를 준다.\n",
+        "name": "썩은마귀"
+    },
+    "200296": {
+        "info": "배치, 근접: 적 유닛 하나를 구속한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 적 유닛 하나를 <keyword=lock>구속</keyword>한다.\n",
+        "name": "알바 중갑기병"
+    },
+    "200299": {
+        "info": "명령: 아군 하나를 1만큼 증폭하고 열의 능력을 준다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 아군 하나를 1만큼 증폭하고 <keyword=zeal>열의</keyword> 능력을 준다.\n",
+        "name": "테메리아 군악대"
+    },
+    "200300": {
+        "info": "적 하나를 다른 전열로 옮기고 해당 적에게 해당 전열에 있는 유닛 수만큼 피해를 준다.\n",
+        "infoRaw": "적 하나를 다른 전열로 옮기고 해당 적에게 해당 전열에 있는 유닛 수만큼 피해를 준다.\n",
+        "name": "전리품 갈고리"
+    },
+    "200301": {
+        "info": "당신의 덱에서 무작위 골드 카드 2장을 확인한 후, 한 장은 내고 나머지는 덱의 맨 위에 놓는다.\n",
+        "infoRaw": "당신의 덱에서 무작위 골드 카드 2장을 확인한 후, 한 장은 내고 나머지는 덱의 맨 위에 놓는다.\n",
+        "name": "나글파"
+    },
+    "200320": {
+        "info": "능력 없음.\n",
+        "infoRaw": "능력 없음.\n",
+        "name": "초트"
+    },
+    "200502": {
+        "info": "매 턴 종료 시, 상대보다 당신이 보유한 유닛 수가 적은 경우 1만큼 스스로 증폭한다.\n",
+        "infoRaw": "매 턴 종료 시, 상대보다 당신이 보유한 유닛 수가 적은 경우 1만큼 스스로 증폭한다.\n",
+        "name": "얼음 트롤"
+    },
+    "200518": {
+        "info": "배치: 이 턴에 당신의 리더를 사용한 경우, 적 하나에게 3만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 이 턴에 당신의 리더를 사용한 경우, 적 하나에게 3만큼 피해를 준다.\n",
+        "name": "베넨달 정예병"
+    },
+    "200519": {
+        "info": "유닛 하나를 4만큼 증폭하고 구속을 제거한다.\n",
+        "infoRaw": "유닛 하나를 4만큼 증폭하고 <keyword=lock>구속</keyword>을 제거한다.\n",
+        "name": "마하캄 에일"
+    },
+    "200520": {
+        "info": "명령: 당신의 무덤에서 브론즈 인공물 하나를 가져와서 낸다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 당신의 무덤에서 브론즈 인공물 하나를 가져와서 낸다.\n",
+        "name": "에이비어 핫토리"
+    },
+    "200523": {
+        "info": "배치, 근접: 이 유닛의 양옆에 소를 각각 2마리 생성한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 이 유닛의 양옆에 소를 각각 2마리 <keyword=spawn>생성</keyword>한다.\n",
+        "name": "제르맹 피캉"
+    },
+    "200528": {
+        "info": "배치: 적 하나에게 3만큼 피해를 준 후, 2만큼 스스로 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 3만큼 피해를 준 후, 2만큼 스스로 피해를 준다.\n",
+        "name": "헤이마에이 창전사"
+    },
+    "200529": {
+        "info": "배치: 5만큼 스스로 증폭한다.\n당신이 병사 하나를 낼 때마다 당신의 무덤에서 이 유닛을 무작위 아군 전열로 소환한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 5만큼 스스로 증폭한다.\n당신이 병사 하나를 낼 때마다 당신의 무덤에서 이 유닛을 무작위 아군 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "불굴의 론비드"
+    },
+    "200530": {
+        "info": "열의.\n명령: 유닛 하나에게 2만큼 피해를 준다. \n충전: 3.\n",
+        "infoRaw": "<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 유닛 하나에게 2만큼 피해를 준다. \n<keyword=charge>충전</keyword>: 3.\n",
+        "name": "썩은 에일"
+    },
+    "200532": {
+        "info": "열의.\n명령: 유닛 하나를 3만큼 증폭한다. \n쿨다운: 2.\n",
+        "infoRaw": "<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 유닛 하나를 3만큼 증폭한다. \n<keyword=cooldown>쿨다운</keyword>: 2.\n",
+        "name": "선조의 에일"
+    },
+    "200534": {
+        "info": "근접: 당신의 턴 동안 아군 하나가 파괴될 때마다 2만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=melee>근접</keyword>: 당신의 턴 동안 아군 하나가 파괴될 때마다 2만큼 스스로 증폭한다.\n",
+        "name": "베르겐의 암컷 트롤"
+    },
+    "200535": {
+        "info": "명령, 근접: 적 하나에게 1만큼 피해를 준다.\n쿨다운: 2.\n당신이 엘프 하나를 낼 때마다 쿨다운이 1만큼 감소한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>, <keyword=melee>근접</keyword>: 적 하나에게 1만큼 피해를 준다.\n<keyword=cooldown>쿨다운</keyword>: 2.\n당신이 엘프 하나를 낼 때마다 <keyword=cooldown>쿨다운</keyword>이 1만큼 감소한다.\n",
+        "name": "엘프 소드마스터"
+    },
+    "200539": {
+        "info": "명령: 이 전열에 있는 아군 유닛 하나를 섭취한다.\n쿨다운: 1.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 이 전열에 있는 아군 유닛 하나를 <keyword=consume>섭취</keyword>한다.\n<keyword=cooldown>쿨다운</keyword>: 1.\n",
+        "name": "슬리자드"
+    },
+    "200540": {
+        "info": "명령: 적 하나에게 4만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 적 하나에게 4만큼 피해를 준다.\n",
+        "name": "에이단 망치전사"
+    },
+    "201523": {
+        "info": "배치: 한 전열에 있는 모든 유닛의 전력을 기본 전력으로 초기화한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 한 전열에 있는 모든 유닛의 전력을 기본 전력으로 초기화한다.\n",
+        "name": "게롤트: 이르덴"
+    },
+    "201559": {
+        "info": "배치, 근접: 이 전열에 드워프가 있으면 당신의 덱에서 이 유닛과 동일한 유닛 하나를 이 전열로 소환한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 이 전열에 드워프가 있으면 당신의 덱에서 이 유닛과 동일한 유닛 하나를 이 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "마하캄 자원병"
+    },
+    "201574": {
+        "info": "유언: 무작위 적 유닛 하나에게 2만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deathwish>유언</keyword>: 무작위 적 유닛 하나에게 2만큼 피해를 준다.\n",
+        "name": "하랄드의 친구"
+    },
+    "201576": {
+        "info": "소멸.\n",
+        "infoRaw": "<keyword=doomed>소멸</keyword>.\n",
+        "name": "소"
+    },
+    "201578": {
+        "info": "배치, 근접: 모든 유닛에게 무작위로 4의 피해를 나누어 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 모든 유닛에게 무작위로 4의 피해를 나누어 준다.\n",
+        "name": "안 크라이트 약탈자"
+    },
+    "201579": {
+        "info": "라운드 시작 시, 불사조가 당신의 무덤에 있다면 불사조를 추방한 후, 새끼 불사조를 생성하고 무작위 아군 전열로 소환한다.\n",
+        "infoRaw": "라운드 시작 시, 불사조가 당신의 무덤에 있다면 불사조를 <keyword=banish>추방</keyword>한 후, 새끼 불사조를 <keyword=spawn>생성</keyword>하고 무작위 아군 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "불사조"
+    },
+    "201580": {
+        "info": "게임 시작 시, 전투가 진행되는 동안 적 리더를 사용하지 못하게 한다.\n",
+        "infoRaw": "게임 시작 시, 전투가 진행되는 동안 적 리더를 사용하지 못하게 한다.\n",
+        "name": "찬탈자"
+    },
+    "201581": {
+        "info": "브론즈 스켈리게 카드 한 장을 창조하고 낸다.\n",
+        "infoRaw": "브론즈 스켈리게 카드 한 장을 <keyword=create>창조</keyword>하고 낸다.\n",
+        "name": "스트리보그 룬스톤"
+    },
+    "201582": {
+        "info": "브론즈 북부 왕국 카드 한 장을 창조하고 낸다.\n",
+        "infoRaw": "브론즈 북부 왕국 카드 한 장을 <keyword=create>창조</keyword>하고 낸다.\n",
+        "name": "조리아 룬스톤"
+    },
+    "201583": {
+        "info": "브론즈 닐프가드 카드 한 장을 창조하고 낸다.\n",
+        "infoRaw": "브론즈 닐프가드 카드 한 장을 <keyword=create>창조</keyword>하고 낸다.\n",
+        "name": "다즈보그 룬스톤"
+    },
+    "201584": {
+        "info": "브론즈 괴물 세력 카드 한 장을 창조하고 낸다.\n",
+        "infoRaw": "브론즈 괴물 세력 카드 한 장을 <keyword=create>창조</keyword>하고 낸다.\n",
+        "name": "데바나 룬스톤"
+    },
+    "201585": {
+        "info": "브론즈 스코이아텔 카드 한 장을 창조하고 낸다.\n",
+        "infoRaw": "브론즈 스코이아텔 카드 한 장을 <keyword=create>창조</keyword>하고 낸다.\n",
+        "name": "모라나 룬스톤"
+    },
+    "201587": {
+        "info": "아군 유닛 하나를 파괴한 후, 해당 아군을 기본 상태로 복사해 생성하고 낸다.\n",
+        "infoRaw": "아군 유닛 하나를 파괴한 후, 해당 아군을 기본 상태로 복사해 <keyword=spawn>생성</keyword>하고 낸다.\n",
+        "name": "속삭이는 언덕"
+    },
+    "201589": {
+        "info": "명령: 당신의 손에 있는 모든 유닛을 1만큼 증폭한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 당신의 손에 있는 모든 유닛을 1만큼 증폭한다.\n",
+        "name": "필라반드렐"
+    },
+    "201595": {
+        "info": "명령: 유닛 하나에게 8만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 유닛 하나에게 8만큼 피해를 준다.\n",
+        "name": "아다 공주"
+    },
+    "201597": {
+        "info": "명령: 당신의 무덤에서 전사 하나를 가져와서 낸다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 당신의 무덤에서 전사 하나를 가져와서 낸다.\n",
+        "name": "에이스트 튀샤흐"
+    },
+    "201598": {
+        "info": "모든 아군을 1만큼 증폭한다.\n",
+        "infoRaw": "모든 아군을 1만큼 증폭한다.\n",
+        "name": "뼈 부적"
+    },
+    "201599": {
+        "info": "번창.\n배치: 반대편 전열에 있는 모든 적 유닛에게 1만큼 피해를 준다.\n유언: 배치 능력을 반복한다.\n",
+        "infoRaw": "<keyword=thrive>번창</keyword>.\n<keyword=deploy>배치</keyword>: 반대편 전열에 있는 모든 적 유닛에게 1만큼 피해를 준다.\n<keyword=deathwish>유언</keyword>: <keyword=deploy>배치</keyword> 능력을 반복한다.\n",
+        "name": "고양이인간"
+    },
+    "201600": {
+        "info": "면역.\n",
+        "infoRaw": "<keyword=immune>면역</keyword>.\n",
+        "name": "늑대인간"
+    },
+    "201601": {
+        "info": "전장에 있는 원하는 유닛 또는 인공물 하나를 소유자의 덱 맨 위에 놓는다.\n",
+        "infoRaw": "전장에 있는 원하는 유닛 또는 인공물 하나를 소유자의 덱 맨 위에 놓는다.\n",
+        "name": "예니퍼의 주문"
+    },
+    "201603": {
+        "info": "배치: 전장에 있는 다른 유닛 하나를 복사해 변이한다. 전력은 변하지 않는다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 전장에 있는 다른 유닛 하나를 복사해 변이한다. 전력은 변하지 않는다.\n",
+        "name": "레토: 왕 시해자"
+    },
+    "201606": {
+        "info": "배치: 다른 모든 유닛에게 1만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 다른 모든 유닛에게 1만큼 피해를 준다.\n",
+        "name": "포크테일"
+    },
+    "201609": {
+        "info": "배치: 반대편 전열에 4개 이상의 유닛이 있으면 해당 전열에서 가장 낮은 적을 강탈한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 반대편 전열에 4개 이상의 유닛이 있으면 해당 전열에서 가장 낮은 적을 <keyword=seize>강탈</keyword>한다.\n",
+        "name": "노예 사냥꾼"
+    },
+    "201610": {
+        "info": "배치: 아군 유닛 하나를 노예 보병으로 변이한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 아군 유닛 하나를 노예 보병으로 변이한다.\n",
+        "name": "노예 보병"
+    },
+    "201611": {
+        "info": "당신의 원래 덱에 함정이 4개 이상 있다면 당신의 덱에서 무작위 함정 2개를 가져와서 낸다.\n",
+        "infoRaw": "당신의 원래 덱에 함정이 4개 이상 있다면 당신의 덱에서 무작위 함정 2개를 가져와서 낸다.\n",
+        "name": "이오베스의 책략"
+    },
+    "201612": {
+        "info": "배치: 적 하나에게 2만큼 피해를 준다. 구속된 유닛 하나당 피해량이 1만큼 증가한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 2만큼 피해를 준다. <keyword=lock>구속된</keyword> 유닛 하나당 피해량이 1만큼 증가한다.\n",
+        "name": "노예 감독관"
+    },
+    "201613": {
+        "info": "명령: 적 하나에게 1만큼 피해를 준다. \n충전: 5\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 적 하나에게 1만큼 피해를 준다. \n<keyword=charge>충전</keyword>: 5\n",
+        "name": "사스키아: 화염"
+    },
+    "201615": {
+        "info": "당신의 덱에서 드워프, 드라이어드, 엘프를 무작위로 하나씩 확인한 후, 한 장을 가져와서 낸다.\n",
+        "infoRaw": "당신의 덱에서 드워프, 드라이어드, 엘프를 무작위로 하나씩 확인한 후, 한 장을 가져와서 낸다.\n",
+        "name": "아이센그림의 의회"
+    },
+    "201616": {
+        "info": "명령: 이 유닛의 전력을 적 유닛 하나의 전력과 교체한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 이 유닛의 전력을 적 유닛 하나의 전력과 교체한다.\n",
+        "name": "변장의 대가"
+    },
+    "201617": {
+        "info": "배치: 양쪽 덱에서 무작위 유닛 하나를 공개한다. 당신 유닛의 전력이 더 높으면 2만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 양쪽 덱에서 무작위 유닛 하나를 <keyword=reveal>공개</keyword>한다. 당신 유닛의 전력이 더 높으면 2만큼 스스로 증폭한다.\n",
+        "name": "신병"
+    },
+    "201618": {
+        "info": "명령, 근접: 적 유닛 하나와 결투한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>, <keyword=melee>근접</keyword>: 적 유닛 하나와 <keyword=duel>결투</keyword>한다.\n",
+        "name": "걸렛의 셀츠커크"
+    },
+    "201619": {
+        "info": "브론즈 병사 하나를 2만큼 증폭하고 해당 병사의 배치 능력을 반복한다.\n",
+        "infoRaw": "브론즈 병사 하나를 2만큼 증폭하고 해당 병사의 <keyword=deploy>배치</keyword> 능력을 반복한다.\n",
+        "name": "연고"
+    },
+    "201620": {
+        "info": "명령, 근접: 유닛 하나에게 1만큼 피해를 준다.\n쿨다운: 1.\n당신의 전장에 밴더그리프트의 칼이있다면 유닛 하나에게 2만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>, <keyword=melee>근접</keyword>: 유닛 하나에게 1만큼 피해를 준다.\n<keyword=cooldown>쿨다운</keyword>: 1.\n당신의 전장에 밴더그리프트의 칼이있다면 유닛 하나에게 2만큼 피해를 준다.\n",
+        "name": "밴더그리프트"
+    },
+    "201621": {
+        "info": "명령: 유닛 하나에게 키얀의 충전 횟수만큼 피해를 준다.\n충전: 1.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 유닛 하나에게 키얀의 <keyword=charge>충전</keyword> 횟수만큼 피해를 준다.\n<keyword=charge>충전</keyword>: 1.\n",
+        "name": "키얀"
+    },
+    "201622": {
+        "info": "배치: 덱에서 이 카드를 냈다면 스스로 4만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 덱에서 이 카드를 냈다면 스스로 4만큼 증폭한다.\n",
+        "name": "케드웬 기사"
+    },
+    "201623": {
+        "info": "배치, 근접: 피해받은 유닛 하나당 1만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 피해받은 유닛 하나당 1만큼 스스로 증폭한다.\n",
+        "name": "거대한 멧돼지"
+    },
+    "201624": {
+        "info": "명령: 유닛 하나에게 1만큼 피해를 준다. 해당 유닛이 파괴되면 케드웬 망령 하나를 기본 상태로 복사해 생성하고 이 전열로 소환한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 유닛 하나에게 1만큼 피해를 준다. 해당 유닛이 파괴되면 케드웬 망령 하나를 기본 상태로 복사해 <keyword=spawn>생성</keyword>하고 이 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "케드웬 망령"
+    },
+    "201625": {
+        "info": "배치: 저주받은 기사가 아닌 아군 유닛 하나를 저주받은 기사로 변이한다. 전력은 변하지 않는다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 저주받은 기사가 아닌 아군 유닛 하나를 저주받은 기사로 변이한다. 전력은 변하지 않는다.\n",
+        "name": "저주받은 기사"
+    },
+    "201626": {
+        "info": "턴 시작 시, 이 유닛이 당신의 무덤에 있는 유일한 유닛이면 해당 유닛을 무작위 아군 전열로 소환한다.\n",
+        "infoRaw": "턴 시작 시, 이 유닛이 당신의 무덤에 있는 유일한 유닛이면 해당 유닛을 무작위 아군 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "시리: 노바"
+    },
+    "201627": {
+        "info": "소멸.\n당신의 원래 덱에 중복된 카드가 없다면 슙이 모험을 떠난다.\n",
+        "infoRaw": "<keyword=doomed>소멸</keyword>.\n당신의 원래 덱에 중복된 카드가 없다면 슙이 모험을 떠난다.\n",
+        "name": "슙의 휴일"
+    },
+    "201628": {
+        "info": "적 하나에게 아군 망령 하나당 1만큼 피해를 준다.\n",
+        "infoRaw": "적 하나에게 아군 망령 하나당 1만큼 피해를 준다.\n",
+        "name": "금단의 마법"
+    },
+    "201630": {
+        "info": "배치: 적 하나에게 3만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 3만큼 피해를 준다.\n",
+        "name": "지옥의 소서리스"
+    },
+    "201631": {
+        "info": "배치: 당신의 손에 있는 유닛 하나를 선택한 후, 해당 유닛과 당신의 손에 있는 기본 유형이 같은 유닛 수만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신의 손에 있는 유닛 하나를 선택한 후, 해당 유닛과 당신의 손에 있는 기본 유형이 같은 유닛 수만큼 스스로 증폭한다.\n",
+        "name": "도플러"
+    },
+    "201632": {
+        "info": "열의.\n명령: 적 하나에게 1만큼 피해를 준다.\n쿨다운: 1.\n시힐이 적 하나를 파괴할 때마다, 시힐이 전장에서 이동할 때까지 해당 명령으로 주는 피해량이 1만큼 증가한다.\n",
+        "infoRaw": "<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 적 하나에게 1만큼 피해를 준다.\n<keyword=cooldown>쿨다운</keyword>: 1.\n시힐이 적 하나를 파괴할 때마다, 시힐이 전장에서 이동할 때까지 해당 <keyword=order>명령</keyword>으로 주는 피해량이 1만큼 증가한다.\n",
+        "name": "시힐"
+    },
+    "201633": {
+        "info": "열의.\n명령: 적 하나에게 피투성이 도리깨의 충전 횟수만큼 피해를 준 후, 모든 충전량을 제거한다.\n충전: 1.\n 아군 유닛 하나가 충전을 획득할 때마다 동일한 값을 획득한다.\n",
+        "infoRaw": "<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 적 하나에게 피투성이 도리깨의 <keyword=charge>충전</keyword> 횟수만큼 피해를 준 후, 모든 <keyword=charge>충전량</keyword>을 제거한다.\n<keyword=charge>충전</keyword>: 1.\n 아군 유닛 하나가 <keyword=charge>충전</keyword>을 획득할 때마다 동일한 값을 획득한다.\n",
+        "name": "피투성이 도리깨"
+    },
+    "201634": {
+        "info": "유닛 하나에게 8만큼 피해를 준다.\n",
+        "infoRaw": "유닛 하나에게 8만큼 피해를 준다.\n",
+        "name": "베커의 낙석"
+    },
+    "201635": {
+        "info": "기본 전력이 가장 높은 유닛을 파괴한다.\n",
+        "infoRaw": "기본 전력이 가장 높은 유닛을 파괴한다.\n",
+        "name": "영광스러운 사냥"
+    },
+    "201636": {
+        "info": "배치: 적 하나에게 당신의 전장에 있는 인공물 하나당 1만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 당신의 전장에 있는 인공물 하나당 1만큼 피해를 준다.\n",
+        "name": "하프엘프 사냥꾼"
+    },
+    "201637": {
+        "info": "적 전열 하나에 이 전열 효과를 적용한다.\n3턴 후 턴 시작 시, 폭발하여 이 전열에 있는 모든 유닛에게 3만큼 피해를 준다.\n",
+        "infoRaw": "적 전열 하나에 이 전열 효과를 적용한다.\n3턴 후 턴 시작 시, 폭발하여 이 전열에 있는 모든 유닛에게 3만큼 피해를 준다.\n",
+        "name": "용의 꿈"
+    },
+    "201638": {
+        "info": "아군 함정 하나가 발동될 때마다 스스로 2만큼 증폭한다.\n",
+        "infoRaw": "아군 함정 하나가 발동될 때마다 스스로 2만큼 증폭한다.\n",
+        "name": "엘프 정찰병"
+    },
+    "201639": {
+        "info": "유닛 하나를 10만큼 증폭한다.\n",
+        "infoRaw": "유닛 하나를 10만큼 증폭한다.\n",
+        "name": "기지"
+    },
+    "201644": {
+        "info": "명령: 아군 하나를 1만큼 치유한다.\n충전: 1.\n인접한 유닛 하나가 피해를 받을 때마다 1 충전을 획득한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 아군 하나를 1만큼 <keyword=heal>치유</keyword>한다.\n<keyword=charge>충전</keyword>: 1.\n인접한 유닛 하나가 피해를 받을 때마다 1 <keyword=charge>충전</keyword>을 획득한다.\n",
+        "name": "요아나"
+    },
+    "201645": {
+        "info": "매복: 3턴 후 턴 시작 시, 유닛이 가장 많은 적 전열에 있는 모든 적 유닛에게 2만큼 피해를 준다. \n열의.\n명령: 카드 앞면을 드러내고 한 전열에 있는 모든 유닛에게 1만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=ambush>매복</keyword>: 3턴 후 턴 시작 시, 유닛이 가장 많은 적 전열에 있는 모든 적 유닛에게 2만큼 피해를 준다. \n<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 카드 앞면을 드러내고 한 전열에 있는 모든 유닛에게 1만큼 피해를 준다.\n",
+        "name": "분쇄 함정"
+    },
+    "201646": {
+        "info": "배치, 원거리: 당신의 덱에서 최대 3장의 카드를 당신의 무덤으로 옮긴다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 당신의 덱에서 최대 3장의 카드를 당신의 무덤으로 옮긴다.\n",
+        "name": "대런"
+    },
+    "201647": {
+        "info": "적 하나에게 4만큼 피해를 주고 해당 적을 다른 전열로 옮긴다.\n",
+        "infoRaw": "적 하나에게 4만큼 피해를 주고 해당 적을 다른 전열로 옮긴다.\n",
+        "name": "바윗돌 세례"
+    },
+    "201648": {
+        "info": "당신이 이 전열에 병사 하나를 낼 때마다 해당 병사를 2만큼 증폭한다.\n",
+        "infoRaw": "당신이 이 전열에 병사 하나를 낼 때마다 해당 병사를 2만큼 증폭한다.\n",
+        "name": "밴더그리프트의 칼"
+    },
+    "201650": {
+        "info": "망령이 아닌 모든 유닛에게 1만큼 피해를 준다. 파괴되는 유닛이 있으면 이 능력을 반복한다.\n",
+        "infoRaw": "망령이 아닌 모든 유닛에게 1만큼 피해를 준다. 파괴되는 유닛이 있으면 이 능력을 반복한다.\n",
+        "name": "사브리나의 맹화"
+    },
+    "201653": {
+        "info": "매복: 상대가 패스하면 인접한 유닛을 4만큼 증폭한다.\n",
+        "infoRaw": "<keyword=ambush>매복</keyword>: 상대가 패스하면 인접한 유닛을 4만큼 증폭한다.\n",
+        "name": "마하캄 뿔나팔"
+    },
+    "201656": {
+        "info": "열의.\n명령: 유닛 하나에게 1만큼 피해를 준다. \n쿨다운: 1.\n",
+        "infoRaw": "<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 유닛 하나에게 1만큼 피해를 준다. \n<keyword=cooldown>쿨다운</keyword>: 1.\n",
+        "name": "장인이 만든 창"
+    },
+    "201657": {
+        "info": "적 하나에게 6만큼 피해를 준다. 또는 아군 하나를 6만큼 증폭한다.\n",
+        "infoRaw": "적 하나에게 6만큼 피해를 준다. 또는 아군 하나를 6만큼 증폭한다.\n",
+        "name": "기생충"
+    },
+    "201659": {
+        "info": "당신의 무덤에 있는 브론즈 병기 하나를 가져와서 낸다.\n",
+        "infoRaw": "당신의 무덤에 있는 브론즈 병기 하나를 가져와서 낸다.\n",
+        "name": "도르래"
+    },
+    "201660": {
+        "info": "유언: 턴 종료 시, 당신의 무덤에서 이 유닛을 무작위 아군 전열로 소환한다.\n",
+        "infoRaw": "<keyword=deathwish>유언</keyword>: 턴 종료 시, 당신의 무덤에서 이 유닛을 무작위 아군 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "루힌"
+    },
+    "201662": {
+        "info": "열의.\n명령: 자기 자신과 카다베린의 충전 횟수와 전력이 같은 모든 유닛을 파괴한다.\n충전: 0.\n매 턴 시작 시, 당신이 전술 카드 한 장을 낼 때마다 1 충전을 획득한다.\n",
+        "infoRaw": "<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 자기 자신과 카다베린의 <keyword=charge>충전</keyword> 횟수와 전력이 같은 모든 유닛을 파괴한다.\n<keyword=charge>충전</keyword>: 0.\n매 턴 시작 시, 당신이 전술 카드 한 장을 낼 때마다 1 <keyword=charge>충전</keyword>을 획득한다.\n",
+        "name": "카다베린"
+    },
+    "201664": {
+        "info": "배치: 인접한 브론즈 병사의 배치 능력을 발동한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 인접한 브론즈 병사의 <keyword=deploy>배치</keyword> 능력을 발동한다.\n",
+        "name": "브리게프"
+    },
+    "201676": {
+        "info": "명령: 유닛 하나에게 1만큼 피해를 준다. \n쿨다운: 1.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 유닛 하나에게 1만큼 피해를 준다. \n<keyword=cooldown>쿨다운</keyword>: 1.\n",
+        "name": "파브코 게일"
+    },
+    "201696": {
+        "info": "명령: 왼쪽에 있는 유닛을 4만큼 증폭하거나 오른쪽에 있는 유닛에게 면역을 준다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 왼쪽에 있는 유닛을 4만큼 증폭하거나 오른쪽에 있는 유닛에게 <keyword=immune>면역</keyword>을 준다.\n",
+        "name": "폴리 달버그"
+    },
+    "201697": {
+        "info": "다음에 적 하나가 증폭을 받으면 자기 자신과 해당 적을 파괴한다.\n",
+        "infoRaw": "다음에 적 하나가 증폭을 받으면 자기 자신과 해당 적을 파괴한다.\n",
+        "name": "검은 피"
+    },
+    "201698": {
+        "info": "배치, 근접: 상대의 무덤에 있는 유닛 하나를 섭취한다.\n배치, 원거리: 당신의 무덤에 있는 유닛 하나를 섭취한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 상대의 무덤에 있는 유닛 하나를 <keyword=consume>섭취</keyword>한다.\n<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 당신의 무덤에 있는 유닛 하나를 <keyword=consume>섭취</keyword>한다.\n",
+        "name": "오즈렐"
+    },
+    "201700": {
+        "info": "유언: 가장 높은 아군 하나를 4만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deathwish>유언</keyword>: 가장 높은 아군 하나를 4만큼 증폭한다.\n",
+        "name": "다리 트롤"
+    },
+    "201701": {
+        "info": "명령: 아군 유닛 하나를 섭취한다. \n충전: 2.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 아군 유닛 하나를 <keyword=consume>섭취</keyword>한다. \n<keyword=charge>충전</keyword>: 2.\n",
+        "name": "바르브가지"
+    },
+    "201704": {
+        "info": "배치: 아군 전열 하나에 적용된 전열 효과를 제거한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 아군 전열 하나에 적용된 전열 효과를 제거한다.\n",
+        "name": "정찰병"
+    },
+    "201709": {
+        "info": "전력이 홀수인 모든 적에게 2만큼 피해를 준다.\n",
+        "infoRaw": "전력이 홀수인 모든 적에게 2만큼 피해를 준다.\n",
+        "name": "균형"
+    },
+    "201710": {
+        "info": "전력이 짝수인 모든 적에게 2만큼 피해를 준다.\n",
+        "infoRaw": "전력이 짝수인 모든 적에게 2만큼 피해를 준다.\n",
+        "name": "균형 파괴"
+    },
+    "201725": {
+        "info": "슙을 반 아드 학교에 보낸다.\n",
+        "infoRaw": "슙을 반 아드 학교에 보낸다.\n",
+        "name": "슙: 마법사"
+    },
+    "201726": {
+        "info": "배치: 두 플레이어 모두 손에 든 카드 중 가장 오른쪽에 있는 카드를 무작위 특수 카드 한 장으로 변이한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 두 플레이어 모두 손에 든 카드 중 가장 오른쪽에 있는 카드를 무작위 특수 카드 한 장으로 변이한다.\n",
+        "name": "슙: 마법사"
+    },
+    "201727": {
+        "info": "배치: 무작위 유닛 하나를 반대편 전열로 옮긴다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 무작위 유닛 하나를 반대편 전열로 옮긴다.\n",
+        "name": "슙: 마법사"
+    },
+    "201728": {
+        "info": "배치: 모든 전열에 무작위 전열 효과 하나를 적용한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 모든 전열에 무작위 전열 효과 하나를 적용한다.\n",
+        "name": "슙: 마법사"
+    },
+    "201729": {
+        "info": "배치: 전장에 있는 다른 모든 유닛에게 무작위로 13의 피해를 나누어 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 전장에 있는 다른 모든 유닛에게 무작위로 13의 피해를 나누어 준다.\n",
+        "name": "슙: 마법사"
+    },
+    "201730": {
+        "info": "배치: 무작위 유닛 하나를 생성하고 각 진영의 무작위 전열로 소환한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 무작위 유닛 하나를 <keyword=spawn>생성</keyword>하고 각 진영의 무작위 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "슙: 마법사"
+    },
+    "201731": {
+        "info": "슙을 돌 블라타나 숲에 보낸다.\n",
+        "infoRaw": "슙을 돌 블라타나 숲에 보낸다.\n",
+        "name": "슙: 사냥꾼"
+    },
+    "201732": {
+        "info": "배치: 당신의 덱에서 무작위 카드 한 장을 가져와서 낸다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신의 덱에서 무작위 카드 한 장을 가져와서 낸다.\n",
+        "name": "슙: 사냥꾼"
+    },
+    "201733": {
+        "info": "배치: 모든 적 유닛에게 무작위로 9의 피해를 나누어 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 모든 적 유닛에게 무작위로 9의 피해를 나누어 준다.\n",
+        "name": "슙: 사냥꾼"
+    },
+    "201734": {
+        "info": "배치: 당신의 손에 있는 모든 유닛의 전력을 최소 1에서 최대 2만큼 무작위로 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신의 손에 있는 모든 유닛의 전력을 최소 1에서 최대 2만큼 무작위로 증폭한다.\n",
+        "name": "슙: 사냥꾼"
+    },
+    "201735": {
+        "info": "배치: 무작위 적 하나를 파괴한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 무작위 적 하나를 파괴한다.\n",
+        "name": "슙: 사냥꾼"
+    },
+    "201737": {
+        "info": "슙을 제국 사관학교에 보낸다.\n",
+        "infoRaw": "슙을 제국 사관학교에 보낸다.\n",
+        "name": "슙: 기사"
+    },
+    "201738": {
+        "info": "배치: 적 하나에게 4만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 4만큼 피해를 준다.\n",
+        "name": "슙: 기사"
+    },
+    "201739": {
+        "info": "배치: 유닛 하나를 구속한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 유닛 하나를 <keyword=lock>구속</keyword>한다.\n",
+        "name": "슙: 기사"
+    },
+    "201740": {
+        "info": "배치: 잔류를 획득한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: <keyword=resilient>잔류</keyword>를 획득한다.\n",
+        "name": "슙: 기사"
+    },
+    "201741": {
+        "info": "배치: 적 인공물 하나를 파괴한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 인공물 하나를 파괴한다.\n",
+        "name": "슙: 기사"
+    },
+    "201743": {
+        "info": "당신의 턴 동안 아군 유닛 하나가 파괴될 때마다, 아라카스 일꾼 한 마리를 생성하고 무작위 아군 전열로 소환한다.\n",
+        "infoRaw": "당신의 턴 동안 아군 유닛 하나가 파괴될 때마다, 아라카스 일꾼 한 마리를 <keyword=spawn>생성</keyword>하고 무작위 아군 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "아라카스 여왕"
+    },
+    "201744": {
+        "info": "유닛 하나의 전력을 기본 전력으로 복구한다.\n",
+        "infoRaw": "유닛 하나의 전력을 기본 전력으로 복구한다.\n",
+        "name": "포자"
+    },
+    "201748": {
+        "info": "명령, 근접: 대상 적 및 해당 적과 전력이 같은 다른 모든 적에게 1만큼 피해를 준다. \n충전: 1.\n",
+        "infoRaw": "<keyword=order>명령</keyword>, <keyword=melee>근접</keyword>: 대상 적 및 해당 적과 전력이 같은 다른 모든 적에게 1만큼 피해를 준다. \n<keyword=charge>충전</keyword>: 1.\n",
+        "name": "폴테스트의 자부심"
+    },
+    "201749": {
+        "info": "한 전열에 있는 모든 유닛을 2만큼 증폭한다.\n",
+        "infoRaw": "한 전열에 있는 모든 유닛을 2만큼 증폭한다.\n",
+        "name": "황금 거품"
+    },
+    "201753": {
+        "info": "배치: 아군 하나를 2만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 아군 하나를 2만큼 증폭한다.\n",
+        "name": "농민 민병대"
+    },
+    "201772": {
+        "info": "배치, 근접: 적 하나에게 3만큼 피해를 준다. 해당 적의 전력이 3의 배수라면 해당 적을 파괴한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 적 하나에게 3만큼 피해를 준다. 해당 적의 전력이 3의 배수라면 해당 적을 파괴한다.\n",
+        "name": "게롤트: 전문가"
+    },
+    "201773": {
+        "info": "배치, 원거리: 양 플레이어의 현재 덱에 있는 브론즈 특수 카드 한 장을창조하고 낸다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 양 플레이어의 현재 덱에 있는 브론즈 특수 카드 한 장을<keyword=create>창조</keyword>하고 낸다.\n",
+        "name": "트리스: 염력"
+    },
+    "201774": {
+        "info": "배치: 적 야수 유닛 하나를 파괴한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 야수 유닛 하나를 파괴한다.\n",
+        "name": "단델라이온: 허세"
+    },
+    "201776": {
+        "info": "배치: 카드 한 장을 뽑은 후 카드 한 장을 낸다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 카드 한 장을 뽑은 후 카드 한 장을 낸다.\n",
+        "name": "단델라이온: 시인"
+    },
+    "201777": {
+        "info": "명령: 로치: 무자비한 자의 충전 횟수 이하의 전력을 가진 적 하나를 강탈한 후, 모든 충전량을 제거한다. \n충전: 0.\n매 턴 시작 시, 1 충전을 획득한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 로치: 무자비한 자의 <keyword=charge>충전</keyword> 횟수 이하의 전력을 가진 적 하나를 <keyword=seize>강탈</keyword>한 후, 모든 <keyword=charge>충전량</keyword>을 제거한다. \n<keyword=charge>충전</keyword>: 0.\n매 턴 시작 시, 1 <keyword=charge>충전</keyword>을 획득한다.\n",
+        "name": "로치: 무자비한 자"
+    },
+    "201779": {
+        "info": "아군 유닛 하나를 당신의 덱에 섞은 후, 해당 덱에서 기본 유형이 같은 유닛 하나를 3만큼 증폭한다.\n",
+        "infoRaw": "아군 유닛 하나를 당신의 덱에 섞은 후, 해당 덱에서 기본 유형이 같은 유닛 하나를 3만큼 증폭한다.\n",
+        "name": "숲의 부름"
+    },
+    "201780": {
+        "info": "배치, 원거리: 당신의 덱에서 무작위 유닛 하나를 공개한 후, 아군 하나를 해당 유닛의 전력만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 당신의 덱에서 무작위 유닛 하나를 <keyword=reveal>공개</keyword>한 후, 아군 하나를 해당 유닛의 전력만큼 증폭한다.\n",
+        "name": "예니퍼: 점술사"
+    },
+    "201781": {
+        "info": "명령: 당신의 전장에 가장 높은 유닛이 있으면 유닛 하나에게 2만큼 피해를 준다. \n쿨다운: 1.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 당신의 전장에 가장 높은 유닛이 있으면 유닛 하나에게 2만큼 피해를 준다. \n<keyword=cooldown>쿨다운</keyword>: 1.\n",
+        "name": "임레리스"
+    },
+    "201817": {
+        "info": "배치, 근접: 각 플레이어의 덱에서 가장 높은 유지비를 가진 유닛을 근접 전열로 소환한다.\n배치, 원거리: 각 플레이어의 덱에서 가장 낮은 유지비를 가진 유닛을 원거리 전열로 소환한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 각 플레이어의 덱에서 가장 높은 유지비를 가진 유닛을 근접 전열로 <keyword=summon>소환</keyword>한다.\n<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 각 플레이어의 덱에서 가장 낮은 유지비를 가진 유닛을 원거리 전열로 <keyword=summon>소환</keyword>한다.\n",
+        "name": "이후아라콱스"
+    },
+    "202044": {
+        "info": "배치, 근접: 적 하나와 해당 적과 동일한 모든 적에게 3만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 적 하나와 해당 적과 동일한 모든 적에게 3만큼 피해를 준다.\n",
+        "name": "김피 게르윈"
+    },
+    "202054": {
+        "info": "색상이 같은 아군 유닛 2개를 파괴한 후, 그와 같은 색상인 유닛 하나를 창조한다.\n",
+        "infoRaw": "색상이 같은 아군 유닛 2개를 파괴한 후, 그와 같은 색상인 유닛 하나를 <keyword=create>창조</keyword>한다.\n",
+        "name": "엘프양파 수프"
+    },
+    "202064": {
+        "info": "명령, 근접: 적 하나에게 2만큼 피해를 준다.\n충전: 1.\n당신이 위쳐 한 명을 낼 때마다 1 충전을 획득한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>, <keyword=melee>근접</keyword>: 적 하나에게 2만큼 피해를 준다.\n<keyword=charge>충전</keyword>: 1.\n당신이 위쳐 한 명을 낼 때마다 1 <keyword=charge>충전</keyword>을 획득한다.\n",
+        "name": "벨헤이븐의 이보"
+    },
+    "202098": {
+        "info": "배치: 당신의 손에 용이 하나 있는 경우, 열의를 획득한다.\n명령: 전력이 8 이상인 유닛 하나를 파괴한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 당신의 손에 용이 하나 있는 경우, <keyword=zeal>열의</keyword>를 획득한다.\n<keyword=order>명령</keyword>: 전력이 8 이상인 유닛 하나를 파괴한다.\n",
+        "name": "데네슬의 아이크"
+    },
+    "202099": {
+        "info": "배치, 근접: 전력을 최소 0에서 최대 11만큼 무작위로 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 전력을 최소 0에서 최대 11만큼 무작위로 스스로 증폭한다.\n",
+        "name": "개스콘"
+    },
+    "202100": {
+        "info": "첩보원.\n배치: 당신의 덱에서 무작위 골드 카드 한 장을 가져와서 낸다.\n",
+        "infoRaw": "<keyword=spying>첩보원</keyword>.\n<keyword=deploy>배치</keyword>: 당신의 덱에서 무작위 골드 카드 한 장을 가져와서 낸다.\n",
+        "name": "빌렘 왕자"
+    },
+    "202101": {
+        "info": "매 턴 종료 시, 전장에서 가장 높은 유닛이 있는 전열로 이동한다.\n",
+        "infoRaw": "매 턴 종료 시, 전장에서 가장 높은 유닛이 있는 전열로 이동한다.\n",
+        "name": "콜드웰 백작"
+    },
+    "202102": {
+        "info": "배치, 근접: 상대의 무덤에 있는 모든 카드를 추방한다.\n배치, 원거리: 당신의 무덤에 있는 모든 카드를 추방한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: 상대의 무덤에 있는 모든 카드를 <keyword=banish>추방</keyword>한다.\n<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 당신의 무덤에 있는 모든 카드를 <keyword=banish>추방</keyword>한다.\n",
+        "name": "자비에 레멘스"
+    },
+    "202103": {
+        "info": "근접: 매 턴 종료 시, 유닛이 가장 많은 진영에서 가장 낮은 유닛을 파괴한다.\n",
+        "infoRaw": "<keyword=melee>근접</keyword>: 매 턴 종료 시, 유닛이 가장 많은 진영에서 가장 낮은 유닛을 파괴한다.\n",
+        "name": "켈툴리스"
+    },
+    "202104": {
+        "info": "면역.\n",
+        "infoRaw": "<keyword=immune>면역</keyword>.\n",
+        "name": "공포스러운 괴물: 각성"
+    },
+    "202105": {
+        "info": "배치: 전력이 1인 모든 유닛을 파괴한다. 파괴한 유닛 하나당 2만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 전력이 1인 모든 유닛을 파괴한다. 파괴한 유닛 하나당 2만큼 스스로 증폭한다.\n",
+        "name": "글러스티워프"
+    },
+    "202106": {
+        "info": "배치, 근접: 잔류를 획득한다.\n배치, 원거리: 면역을 획득한다.\n드워프 하나를 낼 때마다 1만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: <keyword=resilient>잔류</keyword>를 획득한다.\n<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: <keyword=immune>면역</keyword>을 획득한다.\n드워프 하나를 낼 때마다 1만큼 스스로 증폭한다.\n",
+        "name": "가보르 지그린"
+    },
+    "202107": {
+        "info": "배치: 아군인 엘프, 드워프, 드라이어드를 하나씩 2만큼 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 아군인 엘프, 드워프, 드라이어드를 하나씩 2만큼 증폭한다.\n",
+        "name": "바나바스 베켄바우어"
+    },
+    "202108": {
+        "info": "명령, 원거리: 양쪽 덱 맨 위에 있는 카드를 확인한다. 한 장은 갖고 나머지 한 장은 상대에게 준다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>, <keyword=ranged>원거리</keyword>: 양쪽 덱 맨 위에 있는 카드를 확인한다. 한 장은 갖고 나머지 한 장은 상대에게 준다.\n",
+        "name": "하게의 이스벨"
+    },
+    "202109": {
+        "info": "배치, 원거리: 당신의 무덤과 당신의 덱을 교체한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=ranged>원거리</keyword>: 당신의 무덤과 당신의 덱을 교체한다.\n",
+        "name": "수다쟁이 구드문드"
+    },
+    "202110": {
+        "info": "근접: 적 하나가 피해받을 때마다 1만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=melee>근접</keyword>: 적 하나가 피해받을 때마다 1만큼 스스로 증폭한다.\n",
+        "name": "쌍검 다구르"
+    },
+    "202111": {
+        "info": "배치: 상대의 덱에서 위에 있는 카드 3장을 확인하고 1장을 상대의 무덤으로 옮긴다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 상대의 덱에서 위에 있는 카드 3장을 확인하고 1장을 상대의 무덤으로 옮긴다.\n",
+        "name": "트라헤언 바 디피르"
+    },
+    "202112": {
+        "info": "충전이 있는 아군 유닛 하나를 낼 때마다, 해당 아군에게 1 충전을 준다.\n",
+        "infoRaw": "<keyword=charge>충전</keyword>이 있는 아군 유닛 하나를 낼 때마다, 해당 아군에게 1 <keyword=charge>충전</keyword>을 준다.\n",
+        "name": "레이너드 오도"
+    },
+    "202113": {
+        "info": "배치: 적 하나에게 아군 인간 수만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 아군 인간 수만큼 피해를 준다.\n",
+        "name": "검은 레일라"
+    },
+    "202114": {
+        "info": "소멸. 열의.\n명령: 불사조로 변이한다.\n",
+        "infoRaw": "<keyword=doomed>소멸</keyword>. <keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 불사조로 변이한다.\n",
+        "name": "새끼 불사조"
+    },
+    "202121": {
+        "info": "배치: 유닛 하나를 다른 전열로 옮긴다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 유닛 하나를 다른 전열로 옮긴다.\n",
+        "name": "스팔라 도적 떼"
+    },
+    "202122": {
+        "info": "배치: 적 인공물 하나를 파괴한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 인공물 하나를 파괴한다.\n",
+        "name": "폭탄 운반병"
+    },
+    "202148": {
+        "info": "명령: 유닛 하나에게 1 충전을 준다. \n쿨다운: 2.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 유닛 하나에게 1 <keyword=charge>충전</keyword>을 준다. \n<keyword=cooldown>쿨다운</keyword>: 2.\n",
+        "name": "데머번드 3세"
+    },
+    "202149": {
+        "info": "명령: 상대의 덱에서 무작위 인공물 하나를 가져와서 낸다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 상대의 덱에서 무작위 인공물 하나를 가져와서 낸다.\n",
+        "name": "앵글로메"
+    },
+    "202150": {
+        "info": "열의.\n명령, 원거리: 유닛 하나를 1만큼 증폭한다. \n충전: 1.\n양 플레이어가 카드 한 장을 낼 때마다 1 충전을 획득한다.\n",
+        "infoRaw": "<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>, <keyword=ranged>원거리</keyword>: 유닛 하나를 1만큼 증폭한다. \n<keyword=charge>충전</keyword>: 1.\n양 플레이어가 카드 한 장을 낼 때마다 1 <keyword=charge>충전</keyword>을 획득한다.\n",
+        "name": "코르보의 비소고타"
+    },
+    "202151": {
+        "info": "배치, 근접: 명령 능력이 있는 적 하나를 파괴한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>, <keyword=melee>근접</keyword>: <keyword=order>명령</keyword> 능력이 있는 적 하나를 파괴한다.\n",
+        "name": "팔리보르"
+    },
+    "202152": {
+        "info": "턴 종료 시, 이 유닛이 증폭된 경우 인접한 유닛을 1만큼 증폭한다.\n",
+        "infoRaw": "턴 종료 시, 이 유닛이 증폭된 경우 인접한 유닛을 1만큼 증폭한다.\n",
+        "name": "안나 스트렌거"
+    },
+    "202153": {
+        "info": "당신이 명령 능력이 있는 유닛 하나를 낼 때마다 1만큼 스스로 증폭한다.\n",
+        "infoRaw": "당신이 <keyword=order>명령</keyword> 능력이 있는 유닛 하나를 낼 때마다 1만큼 스스로 증폭한다.\n",
+        "name": "리리아 중기병"
+    },
+    "202154": {
+        "info": "배치: 적 하나에게 1만큼 피해를 준다. 해당 적이 파괴되면 다른 적에게 3만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 적 하나에게 1만큼 피해를 준다. 해당 적이 파괴되면 다른 적에게 3만큼 피해를 준다.\n",
+        "name": "리비아 장창병"
+    },
+    "202155": {
+        "info": "명령: 유닛 하나에게 1만큼 피해를 준다. \n충전: 1.\n당신이 명령이 있는 카드 한 장을 낼 때마다 1 충전을 획득한다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 유닛 하나에게 1만큼 피해를 준다. \n<keyword=charge>충전</keyword>: 1.\n당신이 <keyword=order>명령</keyword>이 있는 카드 한 장을 낼 때마다 1 <keyword=charge>충전</keyword>을 획득한다.\n",
+        "name": "리리아 석궁병"
+    },
+    "202156": {
+        "info": "명령: 유닛 하나에게 1만큼 피해를 준다. 리리아 용병대가 증폭됐다면 유닛 하나에게 3만큼 피해를 준다.\n",
+        "infoRaw": "<keyword=order>명령</keyword>: 유닛 하나에게 1만큼 피해를 준다. 리리아 용병대가 증폭됐다면 유닛 하나에게 3만큼 피해를 준다.\n",
+        "name": "리리아 용병대"
+    },
+    "202161": {
+        "info": "배치: 증폭된 아군 하나당 1만큼 스스로 증폭한다.\n",
+        "infoRaw": "<keyword=deploy>배치</keyword>: 증폭된 아군 하나당 1만큼 스스로 증폭한다.\n",
+        "name": "리리아 낫쟁이"
+    }
+}

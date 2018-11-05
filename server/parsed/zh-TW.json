@@ -1,0 +1,2596 @@
+{
+    "112101": {
+        "infoRaw": "每當我方一局落敗，便從場上將此單位牌收回我方手牌。\n",
+        "name": "希里"
+    },
+    "112102": {
+        "info": "部署、近戰：摧毀敵軍單列最大的單位牌，其總戰力為 15 點以上。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：摧毀敵軍單列最大的單位牌，其總戰力為 15 點以上。\n",
+        "name": "傑洛特：伊格尼法印"
+    },
+    "112103": {
+        "info": "部署：摧毀 1 張戰力為 8 點以上的敵軍。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：摧毀 1 張戰力為 8 點以上的敵軍。\n",
+        "name": "利維亞的傑洛特"
+    },
+    "112104": {
+        "info": "部署：對單列所有敵軍造成 1 點傷害。若有任何單位牌被摧毀，則重複發動此能力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對單列所有敵軍造成 1 點傷害。若有任何單位牌被摧毀，則重複發動此能力。\n",
+        "name": "雷吉斯"
+    },
+    "112105": {
+        "info": "部署、近戰：汲取某張敵軍的所有提升戰力值。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=drain>汲取</keyword>某張敵軍的所有提升戰力值。\n",
+        "name": "雷吉斯：高等吸血鬼"
+    },
+    "112106": {
+        "info": "部署、遠程：隨機揭示我方牌組中 1 張單位牌，並以該牌戰力對 1 張敵軍造成傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：隨機<keyword=reveal>揭示</keyword>我方牌組中 1 張單位牌，並以該牌戰力對 1 張敵軍造成傷害。\n",
+        "name": "特莉絲．梅莉葛德"
+    },
+    "112107": {
+        "info": "2 回合後，回合結束時，摧毀場上除了自身以外的最大單位牌。\n",
+        "infoRaw": "2 回合後，回合結束時，摧毀場上除了自身以外的最大單位牌。\n",
+        "name": "維蘭特雷坦梅斯"
+    },
+    "112108": {
+        "info": "部署、近戰：對其他所有單位牌造成 2 點傷害。\n部署、遠程：提升其他所有單位牌 2 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對其他所有單位牌造成 2 點傷害。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：提升其他所有單位牌 2 點戰力。\n",
+        "name": "范格堡的葉奈法"
+    },
+    "112109": {
+        "info": "部署、近戰：生成並打出「杜達：搗蛋鬼」。\n部署、遠程：生成並打出「杜達：夥伴」。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=spawn>生成</keyword>並打出「杜達：搗蛋鬼」。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：<keyword=spawn>生成</keyword>並打出「杜達：夥伴」。\n",
+        "name": "卓爾坦：無賴"
+    },
+    "112110": {
+        "info": "4 回合後，回合開始時，抽取 1 張卡牌。\n",
+        "infoRaw": "4 回合後，回合開始時，抽取 1 張卡牌。\n",
+        "name": "希里：衝刺"
+    },
+    "112111": {
+        "info": "部署、近戰：對 3 張敵軍造成 2 點傷害，而且如果可能的話，將這些牌移至「遠程列」。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對 3 張敵軍造成 2 點傷害，而且如果可能的話，將這些牌移至「遠程列」。\n",
+        "name": "傑洛特：阿爾德法印"
+    },
+    "112112": {
+        "info": "部署、遠程：從我方牌組打出 1 張「文物」。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：從我方牌組打出 1 張「文物」。\n",
+        "name": "阿瓦拉克：賢者"
+    },
+    "112113": {
+        "info": "軍令：對敵軍最大的單位牌造成 1 點傷害。\n冷卻：1 回合。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：對敵軍最大的單位牌造成 1 點傷害。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n",
+        "name": "葉奈法：咒術師"
+    },
+    "112201": {
+        "info": "部署：變身成 1 張敵軍單位牌的基礎同名牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：變身成 1 張敵軍單位牌的基礎同名牌。\n",
+        "name": "杜度"
+    },
+    "112202": {
+        "info": "部署：從我方牌組召喚「維瑟米爾」和「蘭伯特」至此列。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：從我方牌組<keyword=summon>召喚</keyword>「維瑟米爾」和「蘭伯特」至此列。\n",
+        "name": "艾斯凱爾"
+    },
+    "112203": {
+        "info": "部署：從我方牌組召喚「艾斯凱爾」和「蘭伯特」至此列。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：從我方牌組<keyword=summon>召喚</keyword>「艾斯凱爾」和「蘭伯特」至此列。\n",
+        "name": "維瑟米爾"
+    },
+    "112204": {
+        "info": "部署：從我方牌組召喚「艾斯凱爾」和「維瑟米爾」至此列。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：從我方牌組<keyword=summon>召喚</keyword>「艾斯凱爾」和「維瑟米爾」至此列。\n",
+        "name": "蘭伯特"
+    },
+    "112205": {
+        "info": "軍令：對 1 張敵軍造成 2 點傷害。\n裝填：2 次。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：對 1 張敵軍造成 2 點傷害。\n<keyword=charge>裝填</keyword>：2 次。\n",
+        "name": "麥爾卓布拉克"
+    },
+    "112206": {
+        "info": "軍令：對所有敵軍造成 1 點傷害。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：對所有敵軍造成 1 點傷害。\n",
+        "name": "奧克維斯特"
+    },
+    "112207": {
+        "info": "軍令：治療自身。\n冷卻：1 回合。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：<keyword=heal>治療</keyword>自身。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n",
+        "name": "歐吉爾德．伊佛瑞克"
+    },
+    "112208": {
+        "info": "部署：從我方手牌生成 1 張「銅色」單位牌的基礎同名牌並召喚至雙方此列。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：從我方手牌<keyword=spawn>生成</keyword> 1 張「銅色」單位牌的基礎同名牌並<keyword=summon>召喚</keyword>至雙方此列。\n",
+        "name": "領航員"
+    },
+    "112209": {
+        "info": "軍令：變身為「讎特怪」。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：變身為「讎特怪」。\n",
+        "name": "得獎乳牛"
+    },
+    "112210": {
+        "info": "每當我方打出 1 張「金色」牌，便從我方牌組召喚此單位牌至隨機我方列。\n",
+        "infoRaw": "每當我方打出 1 張「金色」牌，便從我方牌組<keyword=summon>召喚</keyword>此單位牌至隨機我方列。\n",
+        "name": "蘿蔔"
+    },
+    "112211": {
+        "info": "軍令：對 1 張單位牌造成 2 點傷害。\n裝填：1 次。\n每當我方打出 1 張「特殊」牌就獲得裝填 1 次。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 2 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n每當我方打出 1 張「特殊」牌就獲得<keyword=charge>裝填</keyword> 1 次。\n",
+        "name": "強尼"
+    },
+    "112212": {
+        "info": "軍令：提升 1 張單位牌 2 點戰力。\n裝填：1 次。\n每當我方打出 1 張「特殊」牌就獲得裝填 1 次。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：提升 1 張單位牌 2 點戰力。\n<keyword=charge>裝填</keyword>：1 次。\n每當我方打出 1 張「特殊」牌就獲得<keyword=charge>裝填</keyword> 1 次。\n",
+        "name": "莎拉"
+    },
+    "112213": {
+        "info": "每回合結束時，提升我方手牌中最小的單位牌 1 點戰力。\n",
+        "infoRaw": "每回合結束時，提升我方手牌中最小的單位牌 1 點戰力。\n",
+        "name": "乞丐王"
+    },
+    "112214": {
+        "info": "部署：驅逐 1 張戰力為 3 點以下的單位牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=banish>驅逐</keyword> 1 張戰力為 3 點以下的單位牌。\n",
+        "name": "賽浦利安・威利"
+    },
+    "112215": {
+        "info": "部署、近戰：摧毀 1 張敵軍「文物」牌。\n部署、遠程：清除我方場上所有全列效果。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：摧毀 1 張敵軍「文物」牌。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：清除我方場上所有全列效果。\n",
+        "name": "愛麗絲・伊佛瑞克"
+    },
+    "112401": {
+        "info": "部署：提升 1 張單位牌 4 點戰力。若我方手牌中有「夢魘獨角獸」，則提升值加倍。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張單位牌 4 點戰力。若我方手牌中有「夢魘獨角獸」，則提升值加倍。\n",
+        "name": "獨角獸"
+    },
+    "112402": {
+        "info": "部署：對 1 張單位牌造成 4 點傷害。若我方手牌中有「獨角獸」，則傷害值加倍。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張單位牌造成 4 點傷害。若我方手牌中有「獨角獸」，則傷害值加倍。\n",
+        "name": "夢魘獨角獸"
+    },
+    "112405": {
+        "info": "部署：提升我方手牌中所有求死的單位牌 1 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升我方手牌中所有<keyword=deathwish>求死</keyword>的單位牌 1 點戰力。\n",
+        "name": "惡魔"
+    },
+    "113101": {
+        "info": "施加此全列效果至敵方單列：\n每回合開始時，對此列最大的單位牌造成 2 點傷害。\n",
+        "infoRaw": "施加此全列效果至敵方單列：\n每回合開始時，對此列最大的單位牌造成 2 點傷害。\n",
+        "name": "終末之戰"
+    },
+    "113102": {
+        "info": "查看我方牌組最上方的 2 張卡牌。打出 1 張，並驅逐剩餘卡牌。\n",
+        "infoRaw": "查看我方牌組最上方的 2 張卡牌。打出 1 張，並<keyword=banish>驅逐</keyword>剩餘卡牌。\n",
+        "name": "最後的願望"
+    },
+    "113201": {
+        "info": "將場上 1 張我軍放入我方牌組洗牌，並打出我方牌組最上方的單位牌。\n",
+        "infoRaw": "將場上 1 張我軍放入我方牌組洗牌，並打出我方牌組最上方的單位牌。\n",
+        "name": "誘餌"
+    },
+    "113202": {
+        "info": "對 5 張敵軍造成 2 傷害。\n",
+        "infoRaw": "對 5 張敵軍造成 2 傷害。\n",
+        "name": "梅莉葛德雹暴術"
+    },
+    "113203": {
+        "info": "施加此全列效果至敵方單列：\n2 回合內，回合開始時，對此列所有單位牌造成 1 點傷害。\n",
+        "infoRaw": "施加此全列效果至敵方單列：\n2 回合內，回合開始時，對此列所有單位牌造成 1 點傷害。\n",
+        "name": "史凱利傑風暴"
+    },
+    "113204": {
+        "info": "對所有敵軍造成 1 傷害。\n",
+        "infoRaw": "對所有敵軍造成 1 傷害。\n",
+        "name": "史丹麥福特山崩術"
+    },
+    "113205": {
+        "info": "摧毀 1 張「文物」。\n",
+        "infoRaw": "摧毀 1 張「文物」。\n",
+        "name": "反魔法金屬炸彈"
+    },
+    "113206": {
+        "info": "摧毀所有「文物」。\n",
+        "infoRaw": "摧毀所有「文物」。\n",
+        "name": "白霜"
+    },
+    "113207": {
+        "info": "提升 5 張相鄰單位牌 3 點戰力。\n",
+        "infoRaw": "提升 5 張相鄰單位牌 3 點戰力。\n",
+        "name": "領導號角"
+    },
+    "113208": {
+        "info": "部署、近戰：場上所有全列效果的時效都加 1。\n部署、遠程：所有全列效果的時效都減 1。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：場上所有全列效果的時效都加 1。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：所有全列效果的時效都減 1。\n",
+        "name": "德魯伊控天者"
+    },
+    "113209": {
+        "info": "從我方牌組打出最大的單位牌。\n",
+        "infoRaw": "從我方牌組打出最大的單位牌。\n",
+        "name": "阿爾祖雙十字召喚術"
+    },
+    "113301": {
+        "info": "對 1 張單位牌造成 5 點傷害。\n",
+        "infoRaw": "對 1 張單位牌造成 5 點傷害。\n",
+        "name": "阿爾祖落雷術"
+    },
+    "113302": {
+        "info": "施加此全列效果至敵方單列：\n4 回合內，回合開始時，對此列最小的單位牌造成 2 點傷害。\n",
+        "infoRaw": "施加此全列效果至敵方單列：\n4 回合內，回合開始時，對此列最小的單位牌造成 2 點傷害。\n",
+        "name": "刺骨冰霜"
+    },
+    "113303": {
+        "info": "清除我方場上所有全列效果。\n",
+        "infoRaw": "清除我方場上所有全列效果。\n",
+        "name": "晴空"
+    },
+    "113305": {
+        "info": "施加此全列效果至敵方單列：\n4 回合內，回合開始時，對此列最大的單位牌造成 2 點傷害。\n",
+        "infoRaw": "施加此全列效果至敵方單列：\n4 回合內，回合開始時，對此列最大的單位牌造成 2 點傷害。\n",
+        "name": "濃霧"
+    },
+    "113306": {
+        "info": "對 3 張敵軍造成 3 傷害。\n",
+        "infoRaw": "對 3 張敵軍造成 3 傷害。\n",
+        "name": "飛獅怪毒液"
+    },
+    "113307": {
+        "info": "賦予或移除 1 張單位牌的堅毅。\n",
+        "infoRaw": "賦予或移除 1 張單位牌的<keyword=resilient>堅毅</keyword>。\n",
+        "name": "腎上腺素狂飆"
+    },
+    "113308": {
+        "info": "摧毀最小的單位牌。\n",
+        "infoRaw": "摧毀最小的單位牌。\n",
+        "name": "瘟疫"
+    },
+    "113309": {
+        "info": "摧毀最大的單位牌。\n",
+        "infoRaw": "摧毀最大的單位牌。\n",
+        "name": "燒灼"
+    },
+    "113310": {
+        "info": "提升 1 張單位牌 6 點戰力。\n",
+        "infoRaw": "提升 1 張單位牌 6 點戰力。\n",
+        "name": "燕子"
+    },
+    "113311": {
+        "info": "熱忱。\n軍令：提升 1 張單位牌 2 點戰力。\n裝填：3 次。\n",
+        "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：提升 1 張單位牌 2 點戰力。\n<keyword=charge>裝填</keyword>：3 次。\n",
+        "name": "雷霆"
+    },
+    "113312": {
+        "info": "施加此全列效果至敵方單列：\n4 回合內，回合開始時，隨機對列上 2 張單位牌造成 1 點傷害。\n",
+        "infoRaw": "施加此全列效果至敵方單列：\n4 回合內，回合開始時，隨機對列上 2 張單位牌造成 1 點傷害。\n",
+        "name": "暴雨"
+    },
+    "113313": {
+        "info": "部署：提升自身戰力，提升值等同 1 張敵軍受到的傷害值。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升自身戰力，提升值等同 1 張敵軍受到的傷害值。\n",
+        "name": "奎特戰吼士"
+    },
+    "113315": {
+        "info": "選擇 1 張單位牌。若該牌已獲得提升，則對其造成提升值的兩倍傷害。若該牌已負傷，則以傷害值兩倍提升其戰力。\n",
+        "infoRaw": "選擇 1 張單位牌。若該牌已獲得提升，則對其造成提升值的兩倍傷害。若該牌已負傷，則以傷害值兩倍提升其戰力。\n",
+        "name": "貝克的闇鏡"
+    },
+    "113316": {
+        "info": "從我方墓地打出 1 張單位牌。\n",
+        "infoRaw": "從我方墓地打出 1 張單位牌。\n",
+        "name": "新生"
+    },
+    "113319": {
+        "info": "封印 1 張單位牌，並對其造成 3 點傷害。\n",
+        "infoRaw": "<keyword=lock>封印</keyword> 1 張單位牌，並對其造成 3 點傷害。\n",
+        "name": "反魔法金屬鐐銬"
+    },
+    "113320": {
+        "info": "對 1 張單位牌造成 3 點傷害，再提升該牌 9 點戰力。\n",
+        "infoRaw": "對 1 張單位牌造成 3 點傷害，再提升該牌 9 點戰力。\n",
+        "name": "幻菇"
+    },
+    "122101": {
+        "info": "軍令：讓 1 張我軍的「裝填」加倍。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：讓 1 張我軍的「裝填」加倍。\n",
+        "name": "血腥男爵"
+    },
+    "122102": {
+        "info": "臥底。\n部署：打出我方牌組中最上方的 2 張卡牌。\n",
+        "infoRaw": "<keyword=spying>臥底</keyword>。\n<keyword=deploy>部署</keyword>：打出我方牌組中最上方的 2 張卡牌。\n",
+        "name": "弗農・羅契"
+    },
+    "122103": {
+        "info": "近戰：只要此單位牌位於場上，則所有具有軍令的我軍單位牌都獲得熱忱。\n",
+        "infoRaw": "<keyword=melee>近戰</keyword>：只要此單位牌位於場上，則所有具有<keyword=order>軍令</keyword>的我軍單位牌都獲得<keyword=zeal>熱忱</keyword>。\n",
+        "name": "約翰．納塔利斯"
+    },
+    "122107": {
+        "info": "部署：隨機提升 1 張我方手牌的單位牌 4 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：隨機提升 1 張我方手牌的單位牌 4 點戰力。\n",
+        "name": "特莉絲：蝶羽咒"
+    },
+    "122108": {
+        "info": "部署、遠程：從我方牌組打出 1 張「咒語」。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：從我方牌組打出 1 張「咒語」。\n",
+        "name": "凱拉・梅茲"
+    },
+    "122201": {
+        "info": "遠程：每當 1 張我軍獲得裝填 1 次，便提升該牌 1 點戰力。\n",
+        "infoRaw": "<keyword=ranged>遠程</keyword>：每當 1 張我軍獲得<keyword=charge>裝填</keyword> 1 次，便提升該牌 1 點戰力。\n",
+        "name": "丹德里恩"
+    },
+    "122202": {
+        "info": "熱忱。\n軍令：賦予 1 張單位牌裝填 1 次。\n冷卻：1 回合。\n",
+        "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：賦予 1 張單位牌<keyword=charge>裝填</keyword> 1 次。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n",
+        "name": "普西拉"
+    },
+    "122203": {
+        "info": "部署：將 1 張敵軍單位牌的所有裝填次數移轉給「塔勒」。\n軍令：賦予 1 張我軍單位牌裝填 1 次。\n裝填：0 次。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：將 1 張敵軍單位牌的所有<keyword=charge>裝填</keyword>次數移轉給「塔勒」。\n<keyword=order>軍令</keyword>：賦予 1 張我軍單位牌<keyword=charge>裝填</keyword> 1 次。\n<keyword=charge>裝填</keyword>：0 次。\n",
+        "name": "塔勒"
+    },
+    "122204": {
+        "info": "部署：對 1 張敵軍造成 4 點傷害。\n軍令：賦予 1 張我軍熱忱。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 4 點傷害。\n<keyword=order>軍令</keyword>：賦予 1 張我軍<keyword=zeal>熱忱</keyword>。\n",
+        "name": "薇絲"
+    },
+    "122205": {
+        "info": "部署：對 1 張敵軍造成 2 點傷害。\n軍令：對 1 張敵軍造成 2 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 2 點傷害。\n<keyword=order>軍令</keyword>：對 1 張敵軍造成 2 點傷害。\n",
+        "name": "席兒．坦沙維耶"
+    },
+    "122206": {
+        "info": "臥底。\n求死：對此列所有單位牌造成 3 點傷害。\n",
+        "infoRaw": "<keyword=spying>臥底</keyword>。\n<keyword=deathwish>求死</keyword>：對此列所有單位牌造成 3 點傷害。\n",
+        "name": "薩賓娜．葛麗維希格"
+    },
+    "122207": {
+        "info": "軍令/keyword>、遠程：以「戴斯摩」的戰力提升值對 1 張敵軍造成傷害。\n",
+        "infoRaw": "<keyword=order>軍令/keyword>、<keyword=ranged>遠程</keyword>：以「戴斯摩」的戰力提升值對 1 張敵軍造成傷害。\n",
+        "name": "戴斯摩"
+    },
+    "122208": {
+        "info": "部署：提升 1 張我軍 2 點戰力並賦予其裝填 2 次。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張我軍 2 點戰力並賦予其<keyword=charge>裝填</keyword> 2 次。\n",
+        "name": "史登尼斯王子"
+    },
+    "122210": {
+        "info": "部署：將我方墓地中 1 張「銅色」單位牌和其所有同名牌放進我方牌組洗牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：將我方墓地中 1 張「銅色」單位牌和其所有同名牌放進我方牌組洗牌。\n",
+        "name": "帕維塔公主"
+    },
+    "122211": {
+        "info": "熱忱。\n軍令：使用裝填 3 次來封印 1 張敵軍單位牌。\n裝填：3 次。\n",
+        "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：使用<keyword=charge>裝填</keyword> 3 次來<keyword=lock>封印</keyword> 1 張敵軍單位牌。\n<keyword=charge>裝填</keyword>：3 次。\n",
+        "name": "瑪格麗塔・露克斯安提爾"
+    },
+    "122212": {
+        "info": "軍令、遠程：提升 1 張單位牌 1 點戰力。\n裝填：3 次。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>、<keyword=ranged>遠程</keyword>：提升 1 張單位牌 1 點戰力。\n<keyword=charge>裝填</keyword>：3 次。\n",
+        "name": "南娜卡"
+    },
+    "122213": {
+        "info": "部署：賦予所有我軍單位牌裝填 1 次。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：賦予所有我軍單位牌<keyword=charge>裝填</keyword> 1 次。\n",
+        "name": "歐德林"
+    },
+    "122214": {
+        "info": "熱忱。\n軍令：提升 1 張我軍 1 點戰力。\n裝填：2 次。\n",
+        "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：提升 1 張我軍 1 點戰力。\n<keyword=charge>裝填</keyword>：2 次。\n",
+        "name": "科德溫中士"
+    },
+    "122216": {
+        "info": "部署：只要我方手牌有 1 張卡牌，就對 1 張單位牌造成 1 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：只要我方手牌有 1 張卡牌，就對 1 張單位牌造成 1 點傷害。\n",
+        "name": "屠夫"
+    },
+    "122301": {
+        "info": "軍令：對 1 張單位牌造成 1 點傷害。\n裝填：1 次。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 1 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n",
+        "name": "床弩"
+    },
+    "122302": {
+        "info": "軍令：對 1 張單位牌造成 2 點傷害。\n裝填：1 次。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 2 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n",
+        "name": "加強型床弩"
+    },
+    "122303": {
+        "info": "軍令、遠程：對 1 張單位牌造成 1 點傷害。若該牌被摧毀，則對相鄰該牌的單位牌造成 1 點傷害。\n裝填：1 次。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>、<keyword=ranged>遠程</keyword>：對 1 張單位牌造成 1 點傷害。若該牌被摧毀，則對相鄰該牌的單位牌造成 1 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n",
+        "name": "拋石機"
+    },
+    "122304": {
+        "info": "軍令、近戰：提升相鄰我軍 1 點戰力。\n裝填：1 次。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>、<keyword=melee>近戰</keyword>：提升相鄰我軍 1 點戰力。\n<keyword=charge>裝填</keyword>：1 次。\n",
+        "name": "攻城塔"
+    },
+    "122309": {
+        "info": "部署：賦予 1 張「機器」我軍裝填 2 次。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：賦予 1 張「機器」我軍<keyword=charge>裝填</keyword> 2 次。\n",
+        "name": "攻城支援"
+    },
+    "122310": {
+        "info": "部署、近戰：將 1 張「銅色」我軍的同名牌移動至我方牌組最下方。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：將 1 張「銅色」我軍的同名牌移動至我方牌組最下方。\n",
+        "name": "藍衣鐵衛斥候"
+    },
+    "122311": {
+        "info": "軍令：從我方牌組召喚 1 張此單位牌的同名牌至此列。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：從我方牌組<keyword=summon>召喚</keyword> 1 張此單位牌的同名牌至此列。\n",
+        "name": "藍衣鐵衛突擊隊"
+    },
+    "122312": {
+        "info": "部署：提升相鄰單位牌 2 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升相鄰單位牌 2 點戰力。\n",
+        "name": "戰地醫生"
+    },
+    "122313": {
+        "info": "部署：若打出並與 2 張「士兵」相鄰，則獲得熱忱。\n軍令：對 1 張敵軍造成 3 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：若打出並與 2 張「士兵」相鄰，則獲得<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：對 1 張敵軍造成 3 點傷害。\n",
+        "name": "褐旗營"
+    },
+    "122314": {
+        "info": "部署、近戰：移除 1 張敵軍所有裝填，再以移除次數對該牌造成傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：移除 1 張敵軍所有<keyword=charge>裝填</keyword>，再以移除次數對該牌造成傷害。\n",
+        "name": "科德溫騎兵"
+    },
+    "122315": {
+        "info": "遠程。每回合結束時，隨機對 1 張「遠程列」的敵軍造成 1 點傷害。\n",
+        "infoRaw": "<keyword=ranged>遠程</keyword>。每回合結束時，隨機對 1 張「遠程列」的敵軍造成 1 點傷害。\n",
+        "name": "加強型拋石機"
+    },
+    "122316": {
+        "info": "部署：此列只要有 1 張獲得提升的單位牌，便對 1 張敵軍造成 1 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：此列只要有 1 張獲得提升的單位牌，便對 1 張敵軍造成 1 點傷害。\n",
+        "name": "泰莫利亞步兵"
+    },
+    "122318": {
+        "info": "每當 1 張「機器」位於此列，就賦予其熱忱。\n",
+        "infoRaw": "每當 1 張「機器」位於此列，就賦予其<keyword=zeal>熱忱</keyword>。\n",
+        "name": "攻城大師"
+    },
+    "122401": {
+        "info": "每回合結束時，對最大的敵軍造成 1 點傷害。\n軍令：變身成「家事妖精」。\n",
+        "infoRaw": "每回合結束時，對最大的敵軍造成 1 點傷害。\n<keyword=order>軍令</keyword>：變身成「家事妖精」。\n",
+        "name": "屍嬰"
+    },
+    "122402": {
+        "info": "每回合結束時，提升最小的我軍 1 點戰力。\n軍令：變身成「屍嬰」。\n",
+        "infoRaw": "每回合結束時，提升最小的我軍 1 點戰力。\n<keyword=order>軍令</keyword>：變身成「屍嬰」。\n",
+        "name": "家事妖精"
+    },
+    "122403": {
+        "info": "部署、遠程：抽取 1 張卡牌，再將我方手牌中 1 張卡牌放到我方牌組最上方。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：抽取 1 張卡牌，再將我方手牌中 1 張卡牌放到我方牌組最上方。\n",
+        "name": "維可瓦洛的新手巫師"
+    },
+    "123201": {
+        "info": "生成 1 張「銅色」我軍單位牌的同名牌再召喚該牌至此列。\n",
+        "infoRaw": "<keyword=spawn>生成</keyword> 1 張「銅色」我軍單位牌的同名牌再<keyword=summon>召喚</keyword>該牌至此列。\n",
+        "name": "增援"
+    },
+    "131101": {
+        "info": "軍令：提升 1 張單位牌 4 點戰力並賦予免疫。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：提升 1 張單位牌 4 點戰力並賦予<keyword=immune>免疫</keyword>。\n",
+        "name": "艾瑞汀．畢雷克．葛拉斯"
+    },
+    "131102": {
+        "info": "遠程：每當我方打出 1 張具有求死的單位牌，就發動其求死能力。\n",
+        "infoRaw": "<keyword=ranged>遠程</keyword>：每當我方打出 1 張具有<keyword=deathwish>求死</keyword>的單位牌，就發動其<keyword=deathwish>求死</keyword>能力。\n",
+        "name": "蓋爾"
+    },
+    "132101": {
+        "info": "部署：將所有「人類」我軍變身為「科德溫亡魂」，而且戰力維持不變。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：將所有「人類」我軍變身為「科德溫亡魂」，而且戰力維持不變。\n",
+        "name": "戰靈"
+    },
+    "132102": {
+        "info": "以我軍最大的戰力值對 1 張敵軍造成傷害。\n",
+        "infoRaw": "以我軍最大的戰力值對 1 張敵軍造成傷害。\n",
+        "name": "伊勒瑞斯之怒"
+    },
+    "132103": {
+        "info": "軍令：提升我方手牌中 1 張單位牌 8 點戰力。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：提升我方手牌中 1 張單位牌 8 點戰力。\n",
+        "name": "林精"
+    },
+    "132104": {
+        "info": "部署：生成我方手牌中 1 張 1 點戰力的單位牌的同名牌並召喚該牌至此列。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=spawn>生成</keyword>我方手牌中 1 張 1 點戰力的單位牌的同名牌並<keyword=summon>召喚</keyword>該牌至此列。\n",
+        "name": "卡蘭希爾．艾芬尼爾"
+    },
+    "132105": {
+        "info": "軍令：賦予 1 張我軍單位牌免疫。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：賦予 1 張我軍單位牌<keyword=immune>免疫</keyword>。\n",
+        "name": "阿瓦拉克"
+    },
+    "132106": {
+        "info": "部署、遠程：從我方墓地打出 1 張「文物」牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：從我方墓地打出 1 張「文物」牌。\n",
+        "name": "看門人"
+    },
+    "132107": {
+        "info": "熱忱。\n軍令：吞噬 1 張我軍。\n裝填：3 次。\n",
+        "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：<keyword=consume>吞噬</keyword> 1 張我軍。\n<keyword=charge>裝填</keyword>：3 次。\n",
+        "name": "巨章魚怪"
+    },
+    "132108": {
+        "info": "求死：奪取 1 張戰力為 3 點以下的敵軍。\n",
+        "infoRaw": "<keyword=deathwish>求死</keyword>：<keyword=seize>奪取</keyword> 1 張戰力為 3 點以下的敵軍。\n",
+        "name": "米露娜"
+    },
+    "132201": {
+        "info": "生成 2 張「蟹蜘蛛雄蛛」並召喚至此列，再提升此列所有「類蟲生物」1 點戰力。\n",
+        "infoRaw": "<keyword=spawn>生成</keyword> 2 張「蟹蜘蛛雄蛛」並<keyword=summon>召喚</keyword>至此列，再提升此列所有「類蟲生物」1 點戰力。\n",
+        "name": "巨型蟹蜘蛛"
+    },
+    "132202": {
+        "info": "軍令：驅逐我方墓地所有單位牌，而每驅逐 1 張就提升自身 1 點戰力。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：<keyword=banish>驅逐</keyword>我方墓地所有單位牌，而每驅逐 1 張就提升自身 1 點戰力。\n",
+        "name": "莫恩塔特"
+    },
+    "132203": {
+        "info": "茁壯。\n部署：發動 1 張「銅色」我軍的求死能力。\n",
+        "infoRaw": "<keyword=thrive>茁壯</keyword>。\n<keyword=deploy>部署</keyword>：發動 1 張「銅色」我軍的<keyword=deathwish>求死</keyword>能力。\n",
+        "name": "阿巴亞"
+    },
+    "132204": {
+        "info": "當 3 張我軍單位牌被摧毀，便喚醒「畏懼者」。\n",
+        "infoRaw": "當 3 張我軍單位牌被摧毀，便喚醒「畏懼者」。\n",
+        "name": "畏懼者：蟄伏"
+    },
+    "132205": {
+        "info": "部署：提升所有「野獸」我軍 1 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升所有「野獸」我軍 1 點戰力。\n",
+        "name": "莫伍德"
+    },
+    "132206": {
+        "info": "部署：對 1 張敵軍造成 2 點傷害。\n每當我方打出「煮婆」或「織婆」，此傷害值便提高 2 點。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 2 點傷害。\n每當我方打出「煮婆」或「織婆」，此傷害值便提高 2 點。\n",
+        "name": "呢喃婆"
+    },
+    "132207": {
+        "info": "部署：吞噬 1 張我軍單位牌。\n每當我方打出「呢喃婆」或「織婆」，吞噬的目標卡牌就增加 1 張。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=consume>吞噬</keyword> 1 張我軍單位牌。\n每當我方打出「呢喃婆」或「織婆」，吞噬的目標卡牌就增加 1 張。\n",
+        "name": "煮婆"
+    },
+    "132208": {
+        "info": "部署：提升 1 張我軍 2 點戰力。\n每當我方打出「呢喃婆」或「煮婆」，此提升值就提高 2 點。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張我軍 2 點戰力。\n每當我方打出「呢喃婆」或「煮婆」，此提升值就提高 2 點。\n",
+        "name": "織婆"
+    },
+    "132209": {
+        "info": "求死：摧毀最小的敵軍。\n",
+        "infoRaw": "<keyword=deathwish>求死</keyword>：摧毀最小的敵軍。\n",
+        "name": "帝國飛獅怪"
+    },
+    "132210": {
+        "info": "熱忱。\n軍令：對相對列上所有單位牌造成 1 點傷害。\n冷卻：3 回合。\n",
+        "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：對相對列上所有單位牌造成 1 點傷害。\n<keyword=cooldown>冷卻</keyword>：3 回合。\n",
+        "name": "巨型火精靈"
+    },
+    "132211": {
+        "info": "茁壯。\n",
+        "infoRaw": "<keyword=thrive>茁壯</keyword>。\n",
+        "name": "孽鬼戰士"
+    },
+    "132212": {
+        "info": "無特殊能力。\n",
+        "infoRaw": "無特殊能力。\n",
+        "name": "寒冰巨人"
+    },
+    "132213": {
+        "info": "無特殊能力。\n",
+        "infoRaw": "無特殊能力。\n",
+        "name": "遠古土精靈"
+    },
+    "132214": {
+        "info": "部署：摧毀 1 張敵軍「文物」。若我方控制最大的單位牌，則對相鄰該文物的單位牌造成 2 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：摧毀 1 張敵軍「文物」。若我方控制最大的單位牌，則對相鄰該文物的單位牌造成 2 點傷害。\n",
+        "name": "尼絲里拉"
+    },
+    "132215": {
+        "info": "部署：賦予 1 張敵軍單位牌氣數已盡。\n軍令：摧毀 1 張氣數已盡的敵軍。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：賦予 1 張敵軍單位牌<keyword=doomed>氣數已盡</keyword>。\n<keyword=order>軍令</keyword>：摧毀 1 張<keyword=doomed>氣數已盡</keyword>的敵軍。\n",
+        "name": "剛特・歐迪姆"
+    },
+    "132216": {
+        "info": "部署、近戰：吞噬 1 張戰力為 3 點以下的單位牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=consume>吞噬</keyword> 1 張戰力為 3 點以下的單位牌。\n",
+        "name": "蟾蜍王子"
+    },
+    "132217": {
+        "info": "部署：吞噬 1 張我軍單位牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=consume>吞噬</keyword> 1 張我軍單位牌。\n",
+        "name": "賽爾伊諾人面妖鳥"
+    },
+    "132218": {
+        "info": "無特殊能力。\n",
+        "infoRaw": "無特殊能力。\n",
+        "name": "老矛頭：瞌睡"
+    },
+    "132301": {
+        "info": "求死：從我方牌組召喚 1 張此單位牌的同名牌至隨機我方列。\n",
+        "infoRaw": "<keyword=deathwish>求死</keyword>：從我方牌組<keyword=summon>召喚</keyword> 1 張此單位牌的同名牌至隨機我方列。\n",
+        "name": "小霧妖"
+    },
+    "132302": {
+        "info": "求死：從墓地召喚此單位牌至同列，提升此牌 4 點戰力，並賦予其氣數已盡。\n",
+        "infoRaw": "<keyword=deathwish>求死</keyword>：從墓地<keyword=summon>召喚</keyword>此單位牌至同列，提升此牌 4 點戰力，並賦予其<keyword=doomed>氣數已盡</keyword>。\n",
+        "name": "遠古小霧妖"
+    },
+    "132303": {
+        "info": "部署：對 1 張敵軍造成 2 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 2 點傷害。\n",
+        "name": "翼手龍"
+    },
+    "132304": {
+        "info": "氣數已盡。\n",
+        "infoRaw": "<keyword=doomed>氣數已盡</keyword>。\n",
+        "name": "蟹蜘蛛雄蛛"
+    },
+    "132305": {
+        "info": "茁壯。\n部署：生成 1 張此單位牌的基礎同名牌並召喚至此列。\n",
+        "infoRaw": "<keyword=thrive>茁壯</keyword>。\n<keyword=deploy>部署</keyword>：<keyword=spawn>生成</keyword> 1 張此單位牌的基礎同名牌並<keyword=summon>召喚</keyword>至此列。\n",
+        "name": "孽鬼"
+    },
+    "132306": {
+        "info": "部署、近戰：吞噬我方墓地中 1 張單位牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=consume>吞噬</keyword>我方墓地中 1 張單位牌。\n",
+        "name": "食屍鬼"
+    },
+    "132307": {
+        "info": "keyword=deploy>部署：摧毀此列 1 張我軍單位牌。若此列上沒有單位牌，則摧毀自身。\n",
+        "infoRaw": "keyword=deploy>部署</keyword>：摧毀此列 1 張我軍單位牌。若此列上沒有單位牌，則摧毀自身。\n",
+        "name": "獅鷲獸"
+    },
+    "132308": {
+        "info": "只要 1 張單位牌在我方回合內被摧毀，便隨機對 1 張敵軍造成 1 點傷害。\n",
+        "infoRaw": "只要 1 張單位牌在我方回合內被摧毀，便隨機對 1 張敵軍造成 1 點傷害。\n",
+        "name": "蜥蜴人戰士"
+    },
+    "132309": {
+        "info": "部署：只要此列上有 1 張「狂獵」單位牌，就對 1 張單位牌造成 1 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：只要此列上有 1 張「狂獵」單位牌，就對 1 張單位牌造成 1 點傷害。\n",
+        "name": "狂獵戰士"
+    },
+    "132310": {
+        "info": "部署：若我方控制最大的單位牌，則從我方牌組召喚 1 張「狂獵騎士」的同名牌至此列。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：若我方控制最大的單位牌，則從我方牌組<keyword=summon>召喚</keyword> 1 張「狂獵騎士」的同名牌至此列。\n",
+        "name": "狂獵騎士"
+    },
+    "132312": {
+        "info": "雙方各自摧毀自身最小的單位牌。\n",
+        "infoRaw": "雙方各自摧毀自身最小的單位牌。\n",
+        "name": "獵捕俯衝"
+    },
+    "132314": {
+        "info": "茁壯。\n部署：對 1 張敵軍造成 2 點傷害並移至另一列。\n",
+        "infoRaw": "<keyword=thrive>茁壯</keyword>。\n<keyword=deploy>部署</keyword>：對 1 張敵軍造成 2 點傷害並移至另一列。\n",
+        "name": "水鬼"
+    },
+    "132315": {
+        "info": "氣數已盡。\n",
+        "infoRaw": "<keyword=doomed>氣數已盡</keyword>。\n",
+        "name": "人面妖鳥"
+    },
+    "132316": {
+        "info": "求死：生成 1 張「人面妖鳥」並召喚至隨機我方列。\n",
+        "infoRaw": "<keyword=deathwish>求死</keyword>：<keyword=spawn>生成</keyword> 1 張「人面妖鳥」並<keyword=summon>召喚</keyword>至隨機我方列。\n",
+        "name": "人面妖鳥蛋"
+    },
+    "132402": {
+        "info": "部署：對 1 張敵軍造成 1 點傷害。若我方控制最大的單位牌，則改為造成 3 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 1 點傷害。若我方控制最大的單位牌，則改為造成 3 點傷害。\n",
+        "name": "狂獵之犬"
+    },
+    "132403": {
+        "info": "部署：對 1 張敵軍造成 2 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 2 點傷害。\n",
+        "name": "狼群"
+    },
+    "132404": {
+        "info": "部署：對 1 張敵軍造成 4 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 4 點傷害。\n",
+        "name": "狂怒火精靈"
+    },
+    "132405": {
+        "info": "部署：摧毀 1 張「文物」敵軍。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：摧毀 1 張「文物」敵軍。\n",
+        "name": "狂暴土精靈"
+    },
+    "132406": {
+        "info": "部署：發動 1 張「銅色」我軍的求死能力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：發動 1 張「銅色」我軍的<keyword=deathwish>求死</keyword>能力。\n",
+        "name": "無骨妖"
+    },
+    "132407": {
+        "info": "部署：揭示對方牌組最上方的單位牌，並以該牌戰力值對自身造成傷害，再將該牌放回洗牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=reveal>揭示</keyword>對方牌組最上方的單位牌，並以該牌戰力值對自身造成傷害，再將該牌放回洗牌。\n",
+        "name": "帝國魔像"
+    },
+    "132408": {
+        "info": "無特殊能力。\n",
+        "infoRaw": "無特殊能力。\n",
+        "name": "老矛頭"
+    },
+    "132409": {
+        "info": "對 1 張敵軍造成 3 點傷害，並提升 1 張我軍 3 點戰力。\n",
+        "infoRaw": "對 1 張敵軍造成 3 點傷害，並提升 1 張我軍 3 點戰力。\n",
+        "name": "糟透的盛宴"
+    },
+    "133301": {
+        "info": "熱忱。\n軍令：提升 1 張單位牌 1 點戰力。\n冷卻：1 回合。\n",
+        "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：提升 1 張單位牌 1 點戰力。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n",
+        "name": "翼手龍鱗盾牌"
+    },
+    "133302": {
+        "info": "生成 4 張 1 點戰力的「蟹蜘蛛雄蛛」並召喚至我方列。\n",
+        "infoRaw": "<keyword=spawn>生成</keyword> 4 張 1 點戰力的「蟹蜘蛛雄蛛」並<keyword=summon>召喚</keyword>至我方列。\n",
+        "name": "蟹蜘蛛巢穴"
+    },
+    "142101": {
+        "info": "免疫。\n軍令：僅於本回合內移除此單位牌的免疫狀態。\n",
+        "infoRaw": "<keyword=immune>免疫</keyword>。\n<keyword=order>軍令</keyword>：僅於本回合內移除此單位牌的<keyword=immune>免疫</keyword>狀態。\n",
+        "name": "薩琪亞薩司"
+    },
+    "142102": {
+        "info": "部署：提升所有其他「精靈」我軍 1 點戰力。\n每當我方打出 1 張「精靈」，便提升自身 1 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升所有其他「精靈」我軍 1 點戰力。\n每當我方打出 1 張「精靈」，便提升自身 1 點戰力。\n",
+        "name": "伊森格林．法歐提亞納"
+    },
+    "142103": {
+        "info": "部署：將 1 張「陷阱」我軍收回我方手牌，再打出 1 張「陷阱」。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：將 1 張「陷阱」我軍收回我方手牌，再打出 1 張「陷阱」。\n",
+        "name": "伊歐菲斯"
+    },
+    "142104": {
+        "info": "免疫。\n每當我方打出 1 張「松鼠黨」單位牌，便提升自身 1 點戰力。\n",
+        "infoRaw": "<keyword=immune>免疫</keyword>。\n每當我方打出 1 張「松鼠黨」單位牌，便提升自身 1 點戰力。\n",
+        "name": "米爾瓦"
+    },
+    "142105": {
+        "info": "部署、近戰：摧毀 1 張戰力不大於我軍「矮人」總數的單位牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：摧毀 1 張戰力不大於我軍「矮人」總數的單位牌。\n",
+        "name": "卓爾坦．齊瓦"
+    },
+    "142106": {
+        "info": "部署：回合結束時，將自身獲得的戰力提升值加倍。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：回合結束時，將自身獲得的戰力提升值加倍。\n",
+        "name": "阿格萊絲"
+    },
+    "142107": {
+        "info": "部署：提升 1 張我方手牌的「松鼠黨」單位牌 4 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張我方手牌的「松鼠黨」單位牌 4 點戰力。\n",
+        "name": "伊絲琳妮．艾格麗"
+    },
+    "142108": {
+        "info": "熱忱。\n軍令：摧毀所有其他戰力與「施魯」相同的單位牌。\n",
+        "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：摧毀所有其他戰力與「施魯」相同的單位牌。\n",
+        "name": "施魯"
+    },
+    "142201": {
+        "info": "部署、近戰：提升相鄰單位牌 2 點戰力。\n部署、遠程：提升此列所有其他單位牌 1 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：提升相鄰單位牌 2 點戰力。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：提升此列所有其他單位牌 1 點戰力。\n",
+        "name": "丹尼斯．克藍莫"
+    },
+    "142202": {
+        "info": "部署、近戰：摧毀 1 張「文物」。\n部署、遠程：提升 1 張單位牌 3 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：摧毀 1 張「文物」。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：提升 1 張單位牌 3 點戰力。\n",
+        "name": "艾達．艾敏．西弗尼"
+    },
+    "142203": {
+        "info": "部署：只要有 1 張我軍「精靈」，就對 1 張敵軍造成 1 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：只要有 1 張我軍「精靈」，就對 1 張敵軍造成 1 點傷害。\n",
+        "name": "亞伊文"
+    },
+    "142204": {
+        "info": "部署、近戰：對單列兩端的敵軍造成 2 點傷害。\n部署、遠程：對單列全體敵軍造成 1 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對單列兩端的敵軍造成 2 點傷害。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：對單列全體敵軍造成 1 點傷害。\n",
+        "name": "托魯維爾"
+    },
+    "142205": {
+        "info": "部署、近戰：將 1 張敵軍單位牌移動至對方另一列。\n部署、遠程：將 1 張我軍單位牌移動至我方另一列。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：將 1 張敵軍單位牌移動至對方另一列。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：將 1 張我軍單位牌移動至我方另一列。\n",
+        "name": "維里赫德旅騎兵"
+    },
+    "142206": {
+        "info": "部署：封印 1 張單位牌並將該牌移動至另一列。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=lock>封印</keyword> 1 張單位牌並將該牌移動至另一列。\n",
+        "name": "席朗．依斯尼藍"
+    },
+    "142207": {
+        "info": "部署：只要有 1 張「矮人」我軍，便提升 1 張我軍 1 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：只要有 1 張「矮人」我軍，便提升 1 張我軍 1 點戰力。\n",
+        "name": "巴克萊．艾爾斯"
+    },
+    "142208": {
+        "info": "部署、近戰：對 1 張敵軍造成 2 點傷害。 \n部署、遠程：封印 1 張單位牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對 1 張敵軍造成 2 點傷害。 \n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：<keyword=lock>封印</keyword> 1 張單位牌。\n",
+        "name": "莫麗恩"
+    },
+    "142209": {
+        "info": "部署：若我方控制 2 張以上「樹精」，便獲得熱忱。\n軍令：對 1 張敵軍造成 1 點傷害。\n裝填 3 次。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：若我方控制 2 張以上「樹精」，便獲得<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：對 1 張敵軍造成 1 點傷害。\n<keyword=charge>裝填</keyword> 3 次。\n",
+        "name": "布蕾恩"
+    },
+    "142210": {
+        "info": "軍令：將 1 張單位牌移動至同側另一列。\n冷卻：2 回合。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：將 1 張單位牌移動至同側另一列。\n<keyword=cooldown>冷卻</keyword>：2 回合。\n",
+        "name": "瑪麗娜"
+    },
+    "142211": {
+        "info": "若回合結束時我方掌控 5 張以上的「精靈」我軍，便從我方牌組召喚此單位牌至「近戰列」。\n",
+        "infoRaw": "若回合結束時我方掌控 5 張以上的「精靈」我軍，便從我方牌組<keyword=summon>召喚</keyword>此單位牌至「近戰列」。\n",
+        "name": "艾立倫"
+    },
+    "142212": {
+        "info": "部署：對 1 張敵軍造成等同此單位牌戰力的傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成等同此單位牌戰力的傷害。\n",
+        "name": "雪爾登．史卡格"
+    },
+    "142213": {
+        "info": "每回合結束時，若場上沒有任何我軍單位牌，便提升自身 3 點戰力。\n",
+        "infoRaw": "每回合結束時，若場上沒有任何我軍單位牌，便提升自身 3 點戰力。\n",
+        "name": "亞爾潘．齊格林"
+    },
+    "142214": {
+        "info": "部署：對所有負傷的單位牌造成 1 點傷害，並提升所有獲得提升的單位牌 1 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對所有負傷的單位牌造成 1 點傷害，並提升所有獲得提升的單位牌 1 點戰力。\n",
+        "name": "艾雷亞斯"
+    },
+    "142301": {
+        "info": "部署、近戰：提升 1 張我軍單位牌 2 點戰力。\n部署、遠程：治療 1 張我軍單位牌 4 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：提升 1 張我軍單位牌 2 點戰力。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：<keyword=heal>治療</keyword> 1 張我軍單位牌 4 點戰力。\n",
+        "name": "私梟治療者"
+    },
+    "142302": {
+        "info": "部署：隨機對 1 張敵軍造成 2 點傷害。\n每當「維里赫德旅」移動至另一列，便重複發動其部署能力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：隨機對 1 張敵軍造成 2 點傷害。\n每當「維里赫德旅」移動至另一列，便重複發動其<keyword=deploy>部署</keyword>能力。\n",
+        "name": "維里赫德旅"
+    },
+    "142303": {
+        "info": "部署、近戰：對 1 張敵軍造成 3 點傷害。\n部署、遠程：提升 1 張我軍 3 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對 1 張敵軍造成 3 點傷害。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：提升 1 張我軍 3 點戰力。\n",
+        "name": "維里赫德旅軍官"
+    },
+    "142304": {
+        "info": "部署：隨機對每列 1 張敵軍造成 2 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：隨機對每列 1 張敵軍造成 2 點傷害。\n",
+        "name": "多爾布雷坦納砲彈手"
+    },
+    "142305": {
+        "info": "部署：對 1 張敵軍造成 3 點傷害。若該牌未被摧毀，則提升自身 1 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 3 點傷害。若該牌未被摧毀，則提升自身 1 點戰力。\n",
+        "name": "矮人好鬥份子"
+    },
+    "142306": {
+        "info": "每回合結束時，若此單位牌獲得提升，便提升自身 1 點戰力。\n",
+        "infoRaw": "每回合結束時，若此單位牌獲得提升，便提升自身 1 點戰力。\n",
+        "name": "瑪哈坎後衛"
+    },
+    "142307": {
+        "info": "部署：若我方手牌中有 1 張「精靈」，便摧毀 1 張敵軍「文物」。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：若我方手牌中有 1 張「精靈」，便摧毀 1 張敵軍「文物」。\n",
+        "name": "維里赫德旅工兵"
+    },
+    "142308": {
+        "info": "若場上有「精靈」我軍，便隨機摧毀 1 張敵軍單位牌。\n",
+        "infoRaw": "若場上有「精靈」我軍，便隨機摧毀 1 張敵軍單位牌。\n",
+        "name": "打劫"
+    },
+    "142309": {
+        "info": "部署：只要我方手牌有 1 張「精靈」，便提升自身 1 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：只要我方手牌有 1 張「精靈」，便提升自身 1 點戰力。\n",
+        "name": "維里赫德旅先鋒"
+    },
+    "142310": {
+        "info": "部署、近戰：對 1 張敵軍造成 2 點傷害。\n部署、遠程：對 2 張單位牌造成 1 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對 1 張敵軍造成 2 點傷害。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：對 2 張單位牌造成 1 點傷害。\n",
+        "name": "多爾布雷坦納弓箭手"
+    },
+    "142311": {
+        "info": "軍令：對 1 張敵軍造成 1 點傷害。\n裝填：1 次。\n每當我方打出 1 張「矮人」就獲得裝填 1 次。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：對 1 張敵軍造成 1 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n每當我方打出 1 張「矮人」就獲得<keyword=charge>裝填</keyword> 1 次。\n",
+        "name": "矮人傭兵"
+    },
+    "142312": {
+        "info": "部署：提升 1 張我軍 1 點戰力。若我方控制 1 張「文物」，則改為提升 3 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張我軍 1 點戰力。若我方控制 1 張「文物」，則改為提升 3 點戰力。\n",
+        "name": "私梟後援"
+    },
+    "142313": {
+        "info": "部署：若此單位牌已獲得提升，則對 1 張敵軍造成 3 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：若此單位牌已獲得提升，則對 1 張敵軍造成 3 點傷害。\n",
+        "name": "精靈戰舞者"
+    },
+    "142314": {
+        "info": "部署：與此單位牌相隔 1 列，就對 1 張敵軍造成 1 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：與此單位牌相隔 1 列，就對 1 張敵軍造成 1 點傷害。\n",
+        "name": "多爾布雷坦納射手"
+    },
+    "142315": {
+        "info": "近戰：每回合結束時，隨機提升我方手牌中 1 張單位牌 1 點戰力。\n",
+        "infoRaw": "<keyword=melee>近戰</keyword>：每回合結束時，隨機提升我方手牌中 1 張單位牌 1 點戰力。\n",
+        "name": "私梟走私者"
+    },
+    "142316": {
+        "info": "部署、近戰：若該敵軍是列上唯一的單位牌，則對其造成 4 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：若該敵軍是列上唯一的單位牌，則對其造成 4 點傷害。\n",
+        "name": "藍山精銳"
+    },
+    "142317": {
+        "info": "部署：以另一列上的「矮人」我軍數量來提升自身戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：以另一列上的「矮人」我軍數量來提升自身戰力。\n",
+        "name": "瑪哈坎守衛"
+    },
+    "142401": {
+        "info": "部署：生成並召喚 1 張此單位牌的基礎同名牌至我方另一列。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=spawn>生成</keyword>並<keyword=summon>召喚</keyword> 1 張此單位牌的基礎同名牌至我方另一列。\n",
+        "name": "松鼠黨新兵"
+    },
+    "143201": {
+        "info": "伏擊：在對方打出下一張「特殊」牌但該牌尚未發動任何能力前先摧毀該牌。\n",
+        "infoRaw": "<keyword=ambush>伏擊</keyword>：在對方打出下一張「特殊」牌但該牌尚未發動任何能力前先摧毀該牌。\n",
+        "name": "蛇類陷阱"
+    },
+    "143301": {
+        "info": "伏擊：對對方打出的下一張單位牌造成 5 點傷害。\n熱忱。\n軍令：翻面並對 1 張單位牌造成 3 點傷害。\n",
+        "infoRaw": "<keyword=ambush>伏擊</keyword>：對對方打出的下一張單位牌造成 5 點傷害。\n<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：翻面並對 1 張單位牌造成 3 點傷害。\n",
+        "name": "焚燒陷阱"
+    },
+    "152101": {
+        "info": "部署、近戰：驅逐我方墓地 1 張單位牌，並對 1 張敵軍造成等同該牌戰力值的傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=banish>驅逐</keyword>我方墓地 1 張單位牌，並對 1 張敵軍造成等同該牌戰力值的傷害。\n",
+        "name": "哈爾瑪．奎特"
+    },
+    "152103": {
+        "info": "部署、遠程：從我方牌組打出 1 張「鍊金術」牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：從我方牌組打出 1 張「鍊金術」牌。\n",
+        "name": "爾米亞"
+    },
+    "152104": {
+        "info": "部署：丟棄我方最右端的手牌，再強迫對方照做。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=discard>丟棄</keyword>我方最右端的手牌，再強迫對方照做。\n",
+        "name": "坎畢"
+    },
+    "152105": {
+        "info": "部署：抽取 2 張卡牌，再丟棄 2 張卡牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：抽取 2 張卡牌，再<keyword=discard>丟棄</keyword> 2 張卡牌。\n",
+        "name": "碧兒娜・布蘭"
+    },
+    "152106": {
+        "info": "部署：對 1 張敵軍造成傷害，而傷害值等同負傷敵軍總數的兩倍。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成傷害，而傷害值等同負傷敵軍總數的兩倍。\n",
+        "name": "瘋子盧戈"
+    },
+    "152107": {
+        "info": "軍令：丟棄 1 張卡牌，再抽取 1 張卡牌。\n裝填：3 次。\n每當 1 張「特殊」牌被丟棄，就對 1 張敵軍造成 2 點傷害。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：<keyword=discard>丟棄</keyword> 1 張卡牌，再抽取 1 張卡牌。\n<keyword=charge>裝填</keyword>：3 次。\n每當 1 張「特殊」牌被<keyword=discard>丟棄</keyword>，就對 1 張敵軍造成 2 點傷害。\n",
+        "name": "克蘿"
+    },
+    "152109": {
+        "info": "部署、近戰：對所有負傷敵軍造成 2 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對所有負傷敵軍造成 2 點傷害。\n",
+        "name": "海上野豬"
+    },
+    "152201": {
+        "info": "每當此單位牌負傷，便隨機對 1 張敵軍單位牌造成 2 點傷害。\n",
+        "infoRaw": "每當此單位牌負傷，便隨機對 1 張敵軍單位牌造成 2 點傷害。\n",
+        "name": "阿藍盧戈"
+    },
+    "152202": {
+        "info": "對 1 張單位牌造成 5 點傷害。\n嗜血 3 張：改為摧毀 1 張單位牌。\n",
+        "infoRaw": "對 1 張單位牌造成 5 點傷害。\n<keyword=bloodthirst>嗜血</keyword> 3 張：改為摧毀 1 張單位牌。\n",
+        "name": "冠軍衝刺"
+    },
+    "152203": {
+        "info": "嗜血 1 張：封印 1 張敵軍單位牌。\n",
+        "infoRaw": "<keyword=bloodthirst>嗜血</keyword> 1 張：<keyword=lock>封印</keyword> 1 張敵軍單位牌。\n",
+        "name": "鄧格．費特"
+    },
+    "152204": {
+        "info": "部署：對 1 張敵軍造成 2 點傷害。\n嗜血 2 張：改為對 1 張敵軍造成 5 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 2 點傷害。\n<keyword=bloodthirst>嗜血</keyword> 2 張：改為對 1 張敵軍造成 5 點傷害。\n",
+        "name": "多納・辛達"
+    },
+    "152205": {
+        "info": "部署：提升所有「戰士」我軍 1 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升所有「戰士」我軍 1 點戰力。\n",
+        "name": "杜雷格邦迪"
+    },
+    "152206": {
+        "info": "部署、遠程：從我方墓地打出 1 張「銅色」「鍊金術」。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：從我方墓地打出 1 張「銅色」「鍊金術」。\n",
+        "name": "格雷米斯特"
+    },
+    "152207": {
+        "info": "每當我方打出 1 張「船」，就提升該牌 1 點戰力。\n每當我方打出 1 張「海寇」，就隨機對 1 張敵軍造成 1 點傷害。\n",
+        "infoRaw": "每當我方打出 1 張「船」，就提升該牌 1 點戰力。\n每當我方打出 1 張「海寇」，就隨機對 1 張敵軍造成 1 點傷害。\n",
+        "name": "霍格・黑手"
+    },
+    "152208": {
+        "info": "部署：若「茱塔・迪門」是最大的單位牌，則對自身造成 6 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：若「茱塔・迪門」是最大的單位牌，則對自身造成 6 點傷害。\n",
+        "name": "茱塔・迪門"
+    },
+    "152209": {
+        "info": "當此單位牌移動至墓地，便召喚該牌至「近戰列」並賦予氣數已盡。\n",
+        "infoRaw": "當此單位牌移動至墓地，便<keyword=summon>召喚</keyword>該牌至「近戰列」並賦予<keyword=doomed>氣數已盡</keyword>。\n",
+        "name": "莫克瓦格"
+    },
+    "152210": {
+        "info": "熱忱。\n部署：只要墓地中有 1 張「惡熊」，便獲得裝填 1 次。\n軍令：對 1 張單位牌造成 2 點傷害。\n裝填：1 次。\n",
+        "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=deploy>部署</keyword>：只要墓地中有 1 張「惡熊」，便獲得<keyword=charge>裝填</keyword> 1 次。\n<keyword=order>軍令</keyword>：對 1 張單位牌造成 2 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n",
+        "name": "惡熊"
+    },
+    "152211": {
+        "info": "從我方墓地召喚 1 張「戰士」至我方列。\n",
+        "infoRaw": "從我方墓地<keyword=summon>召喚</keyword> 1 張「戰士」至我方列。\n",
+        "name": "西格德莉法的儀式"
+    },
+    "152213": {
+        "info": "部署、嗜血 3 張：提升自身 5 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=bloodthirst>嗜血</keyword> 3 張：提升自身 5 點戰力。\n",
+        "name": "斯凡瑞吉．圖爾希曲"
+    },
+    "152214": {
+        "info": "軍令：對 1 張單位牌造成 1 點傷害。\n裝填：3 次。\n嗜血 2 張：獲得熱忱。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 1 點傷害。\n<keyword=charge>裝填</keyword>：3 次。\n<keyword=bloodthirst>嗜血</keyword> 2 張：獲得<keyword=zeal>熱忱</keyword>。\n",
+        "name": "烏達瑞克．布洛克伐"
+    },
+    "152303": {
+        "info": "部署：對 1 張敵軍造成 2 點傷害。若此牌從墓地打出，則改為對此牌造成 4 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 2 點傷害。若此牌從墓地打出，則改為對此牌造成 4 點傷害。\n",
+        "name": "奎特戰士"
+    },
+    "152304": {
+        "info": "軍令：對 1 張單位牌造成 1 點傷害。\n裝填：1 次。\n每當我方丟棄 1 張卡牌就獲得裝填 1 次。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 1 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n每當我方<keyword=discard>丟棄</keyword> 1 張卡牌就獲得<keyword=charge>裝填</keyword> 1 次。\n",
+        "name": "布洛克伐獵人"
+    },
+    "152305": {
+        "info": "部署：將我方牌組最上方的卡牌移動到我方墓地。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：將我方牌組最上方的卡牌移動到我方墓地。\n",
+        "name": "迪門海盜"
+    },
+    "152306": {
+        "info": "部署。\n嗜血 2 張：對 1 張敵軍造成 3 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>。\n<keyword=bloodthirst>嗜血</keyword> 2 張：對 1 張敵軍造成 3 點傷害。\n",
+        "name": "迪門海盜船長"
+    },
+    "152307": {
+        "info": "軍令：若此單位牌受到傷害，便生成 1 張該牌的基礎同名牌並召喚至右方。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：若此單位牌受到傷害，便<keyword=spawn>生成</keyword> 1 張該牌的基礎同名牌並<keyword=summon>召喚</keyword>至右方。\n",
+        "name": "德拉蒙衛隊"
+    },
+    "152308": {
+        "info": "部署：丟棄 1 張卡牌，再抽取 1 張卡牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=discard>丟棄</keyword> 1 張卡牌，再抽取 1 張卡牌。\n",
+        "name": "海玫詩人"
+    },
+    "152309": {
+        "info": "軍令：對自身和 1 張敵軍造成 1 點傷害。\n冷卻：1 回合。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：對自身和 1 張敵軍造成 1 點傷害。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n",
+        "name": "迪門輕型長船"
+    },
+    "152310": {
+        "info": "從我方墓地打出 1 張「銅色」單位牌。\n",
+        "infoRaw": "從我方墓地打出 1 張「銅色」單位牌。\n",
+        "name": "弗蕾雅的祝福"
+    },
+    "152311": {
+        "info": "軍令：提升 1 張我軍 1 點戰力。\n裝填：1 次。\n每當我方打出 1 張「戰士」牌就獲得裝填 1 次。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：提升 1 張我軍 1 點戰力。\n<keyword=charge>裝填</keyword>：1 次。\n每當我方打出 1 張「戰士」牌就獲得<keyword=charge>裝填</keyword> 1 次。\n",
+        "name": "奎特鐵匠"
+    },
+    "152312": {
+        "info": "部署、近戰：摧毀 1 張戰力小於其基礎戰力一半的敵軍。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：摧毀 1 張戰力小於其基礎戰力一半的敵軍。\n",
+        "name": "圖爾希曲斧手"
+    },
+    "152313": {
+        "info": "當此單位牌被丟棄，便從我方墓地召喚該牌至「近戰列」。\n",
+        "infoRaw": "當此單位牌被<keyword=discard>丟棄</keyword>，便從我方墓地<keyword=summon>召喚</keyword>該牌至「近戰列」。\n",
+        "name": "圖爾希曲好鬥份子"
+    },
+    "152314": {
+        "info": "只要對手打出 1 張單位牌，便對該牌造成 1 點傷害。\n",
+        "infoRaw": "只要對手打出 1 張單位牌，便對該牌造成 1 點傷害。\n",
+        "name": "奎特長船"
+    },
+    "152315": {
+        "info": "部署、遠程對 1 張敵軍造成傷害，其傷害值等同對方場上負傷的單位牌總數。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>對 1 張敵軍造成傷害，其傷害值等同對方場上負傷的單位牌總數。\n",
+        "name": "布洛克伐弓箭手"
+    },
+    "152316": {
+        "info": "對 1 張單位牌造成 4 點傷害。\n嗜血 2 張：改為對 1 張單位牌造成 6 點傷害。\n",
+        "infoRaw": "對 1 張單位牌造成 4 點傷害。\n<keyword=bloodthirst>嗜血</keyword> 2 張：改為對 1 張單位牌造成 6 點傷害。\n",
+        "name": "開腸剖肚"
+    },
+    "152317": {
+        "info": "部署：提升 1 張我軍 1 點戰力。若該牌為「戰士」，則改為提升 3 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張我軍 1 點戰力。若該牌為「戰士」，則改為提升 3 點戰力。\n",
+        "name": "奎特盔甲匠"
+    },
+    "152318": {
+        "info": "此單位牌再受到傷害時，便從我方牌組召喚 1 張該牌的同名牌至此列。\n",
+        "infoRaw": "此單位牌再受到傷害時，便從我方牌組<keyword=summon>召喚</keyword> 1 張該牌的同名牌至此列。\n",
+        "name": "德拉蒙持盾女衛"
+    },
+    "152403": {
+        "info": "隨機分配 6 點傷害值給對方單列上所有單位牌。\n",
+        "infoRaw": "隨機分配 6 點傷害值給對方單列上所有單位牌。\n",
+        "name": "神智不清"
+    },
+    "152405": {
+        "info": "無特殊能力。\n",
+        "infoRaw": "無特殊能力。\n",
+        "name": "老熊"
+    },
+    "152406": {
+        "info": "部署：對 1 張左方的我軍造成 1 點傷害。若左方沒有我軍，則改為對自身造成 1 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張左方的我軍造成 1 點傷害。若左方沒有我軍，則改為對自身造成 1 點傷害。\n",
+        "name": "暴怒巨熊"
+    },
+    "153201": {
+        "info": "治療單列所有單位牌。\n",
+        "infoRaw": "<keyword=heal>治療</keyword>單列所有單位牌。\n",
+        "name": "回復"
+    },
+    "153301": {
+        "info": "對某列所有單位牌造成 2 點傷害。\n",
+        "infoRaw": "對某列所有單位牌造成 2 點傷害。\n",
+        "name": "撕裂"
+    },
+    "162101": {
+        "info": "部署：移除敵軍領導牌所有重抽。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：移除敵軍領導牌所有重抽。\n",
+        "name": "古雷特的雷索"
+    },
+    "162102": {
+        "info": "部署、遠程：從我方牌組打出 1 張「戰術」。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：從我方牌組打出 1 張「戰術」。\n",
+        "name": "梅諾・寇赫倫"
+    },
+    "162103": {
+        "info": "軍令、近戰：奪取 1 張被封印的敵軍單位牌。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>、<keyword=melee>近戰</keyword>：<keyword=seize>奪取</keyword> 1 張被<keyword=lock>封印</keyword>的敵軍單位牌。\n",
+        "name": "瓦提爾．迪．李道克斯"
+    },
+    "162104": {
+        "info": "近戰：每當 1 張敵軍具有提升值，便以同等提升值提升自身戰力。\n",
+        "infoRaw": "<keyword=melee>近戰</keyword>：每當 1 張敵軍具有提升值，便以同等提升值提升自身戰力。\n",
+        "name": "卡西爾．迪弗林"
+    },
+    "162105": {
+        "info": "部署、近戰：摧毀 1 張敵軍單位牌，對方再召喚自身牌組最上方的單位牌至隨機敵方列。\n部署、遠程：摧毀 1 張我軍單位牌，再召喚我方牌組最上方的單位牌至隨機我方列。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：摧毀 1 張敵軍單位牌，對方再<keyword=summon>召喚</keyword>自身牌組最上方的單位牌至隨機敵方列。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：摧毀 1 張我軍單位牌，再<keyword=summon>召喚</keyword>我方牌組最上方的單位牌至隨機我方列。\n",
+        "name": "威爾吉佛茲"
+    },
+    "162106": {
+        "info": "軍令：生成 1 張我方曾在此回合中打出的「戰術」牌的同名牌並打出。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：<keyword=spawn>生成</keyword> 1 張我方曾在此回合中打出的「戰術」牌的同名牌並打出。\n",
+        "name": "史提芬・史凱倫"
+    },
+    "162107": {
+        "info": "部署：對方召喚自身牌組最上方的單位牌至隨機敵方列。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對方<keyword=summon>召喚</keyword>自身牌組最上方的單位牌至隨機敵方列。\n",
+        "name": "提伯・艾格布拉傑"
+    },
+    "162108": {
+        "info": "部署：隨機揭示我方牌組 1 張卡牌。若該牌為單位牌，則以該牌戰力值提升自身戰力，再將該牌放回洗牌。若該牌為「文物」或「特殊」牌，則打出該牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：隨機<keyword=reveal>揭示</keyword>我方牌組 1 張卡牌。若該牌為單位牌，則以該牌戰力值提升自身戰力，再將該牌放回洗牌。若該牌為「文物」或「特殊」牌，則打出該牌。\n",
+        "name": "薩斯希烏斯"
+    },
+    "162201": {
+        "info": "部署、遠程：任意將我方牌組 1 張牌移動至最上方。若該牌為單位牌，則提升該牌 2 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：任意將我方牌組 1 張牌移動至最上方。若該牌為單位牌，則提升該牌 2 點戰力。\n",
+        "name": "亞伯力奇"
+    },
+    "162202": {
+        "info": "部署、近戰：將對方墓地 1 張卡牌放入對方牌組洗牌。\n部署、遠程：將我方墓地 1 張卡牌放入我方牌組洗牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：將對方墓地 1 張卡牌放入對方牌組洗牌。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：將我方墓地 1 張卡牌放入我方牌組洗牌。\n",
+        "name": "艾希蕾・阿納興"
+    },
+    "162203": {
+        "info": "部署、近戰：生成「守護者」並將該牌置於對方牌組最上方。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=spawn>生成</keyword>「守護者」並將該牌置於對方牌組最上方。\n",
+        "name": "辛西亞"
+    },
+    "162204": {
+        "info": "部署：將 1 張單位牌恢復至該牌的基礎戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：將 1 張單位牌恢復至該牌的基礎戰力。\n",
+        "name": "彼得．薩爾．關力"
+    },
+    "162205": {
+        "info": "軍令：隨機揭示對方牌組 1 張「特殊」牌，再生成 1 張該牌的同名牌並打出。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：隨機<keyword=reveal>揭示</keyword>對方牌組 1 張「特殊」牌，再<keyword=spawn>生成</keyword> 1 張該牌的同名牌並打出。\n",
+        "name": "芙琳吉拉・薇歌"
+    },
+    "162206": {
+        "info": "部署：對 1 張敵軍造成 1 點傷害。\n只要我方已揭示 1 張卡牌就將此單位牌受到的傷害值增加 1 點。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 1 點傷害。\n只要我方已<keyword=reveal>揭示</keyword> 1 張卡牌就將此單位牌受到的傷害值增加 1 點。\n",
+        "name": "雜碎"
+    },
+    "162207": {
+        "info": "部署、遠程：摧毀 1 張被封印的敵軍單位牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：摧毀 1 張被<keyword=lock>封印</keyword>的敵軍單位牌。\n",
+        "name": "凡赫瑪"
+    },
+    "162208": {
+        "info": "部署：封印 1 張敵軍單位牌。\n若「瑟瑞特」位於我方手牌，則封印該單位牌所有位於對方手牌、牌組和場上的同名牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=lock>封印</keyword> 1 張敵軍單位牌。\n若「瑟瑞特」位於我方手牌，則<keyword=lock>封印</keyword>該單位牌所有位於對方手牌、牌組和場上的同名牌。\n",
+        "name": "奧克斯"
+    },
+    "162209": {
+        "info": "部署：對 1 張敵軍造成 3 點傷害。若「奧克斯」在我方手牌，則改為對該單位牌造成 5 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 3 點傷害。若「奧克斯」在我方手牌，則改為對該單位牌造成 5 點傷害。\n",
+        "name": "瑟瑞特"
+    },
+    "162210": {
+        "info": "臥底。\n部署：打出對方牌組最上方的卡牌。\n",
+        "infoRaw": "<keyword=spying>臥底</keyword>。\n<keyword=deploy>部署</keyword>：打出對方牌組最上方的卡牌。\n",
+        "name": "坎塔蕾拉"
+    },
+    "162211": {
+        "info": "臥底。\n部署：打出我方牌組最上方非臥底的單位牌，再提升該牌 8 點戰力。\n",
+        "infoRaw": "<keyword=spying>臥底</keyword>。\n<keyword=deploy>部署</keyword>：打出我方牌組最上方非<keyword=spying>臥底</keyword>的單位牌，再提升該牌 8 點戰力。\n",
+        "name": "裘金．維特"
+    },
+    "162212": {
+        "info": "部署、近戰：將 1 張敵軍移動至另一列。\n部署、遠程：摧毀 1 張敵軍「文物」。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：將 1 張敵軍移動至另一列。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：摧毀 1 張敵軍「文物」。\n",
+        "name": "冒牌希里"
+    },
+    "162213": {
+        "info": "部署：移除場上所有單位牌的狀態。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：移除場上所有單位牌的狀態。\n",
+        "name": "契拉克．迪弗林"
+    },
+    "162301": {
+        "info": "當我方揭示此單位牌，就從我方牌組召喚此牌至隨機我方列。\n",
+        "infoRaw": "當我方<keyword=reveal>揭示</keyword>此單位牌，就從我方牌組<keyword=summon>召喚</keyword>此牌至隨機我方列。\n",
+        "name": "達蘭士兵"
+    },
+    "162302": {
+        "info": "部署、遠程：生成 1 張「牛屍」並打出。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：<keyword=spawn>生成</keyword> 1 張「牛屍」並打出。\n",
+        "name": "投屍機"
+    },
+    "162303": {
+        "info": "部署、近戰：隨機揭示對方牌組中 1 張單位牌，並以該牌戰力值提升自身戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：隨機<keyword=reveal>揭示</keyword>對方牌組中 1 張單位牌，並以該牌戰力值提升自身戰力。\n",
+        "name": "偵查兵"
+    },
+    "162304": {
+        "info": "從對方墓地打出 1 張「銅色」單位牌。\n",
+        "infoRaw": "從對方墓地打出 1 張「銅色」單位牌。\n",
+        "name": "實驗療法"
+    },
+    "162305": {
+        "info": "部署：對 1 張敵軍造成 2 點傷害，再隨機揭示雙方牌組中各 1 張單位牌。若我方的卡牌戰力較大，則重複發動部署能力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 2 點傷害，再隨機<keyword=reveal>揭示</keyword>雙方牌組中各 1 張單位牌。若我方的卡牌戰力較大，則重複發動<keyword=deploy>部署</keyword>能力。\n",
+        "name": "戴斯文強弩手"
+    },
+    "162306": {
+        "info": "軍令、遠程：對 1 張單位牌造成 1 點傷害。\n裝填：1 次。\n每當我方打出 1 張「戰術」牌就獲得裝填 1 次。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>、<keyword=ranged>遠程</keyword>：對 1 張單位牌造成 1 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n每當我方打出 1 張「戰術」牌就獲得<keyword=charge>裝填</keyword> 1 次。\n",
+        "name": "火蠍"
+    },
+    "162307": {
+        "info": "部署、近戰：從我方牌組召喚 1 張此單位牌的同名牌至此列。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：從我方牌組<keyword=summon>召喚</keyword> 1 張此單位牌的同名牌至此列。\n",
+        "name": "帝國旅"
+    },
+    "162308": {
+        "info": "軍令：對 1 張敵軍造成 2 點傷害。\n裝填：1 次。\n每當我方打出 1 張臥底單位牌就獲得裝填 1 次。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：對 1 張敵軍造成 2 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n每當我方打出 1 張<keyword=spying>臥底</keyword>單位牌就獲得<keyword=charge>裝填</keyword> 1 次。\n",
+        "name": "帝國近衛精兵"
+    },
+    "162309": {
+        "info": "每當 1 張具有部署的單位牌被打出，就提升自身 1 點戰力。\n",
+        "infoRaw": "每當 1 張具有<keyword=deploy>部署</keyword>的單位牌被打出，就提升自身 1 點戰力。\n",
+        "name": "那烏西卡中士"
+    },
+    "162310": {
+        "info": "部署：對 1 張獲得提升的敵軍造成 3 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張獲得提升的敵軍造成 3 點傷害。\n",
+        "name": "那烏西卡旅"
+    },
+    "162311": {
+        "info": "部署、近戰：對 1 張敵軍造成傷害，而傷害值等同對方其他列上的單位牌總數。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對 1 張敵軍造成傷害，而傷害值等同對方其他列上的單位牌總數。\n",
+        "name": "阿爾巴槍兵"
+    },
+    "162312": {
+        "info": "部署：對 1 張敵軍造成 2 點傷害。每與 1 張「士兵」相鄰，就將傷害值提升 1 點。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 2 點傷害。每與 1 張「士兵」相鄰，就將傷害值提升 1 點。\n",
+        "name": "阿爾巴矛兵"
+    },
+    "162313": {
+        "info": "部署：若我方控制 1 張「文物」，便提升自身 3 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：若我方控制 1 張「文物」，便提升自身 3 點戰力。\n",
+        "name": "戰鬥工兵"
+    },
+    "162314": {
+        "info": "臥底。\n部署：提升 1 張我軍 7 點戰力。\n",
+        "infoRaw": "<keyword=spying>臥底</keyword>。\n<keyword=deploy>部署</keyword>：提升 1 張我軍 7 點戰力。\n",
+        "name": "特使"
+    },
+    "162315": {
+        "info": "製造 1 張對手陣營的「銅色」單位牌並打出。\n",
+        "infoRaw": "<keyword=create>製造</keyword> 1 張對手陣營的「銅色」單位牌並打出。\n",
+        "name": "帝國外交"
+    },
+    "162316": {
+        "info": "部署、遠程：將 2 張我軍的戰力進行替換。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：將 2 張我軍的戰力進行替換。\n",
+        "name": "鍊金術士"
+    },
+    "162317": {
+        "info": "每當我方揭示 1 張卡牌，便隨機對 1 張敵軍造成 1 點傷害。\n",
+        "infoRaw": "每當我方<keyword=reveal>揭示</keyword> 1 張卡牌，便隨機對 1 張敵軍造成 1 點傷害。\n",
+        "name": "投石車"
+    },
+    "162318": {
+        "info": "部署：提升 1 張敵軍 2 點戰力。若沒有任何敵軍單位牌，則摧毀自身。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張敵軍 2 點戰力。若沒有任何敵軍單位牌，則摧毀自身。\n",
+        "name": "尼弗迦德騎士"
+    },
+    "162401": {
+        "info": "無特殊能力。\n",
+        "infoRaw": "無特殊能力。\n",
+        "name": "守護者"
+    },
+    "162402": {
+        "info": "臥底。氣數已盡。\n1 回合後，回合結束時，摧毀此單位牌以及左邊的單位牌。\n",
+        "infoRaw": "<keyword=spying>臥底</keyword>。<keyword=doomed>氣數已盡</keyword>。\n1 回合後，回合結束時，摧毀此單位牌以及左邊的單位牌。\n",
+        "name": "牛屍"
+    },
+    "163101": {
+        "info": "強迫 1 張敵軍單位牌對相鄰的單位牌造成傷害，而傷害值等同該牌的戰力。\n",
+        "infoRaw": "強迫 1 張敵軍單位牌對相鄰的單位牌造成傷害，而傷害值等同該牌的戰力。\n",
+        "name": "叛國"
+    },
+    "163201": {
+        "info": "製造 1 張對方起始牌組中的單位牌，再打出該牌。\n",
+        "infoRaw": "<keyword=create>製造</keyword> 1 張對方起始牌組中的單位牌，再打出該牌。\n",
+        "name": "賄賂"
+    },
+    "200008": {
+        "info": "熱忱。\n軍令：提升 1 張我軍 3 點戰力並賦予其熱忱。\n",
+        "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：提升 1 張我軍 3 點戰力並賦予其<keyword=zeal>熱忱</keyword>。\n",
+        "name": "派翠的魔藥"
+    },
+    "200018": {
+        "info": "驅逐 1 張單位牌或「文物」牌。\n",
+        "infoRaw": "<keyword=banish>驅逐</keyword> 1 張單位牌或「文物」牌。\n",
+        "name": "克拉錫熱浪"
+    },
+    "200019": {
+        "info": "從我方牌組打出最小的單位牌。\n",
+        "infoRaw": "從我方牌組打出最小的單位牌。\n",
+        "name": "行軍令"
+    },
+    "200020": {
+        "info": "從我方墓地打出 1 張「銅色」單位牌，並賦予其氣數已盡。\n",
+        "infoRaw": "從我方墓地打出 1 張「銅色」單位牌，並賦予其<keyword=doomed>氣數已盡</keyword>。\n",
+        "name": "死靈術"
+    },
+    "200022": {
+        "info": "熱忱。\n軍令：從我方牌組打出 1 張單位牌，其徵兵成本不大於「召喚之環」的裝填次數，再移除所有裝填。\n裝填：0 次。\n每回合開始時，獲得裝填 {Charge} 次。\n",
+        "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：從我方牌組打出 1 張單位牌，其徵兵成本不大於「召喚之環」的<keyword=charge>裝填</keyword>次數，再移除所有<keyword=charge>裝填</keyword>。\n<keyword=charge>裝填</keyword>：0 次。\n每回合開始時，獲得<keyword=charge>裝填</keyword> {Charge} 次。\n",
+        "name": "召喚之環"
+    },
+    "200023": {
+        "info": "對 1 張單位牌造成 3 點傷害。若該牌被摧毀，則對該牌相鄰的單位牌造成 3 點傷害。\n",
+        "infoRaw": "對 1 張單位牌造成 3 點傷害。若該牌被摧毀，則對該牌相鄰的單位牌造成 3 點傷害。\n",
+        "name": "蟹蜘蛛毒液"
+    },
+    "200026": {
+        "info": "部署：提升 1 張我軍單位牌 1 點戰力。若我方控制最大的單位牌，則改為提升 3 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張我軍單位牌 1 點戰力。若我方控制最大的單位牌，則改為提升 3 點戰力。\n",
+        "name": "狂獵領航員"
+    },
+    "200028": {
+        "info": "部署、近戰：摧毀 1 張負傷敵軍。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：摧毀 1 張負傷敵軍。\n",
+        "name": "維伯恩"
+    },
+    "200030": {
+        "info": "部署、近戰：對 1 張敵軍造成 4 點傷害。\n部署、遠程：對 4 張敵軍造成 1 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對 1 張敵軍造成 4 點傷害。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：對 4 張敵軍造成 1 點傷害。\n",
+        "name": "米蘭"
+    },
+    "200031": {
+        "info": "部署、近戰：摧毀 1 張戰力為 8 點以上的敵軍。\n部署、遠程：摧毀 1 張「狩魔獵人」。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：摧毀 1 張戰力為 8 點以上的敵軍。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：摧毀 1 張「狩魔獵人」。\n",
+        "name": "里歐・邦哈特"
+    },
+    "200032": {
+        "info": "部署：提升 1 張敵軍 3 點戰力，再提升自身 3 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張敵軍 3 點戰力，再提升自身 3 點戰力。\n",
+        "name": "雷恩法．亞卓"
+    },
+    "200033": {
+        "info": "熱忱。\n軍令、遠程：賦予 1 張我軍單位牌裝填 1 次。\n冷卻：2 回合。\n",
+        "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>、<keyword=ranged>遠程</keyword>：賦予 1 張我軍單位牌<keyword=charge>裝填</keyword> 1 次。\n<keyword=cooldown>冷卻</keyword>：2 回合。\n",
+        "name": "亞瑞圖札學院學員"
+    },
+    "200036": {
+        "info": "部署、近戰、嗜血 1 張：摧毀 1 張「文物」敵軍。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>、<keyword=bloodthirst>嗜血</keyword> 1 張：摧毀 1 張「文物」敵軍。\n",
+        "name": "德拉蒙好戰份子"
+    },
+    "200037": {
+        "info": "部署：摧毀 1 張相鄰的我軍單位牌並對 1 張敵軍造成傷害，其傷害值等同該牌戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：摧毀 1 張相鄰的我軍單位牌並對 1 張敵軍造成傷害，其傷害值等同該牌戰力。\n",
+        "name": "獨眼怪"
+    },
+    "200038": {
+        "info": "茁壯。\n部署：隨機對 1 張敵軍造成 2 點傷害。\n求死：重複發動部署能力。\n",
+        "infoRaw": "<keyword=thrive>茁壯</keyword>。\n<keyword=deploy>部署</keyword>：隨機對 1 張敵軍造成 2 點傷害。\n<keyword=deathwish>求死</keyword>：重複發動<keyword=deploy>部署</keyword>能力。\n",
+        "name": "巨棘魔樹"
+    },
+    "200039": {
+        "info": "近戰：每當 1 張敵軍移動至另一列，就對其造成 1 點傷害。\n遠程：每當 1 張我軍移動至另一列，就提升該牌 1 點戰力。\n",
+        "infoRaw": "<keyword=melee>近戰</keyword>：每當 1 張敵軍移動至另一列，就對其造成 1 點傷害。\n<keyword=ranged>遠程</keyword>：每當 1 張我軍移動至另一列，就提升該牌 1 點戰力。\n",
+        "name": "多爾布雷坦納哨兵"
+    },
+    "200040": {
+        "info": "只要相對列上 1 張敵軍受到傷害，便提升自身 1 點戰力。\n",
+        "infoRaw": "只要相對列上 1 張敵軍受到傷害，便提升自身 1 點戰力。\n",
+        "name": "奎特巨劍"
+    },
+    "200041": {
+        "info": "免疫。\n軍令：此列上只要有 1 張「士兵」，便對 1 張敵軍造成 2 點傷害。\n",
+        "infoRaw": "<keyword=immune>免疫</keyword>。\n<keyword=order>軍令</keyword>：此列上只要有 1 張「士兵」，便對 1 張敵軍造成 2 點傷害。\n",
+        "name": "重弩赫爾吉"
+    },
+    "200042": {
+        "info": "部署：若此單位牌已獲得提升，則獲得堅毅。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：若此單位牌已獲得提升，則獲得<keyword=resilient>堅毅</keyword>。\n",
+        "name": "瑪哈坎掠奪者"
+    },
+    "200043": {
+        "info": "部署：生成 3 張「哈洛德之友」並召喚至我方另一列。\n軍令：對 1 張我軍造成 1 點傷害。\n冷卻：1 回合。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=spawn>生成</keyword> 3 張「哈洛德之友」並<keyword=summon>召喚</keyword>至我方另一列。\n<keyword=order>軍令</keyword>：對 1 張我軍造成 1 點傷害。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n",
+        "name": "哈洛德．杭茲瑙特"
+    },
+    "200044": {
+        "info": "每回合結束時，若此牌為此列上唯一的卡牌，便提升自身 1 點戰力。\n",
+        "infoRaw": "每回合結束時，若此牌為此列上唯一的卡牌，便提升自身 1 點戰力。\n",
+        "name": "馬格尼分隊"
+    },
+    "200046": {
+        "info": "部署：對自身造成 4 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對自身造成 4 點傷害。\n",
+        "name": "圖爾希曲老兵"
+    },
+    "200048": {
+        "info": "部署：只要 1 張我軍有 1 次裝填，就提升該牌 1 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：只要 1 張我軍有 1 次<keyword=charge>裝填</keyword>，就提升該牌 1 點戰力。\n",
+        "name": "班阿德教師"
+    },
+    "200049": {
+        "info": "部署：若我方控制 1 張「士兵」，則摧毀 1 張敵軍「文物」。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：若我方控制 1 張「士兵」，則摧毀 1 張敵軍「文物」。\n",
+        "name": "攻城槌"
+    },
+    "200050": {
+        "info": "部署：提升 1 張「士兵」我軍及其所有同名牌 2 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張「士兵」我軍及其所有同名牌 2 點戰力。\n",
+        "name": "弗林姆德"
+    },
+    "200052": {
+        "info": "求死：對方從自身牌組召喚最小的單位牌至相對列上。\n",
+        "infoRaw": "<keyword=deathwish>求死</keyword>：對方從自身牌組<keyword=summon>召喚</keyword>最小的單位牌至相對列上。\n",
+        "name": "果亞特"
+    },
+    "200053": {
+        "info": "封印 1 張單位牌並將該牌戰力恢復至基礎戰力。\n",
+        "infoRaw": "<keyword=lock>封印</keyword> 1 張單位牌並將該牌戰力恢復至基礎戰力。\n",
+        "name": "化器封形"
+    },
+    "200055": {
+        "info": "軍令：發動 1 張我軍的求死能力。\n一局開始時，更新此能力。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：發動 1 張我軍的<keyword=deathwish>求死</keyword>能力。\n一局開始時，更新此能力。\n",
+        "name": "暗影長者"
+    },
+    "200056": {
+        "info": "部署、遠程：任意製造 1 張「特殊」牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：任意<keyword=create>製造</keyword> 1 張「特殊」牌。\n",
+        "name": "狐妖：真身"
+    },
+    "200058": {
+        "info": "製造 1 張「金色」單位牌並打出。\n",
+        "infoRaw": "<keyword=create>製造</keyword> 1 張「金色」單位牌並打出。\n",
+        "name": "烏馬的詛咒"
+    },
+    "200062": {
+        "info": "部署、近戰：封印 1 張單位牌。\n部署、遠程：解除 1 張單位牌的封印。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=lock>封印</keyword> 1 張單位牌。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：解除 1 張單位牌的<keyword=lock>封印</keyword>。\n",
+        "name": "狐妖"
+    },
+    "200071": {
+        "info": "部署：將對方手牌中最大的單位牌戰力設為 1 點。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：將對方手牌中最大的單位牌戰力設為 1 點。\n",
+        "name": "希拉德．費茲奧耶斯泰蘭"
+    },
+    "200073": {
+        "info": "部署：若我方控制最大的單位牌，則對 1 張敵軍造成 5 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：若我方控制最大的單位牌，則對 1 張敵軍造成 5 點傷害。\n",
+        "name": "雅妲：吸血妖鳥"
+    },
+    "200078": {
+        "info": "提升 1 張單位牌 12 點戰力。若該牌不是「狩魔獵人」，則先對其造成 6 點傷害。\n",
+        "infoRaw": "提升 1 張單位牌 12 點戰力。若該牌不是「狩魔獵人」，則先對其造成 6 點傷害。\n",
+        "name": "青草試煉"
+    },
+    "200079": {
+        "info": "從對方墓地打出 1 張單位牌，並賦予其氣數已盡。\n",
+        "infoRaw": "從對方墓地打出 1 張單位牌，並賦予其<keyword=doomed>氣數已盡</keyword>。\n",
+        "name": "漢魔芬的藍色夢境"
+    },
+    "200080": {
+        "info": "近戰：每當此單位牌具有提升值，就額外提升此單位牌 2 點戰力。\n",
+        "infoRaw": "<keyword=melee>近戰</keyword>：每當此單位牌具有提升值，就額外提升此單位牌 2 點戰力。\n",
+        "name": "夏維・莫藍"
+    },
+    "200081": {
+        "info": "部署、遠程：治療 1 張我軍 2 點戰力，再提升該牌 2 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：<keyword=heal>治療</keyword> 1 張我軍 2 點戰力，再提升該牌 2 點戰力。\n",
+        "name": "海玫：草藥醫生"
+    },
+    "200083": {
+        "info": "部署：從我方牌組任意抽取 1 張卡牌，再隨機丟棄 1 張卡牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：從我方牌組任意抽取 1 張卡牌，再隨機<keyword=discard>丟棄</keyword> 1 張卡牌。\n",
+        "name": "愛麗絲的同伴"
+    },
+    "200087": {
+        "info": "部署：封印 1 張單位牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=lock>封印</keyword> 1 張單位牌。\n",
+        "name": "沃里的多瑞加雷"
+    },
+    "200088": {
+        "info": "部署：提升自身戰力，而提升值等同本回合中我方對敵軍造成的傷害總量。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升自身戰力，而提升值等同本回合中我方對敵軍造成的傷害總量。\n",
+        "name": "休伯特・阿傑克"
+    },
+    "200089": {
+        "info": "部署：將單列所有單位牌移動至另一列。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：將單列所有單位牌移動至另一列。\n",
+        "name": "尼威倫"
+    },
+    "200091": {
+        "info": "遠程：2 回合後，雙方各抽取 1 張單位牌並將該牌的戰力設為 1 點。\n",
+        "infoRaw": "<keyword=ranged>遠程</keyword>：2 回合後，雙方各抽取 1 張單位牌並將該牌的戰力設為 1 點。\n",
+        "name": "斯托苟伯"
+    },
+    "200098": {
+        "info": "熱忱。\n軍令、近戰：將 1 張「未獲得提升」的敵軍戰力設為 1 點。\n",
+        "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>、<keyword=melee>近戰</keyword>：將 1 張「未獲得提升」的敵軍戰力設為 1 點。\n",
+        "name": "文森特．梅斯"
+    },
+    "200102": {
+        "info": "部署：將此單位牌的戰力與 1 張負傷單位牌的戰力進行替換。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：將此單位牌的戰力與 1 張負傷單位牌的戰力進行替換。\n",
+        "name": "希姆"
+    },
+    "200103": {
+        "info": "軍令：提升「歐拉夫」的戰力，而提升值為其受到傷害值的兩倍。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：提升「歐拉夫」的戰力，而提升值為其受到傷害值的兩倍。\n",
+        "name": "歐拉夫"
+    },
+    "200104": {
+        "info": "部署：對 1 張敵軍造成等同自身當前戰力一半的傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成等同自身當前戰力一半的傷害。\n",
+        "name": "北方狼戰士"
+    },
+    "200105": {
+        "info": "部署：對 1 張敵軍造成 1 點傷害三次。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 1 點傷害三次。\n",
+        "name": "迪門艦艇"
+    },
+    "200112": {
+        "info": "部署：提升 1 張具有求死的我軍 3 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張具有<keyword=deathwish>求死</keyword>的我軍 3 點戰力。\n",
+        "name": "女海妖"
+    },
+    "200114": {
+        "info": "免疫。茁壯。\n",
+        "infoRaw": "<keyword=immune>免疫</keyword>。<keyword=thrive>茁壯</keyword>。\n",
+        "name": "狼人首領"
+    },
+    "200115": {
+        "info": "對 1 張單位牌造成 6 點傷害。只要該牌有 1 張相鄰單位牌，就將傷害值減 1。\n",
+        "infoRaw": "對 1 張單位牌造成 6 點傷害。只要該牌有 1 張相鄰單位牌，就將傷害值減 1。\n",
+        "name": "暗殺"
+    },
+    "200118": {
+        "info": "近戰：局末，將此單位牌放進對方牌組洗牌。\n",
+        "infoRaw": "<keyword=melee>近戰</keyword>：局末，將此單位牌放進對方牌組洗牌。\n",
+        "name": "滲透者"
+    },
+    "200124": {
+        "info": "部署：揭示對方牌組最上方的卡牌，並驅逐該牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=reveal>揭示</keyword>對方牌組最上方的卡牌，並<keyword=banish>驅逐</keyword>該牌。\n",
+        "name": "毒蛇學派狩魔獵人"
+    },
+    "200135": {
+        "info": "熱忱。\n軍令：摧毀 1 張「文物」我軍，並對 1 張單位牌造成 2 點傷害。\n冷卻：2 回合。\n",
+        "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：摧毀 1 張「文物」我軍，並對 1 張單位牌造成 2 點傷害。\n<keyword=cooldown>冷卻</keyword>：2 回合。\n",
+        "name": "煙火師"
+    },
+    "200136": {
+        "info": "部署、遠程：隨機揭示我方牌組 1 張卡牌。若該牌為「特殊」牌，則提升自身 2 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：隨機<keyword=reveal>揭示</keyword>我方牌組 1 張卡牌。若該牌為「特殊」牌，則提升自身 2 點戰力。\n",
+        "name": "先知"
+    },
+    "200138": {
+        "info": "每當我方打出 1 張「特殊」牌，就提升自身 2 點戰力。\n",
+        "infoRaw": "每當我方打出 1 張「特殊」牌，就提升自身 2 點戰力。\n",
+        "name": "賢者"
+    },
+    "200139": {
+        "info": "部署：對 1 張「非松鼠黨」的敵軍單位牌造成 3 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張「非松鼠黨」的敵軍單位牌造成 3 點傷害。\n",
+        "name": "黑豹"
+    },
+    "200144": {
+        "info": "部署：提升 1 張「野獸」我軍 2 點戰力。只要我方墓地有 1 張「野獸」就將提升值加 1。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張「野獸」我軍 2 點戰力。只要我方墓地有 1 張「野獸」就將提升值加 1。\n",
+        "name": "圖爾希區馴熊師"
+    },
+    "200145": {
+        "info": "部署：只要我方手牌有 1 張「船隻」，就對 1 張單位牌造成 1 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：只要我方手牌有 1 張「船隻」，就對 1 張單位牌造成 1 點傷害。\n",
+        "name": "迪門海盜"
+    },
+    "200146": {
+        "info": "部署、近戰：對 1 張單位牌造成 1 點傷害，再提升該單位牌 2 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對 1 張單位牌造成 1 點傷害，再提升該單位牌 2 點戰力。\n",
+        "name": "迪門走私者"
+    },
+    "200147": {
+        "info": "每回合結束時，治療此列所有負傷的我軍 1 點戰力。\n",
+        "infoRaw": "每回合結束時，<keyword=heal>治療</keyword>此列所有負傷的我軍 1 點戰力。\n",
+        "name": "海玫靈師"
+    },
+    "200149": {
+        "info": "每當 1 張相鄰單位牌受到傷害，就提升自身 1 點戰力。\n",
+        "infoRaw": "每當 1 張相鄰單位牌受到傷害，就提升自身 1 點戰力。\n",
+        "name": "海玫守護者"
+    },
+    "200154": {
+        "info": "從我方牌組打出 1 張單位牌。\n",
+        "infoRaw": "從我方牌組打出 1 張單位牌。\n",
+        "name": "皇家法令"
+    },
+    "200159": {
+        "info": "軍令：丟棄 1 張牌，再抽取 1 張牌。\n一局開始時，更新軍令能力。\n每當我方丟棄 1 張牌，便隨機對 1 張敵軍造成 1 點傷害。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：<keyword=discard>丟棄</keyword> 1 張牌，再抽取 1 張牌。\n一局開始時，更新<keyword=order>軍令</keyword>能力。\n每當我方<keyword=discard>丟棄</keyword> 1 張牌，便隨機對 1 張敵軍造成 1 點傷害。\n",
+        "name": "布蘭．圖爾希曲"
+    },
+    "200160": {
+        "info": "軍令：對 1 張單位牌造成 1 點傷害。\n冷卻：2 回合。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 1 點傷害。\n<keyword=cooldown>冷卻</keyword>：2 回合。\n",
+        "name": "克拉奇．奎特"
+    },
+    "200161": {
+        "info": "軍令：將 8 點傷害值隨機分配給所有敵軍。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：將 8 點傷害值隨機分配給所有敵軍。\n",
+        "name": "「殘廢」哈洛德"
+    },
+    "200162": {
+        "info": "軍令：將場上 1 張卡牌收回我方手牌，再打出 1 張卡牌。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：將場上 1 張卡牌收回我方手牌，再打出 1 張卡牌。\n",
+        "name": "恩希爾．恩瑞斯"
+    },
+    "200163": {
+        "info": "軍令：隨機揭示對方牌組 1 張卡牌。若該牌為「銅色」牌，則提升 1 張我軍 3 點戰力。若為「金色」牌，則改為提升 4 點戰力。\n一局開始時，更新此能力。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：隨機<keyword=reveal>揭示</keyword>對方牌組 1 張卡牌。若該牌為「銅色」牌，則提升 1 張我軍 3 點戰力。若為「金色」牌，則改為提升 4 點戰力。\n一局開始時，更新此能力。\n",
+        "name": "莫爾凡．符里斯"
+    },
+    "200164": {
+        "info": "軍令：查看我方牌組最上方的 3 張卡牌，打出其中 1 張。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：查看我方牌組最上方的 3 張卡牌，打出其中 1 張。\n",
+        "name": "賈恩・卡維特"
+    },
+    "200165": {
+        "info": "軍令：從我方墓地打出 1 張「特殊」牌。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：從我方墓地打出 1 張「特殊」牌。\n",
+        "name": "法蘭茜絲卡．芬達貝"
+    },
+    "200166": {
+        "info": "軍令：對 1 張單位牌造成 1 點傷害。\n裝填：3 次。\n一局開始時，更新「埃絲涅」的裝填次數。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 1 點傷害。\n<keyword=charge>裝填</keyword>：3 次。\n一局開始時，更新「埃絲涅」的<keyword=charge>裝填</keyword>次數。\n",
+        "name": "埃絲涅"
+    },
+    "200167": {
+        "info": "軍令：將 1 張單位牌移動至另一列。若該牌為敵軍，則對其造成 2 點傷害；若該牌為我軍，則提升該牌 2 點戰力。\n裝填：3 次。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：將 1 張單位牌移動至另一列。若該牌為敵軍，則對其造成 2 點傷害；若該牌為我軍，則提升該牌 2 點戰力。\n<keyword=charge>裝填</keyword>：3 次。\n",
+        "name": "布羅弗・霍格"
+    },
+    "200168": {
+        "info": "軍令：提升 1 張我軍 1 點戰力並賦予熱忱。\n裝填：3 次。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：提升 1 張我軍 1 點戰力並賦予<keyword=zeal>熱忱</keyword>。\n<keyword=charge>裝填</keyword>：3 次。\n",
+        "name": "弗爾泰斯特國王"
+    },
+    "200170": {
+        "info": "軍令：從我方牌組打出場上 1 張我軍單位牌的同名牌，提升該牌 4 點戰力，並賦予其熱忱。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：從我方牌組打出場上 1 張我軍單位牌的同名牌，提升該牌 4 點戰力，並賦予其<keyword=zeal>熱忱</keyword>。\n",
+        "name": "亨賽特國王"
+    },
+    "200171": {
+        "info": "每當此單位牌具有提升值，便隨機對 1 張敵軍造成 1 點傷害。\n",
+        "infoRaw": "每當此單位牌具有提升值，便隨機對 1 張敵軍造成 1 點傷害。\n",
+        "name": "崔丹姆步兵團"
+    },
+    "200177": {
+        "info": "若此單位牌位於墓地，則每當我方從我方墓地打出 1 張單位牌時，就召喚此牌至隨機我方列。\n",
+        "infoRaw": "若此單位牌位於墓地，則每當我方從我方墓地打出 1 張單位牌時，就<keyword=summon>召喚</keyword>此牌至隨機我方列。\n",
+        "name": "凱瑞絲．奎特"
+    },
+    "200209": {
+        "info": "軍令：對 1 張敵軍造成 2 點傷害。\n冷卻：4 回合。\n若我方手牌有「精靈」、「矮人」或「樹精」，就將冷卻回合數減 1。（每種只能減一次）\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：對 1 張敵軍造成 2 點傷害。\n<keyword=cooldown>冷卻</keyword>：4 回合。\n若我方手牌有「精靈」、「矮人」或「樹精」，就將<keyword=cooldown>冷卻</keyword>回合數減 1。（每種只能減一次）\n",
+        "name": "薩琪亞"
+    },
+    "200212": {
+        "info": "部署：對 1 張未負傷的敵軍造成 4 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張未負傷的敵軍造成 4 點傷害。\n",
+        "name": "史凱裘"
+    },
+    "200218": {
+        "info": "部署、近戰：只要對方場上單位牌數量比我方多 1 張牌，就提升自身 2 點。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：只要對方場上單位牌數量比我方多 1 張牌，就提升自身 2 點。\n",
+        "name": "尤頓"
+    },
+    "200220": {
+        "info": "部署、遠程：從我方牌組打出 1 張「有機物」牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：從我方牌組打出 1 張「有機物」牌。\n",
+        "name": "呢喃婆：獻祭"
+    },
+    "200221": {
+        "info": "發動全體我軍的求死能力。\n",
+        "infoRaw": "發動全體我軍的<keyword=deathwish>求死</keyword>能力。\n",
+        "name": "儀式祭品"
+    },
+    "200222": {
+        "info": "部署、近戰：吞噬我方手牌中 1 張單位牌並抽取 1 張卡牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=consume>吞噬</keyword>我方手牌中 1 張單位牌並抽取 1 張卡牌。\n",
+        "name": "織婆：施咒"
+    },
+    "200223": {
+        "info": "重置 1 張單位牌。\n",
+        "infoRaw": "<keyword=reset>重置</keyword> 1 張單位牌。\n",
+        "name": "曼陀羅"
+    },
+    "200224": {
+        "info": "發動 1 張「銅色」單位牌的求死能力。\n",
+        "infoRaw": "發動 1 張「銅色」單位牌的<keyword=deathwish>求死</keyword>能力。\n",
+        "name": "烏鴉眼"
+    },
+    "200225": {
+        "info": "奪取 1 張戰力為 5 點以下的敵軍並封印該牌。\n",
+        "infoRaw": "<keyword=seize>奪取</keyword> 1 張戰力為 5 點以下的敵軍並<keyword=lock>封印</keyword>該牌。\n",
+        "name": "薇歌的嘴套"
+    },
+    "200226": {
+        "info": "對所有戰力為偶數的敵軍造成 2 點傷害，或對所有戰力為奇數的敵軍造成 2 點傷害。\n",
+        "infoRaw": "對所有戰力為偶數的敵軍造成 2 點傷害，或對所有戰力為奇數的敵軍造成 2 點傷害。\n",
+        "name": "附子草"
+    },
+    "200228": {
+        "info": "伏擊：在對方打出下一張單位牌但該牌尚未發動任何能力前先摧毀該牌。\n",
+        "infoRaw": "<keyword=ambush>伏擊</keyword>：在對方打出下一張單位牌但該牌尚未發動任何能力前先摧毀該牌。\n",
+        "name": "深坑陷阱"
+    },
+    "200233": {
+        "info": "部署：只要與 1 張「野獸」相鄰，就對 1 張敵軍造成 2 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：只要與 1 張「野獸」相鄰，就對 1 張敵軍造成 2 點傷害。\n",
+        "name": "石化雞蛇"
+    },
+    "200234": {
+        "info": "部署：提升自身 4 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升自身 4 點戰力。\n",
+        "name": "可憐又該死的步兵"
+    },
+    "200235": {
+        "info": "部署：摧毀 1 張具有堅毅的敵軍。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：摧毀 1 張具有<keyword=resilient>堅毅</keyword>的敵軍。\n",
+        "name": "蘭伯特：劍術大師"
+    },
+    "200236": {
+        "info": "近戰/keyword>：每回合結束時，提升自身 1 點戰力。\n",
+        "infoRaw": "<keyword=melee>近戰/keyword>：每回合結束時，提升自身 1 點戰力。\n",
+        "name": "艾斯凱爾：探路者"
+    },
+    "200237": {
+        "info": "部署：提升所有位於手牌、牌組和場上的「狩魔獵人」我軍 1 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升所有位於手牌、牌組和場上的「狩魔獵人」我軍 1 點戰力。\n",
+        "name": "維瑟米爾：導師"
+    },
+    "200293": {
+        "info": "部署、遠程：提升我方手牌 1 張「矮人」2 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：提升我方手牌 1 張「矮人」2 點戰力。\n",
+        "name": "矮人搗蛋鬼"
+    },
+    "200294": {
+        "info": "部署：提升 1 張我軍 2 點戰力。\n每當我方揭示此牌，便隨機提升 1 張我軍 2 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張我軍 2 點戰力。\n每當我方<keyword=reveal>揭示</keyword>此牌，便隨機提升 1 張我軍 2 點戰力。\n",
+        "name": "旗手"
+    },
+    "200295": {
+        "info": "求死：隨機對 1 張敵軍造成 4 點傷害。\n",
+        "infoRaw": "<keyword=deathwish>求死</keyword>：隨機對 1 張敵軍造成 4 點傷害。\n",
+        "name": "腐食魔"
+    },
+    "200296": {
+        "info": "部署、近戰：封印 1 張敵軍單位牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=lock>封印</keyword> 1 張敵軍單位牌。\n",
+        "name": "阿爾巴盔甲騎兵"
+    },
+    "200299": {
+        "info": "軍令：提升 1 張我軍 1 點戰力並賦予熱忱。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：提升 1 張我軍 1 點戰力並賦予<keyword=zeal>熱忱</keyword>。\n",
+        "name": "泰莫利亞鼓手"
+    },
+    "200300": {
+        "info": "將 1 張敵軍移動至另一列並對該牌造成傷害，其傷害值等同該列上的單位牌總數。\n",
+        "infoRaw": "將 1 張敵軍移動至另一列並對該牌造成傷害，其傷害值等同該列上的單位牌總數。\n",
+        "name": "漁獲之冠"
+    },
+    "200301": {
+        "info": "隨機查看我方牌組 2 張「金色」牌，打出 1 張，並將剩餘卡牌放到我方牌組最上方。\n",
+        "infoRaw": "隨機查看我方牌組 2 張「金色」牌，打出 1 張，並將剩餘卡牌放到我方牌組最上方。\n",
+        "name": "納吉爾法"
+    },
+    "200320": {
+        "info": "無特殊能力。\n",
+        "infoRaw": "無特殊能力。\n",
+        "name": "讎特魔"
+    },
+    "200502": {
+        "info": "每回合結束時，若我方的單位牌比對方少，則提升自身 1 點戰力。\n",
+        "infoRaw": "每回合結束時，若我方的單位牌比對方少，則提升自身 1 點戰力。\n",
+        "name": "冰巨魔"
+    },
+    "200518": {
+        "info": "部署：若本回合中我方領導牌的能力已被使用，則對 1 張敵軍造成 3 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：若本回合中我方領導牌的能力已被使用，則對 1 張敵軍造成 3 點傷害。\n",
+        "name": "維恩達爾精銳"
+    },
+    "200519": {
+        "info": "提升 1 張單位牌 4 點戰力並解除其封印。\n",
+        "infoRaw": "提升 1 張單位牌 4 點戰力並解除其<keyword=lock>封印</keyword>。\n",
+        "name": "瑪哈坎麥酒"
+    },
+    "200520": {
+        "info": "軍令：從我方墓地打出 1 張「銅色」「文物」。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：從我方墓地打出 1 張「銅色」「文物」。\n",
+        "name": "愛博何．哈托利"
+    },
+    "200523": {
+        "info": "部署、近戰：在此單位牌兩側各生成 2 張「乳牛」。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：在此單位牌兩側各<keyword=spawn>生成</keyword> 2 張「乳牛」。\n",
+        "name": "傑爾曼．皮況特"
+    },
+    "200528": {
+        "info": "部署：對 1 張敵軍造成 3 點傷害，再對自身造成 2 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 3 點傷害，再對自身造成 2 點傷害。\n",
+        "name": "海玫女矛兵"
+    },
+    "200529": {
+        "info": "部署：提升自身 5 點戰力。\n每當我方打出 1 張「士兵」，便從我方墓地召喚此單位牌至隨機我方列。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升自身 5 點戰力。\n每當我方打出 1 張「士兵」，便從我方墓地<keyword=summon>召喚</keyword>此單位牌至隨機我方列。\n",
+        "name": "偏執的朗維德"
+    },
+    "200530": {
+        "info": "熱忱。\n軍令：對 1 張單位牌造成 2 點傷害。\n裝填：3 次。\n",
+        "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：對 1 張單位牌造成 2 點傷害。\n<keyword=charge>裝填</keyword>：3 次。\n",
+        "name": "腐敗麥酒"
+    },
+    "200532": {
+        "info": "熱忱。\n軍令：提升 1 張單位牌 3 點戰力。\n冷卻：2 回合。\n",
+        "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：提升 1 張單位牌 3 點戰力。\n<keyword=cooldown>冷卻</keyword>：2 回合。\n",
+        "name": "先祖的麥酒"
+    },
+    "200534": {
+        "info": "近戰/keyword>：每當 1 張我軍在我方回合被摧毀，就提升自身 2 點戰力。\n",
+        "infoRaw": "<keyword=melee>近戰/keyword>：每當 1 張我軍在我方回合被摧毀，就提升自身 2 點戰力。\n",
+        "name": "弗堅的女巨魔"
+    },
+    "200535": {
+        "info": "軍令、近戰：對 1 張敵軍造成 1 點傷害。\n冷卻：2 回合。\n每當我方打出 1 張「精靈」，便將冷卻減 1。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>、<keyword=melee>近戰</keyword>：對 1 張敵軍造成 1 點傷害。\n<keyword=cooldown>冷卻</keyword>：2 回合。\n每當我方打出 1 張「精靈」，便將<keyword=cooldown>冷卻</keyword>減 1。\n",
+        "name": "精靈劍術大師"
+    },
+    "200539": {
+        "info": "軍令：吞噬 此列上 1 張我軍單位牌。\n冷卻：1 回合。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：<keyword=consume>吞噬</keyword> 此列上 1 張我軍單位牌。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n",
+        "name": "滑翔蜥蜴"
+    },
+    "200540": {
+        "info": "軍令：對 1 張敵軍造成 4 點傷害。\n",
+        "infoRaw": "<keyword=deploy>軍令</keyword>：對 1 張敵軍造成 4 點傷害。\n",
+        "name": "亞甸大槌手"
+    },
+    "201523": {
+        "info": "部署：讓單列所有單位牌恢復至其基礎戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：讓單列所有單位牌恢復至其基礎戰力。\n",
+        "name": "傑洛特：亞登之印"
+    },
+    "201559": {
+        "info": "部署、近戰：若此列有「矮人」，便從我方牌組召喚 1 張此單位牌的同名牌至此列。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：若此列有「矮人」，便從我方牌組<keyword=summon>召喚</keyword> 1 張此單位牌的同名牌至此列。\n",
+        "name": "瑪哈坎志願者"
+    },
+    "201574": {
+        "info": "求死：隨機對 1 張敵軍單位牌造成 2 點傷害。\n",
+        "infoRaw": "<keyword=deathwish>求死</keyword>：隨機對 1 張敵軍單位牌造成 2 點傷害。\n",
+        "name": "哈洛德之友"
+    },
+    "201576": {
+        "info": "氣數已盡。\n",
+        "infoRaw": "<keyword=doomed>氣數已盡</keyword>。\n",
+        "name": "乳牛"
+    },
+    "201578": {
+        "info": "部署、\n近戰：隨機分配 4 點傷害值給所有單位牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、\n<keyword=melee>近戰</keyword>：隨機分配 4 點傷害值給所有單位牌。\n",
+        "name": "奎特掠奪者"
+    },
+    "201579": {
+        "info": "一局開始時，若「鳳凰」位於我方墓地，則驅逐「鳳凰」，再生成「鳳凰雛鳥」並召喚至隨機我方列。\n",
+        "infoRaw": "一局開始時，若「鳳凰」位於我方墓地，則<keyword=banish>驅逐</keyword>「鳳凰」，再<keyword=spawn>生成</keyword>「鳳凰雛鳥」並<keyword=summon>召喚</keyword>至隨機我方列。\n",
+        "name": "鳳凰"
+    },
+    "201580": {
+        "info": "對戰開始時，讓敵方的領導牌失效直到對戰結束。\n",
+        "infoRaw": "對戰開始時，讓敵方的領導牌失效直到對戰結束。\n",
+        "name": "篡位者"
+    },
+    "201581": {
+        "info": "製造 1 張「銅色」「史凱利傑」牌並打出。\n",
+        "infoRaw": "<keyword=create>製造</keyword> 1 張「銅色」「史凱利傑」牌並打出。\n",
+        "name": "史翠柏符文石"
+    },
+    "201582": {
+        "info": "製造 1 張「銅色」「北方領域」牌並打出。\n",
+        "infoRaw": "<keyword=create>製造</keyword> 1 張「銅色」「北方領域」牌並打出。\n",
+        "name": "佐利亞符文石"
+    },
+    "201583": {
+        "info": "製造 1 張「銅色」「尼弗迦德」牌並打出。\n",
+        "infoRaw": "<keyword=create>製造</keyword> 1 張「銅色」「尼弗迦德」牌並打出。\n",
+        "name": "達茲柏符文石"
+    },
+    "201584": {
+        "info": "製造 1 張「銅色」「怪物」陣營的卡牌並打出。\n",
+        "infoRaw": "<keyword=create>製造</keyword> 1 張「銅色」「怪物」陣營的卡牌並打出。\n",
+        "name": "戴維納符文石"
+    },
+    "201585": {
+        "info": "製造 1 張「銅色」「松鼠黨」牌並打出。\n",
+        "infoRaw": "<keyword=create>製造</keyword> 1 張「銅色」「松鼠黨」牌並打出。\n",
+        "name": "莫拉納符文石"
+    },
+    "201587": {
+        "info": "摧毀 1 張我軍單位牌，再生成 1 張該牌的基礎同名牌並打出。\n",
+        "infoRaw": "摧毀 1 張我軍單位牌，再<keyword=spawn>生成</keyword> 1 張該牌的基礎同名牌並打出。\n",
+        "name": "呢喃山丘"
+    },
+    "201589": {
+        "info": "軍令：提升我方手牌的所有單位牌 1 點戰力。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：提升我方手牌的所有單位牌 1 點戰力。\n",
+        "name": "費拉萬卓列．艾恩菲赫"
+    },
+    "201595": {
+        "info": "軍令：對 1 張單位牌造成 8 點傷害。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 8 點傷害。\n",
+        "name": "雅妲公主"
+    },
+    "201597": {
+        "info": "軍令：從我方墓地打出 1 張「戰士」。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：從我方墓地打出 1 張「戰士」。\n",
+        "name": "埃斯特．圖爾希曲"
+    },
+    "201598": {
+        "info": "提升所有我軍 1 點戰力。\n",
+        "infoRaw": "提升所有我軍 1 點戰力。\n",
+        "name": "骨頭護身符"
+    },
+    "201599": {
+        "info": "茁壯。\n部署：對相對列上所有敵軍單位牌造成 1 點傷害。\n求死：重複發動部署能力。\n",
+        "infoRaw": "<keyword=thrive>茁壯</keyword>。\n<keyword=deploy>部署</keyword>：對相對列上所有敵軍單位牌造成 1 點傷害。\n<keyword=deathwish>求死</keyword>：重複發動<keyword=deploy>部署</keyword>能力。\n",
+        "name": "貓人"
+    },
+    "201600": {
+        "info": "免疫。\n",
+        "infoRaw": "<keyword=immune>免疫</keyword>。\n",
+        "name": "狼人"
+    },
+    "201601": {
+        "info": "任意選擇場上 1 張單位牌或「文物」，再將該牌放到擁有者的牌組最上方。\n",
+        "infoRaw": "任意選擇場上 1 張單位牌或「文物」，再將該牌放到擁有者的牌組最上方。\n",
+        "name": "葉奈法的祝告"
+    },
+    "201603": {
+        "info": "部署：變身為場上另一張單位牌的同名牌，而且戰力維持不變。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：變身為場上另一張單位牌的同名牌，而且戰力維持不變。\n",
+        "name": "雷索：弒王者"
+    },
+    "201606": {
+        "info": "部署：對所有其他單位牌造成 1 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對所有其他單位牌造成 1 點傷害。\n",
+        "name": "叉尾龍"
+    },
+    "201609": {
+        "info": "部署：若相對列有 4 張以上的單位牌，則從該列奪取最小的敵軍。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：若相對列有 4 張以上的單位牌，則從該列<keyword=seize>奪取</keyword>最小的敵軍。\n",
+        "name": "奴隸獵人"
+    },
+    "201610": {
+        "info": "部署：讓此單位牌變身為另一張單位牌的同名牌，而且戰力維持不變。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：讓此單位牌變身為另一張單位牌的同名牌，而且戰力維持不變。\n",
+        "name": "奴隸步兵"
+    },
+    "201611": {
+        "info": "若我方的起始牌組有 4 張以上的「陷阱」，則隨機打出其中 2 張。\n",
+        "infoRaw": "若我方的起始牌組有 4 張以上的「陷阱」，則隨機打出其中 2 張。\n",
+        "name": "伊歐菲斯的險招"
+    },
+    "201612": {
+        "info": "部署：對 1 張敵軍造成 2 點傷害。只要有 1 張被封印的單位牌就將傷害值加 1 點。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 2 點傷害。只要有 1 張被<keyword=lock>封印</keyword>的單位牌就將傷害值加 1 點。\n",
+        "name": "奴隸管理者"
+    },
+    "201613": {
+        "info": "軍令：對 1 張敵軍造成 1 點傷害。\n裝填：5 次。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：對 1 張敵軍造成 1 點傷害。\n<keyword=charge>裝填</keyword>：5 次。\n",
+        "name": "薩琪亞薩司：烈焰"
+    },
+    "201615": {
+        "info": "隨機查看我方牌組「矮人」、「精靈」和「樹精」各 1 張，並打出 1 張。\n",
+        "infoRaw": "隨機查看我方牌組「矮人」、「精靈」和「樹精」各 1 張，並打出 1 張。\n",
+        "name": "伊森格林的議會"
+    },
+    "201616": {
+        "info": "軍令：將此單位牌的戰力與 1 張敵軍進行替換。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：將此單位牌的戰力與 1 張敵軍進行替換。\n",
+        "name": "偽裝大師"
+    },
+    "201617": {
+        "info": "部署：隨機揭示雙方牌組各 1 張單位牌。若我方的卡牌戰力較大，則提升自身 2 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：隨機<keyword=reveal>揭示</keyword>雙方牌組各 1 張單位牌。若我方的卡牌戰力較大，則提升自身 2 點戰力。\n",
+        "name": "新兵"
+    },
+    "201618": {
+        "info": "軍令、近戰：與 1 張敵軍單位牌決鬥。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>、<keyword=melee>近戰</keyword>：與 1 張敵軍單位牌<keyword=duel>決鬥</keyword>。\n",
+        "name": "古雷特的賽特寇克"
+    },
+    "201619": {
+        "info": "提升 1 張「銅色」「士兵」2 點戰力並重新發動該牌的部署能力。\n",
+        "infoRaw": "提升 1 張「銅色」「士兵」2 點戰力並重新發動該牌的<keyword=deploy>部署</keyword>能力。\n",
+        "name": "油膏"
+    },
+    "201620": {
+        "info": "軍令、近戰：對 1 張單位牌造成 1 點傷害。\n冷卻：1 回合。\n若我方控制「范德格里夫特之劍」，則改為對 1 張單位牌造成 2 點傷害。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>、<keyword=melee>近戰</keyword>：對 1 張單位牌造成 1 點傷害。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n若我方控制「范德格里夫特之劍」，則改為對 1 張單位牌造成 2 點傷害。\n",
+        "name": "范德格里夫特"
+    },
+    "201621": {
+        "info": "軍令：對 1 張單位牌造成傷害，其傷害值等同「凱亞恩」的裝填次數。\n裝填：1 次。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成傷害，其傷害值等同「凱亞恩」的<keyword=charge>裝填</keyword>次數。\n<keyword=charge>裝填</keyword>：1 次。\n",
+        "name": "凱亞恩"
+    },
+    "201622": {
+        "info": "部署：若該牌從牌組打出，則提升自身 4 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：若該牌從牌組打出，則提升自身 4 點戰力。\n",
+        "name": "科德溫騎士"
+    },
+    "201623": {
+        "info": "部署、近戰：只要有 1 張負傷的單位牌，就提升自身 1 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：只要有 1 張負傷的單位牌，就提升自身 1 點戰力。\n",
+        "name": "巨型野豬"
+    },
+    "201624": {
+        "info": "軍令：對 1 張單位牌造成 1 點傷害。若該牌被摧毀，則生成 1 張「科德溫亡魂」的基礎同名牌並召喚至此列。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 1 點傷害。若該牌被摧毀，則<keyword=spawn>生成</keyword> 1 張「科德溫亡魂」的基礎同名牌並<keyword=summon>召喚</keyword>至此列。\n",
+        "name": "科德溫亡魂"
+    },
+    "201625": {
+        "info": "部署：將 1 張不是「受詛咒的騎士」的我軍單位牌變身成 1 張「受詛咒的騎士」，而戰力保持不變。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：將 1 張不是「受詛咒的騎士」的我軍單位牌變身成 1 張「受詛咒的騎士」，而戰力保持不變。\n",
+        "name": "受詛咒的騎士"
+    },
+    "201626": {
+        "info": "回合開始時，若此牌是我方墓地中唯一的單位牌，便召喚該牌至隨機我方列。\n",
+        "infoRaw": "回合開始時，若此牌是我方墓地中唯一的單位牌，便<keyword=summon>召喚</keyword>該牌至隨機我方列。\n",
+        "name": "希里：新星"
+    },
+    "201627": {
+        "info": "氣數已盡。\n若我方的起始牌組中沒有任何副本卡牌，就讓「店店」去冒險。\n",
+        "infoRaw": "<keyword=doomed>氣數已盡</keyword>。\n若我方的起始牌組中沒有任何副本卡牌，就讓「店店」去冒險。\n",
+        "name": "店店的假日"
+    },
+    "201628": {
+        "info": "只要有 1 張「靈體」我軍，便對 1 張敵軍造成 1 點傷害。\n",
+        "infoRaw": "只要有 1 張「靈體」我軍，便對 1 張敵軍造成 1 點傷害。\n",
+        "name": "禁忌魔法"
+    },
+    "201630": {
+        "info": "部署：對 1 張敵軍造成 3 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 3 點傷害。\n",
+        "name": "遭天譴的女術士"
+    },
+    "201631": {
+        "info": "部署：選擇我方手牌中 1 張單位牌，並提升自身戰力，而提升值等同我方手牌中本質類型與該牌相同的單位牌總數。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：選擇我方手牌中 1 張單位牌，並提升自身戰力，而提升值等同我方手牌中本質類型與該牌相同的單位牌總數。\n",
+        "name": "變形怪"
+    },
+    "201632": {
+        "info": "熱忱。\n軍令：對 1 張敵軍造成 1 點傷害。\n冷卻：1 回合。\n每當「矮人劍」摧毀 1 張敵軍，就將「矮人劍」軍令的傷害值增加 1 點直到離開場上為止。\n",
+        "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：對 1 張敵軍造成 1 點傷害。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n每當「矮人劍」摧毀 1 張敵軍，就將「矮人劍」<keyword=order>軍令</keyword>的傷害值增加 1 點直到離開場上為止。\n",
+        "name": "矮人劍"
+    },
+    "201633": {
+        "info": "熱忱。\n軍令：對 1 張敵軍造成傷害，其傷害值等同「沾血連枷」的裝填次數，再移除所有裝填。\n裝填：1 次。\n每當 1 張我軍單位牌獲得裝填，便也獲得同等次數。\n",
+        "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：對 1 張敵軍造成傷害，其傷害值等同「沾血連枷」的<keyword=charge>裝填</keyword>次數，再移除所有<keyword=charge>裝填</keyword>。\n<keyword=charge>裝填</keyword>：1 次。\n每當 1 張我軍單位牌獲得<keyword=charge>裝填</keyword>，便也獲得同等次數。\n",
+        "name": "沾血連枷"
+    },
+    "201634": {
+        "info": "對 1 張單位牌造成 8 點傷害。\n",
+        "infoRaw": "對 1 張單位牌造成 8 點傷害。\n",
+        "name": "貝克岩崩術"
+    },
+    "201635": {
+        "info": "摧毀基礎戰力值最大的單位牌。\n",
+        "infoRaw": "摧毀基礎戰力值最大的單位牌。\n",
+        "name": "光榮狩獵"
+    },
+    "201636": {
+        "info": "部署：只要我方控制 1 張「文物」，就對 1 張敵軍造成 1 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：只要我方控制 1 張「文物」，就對 1 張敵軍造成 1 點傷害。\n",
+        "name": "混血精靈獵人"
+    },
+    "201637": {
+        "info": "施加此全列效果至敵方單列：\n3 回合後，回合開始時，爆炸並對此列所有單位牌造成 3 點傷害。\n",
+        "infoRaw": "施加此全列效果至敵方單列：\n3 回合後，回合開始時，爆炸並對此列所有單位牌造成 3 點傷害。\n",
+        "name": "龍之夢"
+    },
+    "201638": {
+        "info": "每當 1 張我軍「陷阱」發動，便提升自身戰力 2 點。\n",
+        "infoRaw": "每當 1 張我軍「陷阱」發動，便提升自身戰力 2 點。\n",
+        "name": "精靈斥侯"
+    },
+    "201639": {
+        "info": "提升 1 張單位牌 10 點戰力。\n",
+        "infoRaw": "提升 1 張單位牌 10 點戰力。\n",
+        "name": "駐軍"
+    },
+    "201644": {
+        "info": "軍令：治療 1 張我軍 1 點戰力。\n裝填：1 次。\n只要 1 張相鄰的單位牌受到傷害，就獲得裝填 1 次。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：<keyword=heal>治療</keyword> 1 張我軍 1 點戰力。\n<keyword=charge>裝填</keyword>：1 次。\n只要 1 張相鄰的單位牌受到傷害，就獲得<keyword=charge>裝填</keyword> 1 次。\n",
+        "name": "尤娜"
+    },
+    "201645": {
+        "info": "伏擊：3 回合後，回合開始時，對單位牌最多的單列所有敵軍單位牌造成 2 點傷害。\n熱忱。\n軍令：翻面並對單列所有單位牌造成 1 點傷害。\n",
+        "infoRaw": "<keyword=ambush>伏擊</keyword>：3 回合後，回合開始時，對單位牌最多的單列所有敵軍單位牌造成 2 點傷害。\n<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：翻面並對單列所有單位牌造成 1 點傷害。\n",
+        "name": "粉碎陷阱"
+    },
+    "201646": {
+        "info": "部署、遠程/keyword>：最多將我方牌組 3 張卡牌移動到我方墓地。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程/keyword>：最多將我方牌組 3 張卡牌移動到我方墓地。\n",
+        "name": "迪蘭"
+    },
+    "201647": {
+        "info": "對 1 張敵軍造成 4 點傷害並移動至另一列。\n",
+        "infoRaw": "對 1 張敵軍造成 4 點傷害並移動至另一列。\n",
+        "name": "落石轟炸"
+    },
+    "201648": {
+        "info": "每當我方打出 1 張「士兵」至此列，便提升該牌 2 點戰力。\n",
+        "infoRaw": "每當我方打出 1 張「士兵」至此列，便提升該牌 2 點戰力。\n",
+        "name": "范德格里夫特之劍"
+    },
+    "201650": {
+        "info": "對每張「非靈體」的單位牌造成 1 點傷害。若有單位牌被摧毀，則重複發動此能力一次。\n",
+        "infoRaw": "對每張「非靈體」的單位牌造成 1 點傷害。若有單位牌被摧毀，則重複發動此能力一次。\n",
+        "name": "薩賓娜的火海"
+    },
+    "201653": {
+        "info": "伏擊：當對方放棄出牌，便提升相鄰單位牌 4 點戰力。\n",
+        "infoRaw": "<keyword=ambush>伏擊</keyword>：當對方放棄出牌，便提升相鄰單位牌 4 點戰力。\n",
+        "name": "瑪哈坎號角"
+    },
+    "201656": {
+        "info": "熱忱。\n軍令：對 1 張單位牌造成 1 點傷害。\n冷卻：1 回合。\n",
+        "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：對 1 張單位牌造成 1 點傷害。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n",
+        "name": "工藝長矛"
+    },
+    "201657": {
+        "info": "對 1 張敵軍造成 6 點傷害，或提升 1 張我軍 6 點戰力。\n",
+        "infoRaw": "對 1 張敵軍造成 6 點傷害，或提升 1 張我軍 6 點戰力。\n",
+        "name": "寄生蟲"
+    },
+    "201659": {
+        "info": "從我方墓地打出 1 張「銅色」「機器」牌。\n",
+        "infoRaw": "從我方墓地打出 1 張「銅色」「機器」牌。\n",
+        "name": "絞盤"
+    },
+    "201660": {
+        "info": "求死：回合結束時，從我方墓地召喚此單位牌至隨機我方列。\n",
+        "infoRaw": "<keyword=deathwish>求死</keyword>：回合結束時，從我方墓地<keyword=summon>召喚</keyword>此單位牌至隨機我方列。\n",
+        "name": "盧恩"
+    },
+    "201662": {
+        "info": "熱忱。\n軍令：摧毀自身以及所有戰力值等同「屍胺」裝填次數的單位牌。\n裝填：0 次。\n每回合開始時，以及我方每次打出 1 張「戰術」時，便獲得裝填 1 次。\n",
+        "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：摧毀自身以及所有戰力值等同「屍胺」<keyword=charge>裝填</keyword>次數的單位牌。\n<keyword=charge>裝填</keyword>：0 次。\n每回合開始時，以及我方每次打出 1 張「戰術」時，便獲得<keyword=charge>裝填</keyword> 1 次。\n",
+        "name": "屍胺"
+    },
+    "201664": {
+        "info": "部署：發動相鄰「銅色」「士兵」的部署能力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：發動相鄰「銅色」「士兵」的<keyword=deploy>部署</keyword>能力。\n",
+        "name": "弗瑞吉夫"
+    },
+    "201676": {
+        "info": "軍令：對 1 張單位牌造成 1 點傷害。\n冷卻：1 回合。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 1 點傷害。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n",
+        "name": "帕沃科・蓋兒"
+    },
+    "201696": {
+        "info": "軍令：提升左邊的單位牌 4 點戰力，或賦予右邊的單位牌免疫。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：提升左邊的單位牌 4 點戰力，或賦予右邊的單位牌<keyword=immune>免疫</keyword>。\n",
+        "name": "波利・達爾伯格"
+    },
+    "201697": {
+        "info": "下次 1 張敵軍具有提升值時，就摧毀該單位牌及自身。\n",
+        "infoRaw": "下次 1 張敵軍具有提升值時，就摧毀該單位牌及自身。\n",
+        "name": "黑血"
+    },
+    "201698": {
+        "info": "部署、近戰：吞噬對方墓地中 1 張單位牌。\n部署、遠程：吞噬我方墓地中 1 張單位牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=consume>吞噬</keyword>對方墓地中 1 張單位牌。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：<keyword=consume>吞噬</keyword>我方墓地中 1 張單位牌。\n",
+        "name": "歐茲瑞"
+    },
+    "201700": {
+        "info": "求死：提升最大的我軍 4 點戰力。\n",
+        "infoRaw": "<keyword=deathwish>求死</keyword>：提升最大的我軍 4 點戰力。\n",
+        "name": "橋下巨魔"
+    },
+    "201701": {
+        "info": "軍令：吞噬 1 張我軍單位牌。\n裝填：2 次。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：<keyword=consume>吞噬</keyword> 1 張我軍單位牌。\n<keyword=charge>裝填</keyword>：2 次。\n",
+        "name": "毛岩蟲"
+    },
+    "201704": {
+        "info": "部署：從我軍某列上移除一種全列效果。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：從我軍某列上移除一種全列效果。\n",
+        "name": "斥候"
+    },
+    "201709": {
+        "info": "對所有戰力為奇數的敵軍造成 2 點傷害。\n",
+        "infoRaw": "對所有戰力為奇數的敵軍造成 2 點傷害。\n",
+        "name": "均衡"
+    },
+    "201710": {
+        "info": "對所有戰力為偶數的敵軍造成 2 點傷害。\n",
+        "infoRaw": "對所有戰力為偶數的敵軍造成 2 點傷害。\n",
+        "name": "擾亂"
+    },
+    "201725": {
+        "info": "送「店店」去班阿德男子學院。\n",
+        "infoRaw": "送「店店」去班阿德男子學院。\n",
+        "name": "店店：法師"
+    },
+    "201726": {
+        "info": "部署：將雙方最右端的手牌隨機變身為 1 張「特殊」牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：將雙方最右端的手牌隨機變身為 1 張「特殊」牌。\n",
+        "name": "店店：法師"
+    },
+    "201727": {
+        "info": "部署：隨機移動 1 張單位牌至相對列。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：隨機移動 1 張單位牌至相對列。\n",
+        "name": "店店：法師"
+    },
+    "201728": {
+        "info": "部署：在所有列上隨機施加 1 種全列效果。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：在所有列上隨機施加 1 種全列效果。\n",
+        "name": "店店：法師"
+    },
+    "201729": {
+        "info": "部署：將 13 點傷害值隨機分配給場上所有其他單位牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：將 13 點傷害值隨機分配給場上所有其他單位牌。\n",
+        "name": "店店：法師"
+    },
+    "201730": {
+        "info": "部署：隨機生成 1 張單位牌並召喚至雙方隨機單列上。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：隨機<keyword=spawn>生成</keyword> 1 張單位牌並<keyword=summon>召喚</keyword>至雙方隨機單列上。\n",
+        "name": "店店：法師"
+    },
+    "201731": {
+        "info": "送「店店」去多爾布雷坦納森林。\n",
+        "infoRaw": "送「店店」去多爾布雷坦納森林。\n",
+        "name": "店店：獵人"
+    },
+    "201732": {
+        "info": "部署：隨機從我方牌組打出 1 張卡牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：隨機從我方牌組打出 1 張卡牌。\n",
+        "name": "店店：獵人"
+    },
+    "201733": {
+        "info": "部署：將 9 點傷害值隨機分配給所有敵軍單位牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：將 9 點傷害值隨機分配給所有敵軍單位牌。\n",
+        "name": "店店：獵人"
+    },
+    "201734": {
+        "info": "部署：提升我方所有手牌的單位牌戰力，而提升值為 1 點到 2 點之間。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升我方所有手牌的單位牌戰力，而提升值為 1 點到 2 點之間。\n",
+        "name": "店店：獵人"
+    },
+    "201735": {
+        "info": "部署：隨機摧毀 1 張敵軍。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：隨機摧毀 1 張敵軍。\n",
+        "name": "店店：獵人"
+    },
+    "201737": {
+        "info": "送「店店」去「帝國宮廷軍事學院」。\n",
+        "infoRaw": "送「店店」去「帝國宮廷軍事學院」。\n",
+        "name": "店店：騎士"
+    },
+    "201738": {
+        "info": "部署：對 1 張敵軍造成 4 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 4 點傷害。\n",
+        "name": "店店：騎士"
+    },
+    "201739": {
+        "info": "部署：封印 1 張單位牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=lock>封印</keyword> 1 張單位牌。\n",
+        "name": "店店：騎士"
+    },
+    "201740": {
+        "info": "部署：獲得堅毅。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：獲得<keyword=resilient>堅毅</keyword>。\n",
+        "name": "店店：騎士"
+    },
+    "201741": {
+        "info": "部署：摧毀 1 張「文物」敵軍。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：摧毀 1 張「文物」敵軍。\n",
+        "name": "店店：騎士"
+    },
+    "201743": {
+        "info": "只要 1 張我軍單位牌在我方回合中被摧毀，就生成 1 張「蟹蜘蛛雄蛛」並召喚至隨機我方列。\n",
+        "infoRaw": "只要 1 張我軍單位牌在我方回合中被摧毀，就<keyword=spawn>生成</keyword> 1 張「蟹蜘蛛雄蛛」並<keyword=summon>召喚</keyword>至隨機我方列。\n",
+        "name": "蟹蜘蛛后"
+    },
+    "201744": {
+        "info": "將 1 張單位牌的戰力恢復成基礎戰力。\n",
+        "infoRaw": "將 1 張單位牌的戰力恢復成基礎戰力。\n",
+        "name": "致命蕈菇"
+    },
+    "201748": {
+        "info": "軍令、近戰：對 1 張敵軍以及其他戰力與其相同的敵軍造成 1 點傷害。\n裝填：1 次。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>、<keyword=melee>近戰</keyword>：對 1 張敵軍以及其他戰力與其相同的敵軍造成 1 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n",
+        "name": "弗爾泰斯特之傲"
+    },
+    "201749": {
+        "info": "提升單列所有單位牌 2 點戰力。\n",
+        "infoRaw": "提升單列所有單位牌 2 點戰力。\n",
+        "name": "黃金泡沫"
+    },
+    "201753": {
+        "info": "部署：提升 1 張我軍 2 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張我軍 2 點戰力。\n",
+        "name": "農民民兵部隊"
+    },
+    "201772": {
+        "info": "部署、近戰：對 1 張敵軍造成 3 點傷害。若該牌的戰力原為 3 的倍數，則改為摧毀該牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對 1 張敵軍造成 3 點傷害。若該牌的戰力原為 3 的倍數，則改為摧毀該牌。\n",
+        "name": "傑洛特：專家"
+    },
+    "201773": {
+        "info": "部署、遠程：從任一方的當前牌組製造 1 張「銅色」「特殊」牌並打出。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：從任一方的當前牌組<keyword=create>製造</keyword> 1 張「銅色」「特殊」牌並打出。\n",
+        "name": "特莉絲：心靈傳動"
+    },
+    "201774": {
+        "info": "部署：摧毀 1 張敵軍「野獸」。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：摧毀 1 張敵軍「野獸」。\n",
+        "name": "丹德里恩：狂妄"
+    },
+    "201776": {
+        "info": "部署：抽取 1 張卡牌，再打出 1 張卡牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：抽取 1 張卡牌，再打出 1 張卡牌。\n",
+        "name": "丹德里恩：詩人"
+    },
+    "201777": {
+        "info": "軍令：奪取 1 張戰力不大於「羅契：無情」裝填次數的敵軍，再移除所有裝填。\n裝填：0 次。\n每回合開始時，獲得裝填 1 次。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：<keyword=seize>奪取</keyword> 1 張戰力不大於「羅契：無情」<keyword=charge>裝填</keyword>次數的敵軍，再移除所有<keyword=charge>裝填</keyword>。\n<keyword=charge>裝填</keyword>：0 次。\n每回合開始時，獲得<keyword=charge>裝填</keyword> 1 次。\n",
+        "name": "羅契：無情"
+    },
+    "201779": {
+        "info": "將 1 張我軍單位牌放進我方牌組洗牌，再從我方牌組打出 1 張本質類型與其相同的單位牌，並提升該牌 3 點戰力。\n",
+        "infoRaw": "將 1 張我軍單位牌放進我方牌組洗牌，再從我方牌組打出 1 張本質類型與其相同的單位牌，並提升該牌 3 點戰力。\n",
+        "name": "森林的叫喚"
+    },
+    "201780": {
+        "info": "部署、遠程：隨機揭示我方牌組中 1 張單位牌，再以該牌的戰力提升 1 張我軍戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：隨機<keyword=reveal>揭示</keyword>我方牌組中 1 張單位牌，再以該牌的戰力提升 1 張我軍戰力。\n",
+        "name": "葉奈法：占卜"
+    },
+    "201781": {
+        "info": "軍令：若我方控制最大的單位牌，則對 1 張單位牌造成 2 點傷害。\n冷卻：1 回合。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：若我方控制最大的單位牌，則對 1 張單位牌造成 2 點傷害。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n",
+        "name": "伊勒瑞斯"
+    },
+    "201817": {
+        "info": "部署、近戰：召喚雙方牌組中徵兵成本最大的單位牌至「近戰列」。\n部署、遠程：召喚雙方牌組中徵兵成本最小的單位牌至「遠程列」。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=summon>召喚</keyword>雙方牌組中徵兵成本最大的單位牌至「近戰列」。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：<keyword=summon>召喚</keyword>雙方牌組中徵兵成本最小的單位牌至「遠程列」。\n",
+        "name": "白獨角獸"
+    },
+    "202044": {
+        "info": "部署、近戰：對 1 張敵軍和其所有同名牌造成 3 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對 1 張敵軍和其所有同名牌造成 3 點傷害。\n",
+        "name": "跛腳葛溫"
+    },
+    "202054": {
+        "info": "摧毀 2 張同色的我軍單位牌，再製造 1 張同色的單位牌並打出。\n",
+        "infoRaw": "摧毀 2 張同色的我軍單位牌，再<keyword=create>製造</keyword> 1 張同色的單位牌並打出。\n",
+        "name": "精靈洋蔥湯"
+    },
+    "202064": {
+        "info": "軍令、近戰：對 1 張敵軍造成 2 點傷害。\n裝填：1 次。\n每當我方打出 1 張「狩魔獵人」便獲得裝填 1 次。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>、<keyword=melee>近戰</keyword>：對 1 張敵軍造成 2 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n每當我方打出 1 張「狩魔獵人」便獲得<keyword=charge>裝填</keyword> 1 次。\n",
+        "name": "貝哈文的伊佛"
+    },
+    "202098": {
+        "info": "部署：若我方手牌有「巨龍」，則獲得熱忱。\n軍令：摧毀 1 張戰力為 8 點以上的單位牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：若我方手牌有「巨龍」，則獲得<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：摧毀 1 張戰力為 8 點以上的單位牌。\n",
+        "name": "丹索的艾克"
+    },
+    "202099": {
+        "info": "部署、近戰：提升自身的戰力，而提升值為隨機 0 點到 11 點之間。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：提升自身的戰力，而提升值為隨機 0 點到 11 點之間。\n",
+        "name": "蓋斯康"
+    },
+    "202100": {
+        "info": "臥底。\n部署：隨機從我方牌組打出 1 張「金色」牌。\n",
+        "infoRaw": "<keyword=spying>臥底</keyword>。\n<keyword=deploy>部署</keyword>：隨機從我方牌組打出 1 張「金色」牌。\n",
+        "name": "韋列王子"
+    },
+    "202101": {
+        "info": "每回合結束時，移動至場上最大單位牌同列。\n",
+        "infoRaw": "每回合結束時，移動至場上最大單位牌同列。\n",
+        "name": "凱德威爾伯爵"
+    },
+    "202102": {
+        "info": "部署、近戰：驅逐對方墓地所有卡牌。\n部署、遠程：驅逐我方墓地所有卡牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=banish>驅逐</keyword>對方墓地所有卡牌。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：<keyword=banish>驅逐</keyword>我方墓地所有卡牌。\n",
+        "name": "夏維．雷夢斯"
+    },
+    "202103": {
+        "info": "近戰：每回合結束時，摧毀場上單位牌最多那方的最小單位牌。\n",
+        "infoRaw": "<keyword=melee>近戰</keyword>：每回合結束時，摧毀場上單位牌最多那方的最小單位牌。\n",
+        "name": "凱杜力斯"
+    },
+    "202104": {
+        "info": "免疫。\n",
+        "infoRaw": "<keyword=immune>免疫</keyword>。\n",
+        "name": "畏懼者：驚蟄"
+    },
+    "202105": {
+        "info": "部署：摧毀所有戰力值為 1 點的單位牌。只要摧毀 1 張單位牌，就提升自身 2 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：摧毀所有戰力值為 1 點的單位牌。只要摧毀 1 張單位牌，就提升自身 2 點戰力。\n",
+        "name": "爛沼怪"
+    },
+    "202106": {
+        "info": "部署、近戰：獲得堅毅。\n部署、遠程：獲得免疫。\n只要我方打出 1 張「矮人」，便提升自身 1 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：獲得<keyword=resilient>堅毅</keyword>。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：獲得<keyword=immune>免疫</keyword>。\n只要我方打出 1 張「矮人」，便提升自身 1 點戰力。\n",
+        "name": "蓋伯・齊格林"
+    },
+    "202107": {
+        "info": "部署：提升 1 張「精靈」、「矮人」和「樹精」我軍各 2 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張「精靈」、「矮人」和「樹精」我軍各 2 點戰力。\n",
+        "name": "巴納巴斯・貝肯包爾"
+    },
+    "202108": {
+        "info": "軍令、遠程：查看雙方牌組最上方的卡牌。保留 1 張，並將另一張交給對方。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>、<keyword=ranged>遠程</keyword>：查看雙方牌組最上方的卡牌。保留 1 張，並將另一張交給對方。\n",
+        "name": "哈吉的伊絲貝爾"
+    },
+    "202109": {
+        "info": "部署、遠程：將我方墓地與我方牌組進行替換。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：將我方墓地與我方牌組進行替換。\n",
+        "name": "利嘴賈蒙"
+    },
+    "202110": {
+        "info": "近戰：只要 1 張敵軍受到傷害，便提升自身 1 點戰力。\n",
+        "infoRaw": "<keyword=melee>近戰</keyword>：只要 1 張敵軍受到傷害，便提升自身 1 點戰力。\n",
+        "name": "達各雙劍"
+    },
+    "202111": {
+        "info": "部署：查看對方牌組最上方的 3 張卡牌，並將其中 1 張移動至對方墓地。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：查看對方牌組最上方的 3 張卡牌，並將其中 1 張移動至對方墓地。\n",
+        "name": "特拉海恩・維迪弗"
+    },
+    "202112": {
+        "info": "每當 1 張具有裝填的我軍單位牌被打出，就賦予其裝填 1 次。\n",
+        "infoRaw": "每當 1 張具有<keyword=charge>裝填</keyword>的我軍單位牌被打出，就賦予其<keyword=charge>裝填</keyword> 1 次。\n",
+        "name": "雷納德．歐多"
+    },
+    "202113": {
+        "info": "部署：對 1 張敵軍造成傷害，傷害值等同我軍「人類」的總數。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成傷害，傷害值等同我軍「人類」的總數。\n",
+        "name": "闇黑萊拉"
+    },
+    "202114": {
+        "info": "氣數已盡。熱忱。\n軍令：變身成「鳳凰」。\n",
+        "infoRaw": "<keyword=doomed>氣數已盡</keyword>。<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：變身成「鳳凰」。\n",
+        "name": "鳳凰雛鳥"
+    },
+    "202121": {
+        "info": "部署：將 1 張單位牌移動至另一列。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：將 1 張單位牌移動至另一列。\n",
+        "name": "斯巴拉浪犬"
+    },
+    "202122": {
+        "info": "部署：摧毀 1 張「文物」敵軍。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：摧毀 1 張「文物」敵軍。\n",
+        "name": "砲兵"
+    },
+    "202148": {
+        "info": "軍令：賦予 1 張單位牌裝填 1 次。\n冷卻：2 回合。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：賦予 1 張單位牌<keyword=charge>裝填</keyword> 1 次。\n<keyword=cooldown>冷卻</keyword>：2 回合。\n",
+        "name": "德馬維三世"
+    },
+    "202149": {
+        "info": "軍令：從對方牌組隨機打出 1 張「文物」。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：從對方牌組隨機打出 1 張「文物」。\n",
+        "name": "安古勒梅"
+    },
+    "202150": {
+        "info": "熱忱。\n軍令、遠程：提升 1 張單位牌 1 點戰力。\n裝填：1 次。\n每當一方打出 1 張卡牌就獲得裝填 1 次。\n",
+        "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>、<keyword=ranged>遠程</keyword>：提升 1 張單位牌 1 點戰力。\n<keyword=charge>裝填</keyword>：1 次。\n每當一方打出 1 張卡牌就獲得<keyword=charge>裝填</keyword> 1 次。\n",
+        "name": "科弗的威索戈塔"
+    },
+    "202151": {
+        "info": "部署、近戰：摧毀 1 張具有軍令的敵軍單位牌。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：摧毀 1 張具有<keyword=order>軍令</keyword>的敵軍單位牌。\n",
+        "name": "法利波"
+    },
+    "202152": {
+        "info": "若回合結束時此單位牌已獲得提升，便提升相鄰單位牌 1 點戰力。\n",
+        "infoRaw": "若回合結束時此單位牌已獲得提升，便提升相鄰單位牌 1 點戰力。\n",
+        "name": "安娜．斯特倫格"
+    },
+    "202153": {
+        "info": "每當我方打出 1 張具有軍令的單位牌，就提升自身 1 點戰力。\n",
+        "infoRaw": "每當我方打出 1 張具有<keyword=order>軍令</keyword>的單位牌，就提升自身 1 點戰力。\n",
+        "name": "里瑞亞騎兵"
+    },
+    "202154": {
+        "info": "部署：對 1 張敵軍造成 1 點傷害。若該牌被摧毀，則對另一張敵軍造成 3 點傷害。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 1 點傷害。若該牌被摧毀，則對另一張敵軍造成 3 點傷害。\n",
+        "name": "利維亞槍兵"
+    },
+    "202155": {
+        "info": "軍令：對 1 張單位牌造成 1 點傷害。\n裝填：1 次。\n每當我方打出 1 張具有軍令的卡牌，就獲得裝填 1 次。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 1 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n每當我方打出 1 張具有<keyword=order>軍令</keyword>的卡牌，就獲得<keyword=charge>裝填</keyword> 1 次。\n",
+        "name": "里瑞亞強弩手"
+    },
+    "202156": {
+        "info": "軍令：對 1 張單位牌造成 1 點傷害。若「里瑞亞國土傭僕」已獲得提升，則改為對 1 張單位牌造成 3 點傷害。\n",
+        "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 1 點傷害。若「里瑞亞國土傭僕」已獲得提升，則改為對 1 張單位牌造成 3 點傷害。\n",
+        "name": "里瑞亞國土傭僕"
+    },
+    "202161": {
+        "info": "部署：只要 1 張我軍獲得提升，就提升自身 1 點戰力。\n",
+        "infoRaw": "<keyword=deploy>部署</keyword>：只要 1 張我軍獲得提升，就提升自身 1 點戰力。\n",
+        "name": "里瑞亞鐮刀手"
+    }
+}

@@ -1,0 +1,2596 @@
+{
+    "112101": {
+        "infoRaw": "Siempre que pierdas una ronda, regresa esta unidad a tu mano desde el campo de batalla.\n",
+        "name": "Ciri"
+    },
+    "112102": {
+        "info": "Despliegue, melé: destruye la(s) unidad(es) más altas en una fila con un poder total de 15 o más.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: destruye la(s) unidad(es) más altas en una fila con un poder total de 15 o más.\n",
+        "name": "Geralt: Igni"
+    },
+    "112103": {
+        "info": "Despliegue: destruye un enemigo con 8 o más de poder.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: destruye un enemigo con 8 o más de poder.\n",
+        "name": "Geralt de Rivia"
+    },
+    "112104": {
+        "info": "Despliegue: inflige 1 de daño a todos los enemigos en una fila. Si alguno es destruido, repite esta habilidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 1 de daño a todos los enemigos en una fila. Si alguno es destruido, repite esta habilidad.\n",
+        "name": "Regis"
+    },
+    "112105": {
+        "info": "Despliegue, melé: absorbe todas las potenciaciones de un enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: <keyword=drain>absorbe</keyword> todas las potenciaciones de un enemigo.\n",
+        "name": "Regis: Superior"
+    },
+    "112106": {
+        "info": "Despliegue, a distancia: revela una unidad al azar de tu mazo e inflige una cantidad de daño igual a su poder al enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: <keyword=reveal>revela</keyword> una unidad al azar de tu mazo e inflige una cantidad de daño igual a su poder al enemigo.\n",
+        "name": "Triss Merigold"
+    },
+    "112107": {
+        "info": "Luego de 2 turnos, al final del turno, destruye a la unidad de mayor poder en el campo de batalla (excepto ella misma).\n",
+        "infoRaw": "Luego de 2 turnos, al final del turno, destruye a la unidad de mayor poder en el campo de batalla (excepto ella misma).\n",
+        "name": "Villentretenmerth"
+    },
+    "112108": {
+        "info": "Despliegue, melé: inflige 2 de daño al resto de las unidades. \nDespliegue, a distancia: otorga 2 de potencia al resto de las unidades.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: inflige 2 de daño al resto de las unidades. \n<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: otorga 2 de potencia al resto de las unidades.\n",
+        "name": "Yennefer de Vengerberg"
+    },
+    "112109": {
+        "info": "Despliegue, melé: genera y juega Duda: Agitador.\nDespliegue, a distancia: genera y juega Duda: Compañero.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: <keyword=spawn>genera</keyword> y juega Duda: Agitador.\n<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: <keyword=spawn>genera</keyword> y juega Duda: Compañero.\n",
+        "name": "Zoltan: Granuja"
+    },
+    "112110": {
+        "info": "Luego de 4 turnos, al inicio del turno, roba una carta.\n",
+        "infoRaw": "Luego de 4 turnos, al inicio del turno, roba una carta.\n",
+        "name": "Ciri: Arremetida"
+    },
+    "112111": {
+        "info": "Despliegue, melé: daña 3 enemigos infligiendo 2 de daño y los mueve a la fila a distancia si es posible.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: daña 3 enemigos infligiendo 2 de daño y los mueve a la fila a distancia si es posible.\n",
+        "name": "Geralt: Aard"
+    },
+    "112112": {
+        "info": "Despliegue, a distancia: juega un artefacto de tu mazo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: juega un artefacto de tu mazo.\n",
+        "name": "Avallac'h: Sabio"
+    },
+    "112113": {
+        "info": "Orden: inflige 1 de daño a la(s) unidad(es) enemigas de más poder. \nEnfriamiento: 1.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: inflige 1 de daño a la(s) unidad(es) enemigas de más poder. \n<keyword=cooldown>Enfriamiento</keyword>: 1.\n",
+        "name": "Yennefer: Conjuradora"
+    },
+    "112201": {
+        "info": "Despliegue: se transforma en una copia básica de una unidad enemiga.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: se transforma en una copia básica de una unidad enemiga.\n",
+        "name": "Dudu"
+    },
+    "112202": {
+        "info": "Despliegue: invoca a Vesemir y a Lambert desde tu mazo a esta fila.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=summon>invoca</keyword> a Vesemir y a Lambert desde tu mazo a esta fila.\n",
+        "name": "Eskel"
+    },
+    "112203": {
+        "info": "Despliegue: invoca a Eskel y a Lambert desde tu mazo a esta fila.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=summon>invoca</keyword> a Eskel y a Lambert desde tu mazo a esta fila.\n",
+        "name": "Vesemir"
+    },
+    "112204": {
+        "info": "Despliegue: invoca a Eskel y a Vesemir desde tu mazo a esta fila.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=summon>invoca</keyword> a Eskel y a Vesemir desde tu mazo a esta fila.\n",
+        "name": "Lambert"
+    },
+    "112205": {
+        "info": "Orden: inflige 2 de daño en un enemigo. \nCargas: 2.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: inflige 2 de daño en un enemigo. \n<keyword=charge>Cargas</keyword>: 2.\n",
+        "name": "Myrgtabrakke"
+    },
+    "112206": {
+        "info": "Orden: inflige 1 de daño en todos los enemigos.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: inflige 1 de daño en todos los enemigos.\n",
+        "name": "Ocvist"
+    },
+    "112207": {
+        "info": "Orden: se cura. \nEnfriamiento: 1.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: se <keyword=heal>cura</keyword>. \n<keyword=cooldown>Enfriamiento</keyword>: 1.\n",
+        "name": "Olgierd von Everec"
+    },
+    "112208": {
+        "info": "Despliegue: genera e invoca una copia base de una unidad de bronce de tu mano en esta fila en el lado de cada jugador.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=spawn>genera</keyword> e <keyword=summon>invoca</keyword> una copia base de una unidad de bronce de tu mano en esta fila en el lado de cada jugador.\n",
+        "name": "Operador"
+    },
+    "112209": {
+        "info": "Orden: transforma en Chort.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: transforma en Chort.\n",
+        "name": "Vaca campeona"
+    },
+    "112210": {
+        "info": "Cada vez que juegas una carta dorada, invoca a esta unidad de tu mazo a una fila aliada al azar.\n",
+        "infoRaw": "Cada vez que juegas una carta dorada, <keyword=summon>invoca</keyword> a esta unidad de tu mazo a una fila aliada al azar.\n",
+        "name": "Sardinilla"
+    },
+    "112211": {
+        "info": "Orden: inflige 2 de daño a una unidad. \nCarga: 1.\nGana 1 carga cada vez que juegas una carta especial.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: inflige 2 de daño a una unidad. \n<keyword=charge>Carga</keyword>: 1.\nGana 1 <keyword=charge>carga</keyword> cada vez que juegas una carta especial.\n",
+        "name": "Johnny"
+    },
+    "112212": {
+        "info": "Orden: otorga 2 de potencia a una unidad. \nCarga: 1. \n Gana 1 carga cada vez que juegas una carta especial.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: otorga 2 de potencia a una unidad. \n<keyword=charge>Carga</keyword>: 1. \n Gana 1 <keyword=charge>carga</keyword> cada vez que juegas una carta especial.\n",
+        "name": "Sarah"
+    },
+    "112213": {
+        "info": "Cada turno, al final del mismo, otorga 1 de potencia a la unidad con menor poder en tu mano.\n",
+        "infoRaw": "Cada turno, al final del mismo, otorga 1 de potencia a la unidad con menor poder en tu mano.\n",
+        "name": "Rey de los Mendigos"
+    },
+    "112214": {
+        "info": "Despliegue: destierra a una unidad con 3 de poder o menos.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=banish>destierra</keyword> a una unidad con 3 de poder o menos.\n",
+        "name": "Cyprian Wily"
+    },
+    "112215": {
+        "info": "Despliegue, melé: destruye un artefacto enemigo. \nDespliegue, a distancia: despeja todos los efectos de fila de tu lado.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: destruye un artefacto enemigo. \n<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: despeja todos los efectos de fila de tu lado.\n",
+        "name": "Iris von Everec"
+    },
+    "112401": {
+        "info": "Despliegue: otorga 4 de potencia a una unidad. Si tienes a Chironex en la mano, duplica esa cantidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 4 de potencia a una unidad. Si tienes a Chironex en la mano, duplica esa cantidad.\n",
+        "name": "Unicornio"
+    },
+    "112402": {
+        "info": "Despliegue: inflige 4 de daño a una unidad. Si tienes a Unicornio en la mano, duplica esa cantidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 4 de daño a una unidad. Si tienes a Unicornio en la mano, duplica esa cantidad.\n",
+        "name": "Chironex"
+    },
+    "112405": {
+        "info": "Despliegue: otorga 1 de potencia a todas las unidades con Agonía en tu mano.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 1 de potencia a todas las unidades con <keyword=deathwish>Agonía</keyword> en tu mano.\n",
+        "name": "Demonio"
+    },
+    "113101": {
+        "info": "Aplica este efecto de fila a una fila enemiga:\nCada turno, al inicio del turno, inflige 2 de daño a la unidad de mayor poder de esta fila.\n",
+        "infoRaw": "Aplica este efecto de fila a una fila enemiga:\nCada turno, al inicio del turno, inflige 2 de daño a la unidad de mayor poder de esta fila.\n",
+        "name": "Ragh Nar Roog"
+    },
+    "113102": {
+        "info": "Mira las 2 primeras cartas de tu mazo, luego juega una y destierra a la otra.\n",
+        "infoRaw": "Mira las 2 primeras cartas de tu mazo, luego juega una y <keyword=banish>destierra</keyword> a la otra.\n",
+        "name": "El último deseo"
+    },
+    "113201": {
+        "info": "Mezcla a un aliado del campo de batalla en tu mazo. Luego juega la primera unidad de tu mazo.\n",
+        "infoRaw": "Mezcla a un aliado del campo de batalla en tu mazo. Luego juega la primera unidad de tu mazo.\n",
+        "name": "Señuelo"
+    },
+    "113202": {
+        "info": "Inflige 2 de daño a 5 enemigos.\n",
+        "infoRaw": "Inflige 2 de daño a 5 enemigos.\n",
+        "name": "Merigold: Granizada"
+    },
+    "113203": {
+        "info": "Aplica este efecto de fila a una fila enemiga:\nDurante 2 turnos, al inicio del turno, inflige 1 de daño a todas las unidades de esta fila.\n",
+        "infoRaw": "Aplica este efecto de fila a una fila enemiga:\nDurante 2 turnos, al inicio del turno, inflige 1 de daño a todas las unidades de esta fila.\n",
+        "name": "Tormenta de Skellige"
+    },
+    "113204": {
+        "info": "Inflige 1 de daño a todos los enemigos.\n",
+        "infoRaw": "Inflige 1 de daño a todos los enemigos.\n",
+        "name": "Stammelford: Temblor"
+    },
+    "113205": {
+        "info": "Destruye un artefacto.\n",
+        "infoRaw": "Destruye un artefacto.\n",
+        "name": "Bomba de dimerita"
+    },
+    "113206": {
+        "info": "Destruye todos los artefactos.\n",
+        "infoRaw": "Destruye todos los artefactos.\n",
+        "name": "Frío Blanco"
+    },
+    "113207": {
+        "info": "Potencia por 3 a 5 unidades adyacentes.\n",
+        "infoRaw": "Potencia por 3 a 5 unidades adyacentes.\n",
+        "name": "Cuerno de comandante"
+    },
+    "113208": {
+        "info": "Despliegue, cuerpo a cuerpo: aumenta en 1 la duración de todos los efectos de fila.\nDespliegue, a distancia: reduce en 1 la duración de todos los efectos de fila.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>cuerpo a cuerpo</keyword>: aumenta en 1 la duración de todos los efectos de fila.\n<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: reduce en 1 la duración de todos los efectos de fila.\n",
+        "name": "Vaedermakar"
+    },
+    "113209": {
+        "info": "Juega la unidad con mayor poder de tu mazo.\n",
+        "infoRaw": "Juega la unidad con mayor poder de tu mazo.\n",
+        "name": "Doble cruz de Alzur"
+    },
+    "113301": {
+        "info": "Inflige 5 de daño a una unidad.\n",
+        "infoRaw": "Inflige 5 de daño a una unidad.\n",
+        "name": "Trueno de Alzur"
+    },
+    "113302": {
+        "info": "Aplica este efecto de fila a una fila enemiga:\nDurante 4 turnos, al inicio del turno, inflige 2 de daño a la unidad con menor poder de esta fila.\n",
+        "infoRaw": "Aplica este efecto de fila a una fila enemiga:\nDurante 4 turnos, al inicio del turno, inflige 2 de daño a la unidad con menor poder de esta fila.\n",
+        "name": "Escarcha Polar"
+    },
+    "113303": {
+        "info": "Despeja todos los efectos de fila de tu lado.\n",
+        "infoRaw": "Despeja todos los efectos de fila de tu lado.\n",
+        "name": "Tiempo despejado"
+    },
+    "113305": {
+        "info": "Aplica este efecto de fila a una fila enemiga:\nDurante 4 turnos, al inicio del turno, inflige 2 de daño a la unidad con mayor poder de esta fila.\n",
+        "infoRaw": "Aplica este efecto de fila a una fila enemiga:\nDurante 4 turnos, al inicio del turno, inflige 2 de daño a la unidad con mayor poder de esta fila.\n",
+        "name": "Niebla Impenetrable"
+    },
+    "113306": {
+        "info": "Inflige 3 de daño a 3 enemigos.\n",
+        "infoRaw": "Inflige 3 de daño a 3 enemigos.\n",
+        "name": "Veneno de mantícora"
+    },
+    "113307": {
+        "info": "Da o quita Resiliencia de una unidad.\n",
+        "infoRaw": "Da o quita <keyword=resilient>Resiliencia</keyword> de una unidad.\n",
+        "name": "Subida de adrenalina"
+    },
+    "113308": {
+        "info": "Destruye a la(s) unidad(es) con menor poder.\n",
+        "infoRaw": "Destruye a la(s) unidad(es) con menor poder.\n",
+        "name": "Epidemia"
+    },
+    "113309": {
+        "info": "Destruye a la(s) unidad(es) con mayor poder.\n",
+        "infoRaw": "Destruye a la(s) unidad(es) con mayor poder.\n",
+        "name": "Conflagración"
+    },
+    "113310": {
+        "info": "Otorga 6 de potencia a una unidad.\n",
+        "infoRaw": "Otorga 6 de potencia a una unidad.\n",
+        "name": "Golondrina"
+    },
+    "113311": {
+        "info": "Fervor.\nOrden: otorga 2 de potencia a una unidad. \nCargas: 3.\n",
+        "infoRaw": "<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>: otorga 2 de potencia a una unidad. \n<keyword=charge>Cargas</keyword>: 3.\n",
+        "name": "Rayo"
+    },
+    "113312": {
+        "info": "Aplica este efecto de fila a una fila enemiga:\nDurante 4 turnos, al inicio del turno, inflige 1 de daño a 2 unidades al azar de la fila.\n",
+        "infoRaw": "Aplica este efecto de fila a una fila enemiga:\nDurante 4 turnos, al inicio del turno, inflige 1 de daño a 2 unidades al azar de la fila.\n",
+        "name": "Lluvia Torrencial"
+    },
+    "113313": {
+        "info": "Despliegue: potencia a esta unidad según la cantidad de daño recibida por un enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: potencia a esta unidad según la cantidad de daño recibida por un enemigo.\n",
+        "name": "Heraldo An Craite"
+    },
+    "113315": {
+        "info": "Elige a una unidad. Si está potenciada, inflige el doble de la cantidad potenciada como daño. Si es dañada, se potencia con el doble de la cantidad dañada.\n",
+        "infoRaw": "Elige a una unidad. Si está potenciada, inflige el doble de la cantidad potenciada como daño. Si es dañada, se potencia con el doble de la cantidad dañada.\n",
+        "name": "Espejo de Bekker"
+    },
+    "113316": {
+        "info": "Juega una unidad de tu cementerio.\n",
+        "infoRaw": "Juega una unidad de tu cementerio.\n",
+        "name": "Renovar"
+    },
+    "113319": {
+        "info": "Bloquea a una unidad y le inflige 3 de daño.\n",
+        "infoRaw": "<keyword=lock>Bloquea</keyword> a una unidad y le inflige 3 de daño.\n",
+        "name": "Esposas de dimerita"
+    },
+    "113320": {
+        "info": "Inflige 3 de daño a una unidad, luego otorga 9 de potencia.\n",
+        "infoRaw": "Inflige 3 de daño a una unidad, luego otorga 9 de potencia.\n",
+        "name": "Mardroeme"
+    },
+    "122101": {
+        "info": "Orden: duplica las cargas de un aliado.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: duplica las <keyword=charge>cargas</keyword> de un aliado.\n",
+        "name": "Barón Sanguinario"
+    },
+    "122102": {
+        "info": "Espía.\nDespliegue: juega las 2 cartas superiores de tu mazo.\n",
+        "infoRaw": "<keyword=spying>Espía</keyword>.\n<keyword=deploy>Despliegue</keyword>: juega las 2 cartas superiores de tu mazo.\n",
+        "name": "Vernon Roche"
+    },
+    "122103": {
+        "info": "Melé: si esta unidad está en el campo de batalla, todos los aliados con Orden ganan Fervor.\n",
+        "infoRaw": "<keyword=melee>Melé</keyword>: si esta unidad está en el campo de batalla, todos los aliados con <keyword=order>Orden</keyword> ganan <keyword=zeal>Fervor</keyword>.\n",
+        "name": "John Natalis"
+    },
+    "122107": {
+        "info": "Despliegue: otorga 4 de potencia a una unidad aleatoria en tu mano.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 4 de potencia a una unidad aleatoria en tu mano.\n",
+        "name": "Triss: Mariposas"
+    },
+    "122108": {
+        "info": "Despliegue, a distancia: juega un hechizo de tu mazo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: juega un hechizo de tu mazo.\n",
+        "name": "Keira Metz"
+    },
+    "122201": {
+        "info": "A distancia: cada vez que un aliado gane una carga, otorga 1 de potencia.\n",
+        "infoRaw": "<keyword=ranged>A distancia</keyword>: cada vez que un aliado gane una <keyword=charge>carga</keyword>, otorga 1 de potencia.\n",
+        "name": "Jaskier"
+    },
+    "122202": {
+        "info": "Fervor.\nOrden: otorga 1 carga. \nEnfriamiento: 1.\n",
+        "infoRaw": "<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>: otorga 1 <keyword=charge>carga</keyword>. \n<keyword=cooldown>Enfriamiento</keyword>: 1.\n",
+        "name": "Priscilla"
+    },
+    "122203": {
+        "info": "Despliegue: elimina todas las cargas de una unidad enemiga y se las da a Thaler. \nOrden: otorga 1 cargaa una unidad aliada. \nCarga: 0.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: elimina todas las <keyword=charge>cargas</keyword> de una unidad enemiga y se las da a Thaler. \n<keyword=order>Orden</keyword>: otorga 1 <keyword=charge>carga</keyword>a una unidad aliada. \n<keyword=charge>Carga</keyword>: 0.\n",
+        "name": "Thaler"
+    },
+    "122204": {
+        "info": "Despliegue: inflige 4 de daño a un enemigo. \nOrden: le otorga Fervor a un aliado.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 4 de daño a un enemigo. \n<keyword=order>Orden</keyword>: le otorga <keyword=zeal>Fervor</keyword> a un aliado.\n",
+        "name": "Ves"
+    },
+    "122205": {
+        "info": "Despliegue: inflige 2 de daño a un enemigo.\nOrden: inflige 2 de daño a un enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 2 de daño a un enemigo.\n<keyword=order>Orden</keyword>: inflige 2 de daño a un enemigo.\n",
+        "name": "Sheala"
+    },
+    "122206": {
+        "info": "Espía.\nAgonía: inflige 3 de daño a todas las unidades en esta fila.\n",
+        "infoRaw": "<keyword=spying>Espía</keyword>.\n<keyword=deathwish>Agonía</keyword>: inflige 3 de daño a todas las unidades en esta fila.\n",
+        "name": "Sabrina Glevissig"
+    },
+    "122207": {
+        "info": "Orden, a distancia: inflige daño a un enemigo según la potenciación de Dethmold.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>, <keyword=ranged>a distancia</keyword>: inflige daño a un enemigo según la potenciación de Dethmold.\n",
+        "name": "Dethmold"
+    },
+    "122208": {
+        "info": "Despliegue: otorga 2 de potencia a un aliado y le otorga 2 cargas.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 2 de potencia a un aliado y le otorga 2 <keyword=charge>cargas</keyword>.\n",
+        "name": "Príncipe Stennis"
+    },
+    "122210": {
+        "info": "Despliegue: devuelve una unidad de bronce y todas sus copias desde tu cementerio a tu mazo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: devuelve una unidad de bronce y todas sus copias desde tu cementerio a tu mazo.\n",
+        "name": "Princesa Pavetta"
+    },
+    "122211": {
+        "info": "Fervor.\nOrden: gasta 3 cargas para bloquear una unidad enemiga.\nCargas: 3.\n",
+        "infoRaw": "<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>: gasta 3 <keyword=charge>cargas</keyword> para <keyword=lock>bloquear</keyword> una unidad enemiga.\n<keyword=charge>Cargas</keyword>: 3.\n",
+        "name": "Margarita Laux-Antille"
+    },
+    "122212": {
+        "info": "Orden, a distancia: otorga 1 de potencia a una unidad.\nCarga: 3.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>, <keyword=ranged>a distancia</keyword>: otorga 1 de potencia a una unidad.\n<keyword=charge>Carga</keyword>: 3.\n",
+        "name": "Nenneke"
+    },
+    "122213": {
+        "info": "Despliegue: otorga 1 carga a todas las unidades aliadas.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 1 <keyword=charge>carga</keyword> a todas las unidades aliadas.\n",
+        "name": "Odrin"
+    },
+    "122214": {
+        "info": "Fervor.\nOrden: otorga 1 de potencia a un aliado.\nCarga: 2.\n",
+        "infoRaw": "<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>: otorga 1 de potencia a un aliado.\n<keyword=charge>Carga</keyword>: 2.\n",
+        "name": "Sargento kaedweni"
+    },
+    "122216": {
+        "info": "Despliegue: inflige 1 de daño a una unidad por cada carta en tu mano.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 1 de daño a una unidad por cada carta en tu mano.\n",
+        "name": "Sacabuche"
+    },
+    "122301": {
+        "info": "Orden: inflige 1 de daño a una unidad. \nCargas: 1.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: inflige 1 de daño a una unidad. \n<keyword=charge>Cargas</keyword>: 1.\n",
+        "name": "Balista"
+    },
+    "122302": {
+        "info": "Orden: inflige 2 de daño a una unidad. \nCargas: 1.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: inflige 2 de daño a una unidad. \n<keyword=charge>Cargas</keyword>: 1.\n",
+        "name": "Balista reforzada"
+    },
+    "122303": {
+        "info": "Orden, a distancia: inflige 1 de daño a una unidad. Si fue destruida, inflige 1 de daño a las unidades adyacentes.\nCarga: 1.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>, <keyword=ranged>a distancia</keyword>: inflige 1 de daño a una unidad. Si fue destruida, inflige 1 de daño a las unidades adyacentes.\n<keyword=charge>Carga</keyword>: 1.\n",
+        "name": "Trabuquete"
+    },
+    "122304": {
+        "info": "Orden, melé: otorga 1 de potencia a los aliados adyacentes. \nCarga: 1.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>, <keyword=melee>melé</keyword>: otorga 1 de potencia a los aliados adyacentes. \n<keyword=charge>Carga</keyword>: 1.\n",
+        "name": "Torre de asedio"
+    },
+    "122309": {
+        "info": "Despliegue: otorga 2 cargas a una máquina aliada.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 2 <keyword=charge>cargas</keyword> a una máquina aliada.\n",
+        "name": "Auxiliar de asedios"
+    },
+    "122310": {
+        "info": "Despliegue, melé: genera una copia de un aliado de bronce a la parte inferior del mazo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: <keyword=spawn>genera</keyword> una copia de un aliado de bronce a la parte inferior del mazo.\n",
+        "name": "Franja Azul: Explorador"
+    },
+    "122311": {
+        "info": "Orden: invoca una copia de esta unidad desde tu mazo a esta fila.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: <keyword=summon>invoca</keyword> una copia de esta unidad desde tu mazo a esta fila.\n",
+        "name": "Franja Azul: Comando"
+    },
+    "122312": {
+        "info": "Despliegue: otorga 2 de potencia a las unidades adyacentes.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 2 de potencia a las unidades adyacentes.\n",
+        "name": "Médica de campaña"
+    },
+    "122313": {
+        "info": "Despliegue: obtiene fervor si se juega adyacente a 2 soldados.\nOrden: inflige 3 de daño a un enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: obtiene <keyword=zeal>fervor</keyword> si se juega adyacente a 2 soldados.\n<keyword=order>Orden</keyword>: inflige 3 de daño a un enemigo.\n",
+        "name": "Estandarte de Dun"
+    },
+    "122314": {
+        "info": "Despliegue, melé: elimina todas las cargas de un enemigo y le inflige daño según la cantidad eliminada.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: elimina todas las <keyword=charge>cargas</keyword> de un enemigo y le inflige daño según la cantidad eliminada.\n",
+        "name": "Caballería kaedweni"
+    },
+    "122315": {
+        "info": "A distancia: al final de cada turno, inflige 1 de daño a un enemigo al azar en la fila a distancia.\n",
+        "infoRaw": "<keyword=ranged>A distancia</keyword>: al final de cada turno, inflige 1 de daño a un enemigo al azar en la fila a distancia.\n",
+        "name": "Trabuquete reforzado"
+    },
+    "122316": {
+        "info": "Despliegue por cada unidad potenciada en esta fila, inflige 1 de daño a un enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword> por cada unidad potenciada en esta fila, inflige 1 de daño a un enemigo.\n",
+        "name": "Infantería temeria"
+    },
+    "122318": {
+        "info": "Cada vez que se coloca una máquina en esta fila, le da Fervor.\n",
+        "infoRaw": "Cada vez que se coloca una máquina en esta fila, le da <keyword=zeal>Fervor</keyword>.\n",
+        "name": "Maestro de asedios"
+    },
+    "122401": {
+        "info": "Al inicio de cada turno, inflige 1 de daño al enemigo con mayor poder.\nOrden",
+        "infoRaw": "Al inicio de cada turno, inflige 1 de daño al enemigo con mayor poder.\n<keyword=order>Orden</keyword>",
+        "name": "Malogrado"
+    },
+    "122402": {
+        "info": "Al final de cada turno, otorga 1 de potencia al aliado con menor poder. \nOrden",
+        "infoRaw": "Al final de cada turno, otorga 1 de potencia al aliado con menor poder. \n<keyword=order>Orden</keyword>",
+        "name": "Doméstica"
+    },
+    "122403": {
+        "info": "Despliegue, a distancia: roba una carta, luego coloca una carta de tu mano en la parte superior del mazo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: roba una carta, luego coloca una carta de tu mano en la parte superior del mazo.\n",
+        "name": "Novicio de Vicovaro"
+    },
+    "123201": {
+        "info": "Genera una copia de una unidad aliada de bronce y la invoca en esta fila.\n",
+        "infoRaw": "<keyword=spawn>Genera</keyword> una copia de una unidad aliada de bronce y la <keyword=summon>invoca</keyword> en esta fila.\n",
+        "name": "Refuerzos"
+    },
+    "131101": {
+        "info": "Orden: otorga 4 de potencia a una unidad y la vuelve Inmune.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: otorga 4 de potencia a una unidad y la vuelve <keyword=immune>Inmune</keyword>.\n",
+        "name": "Eredin Bréacc Glas"
+    },
+    "131102": {
+        "info": "A distancia: cuando juegas una unidad con Agonía, activa su habilidad Agonía.\n",
+        "infoRaw": "<keyword=ranged>A distancia</keyword>: cuando juegas una unidad con <keyword=deathwish>Agonía</keyword>, activa su habilidad <keyword=deathwish>Agonía</keyword>.\n",
+        "name": "Ge'els"
+    },
+    "132101": {
+        "info": "Despliegue: transforma a todos los aliados humanos en Renacidos kaedweni sin cambiar su poder.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: transforma a todos los aliados humanos en Renacidos kaedweni sin cambiar su poder.\n",
+        "name": "Draug"
+    },
+    "132102": {
+        "info": "Daña a un enemigo en base al poder de tu aliado más alto.\n",
+        "infoRaw": "Daña a un enemigo en base al poder de tu aliado más alto.\n",
+        "name": "Ira de Imlerith"
+    },
+    "132103": {
+        "info": "Orden: otorga 8 de potencia a una unidad de tu mano.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: otorga 8 de potencia a una unidad de tu mano.\n",
+        "name": "Espíritu del bosque"
+    },
+    "132104": {
+        "info": "Despliegue: genera una copia de 1 de poder de una unidad en tu mano y la invoca en la fila de esta unidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=spawn>genera</keyword> una copia de 1 de poder de una unidad en tu mano y la <keyword=summon>invoca</keyword> en la fila de esta unidad.\n",
+        "name": "Caranthir Ar-Feiniel"
+    },
+    "132105": {
+        "info": "Orden: le otorga inmunidad a una unidad aliada.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: le otorga <keyword=immune>inmunidad</keyword> a una unidad aliada.\n",
+        "name": "Avallac'h"
+    },
+    "132106": {
+        "info": "Despliegue, a distancia: juega un artefacto de tu cementerio.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: juega un artefacto de tu cementerio.\n",
+        "name": "Guardián"
+    },
+    "132107": {
+        "info": "Fervor.\nOrden: consume a un aliado. \nCarga: 3.\n",
+        "infoRaw": "<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>: <keyword=consume>consume</keyword> a un aliado. \n<keyword=charge>Carga</keyword>: 3.\n",
+        "name": "Kayran"
+    },
+    "132108": {
+        "info": "Agonía: toma a un enemigo con 3 de poder o menos.\n",
+        "infoRaw": "<keyword=deathwish>Agonía</keyword>: <keyword=seize>toma</keyword> a un enemigo con 3 de poder o menos.\n",
+        "name": "Miruna"
+    },
+    "132201": {
+        "info": "Genera 2 Arachas zánganos y los invoca en esta fila. Luego, otorga 1 de potencia a los demás insectoides en esta fila.\n",
+        "infoRaw": "<keyword=spawn>Genera</keyword> 2 Arachas zánganos y los <keyword=summon>invoca</keyword> en esta fila. Luego, otorga 1 de potencia a los demás insectoides en esta fila.\n",
+        "name": "Arachas descomunal"
+    },
+    "132202": {
+        "info": "Orden: destierra a todas las unidades en tu cementerio y recibe 1 de potencia por cada unidad.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: <keyword=banish>destierra</keyword> a todas las unidades en tu cementerio y recibe 1 de potencia por cada unidad.\n",
+        "name": "Mourntart"
+    },
+    "132203": {
+        "info": "Prosperar. \nDespliegue: activa la habilidad Agonía de un aliado de bronce.\n",
+        "infoRaw": "<keyword=thrive>Prosperar</keyword>. \n<keyword=deploy>Despliegue</keyword>: activa la habilidad <keyword=deathwish>Agonía</keyword> de un aliado de bronce.\n",
+        "name": "Abaya"
+    },
+    "132204": {
+        "info": "Después de que destruyan 3 unidades aliadas, despierta a Espanto.\n",
+        "infoRaw": "Después de que destruyan 3 unidades aliadas, despierta a Espanto.\n",
+        "name": "Espanto: Durmiente"
+    },
+    "132205": {
+        "info": "Despliegue: otorga 1 de potencia a todas las bestias aliadas.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 1 de potencia a todas las bestias aliadas.\n",
+        "name": "Morvudd"
+    },
+    "132206": {
+        "info": "Despliegue: inflige 2 de daño a un enemigo.\n Aumenta este daño a 2 siempre que juegues Guisadora o Tejedora.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 2 de daño a un enemigo.\n Aumenta este daño a 2 siempre que juegues Guisadora o Tejedora.\n",
+        "name": "Susurradora"
+    },
+    "132207": {
+        "info": "Despliegue: consume 1 unidad(es) aliada(s).\nAumenta la cantidad de blancos por 1 siempre que juegues Susurradora o Tejedora.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=consume>consume</keyword> 1 unidad(es) aliada(s).\nAumenta la cantidad de blancos por 1 siempre que juegues Susurradora o Tejedora.\n",
+        "name": "Guisadora"
+    },
+    "132208": {
+        "info": "Despliegue: otorga 2 de potencia a un aliado.\nAumenta esta potenciación a 2 siempre que juegues Susurradora o Guisadora.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 2 de potencia a un aliado.\nAumenta esta potenciación a 2 siempre que juegues Susurradora o Guisadora.\n",
+        "name": "Tejedora"
+    },
+    "132209": {
+        "info": "Agonía: destruye al enemigo con menor poder.\n",
+        "infoRaw": "<keyword=deathwish>Agonía</keyword>: destruye al enemigo con menor poder.\n",
+        "name": "Mantícora imperial"
+    },
+    "132210": {
+        "info": "Fervor.\nOrden: inflige 1 de daño a todas las unidades de la fila opuesta.\nEnfriamiento: 3.\n",
+        "infoRaw": "<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>: inflige 1 de daño a todas las unidades de la fila opuesta.\n<keyword=cooldown>Enfriamiento</keyword>: 3.\n",
+        "name": "Ifrit colosal"
+    },
+    "132211": {
+        "info": "Prosperar.\n",
+        "infoRaw": "<keyword=thrive>Prosperar</keyword>.\n",
+        "name": "Nekker guerrero"
+    },
+    "132212": {
+        "info": "Sin habilidad.\n",
+        "infoRaw": "Sin habilidad.\n",
+        "name": "Gigante de hielo"
+    },
+    "132213": {
+        "info": "Sin habilidad.\n",
+        "infoRaw": "Sin habilidad.\n",
+        "name": "D'ao primitivo"
+    },
+    "132214": {
+        "info": "Despliegue: destruye un artefacto enemigo. Si controlas la unidad de mayor poder, inflige 2 de daño a las unidades adyacentes a ese artefacto.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: destruye un artefacto enemigo. Si controlas la unidad de mayor poder, inflige 2 de daño a las unidades adyacentes a ese artefacto.\n",
+        "name": "Nithral"
+    },
+    "132215": {
+        "info": "Despliegue: le da a una unidad enemiga Condenado. \nOrden: destruye a un enemigo Condenado.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: le da a una unidad enemiga <keyword=doomed>Condenado</keyword>. \n<keyword=order>Orden</keyword>: destruye a un enemigo <keyword=doomed>Condenado</keyword>.\n",
+        "name": "Gaunter O'Dim"
+    },
+    "132216": {
+        "info": "Despliegue, melé: consume a una unidad con 3 o menos de poder.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: <keyword=consume>consume</keyword> a una unidad con 3 o menos de poder.\n",
+        "name": "Príncipe sapo"
+    },
+    "132217": {
+        "info": "Despliegue: consume a una unidad aliada.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=consume>consume</keyword> a una unidad aliada.\n",
+        "name": "Arpía celaeno"
+    },
+    "132218": {
+        "info": "Sin habilidad.\n",
+        "infoRaw": "Sin habilidad.\n",
+        "name": "Gigante dormido"
+    },
+    "132301": {
+        "info": "Agonía: invoca una copia de esta unidad de tu mazo a una fila aliada al azar.\n",
+        "infoRaw": "<keyword=deathwish>Agonía</keyword>: <keyword=summon>invoca</keyword> una copia de esta unidad de tu mazo a una fila aliada al azar.\n",
+        "name": "Boira"
+    },
+    "132302": {
+        "info": "Agonía: invoca esta unidad desde el cementerio a la misma fila, le otorga 4 de potencia y le da Condenado.\n",
+        "infoRaw": "<keyword=deathwish>Agonía</keyword>: <keyword=summon>invoca</keyword> esta unidad desde el cementerio a la misma fila, le otorga 4 de potencia y le da <keyword=doomed>Condenado</keyword>.\n",
+        "name": "Boira anciano"
+    },
+    "132303": {
+        "info": "Despliegue: inflige 2 de daño a un enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 2 de daño a un enemigo.\n",
+        "name": "Wyverno"
+    },
+    "132304": {
+        "info": "Condenado.\n",
+        "infoRaw": "<keyword=doomed>Condenado</keyword>.\n",
+        "name": "Arachas zángano"
+    },
+    "132305": {
+        "info": "Prosperar.\nDespliegue: genera una copia base de esta unidad y la invoca en esta fila.\n",
+        "infoRaw": "<keyword=thrive>Prosperar</keyword>.\n<keyword=deploy>Despliegue</keyword>: <keyword=spawn>genera</keyword> una copia base de esta unidad y la <keyword=summon>invoca</keyword> en esta fila.\n",
+        "name": "Nekker"
+    },
+    "132306": {
+        "info": "Despliegue, melé: consume una unidad en tu cementerio.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: <keyword=consume>consume</keyword> una unidad en tu cementerio.\n",
+        "name": "Ghul"
+    },
+    "132307": {
+        "info": "Despliegue: destruye a una unidad aliada en esta fila. Si no hay unidades, destruye a esta unidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: destruye a una unidad aliada en esta fila. Si no hay unidades, destruye a esta unidad.\n",
+        "name": "Grifo"
+    },
+    "132308": {
+        "info": "Siempre que una unidad sea destruida durante tu turno, inflige 1 de daño a una unidad enemiga al azar.\n",
+        "infoRaw": "Siempre que una unidad sea destruida durante tu turno, inflige 1 de daño a una unidad enemiga al azar.\n",
+        "name": "Guerrero vran"
+    },
+    "132309": {
+        "info": "Despliegue: inflige 1 de daño a una unidad por cada unidad Cacería Salvaje en esta fila.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 1 de daño a una unidad por cada unidad Cacería Salvaje en esta fila.\n",
+        "name": "Cacería: Guerrero"
+    },
+    "132310": {
+        "info": "Despliegue: si controlas la unidad de mayor poder, invoca una copia de Jinete de la Cacería Salvaje desde tu mazo en esta fila.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: si controlas la unidad de mayor poder, <keyword=summon>invoca</keyword> una copia de Jinete de la Cacería Salvaje desde tu mazo en esta fila.\n",
+        "name": "Cacería: Jinete"
+    },
+    "132312": {
+        "info": "Cada jugador destruye la unidad de menor poder.\n",
+        "infoRaw": "Cada jugador destruye la unidad de menor poder.\n",
+        "name": "Picada depredadora"
+    },
+    "132314": {
+        "info": "Prosperar.\nDespliegue: inflige 2 de daño a un enemigo y lo mueve a la otra fila.\n",
+        "infoRaw": "<keyword=thrive>Prosperar</keyword>.\n<keyword=deploy>Despliegue</keyword>: inflige 2 de daño a un enemigo y lo mueve a la otra fila.\n",
+        "name": "Ahogado"
+    },
+    "132315": {
+        "info": "Condenado.\n",
+        "infoRaw": "<keyword=doomed>Condenado</keyword>.\n",
+        "name": "Arpía"
+    },
+    "132316": {
+        "info": "Agonía: genera una Arpía y la invoca en una fila aliada al azar.\n",
+        "infoRaw": "<keyword=deathwish>Agonía</keyword>: <keyword=spawn>genera</keyword> una Arpía y la <keyword=summon>invoca</keyword> en una fila aliada al azar.\n",
+        "name": "Huevo de arpía"
+    },
+    "132402": {
+        "info": "Despliegue: inflige 1 de daño a un enemigo. Si controlas a la unidad de mayor poder, entonces inflige 3 de daño.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 1 de daño a un enemigo. Si controlas a la unidad de mayor poder, entonces inflige 3 de daño.\n",
+        "name": "Cacería: Sabueso"
+    },
+    "132403": {
+        "info": "Despliegue: inflige 2 de daño a un enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 2 de daño a un enemigo.\n",
+        "name": "Manada de lobos"
+    },
+    "132404": {
+        "info": "Despliegue: inflige 4 de daño a un enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 4 de daño a un enemigo.\n",
+        "name": "Ifrit rabioso"
+    },
+    "132405": {
+        "info": "Despliegue: destruye un artefacto enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: destruye un artefacto enemigo.\n",
+        "name": "D'ao frenético"
+    },
+    "132406": {
+        "info": "Despliegue: activa la habilidad Agonía de un aliado de bronce.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: activa la habilidad <keyword=deathwish>Agonía</keyword> de un aliado de bronce.\n",
+        "name": "Maerolorn"
+    },
+    "132407": {
+        "info": "Despliegue: revela la primera unidad en el mazo de tu oponente y daña a esta unidad por su poder, luego la devuelve al mazo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=reveal>revela</keyword> la primera unidad en el mazo de tu oponente y daña a esta unidad por su poder, luego la devuelve al mazo.\n",
+        "name": "Gólem imperial"
+    },
+    "132408": {
+        "info": "Sin habilidad.\n",
+        "infoRaw": "Sin habilidad.\n",
+        "name": "Viejo Punta de Lanza"
+    },
+    "132409": {
+        "info": "Inflige 3 de daño a un enemigo y otorga 3 de potencia a un aliado.\n",
+        "infoRaw": "Inflige 3 de daño a un enemigo y otorga 3 de potencia a un aliado.\n",
+        "name": "Festín espantoso"
+    },
+    "133301": {
+        "info": "Fervor.\nOrden: otorga 1 de potencia a una unidad. \nEnfriamiento: 1.\n",
+        "infoRaw": "<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>: otorga 1 de potencia a una unidad. \n<keyword=cooldown>Enfriamiento</keyword>: 1.\n",
+        "name": "Escudo de wyverno"
+    },
+    "133302": {
+        "info": "Genera 4 Arachas zángano con 1 de poder y los invoca en una fila aliada.\n",
+        "infoRaw": "<keyword=spawn>Genera</keyword> 4 Arachas zángano con 1 de poder y los <keyword=summon>invoca</keyword> en una fila aliada.\n",
+        "name": "Nido de arachas"
+    },
+    "142101": {
+        "info": "Inmune.\nOrden: elimina el estado Inmune de esta unidad por el resto del turno.\n",
+        "infoRaw": "<keyword=immune>Inmune</keyword>.\n<keyword=order>Orden</keyword>: elimina el estado <keyword=immune>Inmune</keyword> de esta unidad por el resto del turno.\n",
+        "name": "Saesenthessis"
+    },
+    "142102": {
+        "info": "Despliegue: otorga 1 de potencia a todos los aliados Elfos. \nSiempre que juegues un Elfo, le otorga 1 de potencia a esta unidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 1 de potencia a todos los aliados Elfos. \nSiempre que juegues un Elfo, le otorga 1 de potencia a esta unidad.\n",
+        "name": "Isengrim Faoiltiarna"
+    },
+    "142103": {
+        "info": "Despliegue: regresa una Trampa aliada a tu mano y luego juega una Trampa.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: regresa una Trampa aliada a tu mano y luego juega una Trampa.\n",
+        "name": "Iorveth"
+    },
+    "142104": {
+        "info": "Inmune.\nOtorga 1 de potencia a esta unidad siempre que juegues una unidad Scoia'tael.\n",
+        "infoRaw": "<keyword=immune>Inmune</keyword>.\nOtorga 1 de potencia a esta unidad siempre que juegues una unidad Scoia'tael.\n",
+        "name": "Milva"
+    },
+    "142105": {
+        "info": "Despliegue, melé: destruye una unidad cuyo poder sea menor o igual que el número de aliados Enanos.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: destruye una unidad cuyo poder sea menor o igual que el número de aliados Enanos.\n",
+        "name": "Zoltan Chivay"
+    },
+    "142106": {
+        "info": "Despliegue: al final del turno, duplica todas las potenciaciones que haya recibido.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: al final del turno, duplica todas las potenciaciones que haya recibido.\n",
+        "name": "Aglaïs"
+    },
+    "142107": {
+        "info": "Despliegue: otorga 4 de potencia a una unidad Scoia'tael en tu mano.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 4 de potencia a una unidad Scoia'tael en tu mano.\n",
+        "name": "Ithlinne Aegli"
+    },
+    "142108": {
+        "info": "Fervor.\nOrden: destruye a todas las demás unidades con el mismo poder que Schirrú.\n",
+        "infoRaw": "<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>: destruye a todas las demás unidades con el mismo poder que Schirrú.\n",
+        "name": "Schirrú"
+    },
+    "142201": {
+        "info": "Despliegue, melé: otorga 2 de potencia a las unidades adyacentes. \nDespliegue, a distancia: otorga 1 de potencia a las demás unidades de la fila.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: otorga 2 de potencia a las unidades adyacentes. \n<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: otorga 1 de potencia a las demás unidades de la fila.\n",
+        "name": "Dennis Cranmer"
+    },
+    "142202": {
+        "info": "Despliegue, melé: destruye un artefacto.\nDespliegue, a distancia: otorga 3 de potencia a una unidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: destruye un artefacto.\n<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: otorga 3 de potencia a una unidad.\n",
+        "name": "Ida Emean aep Sivney"
+    },
+    "142203": {
+        "info": "Despliegue: inflige 1 de daño a un enemigo por cada aliado Elfo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 1 de daño a un enemigo por cada aliado Elfo.\n",
+        "name": "Yaevinn"
+    },
+    "142204": {
+        "info": "Despliegue, melé: inflige 2 de daño a los enemigos al final de una fila.\nDespliegue, a distancia: inflige 1 de daño a todos los enemigos en una fila.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: inflige 2 de daño a los enemigos al final de una fila.\n<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: inflige 1 de daño a todos los enemigos en una fila.\n",
+        "name": "Toruviel"
+    },
+    "142205": {
+        "info": "Despliegue, melé: mueve a una unidad enemiga a su otra fila. \nDespliegue, a distancia: mueve una unidad aliada a tu otra fila.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: mueve a una unidad enemiga a su otra fila. \n<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: mueve una unidad aliada a tu otra fila.\n",
+        "name": "Caballista Vrihedd"
+    },
+    "142206": {
+        "info": "Despliegue: bloquea: a una unidad y la mueve a la otra fila.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=lock>bloquea</keyword>: a una unidad y la mueve a la otra fila.\n",
+        "name": "Ciaran aep Easnillen"
+    },
+    "142207": {
+        "info": "Despliegue: otorga 1 de potencia a un aliado por cada aliado Enano.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 1 de potencia a un aliado por cada aliado Enano.\n",
+        "name": "Barclay Els"
+    },
+    "142208": {
+        "info": "Despliegue, melé: inflige 2 de daño a un enemigo. \nDespliegue, a distancia: bloquea a una unidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: inflige 2 de daño a un enemigo. \n<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: <keyword=lock>bloquea</keyword> a una unidad.\n",
+        "name": "Morénn"
+    },
+    "142209": {
+        "info": "Despliegue: si controlas a 2 o más dríadas, obtiene Fervor\n.Orden: inflige 1 de daño en un enemigo. \nCarga: 3.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: si controlas a 2 o más dríadas, obtiene <keyword=zeal>Fervor\n</keyword>.<keyword=order>Orden</keyword>: inflige 1 de daño en un enemigo. \n<keyword=charge>Carga</keyword>: 3.\n",
+        "name": "Braenn"
+    },
+    "142210": {
+        "info": "Orden: mueve una unidad a la otra fila de su lado.\nEnfriamiento: 2.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: mueve una unidad a la otra fila de su lado.\n<keyword=cooldown>Enfriamiento</keyword>: 2.\n",
+        "name": "Malena"
+    },
+    "142211": {
+        "info": "Si al final del turno controlas a 5 Elfos aliados o más, invoca a esta unidad desde tu mazo a la fila melé.\n",
+        "infoRaw": "Si al final del turno controlas a 5 Elfos aliados o más, <keyword=summon>invoca</keyword> a esta unidad desde tu mazo a la fila melé.\n",
+        "name": "Aelirenn"
+    },
+    "142212": {
+        "info": "Despliegue: daña a un enemigo según el poder de esta unidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: daña a un enemigo según el poder de esta unidad.\n",
+        "name": "Sheldon Skaggs"
+    },
+    "142213": {
+        "info": "Al final de cada turno, si no hay unidades aliadas en el campo de batalla, otorga 3 de potencia a esta unidad.\n",
+        "infoRaw": "Al final de cada turno, si no hay unidades aliadas en el campo de batalla, otorga 3 de potencia a esta unidad.\n",
+        "name": "Yarpen Zigrin"
+    },
+    "142214": {
+        "info": "Despliegue: inflige 1 de daño a todas las unidades dañadas y otorga 1 de potencia a todas las unidades potenciadas.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 1 de daño a todas las unidades dañadas y otorga 1 de potencia a todas las unidades potenciadas.\n",
+        "name": "Ele'yas"
+    },
+    "142301": {
+        "info": "Despliegue, melé: otorga 2 de potencia a una unidad aliada.\nDespliegue, a distancia: cura 4 a una unidad aliada.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: otorga 2 de potencia a una unidad aliada.\n<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: <keyword=heal>cura</keyword> 4 a una unidad aliada.\n",
+        "name": "Sanadora havekar"
+    },
+    "142302": {
+        "info": "Despliegue: inflige 2 de daño a un enemigo al azar.\nCada vez que Brigada de Vrihedd sea movida a la otra fila, repite su habilidad Despliegue.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 2 de daño a un enemigo al azar.\nCada vez que Brigada de Vrihedd sea movida a la otra fila, repite su habilidad <keyword=deploy>Despliegue</keyword>.\n",
+        "name": "Brigada Vrihedd"
+    },
+    "142303": {
+        "info": "Despliegue, melé: inflige 3 de daño a un enemigo. \nDespliegue, a distancia: otorga 3 de potencia a un aliado.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: inflige 3 de daño a un enemigo. \n<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: otorga 3 de potencia a un aliado.\n",
+        "name": "Oficial Vrihedd"
+    },
+    "142304": {
+        "info": "Despliegue: inflige 2 de daño a un enemigo al azar de cada fila.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 2 de daño a un enemigo al azar de cada fila.\n",
+        "name": "Dol Blathanna: Pícara"
+    },
+    "142305": {
+        "info": "Despliegue: inflige 3 de daño a un enemigo. Si sobrevivió, le otorga 1 de potencia a esta unidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 3 de daño a un enemigo. Si sobrevivió, le otorga 1 de potencia a esta unidad.\n",
+        "name": "Escaramuzador enano"
+    },
+    "142306": {
+        "info": "Al final de cada turno, otorga 1 de potencia a esta unidad si fue potenciada.\n",
+        "infoRaw": "Al final de cada turno, otorga 1 de potencia a esta unidad si fue potenciada.\n",
+        "name": "Defensor de Mahakam"
+    },
+    "142307": {
+        "info": "Despliegue: si hay un Elfo en tu mano, destruye a un artefacto enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: si hay un Elfo en tu mano, destruye a un artefacto enemigo.\n",
+        "name": "Zapadores Vrihedd"
+    },
+    "142308": {
+        "info": "Si hay un Elfo aliado en el campo de batalla, destruye una unidad enemiga al azar.\n",
+        "infoRaw": "Si hay un Elfo aliado en el campo de batalla, destruye una unidad enemiga al azar.\n",
+        "name": "Emboscada"
+    },
+    "142309": {
+        "info": "Despliegue: otorga 1 de potencia a esta unidad por cada Elfo que haya en tu mano.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 1 de potencia a esta unidad por cada Elfo que haya en tu mano.\n",
+        "name": "Vanguardia Vrihedd"
+    },
+    "142310": {
+        "info": "Despliegue, melé: inflige 2 de daño a un enemigo. \nDespliegue, a distancia: inflige 1 de daño a 2 unidades.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: inflige 2 de daño a un enemigo. \n<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: inflige 1 de daño a 2 unidades.\n",
+        "name": "Dol Blathanna: Arco"
+    },
+    "142311": {
+        "info": "Orden: inflige 1 de daño a un enemigo.\nCarga: 1.\nObtiene 1 carga cada vez que juegues un enano.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: inflige 1 de daño a un enemigo.\n<keyword=charge>Carga</keyword>: 1.\nObtiene 1 <keyword=charge>carga</keyword> cada vez que juegues un enano.\n",
+        "name": "Mercenario enano"
+    },
+    "142312": {
+        "info": "Despliegue: otorga 1 de potencia a un aliado. Si controlas un artefacto, otorga 3 de potencia.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 1 de potencia a un aliado. Si controlas un artefacto, otorga 3 de potencia.\n",
+        "name": "Soldado havekar"
+    },
+    "142313": {
+        "info": "Despliegue: si esta unidad ya fue potenciada, inflige 3 de daño a un enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: si esta unidad ya fue potenciada, inflige 3 de daño a un enemigo.\n",
+        "name": "Bailarina de guerra"
+    },
+    "142314": {
+        "info": "Despliegue: inflige 1 de daño a un enemigo por cada fila que lo separe de esta unidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 1 de daño a un enemigo por cada fila que lo separe de esta unidad.\n",
+        "name": "Dol Blathanna: Saeta"
+    },
+    "142315": {
+        "info": "Melé: Al final de cada turno, otorga 1 de potencia a una unidad al azar en tu mano.\n",
+        "infoRaw": "<keyword=melee>Melé</keyword>: Al final de cada turno, otorga 1 de potencia a una unidad al azar en tu mano.\n",
+        "name": "Traficante havekar"
+    },
+    "142316": {
+        "info": "Despliegue, melé: inflige 4 de daño a un enemigo si es la única unidad en su fila.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: inflige 4 de daño a un enemigo si es la única unidad en su fila.\n",
+        "name": "Saboteadores élficos"
+    },
+    "142317": {
+        "info": "Despliegue: potencia a esta unidad según la cantidad de enanos aliados en la otra fila.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: potencia a esta unidad según la cantidad de enanos aliados en la otra fila.\n",
+        "name": "Guardia de Mahakam"
+    },
+    "142401": {
+        "info": "Despliegue: genera e invoca una copia base de esta unidad en la otra fila aliada.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=spawn>genera</keyword> e <keyword=summon>invoca</keyword> una copia base de esta unidad en la otra fila aliada.\n",
+        "name": "Scoia'tael: Neófito"
+    },
+    "143201": {
+        "info": "Emboscada: destruye la siguiente carta especial que tu oponente juegue antes de que active su habilidad.\n",
+        "infoRaw": "<keyword=ambush>Emboscada</keyword>: destruye la siguiente carta especial que tu oponente juegue antes de que active su habilidad.\n",
+        "name": "Trampa serpentina"
+    },
+    "143301": {
+        "info": "Emboscada: inflige 5 de daño a la siguiente unidad que juegue tu oponente. \nFervor.\nOrden: pone boca arriba e inflige 3 de daño a una unidad.\n",
+        "infoRaw": "<keyword=ambush>Emboscada</keyword>: inflige 5 de daño a la siguiente unidad que juegue tu oponente. \n<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>: pone boca arriba e inflige 3 de daño a una unidad.\n",
+        "name": "Trampa incineradora"
+    },
+    "152101": {
+        "info": "Despliegue, melé: destierra a una unidad en tu cementerio e inflige daño a un enemigo según su poder.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: <keyword=banish>destierra</keyword> a una unidad en tu cementerio e inflige daño a un enemigo según su poder.\n",
+        "name": "Hjalmar An Craite"
+    },
+    "152103": {
+        "info": "Despliegue, a distancia: juega una carta de Alquimia de tu mazo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: juega una carta de Alquimia de tu mazo.\n",
+        "name": "Armiño"
+    },
+    "152104": {
+        "info": "Despliegue: ambos jugadores descartan la carta que tengan más a su derecha en sus manos.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: ambos jugadores <keyword=discard>descartan</keyword> la carta que tengan más a su derecha en sus manos.\n",
+        "name": "Kambi"
+    },
+    "152105": {
+        "info": "Despliegue: roba 2 cartas, luego descarta 2 cartas.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: roba 2 cartas, luego <keyword=discard>descarta</keyword> 2 cartas.\n",
+        "name": "Birna Bran"
+    },
+    "152106": {
+        "info": "Despliegue: inflige daño al enemigo según la cantidad de enemigos dañados multiplicada por dos.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige daño al enemigo según la cantidad de enemigos dañados multiplicada por dos.\n",
+        "name": "Lugos, el Loco"
+    },
+    "152107": {
+        "info": "Orden: descarta una carta, luego roba una carta.\nCarga: 3.\nSiempre que se descarte una carta especial, inflige 2 de daño a un enemigo.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: <keyword=discard>descarta</keyword> una carta, luego roba una carta.\n<keyword=charge>Carga</keyword>: 3.\nSiempre que se <keyword=discard>descarte</keyword> una carta especial, inflige 2 de daño a un enemigo.\n",
+        "name": "Coral"
+    },
+    "152109": {
+        "info": "Despliegue, melé: inflige 2 de daño a todos los enemigos dañados.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: inflige 2 de daño a todos los enemigos dañados.\n",
+        "name": "Jabalí de los Mares"
+    },
+    "152201": {
+        "info": "Siempre que esta unidad reciba daño, inflige 2 de daño a un enemigo al azar.\n",
+        "infoRaw": "Siempre que esta unidad reciba daño, inflige 2 de daño a un enemigo al azar.\n",
+        "name": "Lugos, el Amoratado"
+    },
+    "152202": {
+        "info": "Inflige 5 de daño a una unidad. \nSanguinario 3: destruye a una unidad.\n",
+        "infoRaw": "Inflige 5 de daño a una unidad. \n<keyword=bloodthirst>Sanguinario</keyword> 3: destruye a una unidad.\n",
+        "name": "Carga de campeón"
+    },
+    "152203": {
+        "info": "Sanguinario 1: bloquea una unidad enemiga.\n",
+        "infoRaw": "<keyword=bloodthirst>Sanguinario</keyword> 1: <keyword=lock>bloquea</keyword> una unidad enemiga.\n",
+        "name": "Djenge Frett"
+    },
+    "152204": {
+        "info": "Despliegue: inflige 2 de daño a un enemigo. \nSanguinario 2: inflige 5 de daño a un enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 2 de daño a un enemigo. \n<keyword=bloodthirst>Sanguinario</keyword> 2: inflige 5 de daño a un enemigo.\n",
+        "name": "Donar an Hindar"
+    },
+    "152205": {
+        "info": "Despliegue: otorga 1 de potencia a todos los guerreros aliados.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 1 de potencia a todos los guerreros aliados.\n",
+        "name": "Draig Bon-Dhu"
+    },
+    "152206": {
+        "info": "Despliegue: a distancia: juega una carta de Alquimia de bronce desde tu cementerio.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=ranged>a distancia</keyword>: juega una carta de Alquimia de bronce desde tu cementerio.\n",
+        "name": "Gremist"
+    },
+    "152207": {
+        "info": "Cada vez que juegues un barco, le otorga 1 de potencia.\nCada vez que juegues un pirata, inflige 1 de daño a un enemigo al azar.\n",
+        "infoRaw": "Cada vez que juegues un barco, le otorga 1 de potencia.\nCada vez que juegues un pirata, inflige 1 de daño a un enemigo al azar.\n",
+        "name": "Holger Manonegra"
+    },
+    "152208": {
+        "info": "Despliegue: si Jutta an Dimun es la unidad de mayor poder, recibe 6 de daño.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: si Jutta an Dimun es la unidad de mayor poder, recibe 6 de daño.\n",
+        "name": "Jutta an Dimun"
+    },
+    "152209": {
+        "info": "Cuando esta unidad se mueva al cementerio, invócala en la fila melé y otórgale Condenado.\n",
+        "infoRaw": "Cuando esta unidad se mueva al cementerio, <keyword=summon>invócala</keyword> en la fila melé y otórgale <keyword=doomed>Condenado</keyword>.\n",
+        "name": "Morkvarg"
+    },
+    "152210": {
+        "info": "Fervor.\nDespliegue: otorga 1 carga por cada Oso salvaje en el cementerio. \nOrden: inflige 2 de daño a una unidad. \nCargas: 1.\n",
+        "infoRaw": "<keyword=zeal>Fervor</keyword>.\n<keyword=deploy>Despliegue</keyword>: otorga 1 <keyword=charge>carga</keyword> por cada Oso salvaje en el cementerio. \n<keyword=order>Orden</keyword>: inflige 2 de daño a una unidad. \n<keyword=charge>Cargas</keyword>: 1.\n",
+        "name": "Oso salvaje"
+    },
+    "152211": {
+        "info": "Invoca a un guerrero de tu cementerio a una fila aliada.\n",
+        "infoRaw": "<keyword=summon>Invoca</keyword> a un guerrero de tu cementerio a una fila aliada.\n",
+        "name": "Rito de Sigrdrifa"
+    },
+    "152213": {
+        "info": "Despliegue. Sanguinario 3: otorga 5 de potencia a esta unidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>. <keyword=bloodthirst>Sanguinario</keyword> 3: otorga 5 de potencia a esta unidad.\n",
+        "name": "Svanrige Tuirseach"
+    },
+    "152214": {
+        "info": "Orden: inflige 1 de daño a una unidad. \nCarga: 3.\nSanguinario 2: obtiene Fervor.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: inflige 1 de daño a una unidad. \n<keyword=charge>Carga</keyword>: 3.\n<keyword=bloodthirst>Sanguinario</keyword> 2: obtiene <keyword=zeal>Fervor</keyword>.\n",
+        "name": "Udalryk an Brokvar"
+    },
+    "152303": {
+        "info": "Despliegue: inflige 2 de daño a un enemigo. Si juegas desde el cementerio, inflige 4 puntos de daño.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 2 de daño a un enemigo. Si juegas desde el cementerio, inflige 4 puntos de daño.\n",
+        "name": "Guerrero An Craite"
+    },
+    "152304": {
+        "info": "Orden: inflige 1 de daño al enemigo.\nCarga: 1.\nObtén 1 carga siempre que descartes una carta.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: inflige 1 de daño al enemigo.\n<keyword=charge>Carga</keyword>: 1.\nObtén 1 <keyword=charge>carga</keyword> siempre que <keyword=discard>descartes</keyword> una carta.\n",
+        "name": "Brokvar: Cazador"
+    },
+    "152305": {
+        "info": "Despliegue: mueve la carta superior de tu mazo al cementerio.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: mueve la carta superior de tu mazo al cementerio.\n",
+        "name": "Pirata Dimun"
+    },
+    "152306": {
+        "info": "Despliegue\nSanguinario 2: inflige 3 de daño a un enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>\n<keyword=bloodthirst>Sanguinario</keyword> 2: inflige 3 de daño a un enemigo.\n",
+        "name": "Capitán pirata Dimun"
+    },
+    "152307": {
+        "info": "Orden: si esta unidad recibe daño, genera una copia base de ella y la invoca a la derecha.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: si esta unidad recibe daño, <keyword=spawn>genera</keyword> una copia base de ella y la <keyword=summon>invoca</keyword> a la derecha.\n",
+        "name": "Drummond: Guardia"
+    },
+    "152308": {
+        "info": "Despliegue: descarta una carta, luego roba una carta.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=discard>descarta</keyword> una carta, luego roba una carta.\n",
+        "name": "Escaldo Heymaey"
+    },
+    "152309": {
+        "info": "Orden: inflige 1 de daño a esta unidad y a un enemigo. \nEnfriamiento: 1.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: inflige 1 de daño a esta unidad y a un enemigo. \n<keyword=cooldown>Enfriamiento</keyword>: 1.\n",
+        "name": "Drakkar ligero Dimun"
+    },
+    "152310": {
+        "info": "Juega con una unidad de bronce desde tu cementerio.\n",
+        "infoRaw": "Juega con una unidad de bronce desde tu cementerio.\n",
+        "name": "Bendición de Freya"
+    },
+    "152311": {
+        "info": "Orden: otorga 1 de potencia a una unidad.\nCarga: 1.\nGana 1 carga cada vez que juegas un guerrero.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: otorga 1 de potencia a una unidad.\n<keyword=charge>Carga</keyword>: 1.\nGana 1 <keyword=charge>carga</keyword> cada vez que juegas un guerrero.\n",
+        "name": "Herrero An Craite"
+    },
+    "152312": {
+        "info": "Despliegue, melé: destruye a un enemigo con la mitad o menos de la mitad de su poder base.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: destruye a un enemigo con la mitad o menos de la mitad de su poder base.\n",
+        "name": "Hachero Tuirseach"
+    },
+    "152313": {
+        "info": "Cuando descartas esta unidad, invócala en la fila de melé desde tu cementerio.\n",
+        "infoRaw": "Cuando <keyword=discard>descartas</keyword> esta unidad, <keyword=summon>invócala</keyword> en la fila de melé desde tu cementerio.\n",
+        "name": "Luchador Tuirseach"
+    },
+    "152314": {
+        "info": "Siempre que tu oponente juegue una unidad, le inflige 1 de daño.\n",
+        "infoRaw": "Siempre que tu oponente juegue una unidad, le inflige 1 de daño.\n",
+        "name": "Drakkar An Craite"
+    },
+    "152315": {
+        "info": "Despliegue, a distancia: inflige daño a un enemigo según el número de unidades dañadas en su lado.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: inflige daño a un enemigo según el número de unidades dañadas en su lado.\n",
+        "name": "Brokvar: Arquero"
+    },
+    "152316": {
+        "info": "Inflige 4 de daño a una unidad. \nSanguinario 2: inflige 6 de daño a una unidad.\n",
+        "infoRaw": "Inflige 4 de daño a una unidad. \n<keyword=bloodthirst>Sanguinario</keyword> 2: inflige 6 de daño a una unidad.\n",
+        "name": "Tajo destripador"
+    },
+    "152317": {
+        "info": "Despliega: otorga 1 de potencia a un aliado. Si es un guerrero, otorga 3 de potencia.\n",
+        "infoRaw": "<keyword=deploy>Despliega</keyword>: otorga 1 de potencia a un aliado. Si es un guerrero, otorga 3 de potencia.\n",
+        "name": "Armero An Craite"
+    },
+    "152318": {
+        "info": "La próxima vez que esta unidad reciba daño, invoca una copia de ella de tu mazo a esta fila.\n",
+        "infoRaw": "La próxima vez que esta unidad reciba daño, <keyword=summon>invoca</keyword> una copia de ella de tu mazo a esta fila.\n",
+        "name": "Escudera Drummond"
+    },
+    "152403": {
+        "info": "Divide 6 de daño de forma aleatoria entre todas las unidades de una fila enemiga.\n",
+        "infoRaw": "Divide 6 de daño de forma aleatoria entre todas las unidades de una fila enemiga.\n",
+        "name": "Delirio"
+    },
+    "152405": {
+        "info": "Sin habilidad.\n",
+        "infoRaw": "Sin habilidad.\n",
+        "name": "Oso anciano"
+    },
+    "152406": {
+        "info": "Despliegue: inflige 1 de daño a un aliado a tu izquierda. Si no hay ningún aliado, esta unidad recibirá 1 de daño.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 1 de daño a un aliado a tu izquierda. Si no hay ningún aliado, esta unidad recibirá 1 de daño.\n",
+        "name": "Oso rabioso"
+    },
+    "153201": {
+        "info": "Cura a todas las unidades en una fila.\n",
+        "infoRaw": "<keyword=heal>Cura</keyword> a todas las unidades en una fila.\n",
+        "name": "Restaurar"
+    },
+    "153301": {
+        "info": "Inflige 2 de daño a todas las unidades en una fila.\n",
+        "infoRaw": "Inflige 2 de daño a todas las unidades en una fila.\n",
+        "name": "Lacerar"
+    },
+    "162101": {
+        "info": "Despliegue: elimina todos los cambios del líder enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: elimina todos los cambios del líder enemigo.\n",
+        "name": "Letho de Guleta"
+    },
+    "162102": {
+        "info": "Despliegue, a distancia: juega una carta táctica de tu mazo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: juega una carta táctica de tu mazo.\n",
+        "name": "Menno Coehoorn"
+    },
+    "162103": {
+        "info": "Orden, melé: toma a una unidad bloqueada.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>, <keyword=melee>melé</keyword>: <keyword=seize>toma</keyword> a una unidad <keyword=lock>bloqueada</keyword>.\n",
+        "name": "Vattier de Rideaux"
+    },
+    "162104": {
+        "info": "Melé: siempre que un enemigo sea potenciado, potencia a esta unidad por la misma cantidad.\n",
+        "infoRaw": "<keyword=melee>Melé</keyword>: siempre que un enemigo sea potenciado, potencia a esta unidad por la misma cantidad.\n",
+        "name": "Cahir Dyffryn"
+    },
+    "162105": {
+        "info": "Despliegue, melé: destruye a una unidad enemiga, luego tu oponente invoca la primera unidad de su mazo en una fila enemiga al azar. \nDespliegue, a distancia: destruye una unidad aliada y luego invoca la primera unidad de tu mazo a una fila aliada al azar.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: destruye a una unidad enemiga, luego tu oponente <keyword=summon>invoca</keyword> la primera unidad de su mazo en una fila enemiga al azar. \n<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: destruye una unidad aliada y luego <keyword=summon>invoca</keyword> la primera unidad de tu mazo a una fila aliada al azar.\n",
+        "name": "Vilgefortz"
+    },
+    "162106": {
+        "info": "Orden: genera y juega una copia de una carta táctica que hayas jugado en este turno.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: <keyword=spawn>genera</keyword> y juega una copia de una carta táctica que hayas jugado en este turno.\n",
+        "name": "Stefan Skellen"
+    },
+    "162107": {
+        "info": "Despliegue: tu oponente invoca la primera unidad de su mazo a una fila enemiga al azar.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: tu oponente <keyword=summon>invoca</keyword> la primera unidad de su mazo a una fila enemiga al azar.\n",
+        "name": "Tibor Eggebracht"
+    },
+    "162108": {
+        "info": "Despliegue: revela una carta al azar de tu mazo. Si es una unidad, potencia a esta unidad según su poder y la devuelve. Si es un artefacto o una carta especial, la juega.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=reveal>revela</keyword> una carta al azar de tu mazo. Si es una unidad, potencia a esta unidad según su poder y la devuelve. Si es un artefacto o una carta especial, la juega.\n",
+        "name": "Xarthisius"
+    },
+    "162201": {
+        "info": "Despliegue, a distancia: mueve una carta de tu mazo a la parte superior. Si es una unidad, le otorga 2 de potencia.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: mueve una carta de tu mazo a la parte superior. Si es una unidad, le otorga 2 de potencia.\n",
+        "name": "Albrich"
+    },
+    "162202": {
+        "info": "Despliegue, melé: devuelve una carta del cementerio del oponente a su mazo. \nDespliegue, a distancia: devuelve una carta de tu cementerio a tu mazo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: devuelve una carta del cementerio del oponente a su mazo. \n<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: devuelve una carta de tu cementerio a tu mazo.\n",
+        "name": "Assire var Anahid"
+    },
+    "162203": {
+        "info": "Despliegue, melé: genera al Guardián y lo coloca en la parte superior del mazo del oponente.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: <keyword=spawn>genera</keyword> al Guardián y lo coloca en la parte superior del mazo del oponente.\n",
+        "name": "Cynthia"
+    },
+    "162204": {
+        "info": "Despliegue: restablece el poder de una unidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: restablece el poder de una unidad.\n",
+        "name": "Peter Saar Gwynleve"
+    },
+    "162205": {
+        "info": "Orden: revela una carta especial al azar desde el mazo de tu oponente, luego genera y juega una copia de ella.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: <keyword=reveal>revela</keyword> una carta especial al azar desde el mazo de tu oponente, luego <keyword=spawn>genera</keyword> y juega una copia de ella.\n",
+        "name": "Fringilla Vigo"
+    },
+    "162206": {
+        "info": "Despliegue: inflige 1 de daño a un enemigo.\nEl daño de esta unidad aumenta 1 por cada carta revelada.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 1 de daño a un enemigo.\nEl daño de esta unidad aumenta 1 por cada carta <keyword=reveal>revelada</keyword>.\n",
+        "name": "Sweers"
+    },
+    "162207": {
+        "info": "Despliegue, a distancia: destruye una unidad enemiga bloqueada.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: destruye una unidad enemiga <keyword=lock>bloqueada</keyword>.\n",
+        "name": "Vanhemar"
+    },
+    "162208": {
+        "info": "Despliegue: bloquea una unidad enemiga.\nSi Serrit está en tu mano, bloquea a todas las copias de esa unidad en la mano, mazo y en el lado del campo de batalla de tu oponente.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=lock>bloquea</keyword> una unidad enemiga.\nSi Serrit está en tu mano, <keyword=lock>bloquea</keyword> a todas las copias de esa unidad en la mano, mazo y en el lado del campo de batalla de tu oponente.\n",
+        "name": "Auckes"
+    },
+    "162209": {
+        "info": "Despliegue: inflige 3 de daño a un enemigo. Si Auckes está en tu mano, inflige 5 de daño.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 3 de daño a un enemigo. Si Auckes está en tu mano, inflige 5 de daño.\n",
+        "name": "Serrit"
+    },
+    "162210": {
+        "info": "Espía.\nDespliegue: juega la carta superior del mazo de tu oponente.\n",
+        "infoRaw": "<keyword=spying>Espía</keyword>.\n<keyword=deploy>Despliegue</keyword>: juega la carta superior del mazo de tu oponente.\n",
+        "name": "Cantarella"
+    },
+    "162211": {
+        "info": "Espía.\nDespliegue: juega la unidad superior de tu mazo que no tenga Espía y a continuación le otorga 8 de potencia.\n",
+        "infoRaw": "<keyword=spying>Espía</keyword>.\n<keyword=deploy>Despliegue</keyword>: juega la unidad superior de tu mazo que no tenga <keyword=spying>Espía</keyword> y a continuación le otorga 8 de potencia.\n",
+        "name": "Joachim de Wett"
+    },
+    "162212": {
+        "info": "Despliegue, melé: mueve a un enemigo a otra fila.\nDespliegue, a distancia: destruye un artefacto enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: mueve a un enemigo a otra fila.\n<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: destruye un artefacto enemigo.\n",
+        "name": "Falsa Ciri"
+    },
+    "162213": {
+        "info": "Despliegue: quita los estados de todas las unidades del campo de batalla.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: quita los estados de todas las unidades del campo de batalla.\n",
+        "name": "Ceallach Dyffryn"
+    },
+    "162301": {
+        "info": "Cuando revelas esta unidad, la invocas de tu mazo a una fila aliada al azar.\n",
+        "infoRaw": "Cuando <keyword=reveal>revelas</keyword> esta unidad, la <keyword=summon>invocas</keyword> de tu mazo a una fila aliada al azar.\n",
+        "name": "Soldado de Daerlan"
+    },
+    "162302": {
+        "info": "Despliegue, a distancia: genera y juega una Vaca muerta.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: <keyword=spawn>genera</keyword> y juega una Vaca muerta.\n",
+        "name": "Lanzapestes"
+    },
+    "162303": {
+        "info": "Despliegue, melé: revela una unidad al azar en el mazo del oponente y se potencia según su poder.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: <keyword=reveal>revela</keyword> una unidad al azar en el mazo del oponente y se potencia según su poder.\n",
+        "name": "Ojeador"
+    },
+    "162304": {
+        "info": "Juega una unidad de bronce desde el cementerio de tu oponente.\n",
+        "infoRaw": "Juega una unidad de bronce desde el cementerio de tu oponente.\n",
+        "name": "Remedio experimental"
+    },
+    "162305": {
+        "info": "Despliegue: inflige 2 de daño a un enemigo, luego revela una unidad al azar de ambos mazos. Si la tuya tiene más poder, repite la habilidad Despliegue.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 2 de daño a un enemigo, luego <keyword=reveal>revela</keyword> una unidad al azar de ambos mazos. Si la tuya tiene más poder, repite la habilidad <keyword=deploy>Despliegue</keyword>.\n",
+        "name": "Arbalestero Deithwen"
+    },
+    "162306": {
+        "info": "Orden, a distancia: inflige 1 de daño a una unidad. \n Carga: 1.\nGana 1 carga cada vez que juegas una carta Táctica.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>, <keyword=ranged>a distancia</keyword>: inflige 1 de daño a una unidad. \n <keyword=charge>Carga</keyword>: 1.\nGana 1 <keyword=charge>carga</keyword> cada vez que juegas una carta Táctica.\n",
+        "name": "Escorpión de fuego"
+    },
+    "162307": {
+        "info": "Despliegue, melé: invoca una copia de esta unidad desde tu mazo a esta fila.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: <keyword=summon>invoca</keyword> una copia de esta unidad desde tu mazo a esta fila.\n",
+        "name": "Brigada Impera"
+    },
+    "162308": {
+        "info": "Orden: inflige 2 de daño a un enemigo. \nCarga: 1.\nObtiene 1 carga cada vez que juegues una unidad Espía.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: inflige 2 de daño a un enemigo. \n<keyword=charge>Carga</keyword>: 1.\nObtiene 1 <keyword=charge>carga</keyword> cada vez que juegues una unidad <keyword=spying>Espía</keyword>.\n",
+        "name": "Castigadores Impera"
+    },
+    "162309": {
+        "info": "Cada vez que se juegue una unidad con Despliegue, otorga 1 de potencia a esta unidad.\n",
+        "infoRaw": "Cada vez que se juegue una unidad con <keyword=deploy>Despliegue</keyword>, otorga 1 de potencia a esta unidad.\n",
+        "name": "Sargento de Nausicaa"
+    },
+    "162310": {
+        "info": "Despliegue: inflige 3 de daño a un enemigo potenciado.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 3 de daño a un enemigo potenciado.\n",
+        "name": "Brigada Nausicaa"
+    },
+    "162311": {
+        "info": "Despliegue, melé: inflige daño al enemigo según la cantidad de otras unidades que haya en la otra fila.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: inflige daño al enemigo según la cantidad de otras unidades que haya en la otra fila.\n",
+        "name": "Piquero de Alba"
+    },
+    "162312": {
+        "info": "Despliegue: inflige 2 de daño a un enemigo. El daño aumenta a 1 por cada soldado adyacente.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 2 de daño a un enemigo. El daño aumenta a 1 por cada soldado adyacente.\n",
+        "name": "Lancero de Alba"
+    },
+    "162313": {
+        "info": "Despliegue: otorga 3 de potencia a esta unidad si controlas un artefacto.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 3 de potencia a esta unidad si controlas un artefacto.\n",
+        "name": "Ingeniero de combate"
+    },
+    "162314": {
+        "info": "Espía.\nDespliegue: otorga 7 de potencia a un aliado.\n",
+        "infoRaw": "<keyword=spying>Espía</keyword>.\n<keyword=deploy>Despliegue</keyword>: otorga 7 de potencia a un aliado.\n",
+        "name": "Emisario"
+    },
+    "162315": {
+        "info": "Crea y juega una unidad de bronce de la facción de tu oponente.\n",
+        "infoRaw": "<keyword=create>Crea</keyword> y juega una unidad de bronce de la facción de tu oponente.\n",
+        "name": "Diplomacia imperial"
+    },
+    "162316": {
+        "info": "Despliegue, a distancia: intercambia el poder de 2 aliados.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: intercambia el poder de 2 aliados.\n",
+        "name": "Alquimista"
+    },
+    "162317": {
+        "info": "Siempre que reveles una carta, inflige 1 de daño a un enemigo al azar.\n",
+        "infoRaw": "Siempre que <keyword=reveal>reveles</keyword> una carta, inflige 1 de daño a un enemigo al azar.\n",
+        "name": "Mangonel"
+    },
+    "162318": {
+        "info": "Despliegue: otorga 2 de potencia a un enemigo. Si no hay una unidad enemiga, se destruye.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 2 de potencia a un enemigo. Si no hay una unidad enemiga, se destruye.\n",
+        "name": "Adalid nilfgaardiano"
+    },
+    "162401": {
+        "info": "Sin habilidad.\n",
+        "infoRaw": "Sin habilidad.\n",
+        "name": "El guardián"
+    },
+    "162402": {
+        "info": "Espía. Condenado.\nDespués de 1 turno, al final del mismo, esta unidad y la unidad a su izquierda.\n",
+        "infoRaw": "<keyword=spying>Espía</keyword>. <keyword=doomed>Condenado</keyword>.\nDespués de 1 turno, al final del mismo, esta unidad y la unidad a su izquierda.\n",
+        "name": "Vaca muerta"
+    },
+    "163101": {
+        "info": "Obliga a una unidad enemiga a infligirles daño a las unidades adyacentes según su poder.\n",
+        "infoRaw": "Obliga a una unidad enemiga a infligirles daño a las unidades adyacentes según su poder.\n",
+        "name": "Traición"
+    },
+    "163201": {
+        "info": "Crea una unidad del mazo inicial de tu oponente y la juega.\n",
+        "infoRaw": "<keyword=create>Crea</keyword> una unidad del mazo inicial de tu oponente y la juega.\n",
+        "name": "Soborno"
+    },
+    "200008": {
+        "info": "Fervor.\nOrden: otorga 3 de potencia a un aliado y le da Fervor.\n",
+        "infoRaw": "<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>: otorga 3 de potencia a un aliado y le da <keyword=zeal>Fervor</keyword>.\n",
+        "name": "Filtro de petri"
+    },
+    "200018": {
+        "info": "Destierra una unidad o un artefacto.\n",
+        "infoRaw": "<keyword=banish>Destierra</keyword> una unidad o un artefacto.\n",
+        "name": "Ola de calor korathi"
+    },
+    "200019": {
+        "info": "Juega la unidad con menor poder de tu mazo.\n",
+        "infoRaw": "Juega la unidad con menor poder de tu mazo.\n",
+        "name": "Órdenes de marcha"
+    },
+    "200020": {
+        "info": "Juega una unidad de bronce desde tu cementerio y le da Condenado.\n",
+        "infoRaw": "Juega una unidad de bronce desde tu cementerio y le da <keyword=doomed>Condenado</keyword>.\n",
+        "name": "Nigromancia"
+    },
+    "200022": {
+        "info": "Fervor.\nOrden: juega una unidad de tu mazo cuyo costo de reclutamiento sea menor o igual a la carga de Invocación, luego elimina todas las cargas de la unidad.\nCarga: 0.\nAl inicio de cada turno, obtienes 1 carga.\n",
+        "infoRaw": "<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>: juega una unidad de tu mazo cuyo costo de reclutamiento sea menor o igual a la <keyword=charge>carga</keyword> de Invocación, luego elimina todas las <keyword=charge>cargas</keyword> de la unidad.\n<keyword=charge>Carga</keyword>: 0.\nAl inicio de cada turno, obtienes 1 <keyword=charge>carga</keyword>.\n",
+        "name": "Invocación"
+    },
+    "200023": {
+        "info": "Inflige 3 de daño a una unidad. Si fue destruida, inflige 3 de daño a las unidades adyacentes.\n",
+        "infoRaw": "Inflige 3 de daño a una unidad. Si fue destruida, inflige 3 de daño a las unidades adyacentes.\n",
+        "name": "Veneno de arachas"
+    },
+    "200026": {
+        "info": "Despliegue: otorga 1 de potencia a una unidad aliada. Si controlas la unidad más fuerte, otorga 3 de potencia.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 1 de potencia a una unidad aliada. Si controlas la unidad más fuerte, otorga 3 de potencia.\n",
+        "name": "Cacería: Navegante"
+    },
+    "200028": {
+        "info": "Despliegue, melé: destruye un enemigo dañado.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: destruye un enemigo dañado.\n",
+        "name": "Vabjorn"
+    },
+    "200030": {
+        "info": "Despliegue, melé: inflige 4 de daño a un enemigo.\nDespliegue, a distancia: inflige 1 de daño a 4 unidades.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: inflige 4 de daño a un enemigo.\n<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: inflige 1 de daño a 4 unidades.\n",
+        "name": "Milaen"
+    },
+    "200031": {
+        "info": "Despliegue, melé: destruye a un enemigo con 8 o más de poder.\nDespliegue, a distancia: destruye un brujo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: destruye a un enemigo con 8 o más de poder.\n<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: destruye un brujo.\n",
+        "name": "Leo Bonhart"
+    },
+    "200032": {
+        "info": "Despliegue: otorga 3 de potencia a un enemigo y luego otorga 3 de potencia a esta unidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 3 de potencia a un enemigo y luego otorga 3 de potencia a esta unidad.\n",
+        "name": "Rainfarn de Attre"
+    },
+    "200033": {
+        "info": "Fervor.\nOrden, a distancia: otorga 1 carga a una unidad aliada.\nEnfriamiento: 2.\n",
+        "infoRaw": "<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>, <keyword=ranged>a distancia</keyword>: otorga 1 <keyword=charge>carga</keyword> a una unidad aliada.\n<keyword=cooldown>Enfriamiento</keyword>: 2.\n",
+        "name": "Erudita de Aretuza"
+    },
+    "200036": {
+        "info": "Despliegue, melé, sanguinario 1: destruye un artefacto enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>, <keyword=bloodthirst>sanguinario</keyword> 1: destruye un artefacto enemigo.\n",
+        "name": "Instigador Drummond"
+    },
+    "200037": {
+        "info": "Despliegue: destruye a una unidad aliada adyacente y daña a un enemigo según su poder.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: destruye a una unidad aliada adyacente y daña a un enemigo según su poder.\n",
+        "name": "Cíclope"
+    },
+    "200038": {
+        "info": "Prosperar.\nDespliegue: inflige 2 de daño a un enemigo al azar. \nAgonía: repite la habilidad Despliegue.\n",
+        "infoRaw": "<keyword=thrive>Prosperar</keyword>.\n<keyword=deploy>Despliegue</keyword>: inflige 2 de daño a un enemigo al azar. \n<keyword=deathwish>Agonía</keyword>: repite la habilidad <keyword=deploy>Despliegue</keyword>.\n",
+        "name": "Arquespor"
+    },
+    "200039": {
+        "info": "Melé: cada vez que un enemigo se mueva a otra fila, le inflige 1 de daño.\nA distancia: cada vez que un aliado se mueva a otra fila, le otorga 1 de potencia.\n",
+        "infoRaw": "<keyword=melee>Melé</keyword>: cada vez que un enemigo se mueva a otra fila, le inflige 1 de daño.\n<keyword=ranged>A distancia</keyword>: cada vez que un aliado se mueva a otra fila, le otorga 1 de potencia.\n",
+        "name": "Dol Blathanna: Guarda"
+    },
+    "200040": {
+        "info": "Siempre que un enemigo en la fila opuesta recibe daño, otorga 1 de potencia a esta unidad.\n",
+        "infoRaw": "Siempre que un enemigo en la fila opuesta recibe daño, otorga 1 de potencia a esta unidad.\n",
+        "name": "Montante An Craite"
+    },
+    "200041": {
+        "info": "Inmune.\nOrden: inflige 2 de daño por cada soldado en esta fila.\n",
+        "infoRaw": "<keyword=immune>Inmune</keyword>.\n<keyword=order>Orden</keyword>: inflige 2 de daño por cada soldado en esta fila.\n",
+        "name": "Helge la Fornida"
+    },
+    "200042": {
+        "info": "Despliegue: si esta unidad ya está potenciada, obtiene Resiliencia.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: si esta unidad ya está potenciada, obtiene <keyword=resilient>Resiliencia</keyword>.\n",
+        "name": "Merodeador Mahakam"
+    },
+    "200043": {
+        "info": "Despliegue: genera 3 Amigos de Harald y los invoca en tu otra fila aliada. \nOrden: inflige 1 de daño a un aliado. \nEnfriamiento: 1.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=spawn>genera</keyword> 3 Amigos de Harald y los <keyword=summon>invoca</keyword> en tu otra fila aliada. \n<keyword=order>Orden</keyword>: inflige 1 de daño a un aliado. \n<keyword=cooldown>Enfriamiento</keyword>: 1.\n",
+        "name": "Harald Hocicodeperro"
+    },
+    "200044": {
+        "info": "Al final de cada turno, otorga 1 de potencia a esta unidad si es la única carta en la fila.\n",
+        "infoRaw": "Al final de cada turno, otorga 1 de potencia a esta unidad si es la única carta en la fila.\n",
+        "name": "División Magne"
+    },
+    "200046": {
+        "info": "Despliegue: recibe 4 de daño.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: recibe 4 de daño.\n",
+        "name": "Veterano Tuirseach"
+    },
+    "200048": {
+        "info": "Despliegue: otorga 1 de potencia a un aliado por cada una de sus cargas.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 1 de potencia a un aliado por cada una de sus <keyword=charge>cargas</keyword>.\n",
+        "name": "Tutor de Ban Ard"
+    },
+    "200049": {
+        "info": "Despliegue: si controlas a un soldado, destruye un artefacto enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: si controlas a un soldado, destruye un artefacto enemigo.\n",
+        "name": "Ariete"
+    },
+    "200050": {
+        "info": "Despliegue: otorga 2 de potencia a un soldado aliado y a todas sus copias.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 2 de potencia a un soldado aliado y a todas sus copias.\n",
+        "name": "Vreemde"
+    },
+    "200052": {
+        "info": "Agonía: tu oponente invoca a la unidad con menor poder de su mazo en la fila opuesta.\n",
+        "infoRaw": "<keyword=deathwish>Agonía</keyword>: tu oponente <keyword=summon>invoca</keyword> a la unidad con menor poder de su mazo en la fila opuesta.\n",
+        "name": "Golyat"
+    },
+    "200053": {
+        "info": "Bloquea a una unidad y restablece su poder.\n",
+        "infoRaw": "<keyword=lock>Bloquea</keyword> a una unidad y restablece su poder.\n",
+        "name": "Compresión"
+    },
+    "200055": {
+        "info": "Orden: activa la habilidad Agonía de un aliado.\nAl inicio de la ronda, restablece esta habilidad.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: activa la habilidad <keyword=deathwish>Agonía</keyword> de un aliado.\nAl inicio de la ronda, restablece esta habilidad.\n",
+        "name": "Anciano Oculto"
+    },
+    "200056": {
+        "info": "Despliegue, a distancia: crea cualquier carta especial.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: <keyword=create>crea</keyword> cualquier carta especial.\n",
+        "name": "Aguara: Forma real"
+    },
+    "200058": {
+        "info": "Crea y juega una unidad dorada.\n",
+        "infoRaw": "<keyword=create>Crea</keyword> y juega una unidad dorada.\n",
+        "name": "Maldición de Uma"
+    },
+    "200062": {
+        "info": "Despliegue, melé: bloquea una unidad. \nDespliegue, a distancia: quita el bloqueo de una unidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: <keyword=lock>bloquea</keyword> una unidad. \n<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: quita el <keyword=lock>bloqueo</keyword> de una unidad.\n",
+        "name": "Aguara"
+    },
+    "200071": {
+        "info": "Despliegue: deja en 1 el poder de la unidad más poderosa en la mano del oponente.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: deja en 1 el poder de la unidad más poderosa en la mano del oponente.\n",
+        "name": "Shilard Fitz-Oesterlen"
+    },
+    "200073": {
+        "info": "Despliegue: si controlas a la unidad de mayor poder, inflige 5 de daño a un enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: si controlas a la unidad de mayor poder, inflige 5 de daño a un enemigo.\n",
+        "name": "Adda: Estrige"
+    },
+    "200078": {
+        "info": "Potencia a una unidad a 12 de poder. Si no es un Brujo, primero le inflige 6 de daño.\n",
+        "infoRaw": "Potencia a una unidad a 12 de poder. Si no es un Brujo, primero le inflige 6 de daño.\n",
+        "name": "Prueba de hierbas"
+    },
+    "200079": {
+        "info": "Juega una unidad del cementerio del oponente y le da Condenado.\n",
+        "infoRaw": "Juega una unidad del cementerio del oponente y le da <keyword=doomed>Condenado</keyword>.\n",
+        "name": "Sueño azul de Hanmarvyn"
+    },
+    "200080": {
+        "info": "Melé: cada vez que se potencia a esta unidad, recibe 2 de potencia adicional.\n",
+        "infoRaw": "<keyword=melee>Melé</keyword>: cada vez que se potencia a esta unidad, recibe 2 de potencia adicional.\n",
+        "name": "Xavier Moran"
+    },
+    "200081": {
+        "info": "Despliegue, a distancia: cura 2 a un aliado y le otorga 2 de potencia.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: <keyword=heal>cura</keyword> 2 a un aliado y le otorga 2 de potencia.\n",
+        "name": "Herborista Heymaey"
+    },
+    "200083": {
+        "info": "Despliegue: roba una carta que quieras de tu mazo, luego descarta una carta al azar.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: roba una carta que quieras de tu mazo, luego <keyword=discard>descarta</keyword> una carta al azar.\n",
+        "name": "Compañeros de Iris"
+    },
+    "200087": {
+        "info": "Despliegue: bloquea una unidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=lock>bloquea</keyword> una unidad.\n",
+        "name": "Dorregaray de Vole"
+    },
+    "200088": {
+        "info": "Despliegue: se potencia según la cantidad de daño infligida a los enemigos en este turno.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: se potencia según la cantidad de daño infligida a los enemigos en este turno.\n",
+        "name": "Hubert Rejk"
+    },
+    "200089": {
+        "info": "Despliegue: mueve a todas las unidades de una fila a la otra.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: mueve a todas las unidades de una fila a la otra.\n",
+        "name": "Nivellen"
+    },
+    "200091": {
+        "info": "A distancia: después de 2 turnos, cada jugador roba una unidad y establece su poder en 1.\n",
+        "infoRaw": "<keyword=ranged>A distancia</keyword>: después de 2 turnos, cada jugador roba una unidad y establece su poder en 1.\n",
+        "name": "Stregobor"
+    },
+    "200098": {
+        "info": "Fervor.\nOrden, melé: fija el poder de un enemigo no potenciado en 1.\n",
+        "infoRaw": "<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>, <keyword=melee>melé</keyword>: fija el poder de un enemigo no potenciado en 1.\n",
+        "name": "Vincent Meis"
+    },
+    "200102": {
+        "info": "Despliegue: cambia el poder de esta unidad con el de una unidad dañada.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: cambia el poder de esta unidad con el de una unidad dañada.\n",
+        "name": "Hym"
+    },
+    "200103": {
+        "info": "Orden: le otorga potencia a Olaf igual al doble del daño que recibe.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: le otorga potencia a Olaf igual al doble del daño que recibe.\n",
+        "name": "Olaf"
+    },
+    "200104": {
+        "info": "Despliegue: inflige daño al enemigo según la mitad del poder que tenga.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige daño al enemigo según la mitad del poder que tenga.\n",
+        "name": "Ulfhedinn"
+    },
+    "200105": {
+        "info": "Despliegue: inflige 1 de daño al enemigo tres veces.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 1 de daño al enemigo tres veces.\n",
+        "name": "Buque Dimun"
+    },
+    "200112": {
+        "info": "Despliegue: otorga 3 de potencia a un aliado con Agonía.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 3 de potencia a un aliado con <keyword=deathwish>Agonía</keyword>.\n",
+        "name": "Sirena"
+    },
+    "200114": {
+        "info": "Inmune. Prosperar.\n",
+        "infoRaw": "<keyword=immune>Inmune</keyword>. <keyword=thrive>Prosperar</keyword>.\n",
+        "name": "Hombre lobo Alfa"
+    },
+    "200115": {
+        "info": "Inflige 6 de daño a una unidad. Reduce el daño a 1 por cada unidad adyacente.\n",
+        "infoRaw": "Inflige 6 de daño a una unidad. Reduce el daño a 1 por cada unidad adyacente.\n",
+        "name": "Asesinato"
+    },
+    "200118": {
+        "info": "Melé: al final de la ronda, devuelve esta unidad al mazo de tu oponente.\n",
+        "infoRaw": "<keyword=melee>Melé</keyword>: al final de la ronda, devuelve esta unidad al mazo de tu oponente.\n",
+        "name": "Infiltrador"
+    },
+    "200124": {
+        "info": "Despliegue: revela la primera unidad en el mazo del oponente y la destierra.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=reveal>revela</keyword> la primera unidad en el mazo del oponente y la <keyword=banish>destierra</keyword>.\n",
+        "name": "Brujo de la Víbora"
+    },
+    "200135": {
+        "info": "Fervor.\nOrden: destruye un artefacto aliado e inflige 2 de daño a una unidad. \nEnfriamiento: 2.\n",
+        "infoRaw": "<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>: destruye un artefacto aliado e inflige 2 de daño a una unidad. \n<keyword=cooldown>Enfriamiento</keyword>: 2.\n",
+        "name": "Pirotécnico"
+    },
+    "200136": {
+        "info": "Despliegue, a distancia: revela una carta aleatoria de tu mazo. Si es una carta especial, otorga 2 de potencia a esta unidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: <keyword=reveal>revela</keyword> una carta aleatoria de tu mazo. Si es una carta especial, otorga 2 de potencia a esta unidad.\n",
+        "name": "Clarividente"
+    },
+    "200138": {
+        "info": "Cada vez que juegas una carta especial, otorga 2 de potencia a esta unidad.\n",
+        "infoRaw": "Cada vez que juegas una carta especial, otorga 2 de potencia a esta unidad.\n",
+        "name": "Sabio"
+    },
+    "200139": {
+        "info": "Despliegue: inflige 3 de daño a una unidad enemiga no Scoia'tael.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 3 de daño a una unidad enemiga no Scoia'tael.\n",
+        "name": "Pantera"
+    },
+    "200144": {
+        "info": "Despliegue: otorga 2 de potencia a una bestia aliada. Otorga 1 de potencia por cada bestia en tu cementerio.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 2 de potencia a una bestia aliada. Otorga 1 de potencia por cada bestia en tu cementerio.\n",
+        "name": "Domador Tuirseach"
+    },
+    "200145": {
+        "info": "Despliegue: inflige 1 de daño a una unidad por cada barco en tu mano.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 1 de daño a una unidad por cada barco en tu mano.\n",
+        "name": "Corsario Dimun"
+    },
+    "200146": {
+        "info": "Despliegue, melé: inflige 1 de daño a una unidad, luego le otorga 2 de potencia.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: inflige 1 de daño a una unidad, luego le otorga 2 de potencia.\n",
+        "name": "Contrabandista Dimun"
+    },
+    "200147": {
+        "info": "Al final de cada turno, cura 1 a todos los aliados dañados en esta fila.\n",
+        "infoRaw": "Al final de cada turno, <keyword=heal>cura</keyword> 1 a todos los aliados dañados en esta fila.\n",
+        "name": "Flamínica Heymaey"
+    },
+    "200149": {
+        "info": "Siempre que una unidad adyacente reciba daño, otorga 1 de potencia a esta unidad.\n",
+        "infoRaw": "Siempre que una unidad adyacente reciba daño, otorga 1 de potencia a esta unidad.\n",
+        "name": "Protector Heymaey"
+    },
+    "200154": {
+        "info": "Juega una unidad de tu mazo.\n",
+        "infoRaw": "Juega una unidad de tu mazo.\n",
+        "name": "Decreto real"
+    },
+    "200159": {
+        "info": "Orden: descarta una carta, luego roba una carta. \nLa habilidad se restablece al inicio de la ronda.\nCada vez que descartes una carta, inflige 1 de daño a un enemigo al azar.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: <keyword=discard>descarta</keyword> una carta, luego roba una carta. \nLa habilidad se restablece al inicio de la ronda.\nCada vez que <keyword=discard>descartes</keyword> una carta, inflige 1 de daño a un enemigo al azar.\n",
+        "name": "Bran Tuirseach"
+    },
+    "200160": {
+        "info": "Orden: inflige 1 de daño a una unidad.\nEnfriamiento: 2.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: inflige 1 de daño a una unidad.\n<keyword=cooldown>Enfriamiento</keyword>: 2.\n",
+        "name": "Crach An Craite"
+    },
+    "200161": {
+        "info": "Orden: divide 8 de daño al azar entre todos los enemigos.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: divide 8 de daño al azar entre todos los enemigos.\n",
+        "name": "Harald, el Lisiado"
+    },
+    "200162": {
+        "info": "Orden: mueve una carta en el campo de batalla de regreso a tu mano y juega una carta.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: mueve una carta en el campo de batalla de regreso a tu mano y juega una carta.\n",
+        "name": "Emhyr var Emreis"
+    },
+    "200163": {
+        "info": "Orden: revela una carta al azar del mazo de tu oponente. Si es bronce, otorga 3 de potencia a un aliado. Si es dorada, le otorga 4 en su lugar.\nAl inicio de la ronda, restablece esta habilidad.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: <keyword=reveal>revela</keyword> una carta al azar del mazo de tu oponente. Si es bronce, otorga 3 de potencia a un aliado. Si es dorada, le otorga 4 en su lugar.\nAl inicio de la ronda, restablece esta habilidad.\n",
+        "name": "Morvran Voorhis"
+    },
+    "200164": {
+        "info": "Orden: mira las primeras 3 cartas de tu mazo y juega una.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: mira las primeras 3 cartas de tu mazo y juega una.\n",
+        "name": "Jan Calveit"
+    },
+    "200165": {
+        "info": "Orden: juega una carta especial desde tu cementerio.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: juega una carta especial desde tu cementerio.\n",
+        "name": "Francesca Findabair"
+    },
+    "200166": {
+        "info": "Orden: inflige 1 de daño a una unidad.\nCarga: 3.\nAl inicio de la ronda, restablece la carga de Eithné.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: inflige 1 de daño a una unidad.\n<keyword=charge>Carga</keyword>: 3.\nAl inicio de la ronda, restablece la <keyword=charge>carga</keyword> de Eithné.\n",
+        "name": "Eithné"
+    },
+    "200167": {
+        "info": "Orden: mueve una unidad a la otra fila. Si es un enemigo, inflige 2 de daño",
+        "infoRaw": "<keyword=order>Orden</keyword>: mueve una unidad a la otra fila. Si es un enemigo, inflige 2 de daño",
+        "name": "Brouver Hoog"
+    },
+    "200168": {
+        "info": "Orden: otorga 1 de potencia a un aliado y le concede Fervor.\nCarga: 3.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: otorga 1 de potencia a un aliado y le concede <keyword=zeal>Fervor</keyword>.\n<keyword=charge>Carga</keyword>: 3.\n",
+        "name": "Rey Foltest"
+    },
+    "200170": {
+        "info": "Orden: juega una copia de una unidad aliada en el campo de batalla desde tu mazo, le otorga 4 de potencia y le da Fervor.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: juega una copia de una unidad aliada en el campo de batalla desde tu mazo, le otorga 4 de potencia y le da <keyword=zeal>Fervor</keyword>.\n",
+        "name": "Rey Henselt"
+    },
+    "200171": {
+        "info": "Siempre que una unidad sea potenciada, inflige 1 de daño a un enemigo al azar.\n",
+        "infoRaw": "Siempre que una unidad sea potenciada, inflige 1 de daño a un enemigo al azar.\n",
+        "name": "Infantería de Tridam"
+    },
+    "200177": {
+        "info": "Si esta unidad está en el cementerio, se invoca en una fila aliada al azar cada vez que juegas una unidad desde tu cementerio.\n",
+        "infoRaw": "Si esta unidad está en el cementerio, se <keyword=summon>invoca</keyword> en una fila aliada al azar cada vez que juegas una unidad desde tu cementerio.\n",
+        "name": "Cerys An Craite"
+    },
+    "200209": {
+        "info": "Orden: inflige 2 de daño a una unidad. \nEnfriamiento: 4.\nSi tienes a un Elfo, Enano o Dríada en tu mano, el enfriamiento se reduce 1 (solo una vez por categoría).\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: inflige 2 de daño a una unidad. \n<keyword=cooldown>Enfriamiento</keyword>: 4.\nSi tienes a un Elfo, Enano o Dríada en tu mano, el <keyword=cooldown>enfriamiento</keyword> se reduce 1 (solo una vez por categoría).\n",
+        "name": "Saskia"
+    },
+    "200212": {
+        "info": "Despliegue: inflige 4 de daño a un enemigo no dañado.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 4 de daño a un enemigo no dañado.\n",
+        "name": "Skjall"
+    },
+    "200218": {
+        "info": "Despliegue, melé: otorga 2 de potencia a esta unidad por cada unidad de más que tu oponente tenga en el campo de batalla.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: otorga 2 de potencia a esta unidad por cada unidad de más que tu oponente tenga en el campo de batalla.\n",
+        "name": "Jotunn"
+    },
+    "200220": {
+        "info": "Despliegue, a distancia: juega una carta Orgánica de tu mazo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: juega una carta Orgánica de tu mazo.\n",
+        "name": "Susurradora: Tributo"
+    },
+    "200221": {
+        "info": "Activa la habilidad Agonía de todos los aliados.\n",
+        "infoRaw": "Activa la habilidad <keyword=deathwish>Agonía</keyword> de todos los aliados.\n",
+        "name": "Sacrificio ritual"
+    },
+    "200222": {
+        "info": "Despliegue, melé: consume una unidad en tu mano y roba una carta.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: <keyword=consume>consume</keyword> una unidad en tu mano y roba una carta.\n",
+        "name": "Tejedora: Conjuro"
+    },
+    "200223": {
+        "info": "Restablece una unidad.\n",
+        "infoRaw": "<keyword=reset>Restablece</keyword> una unidad.\n",
+        "name": "Mandrágora"
+    },
+    "200224": {
+        "info": "Activa la habilidad Agonía de una unidad de bronce.\n",
+        "infoRaw": "Activa la habilidad <keyword=deathwish>Agonía</keyword> de una unidad de bronce.\n",
+        "name": "Ojo de cuervo"
+    },
+    "200225": {
+        "info": "Toma a un enemigo con 5 o menos de poder y lo bloquea.\n",
+        "infoRaw": "<keyword=seize>Toma</keyword> a un enemigo con 5 o menos de poder y lo <keyword=lock>bloquea</keyword>.\n",
+        "name": "Bozal de Vigo"
+    },
+    "200226": {
+        "info": "Inflige 2 de daño a todos los enemigos con poder par o inflige 2 de daño a todos los enemigos con poder impar.\n",
+        "infoRaw": "Inflige 2 de daño a todos los enemigos con poder par o inflige 2 de daño a todos los enemigos con poder impar.\n",
+        "name": "Acónito"
+    },
+    "200228": {
+        "info": "Emboscada: destruye a la siguiente unidad que se juegue en el lado de tu oponente antes de que active cualquier habilidad.\n",
+        "infoRaw": "<keyword=ambush>Emboscada</keyword>: destruye a la siguiente unidad que se juegue en el lado de tu oponente antes de que active cualquier habilidad.\n",
+        "name": "Trampa de foso"
+    },
+    "200233": {
+        "info": "Despliegue: inflige 2 de daño a un enemigo por cada bestia adyacente.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 2 de daño a un enemigo por cada bestia adyacente.\n",
+        "name": "Gallotriz"
+    },
+    "200234": {
+        "info": "Despliegue: otorga 4 de potencia a esta unidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 4 de potencia a esta unidad.\n",
+        "name": "Tu Puta Madre Infantería"
+    },
+    "200235": {
+        "info": "Despliegue: destruye a un enemigo con Resiliencia.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: destruye a un enemigo con <keyword=resilient>Resiliencia</keyword>.\n",
+        "name": "Lambert: Espadachín"
+    },
+    "200236": {
+        "info": "Melé: al terminar cada turno, otorga 1 de potencia a esta unidad.\n",
+        "infoRaw": "<keyword=melee>Melé</keyword>: al terminar cada turno, otorga 1 de potencia a esta unidad.\n",
+        "name": "Eskel: Explorador"
+    },
+    "200237": {
+        "info": "Despliegue: otorga 1 de potencia a todos los brujos aliados en el campo de batalla, mazo o mano.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 1 de potencia a todos los brujos aliados en el campo de batalla, mazo o mano.\n",
+        "name": "Vesemir: Mentor"
+    },
+    "200293": {
+        "info": "Despliegue, a distancia: otorga 2 de potencia a un enano en tu mano.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: otorga 2 de potencia a un enano en tu mano.\n",
+        "name": "Agitador enano"
+    },
+    "200294": {
+        "info": "Despliegue: otorga 2 de potencia a un aliado.\nSiempre que reveles esta carta, otorga 2 de potencia a un aliado al azar.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 2 de potencia a un aliado.\nSiempre que <keyword=reveal>reveles</keyword> esta carta, otorga 2 de potencia a un aliado al azar.\n",
+        "name": "Portaestandarte"
+    },
+    "200295": {
+        "info": "Agonía: inflige 4 de daño a un enemigo al azar.\n",
+        "infoRaw": "<keyword=deathwish>Agonía</keyword>: inflige 4 de daño a un enemigo al azar.\n",
+        "name": "Demonio podrido"
+    },
+    "200296": {
+        "info": "Despliegue, melé: bloquea una unidad enemiga.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: <keyword=lock>bloquea</keyword> una unidad enemiga.\n",
+        "name": "Caballería de Alba"
+    },
+    "200299": {
+        "info": "Orden: otorga 1 de potencia a un aliado y le concede Fervor.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: otorga 1 de potencia a un aliado y le concede <keyword=zeal>Fervor</keyword>.\n",
+        "name": "Tamborilero temerio"
+    },
+    "200300": {
+        "info": "Mueve a un enemigo a la otra fila, luego inflige daño igual al número de unidades en esa fila.\n",
+        "infoRaw": "Mueve a un enemigo a la otra fila, luego inflige daño igual al número de unidades en esa fila.\n",
+        "name": "Pesca trofeo"
+    },
+    "200301": {
+        "info": "Busca 2 cartas doradas al azar en tu mazo. Luego juega una y coloca la otra en la parte superior de tu mazo.\n",
+        "infoRaw": "Busca 2 cartas doradas al azar en tu mazo. Luego juega una y coloca la otra en la parte superior de tu mazo.\n",
+        "name": "Naglfar"
+    },
+    "200320": {
+        "info": "Sin habilidad.\n",
+        "infoRaw": "Sin habilidad.\n",
+        "name": "Chort"
+    },
+    "200502": {
+        "info": "Al final de cada turno, si tienes menos unidades que tu oponente, otorga 1 de potencia a esta unidad.\n",
+        "infoRaw": "Al final de cada turno, si tienes menos unidades que tu oponente, otorga 1 de potencia a esta unidad.\n",
+        "name": "Trol de hielo"
+    },
+    "200518": {
+        "info": "Despliegue: si usaste la habilidad de tu líder en este turno, inflige 3 de daño a un enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: si usaste la habilidad de tu líder en este turno, inflige 3 de daño a un enemigo.\n",
+        "name": "Élite de Venendal"
+    },
+    "200519": {
+        "info": "Otorga 4 de potencia a una unidad y le quita el Bloqueo.\n",
+        "infoRaw": "Otorga 4 de potencia a una unidad y le quita el <keyword=lock>Bloqueo</keyword>.\n",
+        "name": "Cerveza de Mahakam"
+    },
+    "200520": {
+        "info": "Orden: juega un artefacto de bronce desde tu cementerio.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: juega un artefacto de bronce desde tu cementerio.\n",
+        "name": "Éibhear Hattori"
+    },
+    "200523": {
+        "info": "Despliegue, melé: genera 2 vacas en ambos lados de esta unidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: <keyword=spawn>genera</keyword> 2 vacas en ambos lados de esta unidad.\n",
+        "name": "Germain Piquant"
+    },
+    "200528": {
+        "info": "Despliegue: inflige 3 de daño a un enemigo, luego recibe 2 de daño.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 3 de daño a un enemigo, luego recibe 2 de daño.\n",
+        "name": "Lancera Heymaey"
+    },
+    "200529": {
+        "info": "Despliegue: otorga 5 de potencia a esta unidad.\nInvoca esta unidad desde tu cementerio a una fila aliada al azar cada vez que juegues un soldado.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 5 de potencia a esta unidad.\n<keyword=summon>Invoca</keyword> esta unidad desde tu cementerio a una fila aliada al azar cada vez que juegues un soldado.\n",
+        "name": "Ronvid del Marjal"
+    },
+    "200530": {
+        "info": "Fervor.\nOrden: inflige 2 de daño a una unidad.\nCarga: 3.\n",
+        "infoRaw": "<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>: inflige 2 de daño a una unidad.\n<keyword=charge>Carga</keyword>: 3.\n",
+        "name": "Cerveza podrida"
+    },
+    "200532": {
+        "info": "Fervor.\nOrden: otorga 3 de potencia a una unidad. \nEnfriamiento: 2.\n",
+        "infoRaw": "<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>: otorga 3 de potencia a una unidad. \n<keyword=cooldown>Enfriamiento</keyword>: 2.\n",
+        "name": "Cerveza ancestral"
+    },
+    "200534": {
+        "info": "Melé: siempre que destruyan a un aliado durante tu turno, otorga 2 de potencia a esta unidad.\n",
+        "infoRaw": "<keyword=melee>Melé</keyword>: siempre que destruyan a un aliado durante tu turno, otorga 2 de potencia a esta unidad.\n",
+        "name": "La trol de Vergen"
+    },
+    "200535": {
+        "info": "Orden, melé: inflige 1 de daño a un enemigo.\nEnfriamiento: 2.\nCada vez que juegues un elfo, reduce el enfriamiento en 1.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>, <keyword=melee>melé</keyword>: inflige 1 de daño a un enemigo.\n<keyword=cooldown>Enfriamiento</keyword>: 2.\nCada vez que juegues un elfo, reduce el <keyword=cooldown>enfriamiento</keyword> en 1.\n",
+        "name": "Espadachina élfica"
+    },
+    "200539": {
+        "info": "Orden: consume una unidad aliada en esta fila.\nEnfriamiento: 1.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: <keyword=consume>consume</keyword> una unidad aliada en esta fila.\n<keyword=cooldown>Enfriamiento</keyword>: 1.\n",
+        "name": "Eslizón"
+    },
+    "200540": {
+        "info": "Orden: inflige 4 de daño a un enemigo.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: inflige 4 de daño a un enemigo.\n",
+        "name": "Masacrador de Aedirn"
+    },
+    "201523": {
+        "info": "Despliegue: restablece el poder de todas las unidades en una fila a su poder base.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: restablece el poder de todas las unidades en una fila a su poder base.\n",
+        "name": "Geralt: Yrden"
+    },
+    "201559": {
+        "info": "Despliegue, melé: invoca a una copia de esta unidad desde tu mazo a esta fila si hay un enano en ella.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: <keyword=summon>invoca</keyword> a una copia de esta unidad desde tu mazo a esta fila si hay un enano en ella.\n",
+        "name": "Reclutas de Mahakam"
+    },
+    "201574": {
+        "info": "Agonía: inflige 2 de daño a una unidad enemiga aleatoria.\n",
+        "infoRaw": "<keyword=deathwish>Agonía</keyword>: inflige 2 de daño a una unidad enemiga aleatoria.\n",
+        "name": "Amigo de Harald"
+    },
+    "201576": {
+        "info": "Condenado.\n",
+        "infoRaw": "<keyword=doomed>Condenado</keyword>.\n",
+        "name": "Vaca"
+    },
+    "201578": {
+        "info": "Despliegue.\nMelé: reparte al azar 4 de daño entre todas las unidades.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>.\n<keyword=melee>Melé</keyword>: reparte al azar 4 de daño entre todas las unidades.\n",
+        "name": "Merodeador An Craite"
+    },
+    "201579": {
+        "info": "Al inicio de la ronda, si Fénix está en tu cementerio, se destierra, genera una cría de fénix y la invoca en una fila aliada al azar.\n",
+        "infoRaw": "Al inicio de la ronda, si Fénix está en tu cementerio, se <keyword=banish>destierra</keyword>, <keyword=spawn>genera</keyword> una cría de fénix y la <keyword=summon>invoca</keyword> en una fila aliada al azar.\n",
+        "name": "Fénix"
+    },
+    "201580": {
+        "info": "Al inicio de la partida, deshabilita al líder enemigo por el resto de la batalla.\n",
+        "infoRaw": "Al inicio de la partida, deshabilita al líder enemigo por el resto de la batalla.\n",
+        "name": "Usurpador"
+    },
+    "201581": {
+        "info": "Crea y juega una carta de Skellige de bronce.\n",
+        "infoRaw": "<keyword=create>Crea</keyword> y juega una carta de Skellige de bronce.\n",
+        "name": "Piedra Stribog"
+    },
+    "201582": {
+        "info": "Crea y juega una carta de los reinos del norte de bronce.\n",
+        "infoRaw": "<keyword=create>Crea</keyword> y juega una carta de los reinos del norte de bronce.\n",
+        "name": "Piedra Zoria"
+    },
+    "201583": {
+        "info": "Crea y juega una carta de Nilfgaard de bronce.\n",
+        "infoRaw": "<keyword=create>Crea</keyword> y juega una carta de Nilfgaard de bronce.\n",
+        "name": "Piedra Dazhbog"
+    },
+    "201584": {
+        "info": "Crea y juega una carta de la facción de monstruos de bronce.\n",
+        "infoRaw": "<keyword=create>Crea</keyword> y juega una carta de la facción de monstruos de bronce.\n",
+        "name": "Piedra Devana"
+    },
+    "201585": {
+        "info": "Crea y juega una carta de Scoia'tael de bronce.\n",
+        "infoRaw": "<keyword=create>Crea</keyword> y juega una carta de Scoia'tael de bronce.\n",
+        "name": "Piedra Morana"
+    },
+    "201587": {
+        "info": "Destruye una unidad aliada, luego genera y juega una copia base de ella.\n",
+        "infoRaw": "Destruye una unidad aliada, luego <keyword=spawn>genera</keyword> y juega una copia base de ella.\n",
+        "name": "Loma de los Susurros"
+    },
+    "201589": {
+        "info": "Orden: otorga 1 de potencia a todas las unidades en tu mano.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: otorga 1 de potencia a todas las unidades en tu mano.\n",
+        "name": "Filavandrel aén Fidháil"
+    },
+    "201595": {
+        "info": "Orden: inflige 8 de daño a una unidad.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: inflige 8 de daño a una unidad.\n",
+        "name": "Princesa Adda"
+    },
+    "201597": {
+        "info": "Orden: juega un Guerrero desde tu cementerio.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: juega un Guerrero desde tu cementerio.\n",
+        "name": "Eist Tuirseach"
+    },
+    "201598": {
+        "info": "Otorga 1 de potencia a todos los aliados.\n",
+        "infoRaw": "Otorga 1 de potencia a todos los aliados.\n",
+        "name": "Talismán de hueso"
+    },
+    "201599": {
+        "info": "Prosperar.\nDespliegue: inflige 1 de daño a todas las unidades enemigas en la fila opuesta.\nAgonía: repite la habilidad Despliegue.\n",
+        "infoRaw": "<keyword=thrive>Prosperar</keyword>.\n<keyword=deploy>Despliegue</keyword>: inflige 1 de daño a todas las unidades enemigas en la fila opuesta.\n<keyword=deathwish>Agonía</keyword>: repite la habilidad <keyword=deploy>Despliegue</keyword>.\n",
+        "name": "Hombre gato"
+    },
+    "201600": {
+        "info": "Inmune.\n",
+        "infoRaw": "<keyword=immune>Inmune</keyword>.\n",
+        "name": "Hombre lobo"
+    },
+    "201601": {
+        "info": "Elige cualquier unidad o artefacto en el campo de batalla y colócala en la parte superior del mazo de su propietario.\n",
+        "infoRaw": "Elige cualquier unidad o artefacto en el campo de batalla y colócala en la parte superior del mazo de su propietario.\n",
+        "name": "Invocación de Yennefer"
+    },
+    "201603": {
+        "info": "Despliegue: transforma esta unidad en una copia de cualquier otra unidad en el campo de batalla, pero sin cambiar su poder.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: transforma esta unidad en una copia de cualquier otra unidad en el campo de batalla, pero sin cambiar su poder.\n",
+        "name": "Letho: Matarreyes"
+    },
+    "201606": {
+        "info": "Despliegue: inflige 1 de daño a todas las otras unidades.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 1 de daño a todas las otras unidades.\n",
+        "name": "Colihendido"
+    },
+    "201609": {
+        "info": "Despliegue: si hay 4 unidades o más en la fila opuesta, toma al enemigo con el menor poder en esa fila.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: si hay 4 unidades o más en la fila opuesta, <keyword=seize>toma</keyword> al enemigo con el menor poder en esa fila.\n",
+        "name": "Cazador de esclavos"
+    },
+    "201610": {
+        "info": "Despliegue: transforma a una unidad aliada en una Infantería de esclavos.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: transforma a una unidad aliada en una Infantería de esclavos.\n",
+        "name": "Infantería esclava"
+    },
+    "201611": {
+        "info": "Si tienes al menos 4 trampas en tu mazo inicial, juega 2 de ellas al azar.\n",
+        "infoRaw": "Si tienes al menos 4 trampas en tu mazo inicial, juega 2 de ellas al azar.\n",
+        "name": "Maniobra de Iorveth"
+    },
+    "201612": {
+        "info": "Despliegue: inflige 2 de daño a un enemigo. El daño aumenta a 1 por cada unidad bloqueada.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 2 de daño a un enemigo. El daño aumenta a 1 por cada unidad <keyword=lock>bloqueada</keyword>.\n",
+        "name": "Esclavista"
+    },
+    "201613": {
+        "info": "Orden: inflige 1 de daño a un enemigo. \nCarga: 5.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: inflige 1 de daño a un enemigo. \n<keyword=charge>Carga</keyword>: 5.\n",
+        "name": "Saesenthessis: Flama"
+    },
+    "201615": {
+        "info": "Busca a un Enano, Dríada y Elfo al azar en tu mazo. Juega con uno.\n",
+        "infoRaw": "Busca a un Enano, Dríada y Elfo al azar en tu mazo. Juega con uno.\n",
+        "name": "Consejo de Isengrim"
+    },
+    "201616": {
+        "info": "Orden: cambia el poder de esta unidad con el poder de un enemigo.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: cambia el poder de esta unidad con el poder de un enemigo.\n",
+        "name": "Maestro del disfraz"
+    },
+    "201617": {
+        "info": "Despliegue: revela una unidad al azar de ambos mazos. Si la tuya es mayor, otorga 2 de potencia a esta unidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=reveal>revela</keyword> una unidad al azar de ambos mazos. Si la tuya es mayor, otorga 2 de potencia a esta unidad.\n",
+        "name": "Recluta"
+    },
+    "201618": {
+        "info": "Orden, melé: se bate en duelo con una unidad enemiga.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>, <keyword=melee>melé</keyword>: se bate en <keyword=duel>duelo</keyword> con una unidad enemiga.\n",
+        "name": "Seltkirk de Guleta"
+    },
+    "201619": {
+        "info": "Otorga 2 de potencia a un soldado de bronce y repite su habilidad Despliegue.\n",
+        "infoRaw": "Otorga 2 de potencia a un soldado de bronce y repite su habilidad <keyword=deploy>Despliegue</keyword>.\n",
+        "name": "Ungüento"
+    },
+    "201620": {
+        "info": "Orden, melé: inflige 1 de daño a una unidad.\nEnfriamiento: 1.\n Si controlas Espada de Vandergrift, inflige 2 de daño.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>, <keyword=melee>melé</keyword>: inflige 1 de daño a una unidad.\n<keyword=cooldown>Enfriamiento</keyword>: 1.\n Si controlas Espada de Vandergrift, inflige 2 de daño.\n",
+        "name": "Vandergrift"
+    },
+    "201621": {
+        "info": "Orden: inflige daño a una unidad según la cantidad de cargas de Kiyan.\nCarga: 1.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: inflige daño a una unidad según la cantidad de <keyword=charge>cargas</keyword> de Kiyan.\n<keyword=charge>Carga</keyword>: 1.\n",
+        "name": "Kiyan"
+    },
+    "201622": {
+        "info": "Despliegue: si juegas desde el mazo, otorga 4 de potencia a esta unidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: si juegas desde el mazo, otorga 4 de potencia a esta unidad.\n",
+        "name": "Caballero kaedweni"
+    },
+    "201623": {
+        "info": "Despliegue, melé: otorga 1 de potencia a esta unidad por cada unidad dañada.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: otorga 1 de potencia a esta unidad por cada unidad dañada.\n",
+        "name": "Jabalí gigante"
+    },
+    "201624": {
+        "info": "Orden: inflige 1 de daño a una unidad. Si se destruye, genera una copia base de Renacido kaedweni y la invoca en esta fila.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: inflige 1 de daño a una unidad. Si se destruye, <keyword=spawn>genera</keyword> una copia base de Renacido kaedweni y la <keyword=summon>invoca</keyword> en esta fila.\n",
+        "name": "Renacido kaedweni"
+    },
+    "201625": {
+        "info": "Despliegue: transforma una unidad aliada que no sea un Caballero maldito en un Caballero maldito y no cambia su poder.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: transforma una unidad aliada que no sea un Caballero maldito en un Caballero maldito y no cambia su poder.\n",
+        "name": "Caballero maldito"
+    },
+    "201626": {
+        "info": "Al inicio del turno, si esta unidad está sola en el cementerio, invócala en una fila aliada al azar.\n",
+        "infoRaw": "Al inicio del turno, si esta unidad está sola en el cementerio, <keyword=summon>invócala</keyword> en una fila aliada al azar.\n",
+        "name": "Ciri: Nova"
+    },
+    "201627": {
+        "info": "Condenado.\nSi tu mazo inicial no tiene duplicados, envía a Troco en una aventura.\n",
+        "infoRaw": "<keyword=doomed>Condenado</keyword>.\nSi tu mazo inicial no tiene duplicados, envía a Troco en una aventura.\n",
+        "name": "Día libre de Troco"
+    },
+    "201628": {
+        "info": "Inflige 1 de daño a un enemigo por cada espectro aliado.\n",
+        "infoRaw": "Inflige 1 de daño a un enemigo por cada espectro aliado.\n",
+        "name": "Magia prohibida"
+    },
+    "201630": {
+        "info": "Despliegue: inflige 3 de daño a un enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 3 de daño a un enemigo.\n",
+        "name": "Hechicera condenada"
+    },
+    "201631": {
+        "info": "Despliegue: elige a una unidad en tu mano, luego se potencia con el número total de unidades en tu mano que comparten la misma categoría primaria.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: elige a una unidad en tu mano, luego se potencia con el número total de unidades en tu mano que comparten la misma categoría primaria.\n",
+        "name": "Doppler"
+    },
+    "201632": {
+        "info": "Fervor.\nOrden: inflige 1 de daño a un enemigo.\nEnfriamiento: 1.\nCuando Sihil destruye a un enemigo, el daño de su habilidad Orden aumenta a 1 hasta que salga del campo de batalla.\n",
+        "infoRaw": "<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>: inflige 1 de daño a un enemigo.\n<keyword=cooldown>Enfriamiento</keyword>: 1.\nCuando Sihil destruye a un enemigo, el daño de su habilidad <keyword=order>Orden</keyword> aumenta a 1 hasta que salga del campo de batalla.\n",
+        "name": "Sihil"
+    },
+    "201633": {
+        "info": "Fervor.\nOrden: inflige daño a un enemigo igual al número de Carga en Mayal sangriento, luego elimina todas las cargas. \nCarga: 1.\nCuando una unidad aliada gana cargas, obtiene la misma cantidad.\n",
+        "infoRaw": "<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>: inflige daño a un enemigo igual al número de <keyword=charge>Carga</keyword> en Mayal sangriento, luego elimina todas las <keyword=charge>cargas</keyword>. \n<keyword=charge>Carga</keyword>: 1.\nCuando una unidad aliada gana <keyword=charge>cargas</keyword>, obtiene la misma cantidad.\n",
+        "name": "Mayal sangriento"
+    },
+    "201634": {
+        "info": "Inflige 8 de daño a una unidad.\n",
+        "infoRaw": "Inflige 8 de daño a una unidad.\n",
+        "name": "Alud de Bekker"
+    },
+    "201635": {
+        "info": "Destruye a la unidad con el poder base superior.\n",
+        "infoRaw": "Destruye a la unidad con el poder base superior.\n",
+        "name": "Caza gloriosa"
+    },
+    "201636": {
+        "info": "Despliegue: inflige 1 de daño a un enemigo por cada artefacto que controles.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 1 de daño a un enemigo por cada artefacto que controles.\n",
+        "name": "Cazador medio elfo"
+    },
+    "201637": {
+        "info": "Aplica este efecto de fila a una fila enemiga:\nDespués de 3 turnos, al inicio del turno, explota e inflige 3 de daño a todas las unidades de esta fila.\n",
+        "infoRaw": "Aplica este efecto de fila a una fila enemiga:\nDespués de 3 turnos, al inicio del turno, explota e inflige 3 de daño a todas las unidades de esta fila.\n",
+        "name": "Sueño del dragón"
+    },
+    "201638": {
+        "info": "Cuando se revele una Trampa aliada, otorga 2 de potencia a esta unidad.\n",
+        "infoRaw": "Cuando se revele una Trampa aliada, otorga 2 de potencia a esta unidad.\n",
+        "name": "Exploradora elfa"
+    },
+    "201639": {
+        "info": "Otorga 10 de potencia a una unidad.\n",
+        "infoRaw": "Otorga 10 de potencia a una unidad.\n",
+        "name": "Guarnición"
+    },
+    "201644": {
+        "info": "Orden: cura 1 a un aliado.\nCarga: 1.\nCada vez que una unidad adyacente recibe daño, obtiene 1 carga.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: <keyword=heal>cura</keyword> 1 a un aliado.\n<keyword=charge>Carga</keyword>: 1.\nCada vez que una unidad adyacente recibe daño, obtiene 1 <keyword=charge>carga</keyword>.\n",
+        "name": "Yoana"
+    },
+    "201645": {
+        "info": "Emboscada: luego de 3 turnos, al inicio, inflige 2 de daño a todas las unidades enemigas en la fila con mayor número de unidades.\nFervor.\nOrden: se voltea boca arriba e inflige 1 de daño a todas las unidades en una fila.\n",
+        "infoRaw": "<keyword=ambush>Emboscada</keyword>: luego de 3 turnos, al inicio, inflige 2 de daño a todas las unidades enemigas en la fila con mayor número de unidades.\n<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>: se voltea boca arriba e inflige 1 de daño a todas las unidades en una fila.\n",
+        "name": "Trampa demoledora"
+    },
+    "201646": {
+        "info": "Despliegue, a distancia: mueve hasta 3 unidades de tu mazo a tu cementerio.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: mueve hasta 3 unidades de tu mazo a tu cementerio.\n",
+        "name": "Derran"
+    },
+    "201647": {
+        "info": "Inflige 4 de daño a un enemigo y lo mueve hacia la otra fila.\n",
+        "infoRaw": "Inflige 4 de daño a un enemigo y lo mueve hacia la otra fila.\n",
+        "name": "Tromba de rocas"
+    },
+    "201648": {
+        "info": "Cada vez que juegas a un Soldado en esta fila, le otorga 2 de potencia.\n",
+        "infoRaw": "Cada vez que juegas a un Soldado en esta fila, le otorga 2 de potencia.\n",
+        "name": "Hoja de Vandergrift"
+    },
+    "201650": {
+        "info": "Inflige 1 de daño a todas las unidades no Espectros. Si alguna es destruida, repite esta habilidad una vez.\n",
+        "infoRaw": "Inflige 1 de daño a todas las unidades no Espectros. Si alguna es destruida, repite esta habilidad una vez.\n",
+        "name": "Infierno de Sabrina"
+    },
+    "201653": {
+        "info": "Emboscada: cuando tu oponente pase, otorga 4 de potencia a las unidades adyacentes.\n",
+        "infoRaw": "<keyword=ambush>Emboscada</keyword>: cuando tu oponente pase, otorga 4 de potencia a las unidades adyacentes.\n",
+        "name": "Cuerno de Mahakam"
+    },
+    "201656": {
+        "info": "Fervor.\nOrden: inflige 1 de daño a una unidad.\nEnfriamiento: 1.\n",
+        "infoRaw": "<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>: inflige 1 de daño a una unidad.\n<keyword=cooldown>Enfriamiento</keyword>: 1.\n",
+        "name": "Lanza magistral"
+    },
+    "201657": {
+        "info": "Inflige 6 de daño a un enemigo o le otorga 6 de potencia a un aliado.\n",
+        "infoRaw": "Inflige 6 de daño a un enemigo o le otorga 6 de potencia a un aliado.\n",
+        "name": "Parásito"
+    },
+    "201659": {
+        "info": "Juega una Máquina de bronce de tu cementerio.\n",
+        "infoRaw": "Juega una Máquina de bronce de tu cementerio.\n",
+        "name": "Cabrestante"
+    },
+    "201660": {
+        "info": "Agonía: al final del turno, invoca a esta unidad desde tu cementerio a una fila aliada al azar.\n",
+        "infoRaw": "<keyword=deathwish>Agonía</keyword>: al final del turno, <keyword=summon>invoca</keyword> a esta unidad desde tu cementerio a una fila aliada al azar.\n",
+        "name": "Ruehin"
+    },
+    "201662": {
+        "info": "Fervor.\nOrden: se destruye y a todas las unidades cuyo poder sea igual a las cargas de Cadeverina. \nCarga:0.\nGana 1 carga al inicio de cada turno y cada vez que juegues un Táctico.\n",
+        "infoRaw": "<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>: se destruye y a todas las unidades cuyo poder sea igual a las <keyword=charge>cargas</keyword> de Cadeverina. \n<keyword=charge>Carga</keyword>:0.\nGana 1 <keyword=charge>carga</keyword> al inicio de cada turno y cada vez que juegues un Táctico.\n",
+        "name": "Cadaverina"
+    },
+    "201664": {
+        "info": "Despliegue: activa la habilidad Despliegue de los soldados de bronce adyacentes.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: activa la habilidad <keyword=deploy>Despliegue</keyword> de los soldados de bronce adyacentes.\n",
+        "name": "Vrygheff"
+    },
+    "201676": {
+        "info": "Orden: inflige 1 de daño a una unidad.\nEnfriamiento: 1.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: inflige 1 de daño a una unidad.\n<keyword=cooldown>Enfriamiento</keyword>: 1.\n",
+        "name": "Pavko Gale"
+    },
+    "201696": {
+        "info": "Orden: otorga 4 de potencia a la unidad que está a la izquierda o vuelve Inmune a la que está a la derecha.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: otorga 4 de potencia a la unidad que está a la izquierda o vuelve <keyword=immune>Inmune</keyword> a la que está a la derecha.\n",
+        "name": "Paulie Dahlberg"
+    },
+    "201697": {
+        "info": "La próxima vez que se potencie a un enemigo, destrúyelo junto con esta carta.\n",
+        "infoRaw": "La próxima vez que se potencie a un enemigo, destrúyelo junto con esta carta.\n",
+        "name": "Sangre negra"
+    },
+    "201698": {
+        "info": "Despliegue, melé: consume a una unidad del cementerio del oponente.\nDespliegue, a distancia: consume a una unidad de tu cementerio.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: <keyword=consume>consume</keyword> a una unidad del cementerio del oponente.\n<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: <keyword=consume>consume</keyword> a una unidad de tu cementerio.\n",
+        "name": "Ozzrel"
+    },
+    "201700": {
+        "info": "Agonía: otorga 4 de potencia al aliado con mayor poder.\n",
+        "infoRaw": "<keyword=deathwish>Agonía</keyword>: otorga 4 de potencia al aliado con mayor poder.\n",
+        "name": "Trol del puente"
+    },
+    "201701": {
+        "info": "Orden: consume a una unidad aliada.\nCarga: 2.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: <keyword=consume>consume</keyword> a una unidad aliada.\n<keyword=charge>Carga</keyword>: 2.\n",
+        "name": "Barbegazi"
+    },
+    "201704": {
+        "info": "Despliegue: quita un efecto de fila de una fila aliada.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: quita un efecto de fila de una fila aliada.\n",
+        "name": "Explorador"
+    },
+    "201709": {
+        "info": "Inflige 2 de daño a todos los enemigos con poder impar.\n",
+        "infoRaw": "Inflige 2 de daño a todos los enemigos con poder impar.\n",
+        "name": "Equilibrar"
+    },
+    "201710": {
+        "info": "Inflige 2 de daño a todos los enemigos con poder par.\n",
+        "infoRaw": "Inflige 2 de daño a todos los enemigos con poder par.\n",
+        "name": "Perturbar"
+    },
+    "201725": {
+        "info": "Envía a Troco a la Academia Ban Ard para Muchachos.\n",
+        "infoRaw": "Envía a Troco a la Academia Ban Ard para Muchachos.\n",
+        "name": "Troco: Mago"
+    },
+    "201726": {
+        "info": "Despliegue: transforma la carta que esté más a la derecha en la mano de cada jugador en una carta especial al azar.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: transforma la carta que esté más a la derecha en la mano de cada jugador en una carta especial al azar.\n",
+        "name": "Troco: Mago"
+    },
+    "201727": {
+        "info": "Despliegue: mueve una unidad al azar a la fila opuesta.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: mueve una unidad al azar a la fila opuesta.\n",
+        "name": "Troco: Mago"
+    },
+    "201728": {
+        "info": "Despliegue: aplica un efecto de fila al azar en todas las filas.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: aplica un efecto de fila al azar en todas las filas.\n",
+        "name": "Troco: Mago"
+    },
+    "201729": {
+        "info": "Despliegue: divide 13 de daño al azar entre todas las demás unidades del campo de batalla.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: divide 13 de daño al azar entre todas las demás unidades del campo de batalla.\n",
+        "name": "Troco: Mago"
+    },
+    "201730": {
+        "info": "Despliegue: genera e invoca una unidad al azar en una fila al azar en cada lado.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=spawn>genera</keyword> e <keyword=summon>invoca</keyword> una unidad al azar en una fila al azar en cada lado.\n",
+        "name": "Troco: Mago"
+    },
+    "201731": {
+        "info": "Envía a Troco al bosque de Dol Blathanna.\n",
+        "infoRaw": "Envía a Troco al bosque de Dol Blathanna.\n",
+        "name": "Troco: Cazador"
+    },
+    "201732": {
+        "info": "Despliegue: juega una carta al azar de tu mazo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: juega una carta al azar de tu mazo.\n",
+        "name": "Troco: Cazador"
+    },
+    "201733": {
+        "info": "Despliegue: divide 9 de daño al azar entre todas las unidades enemigas.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: divide 9 de daño al azar entre todas las unidades enemigas.\n",
+        "name": "Troco: Cazador"
+    },
+    "201734": {
+        "info": "Despliegue: otorga entre 1 y 2 de poder a todas las unidades en tu mano.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga entre 1 y 2 de poder a todas las unidades en tu mano.\n",
+        "name": "Troco: Cazador"
+    },
+    "201735": {
+        "info": "Despliegue: destruye un enemigo al azar.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: destruye un enemigo al azar.\n",
+        "name": "Troco: Cazador"
+    },
+    "201737": {
+        "info": "Envía a Troco a la Academia militar de la Corte imperial.\n",
+        "infoRaw": "Envía a Troco a la Academia militar de la Corte imperial.\n",
+        "name": "Troco: Caballero"
+    },
+    "201738": {
+        "info": "Despliegue: inflige 4 de daño a un enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 4 de daño a un enemigo.\n",
+        "name": "Troco: Caballero"
+    },
+    "201739": {
+        "info": "Despliegue: bloquea a una unidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=lock>bloquea</keyword> a una unidad.\n",
+        "name": "Troco: Caballero"
+    },
+    "201740": {
+        "info": "Despliegue: obtiene Resiliencia.\n",
+        "infoRaw": "<keyword=deploy>Despliegue:</keyword> obtiene <keyword=resilient>Resiliencia</keyword>.\n",
+        "name": "Troco: Caballero"
+    },
+    "201741": {
+        "info": "Despliegue: destruye un artefacto enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: destruye un artefacto enemigo.\n",
+        "name": "Troco: Caballero"
+    },
+    "201743": {
+        "info": "Siempre que una unidad aliada es destruida durante tu turno, genera un Arachas Zángano y lo invoca en una fila aliada al azar.\n",
+        "infoRaw": "Siempre que una unidad aliada es destruida durante tu turno, <keyword=spawn>genera</keyword> un Arachas Zángano y lo <keyword=summon>invoca</keyword> en una fila aliada al azar.\n",
+        "name": "Arachas reina"
+    },
+    "201744": {
+        "info": "Restablece el poder base de una unidad.\n",
+        "infoRaw": "Restablece el poder base de una unidad.\n",
+        "name": "Esporas"
+    },
+    "201748": {
+        "info": "Orden, melé: inflige 1 de daño a un enemigo y a todos los enemigos de igual poder. \nCarga: 1.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>, <keyword=melee>melé</keyword>: inflige 1 de daño a un enemigo y a todos los enemigos de igual poder. \n<keyword=charge>Carga</keyword>: 1.\n",
+        "name": "Orgullo de Foltest"
+    },
+    "201749": {
+        "info": "Otorga 2 de potencia a todas las unidades en una fila.\n",
+        "infoRaw": "Otorga 2 de potencia a todas las unidades en una fila.\n",
+        "name": "Espuma dorada"
+    },
+    "201753": {
+        "info": "Despliegue: otorga 2 de potencia a un aliado.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 2 de potencia a un aliado.\n",
+        "name": "Milicia campesina"
+    },
+    "201772": {
+        "info": "Despliegue, melé: inflige 3 de daño a un enemigo. Si su poder era múltiplo de 3, lo destruye.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: inflige 3 de daño a un enemigo. Si su poder era múltiplo de 3, lo destruye.\n",
+        "name": "Geralt: Profesional"
+    },
+    "201773": {
+        "info": "Despliegue, a distancia: crea y juega una carta especial de bronce del mazo actual de cualquier jugador.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: <keyword=create>crea</keyword> y juega una carta especial de bronce del mazo actual de cualquier jugador.\n",
+        "name": "Triss: Telequinesis"
+    },
+    "201774": {
+        "info": "Despliegue: destruye una bestia enemiga.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: destruye una bestia enemiga.\n",
+        "name": "Jaskier: Vanagloria"
+    },
+    "201776": {
+        "info": "Despliegue: roba una carta",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: roba una carta",
+        "name": "Jaskier: Poeta"
+    },
+    "201777": {
+        "info": "Orden: toma a un enemigo cuyo poder sea igual o menor a las cargas de Roche: Despiadado, luego elimina todas las cargas. \nCarga: 0.\nObtiene 1 carga al inicio de cada turno.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: <keyword=seize>toma</keyword> a un enemigo cuyo poder sea igual o menor a las <keyword=charge>cargas</keyword> de Roche: Despiadado, luego elimina todas las <keyword=charge>cargas</keyword>. \n<keyword=charge>Carga</keyword>: 0.\nObtiene 1 <keyword=charge>carga</keyword> al inicio de cada turno.\n",
+        "name": "Roche: Despiadado"
+    },
+    "201779": {
+        "info": "Regresa una unidad aliada a tu mazo, luego juega una unidad con la misma categoría principal desde tu mazo y le otorga 3 de potencia.\n",
+        "infoRaw": "Regresa una unidad aliada a tu mazo, luego juega una unidad con la misma categoría principal desde tu mazo y le otorga 3 de potencia.\n",
+        "name": "Llamado del bosque"
+    },
+    "201780": {
+        "info": "Despliegue, a distancia: revela una unidad al azar de tu mazo y potencia a un aliado con su poder.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: <keyword=reveal>revela</keyword> una unidad al azar de tu mazo y potencia a un aliado con su poder.\n",
+        "name": "Yennefer: Adivinación"
+    },
+    "201781": {
+        "info": "Orden: si controlas la unidad con mayor poder, inflige 2 de daño a una unidad. \nEnfriamiento: 1.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: si controlas la unidad con mayor poder, inflige 2 de daño a una unidad. \n<keyword=cooldown>Enfriamiento</keyword>: 1.\n",
+        "name": "Imlerith"
+    },
+    "201817": {
+        "info": "Despliegue, melé: cada jugador invoca la unidad con el mayor costo de reclutamiento de su mazo a la fila de melé.\nDespliegue, a distancia: cada jugador invoca la unidad con menor costo de reclutamiento de su mazo a la fila a distancia.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: cada jugador <keyword=summon>invoca</keyword> la unidad con el mayor costo de reclutamiento de su mazo a la fila de melé.\n<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: cada jugador <keyword=summon>invoca</keyword> la unidad con menor costo de reclutamiento de su mazo a la fila a distancia.\n",
+        "name": "Ihuarraquax"
+    },
+    "202044": {
+        "info": "Despliegue, melé: inflige 3 de daño a un enemigo y a todas sus copias.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: inflige 3 de daño a un enemigo y a todas sus copias.\n",
+        "name": "Gerwin el Rengo"
+    },
+    "202054": {
+        "info": "Destruye 2 unidades aliadas del mismo color. Luego, crea y juega una unidad de ese color.\n",
+        "infoRaw": "Destruye 2 unidades aliadas del mismo color. Luego, <keyword=create>crea</keyword> y juega una unidad de ese color.\n",
+        "name": "Sopa de elfo"
+    },
+    "202064": {
+        "info": "Orden, melé: inflige 2 de daño a un enemigo. \nCarga: 1.\nObtiene 1 carga cada vez que juegas un brujo.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>, <keyword=melee>melé</keyword>: inflige 2 de daño a un enemigo. \n<keyword=charge>Carga</keyword>: 1.\nObtiene 1 <keyword=charge>carga</keyword> cada vez que juegas un brujo.\n",
+        "name": "Ivo de Belhaven"
+    },
+    "202098": {
+        "info": "Despliegue: si tienes a un Dragón en tu mano, obtienes Fervor\nOrden: destruye a una unidad con 8 o más de poder.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: si tienes a un Dragón en tu mano, obtienes <keyword=zeal>Fervor</keyword>\n<keyword=order>Orden</keyword>: destruye a una unidad con 8 o más de poder.\n",
+        "name": "Eyck de Denesle"
+    },
+    "202099": {
+        "info": "Despliegue, melé: otorga entre 0 y 11 de poder a esta unidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: otorga entre 0 y 11 de poder a esta unidad.\n",
+        "name": "Gascon"
+    },
+    "202100": {
+        "info": "Espiar.\nDespliegue: juega una carta dorada al azar de tu mazo.\n",
+        "infoRaw": "<keyword=spying>Espiar</keyword>.\n<keyword=deploy>Despliegue</keyword>: juega una carta dorada al azar de tu mazo.\n",
+        "name": "Príncipe Villem"
+    },
+    "202101": {
+        "info": "Al final de cada turno, se mueve a la fila con la unidad más alta en el campo de batalla.\n",
+        "infoRaw": "Al final de cada turno, se mueve a la fila con la unidad más alta en el campo de batalla.\n",
+        "name": "Conde Caldwell"
+    },
+    "202102": {
+        "info": "Despliegue, melé: destierra todas las cartas en el cementerio de tu oponente. \nDespliegue, a distancia: destierra todas las cartas en tu cementerio.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: <keyword=banish>destierra</keyword> todas las cartas en el cementerio de tu oponente. \n<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: <keyword=banish>destierra</keyword> todas las cartas en tu cementerio.\n",
+        "name": "Xavier Lemmens"
+    },
+    "202103": {
+        "info": "Melé: al final de cada turno, destruye a la unidad de menor poder en el lado con más unidades.\n",
+        "infoRaw": "<keyword=melee>Melé</keyword>: al final de cada turno, destruye a la unidad de menor poder en el lado con más unidades.\n",
+        "name": "Keltullis"
+    },
+    "202104": {
+        "info": "Inmune.\n",
+        "infoRaw": "<keyword=immune>Inmune</keyword>.\n",
+        "name": "Espanto: Despierto"
+    },
+    "202105": {
+        "info": "Despliegue: destruye a todas las unidades con 1 de poder. Por cada unidad destruida, otorga 2 de potencia a esta unidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: destruye a todas las unidades con 1 de poder. Por cada unidad destruida, otorga 2 de potencia a esta unidad.\n",
+        "name": "Babagor"
+    },
+    "202106": {
+        "info": "Despliegue, melé: obtén Resiliencia.\nDespliegue, a distancia: obtén Inmune.\nCuando juegues un Enano, otorga 1 de potencia a esta unidad.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: obtén <keyword=resilient>Resiliencia</keyword>.\n<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: obtén <keyword=immune>Inmune</keyword>.\nCuando juegues un Enano, otorga 1 de potencia a esta unidad.\n",
+        "name": "Gabor Zigrin"
+    },
+    "202107": {
+        "info": "Despliegue: otorga 2 de potencia a un Elfo, un Enano y una Dríada.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 2 de potencia a un Elfo, un Enano y una Dríada.\n",
+        "name": "Barnabás Beckenbauer"
+    },
+    "202108": {
+        "info": "Orden, a distancia: mira la primera carta de ambos mazos. Conserva una y dale la otra a tu oponente.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>, <keyword=ranged>a distancia</keyword>: mira la primera carta de ambos mazos. Conserva una y dale la otra a tu oponente.\n",
+        "name": "Isbel de Hagge"
+    },
+    "202109": {
+        "info": "Despliegue, a distancia: cambia todas las cartas en tu cementerio con tu mazo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: cambia todas las cartas en tu cementerio con tu mazo.\n",
+        "name": "Gudmund el Bocazas"
+    },
+    "202110": {
+        "info": "Melé: siempre que un enemigo reciba daño, otorga 1 de potencia a esta unidad.\n",
+        "infoRaw": "<keyword=melee>Melé</keyword>: siempre que un enemigo reciba daño, otorga 1 de potencia a esta unidad.\n",
+        "name": "Dagur dos espadas"
+    },
+    "202111": {
+        "info": "Despliegue: mira las primeras 3 cartas en el mazo de tu oponente y mueve 1 a tu cementerio.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: mira las primeras 3 cartas en el mazo de tu oponente y mueve 1 a tu cementerio.\n",
+        "name": "Traheaern var Vdyffir"
+    },
+    "202112": {
+        "info": "Siempre que se juegue una unidad aliada con carga, le concede 1 carga.\n",
+        "infoRaw": "Siempre que se juegue una unidad aliada con <keyword=charge>carga</keyword>, le concede 1 <keyword=charge>carga</keyword>.\n",
+        "name": "Reynard Odo"
+    },
+    "202113": {
+        "info": "Despliegue: inflige daño al enemigo según la cantidad de humanos aliados.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige daño al enemigo según la cantidad de humanos aliados.\n",
+        "name": "Rayla la Negra"
+    },
+    "202114": {
+        "info": "Condenado. Fervor.\nOrden: se transforma en Fénix.\n",
+        "infoRaw": "<keyword=doomed>Condenado</keyword>. <keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>: se transforma en Fénix.\n",
+        "name": "Cría de fénix"
+    },
+    "202121": {
+        "info": "Despliegue: mueve una unidad a la otra fila.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: mueve una unidad a la otra fila.\n",
+        "name": "Jauría de Spalla"
+    },
+    "202122": {
+        "info": "Despliegue: destruye un artefacto enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: destruye un artefacto enemigo.\n",
+        "name": "Limpiador de bombas"
+    },
+    "202148": {
+        "info": "Orden: otorga 1 carga a una unidad.\nEnfriamiento: 2.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: otorga 1 <keyword=charge>carga</keyword> a una unidad.\n<keyword=cooldown>Enfriamiento</keyword>: 2.\n",
+        "name": "Rey Demavend III"
+    },
+    "202149": {
+        "info": "Orden: juega un artefacto al azar desde el mazo de tu oponente.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: juega un artefacto al azar desde el mazo de tu oponente.\n",
+        "name": "Angoulême"
+    },
+    "202150": {
+        "info": "Fervor.\nOrden, a distancia: otorga 1 de potencia a una unidad. \nCarga:1.\nObtiene 1 carga siempre que un jugador juegue una carta.\n",
+        "infoRaw": "<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>, <keyword=ranged>a distancia</keyword>: otorga 1 de potencia a una unidad. \n<keyword=charge>Carga</keyword>:1.\nObtiene 1 <keyword=charge>carga</keyword> siempre que un jugador juegue una carta.\n",
+        "name": "Vysogota de Corvo"
+    },
+    "202151": {
+        "info": "Despliegue, melé: destruye una unidad enemiga con Orden.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>melé</keyword>: destruye una unidad enemiga con <keyword=order>Orden</keyword>.\n",
+        "name": "Falibor"
+    },
+    "202152": {
+        "info": "Si al terminar cada turno esta unidad es potenciada, otorga 1 de potencia a las unidades aliadas adyacentes.\n",
+        "infoRaw": "Si al terminar cada turno esta unidad es potenciada, otorga 1 de potencia a las unidades aliadas adyacentes.\n",
+        "name": "Anna Strenger"
+    },
+    "202153": {
+        "info": "Cada vez que juegas una unidad con Orden, otorga 1 de potencia a esta unidad.\n",
+        "infoRaw": "Cada vez que juegas una unidad con <keyword=order>Orden</keyword>, otorga 1 de potencia a esta unidad.\n",
+        "name": "Caballería lyria"
+    },
+    "202154": {
+        "info": "Despliegue: inflige 1 de daño a un enemigo. Si lo destruye, inflige 3 de daño a otro enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 1 de daño a un enemigo. Si lo destruye, inflige 3 de daño a otro enemigo.\n",
+        "name": "Rivia: Piquero"
+    },
+    "202155": {
+        "info": "Orden: inflige 1 de daño a una unidad.\nCarga: 1.\nGana 1 carga cada vez que juegas una carta con Orden.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: inflige 1 de daño a una unidad.\n<keyword=charge>Carga</keyword>: 1.\nGana 1 <keyword=charge>carga</keyword> cada vez que juegas una carta con <keyword=order>Orden</keyword>.\n",
+        "name": "Arbalestero lyrio"
+    },
+    "202156": {
+        "info": "Orden: inflige 1 de daño a una unidad. Si Lyria: Lansquenete es potenciada, inflige 3 de daño a una unidad.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: inflige 1 de daño a una unidad. Si Lyria: Lansquenete es potenciada, inflige 3 de daño a una unidad.\n",
+        "name": "Lyria: Lansquenete"
+    },
+    "202161": {
+        "info": "Despliegue: otorga 1 de potencia a esta unidad por cada aliado potenciado.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 1 de potencia a esta unidad por cada aliado potenciado.\n",
+        "name": "Guadañero lyrio"
+    }
+}

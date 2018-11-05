@@ -1,0 +1,2596 @@
+{
+    "112101": {
+        "infoRaw": "Ogni volta che perdi un round, riprendi in mano questa unità dal campo di battaglia.\n",
+        "name": "Ciri"
+    },
+    "112102": {
+        "info": "Schieramento, Prima fila: distrugge le una o più unità più forti di una fila nemica con la forza totale di almeno 15.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: distrugge le una o più unità più forti di una fila nemica con la forza totale di almeno 15.\n",
+        "name": "Geralt: Igni"
+    },
+    "112103": {
+        "info": "Schieramento: distrugge un nemico con almeno 8 di forza.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: distrugge un nemico con almeno 8 di forza.\n",
+        "name": "Geralt di Rivia"
+    },
+    "112104": {
+        "info": "Schieramento: danneggia di 1 tutti i nemici di una fila. Se almeno uno di essi viene distrutto, ripeti l'abilità.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 1 tutti i nemici di una fila. Se almeno uno di essi viene distrutto, ripeti l'abilità.\n",
+        "name": "Regis"
+    },
+    "112105": {
+        "info": "Schieramento, Prima fila: prosciuga tutti i potenziamenti di un nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: <keyword=drain>prosciuga</keyword> tutti i potenziamenti di un nemico.\n",
+        "name": "Regis: vampiro antico"
+    },
+    "112106": {
+        "info": "Schieramento, Retrovie: svela un'unità casuale del tuo mazzo e danneggia un nemico di un valore pari alla relativa forza.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: <keyword=reveal>svela</keyword> un'unità casuale del tuo mazzo e danneggia un nemico di un valore pari alla relativa forza.\n",
+        "name": "Triss Merigold"
+    },
+    "112107": {
+        "info": "Dopo 2 turni, alla fine del turno, distrugge l'unità più forte in campo escludendo questa carta.\n",
+        "infoRaw": "Dopo 2 turni, alla fine del turno, distrugge l'unità più forte in campo escludendo questa carta.\n",
+        "name": "Villentretenmerth"
+    },
+    "112108": {
+        "info": "Schieramento, Prima fila: danneggia di 2 tutte le altre unità. \nSchieramento, Retrovie: potenzia di 2 tutte le altre unità.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: danneggia di 2 tutte le altre unità. \n<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: potenzia di 2 tutte le altre unità.\n",
+        "name": "Yennefer di Vengerberg"
+    },
+    "112109": {
+        "info": "Schieramento, Prima fila: evoca e mette in gioco Duda: agitatore.\nSchieramento, Retrovie: evoca e mette in gioco Duda: compagno.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: <keyword=spawn>evoca</keyword> e mette in gioco Duda: agitatore.\n<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: <keyword=spawn>evoca</keyword> e mette in gioco Duda: compagno.\n",
+        "name": "Zoltan: furfante"
+    },
+    "112110": {
+        "info": "Dopo 4 turni, all'inizio del turno, pesca una carta.\n",
+        "infoRaw": "Dopo 4 turni, all'inizio del turno, pesca una carta.\n",
+        "name": "Ciri: corsa"
+    },
+    "112111": {
+        "info": "Schieramento, Prima fila: danneggia 3 nemici di 2 e, se possibile, li sposta sulla fila del combattimento a distanza.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: danneggia 3 nemici di 2 e, se possibile, li sposta sulla fila del combattimento a distanza.\n",
+        "name": "Geralt: Aard"
+    },
+    "112112": {
+        "info": "Schieramento, Retrovie: mette in gioco un manufatto dal tuo mazzo.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: mette in gioco un manufatto dal tuo mazzo.\n",
+        "name": "Avallac'h: saggio"
+    },
+    "112113": {
+        "info": "Ordine: danneggia di 1 l'unità o le unità più forti. \nRecupero: 1.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: danneggia di 1 l'unità o le unità più forti. \n<keyword=cooldown>Recupero</keyword>: 1.\n",
+        "name": "Yennefer: invocatrice"
+    },
+    "112201": {
+        "info": "Schieramento: si trasforma nella copia base di un'unità nemica.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: si trasforma nella copia base di un'unità nemica.\n",
+        "name": "Dudu"
+    },
+    "112202": {
+        "info": "Schieramento: richiama Vesemir e Lambert dal tuo mazzo su questa fila.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=summon>richiama</keyword> Vesemir e Lambert dal tuo mazzo su questa fila.\n",
+        "name": "Eskel"
+    },
+    "112203": {
+        "info": "Schieramento: richiama Eskel e Lambert dal tuo mazzo su questa fila.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=summon>richiama</keyword> Eskel e Lambert dal tuo mazzo su questa fila.\n",
+        "name": "Vesemir"
+    },
+    "112204": {
+        "info": "Schieramento: richiama Eskel e Vesemir dal tuo mazzo su questa fila.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=summon>richiama</keyword> Eskel e Vesemir dal tuo mazzo su questa fila.\n",
+        "name": "Lambert"
+    },
+    "112205": {
+        "info": "Ordine: danneggia di 2 un nemico. \nCariche: 2.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: danneggia di 2 un nemico. \n<keyword=charge>Cariche</keyword>: 2.\n",
+        "name": "Myrgtabrakke"
+    },
+    "112206": {
+        "info": "Ordine: danneggia di 1 tutti i nemici.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: danneggia di 1 tutti i nemici.\n",
+        "name": "Ocvist"
+    },
+    "112207": {
+        "info": "Ordine: si cura.\nRecupero: 1.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: si <keyword=heal>cura</keyword>.\n<keyword=cooldown>Recupero</keyword>: 1.\n",
+        "name": "Olgierd von Everec"
+    },
+    "112208": {
+        "info": "Schieramento: evoca e richiama una copia base di un'unità Bronzo della tua mano su questa fila in entrambe le metà di campo.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> e <keyword=summon>richiama</keyword> una copia base di un'unità Bronzo della tua mano su questa fila in entrambe le metà di campo.\n",
+        "name": "Operatore"
+    },
+    "112209": {
+        "info": "Ordine: si trasforma in un Chort.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: si trasforma in un Chort.\n",
+        "name": "Mucca premiata"
+    },
+    "112210": {
+        "info": "Ogni volta che giochi una carta Oro, richiama questa unità dal tuo mazzo su una fila alleata casuale.\n",
+        "infoRaw": "Ogni volta che giochi una carta Oro, <keyword=summon>richiama</keyword> questa unità dal tuo mazzo su una fila alleata casuale.\n",
+        "name": "Rutilia"
+    },
+    "112211": {
+        "info": "Ordine: danneggia di 2 un'unità. \nCariche: 1.\nAggiunge 1 alle proprie Cariche ogni volta che giochi una carta Speciale.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: danneggia di 2 un'unità. \n<keyword=charge>Cariche</keyword>: 1.\nAggiunge 1 alle proprie <keyword=charge>Cariche</keyword> ogni volta che giochi una carta Speciale.\n",
+        "name": "Johnny"
+    },
+    "112212": {
+        "info": "Ordine: potenzia di 2 un'unità. \nCariche: 1.\nAggiunge 1 alle proprie Cariche ogni volta che giochi una carta Speciale.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: potenzia di 2 un'unità. \n<keyword=charge>Cariche</keyword>: 1.\nAggiunge 1 alle proprie <keyword=charge>Cariche</keyword> ogni volta che giochi una carta Speciale.\n",
+        "name": "Sarah"
+    },
+    "112213": {
+        "info": "Alla fine di ogni turno, potenzia di 1 l'unità meno forte nella tua mano.\n",
+        "infoRaw": "Alla fine di ogni turno, potenzia di 1 l'unità meno forte nella tua mano.\n",
+        "name": "Re dei Mendicanti"
+    },
+    "112214": {
+        "info": "Schieramento: bandisce un'unità con al massimo 3 di forza.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=banish>bandisce</keyword> un'unità con al massimo 3 di forza.\n",
+        "name": "Cyprian Wiley"
+    },
+    "112215": {
+        "info": "Schieramento, Prima fila: distrugge un manufatto nemico.\nSchieramento, Retrovie: rimuove tutti gli effetti su fila dalla tua metà di campo.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: distrugge un manufatto nemico.\n<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: rimuove tutti gli effetti su fila dalla tua metà di campo.\n",
+        "name": "Iris von Everec"
+    },
+    "112401": {
+        "info": "Schieramento: potenzia di 4 un'unità. Se hai in mano il Chironex, raddoppia il potenziamento.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: potenzia di 4 un'unità. Se hai in mano il Chironex, raddoppia il potenziamento.\n",
+        "name": "Unicorno"
+    },
+    "112402": {
+        "info": "Schieramento: danneggia di 4 un'unità. Se hai in mano l'Unicorno, raddoppia i danni.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 4 un'unità. Se hai in mano l'Unicorno, raddoppia i danni.\n",
+        "name": "Chironex"
+    },
+    "112405": {
+        "info": "Schieramento: potenzia di 1 tutte le unità con Ultimo desiderio nella tua mano.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: potenzia di 1 tutte le unità con <keyword=deathwish>Ultimo desiderio</keyword> nella tua mano.\n",
+        "name": "Demonio"
+    },
+    "113101": {
+        "info": "Applica questo effetto a una fila nemica:\nAll'inizio di ogni turno, danneggia di 2 l'unità più forte di questa fila.\n",
+        "infoRaw": "Applica questo effetto a una fila nemica:\nAll'inizio di ogni turno, danneggia di 2 l'unità più forte di questa fila.\n",
+        "name": "Ragh nar Roog"
+    },
+    "113102": {
+        "info": "Guarda le prime 2 carte del tuo mazzo, poi giocane una e bandisci l'altra.\n",
+        "infoRaw": "Guarda le prime 2 carte del tuo mazzo, poi giocane una e <keyword=banish>bandisci</keyword> l'altra.\n",
+        "name": "L'ultimo desiderio"
+    },
+    "113201": {
+        "info": "Rimescola un alleato dal campo di battaglia nel tuo mazzo, poi metti in gioco la prima unità del tuo mazzo.\n",
+        "infoRaw": "Rimescola un alleato dal campo di battaglia nel tuo mazzo, poi metti in gioco la prima unità del tuo mazzo.\n",
+        "name": "Esca"
+    },
+    "113202": {
+        "info": "Danneggia 5 nemici di 2.\n",
+        "infoRaw": "Danneggia 5 nemici di 2.\n",
+        "name": "Grandine di Merigold"
+    },
+    "113203": {
+        "info": "Applica questo effetto a una fila nemica:\nPer 2 turni, all'inizio del turno, danneggia di 1 tutte le unità di questa fila.\n",
+        "infoRaw": "Applica questo effetto a una fila nemica:\nPer 2 turni, all'inizio del turno, danneggia di 1 tutte le unità di questa fila.\n",
+        "name": "Tempesta di Skellige"
+    },
+    "113204": {
+        "info": "Danneggia di 1 tutti i nemici.\n",
+        "infoRaw": "Danneggia di 1 tutti i nemici.\n",
+        "name": "Sisma di Stammelford"
+    },
+    "113205": {
+        "info": "Distrugge un manufatto.\n",
+        "infoRaw": "Distrugge un manufatto.\n",
+        "name": "Bomba al dimeritium"
+    },
+    "113206": {
+        "info": "Distrugge tutti i manufatti.\n",
+        "infoRaw": "Distrugge tutti i manufatti.\n",
+        "name": "Bianco Gelo"
+    },
+    "113207": {
+        "info": "Potenzia 5 unità adiacenti di 3.\n",
+        "infoRaw": "Potenzia 5 unità adiacenti di 3.\n",
+        "name": "Corno del comandante"
+    },
+    "113208": {
+        "info": "Schieramento, Prima fila: aumenta di 1 la durata di tutti gli effetti su fila.\nSchieramento, Retrovie: riduce di 1 la durata di tutti gli effetti su fila.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: aumenta di 1 la durata di tutti gli effetti su fila.\n<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: riduce di 1 la durata di tutti gli effetti su fila.\n",
+        "name": "Vaedermakar"
+    },
+    "113209": {
+        "info": "Metti in gioco l'unità più forte del tuo mazzo.\n",
+        "infoRaw": "Metti in gioco l'unità più forte del tuo mazzo.\n",
+        "name": "Evocazione di Alzur"
+    },
+    "113301": {
+        "info": "Danneggia di 5 un'unità.\n",
+        "infoRaw": "Danneggia di 5 un'unità.\n",
+        "name": "Tuono di Alzur"
+    },
+    "113302": {
+        "info": "Applica questo effetto a una fila nemica:\nPer 4 turni, all'inizio del turno, danneggia di 2 l'unità meno forte di questa fila.\n",
+        "infoRaw": "Applica questo effetto a una fila nemica:\nPer 4 turni, all'inizio del turno, danneggia di 2 l'unità meno forte di questa fila.\n",
+        "name": "Gelo pungente"
+    },
+    "113303": {
+        "info": "Rimuove tutti gli effetti su fila dalla tua metà di campo.\n",
+        "infoRaw": "Rimuove tutti gli effetti su fila dalla tua metà di campo.\n",
+        "name": "Cieli tersi"
+    },
+    "113305": {
+        "info": "Applica questo effetto a una fila nemica:\nPer 4 turni, all'inizio del turno, danneggia di 2 l'unità più forte di questa fila.\n",
+        "infoRaw": "Applica questo effetto a una fila nemica:\nPer 4 turni, all'inizio del turno, danneggia di 2 l'unità più forte di questa fila.\n",
+        "name": "Nebbia impenetrabile"
+    },
+    "113306": {
+        "info": "Danneggia 3 nemici di 3.\n",
+        "infoRaw": "Danneggia 3 nemici di 3.\n",
+        "name": "Veleno di manticora"
+    },
+    "113307": {
+        "info": "Fornisce o toglie Resistenza a un'unità.\n",
+        "infoRaw": "Fornisce o toglie <keyword=resilient>Resistenza</keyword> a un'unità.\n",
+        "name": "Scarica d'adrenalina"
+    },
+    "113308": {
+        "info": "Distrugge le una o più unità meno forti.\n",
+        "infoRaw": "Distrugge le una o più unità meno forti.\n",
+        "name": "Epidemia"
+    },
+    "113309": {
+        "info": "Distrugge le una o più unità più forti.\n",
+        "infoRaw": "Distrugge le una o più unità più forti.\n",
+        "name": "Ustione"
+    },
+    "113310": {
+        "info": "Potenzia di 6 un'unità.\n",
+        "infoRaw": "Potenzia di 6 un'unità.\n",
+        "name": "Rondine"
+    },
+    "113311": {
+        "info": "Fervore.\nOrdine: potenzia di 2 un'unità. \nCariche: 3.\n",
+        "infoRaw": "<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: potenzia di 2 un'unità. \n<keyword=charge>Cariche</keyword>: 3.\n",
+        "name": "Tuono"
+    },
+    "113312": {
+        "info": "Applica questo effetto a una fila nemica:\nPer 4 turni, all'inizio del turno, danneggia 2 unità casuali della fila di 1.\n",
+        "infoRaw": "Applica questo effetto a una fila nemica:\nPer 4 turni, all'inizio del turno, danneggia 2 unità casuali della fila di 1.\n",
+        "name": "Pioggia torrenziale"
+    },
+    "113313": {
+        "info": "Schieramento: si potenzia di una quantità pari ai danni subiti da un nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: si potenzia di una quantità pari ai danni subiti da un nemico.\n",
+        "name": "An Craite: urlatore"
+    },
+    "113315": {
+        "info": "Scegli un'unità. Se è potenziata, la danneggia di due volte il valore del potenziamento. Se è danneggiata, la potenzia di due volte il valore del danneggiamento.\n",
+        "infoRaw": "Scegli un'unità. Se è potenziata, la danneggia di due volte il valore del potenziamento. Se è danneggiata, la potenzia di due volte il valore del danneggiamento.\n",
+        "name": "Specchio di Bekker"
+    },
+    "113316": {
+        "info": "Metti in gioco un'unità dal tuo cimitero.\n",
+        "infoRaw": "Metti in gioco un'unità dal tuo cimitero.\n",
+        "name": "Rinnovamento"
+    },
+    "113319": {
+        "info": "Blocca un'unità e la danneggia di 3.\n",
+        "infoRaw": "<keyword=lock>Blocca</keyword> un'unità e la danneggia di 3.\n",
+        "name": "Catene di dimeritium"
+    },
+    "113320": {
+        "info": "Danneggia di 3 un'unità, poi la potenzia di 9.\n",
+        "infoRaw": "Danneggia di 3 un'unità, poi la potenzia di 9.\n",
+        "name": "Mardroeme"
+    },
+    "122101": {
+        "info": "Ordine: raddoppia il numero di Cariche di un alleato.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: raddoppia il numero di <keyword=charge>Cariche</keyword> di un alleato.\n",
+        "name": "Barone Sanguinario"
+    },
+    "122102": {
+        "info": "Spia.\nSchieramento: gioca le prime 2 carte del tuo mazzo.\n",
+        "infoRaw": "<keyword=spying>Spia</keyword>.\n<keyword=deploy>Schieramento</keyword>: gioca le prime 2 carte del tuo mazzo.\n",
+        "name": "Vernon Roche"
+    },
+    "122103": {
+        "info": "Prima fila: mentre questa unità è in campo, tutte le unità alleate con Ordine ottengono Fervore.\n",
+        "infoRaw": "<keyword=melee>Prima fila</keyword>: mentre questa unità è in campo, tutte le unità alleate con <keyword=order>Ordine</keyword> ottengono <keyword=zeal>Fervore</keyword>.\n",
+        "name": "Jan Natalis"
+    },
+    "122107": {
+        "info": "Schieramento: potenzia di 4 un'unità casuale nella tua mano.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: potenzia di 4 un'unità casuale nella tua mano.\n",
+        "name": "Triss: farfalle"
+    },
+    "122108": {
+        "info": "Schieramento, Retrovie: gioca un Incantesimo del tuo mazzo.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: gioca un Incantesimo del tuo mazzo.\n",
+        "name": "Keira Metz"
+    },
+    "122201": {
+        "info": "Retrovie: ogni volta che un alleato ottiene una Carica, lo potenzia di 1.\n",
+        "infoRaw": "<keyword=ranged>Retrovie</keyword>: ogni volta che un alleato ottiene una <keyword=charge>Carica</keyword>, lo potenzia di 1.\n",
+        "name": "Dandelion"
+    },
+    "122202": {
+        "info": "Fervore.\nOrdine: aggiunge 1 alle Cariche di un'unità. \nRecupero: 1.\n",
+        "infoRaw": "<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: aggiunge 1 alle <keyword=charge>Cariche</keyword> di un'unità. \n<keyword=cooldown>Recupero</keyword>: 1.\n",
+        "name": "Priscilla"
+    },
+    "122203": {
+        "info": "Schieramento: rimuove tutte le Cariche da un nemico e le assegna a Thaler.\nOrdine: aggiunge 1 alle Cariche di un'unità alleata.\nCariche: 0.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: rimuove tutte le <keyword=charge>Cariche</keyword> da un nemico e le assegna a Thaler.\n<keyword=order>Ordine</keyword>: aggiunge 1 alle <keyword=charge>Cariche</keyword> di un'unità alleata.\n<keyword=charge>Cariche</keyword>: 0.\n",
+        "name": "Thaler"
+    },
+    "122204": {
+        "info": "Schieramento: danneggia di 4 un nemico. \nOrdine: fornisce Fervore a un alleato.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 4 un nemico. \n<keyword=order>Ordine</keyword>: fornisce <keyword=zeal>Fervore</keyword> a un alleato.\n",
+        "name": "Ves"
+    },
+    "122205": {
+        "info": "Schieramento: danneggia di 2 un nemico.\nOrdine: danneggia di 2 un nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 2 un nemico.\n<keyword=order>Ordine</keyword>: danneggia di 2 un nemico.\n",
+        "name": "Sheala"
+    },
+    "122206": {
+        "info": "Spia. \nUltimo desiderio: danneggia di 3 tutte le unità di questa fila.\n",
+        "infoRaw": "<keyword=spying>Spia</keyword>. \n<keyword=deathwish>Ultimo desiderio</keyword>: danneggia di 3 tutte le unità di questa fila.\n",
+        "name": "Sabrina Glevissig"
+    },
+    "122207": {
+        "info": "Ordine, Retrovie: danneggia un nemico di un valore pari al potenziamento di Dethmold.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>, <keyword=ranged>Retrovie</keyword>: danneggia un nemico di un valore pari al potenziamento di Dethmold.\n",
+        "name": "Dethmold"
+    },
+    "122208": {
+        "info": "Schieramento: potenzia di 2 un alleato e aggiunge 2 alle sue Cariche.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: potenzia di 2 un alleato e aggiunge 2 alle sue <keyword=charge>Cariche</keyword>.\n",
+        "name": "Principe Stennis"
+    },
+    "122210": {
+        "info": "Schieramento: rimescola nel tuo mazzo un'unità Bronzo e tutte le sue copie presenti nel tuo cimitero.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: rimescola nel tuo mazzo un'unità Bronzo e tutte le sue copie presenti nel tuo cimitero.\n",
+        "name": "Principessa Pavetta"
+    },
+    "122211": {
+        "info": "Fervore.\nOrdine: usa 3 delle sue Cariche per bloccare un'unità nemica.\nCariche: 3.\n",
+        "infoRaw": "<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: usa 3 delle sue <keyword=charge>Cariche</keyword> per <keyword=lock>bloccare</keyword> un'unità nemica.\n<keyword=charge>Cariche</keyword>: 3.\n",
+        "name": "Margarita Laux-Antille"
+    },
+    "122212": {
+        "info": "Ordine, Retrovie: potenzia di 1 un'unità. \nCariche: 3.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>, <keyword=ranged>Retrovie</keyword>: potenzia di 1 un'unità. \n<keyword=charge>Cariche</keyword>: 3.\n",
+        "name": "Nenneke"
+    },
+    "122213": {
+        "info": "Schieramento: aggiunge 1 alle Cariche di tutte le unità alleate.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: aggiunge 1 alle <keyword=charge>Cariche</keyword> di tutte le unità alleate.\n",
+        "name": "Odrin"
+    },
+    "122214": {
+        "info": "Fervore.\nOrdine: potenzia di 1 un alleato. \nCariche: 2.\n",
+        "infoRaw": "<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: potenzia di 1 un alleato. \n<keyword=charge>Cariche</keyword>: 2.\n",
+        "name": "Kaedwen: sergente"
+    },
+    "122216": {
+        "info": "Schieramento: danneggia di 1 un'unità per ogni carta che hai in mano.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 1 un'unità per ogni carta che hai in mano.\n",
+        "name": "Mannaia"
+    },
+    "122301": {
+        "info": "Ordine: danneggia di 1 un'unità. \nCariche: 1.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: danneggia di 1 un'unità. \n<keyword=charge>Cariche</keyword>: 1.\n",
+        "name": "Balista"
+    },
+    "122302": {
+        "info": "Ordine: danneggia di 2 un'unità. \nCariche: 1.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: danneggia di 2 un'unità. \n<keyword=charge>Cariche</keyword>: 1.\n",
+        "name": "Balista rinforzata"
+    },
+    "122303": {
+        "info": "Ordine, Retrovie: danneggia di 1 un'unità. Se viene distrutta, danneggia di 1 le unità adiacenti.\nCariche: 1.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>, <keyword=ranged>Retrovie</keyword>: danneggia di 1 un'unità. Se viene distrutta, danneggia di 1 le unità adiacenti.\n<keyword=charge>Cariche</keyword>: 1.\n",
+        "name": "Trabucco"
+    },
+    "122304": {
+        "info": "Ordine, Prima fila: potenzia di 1 gli alleati adiacenti a questa unità. \nCariche: 1.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>, <keyword=melee>Prima fila</keyword>: potenzia di 1 gli alleati adiacenti a questa unità. \n<keyword=charge>Cariche</keyword>: 1.\n",
+        "name": "Torre d'assedio"
+    },
+    "122309": {
+        "info": "Schieramento: aggiungi 2 alle Cariche di una Macchina da guerra alleata.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: aggiungi 2 alle <keyword=charge>Cariche</keyword> di una Macchina da guerra alleata.\n",
+        "name": "Aiuto-assediante"
+    },
+    "122310": {
+        "info": "Schieramento, Prima fila: evoca in fondo al mazzo una copia di un alleato Bronzo.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: <keyword=spawn>evoca</keyword> in fondo al mazzo una copia di un alleato Bronzo.\n",
+        "name": "Bande Blu: ricognitore"
+    },
+    "122311": {
+        "info": "Ordine: richiama una copia di questa unità dal tuo mazzo su questa fila.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: <keyword=summon>richiama</keyword> una copia di questa unità dal tuo mazzo su questa fila.\n",
+        "name": "Bande Blu: commando"
+    },
+    "122312": {
+        "info": "Schieramento: Potenzia le unità adiacenti di 2.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: Potenzia le unità adiacenti di 2.\n",
+        "name": "Medico da campo"
+    },
+    "122313": {
+        "info": "Schieramento: ottiene Fervore se viene messa in gioco adiacente a 2 Soldati.\nOrdine: danneggia di 3 un nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: ottiene <keyword=zeal>Fervore</keyword> se viene messa in gioco adiacente a 2 Soldati.\n<keyword=order>Ordine</keyword>: danneggia di 3 un nemico.\n",
+        "name": "Stendardo Grigio"
+    },
+    "122314": {
+        "info": "Schieramento, Prima fila: rimuove tutte le Cariche da un nemico, poi lo danneggia di un valore pari alle Cariche rimosse.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: rimuove tutte le <keyword=charge>Cariche</keyword> da un nemico, poi lo danneggia di un valore pari alle Cariche rimosse.\n",
+        "name": "Kaedwen: cavalleria"
+    },
+    "122315": {
+        "info": "Retrovie: alla fine di ogni turno, danneggia di 1 un nemico casuale sulla fila del combattimento a distanza.\n",
+        "infoRaw": "<keyword=ranged>Retrovie</keyword>: alla fine di ogni turno, danneggia di 1 un nemico casuale sulla fila del combattimento a distanza.\n",
+        "name": "Trabucco rinforzato"
+    },
+    "122316": {
+        "info": "Schieramento: danneggia di 1 un nemico per ogni unità potenziata presente su questa fila.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 1 un nemico per ogni unità potenziata presente su questa fila.\n",
+        "name": "Temeria: fanteria"
+    },
+    "122318": {
+        "info": "Ogni volta che una Macchina da guerra viene posizionata su questa fila, le fornisce Fervore.\n",
+        "infoRaw": "Ogni volta che una Macchina da guerra viene posizionata su questa fila, le fornisce <keyword=zeal>Fervore</keyword>.\n",
+        "name": "Mastro d'assedio"
+    },
+    "122401": {
+        "info": "Alla fine di ogni turno, danneggia di 1 il nemico più forte. \nOrdine: si trasforma in un Lubberkin.\n",
+        "infoRaw": "Alla fine di ogni turno, danneggia di 1 il nemico più forte. \n<keyword=order>Ordine</keyword>: si trasforma in un Lubberkin.\n",
+        "name": "Botchling"
+    },
+    "122402": {
+        "info": "Alla fine di ogni turno, potenzia di 1 l'alleato meno forte. \nOrdine: si trasforma in un Botchling.\n",
+        "infoRaw": "Alla fine di ogni turno, potenzia di 1 l'alleato meno forte. \n<keyword=order>Ordine</keyword>: si trasforma in un Botchling.\n",
+        "name": "Lubberkin"
+    },
+    "122403": {
+        "info": "Schieramento, Retrovie: pesca una carta, poi sposta una carta della tua mano in cima al tuo mazzo.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: pesca una carta, poi sposta una carta della tua mano in cima al tuo mazzo.\n",
+        "name": "Novizio di Vicovaro"
+    },
+    "123201": {
+        "info": "Evoca una copia di un'unità Bronzo alleata e la richiama su questa fila.\n",
+        "infoRaw": "<keyword=spawn>Evoca</keyword> una copia di un'unità Bronzo alleata e la <keyword=summon>richiama</keyword> su questa fila.\n",
+        "name": "Rinforzi"
+    },
+    "131101": {
+        "info": "Ordine: potenzia di 4 un'unità e le fornisce Immunità.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: potenzia di 4 un'unità e le fornisce <keyword=immune>Immunità</keyword>.\n",
+        "name": "Eredin Bréacc Glas"
+    },
+    "131102": {
+        "info": "Retrovie: ogni volta che metti in gioco un'unità con Ultimo desiderio, attiva la sua abilità Ultimo desiderio.\n",
+        "infoRaw": "<keyword=ranged>Retrovie</keyword>: ogni volta che metti in gioco un'unità con <keyword=deathwish>Ultimo desiderio</keyword>, attiva la sua abilità <keyword=deathwish>Ultimo desiderio</keyword>.\n",
+        "name": "Ge'els"
+    },
+    "132101": {
+        "info": "Schieramento: trasforma tutti gli alleati umani in Kaedwen: revenant senza modificarne la forza.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: trasforma tutti gli alleati umani in Kaedwen: revenant senza modificarne la forza.\n",
+        "name": "Draug"
+    },
+    "132102": {
+        "info": "Danneggia un nemico di una quantità pari alla forza dell'alleato più forte.\n",
+        "infoRaw": "Danneggia un nemico di una quantità pari alla forza dell'alleato più forte.\n",
+        "name": "Imlerith: ira"
+    },
+    "132103": {
+        "info": "Ordine: potenzia di 8 un'unità nella tua mano.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: potenzia di 8 un'unità nella tua mano.\n",
+        "name": "Spirito boschivo"
+    },
+    "132104": {
+        "info": "Schieramento: evoca una copia con forza 1 di un'unità della tua mano e la richiama su questa fila.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> una copia con forza 1 di un'unità della tua mano e la <keyword=summon>richiama</keyword> su questa fila.\n",
+        "name": "Caranthir Ar-Feiniel"
+    },
+    "132105": {
+        "info": "Ordine: fornisce Immunità a un'unità alleata.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: fornisce <keyword=immune>Immunità</keyword> a un'unità alleata.\n",
+        "name": "Avallac'h"
+    },
+    "132106": {
+        "info": "Schieramento, Retrovie: metti in gioco un manufatto dal tuo cimitero.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: metti in gioco un manufatto dal tuo cimitero.\n",
+        "name": "Custode"
+    },
+    "132107": {
+        "info": "Fervore.\nOrdine: consuma un alleato.\nCariche: 3.\n",
+        "infoRaw": "<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: <keyword=consume>consuma</keyword> un alleato.\n<keyword=charge>Cariche</keyword>: 3.\n",
+        "name": "Kayran"
+    },
+    "132108": {
+        "info": "Ultimo desiderio: sequestra un nemico con al massimo 3 di forza.\n",
+        "infoRaw": "<keyword=deathwish>Ultimo desiderio</keyword>: <keyword=seize>sequestra</keyword> un nemico con al massimo 3 di forza.\n",
+        "name": "Miruna"
+    },
+    "132201": {
+        "info": "Evoca 2 Arachas fuco e li richiama su questa fila, poi potenzia di 1 tutti gli altri Insettoidi sulla fila.\n",
+        "infoRaw": "<keyword=spawn>Evoca</keyword> 2 Arachas fuco e li <keyword=summon>richiama</keyword> su questa fila, poi potenzia di 1 tutti gli altri Insettoidi sulla fila.\n",
+        "name": "Arachas gigante"
+    },
+    "132202": {
+        "info": "Ordine: bandisce tutte le unità del tuo cimitero, poi si potenzia di 1 per ognuna di esse.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: <keyword=banish>bandisce</keyword> tutte le unità del tuo cimitero, poi si potenzia di 1 per ognuna di esse.\n",
+        "name": "Strega di malasorte"
+    },
+    "132203": {
+        "info": "Prosperità. \nSchieramento: attiva l'abilità Ultimo desiderio di un alleato Bronzo.\n",
+        "infoRaw": "<keyword=thrive>Prosperità</keyword>. \n<keyword=deploy>Schieramento</keyword>: attiva l'abilità <keyword=deathwish>Ultimo desiderio</keyword> di un alleato Bronzo.\n",
+        "name": "Abaya"
+    },
+    "132204": {
+        "info": "Dopo la distruzione di 3 unità alleate, il Terrorizzatore si sveglia.\n",
+        "infoRaw": "Dopo la distruzione di 3 unità alleate, il Terrorizzatore si sveglia.\n",
+        "name": "Terrorizzatore: dormiente"
+    },
+    "132205": {
+        "info": "Schieramento: potenzia di 1 tutte le Bestie alleate.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: potenzia di 1 tutte le Bestie alleate.\n",
+        "name": "Morvudd"
+    },
+    "132206": {
+        "info": "Schieramento: danneggia di 2 un nemico.\nAumenta di 2 i danni di questa unità ogni volta che metti in gioco Brewess o Weavess.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 2 un nemico.\nAumenta di 2 i danni di questa unità ogni volta che metti in gioco Brewess o Weavess.\n",
+        "name": "Whispess"
+    },
+    "132207": {
+        "info": "Schieramento: consuma 1 unità alleata/e.\nAumenta di 1 il numero dei bersagli ogni volta che metti in gioco Whispess o Weavess.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=consume>consuma</keyword> 1 unità alleata/e.\nAumenta di 1 il numero dei bersagli ogni volta che metti in gioco Whispess o Weavess.\n",
+        "name": "Brewess"
+    },
+    "132208": {
+        "info": "Schieramento: potenzia di 2 un alleato.\nAumenta di 2 il potenziamento ogni volta che metti in gioco Whispess o Brewess.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: potenzia di 2 un alleato.\nAumenta di 2 il potenziamento ogni volta che metti in gioco Whispess o Brewess.\n",
+        "name": "Weavess"
+    },
+    "132209": {
+        "info": "Ultimo desiderio: distrugge l'unità meno forte.\n",
+        "infoRaw": "<keyword=deathwish>Ultimo desiderio</keyword>: distrugge l'unità meno forte.\n",
+        "name": "Manticora imperiale"
+    },
+    "132210": {
+        "info": "Fervore.\nOrdine: danneggia di 1 tutte le unità sulla fila opposta.\nRecupero: 3.\n",
+        "infoRaw": "<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: danneggia di 1 tutte le unità sulla fila opposta.\n<keyword=cooldown>Recupero</keyword>: 3.\n",
+        "name": "Ifrit colossale"
+    },
+    "132211": {
+        "info": "Prosperità.\n",
+        "infoRaw": "<keyword=thrive>Prosperità</keyword>.\n",
+        "name": "Nekker guerriero"
+    },
+    "132212": {
+        "info": "Nessuna abilità.\n",
+        "infoRaw": "Nessuna abilità.\n",
+        "name": "Gigante dei ghiacci"
+    },
+    "132213": {
+        "info": "Nessuna abilità.\n",
+        "infoRaw": "Nessuna abilità.\n",
+        "name": "D'ao primordiale"
+    },
+    "132214": {
+        "info": "Schieramento: distrugge un manufatto nemico. Danneggia di 2 le unità adiacenti a esso se controlli l'unità più forte.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: distrugge un manufatto nemico. Danneggia di 2 le unità adiacenti a esso se controlli l'unità più forte.\n",
+        "name": "Nithral"
+    },
+    "132215": {
+        "info": "Schieramento: fornisce l'attributo Condannata a un'unità nemica.\nOrdine: distrugge un nemico Condannato.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: fornisce l'attributo <keyword=doomed>Condannata</keyword> a un'unità nemica.\n<keyword=order>Ordine</keyword>: distrugge un nemico <keyword=doomed>Condannato</keyword>.\n",
+        "name": "Gaunter O'Dimm"
+    },
+    "132216": {
+        "info": "Schieramento, Prima fila: consuma un'unità con al massimo 3 di forza.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: <keyword=consume>consuma</keyword> un'unità con al massimo 3 di forza.\n",
+        "name": "Principe-rospo"
+    },
+    "132217": {
+        "info": "Schieramento: consuma un'unità alleata.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=consume>consuma</keyword> un'unità alleata.\n",
+        "name": "Arpia celaeno"
+    },
+    "132218": {
+        "info": "Nessuna abilità.\n",
+        "infoRaw": "Nessuna abilità.\n",
+        "name": "Punta-di-lancia: pace"
+    },
+    "132301": {
+        "info": "Ultimo desiderio: richiama una copia di questa unità dal tuo mazzo su una fila alleata casuale.\n",
+        "infoRaw": "<keyword=deathwish>Ultimo desiderio</keyword>: <keyword=summon>richiama</keyword> una copia di questa unità dal tuo mazzo su una fila alleata casuale.\n",
+        "name": "Foglet"
+    },
+    "132302": {
+        "info": "Ultimo desiderio: richiama questa unità dal cimitero sulla stessa fila, la potenzia di 4 e le assegna l'attributo Condannata.\n",
+        "infoRaw": "<keyword=deathwish>Ultimo desiderio</keyword>: <keyword=summon>richiama</keyword> questa unità dal cimitero sulla stessa fila, la potenzia di 4 e le assegna l'attributo <keyword=doomed>Condannata</keyword>.\n",
+        "name": "Foglet antico"
+    },
+    "132303": {
+        "info": "Schieramento: danneggia di 2 un nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 2 un nemico.\n",
+        "name": "Viverna"
+    },
+    "132304": {
+        "info": "Condannata.\n",
+        "infoRaw": "<keyword=doomed>Condannata</keyword>.\n",
+        "name": "Arachas fuco"
+    },
+    "132305": {
+        "info": "Prosperità.\nSchieramento: evoca una copia base di questa unità e la richiama su questa fila.\n",
+        "infoRaw": "<keyword=thrive>Prosperità</keyword>.\n<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> una copia base di questa unità e la <keyword=summon>richiama</keyword> su questa fila.\n",
+        "name": "Nekker"
+    },
+    "132306": {
+        "info": "Schieramento, Prima fila: consuma un'unità del tuo cimitero.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: <keyword=consume>consuma</keyword> un'unità del tuo cimitero.\n",
+        "name": "Ghoul"
+    },
+    "132307": {
+        "info": "Schieramento: distrugge un'unità alleata su questa fila. Se non ci sono unità, si distrugge.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: distrugge un'unità alleata su questa fila. Se non ci sono unità, si distrugge.\n",
+        "name": "Grifone"
+    },
+    "132308": {
+        "info": "Ogni volta che un'unità viene distrutta durante il tuo turno, danneggia di 1 un nemico casuale.\n",
+        "infoRaw": "Ogni volta che un'unità viene distrutta durante il tuo turno, danneggia di 1 un nemico casuale.\n",
+        "name": "Guerriero Vran"
+    },
+    "132309": {
+        "info": "Schieramento: danneggia di 1 un'unità per ogni unità della Caccia Selvaggia su questa fila.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 1 un'unità per ogni unità della Caccia Selvaggia su questa fila.\n",
+        "name": "Caccia: guerriero"
+    },
+    "132310": {
+        "info": "Schieramento: richiama una copia di Caccia: cavaliere dal tuo mazzo su questa fila se controlli l'unità più forte.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=summon>richiama</keyword> una copia di Caccia: cavaliere dal tuo mazzo su questa fila se controlli l'unità più forte.\n",
+        "name": "Caccia: cavaliere"
+    },
+    "132312": {
+        "info": "Entrambi i giocatori distruggono la propria unità meno forte.\n",
+        "infoRaw": "Entrambi i giocatori distruggono la propria unità meno forte.\n",
+        "name": "Picchiata predatoria"
+    },
+    "132314": {
+        "info": "Prosperità.\nSchieramento: danneggia di 2 un nemico e lo sposta sull'altra sua fila.\n",
+        "infoRaw": "<keyword=thrive>Prosperità</keyword>.\n<keyword=deploy>Schieramento</keyword>: danneggia di 2 un nemico e lo sposta sull'altra sua fila.\n",
+        "name": "Drowner"
+    },
+    "132315": {
+        "info": "Condannata.\n",
+        "infoRaw": "<keyword=doomed>Condannata</keyword>.\n",
+        "name": "Arpia"
+    },
+    "132316": {
+        "info": "Ultimo desiderio: evoca un'Arpia e la richiama su una fila alleata casuale.\n",
+        "infoRaw": "<keyword=deathwish>Ultimo desiderio</keyword>: <keyword=spawn>evoca</keyword> un'Arpia e la <keyword=summon>richiama</keyword> su una fila alleata casuale.\n",
+        "name": "Uovo di arpia"
+    },
+    "132402": {
+        "info": "Schieramento: se controlli l'unità più forte, danneggia un nemico di 3, altrimenti lo danneggia di 1.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: se controlli l'unità più forte, danneggia un nemico di 3, altrimenti lo danneggia di 1.\n",
+        "name": "Caccia: segugio"
+    },
+    "132403": {
+        "info": "Schieramento: danneggia di 2 un nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 2 un nemico.\n",
+        "name": "Branco di lupi"
+    },
+    "132404": {
+        "info": "Schieramento: danneggia di 4 un nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 4 un nemico.\n",
+        "name": "Ifrit infuriato"
+    },
+    "132405": {
+        "info": "Schieramento: distrugge un manufatto nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: distrugge un manufatto nemico.\n",
+        "name": "D'ao forsennato"
+    },
+    "132406": {
+        "info": "Schieramento: attiva l'abilità Ultimo desiderio di un alleato Bronzo.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: attiva l'abilità <keyword=deathwish>Ultimo desiderio</keyword> di un alleato Bronzo.\n",
+        "name": "Maerolorn"
+    },
+    "132407": {
+        "info": "Schieramento: Svela la prima unità del mazzo avversario e si danneggia di un valore pari alla relativa forza, poi la rimescola nel mazzo.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=reveal>Svela</keyword> la prima unità del mazzo avversario e si danneggia di un valore pari alla relativa forza, poi la rimescola nel mazzo.\n",
+        "name": "Golem imperiale"
+    },
+    "132408": {
+        "info": "Nessuna abilità.\n",
+        "infoRaw": "Nessuna abilità.\n",
+        "name": "Punta-di-lancia"
+    },
+    "132409": {
+        "info": "Danneggia di 3 un nemico e potenzia di 3 un alleato.\n",
+        "infoRaw": "Danneggia di 3 un nemico e potenzia di 3 un alleato.\n",
+        "name": "Banchetto orribile"
+    },
+    "133301": {
+        "info": "Fervore.\nOrdine: potenzia di 1 un'unità. \nRecupero: 1.\n",
+        "infoRaw": "<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: potenzia di 1 un'unità. \n<keyword=cooldown>Recupero</keyword>: 1.\n",
+        "name": "Scudo di viverna"
+    },
+    "133302": {
+        "info": "Evoca 4 Arachas fuchi con 1 di forza e li richiama su una fila alleata.\n",
+        "infoRaw": "<keyword=spawn>Evoca</keyword> 4 Arachas fuchi con 1 di forza e li <keyword=summon>richiama</keyword> su una fila alleata.\n",
+        "name": "Nido di arachas"
+    },
+    "142101": {
+        "info": "Immune.\nOrdine: perde l'attributo Immune per il resto del turno.\n",
+        "infoRaw": "<keyword=immune>Immune</keyword>.\n<keyword=order>Ordine</keyword>: perde l'attributo <keyword=immune>Immune</keyword> per il resto del turno.\n",
+        "name": "Saesenthessis"
+    },
+    "142102": {
+        "info": "Schieramento: potenzia di 1 tutti gli altri Elfi alleati.\nOgni volta che metti in gioco un Elfo, si potenzia di 1.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: potenzia di 1 tutti gli altri Elfi alleati.\nOgni volta che metti in gioco un Elfo, si potenzia di 1.\n",
+        "name": "Isengrim Faoiltiarna"
+    },
+    "142103": {
+        "info": "Schieramento: riprendi in mano una Trappola alleata, poi metti in gioco una Trappola.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: riprendi in mano una Trappola alleata, poi metti in gioco una Trappola.\n",
+        "name": "Iorveth"
+    },
+    "142104": {
+        "info": "Immune.\nOgni volta che metti in gioco un'unità Scoia'tael, si potenzia di 1.\n",
+        "infoRaw": "<keyword=immune>Immune</keyword>.\nOgni volta che metti in gioco un'unità Scoia'tael, si potenzia di 1.\n",
+        "name": "Milva"
+    },
+    "142105": {
+        "info": "Schieramento, Prima fila: distrugge un'unità con forza non superiore al numero dei Nani alleati.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: distrugge un'unità con forza non superiore al numero dei Nani alleati.\n",
+        "name": "Zoltan Chivay"
+    },
+    "142106": {
+        "info": "Schieramento: alla fine del turno, raddoppia il valore dei potenziamenti che ha ricevuto.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: alla fine del turno, raddoppia il valore dei potenziamenti che ha ricevuto.\n",
+        "name": "Aglais"
+    },
+    "142107": {
+        "info": "Schieramento: potenzia di 4 un'unità Scoia'tael nella tua mano.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: potenzia di 4 un'unità Scoia'tael nella tua mano.\n",
+        "name": "Ithlinne Aegli"
+    },
+    "142108": {
+        "info": "Fervore.\nOrdine: distrugge tutte le altre unità con lo stesso valore di forza di Schirrú.\n",
+        "infoRaw": "<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: distrugge tutte le altre unità con lo stesso valore di forza di Schirrú.\n",
+        "name": "Schirrú"
+    },
+    "142201": {
+        "info": "Schieramento, Prima fila: potenzia di 2 le unità adiacenti.\nSchieramento, Retrovie: potenzia di 1 tutte le altre unità su questa fila.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: potenzia di 2 le unità adiacenti.\n<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: potenzia di 1 tutte le altre unità su questa fila.\n",
+        "name": "Dennis Cranmer"
+    },
+    "142202": {
+        "info": "Schieramento, Prima fila: distrugge un manufatto.\nSchieramento, Retrovie: potenzia di 3 un'unità.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: distrugge un manufatto.\n<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: potenzia di 3 un'unità.\n",
+        "name": "Ida Emean aep Sivney"
+    },
+    "142203": {
+        "info": "Schieramento: danneggia di 1 un nemico per ogni altro Elfo alleato.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 1 un nemico per ogni altro Elfo alleato.\n",
+        "name": "Yaevinn"
+    },
+    "142204": {
+        "info": "Schieramento, Prima fila: danneggia di 2 i nemici alle estremità di una fila.\nSchieramento, Retrovie: danneggia di 1 tutti i nemici di una fila.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: danneggia di 2 i nemici alle estremità di una fila.\n<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: danneggia di 1 tutti i nemici di una fila.\n",
+        "name": "Toruviel"
+    },
+    "142205": {
+        "info": "Schieramento, Prima fila: sposta un'unità nemica sull'altra sua fila.\nSchieramento, Retrovie: sposta un'unità alleata sull'altra sua fila.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: sposta un'unità nemica sull'altra sua fila.\n<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: sposta un'unità alleata sull'altra sua fila.\n",
+        "name": "Dragone Vrihedd"
+    },
+    "142206": {
+        "info": "Schieramento: blocca un'unità e la sposta sull'altra sua fila.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=lock>blocca</keyword> un'unità e la sposta sull'altra sua fila.\n",
+        "name": "Ciaran aep Easnillen"
+    },
+    "142207": {
+        "info": "Schieramento: potenzia di 1 un alleato per ogni Nano alleato.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: potenzia di 1 un alleato per ogni Nano alleato.\n",
+        "name": "Barclay Els"
+    },
+    "142208": {
+        "info": "Schieramento, Prima fila: danneggia di 2 un nemico.\nSchieramento, Retrovie: blocca un'unità.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: danneggia di 2 un nemico.\n<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: <keyword=lock>blocca</keyword> un'unità.\n",
+        "name": "Morenn"
+    },
+    "142209": {
+        "info": "Schieramento: ottiene Fervore se controlli 2 o più Driadi.\nOrdine: danneggia di 1 un nemico.\nCariche: 3.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: ottiene <keyword=zeal>Fervore</keyword> se controlli 2 o più Driadi.\n<keyword=order>Ordine</keyword>: danneggia di 1 un nemico.\n<keyword=charge>Cariche</keyword>: 3.\n",
+        "name": "Braenn"
+    },
+    "142210": {
+        "info": "Ordine: sposta un'unità sull'altra fila della sua metà di campo.\nRecupero: 2.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: sposta un'unità sull'altra fila della sua metà di campo.\n<keyword=cooldown>Recupero</keyword>: 2.\n",
+        "name": "Malena"
+    },
+    "142211": {
+        "info": "Se alla fine del turno controlli 5 o più Elfi alleati, richiama questa unità dal tuo mazzo sulla fila del combattimento corpo a corpo.\n",
+        "infoRaw": "Se alla fine del turno controlli 5 o più Elfi alleati, <keyword=summon>richiama</keyword> questa unità dal tuo mazzo sulla fila del combattimento corpo a corpo.\n",
+        "name": "Aelirenn"
+    },
+    "142212": {
+        "info": "Schieramento: danneggia un nemico di un valore pari alla forza di questa unità.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia un nemico di un valore pari alla forza di questa unità.\n",
+        "name": "Sheldon Skaggs"
+    },
+    "142213": {
+        "info": "Alla fine di ogni turno, se in campo non sono presenti unità alleate, si potenzia di 3.\n",
+        "infoRaw": "Alla fine di ogni turno, se in campo non sono presenti unità alleate, si potenzia di 3.\n",
+        "name": "Yarpen Zigrin"
+    },
+    "142214": {
+        "info": "Schieramento: danneggia di 1 tutte le unità danneggiate e potenzia di 1 tutte le unità potenziate.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 1 tutte le unità danneggiate e potenzia di 1 tutte le unità potenziate.\n",
+        "name": "Ele'yas"
+    },
+    "142301": {
+        "info": "Schieramento, Prima fila: potenzia di 2 un'unità alleata.\nSchieramento, Retrovie: cura di 4 un'unità alleata.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: potenzia di 2 un'unità alleata.\n<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: <keyword=heal>cura</keyword> di 4 un'unità alleata.\n",
+        "name": "Curatrice Hav'caaren"
+    },
+    "142302": {
+        "info": "Schieramento: danneggia di 2 un nemico casuale.\nOgni volta che la Brigata Vrihedd viene spostata sull'altra fila, ripete l'abilità Schieramento.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 2 un nemico casuale.\nOgni volta che la Brigata Vrihedd viene spostata sull'altra fila, ripete l'abilità <keyword=deploy>Schieramento</keyword>.\n",
+        "name": "Brigata Vrihedd"
+    },
+    "142303": {
+        "info": "Schieramento, Prima fila: danneggia di 3 un nemico.\nSchieramento, Retrovie: potenzia di 3 un alleato.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: danneggia di 3 un nemico.\n<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: potenzia di 3 un alleato.\n",
+        "name": "Ufficiale Vrihedd"
+    },
+    "142304": {
+        "info": "Schieramento: danneggia di 2 un nemico casuale su ogni fila.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 2 un nemico casuale su ogni fila.\n",
+        "name": "Dol Blathanna: bomba"
+    },
+    "142305": {
+        "info": "Schieramento: danneggia di 3 un nemico. Se sopravvive, questa unità si potenzia di 1.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 3 un nemico. Se sopravvive, questa unità si potenzia di 1.\n",
+        "name": "Guerriero nanico"
+    },
+    "142306": {
+        "info": "Alla fine di ogni turno, si potenzia di 1 se questa unità è potenziata.\n",
+        "infoRaw": "Alla fine di ogni turno, si potenzia di 1 se questa unità è potenziata.\n",
+        "name": "Difensore di Mahakam"
+    },
+    "142307": {
+        "info": "Schieramento: distrugge un manufatto nemico se hai un Elfo in mano.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: distrugge un manufatto nemico se hai un Elfo in mano.\n",
+        "name": "Genieri Vrihedd"
+    },
+    "142308": {
+        "info": "Distrugge un'unità nemica casuale se in campo c'è un Elfo alleato.\n",
+        "infoRaw": "Distrugge un'unità nemica casuale se in campo c'è un Elfo alleato.\n",
+        "name": "Agguato"
+    },
+    "142309": {
+        "info": "Schieramento: si potenzia di 1 per ogni Elfo nella tua mano.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: si potenzia di 1 per ogni Elfo nella tua mano.\n",
+        "name": "Avanguardia Vrihedd"
+    },
+    "142310": {
+        "info": "Schieramento, Prima fila: danneggia di 2 un nemico.\nSchieramento, Retrovie: danneggia 2 unità di 1.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: danneggia di 2 un nemico.\n<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: danneggia 2 unità di 1.\n",
+        "name": "Dol Blathanna: arco"
+    },
+    "142311": {
+        "info": "Ordine: danneggia di 1 un nemico. \nCariche: 1.\nAggiunge 1 alle proprie Cariche ogni volta che metti in gioco un Nano.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: danneggia di 1 un nemico. \n<keyword=charge>Cariche</keyword>: 1.\nAggiunge 1 alle proprie <keyword=charge>Cariche</keyword> ogni volta che metti in gioco un Nano.\n",
+        "name": "Mercenario nanico"
+    },
+    "142312": {
+        "info": "Schieramento: se controlli un manufatto, si potenzia di 3, altrimenti potenzia un alleato di 1.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: se controlli un manufatto, si potenzia di 3, altrimenti potenzia un alleato di 1.\n",
+        "name": "Aiutante Hav'caaren"
+    },
+    "142313": {
+        "info": "Schieramento: se questa unità è già potenziata, danneggia di 3 un nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: se questa unità è già potenziata, danneggia di 3 un nemico.\n",
+        "name": "Elfa danzatrice di guerra"
+    },
+    "142314": {
+        "info": "Schieramento: danneggia di 1 un nemico per ogni fila che lo separa da questa unità.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 1 un nemico per ogni fila che lo separa da questa unità.\n",
+        "name": "Dol Blathanna: saetta"
+    },
+    "142315": {
+        "info": "Prima fila: alla fine di ogni turno, potenzia di 1 un'unità casuale nella tua mano.\n",
+        "infoRaw": "<keyword=melee>Prima fila</keyword>: alla fine di ogni turno, potenzia di 1 un'unità casuale nella tua mano.\n",
+        "name": "Affarista Hav'caaren"
+    },
+    "142316": {
+        "info": "Schieramento, Prima fila:  danneggia di 4 un nemico se non ci sono altre unità sulla sua fila.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>:  danneggia di 4 un nemico se non ci sono altre unità sulla sua fila.\n",
+        "name": "Monti blu: élite"
+    },
+    "142317": {
+        "info": "Schieramento: si potenzia di un valore pari al numero di Nani alleati presenti sull'altra sua fila.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: si potenzia di un valore pari al numero di Nani alleati presenti sull'altra sua fila.\n",
+        "name": "Guardia di Mahakam"
+    },
+    "142401": {
+        "info": "Schieramento: evoca e richiama una copia base di questa unità sull'altra fila alleata.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> e <keyword=summon>richiama</keyword> una copia base di questa unità sull'altra fila alleata.\n",
+        "name": "Neofita Scoia'tael"
+    },
+    "143201": {
+        "info": "Imboscata: distrugge la prossima carta Speciale giocata dall'avversario prima che se ne attivino le abilità.\n",
+        "infoRaw": "<keyword=ambush>Imboscata</keyword>: distrugge la prossima carta Speciale giocata dall'avversario prima che se ne attivino le abilità.\n",
+        "name": "Trappola di serpenti"
+    },
+    "143301": {
+        "info": "Imboscata: danneggia di 5 la prossima unità messa in gioco dall'avversario. \nFervore.\nOrdine: scatta e danneggia di 3 un'unità.\n",
+        "infoRaw": "<keyword=ambush>Imboscata</keyword>: danneggia di 5 la prossima unità messa in gioco dall'avversario. \n<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: scatta e danneggia di 3 un'unità.\n",
+        "name": "Trappola incendiaria"
+    },
+    "152101": {
+        "info": "Schieramento, Prima fila: bandisce un'unità nel tuo cimitero e danneggia un nemico di un valore pari alla relativa forza.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: <keyword=banish>bandisce</keyword> un'unità nel tuo cimitero e danneggia un nemico di un valore pari alla relativa forza.\n",
+        "name": "Hjalmar an Craite"
+    },
+    "152103": {
+        "info": "Schieramento, Retrovie: gioca una carta Alchimia dal tuo mazzo.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: gioca una carta Alchimia dal tuo mazzo.\n",
+        "name": "Ermellino"
+    },
+    "152104": {
+        "info": "Schieramento: scarta la carta all'estrema destra della tua mano, dopodiché il tuo avversario fa lo stesso.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=discard>scarta</keyword> la carta all'estrema destra della tua mano, dopodiché il tuo avversario fa lo stesso.\n",
+        "name": "Kambi"
+    },
+    "152105": {
+        "info": "Schieramento: pesca 2 carte, poi scarta 2 carte.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: pesca 2 carte, poi <keyword=discard>scarta</keyword> 2 carte.\n",
+        "name": "Birna Bran"
+    },
+    "152106": {
+        "info": "Schieramento: danneggia un nemico di un valore pari al doppio dei nemici danneggiati.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia un nemico di un valore pari al doppio dei nemici danneggiati.\n",
+        "name": "Lugos il Pazzo"
+    },
+    "152107": {
+        "info": "Ordine: scarta una carta, poi pesca una carta. \nCariche: 3.\nOgni volta che viene scartata una carta Speciale, danneggia di 2 un nemico.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: <keyword=discard>scarta</keyword> una carta, poi pesca una carta. \n<keyword=charge>Cariche</keyword>: 3.\nOgni volta che viene <keyword=discard>scartata</keyword> una carta Speciale, danneggia di 2 un nemico.\n",
+        "name": "Coral"
+    },
+    "152109": {
+        "info": "Schieramento, Prima fila: danneggia di 2 tutti i nemici danneggiati.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: danneggia di 2 tutti i nemici danneggiati.\n",
+        "name": "Cinghiale marino"
+    },
+    "152201": {
+        "info": "Ogni volta che questa unità subisce danni, danneggia di 2 un'unità nemica casuale.\n",
+        "infoRaw": "Ogni volta che questa unità subisce danni, danneggia di 2 un'unità nemica casuale.\n",
+        "name": "Lugos il Blu"
+    },
+    "152202": {
+        "info": "Danneggia di 5 un'unità. \nSete di sangue 3: distrugge un'unità.\n",
+        "infoRaw": "Danneggia di 5 un'unità. \n<keyword=bloodthirst>Sete di sangue</keyword> 3: distrugge un'unità.\n",
+        "name": "Carica del campione"
+    },
+    "152203": {
+        "info": "Sete di sangue 1: blocca un'unità nemica.\n",
+        "infoRaw": "<keyword=bloodthirst>Sete di sangue</keyword> 1: <keyword=lock>blocca</keyword> un'unità nemica.\n",
+        "name": "Djenge Frett"
+    },
+    "152204": {
+        "info": "Schieramento: danneggia di 2 un nemico.\nSete di sangue 2: danneggia di 5 un nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 2 un nemico.\n<keyword=bloodthirst>Sete di sangue</keyword> 2: danneggia di 5 un nemico.\n",
+        "name": "Donar an Hindar"
+    },
+    "152205": {
+        "info": "Schieramento: potenzia di 1 tutti i Guerrieri alleati.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: potenzia di 1 tutti i Guerrieri alleati.\n",
+        "name": "Draig Bon-Dhu"
+    },
+    "152206": {
+        "info": "Schieramento, Retrovie: gioca una carta Alchimia Bronzo dal tuo cimitero.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: gioca una carta Alchimia Bronzo dal tuo cimitero.\n",
+        "name": "Gremist"
+    },
+    "152207": {
+        "info": "Ogni volta che metti in gioco una Nave, la potenzia di 1.\nOgni volta che metti in gioco un Pirata, danneggia di 1 un nemico casuale.\n",
+        "infoRaw": "Ogni volta che metti in gioco una Nave, la potenzia di 1.\nOgni volta che metti in gioco un Pirata, danneggia di 1 un nemico casuale.\n",
+        "name": "Holger Manonera"
+    },
+    "152208": {
+        "info": "Schieramento: si danneggia di 6 se Jutta an Dimun è l'unità più forte.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: si danneggia di 6 se Jutta an Dimun è l'unità più forte.\n",
+        "name": "Jutta an Dimun"
+    },
+    "152209": {
+        "info": "Quando questa unità finisce nel cimitero, viene richiamata nella fila del combattimento corpo a corpo e ottiene l'attributo Condannata.\n",
+        "infoRaw": "Quando questa unità finisce nel cimitero, viene <keyword=summon>richiamata</keyword> nella fila del combattimento corpo a corpo e ottiene l'attributo <keyword=doomed>Condannata</keyword>.\n",
+        "name": "Morkvarg"
+    },
+    "152210": {
+        "info": "Fervore.\nSchieramento: aggiunge 1 alle proprie Cariche per ogni Orso selvaggio presente nel cimitero.\nOrdine: danneggia di 2 un'unità.\nCariche: 1.\n",
+        "infoRaw": "<keyword=zeal>Fervore</keyword>.\n<keyword=deploy>Schieramento</keyword>: aggiunge 1 alle proprie <keyword=charge>Cariche</keyword> per ogni Orso selvaggio presente nel cimitero.\n<keyword=order>Ordine</keyword>: danneggia di 2 un'unità.\n<keyword=charge>Cariche</keyword>: 1.\n",
+        "name": "Orso selvaggio"
+    },
+    "152211": {
+        "info": "Richiama un Guerriero dal tuo cimitero su una fila alleata.\n",
+        "infoRaw": "<keyword=summon>Richiama</keyword> un Guerriero dal tuo cimitero su una fila alleata.\n",
+        "name": "Rito di Sigrdrifa"
+    },
+    "152213": {
+        "info": "Schieramento, Sete di sangue 3: si potenzia di 5.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=bloodthirst>Sete di sangue</keyword> 3: si potenzia di 5.\n",
+        "name": "Svanrige Tuirseach"
+    },
+    "152214": {
+        "info": "Ordine: danneggia di 1 un'unità.\nCariche: 3.\nSete di sangue 2: ottiene Fervore.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: danneggia di 1 un'unità.\n<keyword=charge>Cariche</keyword>: 3.\n<keyword=bloodthirst>Sete di sangue</keyword> 2: ottiene <keyword=zeal>Fervore</keyword>.\n",
+        "name": "Udalryk an Brokvar"
+    },
+    "152303": {
+        "info": "Schieramento: danneggia di 4 un nemico se viene messa in gioco dal cimitero, altrimenti lo danneggia di 2.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 4 un nemico se viene messa in gioco dal cimitero, altrimenti lo danneggia di 2.\n",
+        "name": "An Craite: guerriero"
+    },
+    "152304": {
+        "info": "Ordine: danneggia di 1 un'unità. \nCariche: 1.\nAggiunge 1 alle proprie Cariche ogni volta che scarti una carta.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: danneggia di 1 un'unità. \n<keyword=charge>Cariche</keyword>: 1.\nAggiunge 1 alle proprie <keyword=charge>Cariche</keyword> ogni volta che <keyword=discard>scarti</keyword> una carta.\n",
+        "name": "Brokvar: cacciatore"
+    },
+    "152305": {
+        "info": "Schieramento: sposta nel tuo cimitero la prima carta del tuo mazzo.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: sposta nel tuo cimitero la prima carta del tuo mazzo.\n",
+        "name": "Dimun: pirata"
+    },
+    "152306": {
+        "info": "Schieramento.\nSete di sangue 2: danneggia di 3 un nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>.\n<keyword=bloodthirst>Sete di sangue</keyword> 2: danneggia di 3 un nemico.\n",
+        "name": "Dimun: capitano"
+    },
+    "152307": {
+        "info": "Ordine: se questa unità viene danneggiata, evocane una copia base e richiamala alla sua destra.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: se questa unità viene danneggiata, <keyword=spawn>evocane</keyword> una copia base e <keyword=summon>richiamala</keyword> alla sua destra.\n",
+        "name": "Drummond: guardia"
+    },
+    "152308": {
+        "info": "Schieramento: scarta una carta, poi pesca una carta.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=discard>scarta</keyword> una carta, poi pesca una carta.\n",
+        "name": "Heymaey: bardo"
+    },
+    "152309": {
+        "info": "Ordine: danneggia un nemico e se stessa di 1. \nRecupero: 1.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: danneggia un nemico e se stessa di 1. \n<keyword=cooldown>Recupero</keyword>: 1.\n",
+        "name": "Dimun: nave leggera"
+    },
+    "152310": {
+        "info": "Metti in gioco un'unità Bronzo dal tuo cimitero.\n",
+        "infoRaw": "Metti in gioco un'unità Bronzo dal tuo cimitero.\n",
+        "name": "Benedizione di Freya"
+    },
+    "152311": {
+        "info": "Ordine: potenzia di 1 un alleato. \nCariche: 1.\nAggiunge 1 alle proprie Cariche ogni volta che metti in gioco un Guerriero.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: potenzia di 1 un alleato. \n<keyword=charge>Cariche</keyword>: 1.\nAggiunge 1 alle proprie <keyword=charge>Cariche</keyword> ogni volta che metti in gioco un Guerriero.\n",
+        "name": "An Craite: fabbro"
+    },
+    "152312": {
+        "info": "Schieramento, Prima fila: distrugge un nemico la cui forza è non superiore alla metà della forza base.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: distrugge un nemico la cui forza è non superiore alla metà della forza base.\n",
+        "name": "Tuirseach: asciere"
+    },
+    "152313": {
+        "info": "Quando questa unità viene scartata, richiamala dal tuo cimitero sulla fila del combattimento corpo a corpo.\n",
+        "infoRaw": "Quando questa unità viene <keyword=discard>scartata</keyword>, <keyword=summon>richiamala</keyword> dal tuo cimitero sulla fila del combattimento corpo a corpo.\n",
+        "name": "Tuirseach: guerriero"
+    },
+    "152314": {
+        "info": "Ogni volta che l'avversario mette in gioco un'unità, la danneggia di 1.\n",
+        "infoRaw": "Ogni volta che l'avversario mette in gioco un'unità, la danneggia di 1.\n",
+        "name": "An Craite: nave"
+    },
+    "152315": {
+        "info": "Schieramento, Retrovie: danneggia un nemico di un valore pari al numero delle unità danneggiate nella metà di campo avversaria.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: danneggia un nemico di un valore pari al numero delle unità danneggiate nella metà di campo avversaria.\n",
+        "name": "Brokvar: arciere"
+    },
+    "152316": {
+        "info": "Danneggia di 4 un'unità. \nSete di sangue 2: danneggia di 6 un'unità.\n",
+        "infoRaw": "Danneggia di 4 un'unità. \n<keyword=bloodthirst>Sete di sangue</keyword> 2: danneggia di 6 un'unità.\n",
+        "name": "Taglio sventrante"
+    },
+    "152317": {
+        "info": "Schieramento: se un alleato è un Guerriero, lo potenzia di 3, altrimenti lo potenzia di 1.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: se un alleato è un Guerriero, lo potenzia di 3, altrimenti lo potenzia di 1.\n",
+        "name": "An Craite: armaiolo"
+    },
+    "152318": {
+        "info": "La prossima volta che questa unità viene danneggiata, richiamane una copia dal tuo mazzo su questa fila.\n",
+        "infoRaw": "La prossima volta che questa unità viene danneggiata, <keyword=summon>richiamane</keyword> una copia dal tuo mazzo su questa fila.\n",
+        "name": "Drummond: guerriera"
+    },
+    "152403": {
+        "info": "Danneggia casualmente tutte le unità su una fila nemica per un valore complessivo di 6.\n",
+        "infoRaw": "Danneggia casualmente tutte le unità su una fila nemica per un valore complessivo di 6.\n",
+        "name": "Delirio"
+    },
+    "152405": {
+        "info": "Nessuna abilità.\n",
+        "infoRaw": "Nessuna abilità.\n",
+        "name": "Orso anziano"
+    },
+    "152406": {
+        "info": "Schieramento: danneggia di 1 un alleato alla sua sinistra. Se non ce ne sono, si danneggia di 1.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 1 un alleato alla sua sinistra. Se non ce ne sono, si danneggia di 1.\n",
+        "name": "Orso furioso"
+    },
+    "153201": {
+        "info": "Cura tutte le unità di una fila.\n",
+        "infoRaw": "<keyword=heal>Cura</keyword> tutte le unità di una fila.\n",
+        "name": "Rivitalizzazione"
+    },
+    "153301": {
+        "info": "Danneggia di 2 tutte le unità di una fila.\n",
+        "infoRaw": "Danneggia di 2 tutte le unità di una fila.\n",
+        "name": "Smembramento"
+    },
+    "162101": {
+        "info": "Schieramento: rimuove tutti i ripescaggi del comandante nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: rimuove tutti i ripescaggi del comandante nemico.\n",
+        "name": "Letho di Gulet"
+    },
+    "162102": {
+        "info": "Schieramento, Retrovie: gioca una carta Strategia dal tuo mazzo.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: gioca una carta Strategia dal tuo mazzo.\n",
+        "name": "Menno Coehoorn"
+    },
+    "162103": {
+        "info": "Ordine, Prima fila: sequestra un nemico bloccato.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>, <keyword=melee>Prima fila</keyword>: <keyword=seize>sequestra</keyword> un nemico <keyword=lock>bloccato</keyword>.\n",
+        "name": "Vattier de Rideaux"
+    },
+    "162104": {
+        "info": "Prima fila: ogni volta che un nemico viene potenziato, si potenzia della stessa quantità.\n",
+        "infoRaw": "<keyword=melee>Prima fila</keyword>: ogni volta che un nemico viene potenziato, si potenzia della stessa quantità.\n",
+        "name": "Cahir Dyffryn"
+    },
+    "162105": {
+        "info": "Schieramento, Prima fila: distrugge un'unità nemica, dopodiché l'avversario richiama la prima carta del suo mazzo su un fila nemica casuale.\nSchieramento, Retrovie: distrugge un'unità alleata, dopodiché richiama la prima carta del tuo mazzo su una fila alleata casuale.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: distrugge un'unità nemica, dopodiché l'avversario <keyword=summon>richiama</keyword> la prima carta del suo mazzo su un fila nemica casuale.\n<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: distrugge un'unità alleata, dopodiché <keyword=summon>richiama</keyword> la prima carta del tuo mazzo su una fila alleata casuale.\n",
+        "name": "Vilgefortz"
+    },
+    "162106": {
+        "info": "Ordine: evoca e gioca una copia di una carta Strategia giocata durante questo turno.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: <keyword=spawn>evoca</keyword> e gioca una copia di una carta Strategia giocata durante questo turno.\n",
+        "name": "Stefan Skellen"
+    },
+    "162107": {
+        "info": "Schieramento: l'avversario richiama la prima unità del suo mazzo su una fila nemica casuale.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: l'avversario <keyword=summon>richiama</keyword> la prima unità del suo mazzo su una fila nemica casuale.\n",
+        "name": "Tibor Eggebracht"
+    },
+    "162108": {
+        "info": "Schieramento: svela una carta casuale del tuo mazzo. Se è un'unità, la rimescola nel mazzo e si potenzia di un valore pari alla relativa forza. Se invece è un manufatto o una carta Speciale, giocala.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=reveal>svela</keyword> una carta casuale del tuo mazzo. Se è un'unità, la rimescola nel mazzo e si potenzia di un valore pari alla relativa forza. Se invece è un manufatto o una carta Speciale, giocala.\n",
+        "name": "Xarthisius"
+    },
+    "162201": {
+        "info": "Schieramento, Retrovie: sposta una carta del tuo mazzo in cima al mazzo. Se è un'unità, potenziala di 2.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: sposta una carta del tuo mazzo in cima al mazzo. Se è un'unità, potenziala di 2.\n",
+        "name": "Albrich"
+    },
+    "162202": {
+        "info": "Schieramento, Prima fila: rimescola una carta del cimitero avversario nel relativo mazzo.\nSchieramento, Retrovie: rimescola una carta del tuo cimitero nel tuo mazzo.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: rimescola una carta del cimitero avversario nel relativo mazzo.\n<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: rimescola una carta del tuo cimitero nel tuo mazzo.\n",
+        "name": "Assire var Anahid"
+    },
+    "162203": {
+        "info": "Schieramento, Prima fila: evoca Il Guardiano e mettilo in cima al mazzo avversario.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: <keyword=spawn>evoca</keyword> Il Guardiano e mettilo in cima al mazzo avversario.\n",
+        "name": "Cynthia"
+    },
+    "162204": {
+        "info": "Schieramento: riporta un'unità alla sua forza base.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: riporta un'unità alla sua forza base.\n",
+        "name": "Peter Saar Gwynleve"
+    },
+    "162205": {
+        "info": "Ordine: svela una carta Speciale a caso presente nel mazzo dell'avversario, poi evoca e giocane una copia.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: <keyword=reveal>svela</keyword> una carta Speciale a caso presente nel mazzo dell'avversario, poi <keyword=spawn>evoca</keyword> e giocane una copia.\n",
+        "name": "Fringilla Vigo"
+    },
+    "162206": {
+        "info": "Schieramento: danneggia di 1 un nemico.\nAumenta di 1 i danni di questa unità per ogni carta che hai svelato.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 1 un nemico.\nAumenta di 1 i danni di questa unità per ogni carta che hai <keyword=reveal>svelato</keyword>.\n",
+        "name": "I massicci"
+    },
+    "162207": {
+        "info": "Schieramento, Retrovie: distrugge un'unità nemica bloccata.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: distrugge un'unità nemica <keyword=lock>bloccata</keyword>.\n",
+        "name": "Vanhemar"
+    },
+    "162208": {
+        "info": "Schieramento: blocca un'unità nemica.\nSe hai in mano Serrit, blocca tutte le copie di quell'unità nella mano, nel mazzo e nella metà di campo dell'avversario.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=lock>blocca</keyword> un'unità nemica.\nSe hai in mano Serrit, <keyword=lock>blocca</keyword> tutte le copie di quell'unità nella mano, nel mazzo e nella metà di campo dell'avversario.\n",
+        "name": "Auckes"
+    },
+    "162209": {
+        "info": "Schieramento: se hai in mano Auckes, danneggia di 5 un nemico, altrimenti lo danneggia di 3.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: se hai in mano Auckes, danneggia di 5 un nemico, altrimenti lo danneggia di 3.\n",
+        "name": "Serrit"
+    },
+    "162210": {
+        "info": "Spia.\nSchieramento: gioca la prima carta del mazzo avversario.\n",
+        "infoRaw": "<keyword=spying>Spia</keyword>.\n<keyword=deploy>Schieramento</keyword>: gioca la prima carta del mazzo avversario.\n",
+        "name": "Cantarella"
+    },
+    "162211": {
+        "info": "Spia.\nSchieramento: gioca la prima carta del tuo mazzo non appartenente alla categoria Spia e potenziala di 8.\n",
+        "infoRaw": "<keyword=spying>Spia</keyword>.\n<keyword=deploy>Schieramento</keyword>: gioca la prima carta del tuo mazzo non appartenente alla categoria <keyword=spying>Spia</keyword> e potenziala di 8.\n",
+        "name": "Joachim de Wett"
+    },
+    "162212": {
+        "info": "Schieramento, Prima fila: sposta un nemico sull'altra sua fila.\nSchieramento, Retrovie: distrugge un manufatto nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: sposta un nemico sull'altra sua fila.\n<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: distrugge un manufatto nemico.\n",
+        "name": "Falsa Ciri"
+    },
+    "162213": {
+        "info": "Schieramento: rimuove gli stati da tutte le unità in campo.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: rimuove gli stati da tutte le unità in campo.\n",
+        "name": "Ceallach Dyffryn"
+    },
+    "162301": {
+        "info": "Ogni volta che sveli questa unità, richiamala dal mazzo su una fila alleata casuale.\n",
+        "infoRaw": "Ogni volta che <keyword=reveal>sveli</keyword> questa unità, <keyword=summon>richiamala</keyword> dal mazzo su una fila alleata casuale.\n",
+        "name": "Soldato di Daerlan"
+    },
+    "162302": {
+        "info": "Schieramento, Retrovie: evoca e metti in gioco una Carcassa di mucca.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: <keyword=spawn>evoca</keyword> e metti in gioco una Carcassa di mucca.\n",
+        "name": "Untore"
+    },
+    "162303": {
+        "info": "Schieramento, Prima fila: svela un'unità casuale del mazzo dell'avversario e si potenzia di un valore pari alla relativa forza.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: <keyword=reveal>svela</keyword> un'unità casuale del mazzo dell'avversario e si potenzia di un valore pari alla relativa forza.\n",
+        "name": "Osservatore"
+    },
+    "162304": {
+        "info": "Metti in gioco un'unità Bronzo dal cimitero dell'avversario.\n",
+        "infoRaw": "Metti in gioco un'unità Bronzo dal cimitero dell'avversario.\n",
+        "name": "Rimedio sperimentale"
+    },
+    "162305": {
+        "info": "Schieramento: danneggia di 2 un nemico, poi svela un'unità casuale di entrambi i mazzi. Se la tua è più forte, ripete l'abilità Schieramento.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 2 un nemico, poi <keyword=reveal>svela</keyword> un'unità casuale di entrambi i mazzi. Se la tua è più forte, ripete l'abilità <keyword=deploy>Schieramento</keyword>.\n",
+        "name": "Arbalesta Deithwen"
+    },
+    "162306": {
+        "info": "Ordine, Retrovie: danneggia di 1 un'unità. \nCariche: 1.\nAggiunge 1 alle proprie Cariche ogni volta che giochi una carta Strategia.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>, <keyword=ranged>Retrovie</keyword>: danneggia di 1 un'unità. \n<keyword=charge>Cariche</keyword>: 1.\nAggiunge 1 alle proprie <keyword=charge>Cariche</keyword> ogni volta che giochi una carta Strategia.\n",
+        "name": "Scorpione di fuoco"
+    },
+    "162307": {
+        "info": "Schieramento, Prima fila: richiama una copia di questa unità dal tuo mazzo su questa fila.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: <keyword=summon>richiama</keyword> una copia di questa unità dal tuo mazzo su questa fila.\n",
+        "name": "Brigata Impera"
+    },
+    "162308": {
+        "info": "Ordine: danneggia di 2 un nemico.\nCariche: 1.\nAggiunge 1 alle proprie Cariche ogni volta che metti in gioco un'unità Spia.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: danneggia di 2 un nemico.\n<keyword=charge>Cariche</keyword>: 1.\nAggiunge 1 alle proprie <keyword=charge>Cariche</keyword> ogni volta che metti in gioco un'unità <keyword=spying>Spia</keyword>.\n",
+        "name": "Guardie Impera"
+    },
+    "162309": {
+        "info": "Ogni volta che viene messa in gioco un'unità con Schieramento, si potenzia di 1.\n",
+        "infoRaw": "Ogni volta che viene messa in gioco un'unità con <keyword=deploy>Schieramento</keyword>, si potenzia di 1.\n",
+        "name": "Sergente Nauzicaa"
+    },
+    "162310": {
+        "info": "Schieramento: danneggia di 3 un nemico potenziato.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 3 un nemico potenziato.\n",
+        "name": "Brigata Nauzicaa"
+    },
+    "162311": {
+        "info": "Schieramento, Prima fila: danneggia un nemico di un valore pari al numero delle unità presenti sull'altra sua fila.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: danneggia un nemico di un valore pari al numero delle unità presenti sull'altra sua fila.\n",
+        "name": "Picchiere Alba"
+    },
+    "162312": {
+        "info": "Schieramento: danneggia di 2 un nemico. Aumenta di 1 i danni per ogni Soldato adiacente.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 2 un nemico. Aumenta di 1 i danni per ogni Soldato adiacente.\n",
+        "name": "Lanciere Alba"
+    },
+    "162313": {
+        "info": "Schieramento: si potenzia di 3 se controlli un manufatto.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: si potenzia di 3 se controlli un manufatto.\n",
+        "name": "Ingegnere bellico"
+    },
+    "162314": {
+        "info": "Spia.\nSchieramento: potenzia di 7 un alleato.\n",
+        "infoRaw": "<keyword=spying>Spia</keyword>.\n<keyword=deploy>Schieramento</keyword>: potenzia di 7 un alleato.\n",
+        "name": "Emissario"
+    },
+    "162315": {
+        "info": "Crea e metti in gioco un'unità Bronzo della fazione avversaria.\n",
+        "infoRaw": "<keyword=create>Crea</keyword> e metti in gioco un'unità Bronzo della fazione avversaria.\n",
+        "name": "Diplomazia imperiale"
+    },
+    "162316": {
+        "info": "Schieramento, Retrovie: scambia la forza di 2 alleati.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: scambia la forza di 2 alleati.\n",
+        "name": "Alchimista"
+    },
+    "162317": {
+        "info": "Ogni volta che sveli una carta, danneggia di 1 un nemico casuale.\n",
+        "infoRaw": "Ogni volta che <keyword=reveal>sveli</keyword> una carta, danneggia di 1 un nemico casuale.\n",
+        "name": "Manganella"
+    },
+    "162318": {
+        "info": "Schieramento: potenzia di 2 un nemico. Se non ci sono unità nemiche, si distrugge.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: potenzia di 2 un nemico. Se non ci sono unità nemiche, si distrugge.\n",
+        "name": "Nilfgaard: cavaliere"
+    },
+    "162401": {
+        "info": "Nessuna abilità.\n",
+        "infoRaw": "Nessuna abilità.\n",
+        "name": "Il Guardiano"
+    },
+    "162402": {
+        "info": "Spia. Condannata.\nDopo 1 turno, alla fine del turno, distrugge sé e l'unità alla sua sinistra.\n",
+        "infoRaw": "<keyword=spying>Spia</keyword>. <keyword=doomed>Condannata</keyword>.\nDopo 1 turno, alla fine del turno, distrugge sé e l'unità alla sua sinistra.\n",
+        "name": "Carcassa di mucca"
+    },
+    "163101": {
+        "info": "Costringe un'unità nemica a danneggiare le unità adiacenti di un valore pari alla sua forza.\n",
+        "infoRaw": "Costringe un'unità nemica a danneggiare le unità adiacenti di un valore pari alla sua forza.\n",
+        "name": "Tradimento"
+    },
+    "163201": {
+        "info": "Crea un'unità proveniente dal mazzo di partenza dell'avversario, poi mettila in gioco.\n",
+        "infoRaw": "<keyword=create>Crea</keyword> un'unità proveniente dal mazzo di partenza dell'avversario, poi mettila in gioco.\n",
+        "name": "Corruzione"
+    },
+    "200008": {
+        "info": "Fervore.\nOrdine: potenzia di 3 un alleato e gli fornisce Fervore.\n",
+        "infoRaw": "<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: potenzia di 3 un alleato e gli fornisce <keyword=zeal>Fervore</keyword>.\n",
+        "name": "Filtro di Petri"
+    },
+    "200018": {
+        "info": "Bandisce un'unità o un manufatto.\n",
+        "infoRaw": "<keyword=banish>Bandisce</keyword> un'unità o un manufatto.\n",
+        "name": "Canicola del Korath"
+    },
+    "200019": {
+        "info": "Metti in gioco l'unità meno forte del tuo mazzo.\n",
+        "infoRaw": "Metti in gioco l'unità meno forte del tuo mazzo.\n",
+        "name": "Marcia"
+    },
+    "200020": {
+        "info": "Metti in gioco un'unità Bronzo dal tuo cimitero e assegnale l'attributo Condannata.\n",
+        "infoRaw": "Metti in gioco un'unità Bronzo dal tuo cimitero e assegnale l'attributo <keyword=doomed>Condannata</keyword>.\n",
+        "name": "Negromanzia"
+    },
+    "200022": {
+        "info": "Fervore.\nOrdine: mette in gioco un'unità dal tuo mazzo con un costo di reclutamento non superiore alle Cariche di Circolo d'evocazione, poi perde tutte le Cariche.\nCariche: 0.\nAll'inizio di ogni turno, aggiunge 1 alle proprie Cariche.\n",
+        "infoRaw": "<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: mette in gioco un'unità dal tuo mazzo con un costo di reclutamento non superiore alle <keyword=charge>Cariche</keyword> di Circolo d'evocazione, poi perde tutte le <keyword=charge>Cariche</keyword>.\n<keyword=charge>Cariche</keyword>: 0.\nAll'inizio di ogni turno, aggiunge 1 alle proprie <keyword=charge>Cariche</keyword>.\n",
+        "name": "Circolo d'evocazione"
+    },
+    "200023": {
+        "info": "Danneggia di 3 un'unità. Se viene distrutta, danneggia di 3 le unità adiacenti a essa.\n",
+        "infoRaw": "Danneggia di 3 un'unità. Se viene distrutta, danneggia di 3 le unità adiacenti a essa.\n",
+        "name": "Veleno di arachas"
+    },
+    "200026": {
+        "info": "Schieramento: se controlli l'unità più forte in campo, potenzia di 3 un alleato, altrimenti lo potenzia di 1.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: se controlli l'unità più forte in campo, potenzia di 3 un alleato, altrimenti lo potenzia di 1.\n",
+        "name": "Caccia: navigatrice"
+    },
+    "200028": {
+        "info": "Schieramento, Prima fila: distrugge un nemico danneggiato.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: distrugge un nemico danneggiato.\n",
+        "name": "Vabjorn"
+    },
+    "200030": {
+        "info": "Schieramento, Prima fila: danneggia di 4 un nemico.\nSchieramento, Retrovie: danneggia 4 nemici di 1.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: danneggia di 4 un nemico.\n<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: danneggia 4 nemici di 1.\n",
+        "name": "Milaen"
+    },
+    "200031": {
+        "info": "Schieramento, Prima fila: distrugge un nemico con almeno 8 di forza.\nSchieramento, Retrovie: distrugge un Witcher.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: distrugge un nemico con almeno 8 di forza.\n<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: distrugge un Witcher.\n",
+        "name": "Leo Bonhart"
+    },
+    "200032": {
+        "info": "Schieramento: potenzia di 3 un nemico, poi si potenzia di 3.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: potenzia di 3 un nemico, poi si potenzia di 3.\n",
+        "name": "Rainfarn di Attre"
+    },
+    "200033": {
+        "info": "Fervore.\nOrdine, Retrovie: aggiunge 1 alle Cariche di un'unità alleata.\nRecupero: 2.\n",
+        "infoRaw": "<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>, <keyword=ranged>Retrovie</keyword>: aggiunge 1 alle <keyword=charge>Cariche</keyword> di un'unità alleata.\n<keyword=cooldown>Recupero</keyword>: 2.\n",
+        "name": "Adepta di Aretuza"
+    },
+    "200036": {
+        "info": "Schieramento, Prima fila, Sete di sangue 1: distrugge un manufatto nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>, <keyword=bloodthirst>Sete di sangue</keyword> 1: distrugge un manufatto nemico.\n",
+        "name": "Drummond: guerraiolo"
+    },
+    "200037": {
+        "info": "Schieramento: distrugge un'unità alleata adiacente e danneggia un nemico di un valore pari alla forza dell'unità distrutta.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: distrugge un'unità alleata adiacente e danneggia un nemico di un valore pari alla forza dell'unità distrutta.\n",
+        "name": "Ciclope"
+    },
+    "200038": {
+        "info": "Prosperità.\nSchieramento: danneggia di 2 un nemico casuale. \nUltimo desiderio: ripete l'abilità Schieramento.\n",
+        "infoRaw": "<keyword=thrive>Prosperità</keyword>.\n<keyword=deploy>Schieramento</keyword>: danneggia di 2 un nemico casuale. \n<keyword=deathwish>Ultimo desiderio</keyword>: ripete l'abilità <keyword=deploy>Schieramento</keyword>.\n",
+        "name": "Archeospora"
+    },
+    "200039": {
+        "info": "Prima fila: ogni volta che un nemico viene cambiato di fila, lo danneggia di 1.\nRetrovie: ogni volta che un alleato viene cambiato di fila, lo potenzia di 1.\n",
+        "infoRaw": "<keyword=melee>Prima fila</keyword>: ogni volta che un nemico viene cambiato di fila, lo danneggia di 1.\n<keyword=ranged>Retrovie</keyword>: ogni volta che un alleato viene cambiato di fila, lo potenzia di 1.\n",
+        "name": "Dol Blathanna: difesa"
+    },
+    "200040": {
+        "info": "Ogni volta che un nemico della fila opposta viene danneggiato, si potenzia di 1.\n",
+        "infoRaw": "Ogni volta che un nemico della fila opposta viene danneggiato, si potenzia di 1.\n",
+        "name": "An Craite: spadone"
+    },
+    "200041": {
+        "info": "Immune.\nOrdine: danneggia di 2 un nemico per ogni Soldato presente su questa fila.\n",
+        "infoRaw": "<keyword=immune>Immune</keyword>.\n<keyword=order>Ordine</keyword>: danneggia di 2 un nemico per ogni Soldato presente su questa fila.\n",
+        "name": "Grande Helge"
+    },
+    "200042": {
+        "info": "Schieramento: se questa unità è potenziata, ottiene Resistenza.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: se questa unità è potenziata, ottiene <keyword=resilient>Resistenza</keyword>.\n",
+        "name": "Brigante di Mahakam"
+    },
+    "200043": {
+        "info": "Schieramento: evoca 3 Amici di Harald e li richiama sull'altra fila nella tua metà di campo.\nOrdine: danneggia di 1 un alleato.\nRecupero: 1.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> 3 Amici di Harald e li <keyword=summon>richiama</keyword> sull'altra fila nella tua metà di campo.\n<keyword=order>Ordine</keyword>: danneggia di 1 un alleato.\n<keyword=cooldown>Recupero</keyword>: 1.\n",
+        "name": "Facciadisegugio"
+    },
+    "200044": {
+        "info": "Alla fine di ogni turno, si potenzia di 1 se è l'unica carta di questa fila.\n",
+        "infoRaw": "Alla fine di ogni turno, si potenzia di 1 se è l'unica carta di questa fila.\n",
+        "name": "Divisione Magne"
+    },
+    "200046": {
+        "info": "Schieramento: si danneggia di 4.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: si danneggia di 4.\n",
+        "name": "Tuirseach: veterano"
+    },
+    "200048": {
+        "info": "Schieramento: potenzia di 1 un alleato per ognuna delle relative Cariche.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: potenzia di 1 un alleato per ognuna delle relative <keyword=charge>Cariche</keyword>.\n",
+        "name": "Tutore di Ban Ard"
+    },
+    "200049": {
+        "info": "Schieramento: distrugge un manufatto nemico se controlli un Soldato.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: distrugge un manufatto nemico se controlli un Soldato.\n",
+        "name": "Ariete"
+    },
+    "200050": {
+        "info": "Schieramento: potenzia di 2 un Soldato alleato e tutte le relative copie.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: potenzia di 2 un Soldato alleato e tutte le relative copie.\n",
+        "name": "Vreemde"
+    },
+    "200052": {
+        "info": "Ultimo desiderio: l'avversario richiama l'unità meno forte del suo mazzo sulla fila opposta.\n",
+        "infoRaw": "<keyword=deathwish>Ultimo desiderio</keyword>: l'avversario <keyword=summon>richiama</keyword> l'unità meno forte del suo mazzo sulla fila opposta.\n",
+        "name": "Golyat"
+    },
+    "200053": {
+        "info": "Blocca un'unità e la riporta alla sua forza base.\n",
+        "infoRaw": "<keyword=lock>Blocca</keyword> un'unità e la riporta alla sua forza base.\n",
+        "name": "Compressione"
+    },
+    "200055": {
+        "info": "Ordine: attiva l'abilità Ultimo desiderio di un alleato.\nAll'inizio del round, ripristina questa abilità.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: attiva l'abilità <keyword=deathwish>Ultimo desiderio</keyword> di un alleato.\nAll'inizio del round, ripristina questa abilità.\n",
+        "name": "L'Invisibile"
+    },
+    "200056": {
+        "info": "Schieramento, Retrovie: crea una carta Speciale.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: <keyword=create>crea</keyword> una carta Speciale.\n",
+        "name": "Aguara: originale"
+    },
+    "200058": {
+        "info": "Crea e metti in gioco un'unità Oro.\n",
+        "infoRaw": "<keyword=create>Crea</keyword> e metti in gioco un'unità Oro.\n",
+        "name": "Maledizione di Uma"
+    },
+    "200062": {
+        "info": "Schieramento, Prima fila: blocca un'unità.\nSchieramento, Retrovie: rimuove il blocco di un'unità.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: <keyword=lock>blocca</keyword> un'unità.\n<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: rimuove il <keyword=lock>blocco</keyword> di un'unità.\n",
+        "name": "Aguara"
+    },
+    "200071": {
+        "info": "Schieramento: imposta a 1 la forza dell'unità più forte in mano all'avversario.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: imposta a 1 la forza dell'unità più forte in mano all'avversario.\n",
+        "name": "Shilard Fitz-Oesterlen"
+    },
+    "200073": {
+        "info": "Schieramento: se controlli l'unità più forte, danneggia di 5 un nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: se controlli l'unità più forte, danneggia di 5 un nemico.\n",
+        "name": "Adda: Striga"
+    },
+    "200078": {
+        "info": "Potenzia un'unità fino a 12 di forza. Se non è un Witcher, prima la danneggia di 6.\n",
+        "infoRaw": "Potenzia un'unità fino a 12 di forza. Se non è un Witcher, prima la danneggia di 6.\n",
+        "name": "Prova delle Erbe"
+    },
+    "200079": {
+        "info": "Metti in gioco un'unità dal cimitero dell'avversario e assegnale l'attributo Condannata.\n",
+        "infoRaw": "Metti in gioco un'unità dal cimitero dell'avversario e assegnale l'attributo <keyword=doomed>Condannata</keyword>.\n",
+        "name": "Sogno blu di Hanmarvyn"
+    },
+    "200080": {
+        "info": "Prima fila: ogni volta che questa unità viene potenziata, si potenzia ulteriormente di 2.\n",
+        "infoRaw": "<keyword=melee>Prima fila</keyword>: ogni volta che questa unità viene potenziata, si potenzia ulteriormente di 2.\n",
+        "name": "Xavier Moran"
+    },
+    "200081": {
+        "info": "Schieramento, Retrovie: cura di 2 un alleato, poi lo potenzia di 2.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: <keyword=heal>cura</keyword> di 2 un alleato, poi lo potenzia di 2.\n",
+        "name": "Heymaey: erborista"
+    },
+    "200083": {
+        "info": "Schieramento: pesca a una carta a tua scelta dal tuo mazzo, poi scarta una carta casuale.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: pesca a una carta a tua scelta dal tuo mazzo, poi <keyword=discard>scarta</keyword> una carta casuale.\n",
+        "name": "Compagni di Iris"
+    },
+    "200087": {
+        "info": "Schieramento: blocca un'unità.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=lock>blocca</keyword> un'unità.\n",
+        "name": "Dorregaray di Vole"
+    },
+    "200088": {
+        "info": "Schieramento: si potenzia di un valore pari ai danni che hai inflitto ai nemici durante il turno.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: si potenzia di un valore pari ai danni che hai inflitto ai nemici durante il turno.\n",
+        "name": "Hubert Rejk"
+    },
+    "200089": {
+        "info": "Schieramento: sposta tutte le unità da una fila all'altra della stessa metà di campo.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: sposta tutte le unità da una fila all'altra della stessa metà di campo.\n",
+        "name": "Nivellen"
+    },
+    "200091": {
+        "info": "Retrovie: dopo 2 turni, entrambi i giocatori pescano un'unità e ne impostano la forza a 1.\n",
+        "infoRaw": "<keyword=ranged>Retrovie</keyword>: dopo 2 turni, entrambi i giocatori pescano un'unità e ne impostano la forza a 1.\n",
+        "name": "Stregobor"
+    },
+    "200098": {
+        "info": "Fervore.\nOrdine, Prima fila: imposta a 1 la forza di un nemico non potenziato.\n",
+        "infoRaw": "<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>, <keyword=melee>Prima fila</keyword>: imposta a 1 la forza di un nemico non potenziato.\n",
+        "name": "Vincent Meis"
+    },
+    "200102": {
+        "info": "Schieramento: si scambia di forza con un'unità danneggiata.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: si scambia di forza con un'unità danneggiata.\n",
+        "name": "Hym"
+    },
+    "200103": {
+        "info": "Ordine: potenzia Olaf di una quantità doppia rispetto a quanto è danneggiato.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: potenzia Olaf di una quantità doppia rispetto a quanto è danneggiato.\n",
+        "name": "Olaf"
+    },
+    "200104": {
+        "info": "Schieramento: danneggia un nemico di un valore pari alla metà della sua forza attuale.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia un nemico di un valore pari alla metà della sua forza attuale.\n",
+        "name": "Ulfhedinn"
+    },
+    "200105": {
+        "info": "Schieramento: per tre volte, danneggia di 1 un nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: per tre volte, danneggia di 1 un nemico.\n",
+        "name": "Dimun: nave da guerra"
+    },
+    "200112": {
+        "info": "Schieramento: potenzia di 3 un alleato con Ultimo desiderio.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: potenzia di 3 un alleato con <keyword=deathwish>Ultimo desiderio</keyword>.\n",
+        "name": "Sirena"
+    },
+    "200114": {
+        "info": "Immune, Prosperità.\n",
+        "infoRaw": "<keyword=immune>Immune</keyword>, <keyword=thrive>Prosperità</keyword>.\n",
+        "name": "Lupo mannaro alfa"
+    },
+    "200115": {
+        "info": "Danneggia di 6 un'unità. Riduce i danni di 1 per ogni unità adiacente a essa.\n",
+        "infoRaw": "Danneggia di 6 un'unità. Riduce i danni di 1 per ogni unità adiacente a essa.\n",
+        "name": "Assassinio"
+    },
+    "200118": {
+        "info": "Prima fila: alla fine del round, rimescola questa unità nel mazzo avversario.\n",
+        "infoRaw": "<keyword=melee>Prima fila</keyword>: alla fine del round, rimescola questa unità nel mazzo avversario.\n",
+        "name": "Infiltrato"
+    },
+    "200124": {
+        "info": "Schieramento: svela la prima carta del mazzo avversario e la bandisce.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=reveal>svela</keyword> la prima carta del mazzo avversario e la <keyword=banish>bandisce</keyword>.\n",
+        "name": "Witcher della Vipera"
+    },
+    "200135": {
+        "info": "Fervore.\nOrdine: distrugge un manufatto alleato e danneggia di 2 un'unità. \nRecupero: 2.\n",
+        "infoRaw": "<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: distrugge un manufatto alleato e danneggia di 2 un'unità. \n<keyword=cooldown>Recupero</keyword>: 2.\n",
+        "name": "Pirotecnico"
+    },
+    "200136": {
+        "info": "Schieramento, Retrovie: svela una carta casuale del tuo mazzo. Se è una carta Speciale, questa unità si potenzia di 2.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: <keyword=reveal>svela</keyword> una carta casuale del tuo mazzo. Se è una carta Speciale, questa unità si potenzia di 2.\n",
+        "name": "Alta profetessa"
+    },
+    "200138": {
+        "info": "Si potenzia di 2 ogni volta che giochi una carta Speciale.\n",
+        "infoRaw": "Si potenzia di 2 ogni volta che giochi una carta Speciale.\n",
+        "name": "Saggio"
+    },
+    "200139": {
+        "info": "Schieramento: danneggia di 3 un'unità nemica non appartenente agli Scoia'tael.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 3 un'unità nemica non appartenente agli Scoia'tael.\n",
+        "name": "Pantera"
+    },
+    "200144": {
+        "info": "Schieramento: potenzia di 2 una Bestia alleata. Aumenta di 1 il potenziamento per ogni Bestia presente nel tuo cimitero.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: potenzia di 2 una Bestia alleata. Aumenta di 1 il potenziamento per ogni Bestia presente nel tuo cimitero.\n",
+        "name": "Tuirseach: domatore"
+    },
+    "200145": {
+        "info": "Schieramento: danneggia di 1 un'unità per ogni Nave presente nella tua mano.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 1 un'unità per ogni Nave presente nella tua mano.\n",
+        "name": "Dimun: corsaro"
+    },
+    "200146": {
+        "info": "Schieramento, Prima fila: danneggia di 1 un'unità, poi la potenzia di 2.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: danneggia di 1 un'unità, poi la potenzia di 2.\n",
+        "name": "Dimun: affarista"
+    },
+    "200147": {
+        "info": "Alla fine di ogni turno, cura di 1 tutti gli alleati danneggiati di questa fila.\n",
+        "infoRaw": "Alla fine di ogni turno, <keyword=heal>cura</keyword> di 1 tutti gli alleati danneggiati di questa fila.\n",
+        "name": "Heymaey: flaminica"
+    },
+    "200149": {
+        "info": "Si potenzia di 1 ogni volta che un'unità adiacente viene danneggiata.\n",
+        "infoRaw": "Si potenzia di 1 ogni volta che un'unità adiacente viene danneggiata.\n",
+        "name": "Heymaey: protettore"
+    },
+    "200154": {
+        "info": "Metti in gioco un'unità dal tuo mazzo.\n",
+        "infoRaw": "Metti in gioco un'unità dal tuo mazzo.\n",
+        "name": "Decreto reale"
+    },
+    "200159": {
+        "info": "Ordine: scarta una carta, poi pesca una carta.\nAll'inizio del round, ripristina questa abilità.\nOgni volta che scarti una carta, danneggia di 1 un nemico casuale.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: <keyword=discard>scarta</keyword> una carta, poi pesca una carta.\nAll'inizio del round, ripristina questa abilità.\nOgni volta che <keyword=discard>scarti</keyword> una carta, danneggia di 1 un nemico casuale.\n",
+        "name": "Bran Tuirseach"
+    },
+    "200160": {
+        "info": "Ordine: danneggia di 1 un'unità. \nRecupero: 2.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: danneggia di 1 un'unità. \n<keyword=cooldown>Recupero</keyword>: 2.\n",
+        "name": "Crach an Craite"
+    },
+    "200161": {
+        "info": "Ordine: danneggia casualmente tutti i nemici per un valore complessivo di 8.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: danneggia casualmente tutti i nemici per un valore complessivo di 8.\n",
+        "name": "Harald lo Zoppo"
+    },
+    "200162": {
+        "info": "Ordine: sposta una carta dal campo alla tua mano, poi gioca una carta.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: sposta una carta dal campo alla tua mano, poi gioca una carta.\n",
+        "name": "Emhyr var Emreis"
+    },
+    "200163": {
+        "info": "Ordine: svela una carta casuale presente nel mazzo dell'avversario. Se è Bronzo, potenzia di 3 un alleato. Se è Oro, lo potenzia di 4.\nAll'inizio del round, ripristina questa abilità.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: <keyword=reveal>svela</keyword> una carta casuale presente nel mazzo dell'avversario. Se è Bronzo, potenzia di 3 un alleato. Se è Oro, lo potenzia di 4.\nAll'inizio del round, ripristina questa abilità.\n",
+        "name": "Morvran Voorhis"
+    },
+    "200164": {
+        "info": "Ordine: guarda le prime 3 carte del tuo mazzo e giocane una.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: guarda le prime 3 carte del tuo mazzo e giocane una.\n",
+        "name": "Jan Calveit"
+    },
+    "200165": {
+        "info": "Ordine: gioca una carta Speciale dal tuo cimitero.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: gioca una carta Speciale dal tuo cimitero.\n",
+        "name": "Francesca Findabair"
+    },
+    "200166": {
+        "info": "Ordine: danneggia di 1 un'unità.\nCariche: 3.\nAll'inizio del round, ripristina le Cariche di Eithné.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: danneggia di 1 un'unità.\n<keyword=charge>Cariche</keyword>: 3.\nAll'inizio del round, ripristina le <keyword=charge>Cariche</keyword> di Eithné.\n",
+        "name": "Eithné"
+    },
+    "200167": {
+        "info": "Ordine: sposta un'unità sull'altra sua fila. Se è un nemico, lo danneggia di 2. Se è un alleato, lo potenzia di 2. \nCariche: 3.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: sposta un'unità sull'altra sua fila. Se è un nemico, lo danneggia di 2. Se è un alleato, lo potenzia di 2. \n<keyword=charge>Cariche</keyword>: 3.\n",
+        "name": "Brouver Hoog"
+    },
+    "200168": {
+        "info": "Ordine: potenzia di 1 un alleato e gli fornisce Fervore.\nCariche: 3.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: potenzia di 1 un alleato e gli fornisce <keyword=zeal>Fervore</keyword>.\n<keyword=charge>Cariche</keyword>: 3.\n",
+        "name": "Re Foltest"
+    },
+    "200170": {
+        "info": "Ordine: mette in campo un'unità alleata dal tuo mazzo, la potenzia di 4 e le fornisce Fervore.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: mette in campo un'unità alleata dal tuo mazzo, la potenzia di 4 e le fornisce <keyword=zeal>Fervore</keyword>.\n",
+        "name": "Re Henselt"
+    },
+    "200171": {
+        "info": "Ogni volta che questa unità viene potenziata, danneggia di 1 un nemico casuale.\n",
+        "infoRaw": "Ogni volta che questa unità viene potenziata, danneggia di 1 un nemico casuale.\n",
+        "name": "Tridam: fanteria"
+    },
+    "200177": {
+        "info": "Se questa unità è nel cimitero, viene richiamata su una fila alleata casuale ogni volta che metti in gioco un'unità dal tuo cimitero.\n",
+        "infoRaw": "Se questa unità è nel cimitero, viene <keyword=summon>richiamata</keyword> su una fila alleata casuale ogni volta che metti in gioco un'unità dal tuo cimitero.\n",
+        "name": "Cerys an Craite"
+    },
+    "200209": {
+        "info": "Ordine: danneggia di 2 un nemico.\nRecupero: 4.\n Se in mano hai un Elfo, un Nano o una Driade, riduce il Recupero di 1 (una sola volta per categoria).\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: danneggia di 2 un nemico.\n<keyword=cooldown>Recupero</keyword>: 4.\n Se in mano hai un Elfo, un Nano o una Driade, riduce il <keyword=cooldown>Recupero</keyword> di 1 (una sola volta per categoria).\n",
+        "name": "Saskia"
+    },
+    "200212": {
+        "info": "Schieramento: danneggia di 4 un nemico non danneggiato.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 4 un nemico non danneggiato.\n",
+        "name": "Skjall"
+    },
+    "200218": {
+        "info": "Schieramento, Prima fila: si potenzia di 2 per ogni unità in più che ha in campo il tuo avversario rispetto a te.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: si potenzia di 2 per ogni unità in più che ha in campo il tuo avversario rispetto a te.\n",
+        "name": "Jotunn"
+    },
+    "200220": {
+        "info": "Schieramento, Retrovie: gioca una carta Organismo dal mazzo.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: gioca una carta Organismo dal mazzo.\n",
+        "name": "Whispess: tributo"
+    },
+    "200221": {
+        "info": "Attiva tutte le abilità Ultimo desiderio degli alleati.\n",
+        "infoRaw": "Attiva tutte le abilità <keyword=deathwish>Ultimo desiderio</keyword> degli alleati.\n",
+        "name": "Sacrificio rituale"
+    },
+    "200222": {
+        "info": "Schieramento, Prima fila: consuma un'unità nella tua mano, poi pesca una carta.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: <keyword=consume>consuma</keyword> un'unità nella tua mano, poi pesca una carta.\n",
+        "name": "Weavess: sortilegio"
+    },
+    "200223": {
+        "info": "Ripristina un'unità.\n",
+        "infoRaw": "<keyword=reset>Ripristina</keyword> un'unità.\n",
+        "name": "Mandragora"
+    },
+    "200224": {
+        "info": "Attiva l'abilità Ultimo desiderio di un'unità Bronzo.\n",
+        "infoRaw": "Attiva l'abilità <keyword=deathwish>Ultimo desiderio</keyword> di un'unità Bronzo.\n",
+        "name": "Occhio di corvo"
+    },
+    "200225": {
+        "info": "Sequestra un nemico con al massimo 5 di forza e lo blocca.\n",
+        "infoRaw": "<keyword=seize>Sequestra</keyword> un nemico con al massimo 5 di forza e lo <keyword=lock>blocca</keyword>.\n",
+        "name": "Museruola di Vigo"
+    },
+    "200226": {
+        "info": "Danneggia di 2 tutti i nemici con forza pari oppure danneggia di 2 tutti i nemici con forza dispari.\n",
+        "infoRaw": "Danneggia di 2 tutti i nemici con forza pari oppure danneggia di 2 tutti i nemici con forza dispari.\n",
+        "name": "Aconito"
+    },
+    "200228": {
+        "info": "Imboscata: distrugge la prossima unità messa in gioco dall'avversario prima che se ne attivino le abilità.\n",
+        "infoRaw": "<keyword=ambush>Imboscata</keyword>: distrugge la prossima unità messa in gioco dall'avversario prima che se ne attivino le abilità.\n",
+        "name": "Fossa letale"
+    },
+    "200233": {
+        "info": "Schieramento: per ogni Bestia adiacente che controlli, danneggia di 2 un nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: per ogni Bestia adiacente che controlli, danneggia di 2 un nemico.\n",
+        "name": "Cockatrice"
+    },
+    "200234": {
+        "info": "Schieramento: si potenzia di 4.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: si potenzia di 4.\n",
+        "name": "Fante povero"
+    },
+    "200235": {
+        "info": "Schieramento: distrugge un nemico con Resistenza.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: distrugge un nemico con <keyword=resilient>Resistenza</keyword>.\n",
+        "name": "Lambert: spadaccino"
+    },
+    "200236": {
+        "info": "Prima fila: alla fine di ogni turno, si potenzia di 1.\n",
+        "infoRaw": "<keyword=melee>Prima fila</keyword>: alla fine di ogni turno, si potenzia di 1.\n",
+        "name": "Eskel: esploratore"
+    },
+    "200237": {
+        "info": "Schieramento: potenzia di 1 tutti i Witcher alleati presenti in campo, in mano o nel mazzo.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: potenzia di 1 tutti i Witcher alleati presenti in campo, in mano o nel mazzo.\n",
+        "name": "Vesemir: mentore"
+    },
+    "200293": {
+        "info": "Schieramento, Retrovie: potenzia di 2 un Nano nella tua mano.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: potenzia di 2 un Nano nella tua mano.\n",
+        "name": "Sobillatore nanico"
+    },
+    "200294": {
+        "info": "Schieramento: potenzia di 2 un alleato.\nOgni volta che sveli questa carta, potenzia di 2 un alleato casuale.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: potenzia di 2 un alleato.\nOgni volta che <keyword=reveal>sveli</keyword> questa carta, potenzia di 2 un alleato casuale.\n",
+        "name": "Portabandiera"
+    },
+    "200295": {
+        "info": "Ultimo desiderio: danneggia di 4 un nemico casuale.\n",
+        "infoRaw": "<keyword=deathwish>Ultimo desiderio</keyword>: danneggia di 4 un nemico casuale.\n",
+        "name": "Demone putrefatto"
+    },
+    "200296": {
+        "info": "Schieramento, Prima fila: blocca un'unità nemica.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: <keyword=lock>blocca</keyword> un'unità nemica.\n",
+        "name": "Cavalleria Alba"
+    },
+    "200299": {
+        "info": "Ordine: potenzia di 1 un alleato e gli fornisce Fervore.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: potenzia di 1 un alleato e gli fornisce <keyword=zeal>Fervore</keyword>.\n",
+        "name": "Temeria: tamburino"
+    },
+    "200300": {
+        "info": "Sposta un nemico sull'altra sua fila e lo danneggia di un valore pari al numero di unità su quella fila.\n",
+        "infoRaw": "Sposta un nemico sull'altra sua fila e lo danneggia di un valore pari al numero di unità su quella fila.\n",
+        "name": "Preda da trofeo"
+    },
+    "200301": {
+        "info": "Guarda 2 carte Oro casuali del tuo mazzo, poi giocane una e sposta l'altra in cima al mazzo.\n",
+        "infoRaw": "Guarda 2 carte Oro casuali del tuo mazzo, poi giocane una e sposta l'altra in cima al mazzo.\n",
+        "name": "Naglfar"
+    },
+    "200320": {
+        "info": "Nessuna abilità.\n",
+        "infoRaw": "Nessuna abilità.\n",
+        "name": "Chort"
+    },
+    "200502": {
+        "info": "Alla fine di ogni turno, se hai meno unità del tuo avversario, si potenzia di 1.\n",
+        "infoRaw": "Alla fine di ogni turno, se hai meno unità del tuo avversario, si potenzia di 1.\n",
+        "name": "Troll dei ghiacci"
+    },
+    "200518": {
+        "info": "Schieramento: se in questo turno hai usato l'abilità del tuo comandante, danneggia di 3 un nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: se in questo turno hai usato l'abilità del tuo comandante, danneggia di 3 un nemico.\n",
+        "name": "Venendal: unità élite"
+    },
+    "200519": {
+        "info": "Potenzia di 4 un'unità e ne rimuove il blocco.\n",
+        "infoRaw": "Potenzia di 4 un'unità e ne rimuove il <keyword=lock>blocco</keyword>.\n",
+        "name": "Birra di Mahakam"
+    },
+    "200520": {
+        "info": "Ordine: metti in gioco un manufatto Bronzo dal tuo cimitero.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: metti in gioco un manufatto Bronzo dal tuo cimitero.\n",
+        "name": "Éibhear Hattori"
+    },
+    "200523": {
+        "info": "Schieramento, Prima fila: evoca 2 Mucche a destra e a sinistra di questa unità.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: <keyword=spawn>evoca</keyword> 2 Mucche a destra e a sinistra di questa unità.\n",
+        "name": "Germain Piquant"
+    },
+    "200528": {
+        "info": "Schieramento: danneggia di 3 un nemico, poi si danneggia di 2.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 3 un nemico, poi si danneggia di 2.\n",
+        "name": "Heymaey: lanciera"
+    },
+    "200529": {
+        "info": "Schieramento: si potenzia di 5.\nOgni volta che metti in gioco un Soldato, richiama questa unità dal tuo cimitero su una fila alleata casuale.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: si potenzia di 5.\nOgni volta che metti in gioco un Soldato, <keyword=summon>richiama</keyword> questa unità dal tuo cimitero su una fila alleata casuale.\n",
+        "name": "Ronvid il Petulante"
+    },
+    "200530": {
+        "info": "Fervore.\nOrdine: danneggia di 2 un'unità. \nCariche: 3.\n",
+        "infoRaw": "<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: danneggia di 2 un'unità. \n<keyword=charge>Cariche</keyword>: 3.\n",
+        "name": "Birra contaminata"
+    },
+    "200532": {
+        "info": "Fervore.\nOrdine: potenzia di 3 un'unità. \nRecupero: 2.\n",
+        "infoRaw": "<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: potenzia di 3 un'unità. \n<keyword=cooldown>Recupero</keyword>: 2.\n",
+        "name": "Birra degli antenati"
+    },
+    "200534": {
+        "info": "Prima fila: si potenzia di 2 ogni volta che un alleato viene distrutto durante il tuo turno.\n",
+        "infoRaw": "<keyword=melee>Prima fila</keyword>: si potenzia di 2 ogni volta che un alleato viene distrutto durante il tuo turno.\n",
+        "name": "Trollessa di Vergen"
+    },
+    "200535": {
+        "info": "Ordine, Prima fila: danneggia di 1 un nemico.\nRecupero: 2.\nOgni volta che metti in gioco un Elfo, riduce il Recupero di 1.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>, <keyword=melee>Prima fila</keyword>: danneggia di 1 un nemico.\n<keyword=cooldown>Recupero</keyword>: 2.\nOgni volta che metti in gioco un Elfo, riduce il <keyword=cooldown>Recupero</keyword> di 1.\n",
+        "name": "Spadaccino elfico"
+    },
+    "200539": {
+        "info": "Ordine: consuma un'unità alleata di questa fila.\nRecupero: 1.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: <keyword=consume>consuma</keyword> un'unità alleata di questa fila.\n<keyword=cooldown>Recupero</keyword>: 1.\n",
+        "name": "Scaltrocertola"
+    },
+    "200540": {
+        "info": "Ordine: danneggia di 4 un nemico.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: danneggia di 4 un nemico.\n",
+        "name": "Aedirn: demolitore"
+    },
+    "201523": {
+        "info": "Schieramento: riporta tutte le unità di una fila al loro valore di forza base.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: riporta tutte le unità di una fila al loro valore di forza base.\n",
+        "name": "Geralt: Yrden"
+    },
+    "201559": {
+        "info": "Schieramento, Prima fila: se è presente un Nano su questa fila, richiama su di essa una copia di questa unità dal tuo mazzo.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: se è presente un Nano su questa fila, <keyword=summon>richiama</keyword> su di essa una copia di questa unità dal tuo mazzo.\n",
+        "name": "Volontari di Mahakam"
+    },
+    "201574": {
+        "info": "Ultimo desiderio: danneggia di 2 un'unità nemica casuale.\n",
+        "infoRaw": "<keyword=deathwish>Ultimo desiderio</keyword>: danneggia di 2 un'unità nemica casuale.\n",
+        "name": "Amico di Harald"
+    },
+    "201576": {
+        "info": "Condannata.\n",
+        "infoRaw": "<keyword=doomed>Condannata</keyword>.\n",
+        "name": "Mucca"
+    },
+    "201578": {
+        "info": "Schieramento.\nPrima fila: danneggia casualmente tutte le unità per un valore complessivo di 4.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>.\n<keyword=melee>Prima fila</keyword>: danneggia casualmente tutte le unità per un valore complessivo di 4.\n",
+        "name": "An Craite: predatore"
+    },
+    "201579": {
+        "info": "All'inizio del round, se la Fenice è nel tuo cimitero, viene bandita, poi evoca una Fenice giovane e la richiama su una fila alleata casuale.\n",
+        "infoRaw": "All'inizio del round, se la Fenice è nel tuo cimitero, viene <keyword=banish>bandita</keyword>, poi <keyword=spawn>evoca</keyword> una Fenice giovane e la <keyword=summon>richiama</keyword> su una fila alleata casuale.\n",
+        "name": "Fenice"
+    },
+    "201580": {
+        "info": "All'inizio della partita, disattiva il comandante nemico per l'intera durata della battaglia.\n",
+        "infoRaw": "All'inizio della partita, disattiva il comandante nemico per l'intera durata della battaglia.\n",
+        "name": "Usurpatore"
+    },
+    "201581": {
+        "info": "Crea e gioca una carta Bronzo di Skellige.\n",
+        "infoRaw": "<keyword=create>Crea</keyword> e gioca una carta Bronzo di Skellige.\n",
+        "name": "Pietra Stribog"
+    },
+    "201582": {
+        "info": "Crea e gioca una carta Bronzo dei Regni Settentrionali.\n",
+        "infoRaw": "<keyword=create>Crea</keyword> e gioca una carta Bronzo dei Regni Settentrionali.\n",
+        "name": "Pietra Zoria"
+    },
+    "201583": {
+        "info": "Crea e gioca una carta Bronzo di Nilfgaard.\n",
+        "infoRaw": "<keyword=create>Crea</keyword> e gioca una carta Bronzo di Nilfgaard.\n",
+        "name": "Pietra Dazhbog"
+    },
+    "201584": {
+        "info": "Crea e gioca una carta Bronzo dei Mostri.\n",
+        "infoRaw": "<keyword=create>Crea</keyword> e gioca una carta Bronzo dei Mostri.\n",
+        "name": "Pietra Devana"
+    },
+    "201585": {
+        "info": "Crea e gioca una carta Bronzo degli Scoia'tael.\n",
+        "infoRaw": "<keyword=create>Crea</keyword> e gioca una carta Bronzo degli Scoia'tael.\n",
+        "name": "Pietra Morana"
+    },
+    "201587": {
+        "info": "Distrugge un'unità alleata, poi evoca e mette in gioco una copia base di tale unità.\n",
+        "infoRaw": "Distrugge un'unità alleata, poi <keyword=spawn>evoca</keyword> e mette in gioco una copia base di tale unità.\n",
+        "name": "Collina dei Sussurri"
+    },
+    "201589": {
+        "info": "Ordine: potenzia di 1 tutte le unità nella tua mano.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: potenzia di 1 tutte le unità nella tua mano.\n",
+        "name": "Filavandrel aén Fidháil"
+    },
+    "201595": {
+        "info": "Ordine: danneggia di 8 un'unità.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: danneggia di 8 un'unità.\n",
+        "name": "Principessa Adda"
+    },
+    "201597": {
+        "info": "Ordine: metti in gioco un Guerriero dal tuo cimitero.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: metti in gioco un Guerriero dal tuo cimitero.\n",
+        "name": "Eist Tuirseach"
+    },
+    "201598": {
+        "info": "Potenzia di 1 tutti gli alleati.\n",
+        "infoRaw": "Potenzia di 1 tutti gli alleati.\n",
+        "name": "Talismano d'osso"
+    },
+    "201599": {
+        "info": "Prosperità.\nSchieramento: danneggia di 1 tutti i nemici della fila opposta.\nUltimo desiderio: ripete l'abilità Schieramento.\n",
+        "infoRaw": "<keyword=thrive>Prosperità</keyword>.\n<keyword=deploy>Schieramento</keyword>: danneggia di 1 tutti i nemici della fila opposta.\n<keyword=deathwish>Ultimo desiderio</keyword>: ripete l'abilità <keyword=deploy>Schieramento</keyword>.\n",
+        "name": "Gatto mannaro"
+    },
+    "201600": {
+        "info": "Immune.\n",
+        "infoRaw": "<keyword=immune>Immune</keyword>.\n",
+        "name": "Lupo mannaro"
+    },
+    "201601": {
+        "info": "Scegli un'unità o un manufatto in campo e mettilo in cima al mazzo del suo possessore.\n",
+        "infoRaw": "Scegli un'unità o un manufatto in campo e mettilo in cima al mazzo del suo possessore.\n",
+        "name": "Invocazione di Yennefer"
+    },
+    "201603": {
+        "info": "Schieramento: si trasforma in una copia di un'altra unità in campo senza cambiare di forza.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: si trasforma in una copia di un'altra unità in campo senza cambiare di forza.\n",
+        "name": "Letho: regicida"
+    },
+    "201606": {
+        "info": "Schieramento: danneggia di 1 tutte le altre unità.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 1 tutte le altre unità.\n",
+        "name": "Codabiforca"
+    },
+    "201609": {
+        "info": "Schieramento: se sono presenti 4 o più unità sulla fila opposta, sequestra il nemico meno forte di quella fila.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: se sono presenti 4 o più unità sulla fila opposta, <keyword=seize>sequestra</keyword> il nemico meno forte di quella fila.\n",
+        "name": "Cacciatore (schiavi)"
+    },
+    "201610": {
+        "info": "Schieramento: trasforma un'unità alleata in una Fanteria di schiavi.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: trasforma un'unità alleata in una Fanteria di schiavi.\n",
+        "name": "Fanteria (schiavi)"
+    },
+    "201611": {
+        "info": "Se hai almeno 4 Trappole nel tuo mazzo iniziale, mettine in gioco 2 casuali.\n",
+        "infoRaw": "Se hai almeno 4 Trappole nel tuo mazzo iniziale, mettine in gioco 2 casuali.\n",
+        "name": "Azzardo di Iorveth"
+    },
+    "201612": {
+        "info": "Schieramento: danneggia di 2 un nemico. Aumenta di 1 i danni per ogni unità bloccata.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 2 un nemico. Aumenta di 1 i danni per ogni unità <keyword=lock>bloccata</keyword>.\n",
+        "name": "Schiavista"
+    },
+    "201613": {
+        "info": "Ordine: danneggia di 1 un nemico. \nCariche: 5.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: danneggia di 1 un nemico. \n<keyword=charge>Cariche</keyword>: 5.\n",
+        "name": "Saesenthessis: fuoco"
+    },
+    "201615": {
+        "info": "Guarda un Nano, una Driade e un Elfo a caso presenti nel tuo mazzo e mettine in gioco uno.\n",
+        "infoRaw": "Guarda un Nano, una Driade e un Elfo a caso presenti nel tuo mazzo e mettine in gioco uno.\n",
+        "name": "Consiglio di Isengrim"
+    },
+    "201616": {
+        "info": "Ordine: scambia la forza di questa unità con quella di un nemico.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: scambia la forza di questa unità con quella di un nemico.\n",
+        "name": "Dissimulatore"
+    },
+    "201617": {
+        "info": "Schieramento: svela un'unità casuale in entrambi i mazzi. Se la tua è più forte, questa carta si potenzia di 2.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=reveal>svela</keyword> un'unità casuale in entrambi i mazzi. Se la tua è più forte, questa carta si potenzia di 2.\n",
+        "name": "Recluta"
+    },
+    "201618": {
+        "info": "Ordine, Prima fila: duella con un'unità nemica.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>, <keyword=melee>Prima fila</keyword>: <keyword=duel>duella</keyword> con un'unità nemica.\n",
+        "name": "Seltkirk di Gulet"
+    },
+    "201619": {
+        "info": "Potenzia di 2 un Soldato Bronzo e riattiva la sua abilità Schieramento.\n",
+        "infoRaw": "Potenzia di 2 un Soldato Bronzo e riattiva la sua abilità <keyword=deploy>Schieramento</keyword>.\n",
+        "name": "Unguento"
+    },
+    "201620": {
+        "info": "Ordine, Prima fila: se controlli Spada di Vandergrift, danneggia di 2 un'unità, altrimenti la danneggia di 1.\nRecupero: 1.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>, <keyword=melee>Prima fila</keyword>: se controlli Spada di Vandergrift, danneggia di 2 un'unità, altrimenti la danneggia di 1.\n<keyword=cooldown>Recupero</keyword>: 1.\n",
+        "name": "Vandergrift"
+    },
+    "201621": {
+        "info": "Ordine: danneggia un'unità di un valore pari alle Cariche di Kiyan.\nCariche: 1.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: danneggia un'unità di un valore pari alle <keyword=charge>Cariche</keyword> di Kiyan.\n<keyword=charge>Cariche</keyword>: 1.\n",
+        "name": "Kiyan"
+    },
+    "201622": {
+        "info": "Schieramento: si potenzia di 4 se viene messa in gioco dal mazzo.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: si potenzia di 4 se viene messa in gioco dal mazzo.\n",
+        "name": "Kaedwen: cavaliere"
+    },
+    "201623": {
+        "info": "Schieramento, Prima fila: si potenzia di 1 per ogni unità danneggiata.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: si potenzia di 1 per ogni unità danneggiata.\n",
+        "name": "Cinghiale gigante"
+    },
+    "201624": {
+        "info": "Ordine: danneggia di 1 un'unità. Se essa viene distrutta, evoca una copia base di Kaedwen: revenant e la richiama su questa fila.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: danneggia di 1 un'unità. Se essa viene distrutta, <keyword=spawn>evoca</keyword> una copia base di Kaedwen: revenant e la <keyword=summon>richiama</keyword> su questa fila.\n",
+        "name": "Kaedwen: revenant"
+    },
+    "201625": {
+        "info": "Schieramento: trasforma un'unità alleata diversa dal Cavaliere maledetto in quest'ultimo senza cambiarne la forza.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: trasforma un'unità alleata diversa dal Cavaliere maledetto in quest'ultimo senza cambiarne la forza.\n",
+        "name": "Cavaliere maledetto"
+    },
+    "201626": {
+        "info": "All'inizio del turno, se questa unità è l'unica nel tuo cimitero, la richiama su una fila alleata casuale.\n",
+        "infoRaw": "All'inizio del turno, se questa unità è l'unica nel tuo cimitero, la <keyword=summon>richiama</keyword> su una fila alleata casuale.\n",
+        "name": "Ciri: esplosione"
+    },
+    "201627": {
+        "info": "Condannata.\nSe il tuo mazzo iniziale non contiene carte doppie, manda Empørio all'avventura.\n",
+        "infoRaw": "<keyword=doomed>Condannata</keyword>.\nSe il tuo mazzo iniziale non contiene carte doppie, manda Empørio all'avventura.\n",
+        "name": "Empørio: ferie"
+    },
+    "201628": {
+        "info": "Danneggia di 1 un nemico per ogni Spettro alleato.\n",
+        "infoRaw": "Danneggia di 1 un nemico per ogni Spettro alleato.\n",
+        "name": "Magia proibita"
+    },
+    "201630": {
+        "info": "Schieramento: danneggia di 3 un nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 3 un nemico.\n",
+        "name": "Maga dannata"
+    },
+    "201631": {
+        "info": "Schieramento: scegli un'unità nella tua mano, dopodiché potenzia la presente carta di un valore pari al numero di unità nella tua mano che condividono la categoria primaria dell'unità scelta.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: scegli un'unità nella tua mano, dopodiché potenzia la presente carta di un valore pari al numero di unità nella tua mano che condividono la categoria primaria dell'unità scelta.\n",
+        "name": "Mutaforma"
+    },
+    "201632": {
+        "info": "Fervore.\nOrdine: danneggia di 1 un nemico.\nRecupero: 1.\nOgni volta che Sihil distrugge un nemico, aumenta di 1 i danni dell'abilità Ordine di Sihil finché non viene rimosso dal campo di battaglia.\n",
+        "infoRaw": "<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: danneggia di 1 un nemico.\n<keyword=cooldown>Recupero</keyword>: 1.\nOgni volta che Sihil distrugge un nemico, aumenta di 1 i danni dell'abilità <keyword=order>Ordine</keyword> di Sihil finché non viene rimosso dal campo di battaglia.\n",
+        "name": "Sihil"
+    },
+    "201633": {
+        "info": "Fervore.\nOrdine: danneggia un nemico di un valore pari alle Cariche di Flagello sanguinario, poi perde tutte le Cariche.\nCariche: 1.\nOgni volta che un'unità alleata ottiene Cariche, questa unità ne ottiene la stessa quantità.\n",
+        "infoRaw": "<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: danneggia un nemico di un valore pari alle <keyword=charge>Cariche</keyword> di Flagello sanguinario, poi perde tutte le <keyword=charge>Cariche</keyword>.\n<keyword=charge>Cariche</keyword>: 1.\nOgni volta che un'unità alleata ottiene <keyword=charge>Cariche</keyword>, questa unità ne ottiene la stessa quantità.\n",
+        "name": "Flagello sanguinario"
+    },
+    "201634": {
+        "info": "Danneggia di 8 un'unità.\n",
+        "infoRaw": "Danneggia di 8 un'unità.\n",
+        "name": "Frana di Bekker"
+    },
+    "201635": {
+        "info": "Distrugge l'unità con il valore di forza base più alto.\n",
+        "infoRaw": "Distrugge l'unità con il valore di forza base più alto.\n",
+        "name": "Caccia gloriosa"
+    },
+    "201636": {
+        "info": "Schieramento: per ogni manufatto che controlli, danneggia di 1 un nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: per ogni manufatto che controlli, danneggia di 1 un nemico.\n",
+        "name": "Mezzelfo cacciatore"
+    },
+    "201637": {
+        "info": "Applica questo effetto a una fila nemica:\nDopo 3 turni, all'inizio del turno, crea un'esplosione che danneggia di 3 tutte le unità di questa fila.\n",
+        "infoRaw": "Applica questo effetto a una fila nemica:\nDopo 3 turni, all'inizio del turno, crea un'esplosione che danneggia di 3 tutte le unità di questa fila.\n",
+        "name": "Sogno di drago"
+    },
+    "201638": {
+        "info": "Si potenzia di 2 ogni volta che scatta una Trappola alleata.\n",
+        "infoRaw": "Si potenzia di 2 ogni volta che scatta una Trappola alleata.\n",
+        "name": "Elfa esploratrice"
+    },
+    "201639": {
+        "info": "Potenzia di 10 un'unità.\n",
+        "infoRaw": "Potenzia di 10 un'unità.\n",
+        "name": "Guarnigione"
+    },
+    "201644": {
+        "info": "Ordine: cura di 1 un alleato.\nCariche: 1.\nAggiunge 1 alle proprie Cariche ogni volta che un'unità adiacente viene danneggiata.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: <keyword=heal>cura</keyword> di 1 un alleato.\n<keyword=charge>Cariche</keyword>: 1.\nAggiunge 1 alle proprie <keyword=charge>Cariche</keyword> ogni volta che un'unità adiacente viene danneggiata.\n",
+        "name": "Yoana"
+    },
+    "201645": {
+        "info": "Imboscata: dopo 3 turni, all'inizio del turno, danneggia di 2 tutte le unità della fila avversaria più popolata. \nFervore.\nOrdine: scatta e danneggia di 1 tutte le unità di una fila.\n",
+        "infoRaw": "<keyword=ambush>Imboscata</keyword>: dopo 3 turni, all'inizio del turno, danneggia di 2 tutte le unità della fila avversaria più popolata. \n<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: scatta e danneggia di 1 tutte le unità di una fila.\n",
+        "name": "Trappola mortale"
+    },
+    "201646": {
+        "info": "Schieramento, Retrovie: sposta fino a 3 carte dal tuo mazzo al tuo cimitero.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: sposta fino a 3 carte dal tuo mazzo al tuo cimitero.\n",
+        "name": "Derran"
+    },
+    "201647": {
+        "info": "Danneggia di 4 un nemico e lo sposta sull'altra fila.\n",
+        "infoRaw": "Danneggia di 4 un nemico e lo sposta sull'altra fila.\n",
+        "name": "Raffica di pietre"
+    },
+    "201648": {
+        "info": "Ogni volta che metti in gioco un Soldato su questa fila, lo potenzia di 2.\n",
+        "infoRaw": "Ogni volta che metti in gioco un Soldato su questa fila, lo potenzia di 2.\n",
+        "name": "Spada di Vandergrift"
+    },
+    "201650": {
+        "info": "Danneggia di 1 ogni unità non appartenente alla categoria Spettro. Se una di esse viene distrutta, ripeti l'abilità una volta.\n",
+        "infoRaw": "Danneggia di 1 ogni unità non appartenente alla categoria Spettro. Se una di esse viene distrutta, ripeti l'abilità una volta.\n",
+        "name": "Inferno di Sabrina"
+    },
+    "201653": {
+        "info": "Imboscata: quando l'avversario passa, potenzia di 4 le unità adiacenti.\n",
+        "infoRaw": "<keyword=ambush>Imboscata</keyword>: quando l'avversario passa, potenzia di 4 le unità adiacenti.\n",
+        "name": "Corno di Mahakam"
+    },
+    "201656": {
+        "info": "Fervore.\nOrdine: danneggia di 1 un'unità. \nRecupero: 1.\n",
+        "infoRaw": "<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: danneggia di 1 un'unità. \n<keyword=cooldown>Recupero</keyword>: 1.\n",
+        "name": "Lancia meravigliosa"
+    },
+    "201657": {
+        "info": "Danneggia di 6 un nemico o potenzia di 6 un alleato.\n",
+        "infoRaw": "Danneggia di 6 un nemico o potenzia di 6 un alleato.\n",
+        "name": "Parassita"
+    },
+    "201659": {
+        "info": "Metti in gioco una Macchina da guerra Bronzo dal tuo cimitero.\n",
+        "infoRaw": "Metti in gioco una Macchina da guerra Bronzo dal tuo cimitero.\n",
+        "name": "Verricello"
+    },
+    "201660": {
+        "info": "Ultimo desiderio: alla fine del turno, richiama questa unità dal tuo cimitero su una fila alleata casuale.\n",
+        "infoRaw": "<keyword=deathwish>Ultimo desiderio</keyword>: alla fine del turno, <keyword=summon>richiama</keyword> questa unità dal tuo cimitero su una fila alleata casuale.\n",
+        "name": "Ruehin"
+    },
+    "201662": {
+        "info": "Fervore.\nOrdine: distrugge sé e tutte le unità con forza pari alle Cariche di Cadaverina.\nCariche: 0.\nAll'inizio di ogni turno e ogni volta che giochi una carta Strategia, aggiunge 1 alle proprie Cariche.\n",
+        "infoRaw": "<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: distrugge sé e tutte le unità con forza pari alle <keyword=charge>Cariche</keyword> di Cadaverina.\n<keyword=charge>Cariche</keyword>: 0.\nAll'inizio di ogni turno e ogni volta che giochi una carta Strategia, aggiunge 1 alle proprie <keyword=charge>Cariche</keyword>.\n",
+        "name": "Cadaverina"
+    },
+    "201664": {
+        "info": "Schieramento: attiva l'abilità Schieramento dei Soldati Bronzo adiacenti.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: attiva l'abilità <keyword=deploy>Schieramento</keyword> dei Soldati Bronzo adiacenti.\n",
+        "name": "Vrygheff"
+    },
+    "201676": {
+        "info": "Ordine: danneggia di 1 un'unità. \nRecupero: 1.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: danneggia di 1 un'unità. \n<keyword=cooldown>Recupero</keyword>: 1.\n",
+        "name": "Pavko Gale"
+    },
+    "201696": {
+        "info": "Ordine: potenzia di 4 l'unità alla sua sinistra oppure fornisce Immunità all'unità alla sua destra.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: potenzia di 4 l'unità alla sua sinistra oppure fornisce <keyword=immune>Immunità</keyword> all'unità alla sua destra.\n",
+        "name": "Paulie Dahlberg"
+    },
+    "201697": {
+        "info": "La prossima volta che un nemico viene potenziato, lo distrugge e si autodistrugge.\n",
+        "infoRaw": "La prossima volta che un nemico viene potenziato, lo distrugge e si autodistrugge.\n",
+        "name": "Sangue nero"
+    },
+    "201698": {
+        "info": "Schieramento, Prima fila: consuma un'unità dal cimitero avversario.\nSchieramento, Retrovie: consuma un'unità dal tuo cimitero.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: <keyword=consume>consuma</keyword> un'unità dal cimitero avversario.\n<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: <keyword=consume>consuma</keyword> un'unità dal tuo cimitero.\n",
+        "name": "Ozzrel"
+    },
+    "201700": {
+        "info": "Ultimo desiderio: potenzia di 4 l'alleato più forte.\n",
+        "infoRaw": "<keyword=deathwish>Ultimo desiderio</keyword>: potenzia di 4 l'alleato più forte.\n",
+        "name": "Troll del ponte"
+    },
+    "201701": {
+        "info": "Ordine: consuma un'unità alleata.\nCariche: 2.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: <keyword=consume>consuma</keyword> un'unità alleata.\n<keyword=charge>Cariche</keyword>: 2.\n",
+        "name": "Barbegazi"
+    },
+    "201704": {
+        "info": "Schieramento: rimuove un effetto su fila da una tua fila.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: rimuove un effetto su fila da una tua fila.\n",
+        "name": "Esploratore"
+    },
+    "201709": {
+        "info": "Danneggia di 2 tutti i nemici con forza dispari.\n",
+        "infoRaw": "Danneggia di 2 tutti i nemici con forza dispari.\n",
+        "name": "Uniformità"
+    },
+    "201710": {
+        "info": "Danneggia di 2 tutti i nemici con forza pari.\n",
+        "infoRaw": "Danneggia di 2 tutti i nemici con forza pari.\n",
+        "name": "Intralcio"
+    },
+    "201725": {
+        "info": "Manda Empørio all'accademia per ragazzi di Ban Ard.\n",
+        "infoRaw": "Manda Empørio all'accademia per ragazzi di Ban Ard.\n",
+        "name": "Empørio: mago"
+    },
+    "201726": {
+        "info": "Schieramento: trasforma la carta all'estrema destra della mano di entrambi i giocatori in una carta Speciale casuale.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: trasforma la carta all'estrema destra della mano di entrambi i giocatori in una carta Speciale casuale.\n",
+        "name": "Empørio: mago"
+    },
+    "201727": {
+        "info": "Schieramento: sposta un'unità casuale sulla fila opposta.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: sposta un'unità casuale sulla fila opposta.\n",
+        "name": "Empørio: mago"
+    },
+    "201728": {
+        "info": "Schieramento: applica un effetto su fila casuale su tutte le file.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: applica un effetto su fila casuale su tutte le file.\n",
+        "name": "Empørio: mago"
+    },
+    "201729": {
+        "info": "Schieramento: danneggia casualmente tutte le altre unità in campo per un valore complessivo di 13.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia casualmente tutte le altre unità in campo per un valore complessivo di 13.\n",
+        "name": "Empørio: mago"
+    },
+    "201730": {
+        "info": "Schieramento: evoca e richiama un'unità casuale su una fila casuale in entrambe le metà di campo.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> e <keyword=summon>richiama</keyword> un'unità casuale su una fila casuale in entrambe le metà di campo.\n",
+        "name": "Empørio: mago"
+    },
+    "201731": {
+        "info": "Manda Empørio nelle foreste di Dol Blathanna.\n",
+        "infoRaw": "Manda Empørio nelle foreste di Dol Blathanna.\n",
+        "name": "Empørio: cacciatore"
+    },
+    "201732": {
+        "info": "Schieramento: gioca una carta casuale dal tuo mazzo.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: gioca una carta casuale dal tuo mazzo.\n",
+        "name": "Empørio: cacciatore"
+    },
+    "201733": {
+        "info": "Schieramento: distribuisce casualmente 9 danni tra tutte le unità nemiche.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: distribuisce casualmente 9 danni tra tutte le unità nemiche.\n",
+        "name": "Empørio: cacciatore"
+    },
+    "201734": {
+        "info": "Schieramento: potenzia di una quantità compresa tra 1 e 2 tutte le unità nella tua mano.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: potenzia di una quantità compresa tra 1 e 2 tutte le unità nella tua mano.\n",
+        "name": "Empørio: cacciatore"
+    },
+    "201735": {
+        "info": "Schieramento: distrugge un nemico casuale.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: distrugge un nemico casuale.\n",
+        "name": "Empørio: cacciatore"
+    },
+    "201737": {
+        "info": "Manda Empørio all'Accademia Militare della corte imperiale.\n",
+        "infoRaw": "Manda Empørio all'Accademia Militare della corte imperiale.\n",
+        "name": "Empørio: cavaliere"
+    },
+    "201738": {
+        "info": "Schieramento: danneggia di 4 un nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 4 un nemico.\n",
+        "name": "Empørio: cavaliere"
+    },
+    "201739": {
+        "info": "Schieramento: blocca un'unità.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=lock>blocca</keyword> un'unità.\n",
+        "name": "Empørio: cavaliere"
+    },
+    "201740": {
+        "info": "Schieramento: ottiene Resistenza.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: ottiene <keyword=resilient>Resistenza</keyword>.\n",
+        "name": "Empørio: cavaliere"
+    },
+    "201741": {
+        "info": "Schieramento: distrugge un manufatto nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: distrugge un manufatto nemico.\n",
+        "name": "Empørio: cavaliere"
+    },
+    "201743": {
+        "info": "Ogni volta che un'unità viene distrutta durante il tuo turno, evoca un Arachas fuco e lo richiama su una fila alleata casuale.\n",
+        "infoRaw": "Ogni volta che un'unità viene distrutta durante il tuo turno, <keyword=spawn>evoca</keyword> un Arachas fuco e lo <keyword=summon>richiama</keyword> su una fila alleata casuale.\n",
+        "name": "Arachas regina"
+    },
+    "201744": {
+        "info": "Riporta un'unità alla sua forza base.\n",
+        "infoRaw": "Riporta un'unità alla sua forza base.\n",
+        "name": "Spore"
+    },
+    "201748": {
+        "info": "Ordine, Prima fila: danneggia di 1 un nemico e tutti i nemici che hanno la sua stessa forza. \nCariche: 1.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>, <keyword=melee>Prima fila</keyword>: danneggia di 1 un nemico e tutti i nemici che hanno la sua stessa forza. \n<keyword=charge>Cariche</keyword>: 1.\n",
+        "name": "Orgoglio di Foltest"
+    },
+    "201749": {
+        "info": "Potenzia di 2 tutte le unità di una fila.\n",
+        "infoRaw": "Potenzia di 2 tutte le unità di una fila.\n",
+        "name": "Schiuma dorata"
+    },
+    "201753": {
+        "info": "Schieramento: potenzia di 2 un alleato.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: potenzia di 2 un alleato.\n",
+        "name": "Milizia contadina"
+    },
+    "201772": {
+        "info": "Schieramento, Prima fila: se la forza di un nemico è multipla di 3, lo distrugge, altrimenti lo danneggia di 3.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: se la forza di un nemico è multipla di 3, lo distrugge, altrimenti lo danneggia di 3.\n",
+        "name": "Geralt: professionale"
+    },
+    "201773": {
+        "info": "Schieramento, Retrovie: crea e gioca una carta Speciale Bronzo proveniente dal mazzo attuale di uno dei due giocatori.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: <keyword=create>crea</keyword> e gioca una carta Speciale Bronzo proveniente dal mazzo attuale di uno dei due giocatori.\n",
+        "name": "Triss: telecinesi"
+    },
+    "201774": {
+        "info": "Schieramento: distrugge una Bestia nemica.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: distrugge una Bestia nemica.\n",
+        "name": "Dandelion: vanità"
+    },
+    "201776": {
+        "info": "Schieramento: pesca una carta, poi gioca una carta.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: pesca una carta, poi gioca una carta.\n",
+        "name": "Dandelion: poeta"
+    },
+    "201777": {
+        "info": "Ordine: sequestra un nemico con forza pari o inferiore alle Cariche di Roche: spietato, poi perde tutte le Cariche.\nCariche: 0. \nAll'inizio di ogni turno, aggiunge 1 alle proprie Cariche.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: <keyword=seize>sequestra</keyword> un nemico con forza pari o inferiore alle <keyword=charge>Cariche</keyword> di Roche: spietato, poi perde tutte le <keyword=charge>Cariche</keyword>.\n<keyword=charge>Cariche</keyword>: 0. \nAll'inizio di ogni turno, aggiunge 1 alle proprie <keyword=charge>Cariche</keyword>.\n",
+        "name": "Roche: spietato"
+    },
+    "201779": {
+        "info": "Rimescola un'unità alleata nel tuo mazzo, poi metti in gioco da esso un'unità che ha la stessa categoria primaria e potenziala di 3.\n",
+        "infoRaw": "Rimescola un'unità alleata nel tuo mazzo, poi metti in gioco da esso un'unità che ha la stessa categoria primaria e potenziala di 3.\n",
+        "name": "Richiamo della foresta"
+    },
+    "201780": {
+        "info": "Schieramento, Retrovie: svela un'unità casuale del tuo mazzo, poi potenzia un alleato di una quantità pari alla forza dell'unità svelata.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: <keyword=reveal>svela</keyword> un'unità casuale del tuo mazzo, poi potenzia un alleato di una quantità pari alla forza dell'unità svelata.\n",
+        "name": "Yennefer: divinazione"
+    },
+    "201781": {
+        "info": "Ordine: se controlli l'unità più forte in campo, danneggia di 2 un'unità. \nRecupero: 1.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: se controlli l'unità più forte in campo, danneggia di 2 un'unità. \n<keyword=cooldown>Recupero</keyword>: 1.\n",
+        "name": "Imlerith"
+    },
+    "201817": {
+        "info": "Schieramento, Prima fila: entrambi i giocatori richiamano dal mazzo sulla fila del combattimento corpo a corpo l'unità con il costo di reclutamento più alto.\nSchieramento, Retrovie: entrambi i giocatori richiamano dal mazzo sulla fila del combattimento a distanza l'unità con il costo di reclutamento più basso.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: entrambi i giocatori <keyword=summon>richiamano</keyword> dal mazzo sulla fila del combattimento corpo a corpo l'unità con il costo di reclutamento più alto.\n<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: entrambi i giocatori <keyword=summon>richiamano</keyword> dal mazzo sulla fila del combattimento a distanza l'unità con il costo di reclutamento più basso.\n",
+        "name": "Ihuarraquax"
+    },
+    "202044": {
+        "info": "Schieramento, Prima fila: danneggia di 3 un nemico e tutte le sue copie.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: danneggia di 3 un nemico e tutte le sue copie.\n",
+        "name": "Gerwin lo Zoppo"
+    },
+    "202054": {
+        "info": "Distrugge 2 unità alleate dello stesso colore, poi crea e mette in gioco un'unità di quel colore.\n",
+        "infoRaw": "Distrugge 2 unità alleate dello stesso colore, poi <keyword=create>crea</keyword> e mette in gioco un'unità di quel colore.\n",
+        "name": "Zuppa d'elfi"
+    },
+    "202064": {
+        "info": "Ordine, Prima fila: danneggia di 2 un nemico.\nCariche: 1.\nAggiunge 1 alle proprie Cariche ogni volta che metti in gioco un Witcher.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>, <keyword=melee>Prima fila</keyword>: danneggia di 2 un nemico.\n<keyword=charge>Cariche</keyword>: 1.\nAggiunge 1 alle proprie <keyword=charge>Cariche</keyword> ogni volta che metti in gioco un Witcher.\n",
+        "name": "Ivo di Belhaven"
+    },
+    "202098": {
+        "info": "Schieramento: ottiene Fervore se in mano hai un Drago.\nOrdine: distrugge un'unità con almeno 8 di forza.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: ottiene <keyword=zeal>Fervore</keyword> se in mano hai un Drago.\n<keyword=order>Ordine</keyword>: distrugge un'unità con almeno 8 di forza.\n",
+        "name": "Eyck di Denesle"
+    },
+    "202099": {
+        "info": "Schieramento, Prima fila: si potenzia di una quantità casuale compresa tra 0 e 11.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: si potenzia di una quantità casuale compresa tra 0 e 11.\n",
+        "name": "Gascon"
+    },
+    "202100": {
+        "info": "Spia.\nSchieramento: gioca una carta Oro casuale dal tuo mazzo.\n",
+        "infoRaw": "<keyword=spying>Spia</keyword>.\n<keyword=deploy>Schieramento</keyword>: gioca una carta Oro casuale dal tuo mazzo.\n",
+        "name": "Principe Villem"
+    },
+    "202101": {
+        "info": "Alla fine di ogni turno, si sposta sulla fila con l'unità più forte in campo.\n",
+        "infoRaw": "Alla fine di ogni turno, si sposta sulla fila con l'unità più forte in campo.\n",
+        "name": "Conte Caldwell"
+    },
+    "202102": {
+        "info": "Schieramento, Prima fila: bandisce tutte le carte del cimitero dell'avversario.\nSchieramento, Retrovie: bandisce tutte le carte del tuo cimitero.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: <keyword=banish>bandisce</keyword> tutte le carte del cimitero dell'avversario.\n<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: <keyword=banish>bandisce</keyword> tutte le carte del tuo cimitero.\n",
+        "name": "Xavier Lemmens"
+    },
+    "202103": {
+        "info": "Prima fila: alla fine di ogni turno, distrugge l'unità meno forte nella metà di campo più popolata.\n",
+        "infoRaw": "<keyword=melee>Prima fila</keyword>: alla fine di ogni turno, distrugge l'unità meno forte nella metà di campo più popolata.\n",
+        "name": "Keltullis"
+    },
+    "202104": {
+        "info": "Immune.\n",
+        "infoRaw": "<keyword=immune>Immune</keyword>.\n",
+        "name": "Terrorizzatore: sveglio"
+    },
+    "202105": {
+        "info": "Schieramento: distrugge tutte le unità che hanno 1 di forza. Per ogni unità distrutta, si potenzia di 2.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: distrugge tutte le unità che hanno 1 di forza. Per ogni unità distrutta, si potenzia di 2.\n",
+        "name": "Glustyworp"
+    },
+    "202106": {
+        "info": "Schieramento, Prima fila: ottiene Resistenza.\nSchieramento, Retrovie: ottiene Immunità.\nOgni volta che metti in gioco un Nano, si potenzia di 1.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: ottiene <keyword=resilient>Resistenza</keyword>.\n<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: ottiene <keyword=immune>Immunità</keyword>.\nOgni volta che metti in gioco un Nano, si potenzia di 1.\n",
+        "name": "Gabor Zigrin"
+    },
+    "202107": {
+        "info": "Schieramento: potenzia di 2 un Elfo, un Nano e una Driade alleati.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: potenzia di 2 un Elfo, un Nano e una Driade alleati.\n",
+        "name": "Barnabas Beckenbauer"
+    },
+    "202108": {
+        "info": "Ordine, Retrovie: guarda la prima carta di entrambi i mazzi. Tienine una e dai l'altra all'avversario.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>, <keyword=ranged>Retrovie</keyword>: guarda la prima carta di entrambi i mazzi. Tienine una e dai l'altra all'avversario.\n",
+        "name": "Isbel di Hagge"
+    },
+    "202109": {
+        "info": "Schieramento, Retrovie: sostituisci tutte le carte del tuo cimitero con quelle del tuo mazzo.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=ranged>Retrovie</keyword>: sostituisci tutte le carte del tuo cimitero con quelle del tuo mazzo.\n",
+        "name": "Gudmund l'Insolente"
+    },
+    "202110": {
+        "info": "Prima fila: si potenzia di 1 ogni volta che un nemico viene danneggiato.\n",
+        "infoRaw": "<keyword=melee>Prima fila</keyword>: si potenzia di 1 ogni volta che un nemico viene danneggiato.\n",
+        "name": "Dagur Due Spade"
+    },
+    "202111": {
+        "info": "Schieramento: guarda le prime 3 carte del mazzo avversario e spostane 1 nel suo cimitero.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: guarda le prime 3 carte del mazzo avversario e spostane 1 nel suo cimitero.\n",
+        "name": "Traheaern var Vdyffir"
+    },
+    "202112": {
+        "info": "Ogni volta che viene messo in gioco un alleato dotato di Cariche, aggiunge 1 alle sue Cariche.\n",
+        "infoRaw": "Ogni volta che viene messo in gioco un alleato dotato di <keyword=charge>Cariche</keyword>, aggiunge 1 alle sue <keyword=charge>Cariche</keyword>.\n",
+        "name": "Reynard Odo"
+    },
+    "202113": {
+        "info": "Schieramento: danneggia un nemico di un valore pari al numero di Umani alleati.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia un nemico di un valore pari al numero di Umani alleati.\n",
+        "name": "Rayla la Nera"
+    },
+    "202114": {
+        "info": "Condannata. Fervore.\nOrdine: si trasforma in una Fenice.\n",
+        "infoRaw": "<keyword=doomed>Condannata</keyword>. <keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: si trasforma in una Fenice.\n",
+        "name": "Fenice giovane"
+    },
+    "202121": {
+        "info": "Schieramento: sposta un'unità sull'altra fila.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: sposta un'unità sull'altra fila.\n",
+        "name": "Randagi di Spalla"
+    },
+    "202122": {
+        "info": "Schieramento: distrugge un manufatto nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: distrugge un manufatto nemico.\n",
+        "name": "Trasportatore di bombe"
+    },
+    "202148": {
+        "info": "Ordine: aggiungi 1 alle Cariche di un'unità. \nRecupero: 2.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: aggiungi 1 alle <keyword=charge>Cariche</keyword> di un'unità. \n<keyword=cooldown>Recupero</keyword>: 2.\n",
+        "name": "Re Demavend III"
+    },
+    "202149": {
+        "info": "Ordine: metti in gioco un manufatto casuale dal mazzo avversario.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: metti in gioco un manufatto casuale dal mazzo avversario.\n",
+        "name": "Angoulême"
+    },
+    "202150": {
+        "info": "Fervore.\nOrdine, Retrovie: potenzia di 1 un'unità. \nCariche: 1.\nAggiunge 1 alle proprie Cariche ogni volta che uno dei due giocatori gioca una carta.\n",
+        "infoRaw": "<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>, <keyword=ranged>Retrovie</keyword>: potenzia di 1 un'unità. \n<keyword=charge>Cariche</keyword>: 1.\nAggiunge 1 alle proprie <keyword=charge>Cariche</keyword> ogni volta che uno dei due giocatori gioca una carta.\n",
+        "name": "Vysogota di Corvo"
+    },
+    "202151": {
+        "info": "Schieramento, Prima fila: distrugge un'unità nemica con Ordine.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: distrugge un'unità nemica con <keyword=order>Ordine</keyword>.\n",
+        "name": "Falibor"
+    },
+    "202152": {
+        "info": "Se alla fine del turno questa unità è potenziata, potenzia di 1 le unità adiacenti.\n",
+        "infoRaw": "Se alla fine del turno questa unità è potenziata, potenzia di 1 le unità adiacenti.\n",
+        "name": "Anna Strenger"
+    },
+    "202153": {
+        "info": "Si potenzia di 1 ogni volta che metti in gioco un'unità dotata di Ordine.\n",
+        "infoRaw": "Si potenzia di 1 ogni volta che metti in gioco un'unità dotata di <keyword=order>Ordine</keyword>.\n",
+        "name": "Lyria: cavalleria"
+    },
+    "202154": {
+        "info": "Schieramento: danneggia di 1 un nemico. Se viene distrutto, danneggia di 3 un altro nemico.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 1 un nemico. Se viene distrutto, danneggia di 3 un altro nemico.\n",
+        "name": "Rivia: picchiere"
+    },
+    "202155": {
+        "info": "Ordine: danneggia di 1 un'unità. \nCariche: 1.\nOgni volta che metti in gioco una carta con Ordine, aggiunge 1 alle proprie Cariche.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: danneggia di 1 un'unità. \n<keyword=charge>Cariche</keyword>: 1.\nOgni volta che metti in gioco una carta con <keyword=order>Ordine</keyword>, aggiunge 1 alle proprie <keyword=charge>Cariche</keyword>.\n",
+        "name": "Lyria: arbalesta"
+    },
+    "202156": {
+        "info": "Ordine: se Lyria: lanzichenecco è potenziata, danneggia di 3 un'unità, altrimenti la danneggia di 1.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: se Lyria: lanzichenecco è potenziata, danneggia di 3 un'unità, altrimenti la danneggia di 1.\n",
+        "name": "Lyria: lanzichenecco"
+    },
+    "202161": {
+        "info": "Schieramento: si potenzia di 1 per ogni alleato potenziato.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: si potenzia di 1 per ogni alleato potenziato.\n",
+        "name": "Lyria: falciatore"
+    }
+}

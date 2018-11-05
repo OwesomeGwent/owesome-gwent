@@ -41,7 +41,7 @@ class CardList extends Component<ICardListProps> {
     const { body } = document;
     if (
       !this._debounce &&
-      window.scrollY + window.innerHeight >= body.scrollHeight
+      window.scrollY + window.innerHeight >= body.scrollHeight - 100
     ) {
       this._debounce = true;
       setTimeout(this.initDebounce, 1000);

@@ -1,17 +1,18 @@
 export interface ICard {
-  cardType: string;
-  faction: string;
-  ingameId: string;
-  strength: number;
-  mulligans: number;
-  provision: number;
+  cardType: string; // unit, leader, spell, artifact ...
+  type: string; // bronze, gold, leader ...
+  faction: string; // mon, sco, nor ...
+  ingameId: string; // 실제 id
+  strength: number; // 방어력?
+  mulligans: number; // 교체 횟수
+  provision: number; // 코스트
   variations: {
     [key: string]: {
       art: {
-        ingameArtId: string;
+        ingameArtId: string; // image 파일 id
       };
       variationId: number;
-      rarity: string;
+      rarity: string; // 레어도
     };
   };
 }

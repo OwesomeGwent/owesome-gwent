@@ -3,23 +3,27 @@ import { ICard } from '../types/card';
 const BASE_IMAGE_PATH =
   'https://res.cloudinary.com/godsenal/image/upload/v1541344313/gwent/card';
 
-interface IRarity {
+interface IMapper {
   [key: string]: number;
 }
-interface ICardType {
-  [key: string]: number;
-}
-const RARITY: IRarity = {
+const RARITY: IMapper = {
   Common: 5,
   Rare: 15,
   Epic: 20,
   Legendary: 25,
 };
-const CARDTYPE: ICardType = {
+const CARDTYPE: IMapper = {
   Unit: 1,
   Spell: 2,
   Artifact: 3,
   Leader: 4,
+};
+const TYPE: IMapper = {
+  Bronze: 1,
+  Silber: 2,
+  Gold: 3,
+  Special: 4,
+  Leader: 5,
 };
 const cardStyle: React.CSSProperties = {
   zIndex: 2,
@@ -30,6 +34,7 @@ export interface ICardProps {
 const Card: React.SFC<ICardProps> = ({ card }) => {
   const {
     cardType,
+    type,
     faction,
     strength,
     variations,
@@ -41,16 +46,18 @@ const Card: React.SFC<ICardProps> = ({ card }) => {
     .toLowerCase()
     .split(' ')
     .join('');
+  const parsedType = cardType.toLowerCase();
   const { art, rarity, variationId } = variations[Object.keys(variations)[0]];
   const { ingameArtId } = art;
   return (
     <div>
       <div
-        className={`c-card c-card--${parsedFaction} is-flipped`}
-        data-power={cardType === 'Leader' ? mulligans : strength}
+        className={`c-card c-card--${parsedFaction} c-card--${parsedType} is-flipped`}
+        data-power={strength}
         data-provision={provision}
         data-row={CARDTYPE[cardType]}
-        data-group="3"
+        data-mulligan={mulligans}
+        data-group={TYPE[type]}
         data-rarity={RARITY[rarity]}
         style={cardStyle}
       >
@@ -62,6 +69,9 @@ const Card: React.SFC<ICardProps> = ({ card }) => {
             <div className="c-card__banner">
               <div className="c-card__power" />
               <div className="c-card__row" />
+              <div className="c-card__mulligan">
+                <div className="c-card__mulligan-cost" />
+              </div>
             </div>
             {!!provision && (
               <>

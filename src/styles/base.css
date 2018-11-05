@@ -441,6 +441,232 @@
   }
 }
 
+/* 리더 Mulligan */
+.c-card--leader .c-card__mulligan {
+  background-image: url('../img/card-reveals/cards/m/leader-mulligan.png');
+  background-size: 100% 100%;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  left: 10px;
+  top: 60px;
+}
+
+.c-card .c-card__mulligan-cost {
+  background-size: 100% 100%;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+}
+.c-card[data-mulligan='0'] .c-card__mulligan-cost {
+  background-image: url(../img/card-reveals/cards/m/numbers-00.png);
+}
+
+@media screen and (max-width: 767px) {
+  .c-card[data-mulligan='0'] .c-card__mulligan-cost {
+    background-image: url(../img/card-reveals/cards/m/numbers-00.png);
+  }
+}
+.c-card[data-mulligan='1'] .c-card__mulligan-cost {
+  background-image: url(../img/card-reveals/cards/m/numbers-01.png);
+}
+
+@media screen and (max-width: 767px) {
+  .c-card[data-mulligan='1'] .c-card__mulligan-cost {
+    background-image: url(../img/card-reveals/cards/m/numbers-01.png);
+  }
+}
+
+.c-card[data-mulligan='2'] .c-card__mulligan-cost {
+  background-image: url(../img/card-reveals/cards/m/numbers-02.png);
+}
+
+@media screen and (max-width: 767px) {
+  .c-card[data-mulligan='2'] .c-card__mulligan-cost {
+    background-image: url(../img/card-reveals/cards/m/numbers-02.png);
+  }
+}
+
+.c-card[data-mulligan='3'] .c-card__mulligan-cost {
+  background-image: url(../img/card-reveals/cards/m/numbers-03.png);
+}
+
+@media screen and (max-width: 767px) {
+  .c-card[data-mulligan='3'] .c-card__mulligan-cost {
+    background-image: url(../img/card-reveals/cards/m/numbers-03.png);
+  }
+}
+
+.c-card[data-mulligan='4'] .c-card__mulligan-cost {
+  background-image: url(../img/card-reveals/cards/m/numbers-04.png);
+}
+
+@media screen and (max-width: 767px) {
+  .c-card[data-mulligan='4'] .c-card__mulligan-cost {
+    background-image: url(../img/card-reveals/cards/m/numbers-04.png);
+  }
+}
+
+.c-card[data-mulligan='5'] .c-card__mulligan-cost {
+  background-image: url(../img/card-reveals/cards/m/numbers-05.png);
+}
+
+@media screen and (max-width: 767px) {
+  .c-card[data-mulligan='5'] .c-card__mulligan-cost {
+    background-image: url(../img/card-reveals/cards/m/numbers-05.png);
+  }
+}
+
+.c-card[data-mulligan='6'] .c-card__mulligan-cost {
+  background-image: url(../img/card-reveals/cards/m/numbers-06.png);
+}
+
+@media screen and (max-width: 767px) {
+  .c-card[data-mulligan='6'] .c-card__mulligan-cost {
+    background-image: url(../img/card-reveals/cards/m/numbers-06.png);
+  }
+}
+
+.c-card[data-mulligan='7'] .c-card__mulligan-cost {
+  background-image: url(../img/card-reveals/cards/m/numbers-07.png);
+}
+
+@media screen and (max-width: 767px) {
+  .c-card[data-mulligan='7'] .c-card__mulligan-cost {
+    background-image: url(../img/card-reveals/cards/m/numbers-07.png);
+  }
+}
+
+.c-card[data-mulligan='8'] .c-card__mulligan-cost {
+  background-image: url(../img/card-reveals/cards/m/numbers-08.png);
+}
+
+@media screen and (max-width: 767px) {
+  .c-card[data-mulligan='8'] .c-card__mulligan-cost {
+    background-image: url(../img/card-reveals/cards/m/numbers-08.png);
+  }
+}
+
+.c-card[data-mulligan='9'] .c-card__mulligan-cost {
+  background-image: url(../img/card-reveals/cards/m/numbers-09.png);
+}
+
+@media screen and (max-width: 767px) {
+  .c-card[data-mulligan='9'] .c-card__mulligan-cost {
+    background-image: url(../img/card-reveals/cards/m/numbers-09.png);
+  }
+}
+
+.c-card[data-mulligan='10'] .c-card__mulligan-cost {
+  background-image: url(../img/card-reveals/cards/m/numbers-10.png);
+}
+
+@media screen and (max-width: 767px) {
+  .c-card[data-mulligan='10'] .c-card__mulligan-cost {
+    background-image: url(../img/card-reveals/cards/m/numbers-10.png);
+  }
+}
+
+.c-card[data-mulligan='11'] .c-card__mulligan-cost {
+  background-image: url(../img/card-reveals/cards/m/numbers-11.png);
+}
+
+@media screen and (max-width: 767px) {
+  .c-card[data-mulligan='11'] .c-card__mulligan-cost {
+    background-image: url(../img/card-reveals/cards/m/numbers-11.png);
+  }
+}
+
+.c-card[data-mulligan='12'] .c-card__mulligan-cost {
+  background-image: url(../img/card-reveals/cards/m/numbers-12.png);
+}
+
+@media screen and (max-width: 767px) {
+  .c-card[data-mulligan='12'] .c-card__mulligan-cost {
+    background-image: url(../img/card-reveals/cards/m/numbers-12.png);
+  }
+}
+
+.c-card[data-mulligan='13'] .c-card__mulligan-cost {
+  background-image: url(../img/card-reveals/cards/m/numbers-13.png);
+}
+
+@media screen and (max-width: 767px) {
+  .c-card[data-mulligan='13'] .c-card__mulligan-cost {
+    background-image: url(../img/card-reveals/cards/m/numbers-13.png);
+  }
+}
+
+.c-card[data-mulligan='14'] .c-card__mulligan-cost {
+  background-image: url(../img/card-reveals/cards/m/numbers-14.png);
+}
+
+@media screen and (max-width: 767px) {
+  .c-card[data-mulligan='14'] .c-card__mulligan-cost {
+    background-image: url(../img/card-reveals/cards/m/numbers-14.png);
+  }
+}
+
+.c-card[data-mulligan='15'] .c-card__mulligan-cost {
+  background-image: url(../img/card-reveals/cards/m/numbers-15.png);
+}
+
+@media screen and (max-width: 767px) {
+  .c-card[data-mulligan='15'] .c-card__mulligan-cost {
+    background-image: url(../img/card-reveals/cards/m/numbers-15.png);
+  }
+}
+
+.c-card[data-mulligan='16'] .c-card__mulligan-cost {
+  background-image: url(../img/card-reveals/cards/m/numbers-16.png);
+}
+
+@media screen and (max-width: 767px) {
+  .c-card[data-mulligan='16'] .c-card__mulligan-cost {
+    background-image: url(../img/card-reveals/cards/m/numbers-16.png);
+  }
+}
+
+.c-card[data-mulligan='17'] .c-card__mulligan-cost {
+  background-image: url(../img/card-reveals/cards/m/numbers-17.png);
+}
+
+@media screen and (max-width: 767px) {
+  .c-card[data-mulligan='17'] .c-card__mulligan-cost {
+    background-image: url(../img/card-reveals/cards/m/numbers-17.png);
+  }
+}
+
+.c-card[data-mulligan='18'] .c-card__mulligan-cost {
+  background-image: url(../img/card-reveals/cards/m/numbers-18.png);
+}
+
+@media screen and (max-width: 767px) {
+  .c-card[data-mulligan='18'] .c-card__mulligan-cost {
+    background-image: url(../img/card-reveals/cards/m/numbers-18.png);
+  }
+}
+
+.c-card[data-mulligan='19'] .c-card__mulligan-cost {
+  background-image: url(../img/card-reveals/cards/m/numbers-19.png);
+}
+
+@media screen and (max-width: 767px) {
+  .c-card[data-mulligan='19'] .c-card__mulligan-cost {
+    background-image: url(../img/card-reveals/cards/m/numbers-19.png);
+  }
+}
+
+.c-card[data-mulligan='20'] .c-card__mulligan-cost {
+  background-image: url(../img/card-reveals/cards/m/numbers-20.png);
+}
+
+@media screen and (max-width: 767px) {
+  .c-card[data-mulligan='20'] .c-card__mulligan-cost {
+    background-image: url(../img/card-reveals/cards/m/numbers-20.png);
+  }
+}
+
 /* 카드 Type */
 .c-card .c-card__row {
   background-size: 100% 100%;
@@ -460,18 +686,42 @@
   left: 14px;
   top: 14px;
 }
+.c-card[data-row='4'] .c-card__row {
+  background-image: url(../img/card-reveals/cards/m/icon-leader.png);
+  width: 30px;
+  height: 30px;
+  left: 14px;
+  top: 14px;
+}
 
 /* 카드 Provision */
 .c-card__provision-basis {
-  background-image: url(../img/card-reveals/cards/m/provision-basis.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 100% 100%;
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   right: 5px;
   bottom: 5px;
+}
+.c-card--monster .c-card__provision-basis {
+  background-image: url(../img/card-reveals/cards/m/provision-mon.png);
+}
+.c-card--neutral .c-card__provision-basis {
+  background-image: url(../img/card-reveals/cards/m/provision-neu.png);
+}
+.c-card--nilfgaard .c-card__provision-basis {
+  background-image: url(../img/card-reveals/cards/m/provision-nil.png);
+}
+.c-card--northernrealms .c-card__provision-basis {
+  background-image: url(../img/card-reveals/cards/m/provision-nor.png);
+}
+.c-card--scoiatael .c-card__provision-basis {
+  background-image: url(../img/card-reveals/cards/m/provision-sco.png);
+}
+.c-card--skellige .c-card__provision-basis {
+  background-image: url(../img/card-reveals/cards/m/provision-ske.png);
 }
 .c-card__provision-icon {
   background-image: url(../img/card-reveals/cards/m/provision-icon.png);
@@ -479,20 +729,20 @@
   background-repeat: no-repeat;
   background-position: 100% 100%;
   position: absolute;
-  width: 48px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   right: 5px;
-  bottom: 48px;
+  bottom: 40px;
 }
 .c-card__provision {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 100% 100%;
   position: absolute;
-  width: 48px;
-  height: 48px;
-  right: -5px;
-  bottom: 2px;
+  width: 40px;
+  height: 40px;
+  right: 0px;
+  bottom: 0px;
 }
 .c-card[data-provision='1'] .c-card__provision {
   background-image: url(../img/card-reveals/cards/m/numbers-01.png);
@@ -718,6 +968,14 @@
   box-shadow: 0 0 8px #c89d7d;
 }
 
+
+.c-card--monster.c-card--leader .c-card__banner {
+  background: url(../img/card-reveals/cards/m/banner-mon-leader.png) no-repeat;
+  background-size: 100% 100%;
+  width: 58px;
+  height: 116px;
+}
+
 .c-card--monster .c-card__banner {
   background: url(../img/card-reveals/cards/m/banner-mon-basic.png) no-repeat;
   background-size: 100% 100%;
@@ -740,6 +998,13 @@
   background: linear-gradient(to bottom, #751515, #b91818);
   -webkit-box-shadow: 0 0 8px #b91818;
   box-shadow: 0 0 8px #b91818;
+}
+
+.c-card--nilfgaard.c-card--leader .c-card__banner {
+  background: url(../img/card-reveals/cards/m/banner-nil-leader.png) no-repeat;
+  background-size: 100% 100%;
+  width: 58px;
+  height: 116px;
 }
 
 .c-card--nilfgaard .c-card__banner {
@@ -766,6 +1031,12 @@
   box-shadow: 0 0 8px #b9a118;
 }
 
+.c-card--northernrealms.c-card--leader .c-card__banner {
+  background: url(../img/card-reveals/cards/m/banner-nor-leader.png) no-repeat;
+  background-size: 100% 100%;
+  width: 58px;
+  height: 116px;
+}
 .c-card--northernrealms .c-card__banner {
   background: url(../img/card-reveals/cards/m/banner-nor.png) no-repeat;
   background-size: 100% 100%;
@@ -790,6 +1061,12 @@
   box-shadow: 0 0 8px #1863b9;
 }
 
+.c-card--scoiatael.c-card--leader .c-card__banner {
+  background: url(../img/card-reveals/cards/m/banner-sco-leader.png) no-repeat;
+  background-size: 100% 100%;
+  width: 58px;
+  height: 116px;
+}
 .c-card--scoiatael .c-card__banner {
   background: url(../img/card-reveals/cards/m/banner-sco.png) no-repeat;
   background-size: 100% 100%;
@@ -814,6 +1091,12 @@
   box-shadow: 0 0 8px #79ba18;
 }
 
+.c-card--skellige.c-card--leader .c-card__banner {
+  background: url(../img/card-reveals/cards/m/banner-ske-leader.png) no-repeat;
+  background-size: 100% 100%;
+  width: 58px;
+  height: 116px;
+}
 .c-card--skellige .c-card__banner {
   background: url(../img/card-reveals/cards/m/banner-ske.png) no-repeat;
   background-size: 100% 100%;

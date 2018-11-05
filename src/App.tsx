@@ -7,7 +7,6 @@ const AppContainer = styled.div`
   display: flex;
 `;
 // type Partial<T> = { [K in keyof T]?: T[K] };
-let CARDS: any;
 class App extends Component {
   state = {
     cardData: [],
@@ -16,10 +15,13 @@ class App extends Component {
   async componentDidMount() {
     // 전체 카드 데이터 어디다 저장할 지 생각해봐야 할듯.
     // 일단 임시
-    CARDS = await import('./data/cards.json');
-    CARDS = Object.keys(CARDS).map(card => CARDS[card]);
+    const CARDS: any = await import('./data/cards.json');
+    let cardData: ICard[] = Object.keys(CARDS).map(card => CARDS[card] as ICard);
+    cardData = cardData.slice().sort((a: ICard, b: ICard) => {
+      return a.provision - b.provision;
+    });
     this.setState({
-      cardData: CARDS,
+      cardData,
       isLoading: false,
     });
   }

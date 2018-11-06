@@ -55,8 +55,8 @@
     },
     "112110": {
         "flavor": "Know when fairy tales cease to be tales? When people start believing them.",
-        "info": "After 4 turns, on turn start, draw a card.\n",
-        "infoRaw": "After 4 turns, on turn start, draw a card.\n",
+        "info": "After 4 turns, on turn end, draw a card.\n",
+        "infoRaw": "After 4 turns, on turn end, draw a card.\n",
         "name": "Ciri: Dash"
     },
     "112111": {
@@ -178,6 +178,18 @@
         "info": "Deploy: Damage a unit by 4. If you have Unicorn in hand, double that amount.\n",
         "infoRaw": "<keyword=deploy>Deploy</keyword>: Damage a unit by 4. If you have Unicorn in hand, double that amount.\n",
         "name": "Chironex"
+    },
+    "112403": {
+        "flavor": "Knows one hundred words – eighty of them curses, the rest, connectors.",
+        "info": "Boost all units on a row by 2.\n",
+        "infoRaw": "Boost all units on a row by 2.\n",
+        "name": "Duda: Companion"
+    },
+    "112404": {
+        "flavor": "Zoltan's parrot had the extraordinary ability to irritate anyone who spent time with it. Including Zoltan.",
+        "info": "Damage all units on a row by 2.\n",
+        "infoRaw": "Damage all units on a row by 2.\n",
+        "name": "Duda: Agitator"
     },
     "112405": {
         "flavor": "A fiend looks a bit like a deer. An enormous, evil deer.",
@@ -499,8 +511,8 @@
     },
     "122311": {
         "flavor": "I'd do anything for Temeria. Mostly though, I kill for her.",
-        "info": "Order: Summon a copy of this unit from your deck to this row.\n",
-        "infoRaw": "<keyword=order>Order</keyword>: <keyword=summon>Summon</keyword> a copy of this unit from your deck to this row.\n",
+        "info": "Order: Summon all copies of this unit from your deck to this row.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: <keyword=summon>Summon</keyword> all copies of this unit from your deck to this row.\n",
         "name": "Blue Stripes Commando"
     },
     "122312": {
@@ -1141,8 +1153,8 @@
     },
     "152104": {
         "flavor": "When the time comes, the cockerel Kambi shall crow and awaken Hemdall.",
-        "info": "Deploy: Discard the rightmost card in your hand, then force your opponent to do the same.\n",
-        "infoRaw": "<keyword=deploy>Deploy</keyword>: <keyword=discard>Discard</keyword> the rightmost card in your hand, then force your opponent to do the same.\n",
+        "info": "Deploy: Discard the rightmost card in your hand, then your opponent Discards the rightmost unit in their hand.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: <keyword=discard>Discard</keyword> the rightmost card in your hand, then your opponent <keyword=discard>Discards</keyword> the rightmost unit in their hand.\n",
         "name": "Kambi"
     },
     "152105": {
@@ -1159,8 +1171,8 @@
     },
     "152107": {
         "flavor": "Her true name's Astrid Lyttneyd Ásgeirrfinnbjornsdottir, but that never fit on any forms.",
-        "info": "Order: Discard a card, then draw a card. \nCharge: 3.\nWhenever a special card is Discarded, damage an enemy by 2.\n",
-        "infoRaw": "<keyword=order>Order</keyword>: <keyword=discard>Discard</keyword> a card, then draw a card. \n<keyword=charge>Charge</keyword>: 3.\nWhenever a special card is <keyword=discard>Discarded</keyword>, damage an enemy by 2.\n",
+        "info": "Order: Discard a card, then draw a card. \nCharge: 3.\nWhenever you Discard a special card, damage an enemy by 2.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: <keyword=discard>Discard</keyword> a card, then draw a card. \n<keyword=charge>Charge</keyword>: 3.\nWhenever you <keyword=discard>Discard</keyword> a special card, damage an enemy by 2.\n",
         "name": "Coral"
     },
     "152109": {
@@ -1273,8 +1285,8 @@
     },
     "152307": {
         "flavor": "The queen is guarded by the hardiest and fiercest shieldmaidens Skellige's ever known.",
-        "info": "Order: If this unit takes damage, Spawn a base copy of it and Summon it to the right.\n",
-        "infoRaw": "<keyword=order>Order</keyword>: If this unit takes damage, <keyword=spawn>Spawn</keyword> a base copy of it and <keyword=summon>Summon</keyword> it to the right.\n",
+        "info": "Order: If this unit is damaged, Spawn a base copy of it and Summon it to the right.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: If this unit is damaged, <keyword=spawn>Spawn</keyword> a base copy of it and <keyword=summon>Summon</keyword> it to the right.\n",
         "name": "Drummond Queensguard"
     },
     "152308": {
@@ -1549,8 +1561,8 @@
     },
     "162309": {
         "flavor": "The Emperor will teach the North discipline.",
-        "info": "Whenever a unit with Deploy is played, boost self by 1.\n",
-        "infoRaw": "Whenever a unit with <keyword=deploy>Deploy</keyword> is played, boost self by 1.\n",
+        "info": "Whenever you play a unit with Deploy, boost self by 1.\n",
+        "infoRaw": "Whenever you play a unit with <keyword=deploy>Deploy</keyword>, boost self by 1.\n",
         "name": "Nauzicaa Sergeant"
     },
     "162310": {
@@ -1879,8 +1891,8 @@
     },
     "200091": {
         "flavor": "The witcher had met thieves that looked like town councilors, town councilors that looked like beggars and kings that looked like thieves. Stregobor, though, always looked exactly like the commonly accepted imagining of a what a mage should look like.",
-        "info": "Ranged: After 2 turns, each player draws a unit and sets its power to 1\n",
-        "infoRaw": "<keyword=ranged>Ranged</keyword>: After 2 turns, each player draws a unit and sets its power to 1\n",
+        "info": "Ranged: After 2 turns, each player draws a unit and sets its power to 1.\n",
+        "infoRaw": "<keyword=ranged>Ranged</keyword>: After 2 turns, each player draws a unit and sets its power to 1.\n",
         "name": "Stregobor"
     },
     "200098": {
@@ -2023,8 +2035,8 @@
     },
     "200162": {
         "flavor": "They do not call me the Patient. Take care they do not call you the Headless.",
-        "info": "Order: Move a card from the battlefield to your hand, then play a card.\n",
-        "infoRaw": "<keyword=order>Order</keyword>: Move a card from the battlefield to your hand, then play a card.\n",
+        "info": "Order: Move an allied unit or artifact back to your hand, then play a card.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Move an allied unit or artifact back to your hand, then play a card.\n",
         "name": "Emhyr var Emreis"
     },
     "200163": {
@@ -2053,8 +2065,8 @@
     },
     "200167": {
         "flavor": "That doddery dolt? Ye cannae even tell if he's alive or stuffed!",
-        "info": "Order: Move a unit to the other row. If it's an enemy, damage it by 2",
-        "infoRaw": "<keyword=order>Order</keyword>: Move a unit to the other row. If it's an enemy, damage it by 2",
+        "info": "Order: Move a unit to the other row. If it's an enemy, damage it by 2; if it's an ally, boost it by 2. \nCharge: 3.\n",
+        "infoRaw": "<keyword=order>Order</keyword>: Move a unit to the other row. If it's an enemy, damage it by 2; if it's an ally, boost it by 2. \n<keyword=charge>Charge</keyword>: 3.\n",
         "name": "Brouver Hoog"
     },
     "200168": {
@@ -2227,8 +2239,8 @@
     },
     "200502": {
         "flavor": "Trolls come in many varieties, with differing shapes, sizes and predilections, though always with about as much brains as a bucket of rusty nails.",
-        "info": "Every turn, on turn end, if you have less units than your opponent, boost self by 1.\n",
-        "infoRaw": "Every turn, on turn end, if you have less units than your opponent, boost self by 1.\n",
+        "info": "Every turn, on turn end, if you control fewer units on the battlefield than your opponent, boost self by 1.\n",
+        "infoRaw": "Every turn, on turn end, if you control fewer units on the battlefield than your opponent, boost self by 1.\n",
         "name": "Ice Troll"
     },
     "200518": {
@@ -2617,8 +2629,8 @@
     },
     "201645": {
         "flavor": "When this knocks you down, you don't get up again.",
-        "info": "Ambush: After 3 turns, on turn start, damage all enemy units on the row with the most units by 2. \nZeal.\nOrder: Flip over and damage all units on a row by 1.\n",
-        "infoRaw": "<keyword=ambush>Ambush</keyword>: After 3 turns, on turn start, damage all enemy units on the row with the most units by 2. \n<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Flip over and damage all units on a row by 1.\n",
+        "info": "Ambush: After 3 turns, on turn end, damage all enemy units on the row with the most units by 2. \nZeal.\nOrder: Flip over and damage all units on a row by 1.\n",
+        "infoRaw": "<keyword=ambush>Ambush</keyword>: After 3 turns, on turn end, damage all enemy units on the row with the most units by 2. \n<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Flip over and damage all units on a row by 1.\n",
         "name": "Crushing Trap"
     },
     "201646": {
@@ -2807,6 +2819,12 @@
         "infoRaw": "<keyword=deploy>Deploy</keyword>: Destroy a random enemy.\n",
         "name": "Shupe: Hunter"
     },
+    "201736": {
+        "flavor": "Other trolls always considered him a bit odd - after all, who in their right mind would prefer colorful scraps of paper to rocks?",
+        "info": "Deploy: Apply a random row effect to an enemy row.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Apply a random row effect to an enemy row.\n",
+        "name": "Shupe: Hunter"
+    },
     "201737": {
         "flavor": "Other trolls always considered him a bit odd - after all, who in their right mind would prefer colorful scraps of paper to rocks?",
         "info": "Send Shupe to the Imperial Court Military Academy.\n",
@@ -2835,6 +2853,12 @@
         "flavor": "Other trolls always considered him a bit odd - after all, who in their right mind would prefer colorful scraps of paper to rocks?",
         "info": "Deploy: Destroy an enemy artifact.\n",
         "infoRaw": "<keyword=deploy>Deploy</keyword>: Destroy an enemy artifact.\n",
+        "name": "Shupe: Knight"
+    },
+    "201742": {
+        "flavor": "Other trolls always considered him a bit odd - after all, who in their right mind would prefer colorful scraps of paper to rocks?",
+        "info": "Deploy: Boost an ally by 4.\n",
+        "infoRaw": "<keyword=deploy>Deploy</keyword>: Boost an ally by 4.\n",
         "name": "Shupe: Knight"
     },
     "201743": {

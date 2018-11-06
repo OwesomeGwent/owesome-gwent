@@ -179,6 +179,18 @@
         "infoRaw": "<keyword=deploy>Déploiement</keyword> : infligez 4 point(s) de dégâts à une unité. Si vous avez une Licorne dans votre main, doublez ce montant.\n",
         "name": "Chironex"
     },
+    "112403": {
+        "flavor": "Il connaît une centaine de mots, dont quatre-vingts jurons. Le reste, ce sont des conjonctions.",
+        "info": "Améliorez toutes les unités d'une ligne de 2 point(s).\n",
+        "infoRaw": "Améliorez toutes les unités d'une ligne de 2 point(s).\n",
+        "name": "Duda : compagnon"
+    },
+    "112404": {
+        "flavor": "Le perroquet de Zoltan avait le pouvoir extraordinaire d'irriter tous ceux qui l'approchaient. Y compris Zoltan.",
+        "info": "Infligez 2 point(s) de dégâts à toutes les unités d'une ligne.\n",
+        "infoRaw": "Infligez 2 point(s) de dégâts à toutes les unités d'une ligne.\n",
+        "name": "Duda : agitateur"
+    },
     "112405": {
         "flavor": "Un fiellon, ça ressemble un peu à un cerf. Un cerf maléfique atteint de gigantisme.",
         "info": "Déploiement : améliorez toutes les unités de votre main disposant d'une capacité Baroud d'honneur de 1 point(s).\n",
@@ -499,8 +511,8 @@
     },
     "122311": {
         "flavor": "Je suis prêt à tout pour la Temeria. Surtout à tuer.",
-        "info": "Ordre : invoquez une copie de la présente unité sur cette ligne depuis votre jeu.\n",
-        "infoRaw": "<keyword=order>Ordre</keyword> : <keyword=summon>invoquez</keyword> une copie de la présente unité sur cette ligne depuis votre jeu.\n",
+        "info": "Ordre : invoquez toutes les copies de la présente unité sur cette ligne depuis votre jeu.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : <keyword=summon>invoquez</keyword> toutes les copies de la présente unité sur cette ligne depuis votre jeu.\n",
         "name": "Stries : commando"
     },
     "122312": {
@@ -1141,8 +1153,8 @@
     },
     "152104": {
         "flavor": "Le moment venu, le coq Kambi chantera pour réveiller Hemdall.",
-        "info": "Déploiement : défaussez la carte la plus à droite de votre main, puis forcez l'adversaire à faire de même.\n",
-        "infoRaw": "<keyword=deploy>Déploiement</keyword> : <keyword=discard>défaussez</keyword> la carte la plus à droite de votre main, puis forcez l'adversaire à faire de même.\n",
+        "info": "Déploiement : défaussez la carte la plus à droite de votre main, puis votre adversaire défausse l'unité la plus à droite dans sa main.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : <keyword=discard>défaussez</keyword> la carte la plus à droite de votre main, puis votre adversaire <keyword=discard>défausse</keyword> l'unité la plus à droite dans sa main.\n",
         "name": "Kambi"
     },
     "152105": {
@@ -1159,8 +1171,8 @@
     },
     "152107": {
         "flavor": "Son vrai nom est Astrid Lyttneyd Ásgeirrfinnbjornsdottir, mais ça ne rentre jamais sur les formulaires.",
-        "info": "Ordre : défaussez une carte, puis tirez-en une. \n3 utilisation(s).\nChaque fois qu'une carte spéciale est défaussée, infligez 2 point(s) de dégâts à un ennemi.\n",
-        "infoRaw": "<keyword=order>Ordre</keyword> : <keyword=discard>défaussez</keyword> une carte, puis tirez-en une. \n3 <keyword=charge>utilisation(s)</keyword>.\nChaque fois qu'une carte spéciale est <keyword=discard>défaussée</keyword>, infligez 2 point(s) de dégâts à un ennemi.\n",
+        "info": "Ordre : défaussez une carte, puis tirez-en une. \n3 utilisation(s).\nChaque fois que vous défaussez une carte spéciale, infligez 2 point(s) de dégâts à un ennemi.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : <keyword=discard>défaussez</keyword> une carte, puis tirez-en une. \n3 <keyword=charge>utilisation(s)</keyword>.\nChaque fois que vous <keyword=discard>défaussez</keyword> une carte spéciale, infligez 2 point(s) de dégâts à un ennemi.\n",
         "name": "Corail"
     },
     "152109": {
@@ -1549,8 +1561,8 @@
     },
     "162309": {
         "flavor": "L'empereur va mettre le Nord au pas.",
-        "info": "Chaque fois qu'une unité disposant d'une capacité de déploiement est jouée, améliorez la présente unité de 1 point(s).\n",
-        "infoRaw": "Chaque fois qu'une unité disposant d'une capacité de <keyword=deploy>déploiement</keyword> est jouée, améliorez la présente unité de 1 point(s).\n",
+        "info": "Chaque fois que vous jouez une unité disposant d'une capacité de déploiement, améliorez la présente unité de 1 point(s).\n",
+        "infoRaw": "Chaque fois que vous jouez une unité disposant d'une capacité de <keyword=deploy>déploiement</keyword>, améliorez la présente unité de 1 point(s).\n",
         "name": "Nausicaa : sergent"
     },
     "162310": {
@@ -2023,8 +2035,8 @@
     },
     "200162": {
         "flavor": "On ne m'appelle pas le Patient. Prenez garde ou on vous appellera le Raccourci.",
-        "info": "Ordre : déplacez une carte depuis le champ de bataille vers votre main, puis jouez-en une.\n",
-        "infoRaw": "<keyword=order>Ordre</keyword> : déplacez une carte depuis le champ de bataille vers votre main, puis jouez-en une.\n",
+        "info": "Ordre : replacez un artefact ou une unité alliée dans votre main, puis jouez une carte.\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : replacez un artefact ou une unité alliée dans votre main, puis jouez une carte.\n",
         "name": "Emhyr var Emreis"
     },
     "200163": {
@@ -2053,8 +2065,8 @@
     },
     "200167": {
         "flavor": "Ce vieux champignon ? Quand tu le vois, pas moyen de savoir s'il est vivant ou empaillé.",
-        "info": "Ordre : déplacez une unité vers l'autre ligne. S'il s'agit d'un ennemi, infligez-lui 2 point(s) de dégâts ",
-        "infoRaw": "<keyword=order>Ordre</keyword> : déplacez une unité vers l'autre ligne. S'il s'agit d'un ennemi, infligez-lui 2 point(s) de dégâts ",
+        "info": "Ordre : déplacez une unité vers l'autre ligne. S'il s'agit d'un ennemi, infligez-lui 2 point(s) de dégâts ; s'il s'agit d'un allié, améliorez-le de 2 point(s). \n3 utilisation(s).\n",
+        "infoRaw": "<keyword=order>Ordre</keyword> : déplacez une unité vers l'autre ligne. S'il s'agit d'un ennemi, infligez-lui 2 point(s) de dégâts ; s'il s'agit d'un allié, améliorez-le de 2 point(s). \n3 <keyword=charge>utilisation(s)</keyword>.\n",
         "name": "Brouver Hoog"
     },
     "200168": {
@@ -2227,8 +2239,8 @@
     },
     "200502": {
         "flavor": "Les trolls sont très variés, tant par leur forme, que par leur taille ou leurs préférences, mais ils ont toujours autant de cervelle qu'un seau de clous rouillés.",
-        "info": "À la fin de chaque tour, si vous possédez moins d'unités que votre adversaire, améliorez la présente unité de 1 point(s).\n",
-        "infoRaw": "À la fin de chaque tour, si vous possédez moins d'unités que votre adversaire, améliorez la présente unité de 1 point(s).\n",
+        "info": "À la fin de chaque tour, si vous contrôlez moins d'unités que votre adversaire sur le champ de bataille, améliorez la présente unité de 1 point(s).\n",
+        "infoRaw": "À la fin de chaque tour, si vous contrôlez moins d'unités que votre adversaire sur le champ de bataille, améliorez la présente unité de 1 point(s).\n",
         "name": "Troll de glace"
     },
     "200518": {
@@ -2263,8 +2275,8 @@
     },
     "200529": {
         "flavor": "Ce chevalier autoproclamé parcourt le monde pour défendre l'honneur de sa bien-aimée, damoiselle Myrtille, même si nul ne sait où elle vit, si elle est toujours vivante ou si elle a jamais existé.",
-        "info": "Déploiement : améliorez la présente unité de 5 point(s).\nInvoquez la présente unité depuis votre cimetière sur une ligne alliée aléatoire.\n",
-        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez la présente unité de 5 point(s).\n<keyword=summon>Invoquez</keyword> la présente unité depuis votre cimetière sur une ligne alliée aléatoire.\n",
+        "info": "Déploiement : améliorez la présente unité de 5 point(s).\nÀ chaque fois que vous jouez un Soldat, invoquez la présente unité depuis votre cimetière sur une ligne alliée aléatoire.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez la présente unité de 5 point(s).\nÀ chaque fois que vous jouez un Soldat, <keyword=summon>invoquez</keyword> la présente unité depuis votre cimetière sur une ligne alliée aléatoire.\n",
         "name": "Ronvid l'Importun"
     },
     "200530": {
@@ -2563,8 +2575,8 @@
     },
     "201632": {
         "flavor": "« Qu'est-ce qui est écrit sur cette lame ? Une malédiction ? » « Non. Une insulte. »",
-        "info": "Zèle.\nOrdre : infligez 1 point(s) de dégâts à un ennemi.\nRéutilisation : 1 tour(s).\nLorsque Sihil détruit un ennemi, augmentez les dégâts d'Order infligés de 1 point(s) jusqu'à ce qu'il soit déplacé sur le champ de bataille.\n",
-        "infoRaw": "<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : infligez 1 point(s) de dégâts à un ennemi.\n<keyword=cooldown>Réutilisation</keyword> : 1 tour(s).\nLorsque Sihil détruit un ennemi, augmentez les dégâts d'<keyword=order>Order</keyword> infligés de 1 point(s) jusqu'à ce qu'il soit déplacé sur le champ de bataille.\n",
+        "info": "Zèle.\nOrdre : infligez 1 point(s) de dégâts à un ennemi.\nRéutilisation : 1 tour(s).\nLorsque Sihil détruit un ennemi, augmentez les dégâts infligés par son Ordre de 1 point(s) jusqu'à ce qu'il soit retiré du champ de bataille.\n",
+        "infoRaw": "<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : infligez 1 point(s) de dégâts à un ennemi.\n<keyword=cooldown>Réutilisation</keyword> : 1 tour(s).\nLorsque Sihil détruit un ennemi, augmentez les dégâts infligés par son <keyword=order>Ordre</keyword> de 1 point(s) jusqu'à ce qu'il soit retiré du champ de bataille.\n",
         "name": "Sihil"
     },
     "201633": {
@@ -2807,6 +2819,12 @@
         "infoRaw": "<keyword=deploy>Déploiement</keyword> : détruisez un ennemi aléatoire.\n",
         "name": "Échøp : chasseur"
     },
+    "201736": {
+        "flavor": "Les autres trolls l'ont toujours trouvé un peu bizarre. Après tout, quel troll sain d'esprit préférerait des morceaux de papier colorés aux pierres ?",
+        "info": "Déploiement : appliquez un effet de ligne aléatoire sur une ligne ennemie.\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : appliquez un effet de ligne aléatoire sur une ligne ennemie.\n",
+        "name": "Échøp : chasseur"
+    },
     "201737": {
         "flavor": "Les autres trolls l'ont toujours trouvé un peu bizarre. Après tout, quel troll sain d'esprit préférerait des morceaux de papier colorés aux pierres ?",
         "info": "Envoyez Échøp à l'académie militaire de la cour impériale.\n",
@@ -2835,6 +2853,12 @@
         "flavor": "Les autres trolls l'ont toujours trouvé un peu bizarre. Après tout, quel troll sain d'esprit préférerait des morceaux de papier colorés aux pierres ?",
         "info": "Déploiement : détruisez un artefact ennemi.\n",
         "infoRaw": "<keyword=deploy>Déploiement</keyword> : détruisez un artefact ennemi.\n",
+        "name": "Échøp : chevalier"
+    },
+    "201742": {
+        "flavor": "Les autres trolls l'ont toujours trouvé un peu bizarre. Après tout, quel troll sain d'esprit préférerait des morceaux de papier colorés aux pierres ?",
+        "info": "Déploiement : améliorez un allié de 4 point(s).\n",
+        "infoRaw": "<keyword=deploy>Déploiement</keyword> : améliorez un allié de 4 point(s).\n",
         "name": "Échøp : chevalier"
     },
     "201743": {

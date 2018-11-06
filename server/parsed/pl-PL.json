@@ -179,6 +179,18 @@
         "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zadaj jednostce 4 pkt obrażeń. Jeśli masz w ręce Jednorożca, podwój obrażenia.\n",
         "name": "Chironex"
     },
+    "112403": {
+        "flavor": "Zna sto słów - osiemdziesiąt z nich to przekleństwa, reszta to łączniki.",
+        "info": "Wzmocnij wszystkie jednostki w wybranym rzędzie o 2.\n",
+        "infoRaw": "Wzmocnij wszystkie jednostki w wybranym rzędzie o 2.\n",
+        "name": "Duda: Towarzysz"
+    },
+    "112404": {
+        "flavor": "Papuga Zoltana miała niezwykły talent do irytowania wszystkich, którym weszła w drogę. W tym Zoltana.",
+        "info": "Zadaj wszystkim jednostkom w wybranym rzędzie 2 pkt obrażeń.\n",
+        "infoRaw": "Zadaj wszystkim jednostkom w wybranym rzędzie 2 pkt obrażeń.\n",
+        "name": "Duda: Mąciciel"
+    },
     "112405": {
         "flavor": "Bies wygląda trochę jak jeleń. Wielki, wściekły jeleń.",
         "info": "Rozmieszczenie: Wzmocnij wszystkie jednostki z zemstą w swojej ręce o 1.\n",
@@ -493,14 +505,14 @@
     },
     "122310": {
         "flavor": "Niebieskie Pasy i Scoia'tael łączy jedno - jednych i drugich napędza nienawiść.",
-        "info": "Rozmieszczenie, bliskie starcie: Stwórz egzemplarz brązowego sojusznika na spód swojej talii.\n",
-        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: <keyword=spawn>Stwórz</keyword> egzemplarz brązowego sojusznika na spód swojej talii.\n",
+        "info": "Rozmieszczenie, bliskie starcie: Stwórz egzemplarz brązowego sojusznika na spodzie swojej talii.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>, <keyword=melee>bliskie starcie</keyword>: <keyword=spawn>Stwórz</keyword> egzemplarz brązowego sojusznika na spodzie swojej talii.\n",
         "name": "Niebieskie Pasy: Zwiad"
     },
     "122311": {
         "flavor": "Dla Temerii zrobiłbym wszystko. Ale głównie zabijam.",
-        "info": "Rozkaz: Wezwij egzemplarz tej jednostki ze swojej talii do tego rzędu.\n",
-        "infoRaw": "<keyword=order>Rozkaz</keyword>: <keyword=summon>Wezwij</keyword> egzemplarz tej jednostki ze swojej talii do tego rzędu.\n",
+        "info": "Rozkaz: Wezwij wszystkie egzemplarze tej jednostki ze swojej talii do tego rzędu.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: <keyword=summon>Wezwij</keyword> wszystkie egzemplarze tej jednostki ze swojej talii do tego rzędu.\n",
         "name": "Niebieskie Pasy"
     },
     "122312": {
@@ -1141,8 +1153,8 @@
     },
     "152104": {
         "flavor": "Kiedy przyjdzie czas, Kambi zapieje i ostrzeże Hemdalla.",
-        "info": "Rozmieszczenie: Odrzuć skrajną prawą kartę ze swojej ręki, następnie zmuś do tego samego przeciwnika.\n",
-        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: <keyword=discard>Odrzuć</keyword> skrajną prawą kartę ze swojej ręki, następnie zmuś do tego samego przeciwnika.\n",
+        "info": "Rozmieszczenie: Odrzuć skrajną prawą kartę ze swojej ręki, następnie twój przeciwnik odrzuca skrajną prawą jednostkę ze swojej ręki.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: <keyword=discard>Odrzuć</keyword> skrajną prawą kartę ze swojej ręki, następnie twój przeciwnik <keyword=discard>odrzuca</keyword> skrajną prawą jednostkę ze swojej ręki.\n",
         "name": "Kambi"
     },
     "152105": {
@@ -1159,8 +1171,8 @@
     },
     "152107": {
         "flavor": "Jej prawdziwe imię to Astrid Lyttneyd Ásgeirrfinnbjornsdottir, ale miała już dosyć problemów w urzędach.",
-        "info": "Rozkaz: Odrzuć kartę, następnie dobierz kartę.\nŁadunki: 3.\nZa każdym razem, gdy odrzucana jest karta specjalna, zadaj wrogowi 2 pkt obrażeń.\n",
-        "infoRaw": "<keyword=order>Rozkaz</keyword>: <keyword=discard>Odrzuć</keyword> kartę, następnie dobierz kartę.\n<keyword=charge>Ładunki</keyword>: 3.\nZa każdym razem, gdy <keyword=discard>odrzucana</keyword> jest karta specjalna, zadaj wrogowi 2 pkt obrażeń.\n",
+        "info": "Rozkaz: Odrzuć kartę, następnie dobierz kartę.\nŁadunki: 3.\nZa każdym razem, gdy odrzucisz kartę specjalną, zadaj wrogowi 2 pkt obrażeń.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: <keyword=discard>Odrzuć</keyword> kartę, następnie dobierz kartę.\n<keyword=charge>Ładunki</keyword>: 3.\nZa każdym razem, gdy <keyword=discard>odrzucisz</keyword> kartę specjalną, zadaj wrogowi 2 pkt obrażeń.\n",
         "name": "Koral"
     },
     "152109": {
@@ -1549,8 +1561,8 @@
     },
     "162309": {
         "flavor": "Cesarz nauczy Północ dyscypliny.",
-        "info": "Za każdym razem, gdy zagrywana jest jednostka z umiejętnością rozmieszczenia, wzmocnij tę kartę o 1.\n",
-        "infoRaw": "Za każdym razem, gdy zagrywana jest jednostka z umiejętnością <keyword=deploy>rozmieszczenia</keyword>, wzmocnij tę kartę o 1.\n",
+        "info": "Za każdym razem, gdy zagrasz jednostkę z umiejętnością rozmieszczenia, wzmocnij tę kartę o 1.\n",
+        "infoRaw": "Za każdym razem, gdy zagrasz jednostkę z umiejętnością <keyword=deploy>rozmieszczenia</keyword>, wzmocnij tę kartę o 1.\n",
         "name": "Sierżant Nauzikai"
     },
     "162310": {
@@ -1789,8 +1801,8 @@
     },
     "200053": {
         "flavor": "Figurka rosła błyskawicznie, pulsując i tętniąc, zmieniała strukturę i kształt niczym pełzający po posadzce obłok dymu. W smugach blasku pojawiły się ruch i twardniejąca materia. Jeszcze moment, a w centrum magicznych kół pokazała się nagle postać ludzka.",
-        "info": "Zablokuj jednostkę i przywróć jej jednostce jej siłę bazową.\n",
-        "infoRaw": "<keyword=lock>Zablokuj</keyword> jednostkę i przywróć jej jednostce jej siłę bazową.\n",
+        "info": "Zablokuj jednostkę i przywróć tej jednostce jej siłę bazową.\n",
+        "infoRaw": "<keyword=lock>Zablokuj</keyword> jednostkę i przywróć tej jednostce jej siłę bazową.\n",
         "name": "Zaklęcie Kompresji"
     },
     "200055": {
@@ -2023,8 +2035,8 @@
     },
     "200162": {
         "flavor": "Nie jestem znany ze swojej cierpliwości. Poczyń, proszę, kroki, aby nie być znanym z braku głowy na karku.",
-        "info": "Rozkaz: Przenieś kartę z pola bitwy do swojej ręki, następnie zagraj kartę.\n",
-        "infoRaw": "<keyword=order>Rozkaz</keyword>: Przenieś kartę z pola bitwy do swojej ręki, następnie zagraj kartę.\n",
+        "info": "Rozkaz: Przenieś sojuszniczą jednostkę lub artefakt z powrotem do swojej ręki, następnie zagraj kartę.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Przenieś sojuszniczą jednostkę lub artefakt z powrotem do swojej ręki, następnie zagraj kartę.\n",
         "name": "Emhyr var Emreis"
     },
     "200163": {
@@ -2053,8 +2065,8 @@
     },
     "200167": {
         "flavor": "Stary grzyb! Spojrzysz i nie wiesz, żywy czy wypchany.",
-        "info": "Rozkaz: Przenieś jednostkę do drugiego rzędu. Jeśli to wróg, zadaj mu 2 pkt obrażeń",
-        "infoRaw": "<keyword=order>Rozkaz</keyword>: Przenieś jednostkę do drugiego rzędu. Jeśli to wróg, zadaj mu 2 pkt obrażeń",
+        "info": "Rozkaz: Przenieś jednostkę do drugiego rzędu. Jeśli to wróg, zadaj mu 2 pkt obrażeń; jeśli to sojusznik, wzmocnij go o 2.\nŁadunki: 3.\n",
+        "infoRaw": "<keyword=order>Rozkaz</keyword>: Przenieś jednostkę do drugiego rzędu. Jeśli to wróg, zadaj mu 2 pkt obrażeń; jeśli to sojusznik, wzmocnij go o 2.\n<keyword=charge>Ładunki</keyword>: 3.\n",
         "name": "Brouver Hoog"
     },
     "200168": {
@@ -2227,8 +2239,8 @@
     },
     "200502": {
         "flavor": "Istnieje wiele różnych odmian trolli. Jednakże wciąż nie udało się znaleźć jednego, który nie byłby durny jak wiadro gwoździ.",
-        "info": "Na koniec każdej tury, jeśli masz mniej jednostek niż przeciwnik, wzmocnij tę jednostkę o 1.\n",
-        "infoRaw": "Na koniec każdej tury, jeśli masz mniej jednostek niż przeciwnik, wzmocnij tę jednostkę o 1.\n",
+        "info": "Na koniec każdej tury, jeśli kontrolujesz mniej jednostek na polu bitwy niż przeciwnik, wzmocnij tę jednostkę o 1.\n",
+        "infoRaw": "Na koniec każdej tury, jeśli kontrolujesz mniej jednostek na polu bitwy niż przeciwnik, wzmocnij tę jednostkę o 1.\n",
         "name": "Lodowy troll"
     },
     "200518": {
@@ -2807,6 +2819,12 @@
         "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zniszcz losowego wroga.\n",
         "name": "Sklep: Łowca"
     },
+    "201736": {
+        "flavor": "Inne trolle zawsze uważały go za dziwaka - w końcu kto przy zdrowych zmysłach woli kolorowe papierki od kamieni?",
+        "info": "Rozmieszczenie: Zastosuj losowy efekt rzędu we wrogim rzędzie.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zastosuj losowy efekt rzędu we wrogim rzędzie.\n",
+        "name": "Sklep: Łowca"
+    },
     "201737": {
         "flavor": "Inne trolle zawsze uważały go za dziwaka - w końcu kto przy zdrowych zmysłach woli kolorowe papierki od kamieni?",
         "info": "Wyślij Sklepa do Cesarskiej Akademii Wojskowej.\n",
@@ -2835,6 +2853,12 @@
         "flavor": "Inne trolle zawsze uważały go za dziwaka - w końcu kto przy zdrowych zmysłach woli kolorowe papierki od kamieni?",
         "info": "Rozmieszczenie: Zniszcz wrogi Artefakt.\n",
         "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Zniszcz wrogi Artefakt.\n",
+        "name": "Sklep: Paladyn"
+    },
+    "201742": {
+        "flavor": "Inne trolle zawsze uważały go za dziwaka - w końcu kto przy zdrowych zmysłach woli kolorowe papierki od kamieni?",
+        "info": "Rozmieszczenie: Wzmocnij sojusznika o 4.\n",
+        "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij sojusznika o 4.\n",
         "name": "Sklep: Paladyn"
     },
     "201743": {

@@ -1,6 +1,5 @@
 import fs from 'fs';
 import path from 'path';
-import cardDefs from './data_definitions/cards.json';
 import { LocaleData, LocaleDataList } from '../shared/LocaleData';
 import { CardData, AllCardData, DefaultLocaleSet } from '../shared/CardData';
 
@@ -13,6 +12,7 @@ interface ICardDataList {
 const cardParser = () => {
   let localeData: { [country: string]: LocaleDataList } = {};
 
+  const cardDefs = import('./gwent-data-release/cards.json');
   const cardData: ICardDataList = Object.entries(cardDefs).reduce(
     (acc: ICardDataList, [cardID, value]: [string, any]): ICardDataList => {
       const [key] = Object.keys(value.variations);

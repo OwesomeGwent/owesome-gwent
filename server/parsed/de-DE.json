@@ -179,6 +179,18 @@
         "infoRaw": "<keyword=deploy>Einsatz</keyword>: Füge einer Einheit 4 Schaden zu. Hast du ein Einhorn auf der Hand, verdoppelt sich der Schaden.\n",
         "name": "Chironex"
     },
+    "112403": {
+        "flavor": "Er kennt hundert Wörter - achtzig Flüche und zwanzig Konnektoren.",
+        "info": "Verbessere alle Einheiten in einer Reihe um 2.\n",
+        "infoRaw": "Verbessere alle Einheiten in einer Reihe um 2.\n",
+        "name": "Duda: Feldmarschall"
+    },
+    "112404": {
+        "flavor": "Zoltans Papagei hatte das seltene Talent, einfach jeden zu nerven. Auch Zoltan.",
+        "info": "Füge allen Einheiten in einer Reihe 2 Schaden zu.\n",
+        "infoRaw": "Füge allen Einheiten in einer Reihe 2 Schaden zu.\n",
+        "name": "Duda: Aufwiegler"
+    },
     "112405": {
         "flavor": "Ein Bies sieht ein bisschen wie ein Hirsch aus. Ein riesiger, böser Hirsch.",
         "info": "Einsatz: Verbessere alle Todeswunsch-Einheiten auf deiner Hand um 1.\n",
@@ -499,8 +511,8 @@
     },
     "122311": {
         "flavor": "Ich würde alles für Temerien tun. Wobei es meist aufs Töten hinausläuft.\\n",
-        "info": "Befehl: Rufe eine Kopie dieser Einheit aus deinem Deck in diese Reihe herbei.\n",
-        "infoRaw": "<keyword=order>Befehl</keyword>: <keyword=summon>Rufe</keyword> eine Kopie dieser Einheit aus deinem Deck in diese Reihe herbei.\n",
+        "info": "Befehl: Rufe alle Kopien dieser Einheit aus deinem Deck herbei.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: <keyword=summon>Rufe</keyword> alle Kopien dieser Einheit aus deinem Deck herbei.\n",
         "name": "Streifen-Kommando"
     },
     "122312": {
@@ -1141,8 +1153,8 @@
     },
     "152104": {
         "flavor": "Wenn die Zeit gekommen ist, wird der Hahn Kambi krähen, und Hemdall wird erwachen.",
-        "info": "Einsatz: Verwirf die Karte ganz rechts auf deiner Hand und zwinge dann deinen Gegner, dasselbe zu tun.\n",
-        "infoRaw": "<keyword=deploy>Einsatz</keyword>: <keyword=discard>Verwirf</keyword> die Karte ganz rechts auf deiner Hand und zwinge dann deinen Gegner, dasselbe zu tun.\n",
+        "info": "Einsatz: Verwirf die Karte ganz rechts auf deiner Hand. Dann verwirft dein Gegner die Einheit ganz rechts auf seiner Hand.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: <keyword=discard>Verwirf</keyword> die Karte ganz rechts auf deiner Hand. Dann <keyword=discard>verwirft</keyword> dein Gegner die Einheit ganz rechts auf seiner Hand.\n",
         "name": "Kambi"
     },
     "152105": {
@@ -1159,8 +1171,8 @@
     },
     "152107": {
         "flavor": "Eigentlich heißt sie Astrid Lyttneyd Ásgeirrfinnbjornsdottir, aber das passt doch auf kein Formular.",
-        "info": "Befehl: Verwirf eine Karte. Ziehe dann eine Karte.\nLadungen: 3.\nWann immer eine Sonderkarte verworfen wird, füge einer gegnerischen Einheit 2 Schaden zu.\n",
-        "infoRaw": "<keyword=order>Befehl</keyword>: <keyword=discard>Verwirf</keyword> eine Karte. Ziehe dann eine Karte.\n<keyword=charge>Ladungen</keyword>: 3.\nWann immer eine Sonderkarte <keyword=discard>verworfen</keyword> wird, füge einer gegnerischen Einheit 2 Schaden zu.\n",
+        "info": "Befehl: Verwirf eine Karte. Ziehe dann eine Karte.\nLadungen: 3.\nWann immer du eine Sonderkarte verwirfst wird, füge einer gegnerischen Einheit 2 Schaden zu.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: <keyword=discard>Verwirf</keyword> eine Karte. Ziehe dann eine Karte.\n<keyword=charge>Ladungen</keyword>: 3.\nWann immer du eine Sonderkarte <keyword=discard>verwirfst</keyword> wird, füge einer gegnerischen Einheit 2 Schaden zu.\n",
         "name": "Koralle"
     },
     "152109": {
@@ -1273,8 +1285,8 @@
     },
     "152307": {
         "flavor": "Die Königin wird von den zähesten, wildesten Schildmaiden beschützt, die Skellige je gesehen hat.",
-        "info": "Befehl: Erleidet diese Einheit Schaden, generiere eine einfache Kopie von ihr und rufe sie rechts neben dieser Einheit herbei.\n",
-        "infoRaw": "<keyword=order>Befehl</keyword>: Erleidet diese Einheit Schaden, <keyword=spawn>generiere</keyword> eine einfache Kopie von ihr und <keyword=summon>rufe</keyword> sie rechts neben dieser Einheit herbei.\n",
+        "info": "Befehl: Wird dieser Einheit Schaden zugefügt, generiere eine einfache Kopie von ihr und rufe sie rechts neben dieser Einheit herbei.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Wird dieser Einheit Schaden zugefügt, <keyword=spawn>generiere</keyword> eine einfache Kopie von ihr und <keyword=summon>rufe</keyword> sie rechts neben dieser Einheit herbei.\n",
         "name": "Drummond-Leibwache"
     },
     "152308": {
@@ -1549,8 +1561,8 @@
     },
     "162309": {
         "flavor": "Der Kaiser wird den Norden Disziplin lehren.",
-        "info": "Wann immer eine Einheit mit Einsatz-Fähigkeit ausgespielt wird, verbessere diese Einheit um 1.\n",
-        "infoRaw": "Wann immer eine Einheit mit <keyword=deploy>Einsatz</keyword>-Fähigkeit ausgespielt wird, verbessere diese Einheit um 1.\n",
+        "info": "Wann immer du eine Einheit mit Einsatz-Fähigkeit ausspielst, verbessere diese Einheit um 1.\n",
+        "infoRaw": "Wann immer du eine Einheit mit <keyword=deploy>Einsatz</keyword>-Fähigkeit ausspielst, verbessere diese Einheit um 1.\n",
         "name": "Nauzicaa-Feldwebel"
     },
     "162310": {
@@ -2023,8 +2035,8 @@
     },
     "200162": {
         "flavor": "Man nennt mich nicht den Geduldigen. Aber dich bald den Kopflosen.",
-        "info": "Befehl: Verschiebe eine Karte vom Schlachtfeld auf deine Hand und spiele dann eine Karte aus.\n",
-        "infoRaw": "<keyword=order>Befehl</keyword>: Verschiebe eine Karte vom Schlachtfeld auf deine Hand und spiele dann eine Karte aus.\n",
+        "info": "Befehl: Verschiebe eine verbündete Einheit oder ein Artefakt auf deine Hand und spiele dann eine Karte aus.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Verschiebe eine verbündete Einheit oder ein Artefakt auf deine Hand und spiele dann eine Karte aus.\n",
         "name": "Emhyr var Emreis"
     },
     "200163": {
@@ -2053,8 +2065,8 @@
     },
     "200167": {
         "flavor": "Dieser Tattergreis? Ich weiß nicht mal, ob der lebendig oder ausgestopft ist!",
-        "info": "Befehl: Verschiebe eine Einheit in die andere Reihe auf ihrer Seite. Handelt es sich um eine gegnerische Einheit, füge ihr 2 Schaden zu",
-        "infoRaw": "<keyword=order>Befehl</keyword>: Verschiebe eine Einheit in die andere Reihe auf ihrer Seite. Handelt es sich um eine gegnerische Einheit, füge ihr 2 Schaden zu",
+        "info": "Befehl: Verschiebe eine Einheit in die andere Reihe auf ihrer Seite. Handelt es sich um eine gegnerische Einheit, füge ihr 2 Schaden zu; handelt es sich um eine verbündete Einheit, verbessere sie um 2.\nLadungen: 3.\n",
+        "infoRaw": "<keyword=order>Befehl</keyword>: Verschiebe eine Einheit in die andere Reihe auf ihrer Seite. Handelt es sich um eine gegnerische Einheit, füge ihr 2 Schaden zu; handelt es sich um eine verbündete Einheit, verbessere sie um 2.\n<keyword=charge>Ladungen</keyword>: 3.\n",
         "name": "Brouver Hoog"
     },
     "200168": {
@@ -2137,8 +2149,8 @@
     },
     "200226": {
         "flavor": "Auch bekannt als Königin der Gifte wird Wolfsbann in zahlreichen Hexertränken und alchemistischen Gebräuen verwendet.",
-        "info": "Füge allen gegnerischen Einheiten mit gerader Stärke 2 Schaden zu",
-        "infoRaw": "Füge allen gegnerischen Einheiten mit gerader Stärke 2 Schaden zu",
+        "info": "Füge allen gegnerischen Einheiten mit gerader Stärke 2 Schaden zu; oder füge allen gegnerischen Einheiten mit ungerader Stärke 2 Schaden zu.\n",
+        "infoRaw": "Füge allen gegnerischen Einheiten mit gerader Stärke 2 Schaden zu; oder füge allen gegnerischen Einheiten mit ungerader Stärke 2 Schaden zu.\n",
         "name": "Wolfsbann"
     },
     "200228": {
@@ -2227,8 +2239,8 @@
     },
     "200502": {
         "flavor": "Trolle gibt es in unterschiedlichen Gestalten und Größen und mit verschiedensten Vorlieben. Aber immer mit so viel Hirn wie ein Eimer voll rostiger Nägel.",
-        "info": "Verbessere diese Einheit jeden Zug am Ende des Zugs um 1, wenn du weniger Einheiten hast als dein Gegner.\n",
-        "infoRaw": "Verbessere diese Einheit jeden Zug am Ende des Zugs um 1, wenn du weniger Einheiten hast als dein Gegner.\n",
+        "info": "Verbessere diese Einheit bei jedem Zug am Ende des Zugs um 1, wenn du weniger Einheiten auf dem Schlachtfeld hast als dein Gegner.\n",
+        "infoRaw": "Verbessere diese Einheit bei jedem Zug am Ende des Zugs um 1, wenn du weniger Einheiten auf dem Schlachtfeld hast als dein Gegner.\n",
         "name": "Eistroll"
     },
     "200518": {
@@ -2807,6 +2819,12 @@
         "infoRaw": "<keyword=deploy>Einsatz</keyword>: Zerstöre eine zufällig gewählte gegnerische Einheit.\n",
         "name": "Shøp: Jäger"
     },
+    "201736": {
+        "flavor": "Die anderen Trolle fanden ihn immer etwas seltsam - ich meine, wer mag schon farbige Papierschnipsel lieber als Steine?",
+        "info": "Einsatz: Wende einen zufällig gewählten Reiheneffekt in einer gegnerischen Reihe an.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Wende einen zufällig gewählten Reiheneffekt in einer gegnerischen Reihe an.\n",
+        "name": "Shøp: Jäger"
+    },
     "201737": {
         "flavor": "Die anderen Trolle fanden ihn immer etwas seltsam - ich meine, wer mag schon farbige Papierschnipsel lieber als Steine?",
         "info": "Schicke Shøp zur Militärakademie am Kaiserlichen Hof.\n",
@@ -2835,6 +2853,12 @@
         "flavor": "Die anderen Trolle fanden ihn immer etwas seltsam - ich meine, wer mag schon farbige Papierschnipsel lieber als Steine?",
         "info": "Einsatz: Zerstöre ein gegnerisches Artefakt.\n",
         "infoRaw": "<keyword=deploy>Einsatz</keyword>: Zerstöre ein gegnerisches Artefakt.\n",
+        "name": "Shøp: Ritter"
+    },
+    "201742": {
+        "flavor": "Die anderen Trolle fanden ihn immer etwas seltsam - ich meine, wer mag schon farbige Papierschnipsel lieber als Steine?",
+        "info": "Einsatz: Verbessere eine verbündete Einheit um 4.\n",
+        "infoRaw": "<keyword=deploy>Einsatz</keyword>: Verbessere eine verbündete Einheit um 4.\n",
         "name": "Shøp: Ritter"
     },
     "201743": {

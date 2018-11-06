@@ -179,6 +179,18 @@
         "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 4 de daño a una unidad. Si tienes a Unicornio en la mano, duplica esta cantidad.\n",
         "name": "Chironex"
     },
+    "112403": {
+        "flavor": "Sabe decir cien palabras: ochenta de ellas son palabrotas, el resto, conectores discursivos.",
+        "info": "Potencia a todas las unidades de una fila en 2.\n",
+        "infoRaw": "Potencia a todas las unidades de una fila en 2.\n",
+        "name": "Duda: Compañero"
+    },
+    "112404": {
+        "flavor": "El loro de Zoltan tenía la extraordinaria habilidad de irritar a todo aquel que pasase tiempo con él. Incluido Zoltan.",
+        "info": "Inflige 2 de daño a todas las unidades de una fila.\n",
+        "infoRaw": "Inflige 2 de daño a todas las unidades de una fila.\n",
+        "name": "Duda: Agitador"
+    },
     "112405": {
         "flavor": "Las demonibestias se parecen a un ciervo. A un enorme ciervo maligno.",
         "info": "Despliegue: potencia a todas las unidades con sueño mortal de tu mano en 1.\n",
@@ -493,14 +505,14 @@
     },
     "122310": {
         "flavor": "Los Franjas Azules y los Scoia'tael se asemejan en un aspecto: el odio los consume.",
-        "info": "Despliegue, cuerpo a cuerpo: genera una copia de un aliado de bronce al último lugar de tu baraja.\n",
-        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>cuerpo a cuerpo</keyword>: <keyword=spawn>genera</keyword> una copia de un aliado de bronce al último lugar de tu baraja.\n",
+        "info": "Despliegue, cuerpo a cuerpo: genera una copia de un aliado de bronce en el último lugar de tu baraja.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>cuerpo a cuerpo</keyword>: <keyword=spawn>genera</keyword> una copia de un aliado de bronce en el último lugar de tu baraja.\n",
         "name": "Explorador Franjas Azules"
     },
     "122311": {
         "flavor": "Yo hago lo que sea por Temeria. Principalmente, matar por ella.",
-        "info": "Orden: invoca una copia de esta unidad de tu baraja a esta fila.\n",
-        "infoRaw": "<keyword=order>Orden</keyword>: <keyword=summon>invoca</keyword> una copia de esta unidad de tu baraja a esta fila.\n",
+        "info": "Orden: invoca todas las copias de esta unidad de tu baraja a esta fila.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: <keyword=summon>invoca</keyword> todas las copias de esta unidad de tu baraja a esta fila.\n",
         "name": "Franja Azul: Comando"
     },
     "122312": {
@@ -1141,8 +1153,8 @@
     },
     "152104": {
         "flavor": "Cuando llegue el momento, el gallo Kambi cacareará y despertará a Hemdall.",
-        "info": "Despliegue: descarta la carta más a la derecha de tu mano y luego obliga a tu rival a hacer lo mismo.\n",
-        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=discard>descarta</keyword> la carta más a la derecha de tu mano y luego obliga a tu rival a hacer lo mismo.\n",
+        "info": "Despliegue: descarta la carta más a la derecha de tu mano y luego obliga tu rival descarta la unidad más a la derecha de su mano.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=discard>descarta</keyword> la carta más a la derecha de tu mano y luego obliga tu rival <keyword=discard>descarta</keyword> la unidad más a la derecha de su mano.\n",
         "name": "Kambi"
     },
     "152105": {
@@ -1159,8 +1171,8 @@
     },
     "152107": {
         "flavor": "Su verdadero nombre es Astrid Lyttneyd Ásgeirrfinnbjornsdottir, pero cualquiera lo escribe.",
-        "info": "Orden: descarta una carta y luego saca una carta.\nCargas: 3.\nCada vez que se descarte una carta especial, inflige 2 de daño a un enemigo.\n",
-        "infoRaw": "<keyword=order>Orden</keyword>: <keyword=discard>descarta</keyword> una carta y luego saca una carta.\n<keyword=charge>Cargas</keyword>: 3.\nCada vez que se <keyword=discard>descarte</keyword> una carta especial, inflige 2 de daño a un enemigo.\n",
+        "info": "Orden: descarta una carta y luego saca una carta.\nCargas: 3.\nCada vez que descartas una carta especial, inflige 2 de daño a un enemigo.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: <keyword=discard>descarta</keyword> una carta y luego saca una carta.\n<keyword=charge>Cargas</keyword>: 3.\nCada vez que <keyword=discard>descartas</keyword> una carta especial, inflige 2 de daño a un enemigo.\n",
         "name": "Coral"
     },
     "152109": {
@@ -1549,8 +1561,8 @@
     },
     "162309": {
         "flavor": "El emperador enseñará disciplina al Norte.",
-        "info": "Cada vez que se juega una unidad con despliegue, se potencia en 1.\n",
-        "infoRaw": "Cada vez que se juega una unidad con <keyword=deploy>despliegue</keyword>, se potencia en 1.\n",
+        "info": "Cada vez que juegas una unidad con despliegue, se potencia en 1.\n",
+        "infoRaw": "Cada vez que juegas una unidad con <keyword=deploy>despliegue</keyword>, se potencia en 1.\n",
         "name": "Sargento de Nausicaa"
     },
     "162310": {
@@ -2023,8 +2035,8 @@
     },
     "200162": {
         "flavor": "No me llaman el Paciente. Procura que a ti no te conozcan como el Decapitado.",
-        "info": "Orden: mueve una carta del campo de batalla a tu mano y luego juega una carta.\n",
-        "infoRaw": "<keyword=order>Orden</keyword>: mueve una carta del campo de batalla a tu mano y luego juega una carta.\n",
+        "info": "Orden: devuelve una unidad aliada o artefacto a tu mano y luego juega una carta.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: devuelve una unidad aliada o artefacto a tu mano y luego juega una carta.\n",
         "name": "Emhyr var Emreis"
     },
     "200163": {
@@ -2053,8 +2065,8 @@
     },
     "200167": {
         "flavor": "¿Ese imbécil que se tambalea? ¡No se sabría decir si está vivo o ya es un fiambre!",
-        "info": "Orden: mueve una unidad a la otra fila. Si es un enemigo, le inflige 2 de daño",
-        "infoRaw": "<keyword=order>Orden</keyword>: mueve una unidad a la otra fila. Si es un enemigo, le inflige 2 de daño",
+        "info": "Orden: mueve una unidad a la otra fila. Si es un enemigo, le inflige 2 de daño; si es un aliado, lo potencia en 2.\nCargas: 3.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: mueve una unidad a la otra fila. Si es un enemigo, le inflige 2 de daño; si es un aliado, lo potencia en 2.\n<keyword=charge>Cargas</keyword>: 3.\n",
         "name": "Brouver Hoog"
     },
     "200168": {
@@ -2227,8 +2239,8 @@
     },
     "200502": {
         "flavor": "Hay muchas variedades de trols, de diferentes formas, tamaños y predilecciones, aunque todos tienen los sesos en los calcañales.",
-        "info": "Cada turno, al final del turno, si tienes menos unidades que tu rival, se potencia en 1.\n",
-        "infoRaw": "Cada turno, al final del turno, si tienes menos unidades que tu rival, se potencia en 1.\n",
+        "info": "Cada turno, al final del turno, si controlas menos unidades en el campo de batalla que tu rival, se potencia en 1.\n",
+        "infoRaw": "Cada turno, al final del turno, si controlas menos unidades en el campo de batalla que tu rival, se potencia en 1.\n",
         "name": "Trol de hielo"
     },
     "200518": {
@@ -2807,6 +2819,12 @@
         "infoRaw": "<keyword=deploy>Despliegue</keyword>: destruye una unidad enemiga aleatoria.\n",
         "name": "Troco: Cazador"
     },
+    "201736": {
+        "flavor": "Los otros trols siempre han pensado que es un poco rarito... Al fin y al cabo, ¿quién en su sano juicio preferiría unos papeluchos de colores a las piedras?",
+        "info": "Despliegue: aplica un efecto de fila aleatorio a una fila enemiga.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: aplica un efecto de fila aleatorio a una fila enemiga.\n",
+        "name": "Troco: Cazador"
+    },
     "201737": {
         "flavor": "Los otros trols siempre han pensado que es un poco rarito... Al fin y al cabo, ¿quién en su sano juicio preferiría unos papeluchos de colores a las piedras?",
         "info": "Envía a Troco a la Academia Militar de la Corte Imperial.\n",
@@ -2835,6 +2853,12 @@
         "flavor": "Los otros trols siempre han pensado que es un poco rarito... Al fin y al cabo, ¿quién en su sano juicio preferiría unos papeluchos de colores a las piedras?",
         "info": "Despliegue: destruye un artefacto enemigo.\n",
         "infoRaw": "<keyword=deploy>Despliegue</keyword>: destruye un artefacto enemigo.\n",
+        "name": "Troco: Caballero"
+    },
+    "201742": {
+        "flavor": "Los otros trols siempre han pensado que es un poco rarito... Al fin y al cabo, ¿quién en su sano juicio preferiría unos papeluchos de colores a las piedras?",
+        "info": "Despliegue: potencia a un aliado en 4.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: potencia a un aliado en 4.\n",
         "name": "Troco: Caballero"
     },
     "201743": {

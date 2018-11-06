@@ -179,6 +179,18 @@
         "infoRaw": "<keyword=deploy>Mobilização</keyword>: causa 4 de dano a uma unidade. Se você tiver Unicórnio na mão, a quantidade dobra.\n",
         "name": "Chironex"
     },
+    "112403": {
+        "flavor": "Conhece cem palavras, oitenta delas são insultos e as demais são conectivos.",
+        "info": "Reforça todas as unidades em uma fileira em 2.\n",
+        "infoRaw": "Reforça todas as unidades em uma fileira em 2.\n",
+        "name": "Duda: Companheiro"
+    },
+    "112404": {
+        "flavor": "O papagaio de Zoltan tinha a habilidade extraordinária de irritar qualquer um que passasse algum tempo com ele. Inclusive Zoltan.",
+        "info": "Causa 2 de dano a todas as unidades em uma fileira.\n",
+        "infoRaw": "Causa 2 de dano a todas as unidades em uma fileira.\n",
+        "name": "Duda: Agitador"
+    },
     "112405": {
         "flavor": "Um demônio parece quase como um cervo, como um cervo grande e maligno.",
         "info": "Mobilização: reforça todas as unidades de Desejo de Morte na sua mão em 1.\n",
@@ -499,8 +511,8 @@
     },
     "122311": {
         "flavor": "Faria qualquer coisa por Teméria, mas, na maioria das vezes, eu mato por ela.",
-        "info": "Ordem: invoca uma cópia desta unidade do seu baralho para esta fileira.\n",
-        "infoRaw": "<keyword=order>Ordem</keyword>: <keyword=summon>invoca</keyword> uma cópia desta unidade do seu baralho para esta fileira.\n",
+        "info": "Ordem: invoca todas as cópias desta unidade do seu baralho para esta fileira.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: <keyword=summon>invoca</keyword> todas as cópias desta unidade do seu baralho para esta fileira.\n",
         "name": "Listra Azul: Comando"
     },
     "122312": {
@@ -1141,8 +1153,8 @@
     },
     "152104": {
         "flavor": "Quando chegar a hora certa, ouviremos o canto do galo Kambi e presenciaremos o despertar de Hemdall.",
-        "info": "Mobilização: descarta a carta mais à direita na sua mão, depois obriga seu oponente a fazer o mesmo.\n",
-        "infoRaw": "<keyword=deploy>Mobilização</keyword>: <keyword=discard>descarta</keyword> a carta mais à direita na sua mão, depois obriga seu oponente a fazer o mesmo.\n",
+        "info": "Mobilização: descarta a carta mais à direita na sua mão, depois seu oponente descarta a unidade mais à direita na sua mão.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: <keyword=discard>descarta</keyword> a carta mais à direita na sua mão, depois seu oponente <keyword=discard>descarta</keyword> a unidade mais à direita na sua mão.\n",
         "name": "Kambi"
     },
     "152105": {
@@ -1159,8 +1171,8 @@
     },
     "152107": {
         "flavor": "O nome verdadeiro dela é Astrid Lyttneyd Ásgeirrfinnbjornsdottir, mas nenhum formulário tinha espaço pra isso.",
-        "info": "Ordem: descarta uma carta, depois compra uma carta.\nCarga: 3.\nSempre que uma carta especial é descartada, causa 2 de dano a um inimigo.\n",
-        "infoRaw": "<keyword=order>Ordem</keyword>: <keyword=discard>descarta</keyword> uma carta, depois compra uma carta.\n<keyword=charge>Carga</keyword>: 3.\nSempre que uma carta especial é <keyword=discard>descartada</keyword>, causa 2 de dano a um inimigo.\n",
+        "info": "Ordem: descarta uma carta, depois compra uma carta.\nCarga: 3.\nSempre que você descarta uma carta especial, causa 2 de dano a um inimigo.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: <keyword=discard>descarta</keyword> uma carta, depois compra uma carta.\n<keyword=charge>Carga</keyword>: 3.\nSempre que você <keyword=discard>descarta</keyword> uma carta especial, causa 2 de dano a um inimigo.\n",
         "name": "Coral"
     },
     "152109": {
@@ -1549,8 +1561,8 @@
     },
     "162309": {
         "flavor": "O imperador vai ensinar disciplina ao Norte.",
-        "info": "Sempre que uma unidade com Mobilização é usada, reforça a si mesma em 1.\n",
-        "infoRaw": "Sempre que uma unidade com <keyword=deploy>Mobilização</keyword> é usada, reforça a si mesma em 1.\n",
+        "info": "Sempre que usar uma unidade com Mobilização, reforça a si mesma em 1.\n",
+        "infoRaw": "Sempre que usar uma unidade com <keyword=deploy>Mobilização</keyword>, reforça a si mesma em 1.\n",
         "name": "Sargento Nauzicaa"
     },
     "162310": {
@@ -2023,8 +2035,8 @@
     },
     "200162": {
         "flavor": "Não sou conhecido pela minha paciência. Agradeça por não te conhecerem por perder a cabeça.",
-        "info": "Ordem: move uma carta do campo de batalha para a sua mão, depois usa uma carta.\n",
-        "infoRaw": "<keyword=order>Ordem</keyword>: move uma carta do campo de batalha para a sua mão, depois usa uma carta.\n",
+        "info": "Ordem: move uma unidade aliada ou artefato de volta para a sua mão, depois usa uma carta.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: move uma unidade aliada ou artefato de volta para a sua mão, depois usa uma carta.\n",
         "name": "Emhyr var Emreis"
     },
     "200163": {
@@ -2053,8 +2065,8 @@
     },
     "200167": {
         "flavor": "Esse idiota frouxo? Dá nem pra saber se tá vivo ou foi empalhado!",
-        "info": "Ordem: move uma unidade para a outra fileira. Se for um inimigo, causa 2 de dano a ele",
-        "infoRaw": "<keyword=order>Ordem</keyword>: move uma unidade para a outra fileira. Se for um inimigo, causa 2 de dano a ele",
+        "info": "Ordem: move uma unidade para a outra fileira. Se for um inimigo, causa 2 de dano a ele; se for um aliado, reforça ele em 2.\nCarga: 3.\n",
+        "infoRaw": "<keyword=order>Ordem</keyword>: move uma unidade para a outra fileira. Se for um inimigo, causa 2 de dano a ele; se for um aliado, reforça ele em 2.\n<keyword=charge>Carga</keyword>: 3.\n",
         "name": "Brouver Hoog"
     },
     "200168": {
@@ -2227,8 +2239,8 @@
     },
     "200502": {
         "flavor": "Há muitas variedades de trolls, com formatos, tamanhos e predileções diferentes, mas sempre com a inteligência de um balde de pregos enferrujados.",
-        "info": "A cada turno, no fim do turno, se você tem menos unidades do que o seu oponente, reforça a si mesma em 1.\n",
-        "infoRaw": "A cada turno, no fim do turno, se você tem menos unidades do que o seu oponente, reforça a si mesma em 1.\n",
+        "info": "A cada turno, no fim do turno, se você controla menos unidades no campo de batalha do que o seu oponente, reforça a si mesma em 1.\n",
+        "infoRaw": "A cada turno, no fim do turno, se você controla menos unidades no campo de batalha do que o seu oponente, reforça a si mesma em 1.\n",
         "name": "Troll do Gelo"
     },
     "200518": {
@@ -2807,6 +2819,12 @@
         "infoRaw": "<keyword=deploy>Mobilização</keyword>: destrói um inimigo aleatório.\n",
         "name": "Shupe: Caçador"
     },
+    "201736": {
+        "flavor": "Os outros trolls sempre o consideraram um pouco estranho - afinal de contas, quem em plena consciência preferiria pedaços de papel colorido em vez de pedras?",
+        "info": "Mobilização: aplica um efeito de fileira aleatório a uma fileira inimiga.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: aplica um efeito de fileira aleatório a uma fileira inimiga.\n",
+        "name": "Shupe: Caçador"
+    },
     "201737": {
         "flavor": "Os outros trolls sempre o consideraram um pouco estranho - afinal de contas, quem em plena consciência preferiria pedaços de papel colorido em vez de pedras?",
         "info": "Envia Lojø para a Academia Militar da Corte Imperial.\n",
@@ -2835,6 +2853,12 @@
         "flavor": "Os outros trolls sempre o consideraram um pouco estranho - afinal de contas, quem em plena consciência preferiria pedaços de papel colorido em vez de pedras?",
         "info": "Mobilização: destrói um artefato inimigo.\n",
         "infoRaw": "<keyword=deploy>Mobilização</keyword>: destrói um artefato inimigo.\n",
+        "name": "Shupe: Cavaleiro"
+    },
+    "201742": {
+        "flavor": "Os outros trolls sempre o consideraram um pouco estranho - afinal de contas, quem em plena consciência preferiria pedaços de papel colorido em vez de pedras?",
+        "info": "Mobilização: reforça um aliado em 4.\n",
+        "infoRaw": "<keyword=deploy>Mobilização</keyword>: reforça um aliado em 4.\n",
         "name": "Shupe: Cavaleiro"
     },
     "201743": {

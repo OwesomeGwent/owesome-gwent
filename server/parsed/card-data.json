@@ -464,7 +464,10 @@
             "Siege"
         ],
         "provision": 12,
-        "related": [],
+        "related": [
+            "112404",
+            "112403"
+        ],
         "released": true,
         "strength": 2,
         "type": "Gold",
@@ -1666,6 +1669,94 @@
                 },
                 "rarity": "Legendary",
                 "variationId": "11240200"
+            }
+        }
+    },
+    "112403": {
+        "artist": "Grafit Studio",
+        "cardType": "Spell",
+        "categories": [],
+        "categoryIds": [],
+        "faction": "Neutral",
+        "ingameId": "112403",
+        "keywords": [],
+        "loyalties": [
+            "Loyal",
+            "Disloyal"
+        ],
+        "positions": [
+            "Melee",
+            "Ranged",
+            "Siege"
+        ],
+        "provision": 0,
+        "related": [],
+        "released": true,
+        "strength": 0,
+        "type": "Gold",
+        "variations": {
+            "11240300": {
+                "art": {
+                    "ingameArtId": "1037"
+                },
+                "availability": "NonOwnable",
+                "collectible": false,
+                "craft": {
+                    "premium": 1600,
+                    "standard": 800,
+                    "upgrade": 400
+                },
+                "mill": {
+                    "premium": 200,
+                    "standard": 200,
+                    "upgrade": 120
+                },
+                "rarity": "Legendary",
+                "variationId": "11240300"
+            }
+        }
+    },
+    "112404": {
+        "artist": "Grafit Studio",
+        "cardType": "Spell",
+        "categories": [],
+        "categoryIds": [],
+        "faction": "Neutral",
+        "ingameId": "112404",
+        "keywords": [],
+        "loyalties": [
+            "Loyal",
+            "Disloyal"
+        ],
+        "positions": [
+            "Melee",
+            "Ranged",
+            "Siege"
+        ],
+        "provision": 0,
+        "related": [],
+        "released": true,
+        "strength": 0,
+        "type": "Gold",
+        "variations": {
+            "11240400": {
+                "art": {
+                    "ingameArtId": "1038"
+                },
+                "availability": "NonOwnable",
+                "collectible": false,
+                "craft": {
+                    "premium": 1600,
+                    "standard": 800,
+                    "upgrade": 400
+                },
+                "mill": {
+                    "premium": 200,
+                    "standard": 200,
+                    "upgrade": 120
+                },
+                "rarity": "Legendary",
+                "variationId": "11240400"
             }
         }
     },
@@ -6019,7 +6110,10 @@
             "Siege"
         ],
         "provision": 8,
-        "related": [],
+        "related": [
+            "132207",
+            "132208"
+        ],
         "released": true,
         "strength": 5,
         "type": "Gold",
@@ -6074,7 +6168,10 @@
             "Siege"
         ],
         "provision": 8,
-        "related": [],
+        "related": [
+            "132208",
+            "132206"
+        ],
         "released": true,
         "strength": 5,
         "type": "Gold",
@@ -6128,7 +6225,10 @@
             "Siege"
         ],
         "provision": 8,
-        "related": [],
+        "related": [
+            "132207",
+            "132206"
+        ],
         "released": true,
         "strength": 5,
         "type": "Gold",
@@ -18884,7 +18984,8 @@
         "faction": "Scoiatael",
         "ingameId": "200167",
         "keywords": [
-            "order"
+            "order",
+            "charge"
         ],
         "loyalties": [
             "Loyal"
@@ -25417,7 +25518,8 @@
             "201732",
             "201733",
             "201734",
-            "201735"
+            "201735",
+            "201736"
         ],
         "released": true,
         "strength": 4,
@@ -25624,6 +25726,51 @@
             }
         }
     },
+    "201736": {
+        "artist": "Lorenzo Mastroianni",
+        "cardType": "Spell",
+        "categories": [],
+        "categoryIds": [],
+        "faction": "Neutral",
+        "ingameId": "201736",
+        "keywords": [
+            "deploy"
+        ],
+        "loyalties": [
+            "Loyal"
+        ],
+        "positions": [
+            "Melee",
+            "Ranged",
+            "Siege"
+        ],
+        "provision": 0,
+        "related": [],
+        "released": true,
+        "strength": 0,
+        "type": "Gold",
+        "variations": {
+            "20173600": {
+                "art": {
+                    "ingameArtId": "1637"
+                },
+                "availability": "NonOwnable",
+                "collectible": false,
+                "craft": {
+                    "premium": 1600,
+                    "standard": 800,
+                    "upgrade": 400
+                },
+                "mill": {
+                    "premium": 200,
+                    "standard": 200,
+                    "upgrade": 120
+                },
+                "rarity": "Legendary",
+                "variationId": "20173600"
+            }
+        }
+    },
     "201737": {
         "artist": "Lorenzo Mastroianni",
         "cardType": "Unit",
@@ -25645,7 +25792,8 @@
             "201738",
             "201739",
             "201740",
-            "201741"
+            "201741",
+            "201742"
         ],
         "released": true,
         "strength": 8,
@@ -25851,6 +25999,51 @@
                 },
                 "rarity": "Legendary",
                 "variationId": "20174100"
+            }
+        }
+    },
+    "201742": {
+        "artist": "Lorenzo Mastroianni",
+        "cardType": "Spell",
+        "categories": [],
+        "categoryIds": [],
+        "faction": "Neutral",
+        "ingameId": "201742",
+        "keywords": [
+            "deploy"
+        ],
+        "loyalties": [
+            "Loyal"
+        ],
+        "positions": [
+            "Melee",
+            "Ranged",
+            "Siege"
+        ],
+        "provision": 0,
+        "related": [],
+        "released": true,
+        "strength": 0,
+        "type": "Gold",
+        "variations": {
+            "20174200": {
+                "art": {
+                    "ingameArtId": "1638"
+                },
+                "availability": "NonOwnable",
+                "collectible": false,
+                "craft": {
+                    "premium": 1600,
+                    "standard": 800,
+                    "upgrade": 400
+                },
+                "mill": {
+                    "premium": 200,
+                    "standard": 200,
+                    "upgrade": 120
+                },
+                "rarity": "Legendary",
+                "variationId": "20174200"
             }
         }
     },

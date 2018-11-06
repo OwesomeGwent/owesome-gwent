@@ -14,8 +14,12 @@ const cardParser = () => {
   let localeData: { [country: string]: LocaleDataList } = {};
 
   const cardData: ICardDataList = Object.entries(cardDefs).reduce(
-    (acc: ICardDataList, [cardID, value]): ICardDataList => {
-      const currentCard: AllCardData = { ...value };
+    (acc: ICardDataList, [cardID, value]: [string, any]): ICardDataList => {
+      const [key] = Object.keys(value.variations);
+      const currentCard: AllCardData = {
+        ...value,
+        variations: { [key]: value.variations[key] },
+      };
 
       LOCALE_DATA_DEFS.forEach(attrKey => {
         Object.entries(currentCard[attrKey] as DefaultLocaleSet).forEach(
@@ -26,8 +30,8 @@ const cardParser = () => {
             if (localeData[country][cardID] === undefined) {
               localeData[country][cardID] = {} as LocaleData;
             }
-            (localeData[country][cardID][attrKey] = localString),
-              delete currentCard[attrKey];
+            localeData[country][cardID][attrKey] = localString;
+            delete currentCard[attrKey];
           },
         );
       });

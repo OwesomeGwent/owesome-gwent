@@ -16,6 +16,7 @@ console.log(
 if (IS_DEF_DATA_CHANGE) {
   try {
     console.log(chalk.bgBlue(' START ') + chalk.blue(' Card Parse Start'));
+
     createCardDatas();
   } catch (err) {
     console.log(chalk.bgRed(' ERROR ') + chalk.red(' Card Parse Failed'));

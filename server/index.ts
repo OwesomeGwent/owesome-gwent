@@ -5,6 +5,7 @@ import sample from './sample';
 try {
   // console.log(chalk.bgBlue('START') + chalk.blue('Card Parse Start'));
   // 살려줘...
+  console.log('fasd');
   sample();
 } catch (err) {
   // console.log(chalk.bgRed('ERROR') + chalk.red('Card Parse Failed'));

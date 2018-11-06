@@ -1,2594 +1,3114 @@
 {
     "112101": {
+        "flavor": "去往何處，何時動身，我自己說了算。",
+        "info": "每當我方一局落敗，便從場上將此單位牌收回我方手牌。\n",
         "infoRaw": "每當我方一局落敗，便從場上將此單位牌收回我方手牌。\n",
         "name": "希里"
     },
     "112102": {
+        "flavor": "狩魔獵人晃晃手指就能點燈，或把敵人燒成灰。",
         "info": "部署、近戰：摧毀敵軍單列最大的單位牌，其總戰力為 15 點以上。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：摧毀敵軍單列最大的單位牌，其總戰力為 15 點以上。\n",
         "name": "傑洛特：伊格尼法印"
     },
     "112103": {
+        "flavor": "如果要付出這種代價方能拯救世界，那就讓世界毀滅算了。",
         "info": "部署：摧毀 1 張戰力為 8 點以上的敵軍。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：摧毀 1 張戰力為 8 點以上的敵軍。\n",
         "name": "利維亞的傑洛特"
     },
     "112104": {
+        "flavor": "人類，那些還算客氣的——都把我叫做怪物、吸血的怪胎。",
         "info": "部署：對單列所有敵軍造成 1 點傷害。若有任何單位牌被摧毀，則重複發動此能力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對單列所有敵軍造成 1 點傷害。若有任何單位牌被摧毀，則重複發動此能力。\n",
         "name": "雷吉斯"
     },
     "112105": {
+        "flavor": "他能隨心所欲地隱身，用目光讓獵物沉睡，吸飽鮮血後更能化為蝙蝠，遠走高飛。真是太厲害了。",
         "info": "部署、近戰：汲取某張敵軍的所有提升戰力值。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=drain>汲取</keyword>某張敵軍的所有提升戰力值。\n",
         "name": "雷吉斯：高等吸血鬼"
     },
     "112106": {
+        "flavor": "我能照顧自己，相信我。",
         "info": "部署、遠程：隨機揭示我方牌組中 1 張單位牌，並以該牌戰力對 1 張敵軍造成傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：隨機<keyword=reveal>揭示</keyword>我方牌組中 1 張單位牌，並以該牌戰力對 1 張敵軍造成傷害。\n",
         "name": "特莉絲．梅莉葛德"
     },
     "112107": {
+        "flavor": "他還自稱「三寒鴉」博爾克……他不太會取名字。",
         "info": "2 回合後，回合結束時，摧毀場上除了自身以外的最大單位牌。\n",
         "infoRaw": "2 回合後，回合結束時，摧毀場上除了自身以外的最大單位牌。\n",
         "name": "維蘭特雷坦梅斯"
     },
     "112108": {
+        "flavor": "魔法是混沌，是藝術，也是科學。是詛咒，是庇佑，更是進步。",
         "info": "部署、近戰：對其他所有單位牌造成 2 點傷害。\n部署、遠程：提升其他所有單位牌 2 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對其他所有單位牌造成 2 點傷害。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：提升其他所有單位牌 2 點戰力。\n",
         "name": "范格堡的葉奈法"
     },
     "112109": {
+        "flavor": "抱歉，我這寵物是隻異國鳥，聰明絕頂，就是有點下流，花了我10個塔勒呢。",
         "info": "部署、近戰：生成並打出「杜達：搗蛋鬼」。\n部署、遠程：生成並打出「杜達：夥伴」。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=spawn>生成</keyword>並打出「杜達：搗蛋鬼」。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：<keyword=spawn>生成</keyword>並打出「杜達：夥伴」。\n",
         "name": "卓爾坦：無賴"
     },
     "112110": {
+        "flavor": "你知道童話何時成真嗎？大家都開始相信的時候。",
         "info": "4 回合後，回合開始時，抽取 1 張卡牌。\n",
         "infoRaw": "4 回合後，回合開始時，抽取 1 張卡牌。\n",
         "name": "希里：衝刺"
     },
     "112111": {
+        "flavor": "這股強大的力量能摧毀一切擋道之物。如果你忘了帶鑰匙，這招最管用。",
         "info": "部署、近戰：對 3 張敵軍造成 2 點傷害，而且如果可能的話，將這些牌移至「遠程列」。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對 3 張敵軍造成 2 點傷害，而且如果可能的話，將這些牌移至「遠程列」。\n",
         "name": "傑洛特：阿爾德法印"
     },
     "112112": {
+        "flavor": "無拘無束的精靈之中，有少數被稱為艾恩．薩瓦赫尼，也就是所謂的賢者。賢者是既謎樣又如傳說般的存在。",
         "info": "部署、遠程：從我方牌組打出 1 張「文物」。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：從我方牌組打出 1 張「文物」。\n",
         "name": "阿瓦拉克：賢者"
     },
     "112113": {
+        "flavor": "一位優秀的女術士必須知道何時該施展冰，何時該施展火。",
         "info": "軍令：對敵軍最大的單位牌造成 1 點傷害。\n冷卻：1 回合。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：對敵軍最大的單位牌造成 1 點傷害。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n",
         "name": "葉奈法：咒術師"
     },
     "112201": {
+        "flavor": "變形怪有很多別名：換生靈、二重身、討嫌鬼……或模仿怪。",
         "info": "部署：變身成 1 張敵軍單位牌的基礎同名牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：變身成 1 張敵軍單位牌的基礎同名牌。\n",
         "name": "杜度"
     },
     "112202": {
+        "flavor": "白狼，我只是個狩魔獵人。我不獵龍，不跟國王稱兄道弟，也不和女術士上床……",
         "info": "部署：從我方牌組召喚「維瑟米爾」和「蘭伯特」至此列。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：從我方牌組<keyword=summon>召喚</keyword>「維瑟米爾」和「蘭伯特」至此列。\n",
         "name": "艾斯凱爾"
     },
     "112203": {
+        "flavor": "就算上了絞刑台也別放棄，跟他們要點水。畢竟沒人知道水拿來前會發生什麼。",
         "info": "部署：從我方牌組召喚「艾斯凱爾」和「蘭伯特」至此列。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：從我方牌組<keyword=summon>召喚</keyword>「艾斯凱爾」和「蘭伯特」至此列。\n",
         "name": "維瑟米爾"
     },
     "112204": {
+        "flavor": "這樣的溝通方式我才懂嘛！",
         "info": "部署：從我方牌組召喚「艾斯凱爾」和「維瑟米爾」至此列。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：從我方牌組<keyword=summon>召喚</keyword>「艾斯凱爾」和「維瑟米爾」至此列。\n",
         "name": "蘭伯特"
     },
     "112205": {
+        "flavor": "千萬別想分開母龍和她的孩子。",
         "info": "軍令：對 1 張敵軍造成 2 點傷害。\n裝填：2 次。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：對 1 張敵軍造成 2 點傷害。\n<keyword=charge>裝填</keyword>：2 次。\n",
         "name": "麥爾卓布拉克"
     },
     "112206": {
+        "flavor": "牠是石英山之主，摧毀者，圖拉真的屠夫。閒暇時，牠喜歡遠足與燭光晚餐。",
         "info": "軍令：對所有敵軍造成 1 點傷害。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：對所有敵軍造成 1 點傷害。\n",
         "name": "奧克維斯特"
     },
     "112207": {
+        "flavor": "至少你知道我的頭不好砍了。",
         "info": "軍令：治療自身。\n冷卻：1 回合。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：<keyword=heal>治療</keyword>自身。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n",
         "name": "歐吉爾德．伊佛瑞克"
     },
     "112208": {
+        "flavor": "時空在我們面前瓦解，也在我們身後膨脹，這就是穿越。",
         "info": "部署：從我方手牌生成 1 張「銅色」單位牌的基礎同名牌並召喚至雙方此列。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：從我方手牌<keyword=spawn>生成</keyword> 1 張「銅色」單位牌的基礎同名牌並<keyword=summon>召喚</keyword>至雙方此列。\n",
         "name": "領航員"
     },
     "112209": {
+        "flavor": "哞～",
         "info": "軍令：變身為「讎特怪」。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：變身為「讎特怪」。\n",
         "name": "得獎乳牛"
     },
     "112210": {
+        "flavor": "傑洛特，我們得來個人與馬的對話。沒別的意思，但你騎馬的技術——還真的有待加強呀，夥伴。",
         "info": "每當我方打出 1 張「金色」牌，便從我方牌組召喚此單位牌至隨機我方列。\n",
         "infoRaw": "每當我方打出 1 張「金色」牌，便從我方牌組<keyword=summon>召喚</keyword>此單位牌至隨機我方列。\n",
         "name": "蘿蔔"
     },
     "112211": {
+        "flavor": "要是再也沒有辦法體會說出「四十四隻石獅子」的樂趣，人生就真的太無趣啦。",
         "info": "軍令：對 1 張單位牌造成 2 點傷害。\n裝填：1 次。\n每當我方打出 1 張「特殊」牌就獲得裝填 1 次。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 2 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n每當我方打出 1 張「特殊」牌就獲得<keyword=charge>裝填</keyword> 1 次。\n",
         "name": "強尼"
     },
     "112212": {
+        "flavor": "來陪小莎拉玩遊戲吧！",
         "info": "軍令：提升 1 張單位牌 2 點戰力。\n裝填：1 次。\n每當我方打出 1 張「特殊」牌就獲得裝填 1 次。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：提升 1 張單位牌 2 點戰力。\n<keyword=charge>裝填</keyword>：1 次。\n每當我方打出 1 張「特殊」牌就獲得<keyword=charge>裝填</keyword> 1 次。\n",
         "name": "莎拉"
     },
     "112213": {
+        "flavor": "我很可能會少對耳朵……或雙手。畢竟這兩種付款方式乞丐王都接受。",
         "info": "每回合結束時，提升我方手牌中最小的單位牌 1 點戰力。\n",
         "infoRaw": "每回合結束時，提升我方手牌中最小的單位牌 1 點戰力。\n",
         "name": "乞丐王"
     },
     "112214": {
+        "flavor": "本城四大黑幫頭目之一。另外三個是西吉．盧文、卡羅．「屠夫」．凡瑞西和乞丐王。",
         "info": "部署：驅逐 1 張戰力為 3 點以下的單位牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=banish>驅逐</keyword> 1 張戰力為 3 點以下的單位牌。\n",
         "name": "賽浦利安・威利"
     },
     "112215": {
+        "flavor": "我的回憶所剩無幾……但只要想起我的玫瑰，記憶便會湧現。",
         "info": "部署、近戰：摧毀 1 張敵軍「文物」牌。\n部署、遠程：清除我方場上所有全列效果。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：摧毀 1 張敵軍「文物」牌。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：清除我方場上所有全列效果。\n",
         "name": "愛麗絲・伊佛瑞克"
     },
     "112401": {
+        "flavor": "據說獨角獸喜歡處女。但如今，處女跟獨角獸一樣稀有，這理論也就難以證實了。",
         "info": "部署：提升 1 張單位牌 4 點戰力。若我方手牌中有「夢魘獨角獸」，則提升值加倍。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張單位牌 4 點戰力。若我方手牌中有「夢魘獨角獸」，則提升值加倍。\n",
         "name": "獨角獸"
     },
     "112402": {
+        "flavor": "「天呐，那根本不是獨角獸！那是……」——著名奇珍收藏家崴爾瑪的遺言。",
         "info": "部署：對 1 張單位牌造成 4 點傷害。若我方手牌中有「獨角獸」，則傷害值加倍。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張單位牌造成 4 點傷害。若我方手牌中有「獨角獸」，則傷害值加倍。\n",
         "name": "夢魘獨角獸"
     },
     "112405": {
+        "flavor": "惡魔長得有點像鹿，一隻又大又邪惡的鹿。",
         "info": "部署：提升我方手牌中所有求死的單位牌 1 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升我方手牌中所有<keyword=deathwish>求死</keyword>的單位牌 1 點戰力。\n",
         "name": "惡魔"
     },
     "113101": {
+        "flavor": "終焉紀元到來時，漢姆多爾將挺身而出，迎擊來自摩霍格的邪惡軍團——由混沌而生的妖靈、魔鬼和惡靈。",
         "info": "施加此全列效果至敵方單列：\n每回合開始時，對此列最大的單位牌造成 2 點傷害。\n",
         "infoRaw": "施加此全列效果至敵方單列：\n每回合開始時，對此列最大的單位牌造成 2 點傷害。\n",
         "name": "終末之戰"
     },
     "113102": {
+        "flavor": "親愛的先生們，迪精只能幫人實現三個願望。之後它們將重獲自由，逃往未知界域。",
         "info": "查看我方牌組最上方的 2 張卡牌。打出 1 張，並驅逐剩餘卡牌。\n",
         "infoRaw": "查看我方牌組最上方的 2 張卡牌。打出 1 張，並<keyword=banish>驅逐</keyword>剩餘卡牌。\n",
         "name": "最後的願望"
     },
     "113201": {
+        "flavor": "如果老百姓用完了，假人也是不錯的擋箭牌。",
         "info": "將場上 1 張我軍放入我方牌組洗牌，並打出我方牌組最上方的單位牌。\n",
         "infoRaw": "將場上 1 張我軍放入我方牌組洗牌，並打出我方牌組最上方的單位牌。\n",
         "name": "誘餌"
     },
     "113202": {
+        "flavor": "一瞬間，昏天暗地，黑雲壓城。詭譎黑暗之中，一陣寒風呼嘯而過。「天哪，」葉奈法吸了口氣，「看來我們要大鬧一場了。」",
         "info": "對 5 張敵軍造成 2 傷害。\n",
         "infoRaw": "對 5 張敵軍造成 2 傷害。\n",
         "name": "梅莉葛德雹暴術"
     },
     "113203": {
+        "flavor": "這可不是普通風暴，這是天神之怒。",
         "info": "施加此全列效果至敵方單列：\n2 回合內，回合開始時，對此列所有單位牌造成 1 點傷害。\n",
         "infoRaw": "施加此全列效果至敵方單列：\n2 回合內，回合開始時，對此列所有單位牌造成 1 點傷害。\n",
         "name": "史凱利傑風暴"
     },
     "113204": {
+        "flavor": "術士史丹麥福特曾將一座擋住他塔樓風景的大山移走。傳言他有這等移山之力，全因為俘獲了一隻地靈，也就是土元素。",
         "info": "對所有敵軍造成 1 傷害。\n",
         "infoRaw": "對所有敵軍造成 1 傷害。\n",
         "name": "史丹麥福特山崩術"
     },
     "113205": {
+        "flavor": "女巫獵人必備。無聲的閃光過後，再強大的術士也是俎上鱼肉。",
         "info": "摧毀 1 張「文物」。\n",
         "infoRaw": "摧毀 1 張「文物」。\n",
         "name": "反魔法金屬炸彈"
     },
     "113206": {
+        "flavor": "見證「泰德戴爾瑞」——終焉紀元——這被白霜摧毀的世界吧！",
         "info": "摧毀所有「文物」。\n",
         "infoRaw": "摧毀所有「文物」。\n",
         "name": "白霜"
     },
     "113207": {
+        "flavor": "士氣加一分，但聽力也得減一分。",
         "info": "提升 5 張相鄰單位牌 3 點戰力。\n",
         "infoRaw": "提升 5 張相鄰單位牌 3 點戰力。\n",
         "name": "領導號角"
     },
     "113208": {
+        "flavor": "控天者德魯伊能操控各種元素，讓狂風暴雨瞬間風平浪靜，降下毀天滅地的冰雹，還能召喚雷暴讓敵軍灰飛煙滅……所以我給你個忠告：面對他，一定要畢恭畢敬。",
         "info": "部署、近戰：場上所有全列效果的時效都加 1。\n部署、遠程：所有全列效果的時效都減 1。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：場上所有全列效果的時效都加 1。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：所有全列效果的時效都減 1。\n",
         "name": "德魯伊控天者"
     },
     "113209": {
+        "flavor": "阿爾祖創造的一些怪物仍在四處遊蕩，令人膽寒的巨蜈蚣便是其一——它殘殺了創造自己的法師，摧毀了半個馬里波，然後逃進了瑞弗戴爾的幽暗森林。",
         "info": "從我方牌組打出最大的單位牌。\n",
         "infoRaw": "從我方牌組打出最大的單位牌。\n",
         "name": "阿爾祖雙十字召喚術"
     },
     "113301": {
+        "flavor": "我們完全無法念誦「阿爾祖落雷術」這樣深奧複雜的咒語。據說，阿爾祖聲如狩獵號角，言若黃鐘大呂。",
         "info": "對 1 張單位牌造成 5 點傷害。\n",
         "infoRaw": "對 1 張單位牌造成 5 點傷害。\n",
         "name": "阿爾祖落雷術"
     },
     "113302": {
+        "flavor": "寒霜凜冽的好處就是屍體不會腐爛得那麼快。",
         "info": "施加此全列效果至敵方單列：\n4 回合內，回合開始時，對此列最小的單位牌造成 2 點傷害。\n",
         "infoRaw": "施加此全列效果至敵方單列：\n4 回合內，回合開始時，對此列最小的單位牌造成 2 點傷害。\n",
         "name": "刺骨冰霜"
     },
     "113303": {
+        "flavor": "太陽出來了，德洛米！太陽出來了！也許我們命不該絕……",
         "info": "清除我方場上所有全列效果。\n",
         "infoRaw": "清除我方場上所有全列效果。\n",
         "name": "晴空"
     },
     "113305": {
+        "flavor": "優秀指揮官的福音……拙劣指揮官的噩夢。",
         "info": "施加此全列效果至敵方單列：\n4 回合內，回合開始時，對此列最大的單位牌造成 2 點傷害。\n",
         "infoRaw": "施加此全列效果至敵方單列：\n4 回合內，回合開始時，對此列最大的單位牌造成 2 點傷害。\n",
         "name": "濃霧"
     },
     "113306": {
+        "flavor": "劇毒致命的速度快得讓你連尼弗迦德大帝的頭銜都唸不完。",
         "info": "對 3 張敵軍造成 3 傷害。\n",
         "infoRaw": "對 3 張敵軍造成 3 傷害。\n",
         "name": "飛獅怪毒液"
     },
     "113307": {
+        "flavor": "那野獸狂暴地撲來，眼中怒火熊熊，全然不顧疼痛和抵抗者的死命反擊。逆者，唯有一死……",
         "info": "賦予或移除 1 張單位牌的堅毅。\n",
         "infoRaw": "賦予或移除 1 張單位牌的<keyword=resilient>堅毅</keyword>。\n",
         "name": "腎上腺素狂飆"
     },
     "113308": {
+        "flavor": "瘟疫不仁，以萬物為芻狗。",
         "info": "摧毀最小的單位牌。\n",
         "infoRaw": "摧毀最小的單位牌。\n",
         "name": "瘟疫"
     },
     "113309": {
+        "flavor": "傑洛特退了一步。他見過不少中了燒灼的人。更精確地來說，他見過不少被擊中的人留下的殘骸。",
         "info": "摧毀最大的單位牌。\n",
         "infoRaw": "摧毀最大的單位牌。\n",
         "name": "燒灼"
     },
     "113310": {
+        "flavor": "這種藥水能加速傷口的結痂和痊癒，而它之所以叫做「燕子」，是因為燕子象徵春天與生機。",
         "info": "提升 1 張單位牌 6 點戰力。\n",
         "infoRaw": "提升 1 張單位牌 6 點戰力。\n",
         "name": "燕子"
     },
     "113311": {
+        "flavor": "狩魔獵人臉色驟變……已然非人，令人怵目驚心。",
         "info": "熱忱。\n軍令：提升 1 張單位牌 2 點戰力。\n裝填：3 次。\n",
         "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：提升 1 張單位牌 2 點戰力。\n<keyword=charge>裝填</keyword>：3 次。\n",
         "name": "雷霆"
     },
     "113312": {
+        "flavor": "這裡連雨都帶股尿騷味。",
         "info": "施加此全列效果至敵方單列：\n4 回合內，回合開始時，隨機對列上 2 張單位牌造成 1 點傷害。\n",
         "infoRaw": "施加此全列效果至敵方單列：\n4 回合內，回合開始時，隨機對列上 2 張單位牌造成 1 點傷害。\n",
         "name": "暴雨"
     },
     "113313": {
+        "flavor": "史凱利傑的人不論男女老少，個個都能拿斧頭把敵人砍成兩半。只有少數萬中選一的人，能靠一聲滿懷怒意的戰吼就將敵人的耳朵撕成兩半。",
         "info": "部署：提升自身戰力，提升值等同 1 張敵軍受到的傷害值。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升自身戰力，提升值等同 1 張敵軍受到的傷害值。\n",
         "name": "奎特戰吼士"
     },
     "113315": {
+        "flavor": "當你凝視深淵，深淵也在凝視著你。",
         "info": "選擇 1 張單位牌。若該牌已獲得提升，則對其造成提升值的兩倍傷害。若該牌已負傷，則以傷害值兩倍提升其戰力。\n",
         "infoRaw": "選擇 1 張單位牌。若該牌已獲得提升，則對其造成提升值的兩倍傷害。若該牌已負傷，則以傷害值兩倍提升其戰力。\n",
         "name": "貝克的闇鏡"
     },
     "113316": {
+        "flavor": "醫學之奇跡，魔法之神力。",
         "info": "從我方墓地打出 1 張單位牌。\n",
         "infoRaw": "從我方墓地打出 1 張單位牌。\n",
         "name": "新生"
     },
     "113319": {
+        "flavor": "泰拉諾瓦的雙手被扭到背後。瑞達尼亞人用力晃了晃鐐銬，他哭喊出聲，踉踉蹌蹌地前後搖擺，隨後一陣乾嘔，不斷呻吟——他這才驚覺鐐銬的材質。",
         "info": "封印 1 張單位牌，並對其造成 3 點傷害。\n",
         "infoRaw": "<keyword=lock>封印</keyword> 1 張單位牌，並對其造成 3 點傷害。\n",
         "name": "反魔法金屬鐐銬"
     },
     "113320": {
+        "flavor": "吃夠量，世界就會變個樣……",
         "info": "對 1 張單位牌造成 3 點傷害，再提升該牌 9 點戰力。\n",
         "infoRaw": "對 1 張單位牌造成 3 點傷害，再提升該牌 9 點戰力。\n",
         "name": "幻菇"
     },
     "122101": {
+        "flavor": "我知道自己不是個好父親，但……現在彌補或許還來得及。",
         "info": "軍令：讓 1 張我軍的「裝填」加倍。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：讓 1 張我軍的「裝填」加倍。\n",
         "name": "血腥男爵"
     },
     "122102": {
+        "flavor": "一位愛國人士……也是個令人頭疼的傢伙。",
         "info": "臥底。\n部署：打出我方牌組中最上方的 2 張卡牌。\n",
         "infoRaw": "<keyword=spying>臥底</keyword>。\n<keyword=deploy>部署</keyword>：打出我方牌組中最上方的 2 張卡牌。\n",
         "name": "弗農・羅契"
     },
     "122103": {
+        "flavor": "那座廣場應以我的士兵及其他犧牲者來命名，而不是我的名字。",
         "info": "近戰：只要此單位牌位於場上，則所有具有軍令的我軍單位牌都獲得熱忱。\n",
         "infoRaw": "<keyword=melee>近戰</keyword>：只要此單位牌位於場上，則所有具有<keyword=order>軍令</keyword>的我軍單位牌都獲得<keyword=zeal>熱忱</keyword>。\n",
         "name": "約翰．納塔利斯"
     },
     "122107": {
+        "flavor": "隊長……我們的箭……長……長翅膀了！",
         "info": "部署：隨機提升 1 張我方手牌的單位牌 4 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：隨機提升 1 張我方手牌的單位牌 4 點戰力。\n",
         "name": "特莉絲：蝶羽咒"
     },
     "122108": {
+        "flavor": "即便今天會死，我也要死得光鮮亮麗。",
         "info": "部署、遠程：從我方牌組打出 1 張「咒語」。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：從我方牌組打出 1 張「咒語」。\n",
         "name": "凱拉・梅茲"
     },
     "122201": {
+        "flavor": "丹德里恩，你憤世嫉俗、風流好色、滿嘴謊話——卻也是我最好的朋友。",
         "info": "遠程：每當 1 張我軍獲得裝填 1 次，便提升該牌 1 點戰力。\n",
         "infoRaw": "<keyword=ranged>遠程</keyword>：每當 1 張我軍獲得<keyword=charge>裝填</keyword> 1 次，便提升該牌 1 點戰力。\n",
         "name": "丹德里恩"
     },
     "122202": {
+        "flavor": "想像一下穿裙子的丹德里恩，大概就是那副模樣。",
         "info": "熱忱。\n軍令：賦予 1 張單位牌裝填 1 次。\n冷卻：1 回合。\n",
         "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：賦予 1 張單位牌<keyword=charge>裝填</keyword> 1 次。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n",
         "name": "普西拉"
     },
     "122203": {
+        "flavor": "滾！我們不是每個人都那麼下流、那麼膚淺……",
         "info": "部署：將 1 張敵軍單位牌的所有裝填次數移轉給「塔勒」。\n軍令：賦予 1 張我軍單位牌裝填 1 次。\n裝填：0 次。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：將 1 張敵軍單位牌的所有<keyword=charge>裝填</keyword>次數移轉給「塔勒」。\n<keyword=order>軍令</keyword>：賦予 1 張我軍單位牌<keyword=charge>裝填</keyword> 1 次。\n<keyword=charge>裝填</keyword>：0 次。\n",
         "name": "塔勒"
     },
     "122204": {
+        "flavor": "寧似帝王快活一天，強如乞丐苟活一世。",
         "info": "部署：對 1 張敵軍造成 4 點傷害。\n軍令：賦予 1 張我軍熱忱。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 4 點傷害。\n<keyword=order>軍令</keyword>：賦予 1 張我軍<keyword=zeal>熱忱</keyword>。\n",
         "name": "薇絲"
     },
     "122205": {
+        "flavor": "女術士集會所缺乏謙遜，對權力的渴望可能會讓我們功虧一簣。",
         "info": "部署：對 1 張敵軍造成 2 點傷害。\n軍令：對 1 張敵軍造成 2 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 2 點傷害。\n<keyword=order>軍令</keyword>：對 1 張敵軍造成 2 點傷害。\n",
         "name": "席兒．坦沙維耶"
     },
     "122206": {
+        "flavor": "科德溫荒野之女。",
         "info": "臥底。\n求死：對此列所有單位牌造成 3 點傷害。\n",
         "infoRaw": "<keyword=spying>臥底</keyword>。\n<keyword=deathwish>求死</keyword>：對此列所有單位牌造成 3 點傷害。\n",
         "name": "薩賓娜．葛麗維希格"
     },
     "122207": {
+        "flavor": "我曾讓一個囚犯把腸子都吐出來了……啊，好懷念……",
         "info": "軍令/keyword>、遠程：以「戴斯摩」的戰力提升值對 1 張敵軍造成傷害。\n",
         "infoRaw": "<keyword=order>軍令/keyword>、<keyword=ranged>遠程</keyword>：以「戴斯摩」的戰力提升值對 1 張敵軍造成傷害。\n",
         "name": "戴斯摩"
     },
     "122208": {
+        "flavor": "他身穿黃金鎧甲，當然是個混帳。",
         "info": "部署：提升 1 張我軍 2 點戰力並賦予其裝填 2 次。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張我軍 2 點戰力並賦予其<keyword=charge>裝填</keyword> 2 次。\n",
         "name": "史登尼斯王子"
     },
     "122210": {
+        "flavor": "他們說公主容易動怒，但我沒想到……",
         "info": "部署：將我方墓地中 1 張「銅色」單位牌和其所有同名牌放進我方牌組洗牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：將我方墓地中 1 張「銅色」單位牌和其所有同名牌放進我方牌組洗牌。\n",
         "name": "帕維塔公主"
     },
     "122211": {
+        "flavor": "我只關心亞瑞圖札學院和我的學生們。",
         "info": "熱忱。\n軍令：使用裝填 3 次來封印 1 張敵軍單位牌。\n裝填：3 次。\n",
         "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：使用<keyword=charge>裝填</keyword> 3 次來<keyword=lock>封印</keyword> 1 張敵軍單位牌。\n<keyword=charge>裝填</keyword>：3 次。\n",
         "name": "瑪格麗塔・露克斯安提爾"
     },
     "122212": {
+        "flavor": "南娜卡的醫術無人能及。",
         "info": "軍令、遠程：提升 1 張單位牌 1 點戰力。\n裝填：3 次。\n",
         "infoRaw": "<keyword=order>軍令</keyword>、<keyword=ranged>遠程</keyword>：提升 1 張單位牌 1 點戰力。\n<keyword=charge>裝填</keyword>：3 次。\n",
         "name": "南娜卡"
     },
     "122213": {
+        "flavor": "喝酒少了歐德林，就像划船沒帶槳。",
         "info": "部署：賦予所有我軍單位牌裝填 1 次。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：賦予所有我軍單位牌<keyword=charge>裝填</keyword> 1 次。\n",
         "name": "歐德林"
     },
     "122214": {
+        "flavor": "給我衝，沒用的蠢貨！衝，不然你就會知道，我比尼弗迦德人更可怕！",
         "info": "熱忱。\n軍令：提升 1 張我軍 1 點戰力。\n裝填：2 次。\n",
         "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：提升 1 張我軍 1 點戰力。\n<keyword=charge>裝填</keyword>：2 次。\n",
         "name": "科德溫中士"
     },
     "122216": {
+        "flavor": "要在諾維格瑞做生意的人都要做個明擺著的選擇——乖乖聽屠夫的話，不然就跟自己的膝蓋說再見吧。",
         "info": "部署：只要我方手牌有 1 張卡牌，就對 1 張單位牌造成 1 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：只要我方手牌有 1 張卡牌，就對 1 張單位牌造成 1 點傷害。\n",
         "name": "屠夫"
     },
     "122301": {
+        "flavor": "成為弩炮是所有十字弓的終極夢想。",
         "info": "軍令：對 1 張單位牌造成 1 點傷害。\n裝填：1 次。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 1 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n",
         "name": "床弩"
     },
     "122302": {
+        "flavor": "從未命中同一處兩次，仔細想想，可能是個大問題。",
         "info": "軍令：對 1 張單位牌造成 2 點傷害。\n裝填：1 次。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 2 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n",
         "name": "加強型床弩"
     },
     "122303": {
+        "flavor": "城堡可不會自己垮下來，快去準備拋石機！",
         "info": "軍令、遠程：對 1 張單位牌造成 1 點傷害。若該牌被摧毀，則對相鄰該牌的單位牌造成 1 點傷害。\n裝填：1 次。\n",
         "infoRaw": "<keyword=order>軍令</keyword>、<keyword=ranged>遠程</keyword>：對 1 張單位牌造成 1 點傷害。若該牌被摧毀，則對相鄰該牌的單位牌造成 1 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n",
         "name": "拋石機"
     },
     "122304": {
+        "flavor": "攻城用的最新武器。",
         "info": "軍令、近戰：提升相鄰我軍 1 點戰力。\n裝填：1 次。\n",
         "infoRaw": "<keyword=order>軍令</keyword>、<keyword=melee>近戰</keyword>：提升相鄰我軍 1 點戰力。\n<keyword=charge>裝填</keyword>：1 次。\n",
         "name": "攻城塔"
     },
     "122309": {
+        "flavor": "「你得把準星左校 5 度。」\\n「把什麼調多少？」",
         "info": "部署：賦予 1 張「機器」我軍裝填 2 次。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：賦予 1 張「機器」我軍<keyword=charge>裝填</keyword> 2 次。\n",
         "name": "攻城支援"
     },
     "122310": {
+        "flavor": "藍衣鐵衛與松鼠黨有個共通點：滿懷仇恨。",
         "info": "部署、近戰：將 1 張「銅色」我軍的同名牌移動至我方牌組最下方。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：將 1 張「銅色」我軍的同名牌移動至我方牌組最下方。\n",
         "name": "藍衣鐵衛斥候"
     },
     "122311": {
+        "flavor": "我願為泰莫利亞赴湯蹈火，不過大部分是在殺人就是了。",
         "info": "軍令：從我方牌組召喚 1 張此單位牌的同名牌至此列。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：從我方牌組<keyword=summon>召喚</keyword> 1 張此單位牌的同名牌至此列。\n",
         "name": "藍衣鐵衛突擊隊"
     },
     "122312": {
+        "flavor": "紅縫紅，白縫白，萬事都安泰。",
         "info": "部署：提升相鄰單位牌 2 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升相鄰單位牌 2 點戰力。\n",
         "name": "戰地醫生"
     },
     "122313": {
+        "flavor": "冷靜，所有人保持警惕！這可能是那幫披斗篷戴海狸皮帽的傢伙設下的陷阱……",
         "info": "部署：若打出並與 2 張「士兵」相鄰，則獲得熱忱。\n軍令：對 1 張敵軍造成 3 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：若打出並與 2 張「士兵」相鄰，則獲得<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：對 1 張敵軍造成 3 點傷害。\n",
         "name": "褐旗營"
     },
     "122314": {
+        "flavor": "我一直很好奇，這幫傢伙是怎麼解決內急的？",
         "info": "部署、近戰：移除 1 張敵軍所有裝填，再以移除次數對該牌造成傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：移除 1 張敵軍所有<keyword=charge>裝填</keyword>，再以移除次數對該牌造成傷害。\n",
         "name": "科德溫騎兵"
     },
     "122315": {
+        "flavor": "有感覺嗎？每當這傢伙投出巨石，連大地都會顫抖。",
         "info": "遠程。每回合結束時，隨機對 1 張「遠程列」的敵軍造成 1 點傷害。\n",
         "infoRaw": "<keyword=ranged>遠程</keyword>。每回合結束時，隨機對 1 張「遠程列」的敵軍造成 1 點傷害。\n",
         "name": "加強型拋石機"
     },
     "122316": {
+        "flavor": "泰莫利亞！泰莫利亞！諸神恩賜汝等！降怒於敵，使其永世災厄！",
         "info": "部署：此列只要有 1 張獲得提升的單位牌，便對 1 張敵軍造成 1 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：此列只要有 1 張獲得提升的單位牌，便對 1 張敵軍造成 1 點傷害。\n",
         "name": "泰莫利亞步兵"
     },
     "122318": {
+        "flavor": "我絕不會失手兩次。",
         "info": "每當 1 張「機器」位於此列，就賦予其熱忱。\n",
         "infoRaw": "每當 1 張「機器」位於此列，就賦予其<keyword=zeal>熱忱</keyword>。\n",
         "name": "攻城大師"
     },
     "122401": {
+        "flavor": "承認錯誤，妥善安葬，否則他們會回來纏著你不放。",
         "info": "每回合結束時，對最大的敵軍造成 1 點傷害。\n軍令：變身成「家事妖精」。\n",
         "infoRaw": "每回合結束時，對最大的敵軍造成 1 點傷害。\n<keyword=order>軍令</keyword>：變身成「家事妖精」。\n",
         "name": "屍嬰"
     },
     "122402": {
+        "flavor": "吾為汝取名蒂雅，收汝為吾女。",
         "info": "每回合結束時，提升最小的我軍 1 點戰力。\n軍令：變身成「屍嬰」。\n",
         "infoRaw": "每回合結束時，提升最小的我軍 1 點戰力。\n<keyword=order>軍令</keyword>：變身成「屍嬰」。\n",
         "name": "家事妖精"
     },
     "122403": {
+        "flavor": "尼弗迦德的法師隨時可以被取代。要是有一人令大帝失望，還有十幾位法師等著達成大帝的要求。",
         "info": "部署、遠程：抽取 1 張卡牌，再將我方手牌中 1 張卡牌放到我方牌組最上方。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：抽取 1 張卡牌，再將我方手牌中 1 張卡牌放到我方牌組最上方。\n",
         "name": "維可瓦洛的新手巫師"
     },
     "123201": {
+        "flavor": "吹號撤退！重新整隊！等待增援！",
         "info": "生成 1 張「銅色」我軍單位牌的同名牌再召喚該牌至此列。\n",
         "infoRaw": "<keyword=spawn>生成</keyword> 1 張「銅色」我軍單位牌的同名牌再<keyword=summon>召喚</keyword>該牌至此列。\n",
         "name": "增援"
     },
     "131101": {
+        "flavor": "保留點尊嚴吧，你的下場不是都明擺著了。",
         "info": "軍令：提升 1 張單位牌 4 點戰力並賦予免疫。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：提升 1 張單位牌 4 點戰力並賦予<keyword=immune>免疫</keyword>。\n",
         "name": "艾瑞汀．畢雷克．葛拉斯"
     },
     "131102": {
+        "flavor": "畫作應當傳達情感，而非故事。",
         "info": "遠程：每當我方打出 1 張具有求死的單位牌，就發動其求死能力。\n",
         "infoRaw": "<keyword=ranged>遠程</keyword>：每當我方打出 1 張具有<keyword=deathwish>求死</keyword>的單位牌，就發動其<keyword=deathwish>求死</keyword>能力。\n",
         "name": "蓋爾"
     },
     "132101": {
+        "flavor": "有些人就是不服輸，就算得爬出墳墓也要繼續奮戰。",
         "info": "部署：將所有「人類」我軍變身為「科德溫亡魂」，而且戰力維持不變。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：將所有「人類」我軍變身為「科德溫亡魂」，而且戰力維持不變。\n",
         "name": "戰靈"
     },
     "132102": {
+        "flavor": "他總愛吹噓沒有任何武器可以穿刺自己的護甲。他真的沒說錯，而且即便死了也依然沒錯。",
         "info": "以我軍最大的戰力值對 1 張敵軍造成傷害。\n",
         "infoRaw": "以我軍最大的戰力值對 1 張敵軍造成傷害。\n",
         "name": "伊勒瑞斯之怒"
     },
     "132103": {
+        "flavor": "即便全村人都餓肚子，我們也絕不去這片樹林打獵。",
         "info": "軍令：提升我方手牌中 1 張單位牌 8 點戰力。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：提升我方手牌中 1 張單位牌 8 點戰力。\n",
         "name": "林精"
     },
     "132104": {
+        "flavor": "寵兒成逆子。",
         "info": "部署：生成我方手牌中 1 張 1 點戰力的單位牌的同名牌並召喚該牌至此列。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=spawn>生成</keyword>我方手牌中 1 張 1 點戰力的單位牌的同名牌並<keyword=summon>召喚</keyword>該牌至此列。\n",
         "name": "卡蘭希爾．艾芬尼爾"
     },
     "132105": {
+        "flavor": "你們人類的品味……很獨特。",
         "info": "軍令：賦予 1 張我軍單位牌免疫。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：賦予 1 張我軍單位牌<keyword=immune>免疫</keyword>。\n",
         "name": "阿瓦拉克"
     },
     "132106": {
+        "flavor": "大千世界，無奇不有，遠超古聖今賢之想像。",
         "info": "部署、遠程：從我方墓地打出 1 張「文物」牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：從我方墓地打出 1 張「文物」牌。\n",
         "name": "看門人"
     },
     "132107": {
+        "flavor": "對付巨章魚怪？簡單。找出你最好的劍，賣掉，去雇個狩魔獵人。",
         "info": "熱忱。\n軍令：吞噬 1 張我軍。\n裝填：3 次。\n",
         "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：<keyword=consume>吞噬</keyword> 1 張我軍。\n<keyword=charge>裝填</keyword>：3 次。\n",
         "name": "巨章魚怪"
     },
     "132108": {
+        "flavor": "打什麼仗嘛！明明有更多好辦法消耗過剩的精力……",
         "info": "求死：奪取 1 張戰力為 3 點以下的敵軍。\n",
         "infoRaw": "<keyword=deathwish>求死</keyword>：<keyword=seize>奪取</keyword> 1 張戰力為 3 點以下的敵軍。\n",
         "name": "米露娜"
     },
     "132201": {
+        "flavor": "看起來像螃蟹和蜘蛛的混種……只是體型碩大無比。",
         "info": "生成 2 張「蟹蜘蛛雄蛛」並召喚至此列，再提升此列所有「類蟲生物」1 點戰力。\n",
         "infoRaw": "<keyword=spawn>生成</keyword> 2 張「蟹蜘蛛雄蛛」並<keyword=summon>召喚</keyword>至此列，再提升此列所有「類蟲生物」1 點戰力。\n",
         "name": "巨型蟹蜘蛛"
     },
     "132202": {
+        "flavor": "大多墓穴女巫都以墓穴的腐爛遺體為生。但是有些女巫會溜進小屋，綁架孩童、殺害長者，總之不是什麼好鄰居。",
         "info": "軍令：驅逐我方墓地所有單位牌，而每驅逐 1 張就提升自身 1 點戰力。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：<keyword=banish>驅逐</keyword>我方墓地所有單位牌，而每驅逐 1 張就提升自身 1 點戰力。\n",
         "name": "莫恩塔特"
     },
     "132203": {
+        "flavor": "醜東西我也看了不少，海鱔、七鰓鰻、水滴魚……但這麼醜的還真沒看過！",
         "info": "茁壯。\n部署：發動 1 張「銅色」我軍的求死能力。\n",
         "infoRaw": "<keyword=thrive>茁壯</keyword>。\n<keyword=deploy>部署</keyword>：發動 1 張「銅色」我軍的<keyword=deathwish>求死</keyword>能力。\n",
         "name": "阿巴亞"
     },
     "132204": {
+        "flavor": "「我到底做了什麼？」法師被自己創造出來的東西嚇得大叫起來。",
         "info": "當 3 張我軍單位牌被摧毀，便喚醒「畏懼者」。\n",
         "infoRaw": "當 3 張我軍單位牌被摧毀，便喚醒「畏懼者」。\n",
         "name": "畏懼者：蟄伏"
     },
     "132205": {
+        "flavor": "生在大史凱利格島的異種惡魔，通常有點挑食。",
         "info": "部署：提升所有「野獸」我軍 1 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升所有「野獸」我軍 1 點戰力。\n",
         "name": "莫伍德"
     },
     "132206": {
+        "flavor": "我將是你最美……與最後的體驗。",
         "info": "部署：對 1 張敵軍造成 2 點傷害。\n每當我方打出「煮婆」或「織婆」，此傷害值便提高 2 點。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 2 點傷害。\n每當我方打出「煮婆」或「織婆」，此傷害值便提高 2 點。\n",
         "name": "呢喃婆"
     },
     "132207": {
+        "flavor": "小子，我們會把你剁碎。用你熬出來的湯頭應該不差。",
         "info": "部署：吞噬 1 張我軍單位牌。\n每當我方打出「呢喃婆」或「織婆」，吞噬的目標卡牌就增加 1 張。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=consume>吞噬</keyword> 1 張我軍單位牌。\n每當我方打出「呢喃婆」或「織婆」，吞噬的目標卡牌就增加 1 張。\n",
         "name": "煮婆"
     },
     "132208": {
+        "flavor": "我能感受到你的痛苦和恐懼。",
         "info": "部署：提升 1 張我軍 2 點戰力。\n每當我方打出「呢喃婆」或「煮婆」，此提升值就提高 2 點。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張我軍 2 點戰力。\n每當我方打出「呢喃婆」或「煮婆」，此提升值就提高 2 點。\n",
         "name": "織婆"
     },
     "132209": {
+        "flavor": "世上最古老也最致命的怪物。以往這種時候，我都萬分期待。現在這惡獸只是擋路。牠溫熱的血肉可以助我熬過這寒冰地獄。",
         "info": "求死：摧毀最小的敵軍。\n",
         "infoRaw": "<keyword=deathwish>求死</keyword>：摧毀最小的敵軍。\n",
         "name": "帝國飛獅怪"
     },
     "132210": {
+        "flavor": "受不了這熱浪？那你沒救了。",
         "info": "熱忱。\n軍令：對相對列上所有單位牌造成 1 點傷害。\n冷卻：3 回合。\n",
         "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：對相對列上所有單位牌造成 1 點傷害。\n<keyword=cooldown>冷卻</keyword>：3 回合。\n",
         "name": "巨型火精靈"
     },
     "132211": {
+        "flavor": "各位小心，這座橋下有孽鬼出沒。",
         "info": "茁壯。\n",
         "infoRaw": "<keyword=thrive>茁壯</keyword>。\n",
         "name": "孽鬼戰士"
     },
     "132212": {
+        "flavor": "我這輩子只當過一次逃兵，就是碰上寒冰巨人那次。我一點也不覺得丟臉。",
         "info": "無特殊能力。\n",
         "infoRaw": "無特殊能力。\n",
         "name": "寒冰巨人"
     },
     "132213": {
+        "flavor": "怎麼跟土元素精靈打？別想了，跑吧，能跑多快就跑多快。",
         "info": "無特殊能力。\n",
         "infoRaw": "無特殊能力。\n",
         "name": "遠古土精靈"
     },
     "132214": {
+        "flavor": "每個狂獵戰士都要經過嚴格篩選，而只有最殘暴、最兇狠的艾恩．艾爾族才能加入艾瑞汀的騎兵隊。",
         "info": "部署：摧毀 1 張敵軍「文物」。若我方控制最大的單位牌，則對相鄰該文物的單位牌造成 2 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：摧毀 1 張敵軍「文物」。若我方控制最大的單位牌，則對相鄰該文物的單位牌造成 2 點傷害。\n",
         "name": "尼絲里拉"
     },
     "132215": {
+        "flavor": "他會一字不差地實現你的願望，但往往問題就在於此。",
         "info": "部署：賦予 1 張敵軍單位牌氣數已盡。\n軍令：摧毀 1 張氣數已盡的敵軍。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：賦予 1 張敵軍單位牌<keyword=doomed>氣數已盡</keyword>。\n<keyword=order>軍令</keyword>：摧毀 1 張<keyword=doomed>氣數已盡</keyword>的敵軍。\n",
         "name": "剛特・歐迪姆"
     },
     "132216": {
+        "flavor": "又大又壞又醜，住在下水道裡。",
         "info": "部署、近戰：吞噬 1 張戰力為 3 點以下的單位牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=consume>吞噬</keyword> 1 張戰力為 3 點以下的單位牌。\n",
         "name": "蟾蜍王子"
     },
     "132217": {
+        "flavor": "一般的人面妖鳥以腐肉為食，賽爾伊諾人面妖鳥……則以夢境為食。",
         "info": "部署：吞噬 1 張我軍單位牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=consume>吞噬</keyword> 1 張我軍單位牌。\n",
         "name": "賽爾伊諾人面妖鳥"
     },
     "132218": {
+        "flavor": "別來吵我。",
         "info": "無特殊能力。\n",
         "infoRaw": "無特殊能力。\n",
         "name": "老矛頭：瞌睡"
     },
     "132301": {
+        "flavor": "濃霧悄然彌漫時，小霧妖便會出沒，來享用牠們的受害者。",
         "info": "求死：從我方牌組召喚 1 張此單位牌的同名牌至隨機我方列。\n",
         "infoRaw": "<keyword=deathwish>求死</keyword>：從我方牌組<keyword=summon>召喚</keyword> 1 張此單位牌的同名牌至隨機我方列。\n",
         "name": "小霧妖"
     },
     "132302": {
+        "flavor": "人類心中潛藏著許多原始的恐懼。對迷霧的恐懼更是其來有自……",
         "info": "求死：從墓地召喚此單位牌至同列，提升此牌 4 點戰力，並賦予其氣數已盡。\n",
         "infoRaw": "<keyword=deathwish>求死</keyword>：從墓地<keyword=summon>召喚</keyword>此單位牌至同列，提升此牌 4 點戰力，並賦予其<keyword=doomed>氣數已盡</keyword>。\n",
         "name": "遠古小霧妖"
     },
     "132303": {
+        "flavor": "想像一下長翅膀的蛇和夢魘的混種——翼手龍比這還更可怕。",
         "info": "部署：對 1 張敵軍造成 2 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 2 點傷害。\n",
         "name": "翼手龍"
     },
     "132304": {
+        "flavor": "醜陋的外表就是在警告你——滾遠點。",
         "info": "氣數已盡。\n",
         "infoRaw": "<keyword=doomed>氣數已盡</keyword>。\n",
         "name": "蟹蜘蛛雄蛛"
     },
     "132305": {
+        "flavor": "如果忽略牠們會殺人的殘酷事實，這些小傢伙其實挺可愛的。",
         "info": "茁壯。\n部署：生成 1 張此單位牌的基礎同名牌並召喚至此列。\n",
         "infoRaw": "<keyword=thrive>茁壯</keyword>。\n<keyword=deploy>部署</keyword>：<keyword=spawn>生成</keyword> 1 張此單位牌的基礎同名牌並<keyword=summon>召喚</keyword>至此列。\n",
         "name": "孽鬼"
     },
     "132306": {
+        "flavor": "如果食屍鬼也是生命的一環……那這還真是惡性循環。",
         "info": "部署、近戰：吞噬我方墓地中 1 張單位牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=consume>吞噬</keyword>我方墓地中 1 張單位牌。\n",
         "name": "食屍鬼"
     },
     "132307": {
+        "flavor": "獅鷲獸喜歡玩弄自己的獵物，將其一點一點地活生生啄食吞咽。",
         "info": "keyword=deploy>部署：摧毀此列 1 張我軍單位牌。若此列上沒有單位牌，則摧毀自身。\n",
         "infoRaw": "keyword=deploy>部署</keyword>：摧毀此列 1 張我軍單位牌。若此列上沒有單位牌，則摧毀自身。\n",
         "name": "獅鷲獸"
     },
     "132308": {
+        "flavor": "他們靜靜地騎在馬上，看起來很放鬆，但全副武裝：寬頭短矛、劍柄獨特的劍、戰斧以及鋸齒長斧。",
         "info": "只要 1 張單位牌在我方回合內被摧毀，便隨機對 1 張敵軍造成 1 點傷害。\n",
         "infoRaw": "只要 1 張單位牌在我方回合內被摧毀，便隨機對 1 張敵軍造成 1 點傷害。\n",
         "name": "蜥蜴人戰士"
     },
     "132309": {
+        "flavor": "白霜將至。",
         "info": "部署：只要此列上有 1 張「狂獵」單位牌，就對 1 張單位牌造成 1 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：只要此列上有 1 張「狂獵」單位牌，就對 1 張單位牌造成 1 點傷害。\n",
         "name": "狂獵戰士"
     },
     "132310": {
+        "flavor": "首先映入眼簾的是頭盔上的牛角，接著是牛角中間的突起，最後是盔沿下骷髏般的臉。",
         "info": "部署：若我方控制最大的單位牌，則從我方牌組召喚 1 張「狂獵騎士」的同名牌至此列。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：若我方控制最大的單位牌，則從我方牌組<keyword=summon>召喚</keyword> 1 張「狂獵騎士」的同名牌至此列。\n",
         "name": "狂獵騎士"
     },
     "132312": {
+        "flavor": "亨霍思的居民擔心性命受到威脅，便建起了厚厚的城牆。這些城牆也真的帶來不少好處……",
         "info": "雙方各自摧毀自身最小的單位牌。\n",
         "infoRaw": "雙方各自摧毀自身最小的單位牌。\n",
         "name": "獵捕俯衝"
     },
     "132314": {
+        "flavor": "儘管狩魔獵人想多賺些金幣，但殺水鬼這工作只值一枚銀幣，或者三個銅板——不能再多了。",
         "info": "茁壯。\n部署：對 1 張敵軍造成 2 點傷害並移至另一列。\n",
         "infoRaw": "<keyword=thrive>茁壯</keyword>。\n<keyword=deploy>部署</keyword>：對 1 張敵軍造成 2 點傷害並移至另一列。\n",
         "name": "水鬼"
     },
     "132315": {
+        "flavor": "人面妖鳥有很多種，每種都有竊盜癖。",
         "info": "氣數已盡。\n",
         "infoRaw": "<keyword=doomed>氣數已盡</keyword>。\n",
         "name": "人面妖鳥"
     },
     "132316": {
+        "flavor": "人面妖鳥歐姆蛋可是極品美食啊，先生。不過牠們的蛋可不好拿，那些妖鳥並不會乖乖地奉上牠們的蛋。",
         "info": "求死：生成 1 張「人面妖鳥」並召喚至隨機我方列。\n",
         "infoRaw": "<keyword=deathwish>求死</keyword>：<keyword=spawn>生成</keyword> 1 張「人面妖鳥」並<keyword=summon>召喚</keyword>至隨機我方列。\n",
         "name": "人面妖鳥蛋"
     },
     "132402": {
+        "flavor": "下令出動，放狗開戰。",
         "info": "部署：對 1 張敵軍造成 1 點傷害。若我方控制最大的單位牌，則改為造成 3 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 1 點傷害。若我方控制最大的單位牌，則改為造成 3 點傷害。\n",
         "name": "狂獵之犬"
     },
     "132403": {
+        "flavor": "「放心，我知道怎麼馴狼……」——獵人鄧巴的遺言。",
         "info": "部署：對 1 張敵軍造成 2 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 2 點傷害。\n",
         "name": "狼群"
     },
     "132404": {
+        "flavor": "曾經有個法師覺得牠們可愛，而他的命運催生了一句俗語：「不要玩火自焚。」",
         "info": "部署：對 1 張敵軍造成 4 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 4 點傷害。\n",
         "name": "狂怒火精靈"
     },
     "132405": {
+        "flavor": "很容易被誤認成岩石，許多巨魔已痛徹心扉地領悟到這一點。",
         "info": "部署：摧毀 1 張「文物」敵軍。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：摧毀 1 張「文物」敵軍。\n",
         "name": "狂暴土精靈"
     },
     "132406": {
+        "flavor": "沒有任何牆或門可以擋住他們。他們只需要一個小小的裂縫即可……",
         "info": "部署：發動 1 張「銅色」我軍的求死能力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：發動 1 張「銅色」我軍的<keyword=deathwish>求死</keyword>能力。\n",
         "name": "無骨妖"
     },
     "132407": {
+        "flavor": "尼弗迦德最強大的法師精通魔像創造之術，甚至還曾在某些場合讓他們為帝國奮戰……",
         "info": "部署：揭示對方牌組最上方的單位牌，並以該牌戰力值對自身造成傷害，再將該牌放回洗牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=reveal>揭示</keyword>對方牌組最上方的單位牌，並以該牌戰力值對自身造成傷害，再將該牌放回洗牌。\n",
         "name": "帝國魔像"
     },
     "132408": {
+        "flavor": "唉呀，你麻煩大了……",
         "info": "無特殊能力。\n",
         "infoRaw": "無特殊能力。\n",
         "name": "老矛頭"
     },
     "132409": {
+        "flavor": "有個迷信的蠢貨用蠟堵住耳朵，結果連警告也沒聽到。最後他的船直接撞上了礁石。",
         "info": "對 1 張敵軍造成 3 點傷害，並提升 1 張我軍 3 點戰力。\n",
         "infoRaw": "對 1 張敵軍造成 3 點傷害，並提升 1 張我軍 3 點戰力。\n",
         "name": "糟透的盛宴"
     },
     "133301": {
+        "flavor": "比一般的盾牌還堅固，造型也時髦許多。",
         "info": "熱忱。\n軍令：提升 1 張單位牌 1 點戰力。\n冷卻：1 回合。\n",
         "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：提升 1 張單位牌 1 點戰力。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n",
         "name": "翼手龍鱗盾牌"
     },
     "133302": {
+        "flavor": "該死，怪物太多了……得找個狩魔獵人，不然大家都不用活了。",
         "info": "生成 4 張 1 點戰力的「蟹蜘蛛雄蛛」並召喚至我方列。\n",
         "infoRaw": "<keyword=spawn>生成</keyword> 4 張 1 點戰力的「蟹蜘蛛雄蛛」並<keyword=summon>召喚</keyword>至我方列。\n",
         "name": "蟹蜘蛛巢穴"
     },
     "142101": {
+        "flavor": "我遺傳到父親的變形能力，不過我目前只有一種變身型態。",
         "info": "免疫。\n軍令：僅於本回合內移除此單位牌的免疫狀態。\n",
         "infoRaw": "<keyword=immune>免疫</keyword>。\n<keyword=order>軍令</keyword>：僅於本回合內移除此單位牌的<keyword=immune>免疫</keyword>狀態。\n",
         "name": "薩琪亞薩司"
     },
     "142102": {
+        "flavor": "他們一看到我的疤就知道：這下死定了。",
         "info": "部署：提升所有其他「精靈」我軍 1 點戰力。\n每當我方打出 1 張「精靈」，便提升自身 1 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升所有其他「精靈」我軍 1 點戰力。\n每當我方打出 1 張「精靈」，便提升自身 1 點戰力。\n",
         "name": "伊森格林．法歐提亞納"
     },
     "142103": {
+        "flavor": "國王或乞丐差在哪？人類少一個算一個。",
         "info": "部署：將 1 張「陷阱」我軍收回我方手牌，再打出 1 張「陷阱」。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：將 1 張「陷阱」我軍收回我方手牌，再打出 1 張「陷阱」。\n",
         "name": "伊歐菲斯"
     },
     "142104": {
+        "flavor": "每次拉弓射箭，我就想起父親。他……應該會為我感到驕傲吧。",
         "info": "免疫。\n每當我方打出 1 張「松鼠黨」單位牌，便提升自身 1 點戰力。\n",
         "infoRaw": "<keyword=immune>免疫</keyword>。\n每當我方打出 1 張「松鼠黨」單位牌，便提升自身 1 點戰力。\n",
         "name": "米爾瓦"
     },
     "142105": {
+        "flavor": "單獨喝酒的滋味，就好比兩人一起蹲茅房。",
         "info": "部署、近戰：摧毀 1 張戰力不大於我軍「矮人」總數的單位牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：摧毀 1 張戰力不大於我軍「矮人」總數的單位牌。\n",
         "name": "卓爾坦．齊瓦"
     },
     "142106": {
+        "flavor": "布洛克萊昂在淌血……可是連我也無能為力。",
         "info": "部署：回合結束時，將自身獲得的戰力提升值加倍。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：回合結束時，將自身獲得的戰力提升值加倍。\n",
         "name": "阿格萊絲"
     },
     "142107": {
+        "flavor": "因不斷預言世界末日而聞名遐邇。但在派對上就掃興了。",
         "info": "部署：提升 1 張我方手牌的「松鼠黨」單位牌 4 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張我方手牌的「松鼠黨」單位牌 4 點戰力。\n",
         "name": "伊絲琳妮．艾格麗"
     },
     "142108": {
+        "flavor": "與死亡面對面的時候到了。",
         "info": "熱忱。\n軍令：摧毀所有其他戰力與「施魯」相同的單位牌。\n",
         "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：摧毀所有其他戰力與「施魯」相同的單位牌。\n",
         "name": "施魯"
     },
     "142201": {
+        "flavor": "我知道如何執行命令，去找別人說教吧。",
         "info": "部署、近戰：提升相鄰單位牌 2 點戰力。\n部署、遠程：提升此列所有其他單位牌 1 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：提升相鄰單位牌 2 點戰力。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：提升此列所有其他單位牌 1 點戰力。\n",
         "name": "丹尼斯．克藍莫"
     },
     "142202": {
+        "flavor": "我是名賢者。我的力量源於擁有知識，而非傳播知識。",
         "info": "部署、近戰：摧毀 1 張「文物」。\n部署、遠程：提升 1 張單位牌 3 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：摧毀 1 張「文物」。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：提升 1 張單位牌 3 點戰力。\n",
         "name": "艾達．艾敏．西弗尼"
     },
     "142203": {
+        "flavor": "我們是匯成風暴的雨滴。",
         "info": "部署：只要有 1 張我軍「精靈」，就對 1 張敵軍造成 1 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：只要有 1 張我軍「精靈」，就對 1 張敵軍造成 1 點傷害。\n",
         "name": "亞伊文"
     },
     "142204": {
+        "flavor": "我很樂意一個箭步殺了你，然後直視你的雙眼……但你臭死了，人類。",
         "info": "部署、近戰：對單列兩端的敵軍造成 2 點傷害。\n部署、遠程：對單列全體敵軍造成 1 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對單列兩端的敵軍造成 2 點傷害。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：對單列全體敵軍造成 1 點傷害。\n",
         "name": "托魯維爾"
     },
     "142205": {
+        "flavor": "我見過的最可怕的場景？卡特利歐納瘟疫、范格堡被夷為平地，還有維里赫德旅騎兵的衝鋒。",
         "info": "部署、近戰：將 1 張敵軍單位牌移動至對方另一列。\n部署、遠程：將 1 張我軍單位牌移動至我方另一列。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：將 1 張敵軍單位牌移動至對方另一列。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：將 1 張我軍單位牌移動至我方另一列。\n",
         "name": "維里赫德旅騎兵"
     },
     "142206": {
+        "flavor": "通往自由的路由鮮血鋪就，而非墨水寫成。",
         "info": "部署：封印 1 張單位牌並將該牌移動至另一列。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=lock>封印</keyword> 1 張單位牌並將該牌移動至另一列。\n",
         "name": "席朗．依斯尼藍"
     },
     "142207": {
+        "flavor": "嫌我們的蜂蜜酒聞起來有臭酸味？簡單，把你鼻子打斷就好！",
         "info": "部署：只要有 1 張「矮人」我軍，便提升 1 張我軍 1 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：只要有 1 張「矮人」我軍，便提升 1 張我軍 1 點戰力。\n",
         "name": "巴克萊．艾爾斯"
     },
     "142208": {
+        "flavor": "埃絲涅女士的女兒繼承了她無與倫比的美貌，以及對人類的極端仇視。",
         "info": "部署、近戰：對 1 張敵軍造成 2 點傷害。 \n部署、遠程：封印 1 張單位牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對 1 張敵軍造成 2 點傷害。 \n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：<keyword=lock>封印</keyword> 1 張單位牌。\n",
         "name": "莫麗恩"
     },
     "142209": {
+        "flavor": "莫娜？不，我是布蕾恩，布洛克萊昂的女兒。",
         "info": "部署：若我方控制 2 張以上「樹精」，便獲得熱忱。\n軍令：對 1 張敵軍造成 1 點傷害。\n裝填 3 次。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：若我方控制 2 張以上「樹精」，便獲得<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：對 1 張敵軍造成 1 點傷害。\n<keyword=charge>裝填</keyword> 3 次。\n",
         "name": "布蕾恩"
     },
     "142210": {
+        "flavor": "我恨你們，人類。你們全都一個樣。",
         "info": "軍令：將 1 張單位牌移動至同側另一列。\n冷卻：2 回合。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：將 1 張單位牌移動至同側另一列。\n<keyword=cooldown>冷卻</keyword>：2 回合。\n",
         "name": "瑪麗娜"
     },
     "142211": {
+        "flavor": "苟活不如好死。",
         "info": "若回合結束時我方掌控 5 張以上的「精靈」我軍，便從我方牌組召喚此單位牌至「近戰列」。\n",
         "infoRaw": "若回合結束時我方掌控 5 張以上的「精靈」我軍，便從我方牌組<keyword=summon>召喚</keyword>此單位牌至「近戰列」。\n",
         "name": "艾立倫"
     },
     "142212": {
+        "flavor": "我當時就在前線！而且是在廝殺最激烈的地方！",
         "info": "部署：對 1 張敵軍造成等同此單位牌戰力的傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成等同此單位牌戰力的傷害。\n",
         "name": "雪爾登．史卡格"
     },
     "142213": {
+        "flavor": "聽過巨龍奧克維斯特嗎？石英山那隻？亞爾潘．齊格林與他的矮人同伴們把牠解決了。",
         "info": "每回合結束時，若場上沒有任何我軍單位牌，便提升自身 3 點戰力。\n",
         "infoRaw": "每回合結束時，若場上沒有任何我軍單位牌，便提升自身 3 點戰力。\n",
         "name": "亞爾潘．齊格林"
     },
     "142214": {
+        "flavor": "只要出於愛，瘋狂就是合理的。",
         "info": "部署：對所有負傷的單位牌造成 1 點傷害，並提升所有獲得提升的單位牌 1 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對所有負傷的單位牌造成 1 點傷害，並提升所有獲得提升的單位牌 1 點戰力。\n",
         "name": "艾雷亞斯"
     },
     "142301": {
+        "flavor": "幫你包紮，沒問題，有錢好說話。",
         "info": "部署、近戰：提升 1 張我軍單位牌 2 點戰力。\n部署、遠程：治療 1 張我軍單位牌 4 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：提升 1 張我軍單位牌 2 點戰力。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：<keyword=heal>治療</keyword> 1 張我軍單位牌 4 點戰力。\n",
         "name": "私梟治療者"
     },
     "142302": {
+        "flavor": "「維里赫德？那是什麼意思？」「麻煩。」",
         "info": "部署：隨機對 1 張敵軍造成 2 點傷害。\n每當「維里赫德旅」移動至另一列，便重複發動其部署能力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：隨機對 1 張敵軍造成 2 點傷害。\n每當「維里赫德旅」移動至另一列，便重複發動其<keyword=deploy>部署</keyword>能力。\n",
         "name": "維里赫德旅"
     },
     "142303": {
+        "flavor": "仇恨之火比地獄烈焰更猛烈，比任何利刃都更刻骨銘心。",
         "info": "部署、近戰：對 1 張敵軍造成 3 點傷害。\n部署、遠程：提升 1 張我軍 3 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對 1 張敵軍造成 3 點傷害。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：提升 1 張我軍 3 點戰力。\n",
         "name": "維里赫德旅軍官"
     },
     "142304": {
+        "flavor": "他們的追蹤本領就像獵犬，雙腿矯健如鹿，殘忍更勝惡魔。",
         "info": "部署：隨機對每列 1 張敵軍造成 2 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：隨機對每列 1 張敵軍造成 2 點傷害。\n",
         "name": "多爾布雷坦納砲彈手"
     },
     "142305": {
+        "flavor": "我跟十字鎬打了一輩子交道，戰斧又有什麼難的。",
         "info": "部署：對 1 張敵軍造成 3 點傷害。若該牌未被摧毀，則提升自身 1 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 3 點傷害。若該牌未被摧毀，則提升自身 1 點戰力。\n",
         "name": "矮人好鬥份子"
     },
     "142306": {
+        "flavor": "聽好了，我們是天生的戰士——直砍膝蓋絕不留情！",
         "info": "每回合結束時，若此單位牌獲得提升，便提升自身 1 點戰力。\n",
         "infoRaw": "每回合結束時，若此單位牌獲得提升，便提升自身 1 點戰力。\n",
         "name": "瑪哈坎後衛"
     },
     "142307": {
+        "flavor": "不管流言怎麼說，精靈才不會剝人類的頭皮。因為蝨子太多了。",
         "info": "部署：若我方手牌中有 1 張「精靈」，便摧毀 1 張敵軍「文物」。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：若我方手牌中有 1 張「精靈」，便摧毀 1 張敵軍「文物」。\n",
         "name": "維里赫德旅工兵"
     },
     "142308": {
+        "flavor": "我瞧不起松鼠黨的理念，但不討厭他們的錢。",
         "info": "若場上有「精靈」我軍，便隨機摧毀 1 張敵軍單位牌。\n",
         "infoRaw": "若場上有「精靈」我軍，便隨機摧毀 1 張敵軍單位牌。\n",
         "name": "打劫"
     },
     "142309": {
+        "flavor": "管他泰莫利亞人還是瑞達尼亞人，死了最好。",
         "info": "部署：只要我方手牌有 1 張「精靈」，便提升自身 1 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：只要我方手牌有 1 張「精靈」，便提升自身 1 點戰力。\n",
         "name": "維里赫德旅先鋒"
     },
     "142310": {
+        "flavor": "你再走一步看看，人類。你眉心上插根箭絕對會好看很多。",
         "info": "部署、近戰：對 1 張敵軍造成 2 點傷害。\n部署、遠程：對 2 張單位牌造成 1 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對 1 張敵軍造成 2 點傷害。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：對 2 張單位牌造成 1 點傷害。\n",
         "name": "多爾布雷坦納弓箭手"
     },
     "142311": {
+        "flavor": "工作就該既有趣又賺錢，比如拿人頭換金子。",
         "info": "軍令：對 1 張敵軍造成 1 點傷害。\n裝填：1 次。\n每當我方打出 1 張「矮人」就獲得裝填 1 次。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：對 1 張敵軍造成 1 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n每當我方打出 1 張「矮人」就獲得<keyword=charge>裝填</keyword> 1 次。\n",
         "name": "矮人傭兵"
     },
     "142312": {
+        "flavor": "矮人和精靈在我眼裡都一樣，給錢就行。",
         "info": "部署：提升 1 張我軍 1 點戰力。若我方控制 1 張「文物」，則改為提升 3 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張我軍 1 點戰力。若我方控制 1 張「文物」，則改為提升 3 點戰力。\n",
         "name": "私梟後援"
     },
     "142313": {
+        "flavor": "你說那個女精靈在大家打得不可開交時跳起舞來了？你瘋了嗎，下士？",
         "info": "部署：若此單位牌已獲得提升，則對 1 張敵軍造成 3 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：若此單位牌已獲得提升，則對 1 張敵軍造成 3 點傷害。\n",
         "name": "精靈戰舞者"
     },
     "142314": {
+        "flavor": "也許你能躲過他們，但如果被發現了，就別浪費時間逃跑了。",
         "info": "部署：與此單位牌相隔 1 列，就對 1 張敵軍造成 1 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：與此單位牌相隔 1 列，就對 1 張敵軍造成 1 點傷害。\n",
         "name": "多爾布雷坦納射手"
     },
     "142315": {
+        "flavor": "誰付的錢多我就為誰賣命，不然就挑個最好搶的去搶。",
         "info": "近戰：每回合結束時，隨機提升我方手牌中 1 張單位牌 1 點戰力。\n",
         "infoRaw": "<keyword=melee>近戰</keyword>：每回合結束時，隨機提升我方手牌中 1 張單位牌 1 點戰力。\n",
         "name": "私梟走私者"
     },
     "142316": {
+        "flavor": "等聽到他們的動靜，想跑也來不及了……",
         "info": "部署、近戰：若該敵軍是列上唯一的單位牌，則對其造成 4 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：若該敵軍是列上唯一的單位牌，則對其造成 4 點傷害。\n",
         "name": "藍山精銳"
     },
     "142317": {
+        "flavor": "破壞瑪哈坎和平的人只有一種下場：被一錘敲碎腦殼。",
         "info": "部署：以另一列上的「矮人」我軍數量來提升自身戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：以另一列上的「矮人」我軍數量來提升自身戰力。\n",
         "name": "瑪哈坎守衛"
     },
     "142401": {
+        "flavor": "許多非人種族在城市裡飽受歧視和排斥，於是決定加入松鼠黨。",
         "info": "部署：生成並召喚 1 張此單位牌的基礎同名牌至我方另一列。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=spawn>生成</keyword>並<keyword=summon>召喚</keyword> 1 張此單位牌的基礎同名牌至我方另一列。\n",
         "name": "松鼠黨新兵"
     },
     "143201": {
+        "flavor": "你們貪得無厭地榨乾大地，野蠻強橫地攫取它的財富。但在這裡，它百花盛開，結實累累，慷慨大方。因為它愛我們，正如我們愛它。",
         "info": "伏擊：在對方打出下一張「特殊」牌但該牌尚未發動任何能力前先摧毀該牌。\n",
         "infoRaw": "<keyword=ambush>伏擊</keyword>：在對方打出下一張「特殊」牌但該牌尚未發動任何能力前先摧毀該牌。\n",
         "name": "蛇類陷阱"
     },
     "143301": {
+        "flavor": "小心……！再往前一步你就要被燒成焦炭了。",
         "info": "伏擊：對對方打出的下一張單位牌造成 5 點傷害。\n熱忱。\n軍令：翻面並對 1 張單位牌造成 3 點傷害。\n",
         "infoRaw": "<keyword=ambush>伏擊</keyword>：對對方打出的下一張單位牌造成 5 點傷害。\n<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：翻面並對 1 張單位牌造成 3 點傷害。\n",
         "name": "焚燒陷阱"
     },
     "152101": {
+        "flavor": "別為亡者哭泣，敬他們一杯吧！",
         "info": "部署、近戰：驅逐我方墓地 1 張單位牌，並對 1 張敵軍造成等同該牌戰力值的傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=banish>驅逐</keyword>我方墓地 1 張單位牌，並對 1 張敵軍造成等同該牌戰力值的傷害。\n",
         "name": "哈爾瑪．奎特"
     },
     "152103": {
+        "flavor": "無知者才會輕視神話。",
         "info": "部署、遠程：從我方牌組打出 1 張「鍊金術」牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：從我方牌組打出 1 張「鍊金術」牌。\n",
         "name": "爾米亞"
     },
     "152104": {
+        "flavor": "終焉來臨時，金公雞坎畢便會叫醒沉睡的漢姆多爾。",
         "info": "部署：丟棄我方最右端的手牌，再強迫對方照做。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=discard>丟棄</keyword>我方最右端的手牌，再強迫對方照做。\n",
         "name": "坎畢"
     },
     "152105": {
+        "flavor": "史凱利傑需要一位強大的國王，無論付出何等代價。",
         "info": "部署：抽取 2 張卡牌，再丟棄 2 張卡牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：抽取 2 張卡牌，再<keyword=discard>丟棄</keyword> 2 張卡牌。\n",
         "name": "碧兒娜・布蘭"
     },
     "152106": {
+        "flavor": "哇哇哇哇哇哇啊！！！！！",
         "info": "部署：對 1 張敵軍造成傷害，而傷害值等同負傷敵軍總數的兩倍。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成傷害，而傷害值等同負傷敵軍總數的兩倍。\n",
         "name": "瘋子盧戈"
     },
     "152107": {
+        "flavor": "她的真名是艾絲翠特．麗塔尼德．艾斯傑芬比約斯道提爾，這名字不管怎麼念都會打結。",
         "info": "軍令：丟棄 1 張卡牌，再抽取 1 張卡牌。\n裝填：3 次。\n每當 1 張「特殊」牌被丟棄，就對 1 張敵軍造成 2 點傷害。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：<keyword=discard>丟棄</keyword> 1 張卡牌，再抽取 1 張卡牌。\n<keyword=charge>裝填</keyword>：3 次。\n每當 1 張「特殊」牌被<keyword=discard>丟棄</keyword>，就對 1 張敵軍造成 2 點傷害。\n",
         "name": "克蘿"
     },
     "152109": {
+        "flavor": "就算只是對尼弗迦德人提到這個名字，他們褲子就會有一陣暖流……",
         "info": "部署、近戰：對所有負傷敵軍造成 2 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對所有負傷敵軍造成 2 點傷害。\n",
         "name": "海上野豬"
     },
     "152201": {
+        "flavor": "我無聊得快吐了。",
         "info": "每當此單位牌負傷，便隨機對 1 張敵軍單位牌造成 2 點傷害。\n",
         "infoRaw": "每當此單位牌負傷，便隨機對 1 張敵軍單位牌造成 2 點傷害。\n",
         "name": "阿藍盧戈"
     },
     "152202": {
+        "flavor": "巨魔進行近戰攻擊時從不使用武器。他們何必呢？",
         "info": "對 1 張單位牌造成 5 點傷害。\n嗜血 3 張：改為摧毀 1 張單位牌。\n",
         "infoRaw": "對 1 張單位牌造成 5 點傷害。\n<keyword=bloodthirst>嗜血</keyword> 3 張：改為摧毀 1 張單位牌。\n",
         "name": "冠軍衝刺"
     },
     "152203": {
+        "flavor": "如果通緝令上寫著「不論死活」，絕大多數賞金獵人會直接殺人了事。但我不會。如果被我抓到，我會把人吊起來搔癢，讓你笑到斷氣。",
         "info": "嗜血 1 張：封印 1 張敵軍單位牌。\n",
         "infoRaw": "<keyword=bloodthirst>嗜血</keyword> 1 張：<keyword=lock>封印</keyword> 1 張敵軍單位牌。\n",
         "name": "鄧格．費特"
     },
     "152204": {
+        "flavor": "我已齊集眾位領主，有話快說。",
         "info": "部署：對 1 張敵軍造成 2 點傷害。\n嗜血 2 張：改為對 1 張敵軍造成 5 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 2 點傷害。\n<keyword=bloodthirst>嗜血</keyword> 2 張：改為對 1 張敵軍造成 5 點傷害。\n",
         "name": "多納・辛達"
     },
     "152205": {
+        "flavor": "豎起耳朵，來聽聽奎特家族的英雄事蹟吧！",
         "info": "部署：提升所有「戰士」我軍 1 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升所有「戰士」我軍 1 點戰力。\n",
         "name": "杜雷格邦迪"
     },
     "152206": {
+        "flavor": "精通鍊金術的大德魯伊，也是全群島脾氣最差的糟老頭。",
         "info": "部署、遠程：從我方墓地打出 1 張「銅色」「鍊金術」。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：從我方墓地打出 1 張「銅色」「鍊金術」。\n",
         "name": "格雷米斯特"
     },
     "152207": {
+        "flavor": "敬尼弗迦德大帝，祝他不得好死！",
         "info": "每當我方打出 1 張「船」，就提升該牌 1 點戰力。\n每當我方打出 1 張「海寇」，就隨機對 1 張敵軍造成 1 點傷害。\n",
         "infoRaw": "每當我方打出 1 張「船」，就提升該牌 1 點戰力。\n每當我方打出 1 張「海寇」，就隨機對 1 張敵軍造成 1 點傷害。\n",
         "name": "霍格・黑手"
     },
     "152208": {
+        "flavor": "有人稱她「鐵娘子」。",
         "info": "部署：若「茱塔・迪門」是最大的單位牌，則對自身造成 6 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：若「茱塔・迪門」是最大的單位牌，則對自身造成 6 點傷害。\n",
         "name": "茱塔・迪門"
     },
     "152209": {
+        "flavor": "史凱利傑有史以來最大的惡人。",
         "info": "當此單位牌移動至墓地，便召喚該牌至「近戰列」並賦予氣數已盡。\n",
         "infoRaw": "當此單位牌移動至墓地，便<keyword=summon>召喚</keyword>該牌至「近戰列」並賦予<keyword=doomed>氣數已盡</keyword>。\n",
         "name": "莫克瓦格"
     },
     "152210": {
+        "flavor": "「馴服」？哈，小子，史凱利傑人也許能訓練牠們，但那可不叫馴服……",
         "info": "熱忱。\n部署：只要墓地中有 1 張「惡熊」，便獲得裝填 1 次。\n軍令：對 1 張單位牌造成 2 點傷害。\n裝填：1 次。\n",
         "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=deploy>部署</keyword>：只要墓地中有 1 張「惡熊」，便獲得<keyword=charge>裝填</keyword> 1 次。\n<keyword=order>軍令</keyword>：對 1 張單位牌造成 2 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n",
         "name": "惡熊"
     },
     "152211": {
+        "flavor": "跪下，乞求聖母弗蕾雅的寬恕吧。",
         "info": "從我方墓地召喚 1 張「戰士」至我方列。\n",
         "infoRaw": "從我方墓地<keyword=summon>召喚</keyword> 1 張「戰士」至我方列。\n",
         "name": "西格德莉法的儀式"
     },
     "152213": {
+        "flavor": "大帝一開始也認為自己登上皇位是出於偶然。",
         "info": "部署、嗜血 3 張：提升自身 5 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=bloodthirst>嗜血</keyword> 3 張：提升自身 5 點戰力。\n",
         "name": "斯凡瑞吉．圖爾希曲"
     },
     "152214": {
+        "flavor": "諸神已經發話，必須獻上祭品。",
         "info": "軍令：對 1 張單位牌造成 1 點傷害。\n裝填：3 次。\n嗜血 2 張：獲得熱忱。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 1 點傷害。\n<keyword=charge>裝填</keyword>：3 次。\n<keyword=bloodthirst>嗜血</keyword> 2 張：獲得<keyword=zeal>熱忱</keyword>。\n",
         "name": "烏達瑞克．布洛克伐"
     },
     "152303": {
+        "flavor": "家族的吟遊詩人會世代傳頌我的功績，而你死了就會被世人遺忘！",
         "info": "部署：對 1 張敵軍造成 2 點傷害。若此牌從墓地打出，則改為對此牌造成 4 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 2 點傷害。若此牌從墓地打出，則改為對此牌造成 4 點傷害。\n",
         "name": "奎特戰士"
     },
     "152304": {
+        "flavor": "別懷疑我們的狩獵本領，只恨史派克魯格的獵物太少……",
         "info": "軍令：對 1 張單位牌造成 1 點傷害。\n裝填：1 次。\n每當我方丟棄 1 張卡牌就獲得裝填 1 次。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 1 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n每當我方<keyword=discard>丟棄</keyword> 1 張卡牌就獲得<keyword=charge>裝填</keyword> 1 次。\n",
         "name": "布洛克伐獵人"
     },
     "152305": {
+        "flavor": "我看得到他們眼中的恐懼。他們怕我……害怕整個迪門家族！",
         "info": "部署：將我方牌組最上方的卡牌移動到我方墓地。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：將我方牌組最上方的卡牌移動到我方墓地。\n",
         "name": "迪門海盜"
     },
     "152306": {
+        "flavor": "加把勁把旗升起來！",
         "info": "部署。\n嗜血 2 張：對 1 張敵軍造成 3 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>。\n<keyword=bloodthirst>嗜血</keyword> 2 張：對 1 張敵軍造成 3 點傷害。\n",
         "name": "迪門海盜船長"
     },
     "152307": {
+        "flavor": "史凱利傑的女王向來由最勇猛、最兇悍的持盾女衛保護。",
         "info": "軍令：若此單位牌受到傷害，便生成 1 張該牌的基礎同名牌並召喚至右方。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：若此單位牌受到傷害，便<keyword=spawn>生成</keyword> 1 張該牌的基礎同名牌並<keyword=summon>召喚</keyword>至右方。\n",
         "name": "德拉蒙衛隊"
     },
     "152308": {
+        "flavor": "海玫家族的事蹟將流芳千古。",
         "info": "部署：丟棄 1 張卡牌，再抽取 1 張卡牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=discard>丟棄</keyword> 1 張卡牌，再抽取 1 張卡牌。\n",
         "name": "海玫詩人"
     },
     "152309": {
+        "flavor": "你以為能在史凱利傑海域逃出他們的手掌心？自求多福吧。",
         "info": "軍令：對自身和 1 張敵軍造成 1 點傷害。\n冷卻：1 回合。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：對自身和 1 張敵軍造成 1 點傷害。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n",
         "name": "迪門輕型長船"
     },
     "152310": {
+        "flavor": "聖母弗蕾雅是愛、美與豐饒的女神。",
         "info": "從我方墓地打出 1 張「銅色」單位牌。\n",
         "infoRaw": "從我方墓地打出 1 張「銅色」單位牌。\n",
         "name": "弗蕾雅的祝福"
     },
     "152311": {
+        "flavor": "記住我說的：一面好盾能救你的小命。",
         "info": "軍令：提升 1 張我軍 1 點戰力。\n裝填：1 次。\n每當我方打出 1 張「戰士」牌就獲得裝填 1 次。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：提升 1 張我軍 1 點戰力。\n<keyword=charge>裝填</keyword>：1 次。\n每當我方打出 1 張「戰士」牌就獲得<keyword=charge>裝填</keyword> 1 次。\n",
         "name": "奎特鐵匠"
     },
     "152312": {
+        "flavor": "婆娘才用劍，弄把斧頭吧。",
         "info": "部署、近戰：摧毀 1 張戰力小於其基礎戰力一半的敵軍。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：摧毀 1 張戰力小於其基礎戰力一半的敵軍。\n",
         "name": "圖爾希曲斧手"
     },
     "152313": {
+        "flavor": "記住：我們對朋友掏心肺，對敵人揮斧頭。",
         "info": "當此單位牌被丟棄，便從我方墓地召喚該牌至「近戰列」。\n",
         "infoRaw": "當此單位牌被<keyword=discard>丟棄</keyword>，便從我方墓地<keyword=summon>召喚</keyword>該牌至「近戰列」。\n",
         "name": "圖爾希曲好鬥份子"
     },
     "152314": {
+        "flavor": "據說只要有長船出海劫掠，漢姆多爾的內心就會澎湃激昂。",
         "info": "只要對手打出 1 張單位牌，便對該牌造成 1 點傷害。\n",
         "infoRaw": "只要對手打出 1 張單位牌，便對該牌造成 1 點傷害。\n",
         "name": "奎特長船"
     },
     "152315": {
+        "flavor": "你能射中兩百步外的移動靶？我也可以，而且還是在暴風雨中呢。",
         "info": "部署、遠程對 1 張敵軍造成傷害，其傷害值等同對方場上負傷的單位牌總數。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>對 1 張敵軍造成傷害，其傷害值等同對方場上負傷的單位牌總數。\n",
         "name": "布洛克伐弓箭手"
     },
     "152316": {
+        "flavor": "對史凱利傑的斧頭來說，劈樹和砍人毫無差別。",
         "info": "對 1 張單位牌造成 4 點傷害。\n嗜血 2 張：改為對 1 張單位牌造成 6 點傷害。\n",
         "infoRaw": "對 1 張單位牌造成 4 點傷害。\n<keyword=bloodthirst>嗜血</keyword> 2 張：改為對 1 張單位牌造成 6 點傷害。\n",
         "name": "開腸剖肚"
     },
     "152317": {
+        "flavor": "你是自己討打。",
         "info": "部署：提升 1 張我軍 1 點戰力。若該牌為「戰士」，則改為提升 3 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張我軍 1 點戰力。若該牌為「戰士」，則改為提升 3 點戰力。\n",
         "name": "奎特盔甲匠"
     },
     "152318": {
+        "flavor": "我們的敵人會像打上嶙峋海岸的波浪一樣，因我們的盾而潰散。",
         "info": "此單位牌再受到傷害時，便從我方牌組召喚 1 張該牌的同名牌至此列。\n",
         "infoRaw": "此單位牌再受到傷害時，便從我方牌組<keyword=summon>召喚</keyword> 1 張該牌的同名牌至此列。\n",
         "name": "德拉蒙持盾女衛"
     },
     "152403": {
+        "flavor": "「呃，座頭鯨應該沒那麼大。那是頭長鬚鯨。」「嘴那麼短的長鬚鯨？你嗑藥草嗑昏了頭嗎！」",
         "info": "隨機分配 6 點傷害值給對方單列上所有單位牌。\n",
         "infoRaw": "隨機分配 6 點傷害值給對方單列上所有單位牌。\n",
         "name": "神智不清"
     },
     "152405": {
+        "flavor": "去獵熊吧！去抓一隻……這也太大了吧！快逃！",
         "info": "無特殊能力。\n",
         "infoRaw": "無特殊能力。\n",
         "name": "老熊"
     },
     "152406": {
+        "flavor": "吼！！！",
         "info": "部署：對 1 張左方的我軍造成 1 點傷害。若左方沒有我軍，則改為對自身造成 1 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張左方的我軍造成 1 點傷害。若左方沒有我軍，則改為對自身造成 1 點傷害。\n",
         "name": "暴怒巨熊"
     },
     "153201": {
+        "flavor": "那些該死的女術士又搶了我們的風頭！一個婆娘揮揮手就能解決的話，誰還會選擇費時費力的辦法？",
         "info": "治療單列所有單位牌。\n",
         "infoRaw": "<keyword=heal>治療</keyword>單列所有單位牌。\n",
         "name": "回復"
     },
     "153301": {
+        "flavor": "那絕對是你前所未見的恐怖場景——可憐的傢伙……屍體碎散一地，野獸則貪婪地舔食四處流淌的鮮血。",
         "info": "對某列所有單位牌造成 2 點傷害。\n",
         "infoRaw": "對某列所有單位牌造成 2 點傷害。\n",
         "name": "撕裂"
     },
     "162101": {
+        "flavor": "狩魔獵人絕不會死在自己的床上。",
         "info": "部署：移除敵軍領導牌所有重抽。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：移除敵軍領導牌所有重抽。\n",
         "name": "古雷特的雷索"
     },
     "162102": {
+        "flavor": "細心的偵察分隊比訓練有素的軍團更有用。",
         "info": "部署、遠程：從我方牌組打出 1 張「戰術」。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：從我方牌組打出 1 張「戰術」。\n",
         "name": "梅諾・寇赫倫"
     },
     "162103": {
+        "flavor": "精心策劃的暗殺能解決所有麻煩。",
         "info": "軍令、近戰：奪取 1 張被封印的敵軍單位牌。\n",
         "infoRaw": "<keyword=order>軍令</keyword>、<keyword=melee>近戰</keyword>：<keyword=seize>奪取</keyword> 1 張被<keyword=lock>封印</keyword>的敵軍單位牌。\n",
         "name": "瓦提爾．迪．李道克斯"
     },
     "162104": {
+        "flavor": "他的雙眼在翼盔下熠熠生輝，劍刃上反射著火光。",
         "info": "近戰：每當 1 張敵軍具有提升值，便以同等提升值提升自身戰力。\n",
         "infoRaw": "<keyword=melee>近戰</keyword>：每當 1 張敵軍具有提升值，便以同等提升值提升自身戰力。\n",
         "name": "卡西爾．迪弗林"
     },
     "162105": {
+        "flavor": "我們都是他棋盤上的棋子，遊戲規則卻無從得知。",
         "info": "部署、近戰：摧毀 1 張敵軍單位牌，對方再召喚自身牌組最上方的單位牌至隨機敵方列。\n部署、遠程：摧毀 1 張我軍單位牌，再召喚我方牌組最上方的單位牌至隨機我方列。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：摧毀 1 張敵軍單位牌，對方再<keyword=summon>召喚</keyword>自身牌組最上方的單位牌至隨機敵方列。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：摧毀 1 張我軍單位牌，再<keyword=summon>召喚</keyword>我方牌組最上方的單位牌至隨機我方列。\n",
         "name": "威爾吉佛茲"
     },
     "162106": {
+        "flavor": "我在我們未來皇后的臉上留下了傷疤，這是我最引以為傲的成就。",
         "info": "軍令：生成 1 張我方曾在此回合中打出的「戰術」牌的同名牌並打出。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：<keyword=spawn>生成</keyword> 1 張我方曾在此回合中打出的「戰術」牌的同名牌並打出。\n",
         "name": "史提芬・史凱倫"
     },
     "162107": {
+        "flavor": "提伯的忠心不容質疑。據說大帝逝世時，他鞠躬鞠到快要翻過去了。",
         "info": "部署：對方召喚自身牌組最上方的單位牌至隨機敵方列。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對方<keyword=summon>召喚</keyword>自身牌組最上方的單位牌至隨機敵方列。\n",
         "name": "提伯・艾格布拉傑"
     },
     "162108": {
+        "flavor": "占卜術、水卜術、腸卜術、蠟卜術、蛋卜術、燼卜術、尿卜術、雷卜術……",
         "info": "部署：隨機揭示我方牌組 1 張卡牌。若該牌為單位牌，則以該牌戰力值提升自身戰力，再將該牌放回洗牌。若該牌為「文物」或「特殊」牌，則打出該牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：隨機<keyword=reveal>揭示</keyword>我方牌組 1 張卡牌。若該牌為單位牌，則以該牌戰力值提升自身戰力，再將該牌放回洗牌。若該牌為「文物」或「特殊」牌，則打出該牌。\n",
         "name": "薩斯希烏斯"
     },
     "162201": {
+        "flavor": "火球？沒問題，陛下想要什麼都行。",
         "info": "部署、遠程：任意將我方牌組 1 張牌移動至最上方。若該牌為單位牌，則提升該牌 2 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：任意將我方牌組 1 張牌移動至最上方。若該牌為單位牌，則提升該牌 2 點戰力。\n",
         "name": "亞伯力奇"
     },
     "162202": {
+        "flavor": "尼弗迦德法師也有選擇啊：投降，不然就上斷頭臺。",
         "info": "部署、近戰：將對方墓地 1 張卡牌放入對方牌組洗牌。\n部署、遠程：將我方墓地 1 張卡牌放入我方牌組洗牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：將對方墓地 1 張卡牌放入對方牌組洗牌。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：將我方墓地 1 張卡牌放入我方牌組洗牌。\n",
         "name": "艾希蕾・阿納興"
     },
     "162203": {
+        "flavor": "絕不能小看辛西亞，得把她看緊點。",
         "info": "部署、近戰：生成「守護者」並將該牌置於對方牌組最上方。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=spawn>生成</keyword>「守護者」並將該牌置於對方牌組最上方。\n",
         "name": "辛西亞"
     },
     "162204": {
+        "flavor": "這可不是什麼「閣下」該有的手，這是農夫的手，所以基本上，我們現在是農夫和農夫的對話。",
         "info": "部署：將 1 張單位牌恢復至該牌的基礎戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：將 1 張單位牌恢復至該牌的基礎戰力。\n",
         "name": "彼得．薩爾．關力"
     },
     "162205": {
+        "flavor": "魔法不僅至高無上，更能超越國境和所有分歧。",
         "info": "軍令：隨機揭示對方牌組 1 張「特殊」牌，再生成 1 張該牌的同名牌並打出。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：隨機<keyword=reveal>揭示</keyword>對方牌組 1 張「特殊」牌，再<keyword=spawn>生成</keyword> 1 張該牌的同名牌並打出。\n",
         "name": "芙琳吉拉・薇歌"
     },
     "162206": {
+        "flavor": "別碰那女孩！我們是要抓她，但我們不是野蠻人。",
         "info": "部署：對 1 張敵軍造成 1 點傷害。\n只要我方已揭示 1 張卡牌就將此單位牌受到的傷害值增加 1 點。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 1 點傷害。\n只要我方已<keyword=reveal>揭示</keyword> 1 張卡牌就將此單位牌受到的傷害值增加 1 點。\n",
         "name": "雜碎"
     },
     "162207": {
+        "flavor": "作為火法師，他不算……太熱烈。",
         "info": "部署、遠程：摧毀 1 張被封印的敵軍單位牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：摧毀 1 張被<keyword=lock>封印</keyword>的敵軍單位牌。\n",
         "name": "凡赫瑪"
     },
     "162208": {
+        "flavor": "雷索已有計劃……還能出什麼差錯？",
         "info": "部署：封印 1 張敵軍單位牌。\n若「瑟瑞特」位於我方手牌，則封印該單位牌所有位於對方手牌、牌組和場上的同名牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=lock>封印</keyword> 1 張敵軍單位牌。\n若「瑟瑞特」位於我方手牌，則<keyword=lock>封印</keyword>該單位牌所有位於對方手牌、牌組和場上的同名牌。\n",
         "name": "奧克斯"
     },
     "162209": {
+        "flavor": "這是我們必須做的，我並不為此感到羞愧。",
         "info": "部署：對 1 張敵軍造成 3 點傷害。若「奧克斯」在我方手牌，則改為對該單位牌造成 5 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 3 點傷害。若「奧克斯」在我方手牌，則改為對該單位牌造成 5 點傷害。\n",
         "name": "瑟瑞特"
     },
     "162210": {
+        "flavor": "男人渴望誘惑，保持神秘與優雅的舉止都相當管用。",
         "info": "臥底。\n部署：打出對方牌組最上方的卡牌。\n",
         "infoRaw": "<keyword=spying>臥底</keyword>。\n<keyword=deploy>部署</keyword>：打出對方牌組最上方的卡牌。\n",
         "name": "坎塔蕾拉"
     },
     "162211": {
+        "flavor": "用「不稱職」來描述維特公爵帶領弗登軍團的方式，還真是太過輕描淡寫了。",
         "info": "臥底。\n部署：打出我方牌組最上方非臥底的單位牌，再提升該牌 8 點戰力。\n",
         "infoRaw": "<keyword=spying>臥底</keyword>。\n<keyword=deploy>部署</keyword>：打出我方牌組最上方非<keyword=spying>臥底</keyword>的單位牌，再提升該牌 8 點戰力。\n",
         "name": "裘金．維特"
     },
     "162212": {
+        "flavor": "「就是她」他心想，「我們帝國的權益、冒牌公主、冒牌辛特拉女王。亞拉河口是帝國未來的命脈，但統治者卻是個冒牌貨。」",
         "info": "部署、近戰：將 1 張敵軍移動至另一列。\n部署、遠程：摧毀 1 張敵軍「文物」。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：將 1 張敵軍移動至另一列。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：摧毀 1 張敵軍「文物」。\n",
         "name": "冒牌希里"
     },
     "162213": {
+        "flavor": "「陛下……」完全被視為隱形人的總管脫口而出。\\n「恕臣斗膽，但卡希爾……吾兒……」",
         "info": "部署：移除場上所有單位牌的狀態。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：移除場上所有單位牌的狀態。\n",
         "name": "契拉克．迪弗林"
     },
     "162301": {
+        "flavor": "我在布雷班特軍事學院學到了不少東西，比如洗馬鈴薯。",
         "info": "當我方揭示此單位牌，就從我方牌組召喚此牌至隨機我方列。\n",
         "infoRaw": "當我方<keyword=reveal>揭示</keyword>此單位牌，就從我方牌組<keyword=summon>召喚</keyword>此牌至隨機我方列。\n",
         "name": "達蘭士兵"
     },
     "162302": {
+        "flavor": "在被圍城的都市裡散佈瘟疫究竟道不道德，就交給歷史學家來定論吧。我們只在乎效果而已。",
         "info": "部署、遠程：生成 1 張「牛屍」並打出。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：<keyword=spawn>生成</keyword> 1 張「牛屍」並打出。\n",
         "name": "投屍機"
     },
     "162303": {
+        "flavor": "北方佬耍不出花招了。",
         "info": "部署、近戰：隨機揭示對方牌組中 1 張單位牌，並以該牌戰力值提升自身戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：隨機<keyword=reveal>揭示</keyword>對方牌組中 1 張單位牌，並以該牌戰力值提升自身戰力。\n",
         "name": "偵查兵"
     },
     "162304": {
+        "flavor": "好吧……至少你已經死透了……",
         "info": "從對方墓地打出 1 張「銅色」單位牌。\n",
         "infoRaw": "從對方墓地打出 1 張「銅色」單位牌。\n",
         "name": "實驗療法"
     },
     "162305": {
+        "flavor": "我只瞄膝蓋，一向如此。",
         "info": "部署：對 1 張敵軍造成 2 點傷害，再隨機揭示雙方牌組中各 1 張單位牌。若我方的卡牌戰力較大，則重複發動部署能力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 2 點傷害，再隨機<keyword=reveal>揭示</keyword>雙方牌組中各 1 張單位牌。若我方的卡牌戰力較大，則重複發動<keyword=deploy>部署</keyword>能力。\n",
         "name": "戴斯文強弩手"
     },
     "162306": {
+        "flavor": "只聞其名還以為是某種肥大的紅色節肢動物，其實這是一種能造成大規模破壞的精密武器……",
         "info": "軍令、遠程：對 1 張單位牌造成 1 點傷害。\n裝填：1 次。\n每當我方打出 1 張「戰術」牌就獲得裝填 1 次。\n",
         "infoRaw": "<keyword=order>軍令</keyword>、<keyword=ranged>遠程</keyword>：對 1 張單位牌造成 1 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n每當我方打出 1 張「戰術」牌就獲得<keyword=charge>裝填</keyword> 1 次。\n",
         "name": "火蠍"
     },
     "162307": {
+        "flavor": "帝國旅絕不投降，想都別想。",
         "info": "部署、近戰：從我方牌組召喚 1 張此單位牌的同名牌至此列。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：從我方牌組<keyword=summon>召喚</keyword> 1 張此單位牌的同名牌至此列。\n",
         "name": "帝國旅"
     },
     "162308": {
+        "flavor": "大帝最忠誠的貼身護衛，誓死保衛大帝的安全。",
         "info": "軍令：對 1 張敵軍造成 2 點傷害。\n裝填：1 次。\n每當我方打出 1 張臥底單位牌就獲得裝填 1 次。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：對 1 張敵軍造成 2 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n每當我方打出 1 張<keyword=spying>臥底</keyword>單位牌就獲得<keyword=charge>裝填</keyword> 1 次。\n",
         "name": "帝國近衛精兵"
     },
     "162309": {
+        "flavor": "大帝會教北方人些規矩的。",
         "info": "每當 1 張具有部署的單位牌被打出，就提升自身 1 點戰力。\n",
         "infoRaw": "每當 1 張具有<keyword=deploy>部署</keyword>的單位牌被打出，就提升自身 1 點戰力。\n",
         "name": "那烏西卡中士"
     },
     "162310": {
+        "flavor": "我們被稱作死神之顱。想知道為什麼嗎？",
         "info": "部署：對 1 張獲得提升的敵軍造成 3 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張獲得提升的敵軍造成 3 點傷害。\n",
         "name": "那烏西卡旅"
     },
     "162311": {
+        "flavor": "宣誓效忠吾皇恩希爾．恩瑞斯……不然就受死吧。",
         "info": "部署、近戰：對 1 張敵軍造成傷害，而傷害值等同對方其他列上的單位牌總數。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對 1 張敵軍造成傷害，而傷害值等同對方其他列上的單位牌總數。\n",
         "name": "阿爾巴槍兵"
     },
     "162312": {
+        "flavor": "為了帝國，視死如歸！",
         "info": "部署：對 1 張敵軍造成 2 點傷害。每與 1 張「士兵」相鄰，就將傷害值提升 1 點。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 2 點傷害。每與 1 張「士兵」相鄰，就將傷害值提升 1 點。\n",
         "name": "阿爾巴矛兵"
     },
     "162313": {
+        "flavor": "想要文明進步的錚錚鐵證？看戰爭就好，現在大家更會自相殘殺了。",
         "info": "部署：若我方控制 1 張「文物」，便提升自身 3 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：若我方控制 1 張「文物」，便提升自身 3 點戰力。\n",
         "name": "戰鬥工兵"
     },
     "162314": {
+        "flavor": "但是……這樣不對啊！兩國交兵不斬來使！",
         "info": "臥底。\n部署：提升 1 張我軍 7 點戰力。\n",
         "infoRaw": "<keyword=spying>臥底</keyword>。\n<keyword=deploy>部署</keyword>：提升 1 張我軍 7 點戰力。\n",
         "name": "特使"
     },
     "162315": {
+        "flavor": "間諜？不，這麼說誇張了。我自認不過是個觀察員罷了。",
         "info": "製造 1 張對手陣營的「銅色」單位牌並打出。\n",
         "infoRaw": "<keyword=create>製造</keyword> 1 張對手陣營的「銅色」單位牌並打出。\n",
         "name": "帝國外交"
     },
     "162316": {
+        "flavor": "兩盎司鈣素，一盎司結合劑……",
         "info": "部署、遠程：將 2 張我軍的戰力進行替換。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：將 2 張我軍的戰力進行替換。\n",
         "name": "鍊金術士"
     },
     "162317": {
+        "flavor": "適用於投擲屍體和乾糞。",
         "info": "每當我方揭示 1 張卡牌，便隨機對 1 張敵軍造成 1 點傷害。\n",
         "infoRaw": "每當我方<keyword=reveal>揭示</keyword> 1 張卡牌，便隨機對 1 張敵軍造成 1 點傷害。\n",
         "name": "投石車"
     },
     "162318": {
+        "flavor": "於金塔之城誕生、出身於貴族世家，組成帝國軍團的中流砥柱。",
         "info": "部署：提升 1 張敵軍 2 點戰力。若沒有任何敵軍單位牌，則摧毀自身。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張敵軍 2 點戰力。若沒有任何敵軍單位牌，則摧毀自身。\n",
         "name": "尼弗迦德騎士"
     },
     "162401": {
+        "flavor": "石拳用來阻止手握長劍的入侵者。鐵般的邏輯則用來阻絕滿口謊言的騙子。",
         "info": "無特殊能力。\n",
         "infoRaw": "無特殊能力。\n",
         "name": "守護者"
     },
     "162402": {
+        "flavor": "鳥嗎？獅鷲獸？不對！那是……",
         "info": "臥底。氣數已盡。\n1 回合後，回合結束時，摧毀此單位牌以及左邊的單位牌。\n",
         "infoRaw": "<keyword=spying>臥底</keyword>。<keyword=doomed>氣數已盡</keyword>。\n1 回合後，回合結束時，摧毀此單位牌以及左邊的單位牌。\n",
         "name": "牛屍"
     },
     "163101": {
+        "flavor": "對他人深信不疑的人在尼弗迦德可是瀕臨絕種的物種。",
         "info": "強迫 1 張敵軍單位牌對相鄰的單位牌造成傷害，而傷害值等同該牌的戰力。\n",
         "infoRaw": "強迫 1 張敵軍單位牌對相鄰的單位牌造成傷害，而傷害值等同該牌的戰力。\n",
         "name": "叛國"
     },
     "163201": {
+        "flavor": "許多人相信，帝國的實力在於紀律嚴明的軍隊與恪盡職守的法師。但事實上，金錢才是尼弗迦德統治世界的關鍵。",
         "info": "製造 1 張對方起始牌組中的單位牌，再打出該牌。\n",
         "infoRaw": "<keyword=create>製造</keyword> 1 張對方起始牌組中的單位牌，再打出該牌。\n",
         "name": "賄賂"
     },
     "200008": {
+        "flavor": "法師可以創造出各式各樣讓人嘆為觀止的發明。是世代的奇才。但通常在大陸被稱為「拿著器皿的傢伙」。",
         "info": "熱忱。\n軍令：提升 1 張我軍 3 點戰力並賦予其熱忱。\n",
         "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：提升 1 張我軍 3 點戰力並賦予其<keyword=zeal>熱忱</keyword>。\n",
         "name": "派翠的魔藥"
     },
     "200018": {
+        "flavor": "維可瓦洛的學者推斷，少了帝國的援助，遭遇乾旱的省分將流失半數人口、三分之二的牲畜，反抗的決心也會盡失。",
         "info": "驅逐 1 張單位牌或「文物」牌。\n",
         "infoRaw": "<keyword=banish>驅逐</keyword> 1 張單位牌或「文物」牌。\n",
         "name": "克拉錫熱浪"
     },
     "200019": {
+        "flavor": "我們不過是老頭手中的棋子，隨意被推上戰場送死，全因他們還沒老透的衝動……",
         "info": "從我方牌組打出最小的單位牌。\n",
         "infoRaw": "從我方牌組打出最小的單位牌。\n",
         "name": "行軍令"
     },
     "200020": {
+        "flavor": "要逼你開口，我們有的是辦法……管你是死是活。",
         "info": "從我方墓地打出 1 張「銅色」單位牌，並賦予其氣數已盡。\n",
         "infoRaw": "從我方墓地打出 1 張「銅色」單位牌，並賦予其<keyword=doomed>氣數已盡</keyword>。\n",
         "name": "死靈術"
     },
     "200022": {
+        "flavor": "除了我們的世界，外頭還有許許多多的平行時空……只要掌握正確知識，我們就能跟其他世界搭上線，召喚出超乎人類理解的生命。",
         "info": "熱忱。\n軍令：從我方牌組打出 1 張單位牌，其徵兵成本不大於「召喚之環」的裝填次數，再移除所有裝填。\n裝填：0 次。\n每回合開始時，獲得裝填 {Charge} 次。\n",
         "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：從我方牌組打出 1 張單位牌，其徵兵成本不大於「召喚之環」的<keyword=charge>裝填</keyword>次數，再移除所有<keyword=charge>裝填</keyword>。\n<keyword=charge>裝填</keyword>：0 次。\n每回合開始時，獲得<keyword=charge>裝填</keyword> {Charge} 次。\n",
         "name": "召喚之環"
     },
     "200023": {
+        "flavor": "「若不慎觸及眼睛，請立即用冷水沖洗，然後開始寫遺囑。」",
         "info": "對 1 張單位牌造成 3 點傷害。若該牌被摧毀，則對該牌相鄰的單位牌造成 3 點傷害。\n",
         "infoRaw": "對 1 張單位牌造成 3 點傷害。若該牌被摧毀，則對該牌相鄰的單位牌造成 3 點傷害。\n",
         "name": "蟹蜘蛛毒液"
     },
     "200026": {
+        "flavor": "數百年來，阿瓦拉克一直試圖反培育，想重新製造出長者之血的基因，但培育出來的精靈幼童跟勞拉的耀眼焰火相比，只能算是黯淡的小火花。",
         "info": "部署：提升 1 張我軍單位牌 1 點戰力。若我方控制最大的單位牌，則改為提升 3 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張我軍單位牌 1 點戰力。若我方控制最大的單位牌，則改為提升 3 點戰力。\n",
         "name": "狂獵領航員"
     },
     "200028": {
+        "flavor": "把鮮血和白骨獻給斯瓦玻德！！",
         "info": "部署、近戰：摧毀 1 張負傷敵軍。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：摧毀 1 張負傷敵軍。\n",
         "name": "維伯恩"
     },
     "200030": {
+        "flavor": "老男爵對盜獵者從不留情。但米蘭很走運，老男爵已經死了，他的手下也成了亡命之徒。",
         "info": "部署、近戰：對 1 張敵軍造成 4 點傷害。\n部署、遠程：對 4 張敵軍造成 1 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對 1 張敵軍造成 4 點傷害。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：對 4 張敵軍造成 1 點傷害。\n",
         "name": "米蘭"
     },
     "200031": {
+        "flavor": "他就坐在那裡盯著我看，不發一語。他的雙眸……總覺得有點像魚的眼睛。沒有眉毛、睫毛……活像兩潭深水，各沉了一顆黑色的石頭。寂靜中，他用雙眼將我生吞活剝，比他動粗更讓人不寒而慄。",
         "info": "部署、近戰：摧毀 1 張戰力為 8 點以上的敵軍。\n部署、遠程：摧毀 1 張「狩魔獵人」。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：摧毀 1 張戰力為 8 點以上的敵軍。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：摧毀 1 張「狩魔獵人」。\n",
         "name": "里歐・邦哈特"
     },
     "200032": {
+        "flavor": "辛特拉淪陷之後，亞卓也步上後塵，現在守衛者必須抉擇：接受尼弗迦德的管轄或者死亡。",
         "info": "部署：提升 1 張敵軍 3 點戰力，再提升自身 3 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張敵軍 3 點戰力，再提升自身 3 點戰力。\n",
         "name": "雷恩法．亞卓"
     },
     "200033": {
+        "flavor": "亞瑞圖札學院的學員過著公主般的生活，任何需求都會立刻獲得滿足。因此城市裡大半居民都仰賴她們過活，包括女裁縫師、女帽商、甜點師傅、送貨小童……",
         "info": "熱忱。\n軍令、遠程：賦予 1 張我軍單位牌裝填 1 次。\n冷卻：2 回合。\n",
         "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>、<keyword=ranged>遠程</keyword>：賦予 1 張我軍單位牌<keyword=charge>裝填</keyword> 1 次。\n<keyword=cooldown>冷卻</keyword>：2 回合。\n",
         "name": "亞瑞圖札學院學員"
     },
     "200036": {
+        "flavor": "你想為了偉大的全體利益而戰？戰爭就是最偉大的利益、最偉大的弊病，簡直是人類有史以來搞出最偉大的東西！",
         "info": "部署、近戰、嗜血 1 張：摧毀 1 張「文物」敵軍。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>、<keyword=bloodthirst>嗜血</keyword> 1 張：摧毀 1 張「文物」敵軍。\n",
         "name": "德拉蒙好戰份子"
     },
     "200037": {
+        "flavor": "別盯著他的眼睛，他會不高興的……",
         "info": "部署：摧毀 1 張相鄰的我軍單位牌並對 1 張敵軍造成傷害，其傷害值等同該牌戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：摧毀 1 張相鄰的我軍單位牌並對 1 張敵軍造成傷害，其傷害值等同該牌戰力。\n",
         "name": "獨眼怪"
     },
     "200038": {
+        "flavor": "根據民間傳說，若以垂死之人的鮮血灌溉土壤，它們就會破土而出。因此，發生過大屠殺、活體獻祭或凶殘謀殺的地點是它們的溫床。",
         "info": "茁壯。\n部署：隨機對 1 張敵軍造成 2 點傷害。\n求死：重複發動部署能力。\n",
         "infoRaw": "<keyword=thrive>茁壯</keyword>。\n<keyword=deploy>部署</keyword>：隨機對 1 張敵軍造成 2 點傷害。\n<keyword=deathwish>求死</keyword>：重複發動<keyword=deploy>部署</keyword>能力。\n",
         "name": "巨棘魔樹"
     },
     "200039": {
+        "flavor": "只要我們一息尚存，任何人都休想踏上多爾布雷坦納的草坪。",
         "info": "近戰：每當 1 張敵軍移動至另一列，就對其造成 1 點傷害。\n遠程：每當 1 張我軍移動至另一列，就提升該牌 1 點戰力。\n",
         "infoRaw": "<keyword=melee>近戰</keyword>：每當 1 張敵軍移動至另一列，就對其造成 1 點傷害。\n<keyword=ranged>遠程</keyword>：每當 1 張我軍移動至另一列，就提升該牌 1 點戰力。\n",
         "name": "多爾布雷坦納哨兵"
     },
     "200040": {
+        "flavor": "啊，北方人，我要被你笑死！我這把你連握都握不住了，還想拿來砍我膩？",
         "info": "只要相對列上 1 張敵軍受到傷害，便提升自身 1 點戰力。\n",
         "infoRaw": "只要相對列上 1 張敵軍受到傷害，便提升自身 1 點戰力。\n",
         "name": "奎特巨劍"
     },
     "200041": {
+        "flavor": "並非奪城的首選，卻是搗城的上上之選。",
         "info": "免疫。\n軍令：此列上只要有 1 張「士兵」，便對 1 張敵軍造成 2 點傷害。\n",
         "infoRaw": "<keyword=immune>免疫</keyword>。\n<keyword=order>軍令</keyword>：此列上只要有 1 張「士兵」，便對 1 張敵軍造成 2 點傷害。\n",
         "name": "重弩赫爾吉"
     },
     "200042": {
+        "flavor": "在瑪哈坎的峭壁狩獵並不容易……但矮人也不是省油的燈。",
         "info": "部署：若此單位牌已獲得提升，則獲得堅毅。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：若此單位牌已獲得提升，則獲得<keyword=resilient>堅毅</keyword>。\n",
         "name": "瑪哈坎掠奪者"
     },
     "200043": {
+        "flavor": "以前是托達洛曲家族的自傲領主，現在卻只是個喃喃自語的瘋子。",
         "info": "部署：生成 3 張「哈洛德之友」並召喚至我方另一列。\n軍令：對 1 張我軍造成 1 點傷害。\n冷卻：1 回合。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=spawn>生成</keyword> 3 張「哈洛德之友」並<keyword=summon>召喚</keyword>至我方另一列。\n<keyword=order>軍令</keyword>：對 1 張我軍造成 1 點傷害。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n",
         "name": "哈洛德．杭茲瑙特"
     },
     "200044": {
+        "flavor": "我知道大帝誓言保護所有領土……但是在這片荒地派守駐軍，就像給墓穴女巫繫上貞操帶一樣。",
         "info": "每回合結束時，若此牌為此列上唯一的卡牌，便提升自身 1 點戰力。\n",
         "infoRaw": "每回合結束時，若此牌為此列上唯一的卡牌，便提升自身 1 點戰力。\n",
         "name": "馬格尼分隊"
     },
     "200046": {
+        "flavor": "在我那個年代，我見證過無人能想像的奇蹟，幹過最禁忌的骯髒事。",
         "info": "部署：對自身造成 4 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對自身造成 4 點傷害。\n",
         "name": "圖爾希曲老兵"
     },
     "200048": {
+        "flavor": "我經常拿亞瑞圖札學院學員的成就與班阿德的小伙子們相比，結果往往是女孩子的成就更加亮眼。",
         "info": "部署：只要 1 張我軍有 1 次裝填，就提升該牌 1 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：只要 1 張我軍有 1 次<keyword=charge>裝填</keyword>，就提升該牌 1 點戰力。\n",
         "name": "班阿德教師"
     },
     "200049": {
+        "flavor": "不開是吧？那就再槌大力點吧。",
         "info": "部署：若我方控制 1 張「士兵」，則摧毀 1 張敵軍「文物」。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：若我方控制 1 張「士兵」，則摧毀 1 張敵軍「文物」。\n",
         "name": "攻城槌"
     },
     "200050": {
+        "flavor": "就算要滅了你們，我也會讓烈日光耀北方大地！",
         "info": "部署：提升 1 張「士兵」我軍及其所有同名牌 2 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張「士兵」我軍及其所有同名牌 2 點戰力。\n",
         "name": "弗林姆德"
     },
     "200052": {
+        "flavor": "有人說果亞特曾是一名聞名天下的騎士。只可惜，有一天他惹怒了湖中女神，並被變成了怪物。",
         "info": "求死：對方從自身牌組召喚最小的單位牌至相對列上。\n",
         "infoRaw": "<keyword=deathwish>求死</keyword>：對方從自身牌組<keyword=summon>召喚</keyword>最小的單位牌至相對列上。\n",
         "name": "果亞特"
     },
     "200053": {
+        "flavor": "小雕像瞬間變大，規律震動的同時不斷變換自身形體和結構，宛如一縷煙霧匍匐於地面。光芒中出現動靜，似乎有東西逐漸成形。片刻，魔法圈的中心便出現一道人影。",
         "info": "封印 1 張單位牌並將該牌戰力恢復至基礎戰力。\n",
         "infoRaw": "<keyword=lock>封印</keyword> 1 張單位牌並將該牌戰力恢復至基礎戰力。\n",
         "name": "化器封形"
     },
     "200055": {
+        "flavor": "沒人知道暗影長者的年紀到底多大，連高等吸血鬼也不曉得。他們只知道不論遇到什麼情況，絕對不能違抗長者的命令。",
         "info": "軍令：發動 1 張我軍的求死能力。\n一局開始時，更新此能力。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：發動 1 張我軍的<keyword=deathwish>求死</keyword>能力。\n一局開始時，更新此能力。\n",
         "name": "暗影長者"
     },
     "200056": {
+        "flavor": "聽過「人獸」嗎？就有點像是狼人的相反，是會變成人的野獸。",
         "info": "部署、遠程：任意製造 1 張「特殊」牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：任意<keyword=create>製造</keyword> 1 張「特殊」牌。\n",
         "name": "狐妖：真身"
     },
     "200058": {
+        "flavor": "我給你三條最新且有力的線索，再加上我的間諜和宮廷女術士的協助，結果你不但沒找到我女兒，還給我帶來這個……醜八怪？",
         "info": "製造 1 張「金色」單位牌並打出。\n",
         "infoRaw": "<keyword=create>製造</keyword> 1 張「金色」單位牌並打出。\n",
         "name": "烏馬的詛咒"
     },
     "200062": {
+        "flavor": "振作點，不然妖狐就來抓你了！",
         "info": "部署、近戰：封印 1 張單位牌。\n部署、遠程：解除 1 張單位牌的封印。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=lock>封印</keyword> 1 張單位牌。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：解除 1 張單位牌的<keyword=lock>封印</keyword>。\n",
         "name": "狐妖"
     },
     "200071": {
+        "flavor": "所謂外交官，就是愛用華麗詞藻但實際胸無點墨的人。",
         "info": "部署：將對方手牌中最大的單位牌戰力設為 1 點。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：將對方手牌中最大的單位牌戰力設為 1 點。\n",
         "name": "希拉德．費茲奧耶斯泰蘭"
     },
     "200073": {
+        "flavor": "吸血妖鳥可好得很呢。的確，牠偶爾會去亂咬人，但習慣就沒什麼大不了的了。",
         "info": "部署：若我方控制最大的單位牌，則對 1 張敵軍造成 5 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：若我方控制最大的單位牌，則對 1 張敵軍造成 5 點傷害。\n",
         "name": "雅妲：吸血妖鳥"
     },
     "200078": {
+        "flavor": "先想像一坨黏土。為了做出形狀，我們必須先弄濕黏土以避免龜裂。試煉的前半段就是這個道理。也可以說，要讓身體徹底敞開，只有這樣突變誘發物才能發生作用，並塑造出狩魔獵人。",
         "info": "提升 1 張單位牌 12 點戰力。若該牌不是「狩魔獵人」，則先對其造成 6 點傷害。\n",
         "infoRaw": "提升 1 張單位牌 12 點戰力。若該牌不是「狩魔獵人」，則先對其造成 6 點傷害。\n",
         "name": "青草試煉"
     },
     "200079": {
+        "flavor": "這個咒語可以讓你看到亡者生前最後的片刻……前提是施咒過程沒奪走你的小命。",
         "info": "從對方墓地打出 1 張單位牌，並賦予其氣數已盡。\n",
         "infoRaw": "從對方墓地打出 1 張單位牌，並賦予其<keyword=doomed>氣數已盡</keyword>。\n",
         "name": "漢魔芬的藍色夢境"
     },
     "200080": {
+        "flavor": "嗯？怎麼了嗎？鹿肉對你來說腥味太重了嗎？小公主？",
         "info": "近戰：每當此單位牌具有提升值，就額外提升此單位牌 2 點戰力。\n",
         "infoRaw": "<keyword=melee>近戰</keyword>：每當此單位牌具有提升值，就額外提升此單位牌 2 點戰力。\n",
         "name": "夏維・莫藍"
     },
     "200081": {
+        "flavor": "「在史凱利傑，我們不會把精明的女人燒死……而是聽取她們的建議。」",
         "info": "部署、遠程：治療 1 張我軍 2 點戰力，再提升該牌 2 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：<keyword=heal>治療</keyword> 1 張我軍 2 點戰力，再提升該牌 2 點戰力。\n",
         "name": "海玫：草藥醫生"
     },
     "200083": {
+        "flavor": "我們不想透露名字。把我們倆當成是……屋主的朋友吧。",
         "info": "部署：從我方牌組任意抽取 1 張卡牌，再隨機丟棄 1 張卡牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：從我方牌組任意抽取 1 張卡牌，再隨機<keyword=discard>丟棄</keyword> 1 張卡牌。\n",
         "name": "愛麗絲的同伴"
     },
     "200087": {
+        "flavor": "多瑞加雷跟狩魔獵人一樣，對怪物特別著迷，只不過他自有一套怪物的分類系統。他不將怪物分成食屍生物、食人魔等，他只覺得所有怪物都很美好。",
         "info": "部署：封印 1 張單位牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=lock>封印</keyword> 1 張單位牌。\n",
         "name": "沃里的多瑞加雷"
     },
     "200088": {
+        "flavor": "驗屍官是個冷靜溫和的人，連對屍體都細心照料。",
         "info": "部署：提升自身戰力，而提升值等同本回合中我方對敵軍造成的傷害總量。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升自身戰力，而提升值等同本回合中我方對敵軍造成的傷害總量。\n",
         "name": "休伯特・阿傑克"
     },
     "200089": {
+        "flavor": "迷路了？要迷路去別的地方吧，別跑到我的土地上。左耳對著太陽一直走，就會找到路了。怎樣？還在等什麼？",
         "info": "部署：將單列所有單位牌移動至另一列。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：將單列所有單位牌移動至另一列。\n",
         "name": "尼威倫"
     },
     "200091": {
+        "flavor": "狩魔獵人曾經碰過外表像市議員的小偷、像乞丐的市議員和像小偷的國王。不過，斯托苟伯看起來一直都像是一般人對法師的刻板印象。",
         "info": "遠程：2 回合後，雙方各抽取 1 張單位牌並將該牌的戰力設為 1 點。\n",
         "infoRaw": "<keyword=ranged>遠程</keyword>：2 回合後，雙方各抽取 1 張單位牌並將該牌的戰力設為 1 點。\n",
         "name": "斯托苟伯"
     },
     "200098": {
+        "flavor": "白天是維吉瑪城市守衛隊的隊長，晚上則是無情的復仇者和市井小民的保護者。",
         "info": "熱忱。\n軍令、近戰：將 1 張「未獲得提升」的敵軍戰力設為 1 點。\n",
         "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>、<keyword=melee>近戰</keyword>：將 1 張「未獲得提升」的敵軍戰力設為 1 點。\n",
         "name": "文森特．梅斯"
     },
     "200102": {
+        "flavor": "諸神對我說話……我聽見祂們在陰影中的私語……",
         "info": "部署：將此單位牌的戰力與 1 張負傷單位牌的戰力進行替換。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：將此單位牌的戰力與 1 張負傷單位牌的戰力進行替換。\n",
         "name": "希姆"
     },
     "200103": {
+        "flavor": "連續拿下小史凱利格競技場十屆冠軍頭銜的可敬選手。",
         "info": "軍令：提升「歐拉夫」的戰力，而提升值為其受到傷害值的兩倍。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：提升「歐拉夫」的戰力，而提升值為其受到傷害值的兩倍。\n",
         "name": "歐拉夫"
     },
     "200104": {
+        "flavor": "狼人？不……問題糟糕多了。",
         "info": "部署：對 1 張敵軍造成等同自身當前戰力一半的傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成等同自身當前戰力一半的傷害。\n",
         "name": "北方狼戰士"
     },
     "200105": {
+        "flavor": "迪門家族的艦艇又輕又快，很適合追上速度緩慢的商人護送船。",
         "info": "部署：對 1 張敵軍造成 1 點傷害三次。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 1 點傷害三次。\n",
         "name": "迪門艦艇"
     },
     "200112": {
+        "flavor": "傳說中，她們會以迷人的歌聲誘惑水手迎向死亡……不過更可能是她們豐滿的特徵迷住了水手。",
         "info": "部署：提升 1 張具有求死的我軍 3 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張具有<keyword=deathwish>求死</keyword>的我軍 3 點戰力。\n",
         "name": "女海妖"
     },
     "200114": {
+        "flavor": "有人說狼人病會傳染，被狼人咬了就會變成狼人。但狩魔獵人很清楚這話是胡扯，只有詛咒會使人變成狼人。",
         "info": "免疫。茁壯。\n",
         "infoRaw": "<keyword=immune>免疫</keyword>。<keyword=thrive>茁壯</keyword>。\n",
         "name": "狼人首領"
     },
     "200115": {
+        "flavor": "刺客——帝國宮廷最常見的職業之一，僅次於抄寫員和高級娼妓。",
         "info": "對 1 張單位牌造成 6 點傷害。只要該牌有 1 張相鄰單位牌，就將傷害值減 1。\n",
         "infoRaw": "對 1 張單位牌造成 6 點傷害。只要該牌有 1 張相鄰單位牌，就將傷害值減 1。\n",
         "name": "暗殺"
     },
     "200118": {
+        "flavor": "跑到天涯海角也躲不了。",
         "info": "近戰：局末，將此單位牌放進對方牌組洗牌。\n",
         "infoRaw": "<keyword=melee>近戰</keyword>：局末，將此單位牌放進對方牌組洗牌。\n",
         "name": "滲透者"
     },
     "200124": {
+        "flavor": "毒蛇學派將會重生……雷索將實現這夙願。",
         "info": "部署：揭示對方牌組最上方的卡牌，並驅逐該牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=reveal>揭示</keyword>對方牌組最上方的卡牌，並<keyword=banish>驅逐</keyword>該牌。\n",
         "name": "毒蛇學派狩魔獵人"
     },
     "200135": {
+        "flavor": "這種瑪哈坎職業風險極高，因此報酬也相當優渥。這行最頂尖的高手是個矮人，名叫米凱爾．貝。",
         "info": "熱忱。\n軍令：摧毀 1 張「文物」我軍，並對 1 張單位牌造成 2 點傷害。\n冷卻：2 回合。\n",
         "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：摧毀 1 張「文物」我軍，並對 1 張單位牌造成 2 點傷害。\n<keyword=cooldown>冷卻</keyword>：2 回合。\n",
         "name": "煙火師"
     },
     "200136": {
+        "flavor": "她的話語有時可能令人摸不著頭緒，但其中總是別有含意，且蘊含無限智慧。",
         "info": "部署、遠程：隨機揭示我方牌組 1 張卡牌。若該牌為「特殊」牌，則提升自身 2 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：隨機<keyword=reveal>揭示</keyword>我方牌組 1 張卡牌。若該牌為「特殊」牌，則提升自身 2 點戰力。\n",
         "name": "先知"
     },
     "200138": {
+        "flavor": "親愛的，知識是一種特權，只有平起平坐的人們可以共享。",
         "info": "每當我方打出 1 張「特殊」牌，就提升自身 2 點戰力。\n",
         "infoRaw": "每當我方打出 1 張「特殊」牌，就提升自身 2 點戰力。\n",
         "name": "賢者"
     },
     "200139": {
+        "flavor": "曾有一位奧森弗特學者觀察過一隻黑豹，並表示牠只是不同顏色的花豹。黑豹似乎對此看法不以為然，並在他完成研究前就將他吃下肚了。",
         "info": "部署：對 1 張「非松鼠黨」的敵軍單位牌造成 3 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張「非松鼠黨」的敵軍單位牌造成 3 點傷害。\n",
         "name": "黑豹"
     },
     "200144": {
+        "flavor": "別碰他。別看他眼睛。應該說……根本不要接近他。",
         "info": "部署：提升 1 張「野獸」我軍 2 點戰力。只要我方墓地有 1 張「野獸」就將提升值加 1。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張「野獸」我軍 2 點戰力。只要我方墓地有 1 張「野獸」就將提升值加 1。\n",
         "name": "圖爾希區馴熊師"
     },
     "200145": {
+        "flavor": "海是我們的，在海上漂的、游的、航行的也都是！",
         "info": "部署：只要我方手牌有 1 張「船隻」，就對 1 張單位牌造成 1 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：只要我方手牌有 1 張「船隻」，就對 1 張單位牌造成 1 點傷害。\n",
         "name": "迪門海盜"
     },
     "200146": {
+        "flavor": "史派克魯格島是與世隔絕的荒蕪小島，但這對我們來說不算什麼，我們需要的東西，都會從你手上搶來。",
         "info": "部署、近戰：對 1 張單位牌造成 1 點傷害，再提升該單位牌 2 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對 1 張單位牌造成 1 點傷害，再提升該單位牌 2 點戰力。\n",
         "name": "迪門走私者"
     },
     "200147": {
+        "flavor": "女德魯伊的最高職位「靈師」為人尊敬，並握有大權。",
         "info": "每回合結束時，治療此列所有負傷的我軍 1 點戰力。\n",
         "infoRaw": "每回合結束時，<keyword=heal>治療</keyword>此列所有負傷的我軍 1 點戰力。\n",
         "name": "海玫靈師"
     },
     "200149": {
+        "flavor": "他天不怕地不怕，只怕弗蕾雅的怒氣……還有怕太太生氣。",
         "info": "每當 1 張相鄰單位牌受到傷害，就提升自身 1 點戰力。\n",
         "infoRaw": "每當 1 張相鄰單位牌受到傷害，就提升自身 1 點戰力。\n",
         "name": "海玫守護者"
     },
     "200154": {
+        "flavor": "吾王陛下，弗爾泰斯特，泰莫利亞之王、索登王子、布魯吉長年的保護者、等等等等，在此宣布法令如下……",
         "info": "從我方牌組打出 1 張單位牌。\n",
         "infoRaw": "從我方牌組打出 1 張單位牌。\n",
         "name": "皇家法令"
     },
     "200159": {
+        "flavor": "沒人能取代布蘭王，儘管他們總想一試。",
         "info": "軍令：丟棄 1 張牌，再抽取 1 張牌。\n一局開始時，更新軍令能力。\n每當我方丟棄 1 張牌，便隨機對 1 張敵軍造成 1 點傷害。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：<keyword=discard>丟棄</keyword> 1 張牌，再抽取 1 張牌。\n一局開始時，更新<keyword=order>軍令</keyword>能力。\n每當我方<keyword=discard>丟棄</keyword> 1 張牌，便隨機對 1 張敵軍造成 1 點傷害。\n",
         "name": "布蘭．圖爾希曲"
     },
     "200160": {
+        "flavor": "尼弗迦德人叫我「特斯穆伊拉」，也就是海上野豬。他們還用我的名號來嚇唬小孩！",
         "info": "軍令：對 1 張單位牌造成 1 點傷害。\n冷卻：2 回合。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 1 點傷害。\n<keyword=cooldown>冷卻</keyword>：2 回合。\n",
         "name": "克拉奇．奎特"
     },
     "200161": {
+        "flavor": "沒人知道他的綽號從何而來，更沒人敢問。",
         "info": "軍令：將 8 點傷害值隨機分配給所有敵軍。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：將 8 點傷害值隨機分配給所有敵軍。\n",
         "name": "「殘廢」哈洛德"
     },
     "200162": {
+        "flavor": "我不以有耐性出名，而你最好小心不要以無頭聞名。",
         "info": "軍令：將場上 1 張卡牌收回我方手牌，再打出 1 張卡牌。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：將場上 1 張卡牌收回我方手牌，再打出 1 張卡牌。\n",
         "name": "恩希爾．恩瑞斯"
     },
     "200163": {
+        "flavor": "夏日陽光在阿爾巴河平靜的水面上熠熠生輝——我印象中的尼弗迦德就是這樣啊。",
         "info": "軍令：隨機揭示對方牌組 1 張卡牌。若該牌為「銅色」牌，則提升 1 張我軍 3 點戰力。若為「金色」牌，則改為提升 4 點戰力。\n一局開始時，更新此能力。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：隨機<keyword=reveal>揭示</keyword>對方牌組 1 張卡牌。若該牌為「銅色」牌，則提升 1 張我軍 3 點戰力。若為「金色」牌，則改為提升 4 點戰力。\n一局開始時，更新此能力。\n",
         "name": "莫爾凡．符里斯"
     },
     "200164": {
+        "flavor": "劍只是統治者手邊的工具之一。",
         "info": "軍令：查看我方牌組最上方的 3 張卡牌，打出其中 1 張。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：查看我方牌組最上方的 3 張卡牌，打出其中 1 張。\n",
         "name": "賈恩・卡維特"
     },
     "200165": {
+        "flavor": "想要和平，必先殺戮，人類的迫害終將畫下殘酷的句點。",
         "info": "軍令：從我方墓地打出 1 張「特殊」牌。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：從我方墓地打出 1 張「特殊」牌。\n",
         "name": "法蘭茜絲卡．芬達貝"
     },
     "200166": {
+        "flavor": "樹精女王眼似熔銀，內心冰冷如鋼。",
         "info": "軍令：對 1 張單位牌造成 1 點傷害。\n裝填：3 次。\n一局開始時，更新「埃絲涅」的裝填次數。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 1 點傷害。\n<keyword=charge>裝填</keyword>：3 次。\n一局開始時，更新「埃絲涅」的<keyword=charge>裝填</keyword>次數。\n",
         "name": "埃絲涅"
     },
     "200167": {
+        "flavor": "那個糟老頭？根本沒人分得清他是活人還是布偶！",
         "info": "軍令：將 1 張單位牌移動至另一列。若該牌為敵軍，則對其造成 2 點傷害；若該牌為我軍，則提升該牌 2 點戰力。\n裝填：3 次。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：將 1 張單位牌移動至另一列。若該牌為敵軍，則對其造成 2 點傷害；若該牌為我軍，則提升該牌 2 點戰力。\n<keyword=charge>裝填</keyword>：3 次。\n",
         "name": "布羅弗・霍格"
     },
     "200168": {
+        "flavor": "我不需要謀臣和他們的算計，我相信士兵的利刃。",
         "info": "軍令：提升 1 張我軍 1 點戰力並賦予熱忱。\n裝填：3 次。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：提升 1 張我軍 1 點戰力並賦予<keyword=zeal>熱忱</keyword>。\n<keyword=charge>裝填</keyword>：3 次。\n",
         "name": "弗爾泰斯特國王"
     },
     "200170": {
+        "flavor": "恕我直言，亨賽特國王不是看起來像賊，他本來就是賊。",
         "info": "軍令：從我方牌組打出場上 1 張我軍單位牌的同名牌，提升該牌 4 點戰力，並賦予其熱忱。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：從我方牌組打出場上 1 張我軍單位牌的同名牌，提升該牌 4 點戰力，並賦予其<keyword=zeal>熱忱</keyword>。\n",
         "name": "亨賽特國王"
     },
     "200171": {
+        "flavor": "忠於故崔丹姆男爵的士兵和法利波一起離開了這座城市，甘願成為被明文通緝的叛徒。",
         "info": "每當此單位牌具有提升值，便隨機對 1 張敵軍造成 1 點傷害。\n",
         "infoRaw": "每當此單位牌具有提升值，便隨機對 1 張敵軍造成 1 點傷害。\n",
         "name": "崔丹姆步兵團"
     },
     "200177": {
+        "flavor": "人們叫我小雀鷹，知道為什麼嗎？因為我專吃你這種鼠輩。",
         "info": "若此單位牌位於墓地，則每當我方從我方墓地打出 1 張單位牌時，就召喚此牌至隨機我方列。\n",
         "infoRaw": "若此單位牌位於墓地，則每當我方從我方墓地打出 1 張單位牌時，就<keyword=summon>召喚</keyword>此牌至隨機我方列。\n",
         "name": "凱瑞絲．奎特"
     },
     "200209": {
+        "flavor": "王權對我毫無意義，只有東方那位才配為尊。",
         "info": "軍令：對 1 張敵軍造成 2 點傷害。\n冷卻：4 回合。\n若我方手牌有「精靈」、「矮人」或「樹精」，就將冷卻回合數減 1。（每種只能減一次）\n",
         "infoRaw": "<keyword=order>軍令</keyword>：對 1 張敵軍造成 2 點傷害。\n<keyword=cooldown>冷卻</keyword>：4 回合。\n若我方手牌有「精靈」、「矮人」或「樹精」，就將<keyword=cooldown>冷卻</keyword>回合數減 1。（每種只能減一次）\n",
         "name": "薩琪亞"
     },
     "200212": {
+        "flavor": "把他從族譜除名！不許任何人給他食物和庇護！",
         "info": "部署：對 1 張未負傷的敵軍造成 4 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張未負傷的敵軍造成 4 點傷害。\n",
         "name": "史凱裘"
     },
     "200218": {
+        "flavor": "根據史凱利傑的傳說，威能懾人的巨人王－尤頓，曾在古代統治史凱利傑群島。他後來死在漢姆多爾的手裡，並用最後一口氣發誓將為了終末之戰再起。",
         "info": "部署、近戰：只要對方場上單位牌數量比我方多 1 張牌，就提升自身 2 點。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：只要對方場上單位牌數量比我方多 1 張牌，就提升自身 2 點。\n",
         "name": "尤頓"
     },
     "200220": {
+        "flavor": "我將是你最美……與最後的體驗。",
         "info": "部署、遠程：從我方牌組打出 1 張「有機物」牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：從我方牌組打出 1 張「有機物」牌。\n",
         "name": "呢喃婆：獻祭"
     },
     "200221": {
+        "flavor": "小子，我們會把你剁碎。用你熬出來的湯頭應該不差。",
         "info": "發動全體我軍的求死能力。\n",
         "infoRaw": "發動全體我軍的<keyword=deathwish>求死</keyword>能力。\n",
         "name": "儀式祭品"
     },
     "200222": {
+        "flavor": "我能感受到你的痛苦和恐懼。",
         "info": "部署、近戰：吞噬我方手牌中 1 張單位牌並抽取 1 張卡牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=consume>吞噬</keyword>我方手牌中 1 張單位牌並抽取 1 張卡牌。\n",
         "name": "織婆：施咒"
     },
     "200223": {
+        "flavor": "你們就杵在那，見證眼前的壯觀美景，卻質疑著這計畫和驚人發現。彷彿被曼陀羅給擄獲，彷彿受黑狗的邪術迷惑。",
         "info": "重置 1 張單位牌。\n",
         "infoRaw": "<keyword=reset>重置</keyword> 1 張單位牌。\n",
         "name": "曼陀羅"
     },
     "200224": {
+        "flavor": "有個知名的海盜太愛這種讓人上癮藥草，甚至有了「烏鴉眼」的綽號。不過他的浮誇版傳奇卻省略了這點，讓許多熱愛海盜故事的人感到錯愕。",
         "info": "發動 1 張「銅色」單位牌的求死能力。\n",
         "infoRaw": "發動 1 張「銅色」單位牌的<keyword=deathwish>求死</keyword>能力。\n",
         "name": "烏鴉眼"
     },
     "200225": {
+        "flavor": "沒有芙琳吉拉．薇歌馴服不了的野獸。",
         "info": "奪取 1 張戰力為 5 點以下的敵軍並封印該牌。\n",
         "infoRaw": "<keyword=seize>奪取</keyword> 1 張戰力為 5 點以下的敵軍並<keyword=lock>封印</keyword>該牌。\n",
         "name": "薇歌的嘴套"
     },
     "200226": {
+        "flavor": "別名「劇毒女王」的附子草，經常會用在狩魔獵人的魔藥和鍊金術配方上。",
         "info": "對所有戰力為偶數的敵軍造成 2 點傷害，或對所有戰力為奇數的敵軍造成 2 點傷害。\n",
         "infoRaw": "對所有戰力為偶數的敵軍造成 2 點傷害，或對所有戰力為奇數的敵軍造成 2 點傷害。\n",
         "name": "附子草"
     },
     "200228": {
+        "flavor": "簡單、便宜、致死效果極佳，難怪這是松鼠黨最愛的陷阱。",
         "info": "伏擊：在對方打出下一張單位牌但該牌尚未發動任何能力前先摧毀該牌。\n",
         "infoRaw": "<keyword=ambush>伏擊</keyword>：在對方打出下一張單位牌但該牌尚未發動任何能力前先摧毀該牌。\n",
         "name": "深坑陷阱"
     },
     "200233": {
+        "flavor": "總是一擊命中目標的脊椎骨間隙、左腎下方或直入主動脈。所以只要一擊就能斃命。",
         "info": "部署：只要與 1 張「野獸」相鄰，就對 1 張敵軍造成 2 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：只要與 1 張「野獸」相鄰，就對 1 張敵軍造成 2 點傷害。\n",
         "name": "石化雞蛇"
     },
     "200234": {
+        "flavor": "看在我是老兵的份上！賞個克朗吧？",
         "info": "部署：提升自身 4 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升自身 4 點戰力。\n",
         "name": "可憐又該死的步兵"
     },
     "200235": {
+        "flavor": "我不用外行人教。",
         "info": "部署：摧毀 1 張具有堅毅的敵軍。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：摧毀 1 張具有<keyword=resilient>堅毅</keyword>的敵軍。\n",
         "name": "蘭伯特：劍術大師"
     },
     "200236": {
+        "flavor": "我在三英哩外就聽到你直喘氣。我只是不想放棄這個制高點罷了。",
         "info": "近戰/keyword>：每回合結束時，提升自身 1 點戰力。\n",
         "infoRaw": "<keyword=melee>近戰/keyword>：每回合結束時，提升自身 1 點戰力。\n",
         "name": "艾斯凱爾：探路者"
     },
     "200237": {
+        "flavor": "獵殺怪物可不能用這種隨隨便便的態度。如果希里想加入我們，就要理解這點。",
         "info": "部署：提升所有位於手牌、牌組和場上的「狩魔獵人」我軍 1 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升所有位於手牌、牌組和場上的「狩魔獵人」我軍 1 點戰力。\n",
         "name": "維瑟米爾：導師"
     },
     "200293": {
+        "flavor": "「給我聽好，要是你不努力振作，人類就要把我們的女人都搶走了！」",
         "info": "部署、遠程：提升我方手牌 1 張「矮人」2 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：提升我方手牌 1 張「矮人」2 點戰力。\n",
         "name": "矮人搗蛋鬼"
     },
     "200294": {
+        "flavor": "「誓死捍衛這面旗幟！榮耀獻予烈日！」",
         "info": "部署：提升 1 張我軍 2 點戰力。\n每當我方揭示此牌，便隨機提升 1 張我軍 2 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張我軍 2 點戰力。\n每當我方<keyword=reveal>揭示</keyword>此牌，便隨機提升 1 張我軍 2 點戰力。\n",
         "name": "旗手"
     },
     "200295": {
+        "flavor": "還沒看到他們，味道就先飄過來了。",
         "info": "求死：隨機對 1 張敵軍造成 4 點傷害。\n",
         "infoRaw": "<keyword=deathwish>求死</keyword>：隨機對 1 張敵軍造成 4 點傷害。\n",
         "name": "腐食魔"
     },
     "200296": {
+        "flavor": "騎兵雷霆萬鈞地殺進敵軍方陣。勢如破竹的阿爾巴分隊就像一把匕首刺入毫無防備的腹部，著著進逼泰莫利亞軍隊的要害。",
         "info": "部署、近戰：封印 1 張敵軍單位牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=lock>封印</keyword> 1 張敵軍單位牌。\n",
         "name": "阿爾巴盔甲騎兵"
     },
     "200299": {
+        "flavor": "他的確跟媽咪說長大想當音樂家，但這跟他想的不太一樣。",
         "info": "軍令：提升 1 張我軍 1 點戰力並賦予熱忱。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：提升 1 張我軍 1 點戰力並賦予<keyword=zeal>熱忱</keyword>。\n",
         "name": "泰莫利亞鼓手"
     },
     "200300": {
+        "flavor": "史凱利傑人早就知道捕鯨叉絕對不只適用於捕鯨……",
         "info": "將 1 張敵軍移動至另一列並對該牌造成傷害，其傷害值等同該列上的單位牌總數。\n",
         "infoRaw": "將 1 張敵軍移動至另一列並對該牌造成傷害，其傷害值等同該列上的單位牌總數。\n",
         "name": "漁獲之冠"
     },
     "200301": {
+        "flavor": "浪花打在岸上，被末日之船納吉爾法的船頭推開。漢姆多爾吹響號角，站在燃燒的彩虹橋上與敵人對峙。白霜之夜降臨，迎來狂風暴雨的時刻……",
         "info": "隨機查看我方牌組 2 張「金色」牌，打出 1 張，並將剩餘卡牌放到我方牌組最上方。\n",
         "infoRaw": "隨機查看我方牌組 2 張「金色」牌，打出 1 張，並將剩餘卡牌放到我方牌組最上方。\n",
         "name": "納吉爾法"
     },
     "200320": {
+        "flavor": "牛牛防衛隊的一員。永遠忠誠！",
         "info": "無特殊能力。\n",
         "infoRaw": "無特殊能力。\n",
         "name": "讎特魔"
     },
     "200502": {
+        "flavor": "這世界上有各式各樣的巨魔，形狀、大小和偏好都不同，但腦袋都跟一桶生鏽的鐵釘差不多。",
         "info": "每回合結束時，若我方的單位牌比對方少，則提升自身 1 點戰力。\n",
         "infoRaw": "每回合結束時，若我方的單位牌比對方少，則提升自身 1 點戰力。\n",
         "name": "冰巨魔"
     },
     "200518": {
+        "flavor": "艾賓以其頂級傭兵和輕騎兵部隊聞名天下。",
         "info": "部署：若本回合中我方領導牌的能力已被使用，則對 1 張敵軍造成 3 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：若本回合中我方領導牌的能力已被使用，則對 1 張敵軍造成 3 點傷害。\n",
         "name": "維恩達爾精銳"
     },
     "200519": {
+        "flavor": "普遍公認這是矮人對這世界最大的貢獻。",
         "info": "提升 1 張單位牌 4 點戰力並解除其封印。\n",
         "infoRaw": "提升 1 張單位牌 4 點戰力並解除其<keyword=lock>封印</keyword>。\n",
         "name": "瑪哈坎麥酒"
     },
     "200520": {
+        "flavor": "什麼東西比得上他鑄造的劍？他包的餃子。",
         "info": "軍令：從我方墓地打出 1 張「銅色」「文物」。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：從我方墓地打出 1 張「銅色」「文物」。\n",
         "name": "愛博何．哈托利"
     },
     "200523": {
+        "flavor": "陶森特需要這名英雄，但壓根配不上他。",
         "info": "部署、近戰：在此單位牌兩側各生成 2 張「乳牛」。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：在此單位牌兩側各<keyword=spawn>生成</keyword> 2 張「乳牛」。\n",
         "name": "傑爾曼．皮況特"
     },
     "200528": {
+        "flavor": "「史凱利傑的女性狂放不羈。所有單位都必須正視她們為重大威脅，千萬別低估她們。」 －帝國艦隊入侵勢力的指令",
         "info": "部署：對 1 張敵軍造成 3 點傷害，再對自身造成 2 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 3 點傷害，再對自身造成 2 點傷害。\n",
         "name": "海玫女矛兵"
     },
     "200529": {
+        "flavor": "這名自封騎士的傢伙遊走世界各地，維護他的愛人比貝莉小姐的名聲，不過沒人清楚她住在何方，連是生是死都是個謎。",
         "info": "部署：提升自身 5 點戰力。\n每當我方打出 1 張「士兵」，便從我方墓地召喚此單位牌至隨機我方列。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升自身 5 點戰力。\n每當我方打出 1 張「士兵」，便從我方墓地<keyword=summon>召喚</keyword>此單位牌至隨機我方列。\n",
         "name": "偏執的朗維德"
     },
     "200530": {
+        "flavor": "這酒本來就是綠的嗎……？",
         "info": "熱忱。\n軍令：對 1 張單位牌造成 2 點傷害。\n裝填：3 次。\n",
         "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：對 1 張單位牌造成 2 點傷害。\n<keyword=charge>裝填</keyword>：3 次。\n",
         "name": "腐敗麥酒"
     },
     "200532": {
+        "flavor": "福赫斯家族的傳奇創始人波洛斯就是喝這種酒喝到死的。他貪杯後伸手要撿拾掉進小溪的金戒指，結果昏了過去。",
         "info": "熱忱。\n軍令：提升 1 張單位牌 3 點戰力。\n冷卻：2 回合。\n",
         "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：提升 1 張單位牌 3 點戰力。\n<keyword=cooldown>冷卻</keyword>：2 回合。\n",
         "name": "先祖的麥酒"
     },
     "200534": {
+        "flavor": "最愛精靈和洋蔥湯。",
         "info": "近戰/keyword>：每當 1 張我軍在我方回合被摧毀，就提升自身 2 點戰力。\n",
         "infoRaw": "<keyword=melee>近戰/keyword>：每當 1 張我軍在我方回合被摧毀，就提升自身 2 點戰力。\n",
         "name": "弗堅的女巨魔"
     },
     "200535": {
+        "flavor": "作戰就像跳舞，絕對不能讓對手帶舞。",
         "info": "軍令、近戰：對 1 張敵軍造成 1 點傷害。\n冷卻：2 回合。\n每當我方打出 1 張「精靈」，便將冷卻減 1。\n",
         "infoRaw": "<keyword=order>軍令</keyword>、<keyword=melee>近戰</keyword>：對 1 張敵軍造成 1 點傷害。\n<keyword=cooldown>冷卻</keyword>：2 回合。\n每當我方打出 1 張「精靈」，便將<keyword=cooldown>冷卻</keyword>減 1。\n",
         "name": "精靈劍術大師"
     },
     "200539": {
+        "flavor": "無論肌肉多發達、技術多高超，世上沒有任何人能從滑翔蜥蜴的甩尾、巨蠍的鉗夾或獅鷲獸的爪子攻擊活下來。",
         "info": "軍令：吞噬 此列上 1 張我軍單位牌。\n冷卻：1 回合。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：<keyword=consume>吞噬</keyword> 此列上 1 張我軍單位牌。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n",
         "name": "滑翔蜥蜴"
     },
     "200540": {
+        "flavor": "唉，這些傢伙真是讓人頭痛。",
         "info": "軍令：對 1 張敵軍造成 4 點傷害。\n",
         "infoRaw": "<keyword=deploy>軍令</keyword>：對 1 張敵軍造成 4 點傷害。\n",
         "name": "亞甸大槌手"
     },
     "201523": {
+        "flavor": "他在雅妲經過腐化處理的屍體旁躺下，在她的石棺內側蓋子上畫下亞登之印。",
         "info": "部署：讓單列所有單位牌恢復至其基礎戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：讓單列所有單位牌恢復至其基礎戰力。\n",
         "name": "傑洛特：亞登之印"
     },
     "201559": {
+        "flavor": "哇哈哈！準備好啦，小丑們！我們很快就來啦！等著被教訓個落花流水吧！",
         "info": "部署、近戰：若此列有「矮人」，便從我方牌組召喚 1 張此單位牌的同名牌至此列。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：若此列有「矮人」，便從我方牌組<keyword=summon>召喚</keyword> 1 張此單位牌的同名牌至此列。\n",
         "name": "瑪哈坎志願者"
     },
     "201574": {
+        "flavor": "高的那個叫威爾瑪，他右邊的是威佛瑞德，講話結結巴巴的那個是威海姆。",
         "info": "求死：隨機對 1 張敵軍單位牌造成 2 點傷害。\n",
         "infoRaw": "<keyword=deathwish>求死</keyword>：隨機對 1 張敵軍單位牌造成 2 點傷害。\n",
         "name": "哈洛德之友"
     },
     "201576": {
+        "flavor": "在鮑克蘭，所有東西都更上一層樓。不但酒更香醇、牛的塊頭更大，連女孩子都在平均之上。",
         "info": "氣數已盡。\n",
         "infoRaw": "<keyword=doomed>氣數已盡</keyword>。\n",
         "name": "乳牛"
     },
     "201578": {
+        "flavor": "你腦子有問題嗎？你想航行到史凱利傑？那些野蠻人會把你四分五裂的！",
         "info": "部署、\n近戰：隨機分配 4 點傷害值給所有單位牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、\n<keyword=melee>近戰</keyword>：隨機分配 4 點傷害值給所有單位牌。\n",
         "name": "奎特掠奪者"
     },
     "201579": {
+        "flavor": "雞生蛋還是蛋生雞？跟鳳凰相比，這問題似乎微不足道了。",
         "info": "一局開始時，若「鳳凰」位於我方墓地，則驅逐「鳳凰」，再生成「鳳凰雛鳥」並召喚至隨機我方列。\n",
         "infoRaw": "一局開始時，若「鳳凰」位於我方墓地，則<keyword=banish>驅逐</keyword>「鳳凰」，再<keyword=spawn>生成</keyword>「鳳凰雛鳥」並<keyword=summon>召喚</keyword>至隨機我方列。\n",
         "name": "鳳凰"
     },
     "201580": {
+        "flavor": "為什麼出身這種微不足道的事可以決定誰是我們的領袖？",
         "info": "對戰開始時，讓敵方的領導牌失效直到對戰結束。\n",
         "infoRaw": "對戰開始時，讓敵方的領導牌失效直到對戰結束。\n",
         "name": "篡位者"
     },
     "201581": {
+        "flavor": "歐飛爾符文匠可以把這些結合成力量強大的符文。",
         "info": "製造 1 張「銅色」「史凱利傑」牌並打出。\n",
         "infoRaw": "<keyword=create>製造</keyword> 1 張「銅色」「史凱利傑」牌並打出。\n",
         "name": "史翠柏符文石"
     },
     "201582": {
+        "flavor": "這符文石讓我打了冷顫……我做了什麼讓它難過了嗎？",
         "info": "製造 1 張「銅色」「北方領域」牌並打出。\n",
         "infoRaw": "<keyword=create>製造</keyword> 1 張「銅色」「北方領域」牌並打出。\n",
         "name": "佐利亞符文石"
     },
     "201583": {
+        "flavor": "小心，還很燙呢。",
         "info": "製造 1 張「銅色」「尼弗迦德」牌並打出。\n",
         "infoRaw": "<keyword=create>製造</keyword> 1 張「銅色」「尼弗迦德」牌並打出。\n",
         "name": "達茲柏符文石"
     },
     "201584": {
+        "flavor": "我的劍鋒極其銳利，連紙都能割！",
         "info": "製造 1 張「銅色」「怪物」陣營的卡牌並打出。\n",
         "infoRaw": "<keyword=create>製造</keyword> 1 張「銅色」「怪物」陣營的卡牌並打出。\n",
         "name": "戴維納符文石"
     },
     "201585": {
+        "flavor": "一看見它就讓我頭暈……",
         "info": "製造 1 張「銅色」「松鼠黨」牌並打出。\n",
         "infoRaw": "<keyword=create>製造</keyword> 1 張「銅色」「松鼠黨」牌並打出。\n",
         "name": "莫拉納符文石"
     },
     "201587": {
+        "flavor": "它將在我們無法抵達的他方重新再起。鮮血將再次流淌。",
         "info": "摧毀 1 張我軍單位牌，再生成 1 張該牌的基礎同名牌並打出。\n",
         "infoRaw": "摧毀 1 張我軍單位牌，再<keyword=spawn>生成</keyword> 1 張該牌的基礎同名牌並打出。\n",
         "name": "呢喃山丘"
     },
     "201589": {
+        "flavor": "雖然現在人數稀少又分散，但我們心中的熊熊烈火卻無比炙熱。",
         "info": "軍令：提升我方手牌的所有單位牌 1 點戰力。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：提升我方手牌的所有單位牌 1 點戰力。\n",
         "name": "費拉萬卓列．艾恩菲赫"
     },
     "201595": {
+        "flavor": "她的詛咒解除了……但喜好生肉的胃口依然健在。",
         "info": "軍令：對 1 張單位牌造成 8 點傷害。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 8 點傷害。\n",
         "name": "雅妲公主"
     },
     "201597": {
+        "flavor": "埃斯特前來辛特拉幫助克拉奇・奎特，以贏得帕維塔公主的青睞，但最後自己卻贏得了王后的芳心。",
         "info": "軍令：從我方墓地打出 1 張「戰士」。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：從我方墓地打出 1 張「戰士」。\n",
         "name": "埃斯特．圖爾希曲"
     },
     "201598": {
+        "flavor": "最簡單的物品通常具有最強大的力量。",
         "info": "提升所有我軍 1 點戰力。\n",
         "infoRaw": "提升所有我軍 1 點戰力。\n",
         "name": "骨頭護身符"
     },
     "201599": {
+        "flavor": "他最討厭被搔肚子。",
         "info": "茁壯。\n部署：對相對列上所有敵軍單位牌造成 1 點傷害。\n求死：重複發動部署能力。\n",
         "infoRaw": "<keyword=thrive>茁壯</keyword>。\n<keyword=deploy>部署</keyword>：對相對列上所有敵軍單位牌造成 1 點傷害。\n<keyword=deathwish>求死</keyword>：重複發動<keyword=deploy>部署</keyword>能力。\n",
         "name": "貓人"
     },
     "201600": {
+        "flavor": "有人說狼人病會傳染，被狼人咬了就會變成狼人。但狩魔獵人很清楚這話是胡扯，只有詛咒會使人變成狼人。",
         "info": "免疫。\n",
         "infoRaw": "<keyword=immune>免疫</keyword>。\n",
         "name": "狼人"
     },
     "201601": {
+        "flavor": "最好別擋葉奈法的路，尤其是她很急的時候。",
         "info": "任意選擇場上 1 張單位牌或「文物」，再將該牌放到擁有者的牌組最上方。\n",
         "infoRaw": "任意選擇場上 1 張單位牌或「文物」，再將該牌放到擁有者的牌組最上方。\n",
         "name": "葉奈法的祝告"
     },
     "201603": {
+        "flavor": "這僧侶為什麼會戴著鉚釘手套……",
         "info": "部署：變身為場上另一張單位牌的同名牌，而且戰力維持不變。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：變身為場上另一張單位牌的同名牌，而且戰力維持不變。\n",
         "name": "雷索：弒王者"
     },
     "201606": {
+        "flavor": "叉尾龍要這樣引誘：將一支木樁插入土中，上面綁一隻羊，然後盡快躲到附近的灌木叢裡。",
         "info": "部署：對所有其他單位牌造成 1 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對所有其他單位牌造成 1 點傷害。\n",
         "name": "叉尾龍"
     },
     "201609": {
+        "flavor": "要使他們的意志崩潰，但不能打斷他們的骨頭。",
         "info": "部署：若相對列有 4 張以上的單位牌，則從該列奪取最小的敵軍。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：若相對列有 4 張以上的單位牌，則從該列<keyword=seize>奪取</keyword>最小的敵軍。\n",
         "name": "奴隸獵人"
     },
     "201610": {
+        "flavor": "自由人有選擇，奴隸只有接受選擇的份。",
         "info": "部署：讓此單位牌變身為另一張單位牌的同名牌，而且戰力維持不變。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：讓此單位牌變身為另一張單位牌的同名牌，而且戰力維持不變。\n",
         "name": "奴隸步兵"
     },
     "201611": {
+        "flavor": "即便伊歐菲斯只有一隻眼睛，但他內在的絕對無人能敵。",
         "info": "若我方的起始牌組有 4 張以上的「陷阱」，則隨機打出其中 2 張。\n",
         "infoRaw": "若我方的起始牌組有 4 張以上的「陷阱」，則隨機打出其中 2 張。\n",
         "name": "伊歐菲斯的險招"
     },
     "201612": {
+        "flavor": "奴隸管理者的動力為何？只有一個目的：看到他的命令全部實現。",
         "info": "部署：對 1 張敵軍造成 2 點傷害。只要有 1 張被封印的單位牌就將傷害值加 1 點。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 2 點傷害。只要有 1 張被<keyword=lock>封印</keyword>的單位牌就將傷害值加 1 點。\n",
         "name": "奴隸管理者"
     },
     "201613": {
+        "flavor": "我遺傳到父親的變形能力，不過我目前只有一種變身型態。",
         "info": "軍令：對 1 張敵軍造成 1 點傷害。\n裝填：5 次。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：對 1 張敵軍造成 1 點傷害。\n<keyword=charge>裝填</keyword>：5 次。\n",
         "name": "薩琪亞薩司：烈焰"
     },
     "201615": {
+        "flavor": "我們面前的是愛斯克德格隘口，再走下去就是瑟瑞卡尼亞和哈克蘭。前面的路漫長又危險。如果我們要同行……就得放下對彼此的不信任。",
         "info": "隨機查看我方牌組「矮人」、「精靈」和「樹精」各 1 張，並打出 1 張。\n",
         "infoRaw": "隨機查看我方牌組「矮人」、「精靈」和「樹精」各 1 張，並打出 1 張。\n",
         "name": "伊森格林的議會"
     },
     "201616": {
+        "flavor": "高掛天空的烈日啊，請拯救我們免於內褲裡頑強虱子的侵害吧。",
         "info": "軍令：將此單位牌的戰力與 1 張敵軍進行替換。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：將此單位牌的戰力與 1 張敵軍進行替換。\n",
         "name": "偽裝大師"
     },
     "201617": {
+        "flavor": "他也不能問理由，只能……削著一顆又一顆的馬鈴薯。",
         "info": "部署：隨機揭示雙方牌組各 1 張單位牌。若我方的卡牌戰力較大，則提升自身 2 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：隨機<keyword=reveal>揭示</keyword>雙方牌組各 1 張單位牌。若我方的卡牌戰力較大，則提升自身 2 點戰力。\n",
         "name": "新兵"
     },
     "201618": {
+        "flavor": "賽特寇克富有美德，更有著不屈不撓的勇氣。雖然如此，他還是逃不過在上亞甸之役中殞命的命運。",
         "info": "軍令、近戰：與 1 張敵軍單位牌決鬥。\n",
         "infoRaw": "<keyword=order>軍令</keyword>、<keyword=melee>近戰</keyword>：與 1 張敵軍單位牌<keyword=duel>決鬥</keyword>。\n",
         "name": "古雷特的賽特寇克"
     },
     "201619": {
+        "flavor": "這有幫助嗎？誰知道，不過應該沒害處。應該吧。",
         "info": "提升 1 張「銅色」「士兵」2 點戰力並重新發動該牌的部署能力。\n",
         "infoRaw": "提升 1 張「銅色」「士兵」2 點戰力並重新發動該牌的<keyword=deploy>部署</keyword>能力。\n",
         "name": "油膏"
     },
     "201620": {
+        "flavor": "將軍還以為洛馬可之戰會迅速結束，損失可以壓到最小……但戰爭卻沒完沒了。",
         "info": "軍令、近戰：對 1 張單位牌造成 1 點傷害。\n冷卻：1 回合。\n若我方控制「范德格里夫特之劍」，則改為對 1 張單位牌造成 2 點傷害。\n",
         "infoRaw": "<keyword=order>軍令</keyword>、<keyword=melee>近戰</keyword>：對 1 張單位牌造成 1 點傷害。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n若我方控制「范德格里夫特之劍」，則改為對 1 張單位牌造成 2 點傷害。\n",
         "name": "范德格里夫特"
     },
     "201621": {
+        "flavor": "我們住在無垠黑海中一座無知寧靜小島上，而且註定無法遠行。",
         "info": "軍令：對 1 張單位牌造成傷害，其傷害值等同「凱亞恩」的裝填次數。\n裝填：1 次。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成傷害，其傷害值等同「凱亞恩」的<keyword=charge>裝填</keyword>次數。\n<keyword=charge>裝填</keyword>：1 次。\n",
         "name": "凱亞恩"
     },
     "201622": {
+        "flavor": "並非科德溫軍隊中的所有人都支持國王的政治手段，但沒人敢大聲說出口。",
         "info": "部署：若該牌從牌組打出，則提升自身 4 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：若該牌從牌組打出，則提升自身 4 點戰力。\n",
         "name": "科德溫騎士"
     },
     "201623": {
+        "flavor": "大多人在森林中看到一頭龐大的野豬都會屁滾尿流地找棵樹爬上去避難。但史凱利傑人只會流口水而已。",
         "info": "部署、近戰：只要有 1 張負傷的單位牌，就提升自身 1 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：只要有 1 張負傷的單位牌，就提升自身 1 點戰力。\n",
         "name": "巨型野豬"
     },
     "201624": {
+        "flavor": "要日復一日地過著同一天，就像奇安凡尼銀行的職員一樣。",
         "info": "軍令：對 1 張單位牌造成 1 點傷害。若該牌被摧毀，則生成 1 張「科德溫亡魂」的基礎同名牌並召喚至此列。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 1 點傷害。若該牌被摧毀，則<keyword=spawn>生成</keyword> 1 張「科德溫亡魂」的基礎同名牌並<keyword=summon>召喚</keyword>至此列。\n",
         "name": "科德溫亡魂"
     },
     "201625": {
+        "flavor": "他打著一場連肇始都記不得的無止盡戰爭。",
         "info": "部署：將 1 張不是「受詛咒的騎士」的我軍單位牌變身成 1 張「受詛咒的騎士」，而戰力保持不變。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：將 1 張不是「受詛咒的騎士」的我軍單位牌變身成 1 張「受詛咒的騎士」，而戰力保持不變。\n",
         "name": "受詛咒的騎士"
     },
     "201626": {
+        "flavor": "吉薇艾兒擁有自身都無法駕馭的強大力量，對她本身和他人而言都十分危險。在她學會控制這股力量之前，不可以讓她出去。",
         "info": "回合開始時，若此牌是我方墓地中唯一的單位牌，便召喚該牌至隨機我方列。\n",
         "infoRaw": "回合開始時，若此牌是我方墓地中唯一的單位牌，便<keyword=summon>召喚</keyword>該牌至隨機我方列。\n",
         "name": "希里：新星"
     },
     "201627": {
+        "flavor": "其他巨魔都覺得他怪怪的，畢竟有哪個腦袋正常的巨魔比起石頭更愛彩色紙片？",
         "info": "氣數已盡。\n若我方的起始牌組中沒有任何副本卡牌，就讓「店店」去冒險。\n",
         "infoRaw": "<keyword=doomed>氣數已盡</keyword>。\n若我方的起始牌組中沒有任何副本卡牌，就讓「店店」去冒險。\n",
         "name": "店店的假日"
     },
     "201628": {
+        "flavor": "被嚴令禁止？沒錯。早已絕跡？還早得很。",
         "info": "只要有 1 張「靈體」我軍，便對 1 張敵軍造成 1 點傷害。\n",
         "infoRaw": "只要有 1 張「靈體」我軍，便對 1 張敵軍造成 1 點傷害。\n",
         "name": "禁忌魔法"
     },
     "201630": {
+        "flavor": "薩賓娜的詛咒無人能倖免，就連她的同業都是。",
         "info": "部署：對 1 張敵軍造成 3 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 3 點傷害。\n",
         "name": "遭天譴的女術士"
     },
     "201631": {
+        "flavor": "人類相當鄙視變形怪，甚至覺得一般的處死還不夠。只要抓到變形怪就會將他綁上木樁，在他身上塗上厚厚的泥土後，再用火燒死。",
         "info": "部署：選擇我方手牌中 1 張單位牌，並提升自身戰力，而提升值等同我方手牌中本質類型與該牌相同的單位牌總數。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：選擇我方手牌中 1 張單位牌，並提升自身戰力，而提升值等同我方手牌中本質類型與該牌相同的單位牌總數。\n",
         "name": "變形怪"
     },
     "201632": {
+        "flavor": "「劍上寫的是什麼？是詛咒嗎？」「不是，是髒話。」",
         "info": "熱忱。\n軍令：對 1 張敵軍造成 1 點傷害。\n冷卻：1 回合。\n每當「矮人劍」摧毀 1 張敵軍，就將「矮人劍」軍令的傷害值增加 1 點直到離開場上為止。\n",
         "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：對 1 張敵軍造成 1 點傷害。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n每當「矮人劍」摧毀 1 張敵軍，就將「矮人劍」<keyword=order>軍令</keyword>的傷害值增加 1 點直到離開場上為止。\n",
         "name": "矮人劍"
     },
     "201633": {
+        "flavor": "有些武器被全北方領域禁止，因為它們造成的傷勢可怕到讓人連想都不敢想。",
         "info": "熱忱。\n軍令：對 1 張敵軍造成傷害，其傷害值等同「沾血連枷」的裝填次數，再移除所有裝填。\n裝填：1 次。\n每當 1 張我軍單位牌獲得裝填，便也獲得同等次數。\n",
         "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：對 1 張敵軍造成傷害，其傷害值等同「沾血連枷」的<keyword=charge>裝填</keyword>次數，再移除所有<keyword=charge>裝填</keyword>。\n<keyword=charge>裝填</keyword>：1 次。\n每當 1 張我軍單位牌獲得<keyword=charge>裝填</keyword>，便也獲得同等次數。\n",
         "name": "沾血連枷"
     },
     "201634": {
+        "flavor": "只要一顆小石子，就大功告成了。",
         "info": "對 1 張單位牌造成 8 點傷害。\n",
         "infoRaw": "對 1 張單位牌造成 8 點傷害。\n",
         "name": "貝克岩崩術"
     },
     "201635": {
+        "flavor": "天神的蛋蛋啊，狩魔獵人，幹嘛把這污穢的東西帶給我！「我要那野獸的頭！」那只是誇飾法而已啊！",
         "info": "摧毀基礎戰力值最大的單位牌。\n",
         "infoRaw": "摧毀基礎戰力值最大的單位牌。\n",
         "name": "光榮狩獵"
     },
     "201636": {
+        "flavor": "混血精靈為人類所憎恨、不受精靈喜愛，在學校更常被排斥。也難怪他們總是忿忿不平。",
         "info": "部署：只要我方控制 1 張「文物」，就對 1 張敵軍造成 1 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：只要我方控制 1 張「文物」，就對 1 張敵軍造成 1 點傷害。\n",
         "name": "混血精靈獵人"
     },
     "201637": {
+        "flavor": "瑟瑞卡尼亞的生活繞著巨龍信仰打轉，所以看到他們用龍來命名武器也不意外了。",
         "info": "施加此全列效果至敵方單列：\n3 回合後，回合開始時，爆炸並對此列所有單位牌造成 3 點傷害。\n",
         "infoRaw": "施加此全列效果至敵方單列：\n3 回合後，回合開始時，爆炸並對此列所有單位牌造成 3 點傷害。\n",
         "name": "龍之夢"
     },
     "201638": {
+        "flavor": "有人說精靈不會在雪中留下足跡，但我倒覺得「有人」只是一群白癡鄉巴佬，只會胡說八道。",
         "info": "每當 1 張我軍「陷阱」發動，便提升自身戰力 2 點。\n",
         "infoRaw": "每當 1 張我軍「陷阱」發動，便提升自身戰力 2 點。\n",
         "name": "精靈斥侯"
     },
     "201639": {
+        "flavor": "叩叩叩……有人在家嗎？",
         "info": "提升 1 張單位牌 10 點戰力。\n",
         "infoRaw": "提升 1 張單位牌 10 點戰力。\n",
         "name": "駐軍"
     },
     "201644": {
+        "flavor": "沒有人覺得我會是厲害的鑄鐵匠，因為我是人類，又是女人。如果是矮人鐵匠啊，事情就不同了……",
         "info": "軍令：治療 1 張我軍 1 點戰力。\n裝填：1 次。\n只要 1 張相鄰的單位牌受到傷害，就獲得裝填 1 次。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：<keyword=heal>治療</keyword> 1 張我軍 1 點戰力。\n<keyword=charge>裝填</keyword>：1 次。\n只要 1 張相鄰的單位牌受到傷害，就獲得<keyword=charge>裝填</keyword> 1 次。\n",
         "name": "尤娜"
     },
     "201645": {
+        "flavor": "被這東西擊倒就別想再站起來了。",
         "info": "伏擊：3 回合後，回合開始時，對單位牌最多的單列所有敵軍單位牌造成 2 點傷害。\n熱忱。\n軍令：翻面並對單列所有單位牌造成 1 點傷害。\n",
         "infoRaw": "<keyword=ambush>伏擊</keyword>：3 回合後，回合開始時，對單位牌最多的單列所有敵軍單位牌造成 2 點傷害。\n<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：翻面並對單列所有單位牌造成 1 點傷害。\n",
         "name": "粉碎陷阱"
     },
     "201646": {
+        "flavor": "能引發此等瘋狂，想必極其駭人……",
         "info": "部署、遠程/keyword>：最多將我方牌組 3 張卡牌移動到我方墓地。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程/keyword>：最多將我方牌組 3 張卡牌移動到我方墓地。\n",
         "name": "迪蘭"
     },
     "201647": {
+        "flavor": "有一天，等你長大之後，就可能被大石頭砸到。",
         "info": "對 1 張敵軍造成 4 點傷害並移動至另一列。\n",
         "infoRaw": "對 1 張敵軍造成 4 點傷害並移動至另一列。\n",
         "name": "落石轟炸"
     },
     "201648": {
+        "flavor": "賽特寇克在阿德卡萊的騎士比武大賽中粉碎了范德格里夫特的劍。憤怒的范德格里夫特因此訂製了一把新劍，並使用了強大的符文石注魔。",
         "info": "每當我方打出 1 張「士兵」至此列，便提升該牌 2 點戰力。\n",
         "infoRaw": "每當我方打出 1 張「士兵」至此列，便提升該牌 2 點戰力。\n",
         "name": "范德格里夫特之劍"
     },
     "201650": {
+        "flavor": "薩賓娜・葛麗維希格用了最後一口氣施展強大的詛咒，不僅施在她的劊子手身上，連站在一旁的人都遭到波及。",
         "info": "對每張「非靈體」的單位牌造成 1 點傷害。若有單位牌被摧毀，則重複發動此能力一次。\n",
         "infoRaw": "對每張「非靈體」的單位牌造成 1 點傷害。若有單位牌被摧毀，則重複發動此能力一次。\n",
         "name": "薩賓娜的火海"
     },
     "201653": {
+        "flavor": "很久很久以前，瑪哈坎曾經舉辦過吹號角比賽。那天矮人有了個重大的發現：巨大的聲響跟白雪皚皚的山峰可不是什麼好組合。",
         "info": "伏擊：當對方放棄出牌，便提升相鄰單位牌 4 點戰力。\n",
         "infoRaw": "<keyword=ambush>伏擊</keyword>：當對方放棄出牌，便提升相鄰單位牌 4 點戰力。\n",
         "name": "瑪哈坎號角"
     },
     "201656": {
+        "flavor": "長矛拿高點，懦夫！連一匹馬都不能讓牠過！",
         "info": "熱忱。\n軍令：對 1 張單位牌造成 1 點傷害。\n冷卻：1 回合。\n",
         "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：對 1 張單位牌造成 1 點傷害。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n",
         "name": "工藝長矛"
     },
     "201657": {
+        "flavor": "確實搶眼。",
         "info": "對 1 張敵軍造成 6 點傷害，或提升 1 張我軍 6 點戰力。\n",
         "infoRaw": "對 1 張敵軍造成 6 點傷害，或提升 1 張我軍 6 點戰力。\n",
         "name": "寄生蟲"
     },
     "201659": {
+        "flavor": "就是個絞盤，沒什麼好大驚小怪的。",
         "info": "從我方墓地打出 1 張「銅色」「機器」牌。\n",
         "infoRaw": "從我方墓地打出 1 張「銅色」「機器」牌。\n",
         "name": "絞盤"
     },
     "201660": {
+        "flavor": "進入那片森林的人，沒一個活著回來……",
         "info": "求死：回合結束時，從我方墓地召喚此單位牌至隨機我方列。\n",
         "infoRaw": "<keyword=deathwish>求死</keyword>：回合結束時，從我方墓地<keyword=summon>召喚</keyword>此單位牌至隨機我方列。\n",
         "name": "盧恩"
     },
     "201662": {
+        "flavor": "我不會把性命交給機運，能相信的是我劍上那層厚厚的屍胺。",
         "info": "熱忱。\n軍令：摧毀自身以及所有戰力值等同「屍胺」裝填次數的單位牌。\n裝填：0 次。\n每回合開始時，以及我方每次打出 1 張「戰術」時，便獲得裝填 1 次。\n",
         "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：摧毀自身以及所有戰力值等同「屍胺」<keyword=charge>裝填</keyword>次數的單位牌。\n<keyword=charge>裝填</keyword>：0 次。\n每回合開始時，以及我方每次打出 1 張「戰術」時，便獲得<keyword=charge>裝填</keyword> 1 次。\n",
         "name": "屍胺"
     },
     "201664": {
+        "flavor": "「以眼還眼」只會搞到全世界全瞎了。",
         "info": "部署：發動相鄰「銅色」「士兵」的部署能力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：發動相鄰「銅色」「士兵」的<keyword=deploy>部署</keyword>能力。\n",
         "name": "弗瑞吉夫"
     },
     "201676": {
+        "flavor": "最會把食物偷渡給藍山的精靈的，非蓋兒莫屬了。他會帶給他們一包包的蕪菁，還有最受歡迎的韭蔥。",
         "info": "軍令：對 1 張單位牌造成 1 點傷害。\n冷卻：1 回合。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 1 點傷害。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n",
         "name": "帕沃科・蓋兒"
     },
     "201696": {
+        "flavor": "快走！是陷阱！",
         "info": "軍令：提升左邊的單位牌 4 點戰力，或賦予右邊的單位牌免疫。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：提升左邊的單位牌 4 點戰力，或賦予右邊的單位牌<keyword=immune>免疫</keyword>。\n",
         "name": "波利・達爾伯格"
     },
     "201697": {
+        "flavor": "吸血鬼都同意：用這藥水有違運動家精神。",
         "info": "下次 1 張敵軍具有提升值時，就摧毀該單位牌及自身。\n",
         "infoRaw": "下次 1 張敵軍具有提升值時，就摧毀該單位牌及自身。\n",
         "name": "黑血"
     },
     "201698": {
+        "flavor": "有些食屍生物愛上了人肉的味道，光是挖屍體已經沒辦法讓牠們滿足……",
         "info": "部署、近戰：吞噬對方墓地中 1 張單位牌。\n部署、遠程：吞噬我方墓地中 1 張單位牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=consume>吞噬</keyword>對方墓地中 1 張單位牌。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：<keyword=consume>吞噬</keyword>我方墓地中 1 張單位牌。\n",
         "name": "歐茲瑞"
     },
     "201700": {
+        "flavor": "橋？是巨魔很久很久以前建的。巨魔坐在橋下，向人要好一大筆過路費。但沒有很多人經過這裡，所以他們收拾好就走了，但橋走不了，還在。",
         "info": "求死：提升最大的我軍 4 點戰力。\n",
         "infoRaw": "<keyword=deathwish>求死</keyword>：提升最大的我軍 4 點戰力。\n",
         "name": "橋下巨魔"
     },
     "201701": {
+        "flavor": "不久前還是石筍中的一堆圓石，現在卻用又大又圓的眼睛惡狠狠地盯著他。",
         "info": "軍令：吞噬 1 張我軍單位牌。\n裝填：2 次。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：<keyword=consume>吞噬</keyword> 1 張我軍單位牌。\n<keyword=charge>裝填</keyword>：2 次。\n",
         "name": "毛岩蟲"
     },
     "201704": {
+        "flavor": "斥候沒回來，我們就掉頭。那些鄉巴佬說這座森林裡很多松鼠，可不是會撿堅果的那種。",
         "info": "部署：從我軍某列上移除一種全列效果。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：從我軍某列上移除一種全列效果。\n",
         "name": "斥候"
     },
     "201709": {
+        "flavor": "「劍上寫的是什麼？是詛咒嗎？」「不是，是髒話。」",
         "info": "對所有戰力為奇數的敵軍造成 2 點傷害。\n",
         "infoRaw": "對所有戰力為奇數的敵軍造成 2 點傷害。\n",
         "name": "均衡"
     },
     "201710": {
+        "flavor": "「劍上寫的是什麼？是詛咒嗎？」「不是，是髒話。」",
         "info": "對所有戰力為偶數的敵軍造成 2 點傷害。\n",
         "infoRaw": "對所有戰力為偶數的敵軍造成 2 點傷害。\n",
         "name": "擾亂"
     },
     "201725": {
+        "flavor": "其他巨魔都覺得他怪怪的，畢竟有哪個腦袋正常的巨魔比起石頭更愛彩色紙片？",
         "info": "送「店店」去班阿德男子學院。\n",
         "infoRaw": "送「店店」去班阿德男子學院。\n",
         "name": "店店：法師"
     },
     "201726": {
+        "flavor": "其他巨魔都覺得他怪怪的，畢竟有哪個腦袋正常的巨魔比起石頭更愛彩色紙片？",
         "info": "部署：將雙方最右端的手牌隨機變身為 1 張「特殊」牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：將雙方最右端的手牌隨機變身為 1 張「特殊」牌。\n",
         "name": "店店：法師"
     },
     "201727": {
+        "flavor": "其他巨魔都覺得他怪怪的，畢竟有哪個腦袋正常的巨魔比起石頭更愛彩色紙片？",
         "info": "部署：隨機移動 1 張單位牌至相對列。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：隨機移動 1 張單位牌至相對列。\n",
         "name": "店店：法師"
     },
     "201728": {
+        "flavor": "其他巨魔都覺得他怪怪的，畢竟有哪個腦袋正常的巨魔比起石頭更愛彩色紙片？",
         "info": "部署：在所有列上隨機施加 1 種全列效果。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：在所有列上隨機施加 1 種全列效果。\n",
         "name": "店店：法師"
     },
     "201729": {
+        "flavor": "其他巨魔都覺得他怪怪的，畢竟有哪個腦袋正常的巨魔比起石頭更愛彩色紙片？",
         "info": "部署：將 13 點傷害值隨機分配給場上所有其他單位牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：將 13 點傷害值隨機分配給場上所有其他單位牌。\n",
         "name": "店店：法師"
     },
     "201730": {
+        "flavor": "其他巨魔都覺得他怪怪的，畢竟有哪個腦袋正常的巨魔比起石頭更愛彩色紙片？",
         "info": "部署：隨機生成 1 張單位牌並召喚至雙方隨機單列上。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：隨機<keyword=spawn>生成</keyword> 1 張單位牌並<keyword=summon>召喚</keyword>至雙方隨機單列上。\n",
         "name": "店店：法師"
     },
     "201731": {
+        "flavor": "其他巨魔都覺得他怪怪的，畢竟有哪個腦袋正常的巨魔比起石頭更愛彩色紙片？",
         "info": "送「店店」去多爾布雷坦納森林。\n",
         "infoRaw": "送「店店」去多爾布雷坦納森林。\n",
         "name": "店店：獵人"
     },
     "201732": {
+        "flavor": "其他巨魔都覺得他怪怪的，畢竟有哪個腦袋正常的巨魔比起石頭更愛彩色紙片？",
         "info": "部署：隨機從我方牌組打出 1 張卡牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：隨機從我方牌組打出 1 張卡牌。\n",
         "name": "店店：獵人"
     },
     "201733": {
+        "flavor": "其他巨魔都覺得他怪怪的，畢竟有哪個腦袋正常的巨魔比起石頭更愛彩色紙片？",
         "info": "部署：將 9 點傷害值隨機分配給所有敵軍單位牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：將 9 點傷害值隨機分配給所有敵軍單位牌。\n",
         "name": "店店：獵人"
     },
     "201734": {
+        "flavor": "其他巨魔都覺得他怪怪的，畢竟有哪個腦袋正常的巨魔比起石頭更愛彩色紙片？",
         "info": "部署：提升我方所有手牌的單位牌戰力，而提升值為 1 點到 2 點之間。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升我方所有手牌的單位牌戰力，而提升值為 1 點到 2 點之間。\n",
         "name": "店店：獵人"
     },
     "201735": {
+        "flavor": "其他巨魔都覺得他怪怪的，畢竟有哪個腦袋正常的巨魔比起石頭更愛彩色紙片？",
         "info": "部署：隨機摧毀 1 張敵軍。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：隨機摧毀 1 張敵軍。\n",
         "name": "店店：獵人"
     },
     "201737": {
+        "flavor": "其他巨魔都覺得他怪怪的，畢竟有哪個腦袋正常的巨魔比起石頭更愛彩色紙片？",
         "info": "送「店店」去「帝國宮廷軍事學院」。\n",
         "infoRaw": "送「店店」去「帝國宮廷軍事學院」。\n",
         "name": "店店：騎士"
     },
     "201738": {
+        "flavor": "其他巨魔都覺得他怪怪的，畢竟有哪個腦袋正常的巨魔比起石頭更愛彩色紙片？",
         "info": "部署：對 1 張敵軍造成 4 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 4 點傷害。\n",
         "name": "店店：騎士"
     },
     "201739": {
+        "flavor": "其他巨魔都覺得他怪怪的，畢竟有哪個腦袋正常的巨魔比起石頭更愛彩色紙片？",
         "info": "部署：封印 1 張單位牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：<keyword=lock>封印</keyword> 1 張單位牌。\n",
         "name": "店店：騎士"
     },
     "201740": {
+        "flavor": "其他巨魔都覺得他怪怪的，畢竟有哪個腦袋正常的巨魔比起石頭更愛彩色紙片？",
         "info": "部署：獲得堅毅。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：獲得<keyword=resilient>堅毅</keyword>。\n",
         "name": "店店：騎士"
     },
     "201741": {
+        "flavor": "其他巨魔都覺得他怪怪的，畢竟有哪個腦袋正常的巨魔比起石頭更愛彩色紙片？",
         "info": "部署：摧毀 1 張「文物」敵軍。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：摧毀 1 張「文物」敵軍。\n",
         "name": "店店：騎士"
     },
     "201743": {
+        "flavor": "她的孩子繼承了她的美貌。",
         "info": "只要 1 張我軍單位牌在我方回合中被摧毀，就生成 1 張「蟹蜘蛛雄蛛」並召喚至隨機我方列。\n",
         "infoRaw": "只要 1 張我軍單位牌在我方回合中被摧毀，就<keyword=spawn>生成</keyword> 1 張「蟹蜘蛛雄蛛」並<keyword=summon>召喚</keyword>至隨機我方列。\n",
         "name": "蟹蜘蛛后"
     },
     "201744": {
+        "flavor": "拂過大陸的風捎來此物……一落地便引發癲狂和疾病。",
         "info": "將 1 張單位牌的戰力恢復成基礎戰力。\n",
         "infoRaw": "將 1 張單位牌的戰力恢復成基礎戰力。\n",
         "name": "致命蕈菇"
     },
     "201748": {
+        "flavor": "弗爾泰斯特國王常說，大小不重要，能不能完成工作才是重點。",
         "info": "軍令、近戰：對 1 張敵軍以及其他戰力與其相同的敵軍造成 1 點傷害。\n裝填：1 次。\n",
         "infoRaw": "<keyword=order>軍令</keyword>、<keyword=melee>近戰</keyword>：對 1 張敵軍以及其他戰力與其相同的敵軍造成 1 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n",
         "name": "弗爾泰斯特之傲"
     },
     "201749": {
+        "flavor": "聞到了嗎？那是幸福的味道。",
         "info": "提升單列所有單位牌 2 點戰力。\n",
         "infoRaw": "提升單列所有單位牌 2 點戰力。\n",
         "name": "黃金泡沫"
     },
     "201753": {
+        "flavor": "我們是民兵部隊，負責維持和平。",
         "info": "部署：提升 1 張我軍 2 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張我軍 2 點戰力。\n",
         "name": "農民民兵部隊"
     },
     "201772": {
+        "flavor": "我曾完成過一份委託，對方讓我挑獎賞，我便選了「意外之子」。",
         "info": "部署、近戰：對 1 張敵軍造成 3 點傷害。若該牌的戰力原為 3 的倍數，則改為摧毀該牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對 1 張敵軍造成 3 點傷害。若該牌的戰力原為 3 的倍數，則改為摧毀該牌。\n",
         "name": "傑洛特：專家"
     },
     "201773": {
+        "flavor": "綑綁效果有限，堵住嘴巴也不會有多大成效。反魔法金屬是唯一解。",
         "info": "部署、遠程：從任一方的當前牌組製造 1 張「銅色」「特殊」牌並打出。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：從任一方的當前牌組<keyword=create>製造</keyword> 1 張「銅色」「特殊」牌並打出。\n",
         "name": "特莉絲：心靈傳動"
     },
     "201774": {
+        "flavor": "你的冒險故事丹德里恩都跟我提過，像是他怎麼用歌聲幫助你備戰，還有他如何用魯特琴技馴服了巨章魚怪……",
         "info": "部署：摧毀 1 張敵軍「野獸」。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：摧毀 1 張敵軍「野獸」。\n",
         "name": "丹德里恩：狂妄"
     },
     "201776": {
+        "flavor": "文勝於武，筆勝於劍。",
         "info": "部署：抽取 1 張卡牌，再打出 1 張卡牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：抽取 1 張卡牌，再打出 1 張卡牌。\n",
         "name": "丹德里恩：詩人"
     },
     "201777": {
+        "flavor": "我們從不畏懼。不過，有個人類倒是該堤防著他……弗農・羅契。",
         "info": "軍令：奪取 1 張戰力不大於「羅契：無情」裝填次數的敵軍，再移除所有裝填。\n裝填：0 次。\n每回合開始時，獲得裝填 1 次。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：<keyword=seize>奪取</keyword> 1 張戰力不大於「羅契：無情」<keyword=charge>裝填</keyword>次數的敵軍，再移除所有<keyword=charge>裝填</keyword>。\n<keyword=charge>裝填</keyword>：0 次。\n每回合開始時，獲得<keyword=charge>裝填</keyword> 1 次。\n",
         "name": "羅契：無情"
     },
     "201779": {
+        "flavor": "我尊布洛克萊昂高於自己的性命。她是位慈愛的母親，滋養著她的子女。我將誓死守護著她。",
         "info": "將 1 張我軍單位牌放進我方牌組洗牌，再從我方牌組打出 1 張本質類型與其相同的單位牌，並提升該牌 3 點戰力。\n",
         "infoRaw": "將 1 張我軍單位牌放進我方牌組洗牌，再從我方牌組打出 1 張本質類型與其相同的單位牌，並提升該牌 3 點戰力。\n",
         "name": "森林的叫喚"
     },
     "201780": {
+        "flavor": "沒錯，我看見未來了。你不是其中一員。",
         "info": "部署、遠程：隨機揭示我方牌組中 1 張單位牌，再以該牌的戰力提升 1 張我軍戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：隨機<keyword=reveal>揭示</keyword>我方牌組中 1 張單位牌，再以該牌的戰力提升 1 張我軍戰力。\n",
         "name": "葉奈法：占卜"
     },
     "201781": {
+        "flavor": "老巫嫗說了你會來。她們在水面上預知了你的到來。",
         "info": "軍令：若我方控制最大的單位牌，則對 1 張單位牌造成 2 點傷害。\n冷卻：1 回合。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：若我方控制最大的單位牌，則對 1 張單位牌造成 2 點傷害。\n<keyword=cooldown>冷卻</keyword>：1 回合。\n",
         "name": "伊勒瑞斯"
     },
     "201817": {
+        "flavor": "「這簡直讓人難以置信。不可能。」希里回神後思索著。「這世界上沒有獨角獸，至少早沒了，獨角獸早就絕種了。」",
         "info": "部署、近戰：召喚雙方牌組中徵兵成本最大的單位牌至「近戰列」。\n部署、遠程：召喚雙方牌組中徵兵成本最小的單位牌至「遠程列」。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=summon>召喚</keyword>雙方牌組中徵兵成本最大的單位牌至「近戰列」。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：<keyword=summon>召喚</keyword>雙方牌組中徵兵成本最小的單位牌至「遠程列」。\n",
         "name": "白獨角獸"
     },
     "202044": {
+        "flavor": "把那些害獸拴緊一點。鞭子該用就用，別怕！",
         "info": "部署、近戰：對 1 張敵軍和其所有同名牌造成 3 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對 1 張敵軍和其所有同名牌造成 3 點傷害。\n",
         "name": "跛腳葛溫"
     },
     "202054": {
+        "flavor": "每份都佐以起司粉。依喜好添加眼球。熱熱吃最好。",
         "info": "摧毀 2 張同色的我軍單位牌，再製造 1 張同色的單位牌並打出。\n",
         "infoRaw": "摧毀 2 張同色的我軍單位牌，再<keyword=create>製造</keyword> 1 張同色的單位牌並打出。\n",
         "name": "精靈洋蔥湯"
     },
     "202064": {
+        "flavor": "我缺乏的不是判斷力，是情感。",
         "info": "軍令、近戰：對 1 張敵軍造成 2 點傷害。\n裝填：1 次。\n每當我方打出 1 張「狩魔獵人」便獲得裝填 1 次。\n",
         "infoRaw": "<keyword=order>軍令</keyword>、<keyword=melee>近戰</keyword>：對 1 張敵軍造成 2 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n每當我方打出 1 張「狩魔獵人」便獲得<keyword=charge>裝填</keyword> 1 次。\n",
         "name": "貝哈文的伊佛"
     },
     "202098": {
+        "flavor": "善書上說，世界是眾神賦予人類的庭園，我們人類卻對庭園怠忽照顧！",
         "info": "部署：若我方手牌有「巨龍」，則獲得熱忱。\n軍令：摧毀 1 張戰力為 8 點以上的單位牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：若我方手牌有「巨龍」，則獲得<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：摧毀 1 張戰力為 8 點以上的單位牌。\n",
         "name": "丹索的艾克"
     },
     "202099": {
+        "flavor": "斯巴拉浪犬，帶領他們的就是你？你就是大家口中的惡犬公爵？",
         "info": "部署、近戰：提升自身的戰力，而提升值為隨機 0 點到 11 點之間。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：提升自身的戰力，而提升值為隨機 0 點到 11 點之間。\n",
         "name": "蓋斯康"
     },
     "202100": {
+        "flavor": "那男孩不是當王的料。他沒有足夠的機智和勇氣。我很清楚，您也心知肚明，但……他本人並不知道。",
         "info": "臥底。\n部署：隨機從我方牌組打出 1 張「金色」牌。\n",
         "infoRaw": "<keyword=spying>臥底</keyword>。\n<keyword=deploy>部署</keyword>：隨機從我方牌組打出 1 張「金色」牌。\n",
         "name": "韋列王子"
     },
     "202101": {
+        "flavor": "陛下……身為女王卻親自向百姓問話，實在，不甚妥當啊……",
         "info": "每回合結束時，移動至場上最大單位牌同列。\n",
         "infoRaw": "每回合結束時，移動至場上最大單位牌同列。\n",
         "name": "凱德威爾伯爵"
     },
     "202102": {
+        "flavor": "您的工程師的臉像肉醬，但技巧可還真行。",
         "info": "部署、近戰：驅逐對方墓地所有卡牌。\n部署、遠程：驅逐我方墓地所有卡牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=banish>驅逐</keyword>對方墓地所有卡牌。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：<keyword=banish>驅逐</keyword>我方墓地所有卡牌。\n",
         "name": "夏維．雷夢斯"
     },
     "202103": {
+        "flavor": "牠剛飛到這裡棲息時，他們跟牠纏鬥了將近一世紀。接著龍打累了，他們也認清現實，知道龍不可能走了，所以……他們做了個交易。他們給牠想要的東西，龍就不會打擾他們。",
         "info": "近戰：每回合結束時，摧毀場上單位牌最多那方的最小單位牌。\n",
         "infoRaw": "<keyword=melee>近戰</keyword>：每回合結束時，摧毀場上單位牌最多那方的最小單位牌。\n",
         "name": "凱杜力斯"
     },
     "202104": {
+        "flavor": "「我到底做了什麼？」法師被自己創造出來的東西嚇得大叫起來。",
         "info": "免疫。\n",
         "infoRaw": "<keyword=immune>免疫</keyword>。\n",
         "name": "畏懼者：驚蟄"
     },
     "202105": {
+        "flavor": "沼澤下方突然濺起大量水花。兩隻像螳螂卻又布滿尖刺的前肢從混濁的水中竄出。那兩支凶猛的綠色大鉤子就這樣逮到一個倒楣的步兵，直接拖進水中。",
         "info": "部署：摧毀所有戰力值為 1 點的單位牌。只要摧毀 1 張單位牌，就提升自身 2 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：摧毀所有戰力值為 1 點的單位牌。只要摧毀 1 張單位牌，就提升自身 2 點戰力。\n",
         "name": "爛沼怪"
     },
     "202106": {
+        "flavor": "布羅弗．霍格曾想把他踢出瑪哈坎，因為他在客廳裡養了頭駱馬……說來話長。",
         "info": "部署、近戰：獲得堅毅。\n部署、遠程：獲得免疫。\n只要我方打出 1 張「矮人」，便提升自身 1 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：獲得<keyword=resilient>堅毅</keyword>。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：獲得<keyword=immune>免疫</keyword>。\n只要我方打出 1 張「矮人」，便提升自身 1 點戰力。\n",
         "name": "蓋伯・齊格林"
     },
     "202107": {
+        "flavor": "他帶著裝滿破爛小玩意的車來這裡，挨家挨戶推銷，把自已的垃圾誇上天。結果他賣給我們的是什麼？會在手裡爆炸的炸彈！會讓毛髮著火的生鬍配方！",
         "info": "部署：提升 1 張「精靈」、「矮人」和「樹精」我軍各 2 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：提升 1 張「精靈」、「矮人」和「樹精」我軍各 2 點戰力。\n",
         "name": "巴納巴斯・貝肯包爾"
     },
     "202108": {
+        "flavor": "我發誓過不再用魔法害人。",
         "info": "軍令、遠程：查看雙方牌組最上方的卡牌。保留 1 張，並將另一張交給對方。\n",
         "infoRaw": "<keyword=order>軍令</keyword>、<keyword=ranged>遠程</keyword>：查看雙方牌組最上方的卡牌。保留 1 張，並將另一張交給對方。\n",
         "name": "哈吉的伊絲貝爾"
     },
     "202109": {
+        "flavor": "海邊的寶物老早就被撿光了！所以我們讓船往亞魯迦河上游走，為的就是黃金和榮耀！",
         "info": "部署、遠程：將我方墓地與我方牌組進行替換。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：將我方墓地與我方牌組進行替換。\n",
         "name": "利嘴賈蒙"
     },
     "202110": {
+        "flavor": "盾牌是給娘娘腔用的。",
         "info": "近戰：只要 1 張敵軍受到傷害，便提升自身 1 點戰力。\n",
         "infoRaw": "<keyword=melee>近戰</keyword>：只要 1 張敵軍受到傷害，便提升自身 1 點戰力。\n",
         "name": "達各雙劍"
     },
     "202111": {
+        "flavor": "尼弗迦德人直接朝著女王行進而來，毫不畏懼。領導這支尼弗迦德軍隊的男人披著華美的長袍。他身上有著傲氣……和麝香的味道。",
         "info": "部署：查看對方牌組最上方的 3 張卡牌，並將其中 1 張移動至對方墓地。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：查看對方牌組最上方的 3 張卡牌，並將其中 1 張移動至對方墓地。\n",
         "name": "特拉海恩・維迪弗"
     },
     "202112": {
+        "flavor": "我服侍了您丈夫十年，又在您底下服侍了八年。這場戰爭是最值得我奮鬥的一戰。",
         "info": "每當 1 張具有裝填的我軍單位牌被打出，就賦予其裝填 1 次。\n",
         "infoRaw": "每當 1 張具有<keyword=charge>裝填</keyword>的我軍單位牌被打出，就賦予其<keyword=charge>裝填</keyword> 1 次。\n",
         "name": "雷納德．歐多"
     },
     "202113": {
+        "flavor": "容許例外就會有人類濺血。松鼠黨都得死，由諸神判斷誰有罪無罪吧。",
         "info": "部署：對 1 張敵軍造成傷害，傷害值等同我軍「人類」的總數。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成傷害，傷害值等同我軍「人類」的總數。\n",
         "name": "闇黑萊拉"
     },
     "202114": {
+        "flavor": "雞生蛋還是蛋生雞？跟鳳凰相比，這問題似乎微不足道了。",
         "info": "氣數已盡。熱忱。\n軍令：變身成「鳳凰」。\n",
         "infoRaw": "<keyword=doomed>氣數已盡</keyword>。<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：變身成「鳳凰」。\n",
         "name": "鳳凰雛鳥"
     },
     "202121": {
+        "flavor": "啊嗚，啊嗚，啊嗚嗚嗚！",
         "info": "部署：將 1 張單位牌移動至另一列。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：將 1 張單位牌移動至另一列。\n",
         "name": "斯巴拉浪犬"
     },
     "202122": {
+        "flavor": "我以前認識一對年輕的情侶——但是婚禮一結束就分開了。因為馬車裡放了顆炸彈。",
         "info": "部署：摧毀 1 張「文物」敵軍。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：摧毀 1 張「文物」敵軍。\n",
         "name": "砲兵"
     },
     "202148": {
+        "flavor": "國王追求……聲色犬馬，卻沒有因為沉溺在娛樂中，而誤了治國能力。",
         "info": "軍令：賦予 1 張單位牌裝填 1 次。\n冷卻：2 回合。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：賦予 1 張單位牌<keyword=charge>裝填</keyword> 1 次。\n<keyword=cooldown>冷卻</keyword>：2 回合。\n",
         "name": "德馬維三世"
     },
     "202149": {
+        "flavor": "不管地上爬的、滑的、攀在牆上的，我都吃過。至於飛在空中的……我吃過風箏，因為上面有麵粉。",
         "info": "軍令：從對方牌組隨機打出 1 張「文物」。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：從對方牌組隨機打出 1 張「文物」。\n",
         "name": "安古勒梅"
     },
     "202150": {
+        "flavor": "我上一次執業已經是半個世紀前的事了。歲月沒有輕饒我的記憶……也沒饒過我手指的靈活度。",
         "info": "熱忱。\n軍令、遠程：提升 1 張單位牌 1 點戰力。\n裝填：1 次。\n每當一方打出 1 張卡牌就獲得裝填 1 次。\n",
         "infoRaw": "<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>、<keyword=ranged>遠程</keyword>：提升 1 張單位牌 1 點戰力。\n<keyword=charge>裝填</keyword>：1 次。\n每當一方打出 1 張卡牌就獲得<keyword=charge>裝填</keyword> 1 次。\n",
         "name": "科弗的威索戈塔"
     },
     "202151": {
+        "flavor": "他遠看像隻熊。近看……像隻巨熊。",
         "info": "部署、近戰：摧毀 1 張具有軍令的敵軍單位牌。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：摧毀 1 張具有<keyword=order>軍令</keyword>的敵軍單位牌。\n",
         "name": "法利波"
     },
     "202152": {
+        "flavor": "安娜對丈夫恨之入骨，她願意用盡任何手段以便擺脫那個男人，和他讓自己懷上的孩子。",
         "info": "若回合結束時此單位牌已獲得提升，便提升相鄰單位牌 1 點戰力。\n",
         "infoRaw": "若回合結束時此單位牌已獲得提升，便提升相鄰單位牌 1 點戰力。\n",
         "name": "安娜．斯特倫格"
     },
     "202153": {
+        "flavor": "騎手與他坐騎的價值不相上下。而里瑞亞馬是全大陸最頂尖的馬。",
         "info": "每當我方打出 1 張具有軍令的單位牌，就提升自身 1 點戰力。\n",
         "infoRaw": "每當我方打出 1 張具有<keyword=order>軍令</keyword>的單位牌，就提升自身 1 點戰力。\n",
         "name": "里瑞亞騎兵"
     },
     "202154": {
+        "flavor": "下馬來打啊你！",
         "info": "部署：對 1 張敵軍造成 1 點傷害。若該牌被摧毀，則對另一張敵軍造成 3 點傷害。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：對 1 張敵軍造成 1 點傷害。若該牌被摧毀，則對另一張敵軍造成 3 點傷害。\n",
         "name": "利維亞槍兵"
     },
     "202155": {
+        "flavor": "我能百步穿楊！但第一發可能有點難，提醒你……",
         "info": "軍令：對 1 張單位牌造成 1 點傷害。\n裝填：1 次。\n每當我方打出 1 張具有軍令的卡牌，就獲得裝填 1 次。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 1 點傷害。\n<keyword=charge>裝填</keyword>：1 次。\n每當我方打出 1 張具有<keyword=order>軍令</keyword>的卡牌，就獲得<keyword=charge>裝填</keyword> 1 次。\n",
         "name": "里瑞亞強弩手"
     },
     "202156": {
+        "flavor": "最好別笑他們那蠢死人的屁帽。相信我。",
         "info": "軍令：對 1 張單位牌造成 1 點傷害。若「里瑞亞國土傭僕」已獲得提升，則改為對 1 張單位牌造成 3 點傷害。\n",
         "infoRaw": "<keyword=order>軍令</keyword>：對 1 張單位牌造成 1 點傷害。若「里瑞亞國土傭僕」已獲得提升，則改為對 1 張單位牌造成 3 點傷害。\n",
         "name": "里瑞亞國土傭僕"
     },
     "202161": {
+        "flavor": "他們餵養我們的同胞，讓敵人血濺鐮刀。",
         "info": "部署：只要 1 張我軍獲得提升，就提升自身 1 點戰力。\n",
         "infoRaw": "<keyword=deploy>部署</keyword>：只要 1 張我軍獲得提升，就提升自身 1 點戰力。\n",
         "name": "里瑞亞鐮刀手"

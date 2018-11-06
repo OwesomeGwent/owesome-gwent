@@ -1,38 +1,43 @@
 import fs from 'fs';
 import path from 'path';
 import cardDefs from './data_definitions/cards.json';
-import LocaleData from '../shared/LocaleData';
-import CardData from '../shared/CardData';
+import { LocaleData, LocaleDataList } from '../shared/LocaleData';
+import { CardData, AllCardData, DefaultLocaleSet } from '../shared/CardData';
 
 const LOCALE_DATA_DEFS = ['flavor', 'info', 'infoRaw', 'name'];
 
-const cardParser = () => {
-  let localeData: { [country: string]: LocaleData } = {};
+interface ICardDataList {
+  [cardID: string]: CardData;
+}
 
-  const cardData: { [cardID: string]: CardData } = Object.entries(
-    cardDefs,
-  ).reduce((acc, [key, value]) => {
-    const currentCard = { ...value };
-    LOCALE_DATA_DEFS.forEach(attrKey => {
-      Object.entries(currentCard[attrKey]).forEach(([country, localString]) => {
-        localeData = {
-          ...localeData,
-          [country]: {
-            ...localeData[country],
-            [key]: {
-              ...localeData[country][key],
-              [attrKey]: localString,
-            },
+const cardParser = () => {
+  let localeData: { [country: string]: LocaleDataList } = {};
+
+  const cardData: ICardDataList = Object.entries(cardDefs).reduce(
+    (acc: ICardDataList, [cardID, value]): ICardDataList => {
+      const currentCard: AllCardData = { ...value };
+
+      LOCALE_DATA_DEFS.forEach(attrKey => {
+        Object.entries(currentCard[attrKey] as DefaultLocaleSet).forEach(
+          ([country, localString]) => {
+            if (localeData[country] === undefined) {
+              localeData[country] = {};
+            }
+            if (localeData[country][cardID] === undefined) {
+              localeData[country][cardID] = {} as LocaleData;
+            }
+            (localeData[country][cardID][attrKey] = localString),
+              delete currentCard[attrKey];
           },
-        };
+        );
       });
-      delete currentCard[attrKey];
-    });
-    return {
-      ...acc,
-      [key]: { ...currentCard },
-    };
-  }, {});
+      return {
+        ...acc,
+        [cardID]: { ...(currentCard as CardData) },
+      };
+    },
+    {} as ICardDataList,
+  );
 
   fs.writeFileSync(
     path.join(__dirname, 'parsed', `card-data.json`),

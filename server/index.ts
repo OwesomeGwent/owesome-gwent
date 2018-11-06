@@ -1,12 +1,10 @@
-// import createCardDatas from './card-parser';
-// import chalk from 'chalk';
-import sample from './sample';
+import createCardDatas from './cardParser';
+import chalk from 'chalk';
 
 try {
-  // console.log(chalk.bgBlue('START') + chalk.blue('Card Parse Start'));
-  // 살려줘...
-  console.log('fasd');
-  sample();
+  console.log(chalk.bgBlue('START') + chalk.blue('Card Parse Start'));
+  createCardDatas();
 } catch (err) {
-  // console.log(chalk.bgRed('ERROR') + chalk.red('Card Parse Failed'));
+  console.log(chalk.bgRed('ERROR') + chalk.red('Card Parse Failed'));
+  console.error(err);
 }

@@ -1,7 +1,11 @@
-export default interface LocaleData {
-  [cardId: string]: {
-    infoRaw: string;
-    info?: string;
-    name: string;
-  };
+export interface LocaleDataList {
+  [cardID: string]: LocaleData;
+}
+
+export interface LocaleData {
+  flavor?: string;
+  infoRaw: string;
+  info?: string;
+  name: string;
+  [attrKey: string]: string | undefined;
 }

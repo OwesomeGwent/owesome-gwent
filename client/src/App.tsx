@@ -4,6 +4,7 @@ import { Main, Sidebar } from './containers';
 import { FlipCard } from './components';
 import { ICard } from './types/card';
 
+const TEMP_API = '/api/defs';
 const AppContainer = styled.div`
   display: flex;
 `;
@@ -14,12 +15,12 @@ class App extends Component {
     isLoading: true,
   };
   async componentDidMount() {
-    // 전체 카드 데이터 어디다 저장할 지 생각해봐야 할듯.
     // 일단 임시
-    const [CARDS]: any = await Promise.all([
-      import('./data/cards.json'),
-      new Promise(res => setTimeout(res, 2000)),
+    const [response] = await Promise.all([
+      fetch(`${TEMP_API}/card-data`),
+      new Promise(res => setTimeout(res, 5000)),
     ]);
+    const CARDS: any = (await response.json()).data;
     let cardData: ICard[] = Object.keys(CARDS).map(
       card => CARDS[card] as ICard,
     );
@@ -34,7 +35,12 @@ class App extends Component {
   render() {
     const { cardData, isLoading } = this.state;
     if (isLoading) {
-      return <FlipCard />;
+      return (
+        <>
+          <h2 style={{ textAlign: 'center' }}>Fetching Card Data...</h2>
+          <FlipCard />
+        </>
+      );
     }
     return (
       <AppContainer>

@@ -1,6 +1,7 @@
 {
   "name": "@owesome-gwent/client",
   "private": true,
+  "proxy": "http://localhost:8080",
   "dependencies": {
     "@material-ui/core": "^3.3.2",
     "@types/jest": "^23.3.9",

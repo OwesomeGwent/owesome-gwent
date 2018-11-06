@@ -1,11 +1,11 @@
-import scheduler from 'node-schedule';
-import { CardData } from '../shared/CardData';
-import { LocaleData } from '../shared/LocaleData';
-import cardParser from './cardParser';
-import checkRepoUpTodate from './batchJob';
+import scheduler from "node-schedule";
+import { CardData } from "../shared/CardData";
+import { LocaleData } from "../shared/LocaleData";
+import cardParser from "./cardParser";
+import checkRepoUpTodate from "./batchJob";
 
 interface ICache {
-  'card-data'?: CardData;
+  "card-data"?: CardData;
   [attrKey: string]: CardData | LocaleData | undefined;
 }
 class JSONCache {
@@ -14,7 +14,7 @@ class JSONCache {
     this.cache = {};
   }
   runBatch() {
-    scheduler.scheduleJob('* 24 * * *', () => {
+    scheduler.scheduleJob("* 24 * * *", () => {
       if (!checkRepoUpTodate()) {
         cardParser();
         this.cache = {};
@@ -28,7 +28,7 @@ class JSONCache {
     return this.cache[attrKey];
   }
   hasJSON(attrKey: string): boolean {
-    return typeof this.cache[attrKey] === undefined;
+    return this.cache[attrKey] !== undefined;
   }
 }
 

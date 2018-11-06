@@ -1,48 +1,27 @@
 {
-  "name": "owesome-gwent",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@material-ui/core": "^3.3.2",
-    "@types/express": "^4.16.0",
-    "@types/helmet": "0.0.42",
-    "@types/jest": "^23.3.9",
-    "@types/morgan": "^1.7.35",
-    "@types/node": "^10.12.2",
-    "@types/react": "^16.4.18",
-    "@types/react-dom": "^16.0.9",
-    "@types/styled-components": "^4.0.3",
-    "event-stream": "^4.0.1",
-    "express": "^4.16.4",
-    "helmet": "^3.14.0",
-    "morgan": "^1.9.1",
-    "nodemon": "^1.18.6",
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
-    "react-scripts": "2.1.1",
-    "styled-components": "^4.0.3",
-    "typescript": "^3.1.5"
-  },
+  "name": "@tmqps78/owesome-gwent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "tsc": "tsc",
-    "start-server": "nodemon"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lerna-bootstrap": "lerna bootstrap",
+    "lerna-publish": "lerna publish",
+    "start-client": "cd client && npm start",
+    "start-server": "cd server && npm start"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OwesomeGwent/owesome-gwent.git"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OwesomeGwent/owesome-gwent/issues"
+  },
+  "homepage": "https://github.com/OwesomeGwent/owesome-gwent#readme",
   "devDependencies": {
-    "@types/chalk": "^2.2.0",
-    "chalk": "^2.4.1",
-    "ts-node": "^7.0.1"
+    "lerna": "^3.4.3",
+    "typescript": "^3.1.6"
   }
 }

@@ -1,5 +1,0 @@
-{
-  "watch": ["server/**/*.ts"],
-  "ignore": ["server/**/*.spec.ts"],
-  "exec": "cd server && ts-node ./index.ts"
-}

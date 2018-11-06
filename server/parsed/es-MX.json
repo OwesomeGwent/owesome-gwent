@@ -179,6 +179,18 @@
         "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 4 de daño a una unidad. Si tienes a Unicornio en la mano, duplica esa cantidad.\n",
         "name": "Chironex"
     },
+    "112403": {
+        "flavor": "Conoce cien palabras; ochenta son insultos, y el resto conectores.",
+        "info": "Potencia 2 a todas las unidades de una fila.\n",
+        "infoRaw": "Potencia 2 a todas las unidades de una fila.\n",
+        "name": "Duda: Compañero"
+    },
+    "112404": {
+        "flavor": "El loro de Zoltan tenía la habilidad extraordinaria de irritar a todos los que pasaban tiempo con él. Incluido Zoltan.",
+        "info": "Inflige 2 de daño a todas las unidades en una fila.\n",
+        "infoRaw": "Inflige 2 de daño a todas las unidades en una fila.\n",
+        "name": "Duda: Agitador"
+    },
     "112405": {
         "flavor": "Un demonio se asemeja a un ciervo. A un ciervo enorme y maligno.",
         "info": "Despliegue: otorga 1 de potencia a todas las unidades con Agonía en tu mano.\n",
@@ -216,7 +228,7 @@
         "name": "Tormenta de Skellige"
     },
     "113204": {
-        "flavor": "El hechicero Stammelford movió una montaña que le hacía sombra a su torre. Se dice que solo lo logró luego de encadenar a un d'ao",
+        "flavor": "El hechicero Stammelford movió una montaña que le hacía sombra a su torre. Se dice que solo lo logró luego de encadenar a un d'ao; a un elemental de tierra.",
         "info": "Inflige 1 de daño a todos los enemigos.\n",
         "infoRaw": "Inflige 1 de daño a todos los enemigos.\n",
         "name": "Stammelford: Temblor"
@@ -240,7 +252,7 @@
         "name": "Cuerno de comandante"
     },
     "113208": {
-        "flavor": "El druida vaedermakar controla los elementos. Calma a las tormentas y las convierte en silencio",
+        "flavor": "El druida vaedermakar controla los elementos. Calma a las tormentas y las convierte en silencio; congrega pedrizos destructivos; invoca rayos que convierten a sus enemigos en ceniza. ¿Quieres un consejo? Trátalo con sumo respeto.",
         "info": "Despliegue, cuerpo a cuerpo: aumenta en 1 la duración de todos los efectos de fila.\nDespliegue, a distancia: reduce en 1 la duración de todos los efectos de fila.\n",
         "infoRaw": "<keyword=deploy>Despliegue</keyword>, <keyword=melee>cuerpo a cuerpo</keyword>: aumenta en 1 la duración de todos los efectos de fila.\n<keyword=deploy>Despliegue</keyword>, <keyword=ranged>a distancia</keyword>: reduce en 1 la duración de todos los efectos de fila.\n",
         "name": "Vaedermakar"
@@ -499,8 +511,8 @@
     },
     "122311": {
         "flavor": "Haría lo que fuera por Temeria. Aunque, más que nada, matar por ella.",
-        "info": "Orden: invoca una copia de esta unidad desde tu mazo a esta fila.\n",
-        "infoRaw": "<keyword=order>Orden</keyword>: <keyword=summon>invoca</keyword> una copia de esta unidad desde tu mazo a esta fila.\n",
+        "info": "Orden: invoca todas las copias de esta unidad desde tu mazo a esta fila.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: <keyword=summon>invoca</keyword> todas las copias de esta unidad desde tu mazo a esta fila.\n",
         "name": "Franja Azul: Comando"
     },
     "122312": {
@@ -529,8 +541,8 @@
     },
     "122316": {
         "flavor": "¡Temeria! ¡Temeria! ¡Que los dioses te bendigan con su gracia! ¡Y azoten a tus enemigos con calamidades pavorosas durante toda la eternidad!",
-        "info": "Despliegue por cada unidad potenciada en esta fila, inflige 1 de daño a un enemigo.\n",
-        "infoRaw": "<keyword=deploy>Despliegue</keyword> por cada unidad potenciada en esta fila, inflige 1 de daño a un enemigo.\n",
+        "info": "Despliegue: por cada unidad potenciada en esta fila, inflige 1 de daño a un enemigo.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: por cada unidad potenciada en esta fila, inflige 1 de daño a un enemigo.\n",
         "name": "Infantería temeria"
     },
     "122318": {
@@ -541,14 +553,14 @@
     },
     "122401": {
         "flavor": "Admite tus errores y entiérralos como corresponde, si no quieres que te persigan durante toda tu vida.",
-        "info": "Al inicio de cada turno, inflige 1 de daño al enemigo con mayor poder.\nOrden",
-        "infoRaw": "Al inicio de cada turno, inflige 1 de daño al enemigo con mayor poder.\n<keyword=order>Orden</keyword>",
+        "info": "Al inicio de cada turno, inflige 1 de daño al enemigo con mayor poder.\nOrden; se transforma en una Doméstica.\n",
+        "infoRaw": "Al inicio de cada turno, inflige 1 de daño al enemigo con mayor poder.\n<keyword=order>Orden</keyword>; se transforma en una Doméstica.\n",
         "name": "Malogrado"
     },
     "122402": {
         "flavor": "Yo te llamo Dea y te acepto como hija.",
-        "info": "Al final de cada turno, otorga 1 de potencia al aliado con menor poder. \nOrden",
-        "infoRaw": "Al final de cada turno, otorga 1 de potencia al aliado con menor poder. \n<keyword=order>Orden</keyword>",
+        "info": "Al final de cada turno, otorga 1 de potencia al aliado con menor poder. \nOrden; se transforma en un Malogrado.\n",
+        "infoRaw": "Al final de cada turno, otorga 1 de potencia al aliado con menor poder. \n<keyword=order>Orden</keyword>; se transforma en un Malogrado.\n",
         "name": "Doméstica"
     },
     "122403": {
@@ -822,7 +834,7 @@
         "name": "Cacería: Sabueso"
     },
     "132403": {
-        "flavor": "«Tranquilos",
+        "flavor": "«Tranquilos; soy experto en domar lobos...». Últimas palabras de Dunbar, el Cazador.",
         "info": "Despliegue: inflige 2 de daño a un enemigo.\n",
         "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 2 de daño a un enemigo.\n",
         "name": "Manada de lobos"
@@ -876,7 +888,7 @@
         "name": "Nido de arachas"
     },
     "142101": {
-        "flavor": "Heredé la habilidad de mi padre de adoptar otras formas",
+        "flavor": "Heredé la habilidad de mi padre de adoptar otras formas; bueno, en mi caso, debería decir «una forma».",
         "info": "Inmune.\nOrden: elimina el estado Inmune de esta unidad por el resto del turno.\n",
         "infoRaw": "<keyword=immune>Inmune</keyword>.\n<keyword=order>Orden</keyword>: elimina el estado <keyword=immune>Inmune</keyword> de esta unidad por el resto del turno.\n",
         "name": "Saesenthessis"
@@ -1074,7 +1086,7 @@
         "name": "Mercenario enano"
     },
     "142312": {
-        "flavor": "Elfo o enano. Para mí son lo mismo",
+        "flavor": "Elfo o enano. Para mí son lo mismo; siempre que tengan dinero.",
         "info": "Despliegue: otorga 1 de potencia a un aliado. Si controlas un artefacto, otorga 3 de potencia.\n",
         "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 1 de potencia a un aliado. Si controlas un artefacto, otorga 3 de potencia.\n",
         "name": "Soldado havekar"
@@ -1116,7 +1128,7 @@
         "name": "Scoia'tael: Neófito"
     },
     "143201": {
-        "flavor": "Tomas de la tierra un obsequio sangriento",
+        "flavor": "Tomas de la tierra un obsequio sangriento; lo arrancas de sus riquezas a la fuerza. Ante nosotros floreció, y nos dio fruta sin recelo, pues nos amaba como nosotros la amábamos a ella.",
         "info": "Emboscada: destruye la siguiente carta especial que tu oponente juegue antes de que active su habilidad.\n",
         "infoRaw": "<keyword=ambush>Emboscada</keyword>: destruye la siguiente carta especial que tu oponente juegue antes de que active su habilidad.\n",
         "name": "Trampa serpentina"
@@ -1141,8 +1153,8 @@
     },
     "152104": {
         "flavor": "Cuando llegue el momento, el gallo Kambi cacareará y despertará a Hemdall.",
-        "info": "Despliegue: ambos jugadores descartan la carta que tengan más a su derecha en sus manos.\n",
-        "infoRaw": "<keyword=deploy>Despliegue</keyword>: ambos jugadores <keyword=discard>descartan</keyword> la carta que tengan más a su derecha en sus manos.\n",
+        "info": "Despliegue: descarta la carta que tengas más a tu derecha en tu mano. Tu oponente también descarta la carta que tenga más a su derecha en su mano.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=discard>descarta</keyword> la carta que tengas más a tu derecha en tu mano. Tu oponente también <keyword=discard>descarta</keyword> la carta que tenga más a su derecha en su mano.\n",
         "name": "Kambi"
     },
     "152105": {
@@ -1159,8 +1171,8 @@
     },
     "152107": {
         "flavor": "Su verdadero nombre es Astrid Lyttneyd Ásgeirrfinnbjornsdottir, pero nunca lo usó porque no entraba en ningún formulario.",
-        "info": "Orden: descarta una carta, luego roba una carta.\nCarga: 3.\nSiempre que se descarte una carta especial, inflige 2 de daño a un enemigo.\n",
-        "infoRaw": "<keyword=order>Orden</keyword>: <keyword=discard>descarta</keyword> una carta, luego roba una carta.\n<keyword=charge>Carga</keyword>: 3.\nSiempre que se <keyword=discard>descarte</keyword> una carta especial, inflige 2 de daño a un enemigo.\n",
+        "info": "Orden: descarta una carta, luego roba una carta.\nCarga: 3.\nSiempre que descartes una carta especial, inflige 2 de daño a un enemigo.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: <keyword=discard>descarta</keyword> una carta, luego roba una carta.\n<keyword=charge>Carga</keyword>: 3.\nSiempre que <keyword=discard>descartes</keyword> una carta especial, inflige 2 de daño a un enemigo.\n",
         "name": "Coral"
     },
     "152109": {
@@ -1308,7 +1320,7 @@
         "name": "Hachero Tuirseach"
     },
     "152313": {
-        "flavor": "A los amigos les mostramos el corazón. A los enemigos",
+        "flavor": "A los amigos les mostramos el corazón. A los enemigos; el hacha. Recuérdalo.",
         "info": "Cuando descartas esta unidad, invócala en la fila de melé desde tu cementerio.\n",
         "infoRaw": "Cuando <keyword=discard>descartas</keyword> esta unidad, <keyword=summon>invócala</keyword> en la fila de melé desde tu cementerio.\n",
         "name": "Luchador Tuirseach"
@@ -1327,8 +1339,8 @@
     },
     "152316": {
         "flavor": "Hombre o árbol, un habitante de Skellige lo tala todo igual.",
-        "info": "Inflige 4 de daño a una unidad. \nSanguinario 2: inflige 6 de daño a una unidad.\n",
-        "infoRaw": "Inflige 4 de daño a una unidad. \n<keyword=bloodthirst>Sanguinario</keyword> 2: inflige 6 de daño a una unidad.\n",
+        "info": "Inflige 4 de daño a una unidad. \nSanguinario 2: inflige 6 de daño a una unidad en su lugar.\n",
+        "infoRaw": "Inflige 4 de daño a una unidad. \n<keyword=bloodthirst>Sanguinario</keyword> 2: inflige 6 de daño a una unidad en su lugar.\n",
         "name": "Tajo destripador"
     },
     "152317": {
@@ -1698,7 +1710,7 @@
         "name": "Rainfarn de Attre"
     },
     "200033": {
-        "flavor": "Las eruditas cumplen todos sus caprichos",
+        "flavor": "Las eruditas cumplen todos sus caprichos; en Aretuza, viven como princesas. Y, a su vez, la mitad de la ciudad se gana el pan trabajando para ellas: sastres, sombrereros, reposteros, los chicos del reparto...",
         "info": "Fervor.\nOrden, a distancia: otorga 1 carga a una unidad aliada.\nEnfriamiento: 2.\n",
         "infoRaw": "<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>, <keyword=ranged>a distancia</keyword>: otorga 1 <keyword=charge>carga</keyword> a una unidad aliada.\n<keyword=cooldown>Enfriamiento</keyword>: 2.\n",
         "name": "Erudita de Aretuza"
@@ -1920,7 +1932,7 @@
         "name": "Sirena"
     },
     "200114": {
-        "flavor": "Algunos dicen que la licantropía es contagiosa",
+        "flavor": "Algunos dicen que la licantropía es contagiosa; si te muerde un hombre lobo, te convertirás en uno. Los brujos saben que eso es una tontería, solo una poderosa maldición puede provocar esta enfermedad.",
         "info": "Inmune. Prosperar.\n",
         "infoRaw": "<keyword=immune>Inmune</keyword>. <keyword=thrive>Prosperar</keyword>.\n",
         "name": "Hombre lobo Alfa"
@@ -2023,8 +2035,8 @@
     },
     "200162": {
         "flavor": "A mí no me llaman el Paciente. Tú preocúpate porque no te llamen el Descabezado.",
-        "info": "Orden: mueve una carta en el campo de batalla de regreso a tu mano y juega una carta.\n",
-        "infoRaw": "<keyword=order>Orden</keyword>: mueve una carta en el campo de batalla de regreso a tu mano y juega una carta.\n",
+        "info": "Orden: mueve una unidad o artefacto aliado de regreso a tu mano y juega una carta.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: mueve una unidad o artefacto aliado de regreso a tu mano y juega una carta.\n",
         "name": "Emhyr var Emreis"
     },
     "200163": {
@@ -2053,8 +2065,8 @@
     },
     "200167": {
         "flavor": "¿Ese bobo tambaleante? ¡Ni siquiera se sabe si está vivo o ya es un fiambre!",
-        "info": "Orden: mueve una unidad a la otra fila. Si es un enemigo, inflige 2 de daño",
-        "infoRaw": "<keyword=order>Orden</keyword>: mueve una unidad a la otra fila. Si es un enemigo, inflige 2 de daño",
+        "info": "Orden: mueve una unidad a la otra fila. Si es un enemigo, inflige 2 de daño; si es un aliado, le otorga 2 de potencia.\nCarga: 3.\n",
+        "infoRaw": "<keyword=order>Orden</keyword>: mueve una unidad a la otra fila. Si es un enemigo, inflige 2 de daño; si es un aliado, le otorga 2 de potencia.\n<keyword=charge>Carga</keyword>: 3.\n",
         "name": "Brouver Hoog"
     },
     "200168": {
@@ -2227,8 +2239,8 @@
     },
     "200502": {
         "flavor": "Los trols vienen en muchas variedades, con diferentes formas, tamaños y gustos, pero siempre con tanto cerebro como un balde de clavos oxidados.",
-        "info": "Al final de cada turno, si tienes menos unidades que tu oponente, otorga 1 de potencia a esta unidad.\n",
-        "infoRaw": "Al final de cada turno, si tienes menos unidades que tu oponente, otorga 1 de potencia a esta unidad.\n",
+        "info": "Al final de cada turno, si controlas menos unidades en el campo de batalla que tu oponente, otorga 1 de potencia a esta unidad.\n",
+        "infoRaw": "Al final de cada turno, si controlas menos unidades en el campo de batalla que tu oponente, otorga 1 de potencia a esta unidad.\n",
         "name": "Trol de hielo"
     },
     "200518": {
@@ -2274,7 +2286,7 @@
         "name": "Cerveza podrida"
     },
     "200532": {
-        "flavor": "Boros, el legendario fundador del clan Fuchs, murió después de abusar de la bebida",
+        "flavor": "Boros, el legendario fundador del clan Fuchs, murió después de abusar de la bebida; se desmayó mientras trataba de agarrar su anillo de oro, que había caído en un arroyo.",
         "info": "Fervor.\nOrden: otorga 3 de potencia a una unidad. \nEnfriamiento: 2.\n",
         "infoRaw": "<keyword=zeal>Fervor</keyword>.\n<keyword=order>Orden</keyword>: otorga 3 de potencia a una unidad. \n<keyword=cooldown>Enfriamiento</keyword>: 2.\n",
         "name": "Cerveza ancestral"
@@ -2412,7 +2424,7 @@
         "name": "Hombre gato"
     },
     "201600": {
-        "flavor": "Algunos dicen que la licantropía es contagiosa",
+        "flavor": "Algunos dicen que la licantropía es contagiosa; si te muerde un hombre lobo, te convertirás en uno. Los brujos saben que eso es una tontería, solo una poderosa maldición puede provocar esta enfermedad.",
         "info": "Inmune.\n",
         "infoRaw": "<keyword=immune>Inmune</keyword>.\n",
         "name": "Hombre lobo"
@@ -2460,7 +2472,7 @@
         "name": "Esclavista"
     },
     "201613": {
-        "flavor": "Heredé la habilidad de mi padre de adoptar otras formas",
+        "flavor": "Heredé la habilidad de mi padre de adoptar otras formas; bueno, en mi caso, solo una.",
         "info": "Orden: inflige 1 de daño a un enemigo. \nCarga: 5.\n",
         "infoRaw": "<keyword=order>Orden</keyword>: inflige 1 de daño a un enemigo. \n<keyword=charge>Carga</keyword>: 5.\n",
         "name": "Saesenthessis: Flama"
@@ -2532,13 +2544,13 @@
         "name": "Caballero maldito"
     },
     "201626": {
-        "flavor": "Zireael posee un gran poder que no puede controlar. Es un peligro",
+        "flavor": "Zireael posee un gran poder que no puede controlar. Es un peligro; para ella misma y para los demás. Hasta que aprenda a controlarlo, deberá permanecer aislada.",
         "info": "Al inicio del turno, si esta unidad está sola en el cementerio, invócala en una fila aliada al azar.\n",
         "infoRaw": "Al inicio del turno, si esta unidad está sola en el cementerio, <keyword=summon>invócala</keyword> en una fila aliada al azar.\n",
         "name": "Ciri: Nova"
     },
     "201627": {
-        "flavor": "Otros troles siempre lo han considerado un poco raro",
+        "flavor": "Otros troles siempre lo han considerado un poco raro; después de todo, ¿quién prefiere trozos de papeles coloridos a las rocas?",
         "info": "Condenado.\nSi tu mazo inicial no tiene duplicados, envía a Troco en una aventura.\n",
         "infoRaw": "<keyword=doomed>Condenado</keyword>.\nSi tu mazo inicial no tiene duplicados, envía a Troco en una aventura.\n",
         "name": "Día libre de Troco"
@@ -2742,99 +2754,111 @@
         "name": "Perturbar"
     },
     "201725": {
-        "flavor": "Otros troles siempre lo han considerado un poco raro",
+        "flavor": "Otros troles siempre lo han considerado un poco raro; después de todo, ¿quién prefiere trozos de papeles coloridos a las rocas?",
         "info": "Envía a Troco a la Academia Ban Ard para Muchachos.\n",
         "infoRaw": "Envía a Troco a la Academia Ban Ard para Muchachos.\n",
         "name": "Troco: Mago"
     },
     "201726": {
-        "flavor": "Otros troles siempre lo han considerado un poco raro",
+        "flavor": "Otros troles siempre lo han considerado un poco raro; después de todo, ¿quién prefiere trozos de papeles coloridos a las rocas?",
         "info": "Despliegue: transforma la carta que esté más a la derecha en la mano de cada jugador en una carta especial al azar.\n",
         "infoRaw": "<keyword=deploy>Despliegue</keyword>: transforma la carta que esté más a la derecha en la mano de cada jugador en una carta especial al azar.\n",
         "name": "Troco: Mago"
     },
     "201727": {
-        "flavor": "Otros troles siempre lo han considerado un poco raro",
+        "flavor": "Otros troles siempre lo han considerado un poco raro; después de todo, ¿quién prefiere trozos de papeles coloridos a las rocas?",
         "info": "Despliegue: mueve una unidad al azar a la fila opuesta.\n",
         "infoRaw": "<keyword=deploy>Despliegue</keyword>: mueve una unidad al azar a la fila opuesta.\n",
         "name": "Troco: Mago"
     },
     "201728": {
-        "flavor": "Otros troles siempre lo han considerado un poco raro",
+        "flavor": "Otros troles siempre lo han considerado un poco raro; después de todo, ¿quién prefiere trozos de papeles coloridos a las rocas?",
         "info": "Despliegue: aplica un efecto de fila al azar en todas las filas.\n",
         "infoRaw": "<keyword=deploy>Despliegue</keyword>: aplica un efecto de fila al azar en todas las filas.\n",
         "name": "Troco: Mago"
     },
     "201729": {
-        "flavor": "Otros troles siempre lo han considerado un poco raro",
+        "flavor": "Otros troles siempre lo han considerado un poco raro; después de todo, ¿quién prefiere trozos de papeles coloridos a las rocas?",
         "info": "Despliegue: divide 13 de daño al azar entre todas las demás unidades del campo de batalla.\n",
         "infoRaw": "<keyword=deploy>Despliegue</keyword>: divide 13 de daño al azar entre todas las demás unidades del campo de batalla.\n",
         "name": "Troco: Mago"
     },
     "201730": {
-        "flavor": "Otros troles siempre lo han considerado un poco raro",
+        "flavor": "Otros troles siempre lo han considerado un poco raro; después de todo, ¿quién prefiere trozos de papeles coloridos a las rocas?",
         "info": "Despliegue: genera e invoca una unidad al azar en una fila al azar en cada lado.\n",
         "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=spawn>genera</keyword> e <keyword=summon>invoca</keyword> una unidad al azar en una fila al azar en cada lado.\n",
         "name": "Troco: Mago"
     },
     "201731": {
-        "flavor": "Otros troles siempre lo han considerado un poco raro",
+        "flavor": "Otros troles siempre lo han considerado un poco raro; después de todo, ¿quién prefiere trozos de papeles coloridos a las rocas?",
         "info": "Envía a Troco al bosque de Dol Blathanna.\n",
         "infoRaw": "Envía a Troco al bosque de Dol Blathanna.\n",
         "name": "Troco: Cazador"
     },
     "201732": {
-        "flavor": "Otros troles siempre lo han considerado un poco raro",
+        "flavor": "Otros troles siempre lo han considerado un poco raro; después de todo, ¿quién prefiere trozos de papeles coloridos a las rocas?",
         "info": "Despliegue: juega una carta al azar de tu mazo.\n",
         "infoRaw": "<keyword=deploy>Despliegue</keyword>: juega una carta al azar de tu mazo.\n",
         "name": "Troco: Cazador"
     },
     "201733": {
-        "flavor": "Otros troles siempre lo han considerado un poco raro",
+        "flavor": "Otros troles siempre lo han considerado un poco raro; después de todo, ¿quién prefiere trozos de papeles coloridos a las rocas?",
         "info": "Despliegue: divide 9 de daño al azar entre todas las unidades enemigas.\n",
         "infoRaw": "<keyword=deploy>Despliegue</keyword>: divide 9 de daño al azar entre todas las unidades enemigas.\n",
         "name": "Troco: Cazador"
     },
     "201734": {
-        "flavor": "Otros troles siempre lo han considerado un poco raro",
+        "flavor": "Otros troles siempre lo han considerado un poco raro; después de todo, ¿quién prefiere trozos de papeles coloridos a las rocas?",
         "info": "Despliegue: otorga entre 1 y 2 de poder a todas las unidades en tu mano.\n",
         "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga entre 1 y 2 de poder a todas las unidades en tu mano.\n",
         "name": "Troco: Cazador"
     },
     "201735": {
-        "flavor": "Otros troles siempre lo han considerado un poco raro",
+        "flavor": "Otros troles siempre lo han considerado un poco raro; después de todo, ¿quién prefiere trozos de papeles coloridos a las rocas?",
         "info": "Despliegue: destruye un enemigo al azar.\n",
         "infoRaw": "<keyword=deploy>Despliegue</keyword>: destruye un enemigo al azar.\n",
         "name": "Troco: Cazador"
     },
+    "201736": {
+        "flavor": "Otros troles siempre lo han considerado un poco raro; después de todo, ¿quién prefiere trozos de papeles coloridos a las rocas?",
+        "info": "Despliegue: aplica un efecto de fila al azar en una fila enemiga.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: aplica un efecto de fila al azar en una fila enemiga.\n",
+        "name": "Troco: Cazador"
+    },
     "201737": {
-        "flavor": "Otros troles siempre lo han considerado un poco raro",
+        "flavor": "Otros troles siempre lo han considerado un poco raro; después de todo, ¿quién prefiere trozos de papeles coloridos a las rocas?",
         "info": "Envía a Troco a la Academia militar de la Corte imperial.\n",
         "infoRaw": "Envía a Troco a la Academia militar de la Corte imperial.\n",
         "name": "Troco: Caballero"
     },
     "201738": {
-        "flavor": "Otros troles siempre lo han considerado un poco raro",
+        "flavor": "Otros troles siempre lo han considerado un poco raro; después de todo, ¿quién prefiere trozos de papeles coloridos a las rocas?",
         "info": "Despliegue: inflige 4 de daño a un enemigo.\n",
         "infoRaw": "<keyword=deploy>Despliegue</keyword>: inflige 4 de daño a un enemigo.\n",
         "name": "Troco: Caballero"
     },
     "201739": {
-        "flavor": "Otros troles siempre lo han considerado un poco raro",
+        "flavor": "Otros troles siempre lo han considerado un poco raro; después de todo, ¿quién prefiere trozos de papeles coloridos a las rocas?",
         "info": "Despliegue: bloquea a una unidad.\n",
         "infoRaw": "<keyword=deploy>Despliegue</keyword>: <keyword=lock>bloquea</keyword> a una unidad.\n",
         "name": "Troco: Caballero"
     },
     "201740": {
-        "flavor": "Otros troles siempre lo han considerado un poco raro",
+        "flavor": "Otros troles siempre lo han considerado un poco raro; después de todo, ¿quién prefiere trozos de papeles coloridos a las rocas?",
         "info": "Despliegue: obtiene Resiliencia.\n",
         "infoRaw": "<keyword=deploy>Despliegue:</keyword> obtiene <keyword=resilient>Resiliencia</keyword>.\n",
         "name": "Troco: Caballero"
     },
     "201741": {
-        "flavor": "Otros troles siempre lo han considerado un poco raro",
+        "flavor": "Otros troles siempre lo han considerado un poco raro; después de todo, ¿quién prefiere trozos de papeles coloridos a las rocas?",
         "info": "Despliegue: destruye un artefacto enemigo.\n",
         "infoRaw": "<keyword=deploy>Despliegue</keyword>: destruye un artefacto enemigo.\n",
+        "name": "Troco: Caballero"
+    },
+    "201742": {
+        "flavor": "Otros troles siempre lo han considerado un poco raro; después de todo, ¿quién prefiere trozos de papeles coloridos a las rocas?",
+        "info": "Despliegue: otorga 4 de potencia a un aliado.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: otorga 4 de potencia a un aliado.\n",
         "name": "Troco: Caballero"
     },
     "201743": {
@@ -2887,8 +2911,8 @@
     },
     "201776": {
         "flavor": "La pluma es más poderosa que la espada.",
-        "info": "Despliegue: roba una carta",
-        "infoRaw": "<keyword=deploy>Despliegue</keyword>: roba una carta",
+        "info": "Despliegue: roba una carta; luego, juega una carta.\n",
+        "infoRaw": "<keyword=deploy>Despliegue</keyword>: roba una carta; luego, juega una carta.\n",
         "name": "Jaskier: Poeta"
     },
     "201777": {

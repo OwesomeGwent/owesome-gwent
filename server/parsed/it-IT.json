@@ -179,6 +179,18 @@
         "infoRaw": "<keyword=deploy>Schieramento</keyword>: danneggia di 4 un'unità. Se hai in mano l'Unicorno, raddoppia i danni.\n",
         "name": "Chironex"
     },
+    "112403": {
+        "flavor": "Conosce un centinaio di parole: ottanta sono volgari, e il resto sono congiunzioni.",
+        "info": "Potenzia di 2 tutte le unità di una fila.\n",
+        "infoRaw": "Potenzia di 2 tutte le unità di una fila.\n",
+        "name": "Duda: compagno"
+    },
+    "112404": {
+        "flavor": "Il pappagallo di Zoltan aveva la straordinaria capacità di irritare chiunque. Zoltan compreso.",
+        "info": "Danneggia di 2 tutte le unità di una fila.\n",
+        "infoRaw": "Danneggia di 2 tutte le unità di una fila.\n",
+        "name": "Duda: agitatore"
+    },
     "112405": {
         "flavor": "Il demonio somiglia ai cervi. A un enorme cervo malvagio.",
         "info": "Schieramento: potenzia di 1 tutte le unità con Ultimo desiderio nella tua mano.\n",
@@ -499,8 +511,8 @@
     },
     "122311": {
         "flavor": "Farei tutto per Temeria. In genere, uccido in suo nome.",
-        "info": "Ordine: richiama una copia di questa unità dal tuo mazzo su questa fila.\n",
-        "infoRaw": "<keyword=order>Ordine</keyword>: <keyword=summon>richiama</keyword> una copia di questa unità dal tuo mazzo su questa fila.\n",
+        "info": "Ordine: richiama tutte le copie di questa unità dal tuo mazzo su questa fila.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: <keyword=summon>richiama</keyword> tutte le copie di questa unità dal tuo mazzo su questa fila.\n",
         "name": "Bande Blu: commando"
     },
     "122312": {
@@ -1099,8 +1111,8 @@
     },
     "142316": {
         "flavor": "Quando li abbiamo sentiti, era ormai troppo tardi...",
-        "info": "Schieramento, Prima fila:  danneggia di 4 un nemico se non ci sono altre unità sulla sua fila.\n",
-        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>:  danneggia di 4 un nemico se non ci sono altre unità sulla sua fila.\n",
+        "info": "Schieramento, Prima fila: danneggia di 4 un nemico se non ci sono altre unità sulla sua fila.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>, <keyword=melee>Prima fila</keyword>: danneggia di 4 un nemico se non ci sono altre unità sulla sua fila.\n",
         "name": "Monti blu: élite"
     },
     "142317": {
@@ -1141,8 +1153,8 @@
     },
     "152104": {
         "flavor": "Quando il giorno verrà, il gallo Kambi canterà per risvegliare Hemdall.",
-        "info": "Schieramento: scarta la carta all'estrema destra della tua mano, dopodiché il tuo avversario fa lo stesso.\n",
-        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=discard>scarta</keyword> la carta all'estrema destra della tua mano, dopodiché il tuo avversario fa lo stesso.\n",
+        "info": "Schieramento: scarta la carta all'estrema destra della tua mano, dopodiché l'avversario scarta la carta all'estrema destra della sua mano.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: <keyword=discard>scarta</keyword> la carta all'estrema destra della tua mano, dopodiché l'avversario <keyword=discard>scarta</keyword> la carta all'estrema destra della sua mano.\n",
         "name": "Kambi"
     },
     "152105": {
@@ -1159,8 +1171,8 @@
     },
     "152107": {
         "flavor": "Il suo vero nome è Astrid Lyttneyd Ásgeirrfinnbjornsdottir, ma non c'è mai spazio sufficiente sui moduli.",
-        "info": "Ordine: scarta una carta, poi pesca una carta. \nCariche: 3.\nOgni volta che viene scartata una carta Speciale, danneggia di 2 un nemico.\n",
-        "infoRaw": "<keyword=order>Ordine</keyword>: <keyword=discard>scarta</keyword> una carta, poi pesca una carta. \n<keyword=charge>Cariche</keyword>: 3.\nOgni volta che viene <keyword=discard>scartata</keyword> una carta Speciale, danneggia di 2 un nemico.\n",
+        "info": "Ordine: scarta una carta, poi pesca una carta. \nCariche: 3.\nOgni volta che scarti una carta Speciale, danneggia di 2 un nemico.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: <keyword=discard>scarta</keyword> una carta, poi pesca una carta. \n<keyword=charge>Cariche</keyword>: 3.\nOgni volta che <keyword=discard>scarti</keyword> una carta Speciale, danneggia di 2 un nemico.\n",
         "name": "Coral"
     },
     "152109": {
@@ -1549,8 +1561,8 @@
     },
     "162309": {
         "flavor": "L'imperatore darà una lezione al Nord.",
-        "info": "Ogni volta che viene messa in gioco un'unità con Schieramento, si potenzia di 1.\n",
-        "infoRaw": "Ogni volta che viene messa in gioco un'unità con <keyword=deploy>Schieramento</keyword>, si potenzia di 1.\n",
+        "info": "Si potenzia di 1 ogni volta che metti in gioco un'unità dotata di Schieramento.\n",
+        "infoRaw": "Si potenzia di 1 ogni volta che metti in gioco un'unità dotata di <keyword=deploy>Schieramento</keyword>.\n",
         "name": "Sergente Nauzicaa"
     },
     "162310": {
@@ -2023,8 +2035,8 @@
     },
     "200162": {
         "flavor": "Il Paziente non rientra tra i miei nomi. Spera che non ti chiamino Il Senzatesta.",
-        "info": "Ordine: sposta una carta dal campo alla tua mano, poi gioca una carta.\n",
-        "infoRaw": "<keyword=order>Ordine</keyword>: sposta una carta dal campo alla tua mano, poi gioca una carta.\n",
+        "info": "Ordine: sposta un'unità o un manufatto alleato dal campo alla tua mano, poi gioca una carta.\n",
+        "infoRaw": "<keyword=order>Ordine</keyword>: sposta un'unità o un manufatto alleato dal campo alla tua mano, poi gioca una carta.\n",
         "name": "Emhyr var Emreis"
     },
     "200163": {
@@ -2157,7 +2169,7 @@
         "flavor": "Sono un veterano di guerra! Hai una corona?",
         "info": "Schieramento: si potenzia di 4.\n",
         "infoRaw": "<keyword=deploy>Schieramento</keyword>: si potenzia di 4.\n",
-        "name": "Fante povero"
+        "name": "Povera Fanteria Fottuta"
     },
     "200235": {
         "flavor": "Va' a insegnare a tua nonna come si succhiano le uova.",
@@ -2227,8 +2239,8 @@
     },
     "200502": {
         "flavor": "I troll si distinguono per forma, dimensioni e inclinazioni. Una cosa, tuttavia, li accomuna: hanno tanto cervello quanto un secchio di chiodi arrugginiti.",
-        "info": "Alla fine di ogni turno, se hai meno unità del tuo avversario, si potenzia di 1.\n",
-        "infoRaw": "Alla fine di ogni turno, se hai meno unità del tuo avversario, si potenzia di 1.\n",
+        "info": "Alla fine di ogni turno, se controlli meno unità in campo rispetto al tuo avversario, si potenzia di 1.\n",
+        "infoRaw": "Alla fine di ogni turno, se controlli meno unità in campo rispetto al tuo avversario, si potenzia di 1.\n",
         "name": "Troll dei ghiacci"
     },
     "200518": {
@@ -2807,6 +2819,12 @@
         "infoRaw": "<keyword=deploy>Schieramento</keyword>: distrugge un nemico casuale.\n",
         "name": "Empørio: cacciatore"
     },
+    "201736": {
+        "flavor": "Gli altri troll lo considerano un po' strano. Dopotutto, quale troll sano di mente preferirebbe dei foglietti di carta colorata alle pepite?",
+        "info": "Schieramento: applica un effetto su fila casuale su una fila nemica.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: applica un effetto su fila casuale su una fila nemica.\n",
+        "name": "Empørio: cacciatore"
+    },
     "201737": {
         "flavor": "Gli altri troll lo considerano un po' strano. Dopotutto, quale troll sano di mente preferirebbe dei foglietti di carta colorata alle pepite?",
         "info": "Manda Empørio all'Accademia Militare della corte imperiale.\n",
@@ -2835,6 +2853,12 @@
         "flavor": "Gli altri troll lo considerano un po' strano. Dopotutto, quale troll sano di mente preferirebbe dei foglietti di carta colorata alle pepite?",
         "info": "Schieramento: distrugge un manufatto nemico.\n",
         "infoRaw": "<keyword=deploy>Schieramento</keyword>: distrugge un manufatto nemico.\n",
+        "name": "Empørio: cavaliere"
+    },
+    "201742": {
+        "flavor": "Gli altri troll lo considerano un po' strano. Dopotutto, quale troll sano di mente preferirebbe dei foglietti di carta colorata alle pepite?",
+        "info": "Schieramento: potenzia di 4 un alleato.\n",
+        "infoRaw": "<keyword=deploy>Schieramento</keyword>: potenzia di 4 un alleato.\n",
         "name": "Empørio: cavaliere"
     },
     "201743": {

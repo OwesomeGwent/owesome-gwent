@@ -54,17 +54,17 @@ interface Variation {
 }
 
 export interface DefaultLocaleSet {
-  'de-DE': string;
-  'en-US': string;
-  'es-ES': string;
-  'es-MX': string;
-  'fr-FR': string;
-  'it-IT': string;
-  'ja-JP': string;
-  'ko-KR': string;
-  'pl-PL': string;
-  'pt-BR': string;
-  'ru-RU': string;
-  'zh-CN': string;
-  'zh-TW': string;
+  "de-DE": string;
+  "en-US": string;
+  "es-ES": string;
+  "es-MX": string;
+  "fr-FR": string;
+  "it-IT": string;
+  "ja-JP": string;
+  "ko-KR": string;
+  "pl-PL": string;
+  "pt-BR": string;
+  "ru-RU": string;
+  "zh-CN": string;
+  "zh-TW": string;
 }

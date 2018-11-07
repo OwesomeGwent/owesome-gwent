@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import { CardList } from '../components';
-import { ICard } from '../types/card';
+import { CardData } from '../../../shared/CardData';
 
 const PER_PAGE = 40;
 const Container = styled.div`
   flex: 1;
 `;
 export interface IMainProps {
-  cardData: ICard[];
+  cardData: CardData[];
 }
 interface IMainState {
-  readonly cards: ICard[];
+  readonly cards: CardData[];
   readonly page: number;
   readonly isLast: boolean;
 }

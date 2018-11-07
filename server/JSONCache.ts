@@ -2,7 +2,7 @@ import scheduler from 'node-schedule';
 import { CardData } from '../shared/ICardData';
 import { LocaleDataList } from '../shared/ILocaleData';
 import cardParser from './cardParser';
-import checkRepoUpTodate from './batchJob';
+import checkRepoUpTodate from './checkRepoUpToDate';
 
 interface ICache {
   'card-data'?: CardData;

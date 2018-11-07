@@ -1,6 +1,6 @@
 import shell from 'shelljs';
 
-const checkRepoUpTodate = (): boolean => {
+const checkRepoUpToDate = (): boolean => {
   if (
     !shell
       .pwd()
@@ -15,4 +15,4 @@ const checkRepoUpTodate = (): boolean => {
   return false;
 };
 
-export default checkRepoUpTodate;
+export default checkRepoUpToDate;

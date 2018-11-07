@@ -1,12 +1,14 @@
-import routes from "./routes";
-import shell from "shelljs";
-import App, { IServerSettings } from "./App";
-import JSONCache from "./JSONCache";
+import routes from './routes';
+import App, { IServerSettings } from './App';
+import JSONCache from './JSONCache';
+import cardParser from './cardParser';
 
 const serverSettings: IServerSettings = {
   port: 8080,
-  routes
+  routes,
 };
+
+cardParser();
 
 const cache = new JSONCache();
 cache.runBatch();

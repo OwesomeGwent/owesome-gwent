@@ -3,7 +3,7 @@ const shell = require('shelljs');
 console.log('Checking Gwent Data git repos');
 if (
   !shell
-    .exec('ls server', { silent: true })
+    .exec('ls', { silent: true })
     .stdout.toString()
     .includes('gwent-data-release')
 ) {
@@ -12,7 +12,7 @@ if (
     shell.exec(
       'git clone https://github.com/GwentCommunityDevelopers/gwent-data-release.git',
       { silent: true },
-    ).code
+    ).code === 0
   ) {
     console.log('SUCCESS!');
     return;

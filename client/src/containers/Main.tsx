@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import { CardList } from '../components';
-import { CardData } from '../../../shared/CardData';
+import { CardData } from '../../../shared/ICardData';
 
 const PER_PAGE = 40;
 const Container = styled.div`

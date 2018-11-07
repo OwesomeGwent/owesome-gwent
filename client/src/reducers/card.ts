@@ -1,5 +1,5 @@
 import produce from 'immer';
-import { CardData } from '../../../shared/CardData';
+import { CardData, RawCardData } from '../../../shared/ICardData';
 import { ICardAction } from '../actions/card';
 import {
   FETCH_CARDS,
@@ -7,13 +7,9 @@ import {
   FETCH_CARDS_FAILURE,
   SET_CARDS,
 } from '../actions/ActionTypes';
-import { IRootState } from '.';
 
-interface ICardList {
-  [cardId: string]: CardData;
-}
 interface IRawCards {
-  readonly cards: ICardList;
+  readonly cards: RawCardData;
   readonly status: 'SUCCESS' | 'ERROR' | 'INIT' | 'FETCHING';
 }
 export interface ICardState {

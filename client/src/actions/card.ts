@@ -5,7 +5,7 @@ import {
   FETCH_CARDS_SUCCESS,
   SET_CARDS,
 } from './ActionTypes';
-import { CardData } from '../../../shared/CardData';
+import { CardData, RawCardData } from '../../../shared/ICardData';
 import { fetchDefs } from '../apis/defs';
 import { ThunkResult } from '../types/thunk';
 
@@ -17,9 +17,7 @@ export interface IFetchCardsFailure {
 }
 export interface IFetchCardsSuccess {
   type: typeof FETCH_CARDS_SUCCESS;
-  cards: {
-    [cardId: string]: CardData;
-  };
+  cards: RawCardData;
 }
 
 export interface ISetCards {

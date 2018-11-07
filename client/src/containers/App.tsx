@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { connect } from 'react-redux';
 import { Main, Sidebar } from '.';
 import { FlipCard } from '../components';
-import { CardData } from '../../../shared/CardData';
+import { CardData, RawCardData } from '../../../shared/ICardData';
 import { IRootState } from '../reducers';
 import * as cardActions from '../actions/card';
 import { ThunkFunc } from '../types/thunk';
@@ -14,9 +14,7 @@ const AppContainer = styled.div`
 `;
 export interface IAppProps {
   cardData: CardData[];
-  rawCardData: {
-    [cardId: string]: CardData;
-  };
+  rawCardData: RawCardData;
   fetchStatus: string;
   fetchCards: () => void;
   setCards: (cards: CardData[]) => void;

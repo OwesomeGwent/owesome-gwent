@@ -23,16 +23,8 @@ export interface CardData {
 interface Variations {
   [key: string]: Variation;
 }
-
 interface Variation {
-  art: {
-    high: string;
-    ingameArtId: string;
-    low: string;
-    medium: string;
-    original: string;
-    thumbnail: string;
-  };
+  art: string;
   availability: string;
   collectible: boolean;
   craft: {

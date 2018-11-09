@@ -33,12 +33,20 @@ const cardParser = async () => {
   // 파싱 후 나눠서 담기.
   const cardData: ICardDataList = Object.entries(cardDefs).reduce(
     (acc: ICardDataList, [cardID, value]: [string, any]): ICardDataList => {
-      const [key] = Object.keys(value.variations);
+      const variationIds = Object.keys(value.variations);
+      const variations = variationIds.map(variationId => {
+        const variation = value.variations[variationId];
+        const { ingameArtId } = variation.art;
+        return {
+          ...variation,
+          art: ingameArtId,
+        };
+      });
       const currentCard: AllCardData = {
         ...value,
-        variations: { [key]: value.variations[key] },
+        variations,
+        variationIds,
       };
-
       LOCALE_DATA_DEFS.forEach(attrKey => {
         Object.entries(currentCard[attrKey] as DefaultLocaleSet).forEach(
           ([country, localString]) => {
@@ -106,5 +114,7 @@ const cardParser = async () => {
     );
   });
 };
+
+cardParser();
 
 export default cardParser;

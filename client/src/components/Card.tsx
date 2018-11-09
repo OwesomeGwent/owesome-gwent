@@ -1,6 +1,6 @@
 import React from 'react';
 import { ICard } from '../types/card';
-const BASE_IMAGE_PATH =
+export const BASE_IMAGE_PATH =
   'https://res.cloudinary.com/godsenal/image/upload/v1541344313/gwent/card';
 
 interface IMapper {

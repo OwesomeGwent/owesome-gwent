@@ -26,7 +26,7 @@ class App extends Component<IAppProps> {
   async componentDidMount() {
     let Cards: any;
     const { fetchCards, setCards } = this.props;
-    await Promise.all([fetchCards(), delay(3000)]);
+    await fetchCards();
     // 카드 스피너를 위한 delay 살짝~
     const { fetchStatus, rawCardData } = this.props;
     if (fetchStatus === 'ERROR') {
@@ -38,6 +38,7 @@ class App extends Component<IAppProps> {
     cardData = cardData.slice().sort(sortByProvision);
     setCards(cardData);
   }
+
   render() {
     const { cardData } = this.props;
     // flag 설정 필요?
@@ -64,12 +65,8 @@ const mapStateToProps = (state: IRootState) => ({
   cardData: state.card.cards,
 });
 const mapDispatchToProps = (dispatch: ThunkFunc) => ({
-  fetchCards: () => {
-    dispatch(cardActions.fetchCards());
-  },
-  setCards: (cards: CardData[]) => {
-    dispatch(cardActions.setCards(cards));
-  },
+  fetchCards: () => dispatch(cardActions.fetchCards()),
+  setCards: (cards: CardData[]) => dispatch(cardActions.setCards(cards)),
 });
 export default connect(
   mapStateToProps,

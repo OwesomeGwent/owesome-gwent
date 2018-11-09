@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
 import Grid from '@material-ui/core/Grid';
 import { Card } from '.';
 import { ICard } from '../types/card';
@@ -8,6 +9,12 @@ export interface ICardListProps {
   fetchMore: () => void;
   isLast: boolean;
 }
+
+const CardListWrapper = styled.div`
+  height: 100vh;
+  overflow-y: auto;
+`;
+
 class CardList extends Component<ICardListProps> {
   _debounce = false;
   static defaultProps = {
@@ -51,7 +58,7 @@ class CardList extends Component<ICardListProps> {
   render() {
     const { cards, title } = this.props;
     return (
-      <div>
+      <CardListWrapper>
         <h2>{title}</h2>
         <Grid container spacing={24}>
           {cards.map((card, i) => (
@@ -60,7 +67,7 @@ class CardList extends Component<ICardListProps> {
             </Grid>
           ))}
         </Grid>
-      </div>
+      </CardListWrapper>
     );
   }
 }

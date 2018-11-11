@@ -1,5 +1,5 @@
 import React from 'react';
-import { ICard } from '../types/card';
+import { CardData } from '../../../shared/ICardData';
 export const BASE_IMAGE_PATH =
   'https://res.cloudinary.com/godsenal/image/upload/v1541344313/gwent/card';
 
@@ -29,7 +29,7 @@ const cardStyle: React.CSSProperties = {
   zIndex: 2,
 };
 export interface ICardProps {
-  card: ICard;
+  card: CardData;
 }
 const Card: React.SFC<ICardProps> = ({ card }) => {
   const {
@@ -48,7 +48,6 @@ const Card: React.SFC<ICardProps> = ({ card }) => {
     .join('');
   const parsedType = cardType.toLowerCase();
   const { art, rarity, variationId } = variations[Object.keys(variations)[0]];
-  const { ingameArtId } = art;
   return (
     <div>
       <div
@@ -81,7 +80,7 @@ const Card: React.SFC<ICardProps> = ({ card }) => {
                 </div>
               </>
             )}
-            <img src={`${BASE_IMAGE_PATH}/${ingameArtId}0000.png`} />
+            <img src={`${BASE_IMAGE_PATH}/${art}0000.png`} />
           </div>
         </div>
       </div>

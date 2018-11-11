@@ -20,7 +20,7 @@ const Sidebar: React.SFC<ISidebarProps> = ({
   randomLeader: { variations },
 }) => {
   const randomLeaderImg =
-    variations[Object.keys(variations)[0]].art.ingameArtId;
+    variations[Object.keys(variations)[0]].art;
   return (
     <Container>
       <StateToggleBox backgroundLeader={randomLeaderImg} />

@@ -2696,8 +2696,8 @@
         },
         "201664": {
             "flavor": "Quand on rend coup pour coup, on ne s'arrête pas tant qu'il reste quelqu'un debout.",
-            "info": "Déploiement : déclenchez les capacités de déploiement des Soldats Bronze adjacents.\n",
-            "infoRaw": "<keyword=deploy>Déploiement</keyword> : déclenchez les capacités de <keyword=deploy>déploiement</keyword> des Soldats Bronze adjacents.\n",
+            "info": "Déploiement : déclenchez la capacité de déploiement des Soldats Bronze alliés.\n",
+            "infoRaw": "<keyword=deploy>Déploiement</keyword> : déclenchez la capacité de <keyword=deploy>déploiement</keyword> des Soldats Bronze alliés.\n",
             "name": "Vrygheff"
         },
         "201676": {

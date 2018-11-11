@@ -431,7 +431,7 @@
             "Ranged",
             "Siege"
         ],
-        "provision": 15,
+        "provision": 12,
         "related": [
             "112404",
             "112403"
@@ -2673,7 +2673,7 @@
             "Ranged",
             "Siege"
         ],
-        "provision": 8,
+        "provision": 7,
         "related": [],
         "released": true,
         "strength": 0,
@@ -7466,7 +7466,7 @@
             "Ranged",
             "Siege"
         ],
-        "provision": 7,
+        "provision": 5,
         "related": [],
         "released": true,
         "strength": 0,
@@ -14057,7 +14057,7 @@
             "Ranged",
             "Siege"
         ],
-        "provision": 7,
+        "provision": 5,
         "related": [],
         "released": true,
         "strength": 0,
@@ -14251,7 +14251,7 @@
             "Ranged",
             "Siege"
         ],
-        "provision": 8,
+        "provision": 7,
         "related": [],
         "released": true,
         "strength": 0,
@@ -18422,7 +18422,7 @@
             "Ranged",
             "Siege"
         ],
-        "provision": 8,
+        "provision": 7,
         "related": [],
         "released": true,
         "strength": 0,
@@ -19485,7 +19485,7 @@
             "Ranged",
             "Siege"
         ],
-        "provision": 9,
+        "provision": 8,
         "related": [],
         "released": true,
         "strength": 0,
@@ -19533,7 +19533,7 @@
             "Ranged",
             "Siege"
         ],
-        "provision": 12,
+        "provision": 10,
         "related": [],
         "released": true,
         "strength": 0,
@@ -21989,7 +21989,7 @@
             "Ranged",
             "Siege"
         ],
-        "provision": 15,
+        "provision": 12,
         "related": [],
         "released": true,
         "strength": 0,
@@ -22717,7 +22717,7 @@
             "Ranged",
             "Siege"
         ],
-        "provision": 7,
+        "provision": 5,
         "related": [],
         "released": true,
         "strength": 0,
@@ -23112,7 +23112,7 @@
             "Ranged",
             "Siege"
         ],
-        "provision": 8,
+        "provision": 7,
         "related": [],
         "released": true,
         "strength": 0,
@@ -24466,7 +24466,7 @@
             "Ranged",
             "Siege"
         ],
-        "provision": 13,
+        "provision": 9,
         "related": [],
         "released": true,
         "strength": 0,

@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import Grid from '@material-ui/core/Grid';
 import { Card } from '.';
-import { ICard } from '../types/card';
+import { CardData } from '../../../shared/ICardData';
 export interface ICardListProps {
-  cards: ICard[];
+  cards: CardData[];
   title: string;
   fetchMore: () => void;
   isLast: boolean;

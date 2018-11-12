@@ -2924,8 +2924,8 @@
         },
         "201779": {
             "flavor": "I hold Brokilon dearer than my own life. She is a mother who cares for her children. I will defend her to my final breath.",
-            "info": "Shuffle an allied unit into your deck, then play a different unit with the same primary category from your deck and boost it by 3.\n",
-            "infoRaw": "Shuffle an allied unit into your deck, then play a different unit with the same primary category from your deck and boost it by 3.\n",
+            "info": "Shuffle an allied unit into your deck, then play a unit with the same primary category from your deck and boost it by 3.\n",
+            "infoRaw": "Shuffle an allied unit into your deck, then play a unit with the same primary category from your deck and boost it by 3.\n",
             "name": "Call of the Forest"
         },
         "201780": {

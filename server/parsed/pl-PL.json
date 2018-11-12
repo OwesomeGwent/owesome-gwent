@@ -2276,8 +2276,8 @@
         },
         "200529": {
             "flavor": "Wieść niesie, że po dziś dzień próbuje dopełnić ślubów złożonych pannie Jagódce.",
-            "info": "Rozmieszczenie: Wzmocnij tę jednostkę o 5.\nZa każdym razem, gdy zagrywasz Żołnierza, wezwij tę jednostkę ze swojego cmentarza do losowego rzędu sojuszniczego.\n",
-            "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij tę jednostkę o 5.\nZa każdym razem, gdy zagrywasz Żołnierza, <keyword=summon>wezwij</keyword> tę jednostkę ze swojego cmentarza do losowego rzędu sojuszniczego.\n",
+            "info": "Rozmieszczenie: Wzmocnij tę jednostkę o 5.\nza każdym razem, gdy zagrywasz Żołnierza, wezwij tę jednostkę ze swojego cmentarza do losowego rzędu sojuszniczego.\n",
+            "infoRaw": "<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij tę jednostkę o 5.\nza każdym razem, gdy zagrywasz Żołnierza, <keyword=summon>wezwij</keyword> tę jednostkę ze swojego cmentarza do losowego rzędu sojuszniczego.\n",
             "name": "Ronvid z Małego Łęgu"
         },
         "200530": {

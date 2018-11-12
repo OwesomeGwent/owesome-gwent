@@ -10,11 +10,6 @@ export interface ICardListProps {
   isLast: boolean;
 }
 
-const CardListWrapper = styled.div`
-  height: 100vh;
-  overflow-y: auto;
-`;
-
 class CardList extends Component<ICardListProps> {
   _debounce = false;
   static defaultProps = {
@@ -58,7 +53,7 @@ class CardList extends Component<ICardListProps> {
   render() {
     const { cards, title } = this.props;
     return (
-      <CardListWrapper>
+      <>
         <h2>{title}</h2>
         <Grid container spacing={24}>
           {cards.map((card, i) => (
@@ -67,7 +62,7 @@ class CardList extends Component<ICardListProps> {
             </Grid>
           ))}
         </Grid>
-      </CardListWrapper>
+      </>
     );
   }
 }

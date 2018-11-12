@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import { connect } from 'react-redux';
-import { Main, Sidebar } from '.';
+import { Main, Sidebar, Header } from '.';
 import { FlipCard } from '../components';
 import { CardData, RawCardData } from '../../../shared/ICardData';
 import { IRootState } from '../reducers';
 import * as cardActions from '../actions/card';
 import { ThunkFunc } from '../types/thunk';
-import delay from '../helpers/delay';
 
 const AppContainer = styled.div`
   display: flex;
@@ -51,10 +50,13 @@ class App extends Component<IAppProps> {
       );
     }
     return (
-      <AppContainer>
-        <Sidebar />
-        <Main cardData={cardData} />
-      </AppContainer>
+      <>
+        <Header />
+        <AppContainer>
+          <Sidebar />
+          <Main cardData={cardData} />
+        </AppContainer>
+      </>
     );
   }
 }

@@ -174,13 +174,8 @@ template {
 }
 `;
 
-const createMTheme = (themeOptions: ThemeOptions) =>
-  createMuiTheme({
-    ...themeOptions,
-  });
-
 const store = createStore();
-const theme = createMTheme({
+const theme = createMuiTheme({
   palette: {
     primary: {
       light: '#6d6d6d',

@@ -73,7 +73,7 @@ export const fetchCards = (): ThunkResult<void, IFetchCards> => {
   };
 };
 export const fetchDetails = (
-  locale: Locale = Locale.KR,
+  locale: Locale,
 ): ThunkResult<void, ICardAction> => {
   return async (dispatch: Dispatch<ICardAction>) => {
     dispatch({

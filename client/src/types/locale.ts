@@ -1,6 +1,6 @@
 enum Locale {
   DE = 'de-DE',
-  US = 'es-US',
+  US = 'en-US',
   ES = 'es-ES',
   MX = 'es-MX',
   FR = 'fr-FR',

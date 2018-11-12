@@ -29,15 +29,15 @@ export interface IHomeProps {
   setCards: (leader: CardData[], normal: CardData[]) => void;
   setLocale: (locale: Locale) => void;
 }
-function sortByFaction(a: CardData, b: CardData) {
+const sortByFaction = (a: CardData, b: CardData) => {
   return a.faction.localeCompare(b.faction);
-}
-function sortByProvision(a: CardData, b: CardData) {
+};
+const sortByProvision = (a: CardData, b: CardData) => {
   if (a.mulligans && b.mulligans) {
     return b.mulligans - a.mulligans;
   }
   return b.provision - a.provision;
-}
+};
 const getCurrentLocale = () => {
   const navigator: any = window.navigator;
   if (navigator.languages) {
@@ -51,7 +51,7 @@ class Home extends Component<IHomeProps> {
     let Cards: any;
     const locale = getCurrentLocale();
     const { fetchCards, fetchDetails, setCards, setLocale } = this.props;
-    await fetchCards();
+    await Promise.all([fetchCards(), fetchDetails(Locale.KR)]);
     // 카드 스피너를 위한 delay 살짝~
     const { fetchStatus, rawCardData } = this.props;
     Cards =

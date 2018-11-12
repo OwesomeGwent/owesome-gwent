@@ -1,19 +1,19 @@
 import fs from 'fs';
 import path from 'path';
-import {
-  CardLocaleData,
-  LocaleDataList,
-  CardLocaleDataList,
-  KeyWordLocaleDataList,
-  CategoryLocaleDataList,
-} from '../shared/ILocaleData';
-import { CardData } from '../shared/ICardData';
+import { CardData, CardDataList, RawCardData } from '../shared/ICardData';
 import {
   AllCardData,
-  DefaultLocaleSet,
   CategoryDataList,
+  DefaultLocaleSet,
   KeyWordDataList,
 } from '../shared/IJsonData';
+import {
+  CardLocaleData,
+  CardLocaleDataList,
+  CategoryLocaleDataList,
+  KeyWordLocaleDataList,
+  LocaleDataList,
+} from '../shared/ILocaleData';
 
 const LOCALE_DATA_DEFS = ['flavor', 'info', 'infoRaw', 'name'];
 
@@ -22,7 +22,7 @@ interface ICardDataList {
 }
 const cardParser = async () => {
   // 언어별 정보를 담고 있을 데이터.
-  let localeData: { [country: string]: LocaleDataList } = {};
+  const localeData: { [country: string]: LocaleDataList } = {};
 
   // 카드 정보를 불러온다.
   const cardDefs = JSON.parse(
@@ -31,8 +31,8 @@ const cardParser = async () => {
     }),
   );
   // 파싱 후 나눠서 담기.
-  const cardData: ICardDataList = Object.entries(cardDefs).reduce(
-    (acc: ICardDataList, [cardID, value]: [string, any]): ICardDataList => {
+  const cardData: CardDataList = Object.entries(cardDefs).reduce(
+    (acc: CardDataList, [cardID, value]: [string, any]): CardDataList => {
       const variationIds = Object.keys(value.variations);
       const variations = variationIds.map(variationId => {
         const variation = value.variations[variationId];
@@ -44,8 +44,8 @@ const cardParser = async () => {
       });
       const currentCard: AllCardData = {
         ...value,
-        variations,
         variationIds,
+        variations,
       };
       LOCALE_DATA_DEFS.forEach(attrKey => {
         Object.entries(currentCard[attrKey] as DefaultLocaleSet).forEach(
@@ -66,13 +66,18 @@ const cardParser = async () => {
         );
       });
       return {
-        ...acc,
-        [cardID]: { ...(currentCard as CardData) },
+        leader: {
+          ...acc.leader,
+          [cardID]: { ...(currentCard as CardData) },
+        },
+        normal: {
+          ...acc.normal,
+          [cardID]: { ...(currentCard as CardData) },
+        },
       };
     },
-    {} as ICardDataList,
+    {} as CardDataList,
   );
-
   const categoryData = JSON.parse(
     fs.readFileSync('./gwent-data-release/categories.json', {
       encoding: 'utf-8',
@@ -94,14 +99,14 @@ const cardParser = async () => {
 
   Object.entries(keywordData as KeyWordDataList).forEach(
     ([keyword, keywordLocaleSet]) => {
-      Object.entries(keywordLocaleSet).forEach(([country, keywordData]) => {
-        localeData[country].keywords[keyword] = keywordData;
+      Object.entries(keywordLocaleSet).forEach(([country, countryData]) => {
+        localeData[country].keywords[keyword] = countryData;
       });
     },
   );
 
   fs.writeFileSync(
-    path.join(__dirname, 'parsed', `card-data.json`),
+    path.join(__dirname, 'parsed', 'card-data.json'),
     JSON.stringify(cardData, null, 4),
     'utf-8',
   );

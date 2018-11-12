@@ -13,7 +13,7 @@ class JSONCache {
   constructor() {
     this.cache = {};
   }
-  runBatch() {
+  public runBatch() {
     scheduler.scheduleJob('* 0 * * *', () => {
       if (!checkRepoUpTodate()) {
         cardParser();
@@ -21,13 +21,13 @@ class JSONCache {
       }
     });
   }
-  setJSON(attrKey: string, data: CardData | LocaleDataList) {
+  public setJSON(attrKey: string, data: CardData | LocaleDataList) {
     this.cache[attrKey] = data;
   }
-  getJSON(attrKey: string): CardData | LocaleDataList | undefined {
+  public getJSON(attrKey: string): CardData | LocaleDataList | undefined {
     return this.cache[attrKey];
   }
-  hasJSON(attrKey: string): boolean {
+  public hasJSON(attrKey: string): boolean {
     return this.cache[attrKey] !== undefined;
   }
 }

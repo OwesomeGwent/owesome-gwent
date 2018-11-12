@@ -1,7 +1,7 @@
-import routes from './routes';
 import App, { IServerSettings } from './App';
-import JSONCache from './JSONCache';
 import cardParser from './cardParser';
+import JSONCache from './JSONCache';
+import routes from './routes';
 
 const serverSettings: IServerSettings = {
   port: 8080,

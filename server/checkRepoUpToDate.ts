@@ -1,14 +1,15 @@
-import shell from 'shelljs';
+import shelljs from 'shelljs';
 
 const checkRepoUpToDate = (): boolean => {
   if (
-    !shell
+    !shelljs
       .pwd()
       .toString()
       .includes('gwent-data-release')
-  )
-    shell.cd('./gwent-data-release');
-  const gitPullStatus = shell.exec('git pull', { silent: true }).stdout;
+  ) {
+    shelljs.cd('./gwent-data-release');
+  }
+  const gitPullStatus = shelljs.exec('git pull', { silent: true }).stdout;
   if (gitPullStatus.toString().includes('Already up to date.')) {
     return true;
   }

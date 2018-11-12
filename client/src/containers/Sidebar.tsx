@@ -1,9 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
+import { CardData } from '../../../shared/ICardData';
 import StateToggleBox from '../components/StateToggleBox';
 import { IRootState } from '../reducers';
-import { CardData } from '../../../shared/ICardData';
 
 interface ISidebarProps {
   randomLeader: CardData;
@@ -28,13 +28,10 @@ const Sidebar: React.SFC<ISidebarProps> = ({
 
 const pickRandom = (arr: any[]): any => {
   const a = arr[Math.floor(Math.random() * arr.length)];
-  console.log(a);
   return a;
 };
 const mapStateToProps = (state: IRootState) => ({
-  randomLeader: pickRandom(
-    state.card.cards.leader.filter(card => card.cardType === 'Leader'),
-  ),
+  randomLeader: pickRandom(state.card.cards.leader),
 });
 
 export default connect(mapStateToProps)(Sidebar);

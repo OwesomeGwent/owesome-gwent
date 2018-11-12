@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { CardList } from '../components';
 import { CardData } from '../../../shared/ICardData';
+import { CardList } from '../components';
 
 const PER_PAGE = 40;
 const Container = styled.div`
@@ -22,26 +22,26 @@ interface IMainState {
   readonly isLast: boolean;
 }
 class Main extends Component<IMainProps, IMainState> {
-  state = {
+  public state = {
     cards: {
       leader: [],
       normal: [],
     },
-    page: 1,
     isLast: false,
+    page: 1,
   };
-  componentDidMount() {
-    const { normal } = this.props.cardData;
+  public componentDidMount() {
+    const { normal, leader } = this.props.cardData;
     const initCard = normal.slice(0, PER_PAGE);
     this.setState((state: IMainState) => ({
       ...state,
       cards: {
-        ...state.cards,
+        leader,
         normal: initCard,
       },
     }));
   }
-  handleFetchMore = () => {
+  public handleFetchMore = () => {
     // 현재 filter에 맞는 데이터를 더 가져옴.
     const { page } = this.state;
     const { normal } = this.props.cardData;
@@ -52,15 +52,16 @@ class Main extends Component<IMainProps, IMainState> {
         ...state.cards,
         normal: cards,
       },
-      page: page + 1,
       isLast: next >= normal.length - 1, // 임시
+      page: page + 1,
     }));
   };
-  render() {
+  public render() {
     const { cards, isLast } = this.state;
     return (
       <Container>
         {/* Filter */}
+        <CardList cards={cards.leader} />
         <CardList
           cards={cards.normal}
           fetchMore={this.handleFetchMore}

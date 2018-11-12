@@ -213,10 +213,10 @@ module.exports = {
             include: [paths.appSrc, paths.shared],
             loader: require.resolve('babel-loader'),
             options: {
-              customize: require.resolve(
-                'babel-preset-react-app/webpack-overrides',
-              ),
-
+              // customize: require.resolve(
+              //   'babel-preset-react-app/webpack-overrides',
+              // ),
+              presets: [['react-app', { flow: false, typescript: true }]],
               plugins: [
                 '@babel/plugin-proposal-export-default-from',
                 [

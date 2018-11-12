@@ -65,14 +65,13 @@ const cardParser = async () => {
           },
         );
       });
+      const cardType = currentCard.type === 'Leader' ? 'leader' : 'normal';
+      const card = { [cardID]: { ...(currentCard as CardData) } };
       return {
-        leader: {
-          ...acc.leader,
-          [cardID]: { ...(currentCard as CardData) },
-        },
-        normal: {
-          ...acc.normal,
-          [cardID]: { ...(currentCard as CardData) },
+        ...acc,
+        [cardType]: {
+          ...acc[cardType],
+          ...card,
         },
       };
     },
@@ -119,7 +118,5 @@ const cardParser = async () => {
     );
   });
 };
-
-cardParser();
 
 export default cardParser;

@@ -1,12 +1,8 @@
 import produce from 'immer';
 import { CardData, RawCardData } from '../../../shared/ICardData';
+import { CardLocaleData, Locale } from '../../../shared/ILocaleData';
 import { ICardAction } from '../actions/card';
-import {
-  FETCH_CARDS,
-  FETCH_CARDS_SUCCESS,
-  FETCH_CARDS_FAILURE,
-  SET_CARDS,
-} from '../actions/ActionTypes';
+import * as ActionType from '../actions/ActionTypes';
 
 interface IRawCards {
   readonly cards: RawCardData;
@@ -15,6 +11,11 @@ interface IRawCards {
 export interface ICardState {
   readonly rawCards: IRawCards;
   readonly cards: CardData[];
+  readonly currentCards: CardData[];
+  readonly detail: {
+    readonly status: 'SUCCESS' | 'ERROR' | 'INIT' | 'FETCHING';
+    readonly localeData: { [locale in Locale]?: CardLocaleData };
+  };
 }
 
 const initialState: ICardState = {
@@ -23,6 +24,11 @@ const initialState: ICardState = {
     status: 'INIT',
   },
   cards: [],
+  currentCards: [],
+  detail: {
+    status: 'INIT',
+    localeData: {},
+  },
 };
 const reducer = (
   state: ICardState = initialState,
@@ -30,22 +36,38 @@ const reducer = (
 ): ICardState => {
   return produce<ICardState>(state, draft => {
     switch (action.type) {
-      case FETCH_CARDS: {
+      case ActionType.FETCH_CARDS_REQUEST: {
         draft.rawCards.status = 'FETCHING';
-        return;
-        // return 의미가 없지만 안하면 밑에서 타입추론을 못함.
+        break;
       }
-      case FETCH_CARDS_SUCCESS: {
+      case ActionType.FETCH_CARDS_SUCCESS: {
         draft.rawCards.status = 'SUCCESS';
         draft.rawCards.cards = action.cards;
-        return;
+        break;
       }
-      case FETCH_CARDS_FAILURE:
+      case ActionType.FETCH_CARDS_FAILURE:
         draft.rawCards.status = 'ERROR';
-        return;
-      case SET_CARDS:
+        break;
+      case ActionType.FETCH_DETAILS_REQUEST: {
+        draft.rawCards.status = 'FETCHING';
+        break;
+      }
+      case ActionType.FETCH_DETAILS_SUCCESS: {
+        draft.detail = {
+          status: 'SUCCESS',
+          localeData: {
+            [action.locale]: action.localeData,
+          },
+        };
+        break;
+      }
+      case ActionType.FETCH_DETAILS_FAILURE: {
+        draft.detail.status = 'ERROR';
+        break;
+      }
+      case ActionType.SET_CARDS:
         draft.cards = action.cards;
-        return;
+        break;
       default:
         return;
     }

@@ -4,28 +4,45 @@ import { connect } from 'react-redux';
 import { Main, Sidebar } from '.';
 import { FlipCard } from '../components';
 import { CardData, RawCardData } from '../../../shared/ICardData';
+import {
+  CardLocaleData,
+  CardLocaleDataList,
+  Locale,
+} from '../../../shared/ILocaleData';
 import { IRootState } from '../reducers';
 import * as cardActions from '../actions/card';
+import * as localeActions from '../actions/locale';
 import { ThunkFunc } from '../types/thunk';
-import delay from '../helpers/delay';
 
-const AppContainer = styled.div`
+const HomeContainer = styled.div`
   display: flex;
 `;
-export interface IAppProps {
+export interface IHomeProps {
   cardData: CardData[];
   rawCardData: RawCardData;
   fetchStatus: string;
   fetchCards: () => void;
+  fetchDetails: (locale: Locale) => void;
   setCards: (cards: CardData[]) => void;
+  setLocale: (locale: Locale) => void;
 }
 function sortByProvision(a: CardData, b: CardData) {
   return a.provision - b.provision;
 }
-class App extends Component<IAppProps> {
+const getCurrentLocale = () => {
+  const navigator: any = window.navigator;
+  if (navigator.languages) {
+    return navigator.languages[0];
+  } else {
+    return Locale['KR'];
+  }
+};
+class Home extends Component<IHomeProps> {
   async componentDidMount() {
     let Cards: any;
-    const { fetchCards, setCards } = this.props;
+    const locale = getCurrentLocale();
+    const { fetchCards, fetchDetails, setCards, setLocale } = this.props;
+    console.log(locale);
     await fetchCards();
     // 카드 스피너를 위한 delay 살짝~
     const { fetchStatus, rawCardData } = this.props;
@@ -51,10 +68,10 @@ class App extends Component<IAppProps> {
       );
     }
     return (
-      <AppContainer>
+      <HomeContainer>
         <Sidebar />
         <Main cardData={cardData} />
-      </AppContainer>
+      </HomeContainer>
     );
   }
 }
@@ -66,9 +83,11 @@ const mapStateToProps = (state: IRootState) => ({
 });
 const mapDispatchToProps = (dispatch: ThunkFunc) => ({
   fetchCards: () => dispatch(cardActions.fetchCards()),
+  fetchDetails: (locale: Locale) => dispatch(cardActions.fetchDetails(locale)),
   setCards: (cards: CardData[]) => dispatch(cardActions.setCards(cards)),
+  setLocale: (locale: Locale) => dispatch(localeActions.setLocale(locale)),
 });
 export default connect(
   mapStateToProps,
   mapDispatchToProps,
-)(App);
+)(Home);

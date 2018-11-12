@@ -1,5 +1,5 @@
-import App from './App';
+import Home from './Home';
 import Main from './Main';
 import Sidebar from './Sidebar';
 
-export { App, Main, Sidebar };
+export { Home, Main, Sidebar };

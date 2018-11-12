@@ -19,7 +19,14 @@ export interface CardData {
   mulligans?: number;
   [attrKey: string]: any;
 }
-
+export interface CardDataList {
+  leader: {
+    [cardId: string]: CardData;
+  };
+  normal: {
+    [cardId: string]: CardData;
+  };
+}
 interface Variations {
   [key: string]: Variation;
 }

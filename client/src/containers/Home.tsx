@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import { connect } from 'react-redux';
-import { Main, Sidebar } from '.';
+import { Main, Sidebar, Header } from '.';
 import { FlipCard } from '../components';
 import { CardData, RawCardData } from '../../../shared/ICardData';
 import {
@@ -68,10 +68,13 @@ class Home extends Component<IHomeProps> {
       );
     }
     return (
-      <HomeContainer>
-        <Sidebar />
-        <Main cardData={cardData} />
-      </HomeContainer>
+      <>
+        <Header />
+        <HomeContainer>
+          <Sidebar />
+          <Main cardData={cardData} />
+        </HomeContainer>
+      </>
     );
   }
 }

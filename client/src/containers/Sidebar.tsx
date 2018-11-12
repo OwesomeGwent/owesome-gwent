@@ -13,14 +13,12 @@ const Container = styled.div`
   flex: 0;
   justify-content: center;
   flex-basis: 300px;
-  padding: 8px;
 `;
 
 const Sidebar: React.SFC<ISidebarProps> = ({
   randomLeader: { variations },
 }) => {
-  const randomLeaderImg =
-    variations[Object.keys(variations)[0]].art;
+  const randomLeaderImg = variations[Object.keys(variations)[0]].art;
   return (
     <Container>
       <StateToggleBox backgroundLeader={randomLeaderImg} />

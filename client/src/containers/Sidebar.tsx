@@ -33,7 +33,7 @@ const pickRandom = (arr: any[]): any => {
 };
 const mapStateToProps = (state: IRootState) => ({
   randomLeader: pickRandom(
-    state.card.cards.filter(card => card.cardType === 'Leader'),
+    state.card.cards.leader.filter(card => card.cardType === 'Leader'),
   ),
 });
 

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { connect } from 'react-redux';
 import { Main, Sidebar, Header } from '.';
 import { FlipCard } from '../components';
-import { CardData, RawCardData } from '../../../shared/ICardData';
+import { CardData, CardDataList } from '../../../shared/ICardData';
 import {
   CardLocaleData,
   CardLocaleDataList,
@@ -18,12 +18,15 @@ const HomeContainer = styled.div`
   display: flex;
 `;
 export interface IHomeProps {
-  cardData: CardData[];
-  rawCardData: RawCardData;
+  cardData: {
+    leader: CardData[];
+    normal: CardData[];
+  };
+  rawCardData: CardDataList;
   fetchStatus: string;
   fetchCards: () => void;
   fetchDetails: (locale: Locale) => void;
-  setCards: (cards: CardData[]) => void;
+  setCards: (leader: CardData[], normal: CardData[]) => void;
   setLocale: (locale: Locale) => void;
 }
 function sortByProvision(a: CardData, b: CardData) {
@@ -51,15 +54,21 @@ class Home extends Component<IHomeProps> {
     } else {
       Cards = rawCardData;
     }
-    let cardData: CardData[] = Object.keys(Cards).map(card => Cards[card]);
-    cardData = cardData.slice().sort(sortByProvision);
-    setCards(cardData);
+    let [leader, normal] = Object.values(Cards).map(cards => {
+      return Object.values(cards)
+        .map(card => card)
+        .slice()
+        .sort(sortByProvision);
+    });
+    // let cardData: CardData[] = Object.keys(Cards).map(card => Cards[card]);
+    // cardData = cardData.slice().sort(sortByProvision);
+    setCards(leader, normal);
   }
 
   render() {
     const { cardData } = this.props;
     // flag 설정 필요?
-    if (cardData.length <= 0) {
+    if (cardData.normal.length <= 0) {
       return (
         <>
           <h2 style={{ textAlign: 'center' }}>Fetching Card Data...</h2>
@@ -87,7 +96,8 @@ const mapStateToProps = (state: IRootState) => ({
 const mapDispatchToProps = (dispatch: ThunkFunc) => ({
   fetchCards: () => dispatch(cardActions.fetchCards()),
   fetchDetails: (locale: Locale) => dispatch(cardActions.fetchDetails(locale)),
-  setCards: (cards: CardData[]) => dispatch(cardActions.setCards(cards)),
+  setCards: (leader: CardData[], normal: CardData[]) =>
+    dispatch(cardActions.setCards(leader, normal)),
   setLocale: (locale: Locale) => dispatch(localeActions.setLocale(locale)),
 });
 export default connect(

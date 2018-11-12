@@ -1,16 +1,20 @@
 import produce from 'immer';
-import { CardData, RawCardData } from '../../../shared/ICardData';
+import { CardData, CardDataList } from '../../../shared/ICardData';
 import { CardLocaleData, Locale } from '../../../shared/ILocaleData';
-import { ICardAction } from '../actions/card';
 import * as ActionType from '../actions/ActionTypes';
+import { ICardAction } from '../actions/card';
 
 interface IRawCards {
-  readonly cards: RawCardData;
+  readonly cards: CardDataList;
   readonly status: 'SUCCESS' | 'ERROR' | 'INIT' | 'FETCHING';
+}
+interface ICards {
+  readonly leader: CardData[];
+  readonly normal: CardData[];
 }
 export interface ICardState {
   readonly rawCards: IRawCards;
-  readonly cards: CardData[];
+  readonly cards: ICards;
   readonly currentCards: CardData[];
   readonly detail: {
     readonly status: 'SUCCESS' | 'ERROR' | 'INIT' | 'FETCHING';
@@ -19,15 +23,21 @@ export interface ICardState {
 }
 
 const initialState: ICardState = {
-  rawCards: {
-    cards: {},
-    status: 'INIT',
+  cards: {
+    leader: [],
+    normal: [],
   },
-  cards: [],
   currentCards: [],
   detail: {
-    status: 'INIT',
     localeData: {},
+    status: 'INIT',
+  },
+  rawCards: {
+    cards: {
+      leader: {},
+      normal: {},
+    },
+    status: 'INIT',
   },
 };
 const reducer = (
@@ -54,10 +64,10 @@ const reducer = (
       }
       case ActionType.FETCH_DETAILS_SUCCESS: {
         draft.detail = {
-          status: 'SUCCESS',
           localeData: {
             [action.locale]: action.localeData,
           },
+          status: 'SUCCESS',
         };
         break;
       }
@@ -66,7 +76,10 @@ const reducer = (
         break;
       }
       case ActionType.SET_CARDS:
-        draft.cards = action.cards;
+        draft.cards = {
+          leader: action.leader,
+          normal: action.normal,
+        };
         break;
       default:
         return;

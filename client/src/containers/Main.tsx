@@ -8,36 +8,53 @@ const Container = styled.div`
   flex: 1;
 `;
 export interface IMainProps {
-  cardData: CardData[];
+  cardData: {
+    leader: CardData[];
+    normal: CardData[];
+  };
 }
 interface IMainState {
-  readonly cards: CardData[];
+  readonly cards: {
+    leader: CardData[];
+    normal: CardData[];
+  };
   readonly page: number;
   readonly isLast: boolean;
 }
 class Main extends Component<IMainProps, IMainState> {
   state = {
-    cards: [],
+    cards: {
+      leader: [],
+      normal: [],
+    },
     page: 1,
     isLast: false,
   };
   componentDidMount() {
-    const initCard = this.props.cardData.slice(0, PER_PAGE);
-    this.setState({
-      cards: initCard,
-    });
+    const { normal } = this.props.cardData;
+    const initCard = normal.slice(0, PER_PAGE);
+    this.setState((state: IMainState) => ({
+      ...state,
+      cards: {
+        ...state.cards,
+        normal: initCard,
+      },
+    }));
   }
   handleFetchMore = () => {
     // 현재 filter에 맞는 데이터를 더 가져옴.
     const { page } = this.state;
-    const { cardData } = this.props;
-    const next = Math.min((page + 1) * PER_PAGE, cardData.length - 1);
-    const cards = cardData.slice(0, next);
-    this.setState({
-      cards,
+    const { normal } = this.props.cardData;
+    const next = Math.min((page + 1) * PER_PAGE, normal.length - 1);
+    const cards = normal.slice(0, next);
+    this.setState((state: IMainState) => ({
+      cards: {
+        ...state.cards,
+        normal: cards,
+      },
       page: page + 1,
-      isLast: next >= cardData.length - 1, // 임시
-    });
+      isLast: next >= normal.length - 1, // 임시
+    }));
   };
   render() {
     const { cards, isLast } = this.state;
@@ -45,7 +62,7 @@ class Main extends Component<IMainProps, IMainState> {
       <Container>
         {/* Filter */}
         <CardList
-          cards={cards}
+          cards={cards.normal}
           fetchMore={this.handleFetchMore}
           isLast={isLast}
         />

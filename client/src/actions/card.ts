@@ -1,18 +1,18 @@
 import { Dispatch } from 'redux';
+import { CardData, CardDataList } from '../../../shared/ICardData';
+import { CardLocaleDataList } from '../../../shared/ILocaleData';
+import { fetchDefs } from '../apis/defs';
+import { Locale } from '../types/locale';
+import { ThunkResult } from '../types/thunk';
 import {
-  FETCH_CARDS_REQUEST,
   FETCH_CARDS_FAILURE,
+  FETCH_CARDS_REQUEST,
   FETCH_CARDS_SUCCESS,
   FETCH_DETAILS_FAILURE,
   FETCH_DETAILS_REQUEST,
   FETCH_DETAILS_SUCCESS,
   SET_CARDS,
 } from './ActionTypes';
-import { CardData, RawCardData } from '../../../shared/ICardData';
-import { CardLocaleDataList } from '../../../shared/ILocaleData';
-import { Locale } from '../types/locale';
-import { fetchDefs } from '../apis/defs';
-import { ThunkResult } from '../types/thunk';
 
 // TODO: Error handling
 export interface IFetchCards {
@@ -23,7 +23,7 @@ export interface IFetchCardsFailure {
 }
 export interface IFetchCardsSuccess {
   type: typeof FETCH_CARDS_SUCCESS;
-  cards: RawCardData;
+  cards: CardDataList;
 }
 export interface IFetchDetails {
   type: typeof FETCH_DETAILS_REQUEST;
@@ -38,7 +38,8 @@ export interface IFetchDetailsFailure {
 }
 export interface ISetCards {
   type: typeof SET_CARDS;
-  cards: CardData[];
+  leader: CardData[];
+  normal: CardData[];
 }
 export type ICardAction =
   | IFetchCards
@@ -61,8 +62,8 @@ export const fetchCards = (): ThunkResult<void, IFetchCards> => {
         data: { data: cards },
       } = await fetchDefs('card-data');
       dispatch({
-        type: FETCH_CARDS_SUCCESS,
         cards,
+        type: FETCH_CARDS_SUCCESS,
       });
     } catch (err) {
       dispatch({
@@ -72,7 +73,7 @@ export const fetchCards = (): ThunkResult<void, IFetchCards> => {
   };
 };
 export const fetchDetails = (
-  locale: Locale = Locale['KR'],
+  locale: Locale = Locale.KR,
 ): ThunkResult<void, ICardAction> => {
   return async (dispatch: Dispatch<ICardAction>) => {
     dispatch({
@@ -83,9 +84,9 @@ export const fetchDetails = (
         data: { data: localeData },
       } = await fetchDefs(`${locale}`);
       dispatch({
-        type: FETCH_DETAILS_SUCCESS,
         locale,
         localeData,
+        type: FETCH_DETAILS_SUCCESS,
       });
     } catch (err) {
       dispatch({
@@ -94,9 +95,10 @@ export const fetchDetails = (
     }
   };
 };
-export const setCards = (cards: CardData[]): ISetCards => {
+export const setCards = (leader: CardData[], normal: CardData[]): ISetCards => {
   return {
+    leader,
+    normal,
     type: SET_CARDS,
-    cards,
   };
 };

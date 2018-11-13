@@ -25,9 +25,6 @@ const TYPE: IMapper = {
   Special: 4,
   Leader: 5,
 };
-const cardStyle: React.CSSProperties = {
-  zIndex: 2,
-};
 export interface ICardProps {
   card: CardData;
 }
@@ -58,7 +55,6 @@ const Card: React.SFC<ICardProps> = ({ card }) => {
         data-mulligan={mulligans}
         data-group={TYPE[type]}
         data-rarity={RARITY[rarity]}
-        style={cardStyle}
       >
         <div className="c-card__front-container">
           <div className="c-card__front">

@@ -1,6 +1,6 @@
 import produce from 'immer';
 import { CardData, CardDataList } from '../../../shared/ICardData';
-import { CardLocaleData, Locale } from '../../../shared/ILocaleData';
+import { CardLocaleDataList, Locale } from '../../../shared/ILocaleData';
 import * as ActionType from '../actions/ActionTypes';
 import { ICardAction } from '../actions/card';
 
@@ -18,7 +18,7 @@ export interface ICardState {
   readonly currentCards: CardData[];
   readonly detail: {
     readonly status: 'SUCCESS' | 'ERROR' | 'INIT' | 'FETCHING';
-    readonly localeData: { [locale in Locale]?: CardLocaleData };
+    readonly localeData: { [locale in Locale]?: CardLocaleDataList };
   };
 }
 

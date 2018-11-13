@@ -1,8 +1,7 @@
 import { Dispatch } from 'redux';
 import { CardData, CardDataList } from '../../../shared/ICardData';
-import { CardLocaleDataList } from '../../../shared/ILocaleData';
+import { CardLocaleDataList, Locale } from '../../../shared/ILocaleData';
 import { fetchDefs } from '../apis/defs';
-import { Locale } from '../types/locale';
 import { ThunkResult } from '../types/thunk';
 import {
   FETCH_CARDS_FAILURE,
@@ -13,7 +12,6 @@ import {
   FETCH_DETAILS_SUCCESS,
   SET_CARDS,
 } from './ActionTypes';
-
 // TODO: Error handling
 export interface IFetchCards {
   type: typeof FETCH_CARDS_REQUEST;
@@ -81,11 +79,11 @@ export const fetchDetails = (
     });
     try {
       const {
-        data: { data: localeData },
+        data: { data: localeDataList },
       } = await fetchDefs(`${locale}`);
       dispatch({
         locale,
-        localeData,
+        localeData: localeDataList.cards,
         type: FETCH_DETAILS_SUCCESS,
       });
     } catch (err) {

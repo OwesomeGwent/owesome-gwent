@@ -1,10 +1,11 @@
 import produce from 'immer';
+import { Locale } from '../../../shared/ILocaleData';
 import { SET_LOCALE } from '../actions/ActionTypes';
 import { LOCALE_ACTION } from '../actions/locale';
-import { Locale } from '../../../shared/ILocaleData';
+import localeMapper from '../helpers/localeMapper';
 
 export type ILocaleState = Locale;
-const initialState: Locale = Locale['KR'];
+const initialState: Locale = localeMapper();
 
 const reducer = (
   state: Locale = initialState,

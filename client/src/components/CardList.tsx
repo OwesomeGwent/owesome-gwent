@@ -1,7 +1,7 @@
+import Grid from '@material-ui/core/Grid';
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Grid from '@material-ui/core/Grid';
-import { Card } from '.';
+import { Card, CardDetail, WithPopover } from '.';
 import { CardData } from '../../../shared/ICardData';
 export interface ICardListProps {
   cards: CardData[];
@@ -11,46 +11,48 @@ export interface ICardListProps {
 }
 
 class CardList extends Component<ICardListProps> {
-  _debounce = false;
-  static defaultProps = {
+  public static defaultProps = {
     title: '',
     fetchMore: null,
     isLast: false,
   };
-  componentDidMount() {
+  public debounce = false;
+  public componentDidMount() {
     this.addScrollEvent();
   }
-  componentWillUnmount() {
+  public componentWillUnmount() {
     this.removeScrollEvent();
   }
-  componentDidUpdate = (prevProps: ICardListProps) => {
+  public componentDidUpdate = (prevProps: ICardListProps) => {
     if (this.props.isLast) {
       this.removeScrollEvent();
     }
   };
-  addScrollEvent = () => {
-    this.props.fetchMore &&
+  public addScrollEvent = () => {
+    if (this.props.fetchMore) {
       document.addEventListener('scroll', this.handleScroll);
+    }
   };
-  removeScrollEvent = () => {
-    this.props.fetchMore &&
+  public removeScrollEvent = () => {
+    if (this.props.fetchMore) {
       document.removeEventListener('scroll', this.handleScroll);
+    }
   };
-  initDebounce = () => {
-    this._debounce = false;
+  public initDebounce = () => {
+    this.debounce = false;
   };
-  handleScroll = () => {
+  public handleScroll = () => {
     const { body } = document;
     if (
-      !this._debounce &&
+      !this.debounce &&
       window.scrollY + window.innerHeight >= body.scrollHeight - 100
     ) {
-      this._debounce = true;
+      this.debounce = true;
       setTimeout(this.initDebounce, 1000);
       this.props.fetchMore();
     }
   };
-  render() {
+  public render() {
     const { cards, title } = this.props;
     return (
       <>
@@ -58,7 +60,10 @@ class CardList extends Component<ICardListProps> {
         <Grid container spacing={24}>
           {cards.map((card, i) => (
             <Grid key={i} item xs>
-              <Card key={i} card={card} />
+              <WithPopover
+                Hover={<CardDetail cardId={card.ingameId} />}
+                Main={<Card card={card} />}
+              />
             </Grid>
           ))}
         </Grid>

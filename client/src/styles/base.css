@@ -29,7 +29,6 @@
   will-change: transform;
   height: 100%;
   position: relative;
-  z-index: 1;
 }
 
 .c-card__back {

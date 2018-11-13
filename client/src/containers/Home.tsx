@@ -11,6 +11,7 @@ import {
 import * as cardActions from '../actions/card';
 import * as localeActions from '../actions/locale';
 import { FlipCard } from '../components';
+import localeMapper from '../helpers/localeMapper';
 import { IRootState } from '../reducers';
 import { ThunkFunc } from '../types/thunk';
 
@@ -41,9 +42,9 @@ const sortByProvision = (a: CardData, b: CardData) => {
 const getCurrentLocale = () => {
   const navigator: any = window.navigator;
   if (navigator.languages) {
-    return navigator.languages[0];
+    return localeMapper(navigator.languages[0]);
   } else {
-    return Locale.KR;
+    return localeMapper();
   }
 };
 class Home extends Component<IHomeProps> {
@@ -51,7 +52,7 @@ class Home extends Component<IHomeProps> {
     let Cards: any;
     const locale = getCurrentLocale();
     const { fetchCards, fetchDetails, setCards, setLocale } = this.props;
-    await Promise.all([fetchCards(), fetchDetails(Locale.KR)]);
+    await Promise.all([fetchCards(), fetchDetails(locale)]);
     // 카드 스피너를 위한 delay 살짝~
     const { fetchStatus, rawCardData } = this.props;
     Cards =

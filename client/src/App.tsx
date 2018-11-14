@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import { createGlobalStyle } from 'styled-components';
 import { MuiThemeProvider } from '@material-ui/core/styles';
 import createMuiTheme, {
   ThemeOptions,
 } from '@material-ui/core/styles/createMuiTheme';
+import React, { Component } from 'react';
 import { Provider } from 'react-redux';
-import createStore from './store/createStore';
+import { createGlobalStyle } from 'styled-components';
 import { Home } from './containers';
+import createStore from './store/createStore';
 /* 초기 작업 여기서 */
 const GlobalStyle = createGlobalStyle`
 html {
@@ -179,7 +179,7 @@ const theme = createMuiTheme({
   palette: {
     primary: {
       light: '#6d6d6d',
-      dark: '#1b1b1b',
+      dark: '#24282A',
       main: '#424242',
       contrastText: '#ffffff',
     },
@@ -193,7 +193,7 @@ const theme = createMuiTheme({
 });
 
 export default class App extends Component {
-  render() {
+  public render() {
     return (
       <MuiThemeProvider theme={theme}>
         <GlobalStyle />

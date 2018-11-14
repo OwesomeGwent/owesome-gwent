@@ -1,12 +1,5 @@
-import Paper from '@material-ui/core/Paper';
 import Popper from '@material-ui/core/Popper';
 import React, { Component, ReactNode } from 'react';
-import styled from 'styled-components';
-
-const EnhancedPaper = styled(Paper)`
-  padding: 10px;
-  z-index: 101;
-`;
 
 export interface IWithPopoverProps {
   Hover: ReactNode;
@@ -29,6 +22,7 @@ class WithPopover extends Component<IWithPopoverProps, IWithPopoverState> {
       anchorEl: null,
     });
   };
+  // style pointerEvents: 'none' -> flickering 해결.
   public render() {
     const { Main, Hover } = this.props;
     const { anchorEl } = this.state;
@@ -36,13 +30,27 @@ class WithPopover extends Component<IWithPopoverProps, IWithPopoverState> {
     return (
       <>
         <div
-          onMouseOver={this.handlePopoverOpen}
-          onMouseOut={this.handlePopoverClose}
+          onMouseEnter={this.handlePopoverOpen}
+          onMouseLeave={this.handlePopoverClose}
         >
           {Main}
         </div>
-        <Popper id="mouse-over-popover" open={open} anchorEl={anchorEl}>
-          <EnhancedPaper>{Hover}</EnhancedPaper>
+        <Popper
+          id="mouse-over-popover"
+          open={open}
+          anchorEl={anchorEl}
+          style={{ pointerEvents: 'none' }}
+          modifiers={{
+            flip: {
+              enabled: true,
+            },
+            preventOverflow: {
+              enabled: true,
+              boundariesElement: 'scrollParent',
+            },
+          }}
+        >
+          {Hover}
         </Popper>
       </>
     );

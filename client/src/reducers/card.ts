@@ -1,6 +1,11 @@
 import produce from 'immer';
 import { CardData, CardDataList } from '../../../shared/ICardData';
-import { CardLocaleDataList, Locale } from '../../../shared/ILocaleData';
+import {
+  CardLocaleDataList,
+  CategoryLocaleDataList,
+  KeyWordLocaleDataList,
+  Locale,
+} from '../../../shared/ILocaleData';
 import * as ActionType from '../actions/ActionTypes';
 import { ICardAction } from '../actions/card';
 
@@ -19,6 +24,8 @@ export interface ICardState {
   readonly detail: {
     readonly status: 'SUCCESS' | 'ERROR' | 'INIT' | 'FETCHING';
     readonly localeData: { [locale in Locale]?: CardLocaleDataList };
+    readonly localeKeywords: { [locale in Locale]?: KeyWordLocaleDataList };
+    readonly localeCategories: { [locale in Locale]?: CategoryLocaleDataList };
   };
 }
 
@@ -30,6 +37,8 @@ const initialState: ICardState = {
   currentCards: [],
   detail: {
     localeData: {},
+    localeKeywords: {},
+    localeCategories: {},
     status: 'INIT',
   },
   rawCards: {
@@ -64,10 +73,17 @@ const reducer = (
       }
       case ActionType.FETCH_DETAILS_SUCCESS: {
         draft.detail = {
+          ...draft.detail,
+          status: 'SUCCESS',
           localeData: {
             [action.locale]: action.localeData,
           },
-          status: 'SUCCESS',
+          localeKeywords: {
+            [action.locale]: action.localeKeywords,
+          },
+          localeCategories: {
+            [action.locale]: action.localeCategories,
+          },
         };
         break;
       }

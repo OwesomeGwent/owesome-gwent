@@ -6,6 +6,7 @@ import { CardData } from '../../../shared/ICardData';
 export interface ICardListProps {
   cards: CardData[];
   title: string;
+  type: 'leader' | 'normal';
   fetchMore: () => void;
   isLast: boolean;
 }
@@ -53,7 +54,7 @@ class CardList extends Component<ICardListProps> {
     }
   };
   public render() {
-    const { cards, title } = this.props;
+    const { cards, title, type } = this.props;
     return (
       <>
         <h2>{title}</h2>
@@ -61,7 +62,14 @@ class CardList extends Component<ICardListProps> {
           {cards.map((card, i) => (
             <Grid key={i} item xs>
               <WithPopover
-                Hover={<CardDetail cardId={card.ingameId} />}
+                Hover={
+                  <CardDetail
+                    cardId={card.ingameId}
+                    categoryIds={card.categoryIds}
+                    type={type}
+                    keywords={card.keywords}
+                  />
+                }
                 Main={<Card card={card} />}
               />
             </Grid>

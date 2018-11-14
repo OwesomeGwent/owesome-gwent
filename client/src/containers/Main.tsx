@@ -61,9 +61,10 @@ class Main extends Component<IMainProps, IMainState> {
     return (
       <Container>
         {/* Filter */}
-        <CardList cards={cards.leader} />
+        <CardList cards={cards.leader} type="leader" />
         <CardList
           cards={cards.normal}
+          type="normal"
           fetchMore={this.handleFetchMore}
           isLast={isLast}
         />

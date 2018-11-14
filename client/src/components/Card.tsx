@@ -1,7 +1,6 @@
 import React from 'react';
 import { CardData } from '../../../shared/ICardData';
-export const BASE_IMAGE_PATH =
-  'https://res.cloudinary.com/godsenal/image/upload/v1541344313/gwent/card';
+import { BASE_IMAGE_PATH } from '../apis/defs';
 
 interface IMapper {
   [key: string]: number;

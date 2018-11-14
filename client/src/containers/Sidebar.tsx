@@ -2,11 +2,16 @@ import React from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
 import { CardData } from '../../../shared/ICardData';
-import StateToggleBox from '../components/StateToggleBox';
+import * as DeckActions from '../actions/deck';
+import { DeckList, StateToggleBox } from '../components/Sidebar';
+import randomPicker from '../helpers/randomPicker';
 import { IRootState } from '../reducers';
+import { IDeckState } from '../reducers/deck';
 
 interface ISidebarProps {
   randomLeader: CardData;
+  deck: IDeckState;
+  setDeckMakerStatus(status: DeckActions.DeckMakerStatus): void;
 }
 
 const Container = styled.div`
@@ -17,21 +22,34 @@ const Container = styled.div`
 
 const Sidebar: React.SFC<ISidebarProps> = ({
   randomLeader: { variations },
+  deck,
+  setDeckMakerStatus,
 }) => {
-  const randomLeaderImg = variations[Object.keys(variations)[0]].art;
+  if (deck.deckMakerStatus === 'INIT') {
+    const randomLeaderImg = variations[Object.keys(variations)[0]].art;
+    return (
+      <Container>
+        <StateToggleBox
+          backgroundLeader={randomLeaderImg}
+          onToggle={() => setDeckMakerStatus('DECKMAKE')}
+        />
+      </Container>
+    );
+  }
+
   return (
     <Container>
-      <StateToggleBox backgroundLeader={randomLeaderImg} />
+      <DeckList />;
     </Container>
   );
 };
 
-const pickRandom = (arr: any[]): any => {
-  const a = arr[Math.floor(Math.random() * arr.length)];
-  return a;
-};
 const mapStateToProps = (state: IRootState) => ({
-  randomLeader: pickRandom(state.card.cards.leader),
+  randomLeader: randomPicker(state.card.cards.leader),
+  deck: state.deck,
 });
 
-export default connect(mapStateToProps)(Sidebar);
+export default connect(
+  mapStateToProps,
+  { ...DeckActions },
+)(Sidebar);

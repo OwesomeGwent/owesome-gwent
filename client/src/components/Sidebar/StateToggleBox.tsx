@@ -1,10 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-import { BASE_IMAGE_PATH } from './Card';
+import { BASE_IMAGE_PATH } from '../../apis/defs';
 
 interface IStateToggleBoxProps {
   backgroundLeader: string;
+  onToggle(): void;
 }
+
+// prettier-ignore
 const Box = styled.div`
   width: 100%;
   height: 300px;
@@ -12,11 +15,7 @@ const Box = styled.div`
   justify-content: center;
   align-items: center;
   box-shadow: 0px 0px 3px 0px #aaaaaa;
-  background-image: url(${({
-    backgroundLeader,
-  }: {
-    backgroundLeader: string;
-  }) => `${BASE_IMAGE_PATH}/${backgroundLeader}0000.png`});
+  background-image: url(${({ backgroundLeader }:{ backgroundLeader: string }) => `${BASE_IMAGE_PATH}/${backgroundLeader}0000.png`});
 `;
 
 const Button = styled.button`
@@ -27,10 +26,11 @@ const Button = styled.button`
 
 const StateToggleBox: React.SFC<IStateToggleBoxProps> = ({
   backgroundLeader,
+  onToggle,
 }) => {
   return (
     <Box backgroundLeader={backgroundLeader}>
-      <Button>덱 만들기~</Button>
+      <Button onClick={onToggle}>덱 만들기~</Button>
     </Box>
   );
 };

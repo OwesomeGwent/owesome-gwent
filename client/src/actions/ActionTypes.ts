@@ -10,3 +10,11 @@ export const SET_CARDS = 'SET_CARDS';
 export const SET_FILTER = 'SET_FILTER';
 
 export const SET_LOCALE = 'SET_LOCALE';
+
+export const SET_DECKMAKER_STATUS = 'SET_DECKMAKER_STATUS';
+
+export const SELECT_LEADER = 'SELECT_LEADER';
+export const REMOVE_LEADER = 'REMOVE_LEADER';
+
+export const SELECT_CARD = 'SELECT_CARD';
+export const REMOVE_CARD = 'REMOVE_CARD';

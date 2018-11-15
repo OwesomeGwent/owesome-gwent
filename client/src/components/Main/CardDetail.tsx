@@ -12,13 +12,13 @@ import { connect } from 'react-redux';
 import {
   CardLocaleDataList,
   KeyWordLocaleDataList,
-} from '../../../shared/ILocaleData';
-import { IRootState } from '../reducers';
+} from '../../../../shared/ILocaleData';
+import { IRootState } from '../../reducers';
 import {
   makeGetCardDetailByLocale,
   makeGetCategoryByLocale,
   makeGetkeywordInfoByLocale,
-} from '../selectors';
+} from '../../selectors';
 
 const INFO_REG = new RegExp(/<keyword=(\w+)>(.+?)<\/keyword>/, 'gim');
 const KEYWORD_REG = new RegExp(/<(.+?)>(.+?)<\/color>/, 'gim');

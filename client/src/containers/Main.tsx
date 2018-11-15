@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import { CardData } from '../../../shared/ICardData';
-import { CardList } from '../components';
+import { CardList, Filter } from '../components/Main';
 
 const PER_PAGE = 40;
 const Container = styled.div`
@@ -60,7 +60,7 @@ class Main extends Component<IMainProps, IMainState> {
     const { cards, isLast } = this.state;
     return (
       <Container>
-        {/* Filter */}
+        <Filter />
         <CardList cards={cards.leader} type="leader" />
         <CardList
           cards={cards.normal}

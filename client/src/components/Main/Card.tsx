@@ -1,6 +1,6 @@
 import React from 'react';
-import { CardData } from '../../../shared/ICardData';
-import { BASE_IMAGE_PATH } from '../apis/defs';
+import { CardData } from '../../../../shared/ICardData';
+import { BASE_IMAGE_PATH } from '../../apis/defs';
 
 interface IMapper {
   [key: string]: number;

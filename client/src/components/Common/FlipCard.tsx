@@ -1,5 +1,5 @@
 import React from 'react';
-import baseImage from '../img/card-reveals/cards/m/12950000.png';
+import baseImage from '../../img/card-reveals/cards/m/12950000.png';
 import './flip.css';
 
 export interface IFlipCardProps {

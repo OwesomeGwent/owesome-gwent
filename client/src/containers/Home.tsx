@@ -10,7 +10,7 @@ import {
 } from '../../../shared/ILocaleData';
 import * as cardActions from '../actions/card';
 import * as localeActions from '../actions/locale';
-import { FlipCard } from '../components';
+import { FlipCard } from '../components/Common';
 import localeMapper from '../helpers/localeMapper';
 import { IRootState } from '../reducers';
 import { ThunkFunc } from '../types/thunk';

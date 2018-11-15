@@ -1,8 +1,9 @@
 import Grid from '@material-ui/core/Grid';
 import React, { Component } from 'react';
-import styled from 'styled-components';
-import { Card, CardDetail, WithPopover } from '.';
-import { CardData } from '../../../shared/ICardData';
+import { Card, CardDetail } from '.';
+import { CardData } from '../../../../shared/ICardData';
+import { WithPopover } from '../Common';
+
 export interface ICardListProps {
   cards: CardData[];
   title: string;

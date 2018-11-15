@@ -36,7 +36,6 @@
 }
 
 @media screen and (max-width: 767px) {
-
   .flip-container .front,
   .back {
     width: 145px;
@@ -45,7 +44,6 @@
 }
 
 @media screen and (max-width: 374px) {
-
   .flip-container .front,
   .back {
     width: 120px;
@@ -86,7 +84,7 @@
 
 /* back, initially hidden pane */
 .back {
-  background-image: url(../img/card-reveals/cards/m/back.png);
+  background-image: url(../../img/card-reveals/cards/m/back.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   transform: rotateY(180deg);
@@ -99,5 +97,5 @@
   position: absolute;
   left: 0;
   top: 0;
-  background-image: url(../img/card-reveals/cards/m/frame-basis-gold.png);
+  background-image: url(../../img/card-reveals/cards/m/frame-basis-gold.png);
 }

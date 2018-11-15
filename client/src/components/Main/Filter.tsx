@@ -9,8 +9,11 @@ import {
 } from '@material-ui/core/styles';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import React from 'react';
-import { FilterField, FilterType } from '../../types/filter';
-
+import { connect } from 'react-redux';
+import { FilterItem } from '.';
+import * as filterAction from '../../actions/filter';
+import { IRootState } from '../../reducers';
+import { FilterField, filterSet, IFilter } from '../../types/filter';
 const styles = (theme: Theme) =>
   createStyles({
     panel: {
@@ -23,8 +26,12 @@ const styles = (theme: Theme) =>
       backgroundColor: theme.palette.primary.light,
     },
   });
-export interface IFilterProps extends WithStyles<typeof styles> {}
-const Filter: React.SFC<IFilterProps> = ({ classes }) => {
+export interface IFilterProps extends WithStyles<typeof styles> {
+  filter: IFilter;
+  setFilter: typeof filterAction.setFilter;
+  clearFilter: typeof filterAction.clearFilter;
+}
+const Filter: React.SFC<IFilterProps> = ({ classes, filter, setFilter }) => {
   return (
     <ExpansionPanel className={classes.panel}>
       <ExpansionPanelSummary
@@ -34,10 +41,29 @@ const Filter: React.SFC<IFilterProps> = ({ classes }) => {
         필터~
       </ExpansionPanelSummary>
       <ExpansionPanelDetails className={classes.panelDetails}>
-        까꿍~
+        {Object.keys(filterSet).map(field => {
+          const asseted = field as FilterField;
+          return (
+            <FilterItem
+              key={field}
+              filter={asseted}
+              setFilter={setFilter}
+              selected={filter[asseted]}
+            />
+          );
+        })}
       </ExpansionPanelDetails>
     </ExpansionPanel>
   );
 };
 
-export default withStyles(styles)(Filter);
+const mapStateToProps = (state: IRootState) => ({
+  filter: state.filter.filter,
+});
+
+export default withStyles(styles)(
+  connect(
+    mapStateToProps,
+    { ...filterAction },
+  )(Filter),
+);

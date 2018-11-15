@@ -1,9 +1,7 @@
 import produce from 'immer';
 import { CLEAR_FILTER, SET_FILTER } from '../actions/ActionTypes';
 import { IFilterAction } from '../actions/filter';
-import { FilterField, FilterType } from '../types/filter';
-
-type IFilter = Partial<Record<FilterField, FilterType>>;
+import { IFilter } from '../types/filter';
 
 export interface IFilterState {
   filter: IFilter;

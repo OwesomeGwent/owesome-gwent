@@ -31,7 +31,10 @@ export interface IHomeProps {
   setLocale: (locale: Locale) => void;
 }
 const sortByFaction = (a: CardData, b: CardData) => {
-  return a.faction.localeCompare(b.faction);
+  if (a.faction && b.faction) {
+    return a.faction.localeCompare(b.faction);
+  }
+  return 0;
 };
 const sortByProvision = (a: CardData, b: CardData) => {
   if (a.mulligans && b.mulligans) {

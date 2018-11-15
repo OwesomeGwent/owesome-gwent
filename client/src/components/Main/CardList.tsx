@@ -1,11 +1,15 @@
 import Grid from '@material-ui/core/Grid';
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import { Card, CardDetail } from '.';
 import { CardData } from '../../../../shared/ICardData';
+import { IRootState } from '../../reducers';
+import { makeGetFilteredCards } from '../../selectors/card';
 import { WithPopover } from '../Common';
 
 export interface ICardListProps {
   cards: CardData[];
+  filteredCards: CardData[];
   title: string;
   type: 'leader' | 'normal';
   fetchMore: () => void;
@@ -13,9 +17,9 @@ export interface ICardListProps {
 }
 
 class CardList extends Component<ICardListProps> {
-  public static defaultProps = {
+  public static defaultProps: Partial<ICardListProps> = {
     title: '',
-    fetchMore: null,
+    fetchMore: () => null,
     isLast: false,
   };
   public debounce = false;
@@ -55,12 +59,12 @@ class CardList extends Component<ICardListProps> {
     }
   };
   public render() {
-    const { cards, title, type } = this.props;
+    const { filteredCards, title, type } = this.props;
     return (
       <>
         <h2>{title}</h2>
         <Grid container spacing={24}>
-          {cards.map((card, i) => (
+          {filteredCards.map((card, i) => (
             <Grid key={i} item xs>
               <WithPopover
                 Hover={
@@ -81,4 +85,11 @@ class CardList extends Component<ICardListProps> {
   }
 }
 
-export default CardList;
+const makeMapStateToProps = () => {
+  const getFilteredCards = makeGetFilteredCards();
+  const mapState = (state: IRootState, props: ICardListProps) => ({
+    filteredCards: getFilteredCards(state, props),
+  });
+  return mapState;
+};
+export default connect(makeMapStateToProps)(CardList);

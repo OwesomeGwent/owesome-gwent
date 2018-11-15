@@ -1,6 +1,6 @@
+import express from 'express';
 import fs from 'fs';
 import path from 'path';
-import express from 'express';
 import { cache } from '../../index';
 
 const routes = express.Router();

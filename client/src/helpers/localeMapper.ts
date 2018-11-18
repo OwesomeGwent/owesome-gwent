@@ -1,6 +1,6 @@
 import { Locale } from '../../../shared/ILocaleData';
 
-const localeMap: { [locale: string]: Locale } = {
+export const localeMap: { [locale: string]: Locale } = {
   de: 'de-DE',
   en: 'en-US',
   es: 'es-ES',

@@ -3,11 +3,7 @@ import { connect } from 'react-redux';
 import styled from 'styled-components';
 import { Header, Main, Sidebar } from '.';
 import { CardData, CardDataList } from '../../../shared/ICardData';
-import {
-  CardLocaleData,
-  CardLocaleDataList,
-  Locale,
-} from '../../../shared/ILocaleData';
+import { Locale } from '../../../shared/ILocaleData';
 import * as cardActions from '../actions/card';
 import * as localeActions from '../actions/locale';
 import { FlipCard } from '../components/Common';
@@ -95,7 +91,7 @@ class Home extends Component<IHomeProps> {
         <Header />
         <HomeContainer>
           <Sidebar />
-          <Main cardData={cardData} />
+          <Main />
         </HomeContainer>
       </>
     );

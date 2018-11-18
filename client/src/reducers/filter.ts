@@ -15,7 +15,9 @@ const reducer = (state: IFilterState = initialState, action: IFilterAction) =>
   produce(state, draft => {
     switch (action.type) {
       case SET_FILTER: {
-        draft.filter[action.field] = action.value;
+        draft.filter[action.field] === action.value
+          ? (draft.filter[action.field] = initialState.filter[action.field])
+          : (draft.filter[action.field] = action.value);
         break;
       }
       case CLEAR_FILTER: {

@@ -4,9 +4,9 @@ import styled from 'styled-components';
 import { CardData } from '../../../shared/ICardData';
 import * as DeckActions from '../actions/deck';
 import { DeckList, StateToggleBox } from '../components/Sidebar';
-import randomPicker from '../helpers/randomPicker';
 import { IRootState } from '../reducers';
 import { IDeckState } from '../reducers/deck';
+import { getRandomLeader } from '../selectors/random';
 
 interface ISidebarProps {
   randomLeader: CardData;
@@ -45,7 +45,7 @@ const Sidebar: React.SFC<ISidebarProps> = ({
 };
 
 const mapStateToProps = (state: IRootState) => ({
-  randomLeader: randomPicker(state.card.cards.leader),
+  randomLeader: getRandomLeader(state),
   deck: state.deck,
 });
 

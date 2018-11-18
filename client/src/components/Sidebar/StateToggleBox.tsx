@@ -9,7 +9,8 @@ interface IStateToggleBoxProps {
 
 // prettier-ignore
 const Box = styled.div`
-  width: 100%;
+  width: 80%;
+  margin: auto;
   height: 300px;
   display: flex;
   justify-content: center;

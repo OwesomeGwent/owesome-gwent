@@ -10,10 +10,10 @@ import {
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import React from 'react';
 import { connect } from 'react-redux';
-import { FilterItem } from '.';
-import * as filterAction from '../../actions/filter';
-import { IRootState } from '../../reducers';
-import { FilterField, filterSet, IFilter } from '../../types/filter';
+import * as filterAction from '../actions/filter';
+import { FilterItem } from '../components/Filter';
+import { IRootState } from '../reducers';
+import { FilterField, filterSet, IFilter } from '../types/filter';
 const styles = (theme: Theme) =>
   createStyles({
     panel: {
@@ -23,7 +23,8 @@ const styles = (theme: Theme) =>
       backgroundColor: theme.palette.primary.dark,
     },
     panelDetails: {
-      backgroundColor: theme.palette.primary.light,
+      backgroundColor: theme.palette.primary.dark,
+      color: theme.palette.primary.contrastText,
     },
   });
 export interface IFilterProps extends WithStyles<typeof styles> {
@@ -42,13 +43,13 @@ const Filter: React.SFC<IFilterProps> = ({ classes, filter, setFilter }) => {
       </ExpansionPanelSummary>
       <ExpansionPanelDetails className={classes.panelDetails}>
         {Object.keys(filterSet).map(field => {
-          const asseted = field as FilterField;
+          const asserted = field as FilterField;
           return (
             <FilterItem
               key={field}
-              filter={asseted}
+              filter={asserted}
               setFilter={setFilter}
-              selected={filter[asseted]}
+              selected={filter[asserted]}
             />
           );
         })}

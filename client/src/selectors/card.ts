@@ -1,18 +1,20 @@
 import intersection from 'lodash/intersection';
 import { createSelector } from 'reselect';
 import { CardData } from '../../../shared/ICardData';
+import useCache from '../helpers/cache';
 import { IRootState } from '../reducers';
+import { IFilter } from '../types/filter';
+
+type CardType = 'leader' | 'normal';
 
 const getFilter = (state: IRootState) => state.filter.filter;
-const getCardsByType = (state: IRootState, type: 'leader' | 'normal') =>
+const getType = (_: IRootState, type: CardType) => type;
+const getCardsByType = (state: IRootState, type: CardType) =>
   state.card.cards[type];
 
-const getFilteredCards = createSelector(
-  getFilter,
-  getCardsByType,
-  (filter, cards) => {
-    const filterEntry = Object.entries(filter);
-    return cards.filter(card => {
+const getCachedCards = useCache(
+  (filterEntry: Array<[string, {}]>, cards: CardData[]) => {
+    const matchCards = cards.filter(card => {
       const isMatched = filterEntry.every(([field, value]) => {
         if (!value) {
           return true;
@@ -37,6 +39,30 @@ const getFilteredCards = createSelector(
       });
       return isMatched;
     });
+    return matchCards;
+  },
+);
+
+const getFilteredCards = createSelector(
+  getFilter,
+  getType,
+  getCardsByType,
+  (filter, type, cards) => {
+    const filterEntry = Object.entries(filter);
+    const keys = filterEntry.reduce(
+      (acc, [_, value]) => {
+        if (!value) {
+          return acc;
+        }
+        if (Array.isArray(value)) {
+          return [...acc, ...value];
+        }
+        return [...acc, value];
+      },
+      [] as string[],
+    );
+    const key = `${type}/${keys.sort((a, b) => a.localeCompare(b))}`;
+    return getCachedCards(filterEntry, cards, key);
   },
 );
 

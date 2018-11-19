@@ -3,6 +3,7 @@ import { localeMap } from '../helpers/localeMapper';
 export enum Faction {
   nor = 'Northern Realms',
   mon = 'Monster',
+  nil = 'Nilfgaard',
   neu = 'Neutral',
   sco = 'Scoiatael',
   ske = 'Skellige',

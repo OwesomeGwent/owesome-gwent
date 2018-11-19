@@ -9,7 +9,7 @@ interface IBaseProps {
 }
 
 /* input selector */
-const getCurrentLocale = (state: IRootState) => state.locale;
+const getCurrentLocale = (state: IRootState) => state.locale.locale;
 const getCardDetails = (state: IRootState) => state.card.detail.localeData;
 const getLocaleKeywords = (state: IRootState) =>
   state.card.detail.localeKeywords;

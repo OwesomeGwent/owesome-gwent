@@ -68,8 +68,11 @@ const CardDetail: SFC<ICardDetailProps> = ({
       </Typography>
       <Typography variant="subheading" color="inherit">
         {cardCategories &&
-          cardCategories.map(category => (
-            <span key={category}>{category}</span>
+          cardCategories.map((category, i) => (
+            <span key={category}>
+              {!!i && ', '}
+              {category}
+            </span>
           ))}
       </Typography>
       <Typography variant="subtitle1" color="inherit">

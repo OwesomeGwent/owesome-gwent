@@ -1,3 +1,4 @@
+import intersection from 'lodash/intersection';
 import { createSelector } from 'reselect';
 import { CardData } from '../../../shared/ICardData';
 import { IRootState } from '../reducers';
@@ -15,6 +16,11 @@ const getFilteredCards = createSelector(
       const isMatched = filterEntry.every(([field, value]) => {
         if (!value) {
           return true;
+        }
+        if (Array.isArray(value)) {
+          return value.length > 0
+            ? !!intersection(card[field], value).length
+            : true;
         }
         if (field === 'rarity') {
           return card.variations[0].rarity === value;

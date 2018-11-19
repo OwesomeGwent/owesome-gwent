@@ -8,6 +8,7 @@ import {
   withStyles,
 } from '@material-ui/core/styles';
 import React from 'react';
+import { FilterBox } from '.';
 import * as FilterAction from '../../actions/filter';
 import { FilterField, filterSet, FilterType } from '../../types/filter';
 
@@ -34,7 +35,7 @@ const FilterItem: React.SFC<IFilterItem> = ({
 }) => {
   const filterEnum = filterSet[filter];
   return (
-    <div>
+    <FilterBox>
       <div>{filter.toUpperCase()}</div>
       <FormGroup row>
         {Object.entries(filterEnum).map(([field, value], i) => {
@@ -57,7 +58,7 @@ const FilterItem: React.SFC<IFilterItem> = ({
           );
         })}
       </FormGroup>
-    </div>
+    </FilterBox>
   );
 };
 

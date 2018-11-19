@@ -1,7 +1,11 @@
 import produce from 'immer';
-import { CLEAR_FILTER, SET_FILTER } from '../actions/ActionTypes';
+import {
+  CLEAR_FILTER,
+  SET_FILTER,
+  SET_MULTI_FILTER,
+} from '../actions/ActionTypes';
 import { IFilterAction } from '../actions/filter';
-import { IFilter } from '../types/filter';
+import { IFilter, MultiFilterType } from '../types/filter';
 
 export interface IFilterState {
   filter: IFilter;
@@ -18,6 +22,10 @@ const reducer = (state: IFilterState = initialState, action: IFilterAction) =>
         draft.filter[action.field] === action.value
           ? (draft.filter[action.field] = initialState.filter[action.field])
           : (draft.filter[action.field] = action.value);
+        break;
+      }
+      case SET_MULTI_FILTER: {
+        (draft.filter[action.field] as MultiFilterType) = action.value;
         break;
       }
       case CLEAR_FILTER: {

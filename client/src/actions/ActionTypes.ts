@@ -7,6 +7,7 @@ export const FETCH_DETAILS_FAILURE = 'FETCH_DETAILS_FAILURE';
 export const SET_CARDS = 'SET_CARDS';
 
 export const SET_FILTER = 'SET_FILTER';
+export const SET_MULTI_FILTER = 'SET_MULTI_FILTER';
 export const CLEAR_FILTER = 'CLEAR_FILTER';
 
 export const SET_LOCALE = 'SET_LOCALE';

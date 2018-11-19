@@ -1,3 +1,5 @@
+import FilterBox from './FilterBox';
 import FilterItem from './FilterItem';
+import MultiFilterItem from './MultiFilterItem';
 
-export { FilterItem };
+export { FilterBox, FilterItem, MultiFilterItem };

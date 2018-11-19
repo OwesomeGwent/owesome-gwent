@@ -18,7 +18,7 @@ import {
   makeGetCardDetailByLocale,
   makeGetCategoryByLocale,
   makeGetkeywordInfoByLocale,
-} from '../../selectors';
+} from '../../selectors/locale';
 
 const INFO_REG = new RegExp(/<keyword=(\w+)>(.+?)<\/keyword>/, 'gim');
 const KEYWORD_REG = new RegExp(/<(.+?)>(.+?)<\/color>/, 'gim');

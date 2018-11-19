@@ -35,15 +35,35 @@ export enum Provision {
   '10-' = '10',
   '11~' = '11',
 }
+// 데이터로 부터 추출
+export interface IMultiFilterList {
+  [label: string]: string;
+}
+export interface IMultiFilter {
+  [filter: string]: IMultiFilterList[];
+  keywords: IMultiFilterList[];
+  categoryIds: IMultiFilterList[];
+}
+
 export type FilterField =
   | 'faction'
   | 'type'
   | 'rarity'
   | 'cardType'
-  | 'provision';
-export type FilterType = Faction | Type | Rarity | CardType | Provision;
+  | 'provision'
+  | 'categoryIds'
+  | 'keywords';
+export type MultiFilterField = 'categoryIds' | 'keywords';
+export type FilterType =
+  | Faction
+  | Type
+  | Rarity
+  | CardType
+  | Provision
+  | string[];
+export type MultiFilterType = string[];
 export type IFilter = Partial<Record<FilterField, FilterType>>;
-export type IFilterSet = Record<FilterField, any>;
+export type IFilterSet = Partial<Record<FilterField, any>>;
 // 이름에 맞는 Filter는 여기서 가져오자.
 
 export const filterSet: IFilterSet = {

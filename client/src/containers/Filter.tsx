@@ -11,9 +11,17 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import React from 'react';
 import { connect } from 'react-redux';
 import * as filterAction from '../actions/filter';
-import { FilterItem } from '../components/Filter';
+import { FilterItem, MultiFilterItem } from '../components/Filter';
 import { IRootState } from '../reducers';
-import { FilterField, filterSet, IFilter } from '../types/filter';
+import { getMultiFilterByLocale } from '../selectors/filter';
+import {
+  FilterField,
+  filterSet,
+  IFilter,
+  IMultiFilter,
+  MultiFilterField,
+} from '../types/filter';
+
 const styles = (theme: Theme) =>
   createStyles({
     panel: {
@@ -23,36 +31,65 @@ const styles = (theme: Theme) =>
       backgroundColor: theme.palette.primary.dark,
     },
     panelDetails: {
+      display: 'block',
       backgroundColor: theme.palette.primary.dark,
+      color: theme.palette.primary.contrastText,
+    },
+    expandIcon: {
       color: theme.palette.primary.contrastText,
     },
   });
 export interface IFilterProps extends WithStyles<typeof styles> {
   filter: IFilter;
+  multiFilter: IMultiFilter;
   setFilter: typeof filterAction.setFilter;
+  setMultiFilter: typeof filterAction.setMultiFilter;
   clearFilter: typeof filterAction.clearFilter;
 }
-const Filter: React.SFC<IFilterProps> = ({ classes, filter, setFilter }) => {
+const Filter: React.SFC<IFilterProps> = ({
+  classes,
+  filter,
+  multiFilter,
+  setFilter,
+  setMultiFilter,
+}) => {
   return (
     <ExpansionPanel className={classes.panel}>
       <ExpansionPanelSummary
-        className={classes.panelSummary}
+        classes={{
+          root: classes.panelSummary,
+          expandIcon: classes.expandIcon,
+        }}
         expandIcon={<ExpandMoreIcon />}
       >
         필터~
       </ExpansionPanelSummary>
       <ExpansionPanelDetails className={classes.panelDetails}>
-        {Object.keys(filterSet).map(field => {
-          const asserted = field as FilterField;
-          return (
-            <FilterItem
-              key={field}
-              filter={asserted}
-              setFilter={setFilter}
-              selected={filter[asserted]}
-            />
-          );
-        })}
+        <>
+          {Object.keys(filterSet).map(field => {
+            const asserted = field as FilterField;
+            return (
+              <FilterItem
+                key={field}
+                filter={asserted}
+                setFilter={setFilter}
+                selected={filter[asserted]}
+              />
+            );
+          })}
+          {Object.keys(multiFilter).map(field => {
+            const asserted = field as MultiFilterField;
+            return (
+              <MultiFilterItem
+                key={field}
+                field={asserted}
+                filter={multiFilter[asserted]}
+                setMultiFilter={setMultiFilter}
+                selected={filter[asserted]}
+              />
+            );
+          })}
+        </>
       </ExpansionPanelDetails>
     </ExpansionPanel>
   );
@@ -60,6 +97,7 @@ const Filter: React.SFC<IFilterProps> = ({ classes, filter, setFilter }) => {
 
 const mapStateToProps = (state: IRootState) => ({
   filter: state.filter.filter,
+  multiFilter: getMultiFilterByLocale(state),
 });
 
 export default withStyles(styles)(

@@ -29,12 +29,12 @@ export const getCardDetailByLocale = createSelector(
   getCardDetails,
   (locale, localeData) => localeData[locale],
 );
-const getCardKeywordByLocale = createSelector(
+export const getCardKeywordByLocale = createSelector(
   getCurrentLocale,
   getLocaleKeywords,
   (locale, localeKeywords) => localeKeywords[locale],
 );
-const getCardCategoryByLocale = createSelector(
+export const getCardCategoryByLocale = createSelector(
   getCurrentLocale,
   getLocaleCategories,
   (locale, localeCategories) => localeCategories[locale],

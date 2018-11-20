@@ -70,9 +70,8 @@ const MultiFilterItem: React.SFC<IMultiFilterItem> = ({
   selected,
 }) => {
   return (
-    <FilterBox>
+    <FilterBox label={LABEL[field].toUpperCase()}>
       <FormControl classes={{ root: classes.formControl }}>
-        <div>{LABEL[field].toUpperCase()}</div>
         <Select
           autoWidth
           classes={{

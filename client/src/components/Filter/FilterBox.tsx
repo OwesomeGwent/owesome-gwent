@@ -1,6 +1,7 @@
+import React from 'react';
 import styled from 'styled-components';
 
-const FilterBox = styled.div`
+const Box = styled.div`
   display: inline-block;
   border: 1px solid #ccc;
   padding: 10px;
@@ -8,4 +9,14 @@ const FilterBox = styled.div`
   min-height: 70px;
 `;
 
+export interface IFilterBoxProps {
+  label: string;
+  children: React.ReactNode;
+}
+const FilterBox: React.SFC<IFilterBoxProps> = ({ label, children }) => (
+  <Box>
+    <div>{label}</div>
+    {children}
+  </Box>
+);
 export default FilterBox;

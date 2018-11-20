@@ -1,5 +1,10 @@
 import { FilterField, FilterType, MultiFilterField } from '../types/filter';
-import { CLEAR_FILTER, SET_FILTER, SET_MULTI_FILTER } from './ActionTypes';
+import {
+  CLEAR_FILTER,
+  SET_FILTER,
+  SET_MULTI_FILTER,
+  SET_SEARCH_FILTER,
+} from './ActionTypes';
 
 interface ISetFilter {
   type: typeof SET_FILTER;
@@ -15,7 +20,16 @@ interface IClearFilter {
   type: typeof CLEAR_FILTER;
 }
 
-export type IFilterAction = ISetFilter | ISetMultiFilter | IClearFilter;
+interface ISetSearchFilter {
+  type: typeof SET_SEARCH_FILTER;
+  search: string;
+}
+
+export type IFilterAction =
+  | ISetFilter
+  | ISetMultiFilter
+  | ISetSearchFilter
+  | IClearFilter;
 
 export const setFilter = (
   field: FilterField,
@@ -37,6 +51,13 @@ export const setMultiFilter = (
     value,
   };
 };
+export const setSearchFilter = (search: string): IFilterAction => {
+  return {
+    type: SET_SEARCH_FILTER,
+    search,
+  };
+};
+
 export const clearFilter = (): IFilterAction => {
   return {
     type: CLEAR_FILTER,

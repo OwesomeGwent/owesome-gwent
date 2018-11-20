@@ -51,7 +51,6 @@ class Home extends Component<IHomeProps> {
     let Cards: any;
     const locale = getCurrentLocale();
     const { fetchCards, setCards, setLocale } = this.props;
-    setLocale(locale);
     await Promise.all([fetchCards(), setLocale(locale)]);
     // 카드 스피너를 위한 delay 살짝~
     const { fetchStatus, rawCardData } = this.props;
@@ -100,7 +99,7 @@ class Home extends Component<IHomeProps> {
 }
 
 const mapStateToProps = (state: IRootState) => ({
-  locale: state.locale.locale,
+  locale: state.locale,
   cardData: state.card.cards,
   fetchStatus: state.card.rawCards.status,
   rawCardData: state.card.rawCards.cards,

@@ -11,7 +11,11 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import React from 'react';
 import { connect } from 'react-redux';
 import * as filterAction from '../actions/filter';
-import { FilterItem, MultiFilterItem } from '../components/Filter';
+import {
+  FilterItem,
+  MultiFilterItem,
+  SearchFilter,
+} from '../components/Filter';
 import { IRootState } from '../reducers';
 import { getMultiFilterByLocale } from '../selectors/filter';
 import {
@@ -44,6 +48,7 @@ export interface IFilterProps extends WithStyles<typeof styles> {
   multiFilter: IMultiFilter;
   setFilter: typeof filterAction.setFilter;
   setMultiFilter: typeof filterAction.setMultiFilter;
+  setSearchFilter: typeof filterAction.setSearchFilter;
   clearFilter: typeof filterAction.clearFilter;
 }
 const Filter: React.SFC<IFilterProps> = ({
@@ -52,6 +57,7 @@ const Filter: React.SFC<IFilterProps> = ({
   multiFilter,
   setFilter,
   setMultiFilter,
+  setSearchFilter,
 }) => {
   return (
     <ExpansionPanel className={classes.panel}>
@@ -89,6 +95,7 @@ const Filter: React.SFC<IFilterProps> = ({
               />
             );
           })}
+          <SearchFilter setSearch={setSearchFilter} />
         </>
       </ExpansionPanelDetails>
     </ExpansionPanel>

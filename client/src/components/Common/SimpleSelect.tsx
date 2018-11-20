@@ -39,9 +39,6 @@ const styles = (theme: Theme) =>
     menuItem: {
       color: theme.palette.primary.contrastText,
     },
-    underline: {
-      borderBottom: theme.palette.primary.contrastText,
-    },
   });
 export interface ISimpleSelect extends WithStyles<typeof styles> {
   label?: string;

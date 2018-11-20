@@ -8,6 +8,7 @@ export const SET_CARDS = 'SET_CARDS';
 
 export const SET_FILTER = 'SET_FILTER';
 export const SET_MULTI_FILTER = 'SET_MULTI_FILTER';
+export const SET_SEARCH_FILTER = 'SET_SEARCH_FILTER';
 export const CLEAR_FILTER = 'CLEAR_FILTER';
 
 export const SET_LOCALE = 'SET_LOCALE';

@@ -35,8 +35,7 @@ const FilterItem: React.SFC<IFilterItem> = ({
 }) => {
   const filterEnum = filterSet[filter];
   return (
-    <FilterBox>
-      <div>{filter.toUpperCase()}</div>
+    <FilterBox label={filter.toUpperCase()}>
       <FormGroup row>
         {Object.entries(filterEnum).map(([field, value], i) => {
           return (

@@ -4,7 +4,10 @@ import { connect } from 'react-redux';
 import { CardData } from '../../../shared/ICardData';
 import { CardList } from '../components/CardFinder';
 import { IRootState } from '../reducers';
-import { makeGetFilteredCards } from '../selectors/card';
+import {
+  makeGetFilteredCards,
+  makeGetSearchFilteredCards,
+} from '../selectors/card';
 import { IFilter } from '../types/filter';
 
 // TODO: Debounce 줄까말까..
@@ -12,6 +15,7 @@ import { IFilter } from '../types/filter';
 const PER_PAGE = 40;
 export interface ICardListProps {
   filter?: IFilter;
+  search?: string;
   normalFilteredCards?: CardData[];
   leaderFilteredCards?: CardData[];
 }
@@ -30,7 +34,10 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
     this.getNextPage(this.state.page);
   }
   public componentDidUpdate(prevProps: ICardListProps) {
-    if (!isEqual(prevProps.filter, this.props.filter)) {
+    if (
+      !isEqual(prevProps.filter, this.props.filter) ||
+      prevProps.search !== this.props.search
+    ) {
       this.getNextPage(0);
     }
   }
@@ -43,10 +50,7 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
   public getNextPage = (page: number) => {
     const { normalFilteredCards } = this.props;
     if (normalFilteredCards) {
-      const next = Math.min(
-        (page + 1) * PER_PAGE,
-        normalFilteredCards.length - 1,
-      );
+      const next = Math.min((page + 1) * PER_PAGE, normalFilteredCards.length);
       const cards = normalFilteredCards.slice(0, next);
       this.setState((state: ICardListState) => ({
         currentCards: cards,
@@ -73,11 +77,22 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
 const makeMapStateToProps = () => {
   const getNormalFilteredCards = makeGetFilteredCards();
   const getLeaderFilteredCards = makeGetFilteredCards();
-  const mapState = (state: IRootState, props: ICardListProps) => ({
-    filter: state.filter.filter,
-    leaderFilteredCards: getLeaderFilteredCards(state, 'leader'),
-    normalFilteredCards: getNormalFilteredCards(state, 'normal'),
-  });
+  const getNormalSearchedCards = makeGetSearchFilteredCards();
+  const getLeaderSearchedCards = makeGetSearchFilteredCards();
+  const mapState = (state: IRootState, props: ICardListProps) => {
+    return {
+      filter: state.filter.filter,
+      search: state.filter.search,
+      leaderFilteredCards: getLeaderSearchedCards(
+        state,
+        getLeaderFilteredCards(state, 'leader'),
+      ),
+      normalFilteredCards: getNormalSearchedCards(
+        state,
+        getNormalFilteredCards(state, 'normal'),
+      ),
+    };
+  };
   return mapState;
 };
 export default connect(makeMapStateToProps)(CardFinder);

@@ -4,12 +4,8 @@ import { ILocaleAction } from '../actions/locale';
 import localeMapper from '../helpers/localeMapper';
 
 const defaultLocale = localeMapper();
-export interface ILocaleState {
-  locale: Locale;
-}
-const initialState: ILocaleState = {
-  locale: defaultLocale,
-};
+export type ILocaleState = Locale;
+const initialState: ILocaleState = defaultLocale;
 
 const reducer = (
   state: ILocaleState = initialState,
@@ -17,7 +13,7 @@ const reducer = (
 ): ILocaleState => {
   switch (action.type) {
     case SET_LOCALE:
-      return { ...state, locale: action.locale };
+      return action.locale;
     default:
       return state;
   }

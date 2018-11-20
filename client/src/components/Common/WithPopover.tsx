@@ -1,5 +1,5 @@
-import Popper from '@material-ui/core/Popper';
-import React, { Component, ReactNode } from 'react';
+import Popover from '@material-ui/core/Popover';
+import React, { PureComponent, ReactNode } from 'react';
 
 export interface IWithPopoverProps {
   Hover: ReactNode;
@@ -8,7 +8,7 @@ export interface IWithPopoverProps {
 interface IWithPopoverState {
   anchorEl: ReactNode;
 }
-class WithPopover extends Component<IWithPopoverProps, IWithPopoverState> {
+class WithPopover extends PureComponent<IWithPopoverProps, IWithPopoverState> {
   public state = {
     anchorEl: null,
   };
@@ -35,23 +35,24 @@ class WithPopover extends Component<IWithPopoverProps, IWithPopoverState> {
         >
           {Main}
         </div>
-        <Popper
+        <Popover
           id="mouse-over-popover"
-          open={open}
           anchorEl={anchorEl}
-          style={{ pointerEvents: 'none' }}
-          modifiers={{
-            flip: {
-              enabled: true,
-            },
-            preventOverflow: {
-              enabled: true,
-              boundariesElement: 'scrollParent',
-            },
+          anchorOrigin={{
+            vertical: 'top',
+            horizontal: 'center',
           }}
+          disableRestoreFocus
+          transformOrigin={{
+            vertical: 'bottom',
+            horizontal: 'center',
+          }}
+          open={open}
+          onClose={this.handlePopoverClose}
+          style={{ pointerEvents: 'none' }}
         >
           {Hover}
-        </Popper>
+        </Popover>
       </>
     );
   }

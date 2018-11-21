@@ -7,10 +7,10 @@ import { IRootState } from '../reducers';
 
 // ThunkResult - thunk의 패턴을 이용하는 action이 반환하는 타입
 // ThunkFunc - 위 반환값을 받을 수 있는 dispatch 타입
-export type ThunkResult<T, A> = ThunkAction<
+export type ThunkResult<T, A extends Action> = ThunkAction<
   T,
   IRootState,
   undefined,
-  Action<A>
+  A
 >;
 export type ThunkFunc = ThunkDispatch<IRootState, undefined, Action>;

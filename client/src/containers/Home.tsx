@@ -3,11 +3,7 @@ import { connect } from 'react-redux';
 import styled from 'styled-components';
 import { Header, Main, Sidebar } from '.';
 import { CardData, CardDataList } from '../../../shared/ICardData';
-import {
-  CardLocaleData,
-  CardLocaleDataList,
-  Locale,
-} from '../../../shared/ILocaleData';
+import { Locale } from '../../../shared/ILocaleData';
 import * as cardActions from '../actions/card';
 import * as localeActions from '../actions/locale';
 import { FlipCard } from '../components/Common';
@@ -23,10 +19,10 @@ export interface IHomeProps {
     leader: CardData[];
     normal: CardData[];
   };
+  locale: Locale;
   rawCardData: CardDataList;
   fetchStatus: string;
   fetchCards: () => void;
-  fetchDetails: (locale: Locale) => void;
   setCards: (leader: CardData[], normal: CardData[]) => void;
   setLocale: (locale: Locale) => void;
 }
@@ -54,8 +50,8 @@ class Home extends Component<IHomeProps> {
   public async componentDidMount() {
     let Cards: any;
     const locale = getCurrentLocale();
-    const { fetchCards, fetchDetails, setCards, setLocale } = this.props;
-    await Promise.all([fetchCards(), fetchDetails(locale)]);
+    const { fetchCards, setCards, setLocale } = this.props;
+    await Promise.all([fetchCards(), setLocale(locale)]);
     // 카드 스피너를 위한 delay 살짝~
     const { fetchStatus, rawCardData } = this.props;
     Cards =
@@ -80,7 +76,7 @@ class Home extends Component<IHomeProps> {
   }
 
   public render() {
-    const { cardData } = this.props;
+    const { cardData, locale, setLocale } = this.props;
     // flag 설정 필요?
     if (cardData.normal.length <= 0) {
       return (
@@ -92,10 +88,10 @@ class Home extends Component<IHomeProps> {
     }
     return (
       <>
-        <Header />
+        <Header locale={locale} setLocale={setLocale} />
         <HomeContainer>
           <Sidebar />
-          <Main cardData={cardData} />
+          <Main />
         </HomeContainer>
       </>
     );
@@ -103,13 +99,13 @@ class Home extends Component<IHomeProps> {
 }
 
 const mapStateToProps = (state: IRootState) => ({
+  locale: state.locale,
   cardData: state.card.cards,
   fetchStatus: state.card.rawCards.status,
   rawCardData: state.card.rawCards.cards,
 });
 const mapDispatchToProps = (dispatch: ThunkFunc) => ({
   fetchCards: () => dispatch(cardActions.fetchCards()),
-  fetchDetails: (locale: Locale) => dispatch(cardActions.fetchDetails(locale)),
   setCards: (leader: CardData[], normal: CardData[]) =>
     dispatch(cardActions.setCards(leader, normal)),
   setLocale: (locale: Locale) => dispatch(localeActions.setLocale(locale)),

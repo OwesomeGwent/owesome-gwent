@@ -18,8 +18,8 @@
   flex: 0 0 auto;
   margin: 0 auto;
   position: relative;
-  width: 177px;
-  height: 242px;
+  width: 144px;
+  height: 205px;
   cursor: pointer;
 }
 
@@ -457,6 +457,7 @@
   height: 38px;
   position: absolute;
 }
+
 .c-card[data-mulligan='0'] .c-card__mulligan-cost {
   background-image: url(../img/card-reveals/cards/m/numbers-00.png);
 }
@@ -466,6 +467,7 @@
     background-image: url(../img/card-reveals/cards/m/numbers-00.png);
   }
 }
+
 .c-card[data-mulligan='1'] .c-card__mulligan-cost {
   background-image: url(../img/card-reveals/cards/m/numbers-01.png);
 }
@@ -675,9 +677,11 @@
   left: 10px;
   top: 10px;
 }
+
 .c-card[data-row='2'] .c-card__row {
   background-image: url(../img/card-reveals/cards/m/icon-spell.png);
 }
+
 .c-card[data-row='3'] .c-card__row {
   background-image: url(../img/card-reveals/cards/m/icon-artifact.png);
   width: 30px;
@@ -685,6 +689,7 @@
   left: 14px;
   top: 14px;
 }
+
 .c-card[data-row='4'] .c-card__row {
   background-image: url(../img/card-reveals/cards/m/icon-leader.png);
   width: 30px;
@@ -704,24 +709,31 @@
   right: 5px;
   bottom: 5px;
 }
+
 .c-card--monster .c-card__provision-basis {
   background-image: url(../img/card-reveals/cards/m/provision-mon.png);
 }
+
 .c-card--neutral .c-card__provision-basis {
   background-image: url(../img/card-reveals/cards/m/provision-neu.png);
 }
+
 .c-card--nilfgaard .c-card__provision-basis {
   background-image: url(../img/card-reveals/cards/m/provision-nil.png);
 }
+
 .c-card--northernrealms .c-card__provision-basis {
   background-image: url(../img/card-reveals/cards/m/provision-nor.png);
 }
+
 .c-card--scoiatael .c-card__provision-basis {
   background-image: url(../img/card-reveals/cards/m/provision-sco.png);
 }
+
 .c-card--skellige .c-card__provision-basis {
   background-image: url(../img/card-reveals/cards/m/provision-ske.png);
 }
+
 .c-card__provision-icon {
   background-image: url(../img/card-reveals/cards/m/provision-icon.png);
   background-size: contain;
@@ -733,6 +745,7 @@
   right: 5px;
   bottom: 40px;
 }
+
 .c-card__provision {
   background-size: contain;
   background-repeat: no-repeat;
@@ -743,6 +756,7 @@
   right: 0px;
   bottom: 0px;
 }
+
 .c-card[data-provision='1'] .c-card__provision {
   background-image: url(../img/card-reveals/cards/m/numbers-01.png);
 }
@@ -955,13 +969,11 @@
 }
 
 .c-card--neutral .c-card__desc:before {
-  background: -webkit-gradient(
-    linear,
+  background: -webkit-gradient(linear,
     left top,
     left bottom,
     from(#6c482d),
-    to(#c89d7d)
-  );
+    to(#c89d7d));
   background: linear-gradient(to bottom, #6c482d, #c89d7d);
   -webkit-box-shadow: 0 0 8px #c89d7d;
   box-shadow: 0 0 8px #c89d7d;
@@ -987,13 +999,11 @@
 }
 
 .c-card--monster .c-card__desc:before {
-  background: -webkit-gradient(
-    linear,
+  background: -webkit-gradient(linear,
     left top,
     left bottom,
     from(#751515),
-    to(#b91818)
-  );
+    to(#b91818));
   background: linear-gradient(to bottom, #751515, #b91818);
   -webkit-box-shadow: 0 0 8px #b91818;
   box-shadow: 0 0 8px #b91818;
@@ -1018,13 +1028,11 @@
 }
 
 .c-card--nilfgaard .c-card__desc:before {
-  background: -webkit-gradient(
-    linear,
+  background: -webkit-gradient(linear,
     left top,
     left bottom,
     from(#756715),
-    to(#b9a118)
-  );
+    to(#b9a118));
   background: linear-gradient(to bottom, #756715, #b9a118);
   -webkit-box-shadow: 0 0 8px #b9a118;
   box-shadow: 0 0 8px #b9a118;
@@ -1036,6 +1044,7 @@
   width: 58px;
   height: 116px;
 }
+
 .c-card--northernrealms .c-card__banner {
   background: url(../img/card-reveals/cards/m/banner-nor.png) no-repeat;
   background-size: 100% 100%;
@@ -1048,13 +1057,11 @@
 }
 
 .c-card--northernrealms .c-card__desc:before {
-  background: -webkit-gradient(
-    linear,
+  background: -webkit-gradient(linear,
     left top,
     left bottom,
     from(#154275),
-    to(#1863b9)
-  );
+    to(#1863b9));
   background: linear-gradient(to bottom, #154275, #1863b9);
   -webkit-box-shadow: 0 0 8px #1863b9;
   box-shadow: 0 0 8px #1863b9;
@@ -1066,6 +1073,7 @@
   width: 58px;
   height: 116px;
 }
+
 .c-card--scoiatael .c-card__banner {
   background: url(../img/card-reveals/cards/m/banner-sco.png) no-repeat;
   background-size: 100% 100%;
@@ -1078,13 +1086,11 @@
 }
 
 .c-card--scoiatael .c-card__desc:before {
-  background: -webkit-gradient(
-    linear,
+  background: -webkit-gradient(linear,
     left top,
     left bottom,
     from(#4e7615),
-    to(#79ba18)
-  );
+    to(#79ba18));
   background: linear-gradient(to bottom, #4e7615, #79ba18);
   -webkit-box-shadow: 0 0 8px #79ba18;
   box-shadow: 0 0 8px #79ba18;
@@ -1096,6 +1102,7 @@
   width: 58px;
   height: 116px;
 }
+
 .c-card--skellige .c-card__banner {
   background: url(../img/card-reveals/cards/m/banner-ske.png) no-repeat;
   background-size: 100% 100%;
@@ -1108,13 +1115,11 @@
 }
 
 .c-card--skellige .c-card__desc:before {
-  background: -webkit-gradient(
-    linear,
+  background: -webkit-gradient(linear,
     left top,
     left bottom,
     from(#521575),
-    to(#7e18b9)
-  );
+    to(#7e18b9));
   background: linear-gradient(to bottom, #521575, #7e18b9);
   -webkit-box-shadow: 0 0 8px #7e18b9;
   box-shadow: 0 0 8px #7e18b9;

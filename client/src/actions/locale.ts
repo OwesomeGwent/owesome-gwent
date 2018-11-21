@@ -1,16 +1,20 @@
 import { Locale } from '../../../shared/ILocaleData';
+import { ThunkResult } from '../types/thunk';
 import { SET_LOCALE } from './ActionTypes';
+import { fetchDetails } from './card';
 
-export interface ISETLOCALE {
+export interface ISetLocale {
   type: typeof SET_LOCALE;
   locale: Locale;
 }
 
-export type LOCALE_ACTION = ISETLOCALE;
-
-export const setLocale = (locale: Locale) => {
-  return {
-    type: SET_LOCALE,
-    locale,
+export type ILocaleAction = ISetLocale;
+export const setLocale = (locale: Locale): ThunkResult<void, ISetLocale> => {
+  return dispatch => {
+    dispatch({
+      type: SET_LOCALE,
+      locale,
+    });
+    dispatch(fetchDetails(locale));
   };
 };

@@ -1,6 +1,8 @@
+import CardFinder from './CardFinder';
+import Filter from './Filter';
+import Header from './Header';
 import Home from './Home';
 import Main from './Main';
 import Sidebar from './Sidebar';
-import Header from './Header';
 
-export { Home, Main, Sidebar, Header };
+export { CardFinder, Filter, Header, Home, Main, Sidebar };

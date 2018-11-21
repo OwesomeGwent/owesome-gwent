@@ -26,8 +26,9 @@ const TYPE: IMapper = {
 };
 export interface ICardProps {
   card: CardData;
+  onClick: (e: React.MouseEvent) => void;
 }
-const Card: React.SFC<ICardProps> = ({ card }) => {
+const Card: React.SFC<ICardProps> = ({ card, onClick }) => {
   const {
     cardType,
     type,
@@ -45,7 +46,7 @@ const Card: React.SFC<ICardProps> = ({ card }) => {
   const parsedType = cardType.toLowerCase();
   const { art, rarity, variationId } = variations[Object.keys(variations)[0]];
   return (
-    <div>
+    <div onClick={onClick}>
       <div
         className={`c-card c-card--${parsedFaction} c-card--${parsedType} is-flipped`}
         data-power={strength}

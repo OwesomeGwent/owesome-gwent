@@ -23,10 +23,9 @@ interface ICardDataList {
 const cardParser = async () => {
   // 언어별 정보를 담고 있을 데이터.
   const localeData: { [country: string]: LocaleDataList } = {};
-
   // 카드 정보를 불러온다.
   const cardDefs = JSON.parse(
-    fs.readFileSync('./gwent-data-release/cards.json', {
+    fs.readFileSync(path.join(__dirname, 'gwent-data-release', 'cards.json'), {
       encoding: 'utf-8',
     }),
   );
@@ -78,9 +77,12 @@ const cardParser = async () => {
     {} as CardDataList,
   );
   const categoryData = JSON.parse(
-    fs.readFileSync('./gwent-data-release/categories.json', {
-      encoding: 'utf-8',
-    }),
+    fs.readFileSync(
+      path.join(__dirname, 'gwent-data-release', 'categories.json'),
+      {
+        encoding: 'utf-8',
+      },
+    ),
   );
   Object.entries(categoryData as CategoryDataList).forEach(
     ([category, countries]: [string, DefaultLocaleSet]) => {
@@ -91,9 +93,12 @@ const cardParser = async () => {
   );
 
   const keywordData = JSON.parse(
-    fs.readFileSync('./gwent-data-release/keywords.json', {
-      encoding: 'utf-8',
-    }),
+    fs.readFileSync(
+      path.join(__dirname, 'gwent-data-release', 'keywords.json'),
+      {
+        encoding: 'utf-8',
+      },
+    ),
   );
 
   Object.entries(keywordData as KeyWordDataList).forEach(

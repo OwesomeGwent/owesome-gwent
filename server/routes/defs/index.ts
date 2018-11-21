@@ -12,19 +12,22 @@ routes.get('/:defInfo', (req, res) => {
       data: cache.getJSON(defInfo),
     });
   }
-  fs.readFile(path.join('parsed', `${defInfo}.json`), (err, buffer) => {
-    if (err) {
-      console.error(err);
-      return res.status(404).json({
-        message: 'Cannot Find Info',
+  fs.readFile(
+    path.join(__dirname, '..', '..', 'parsed', `${defInfo}.json`),
+    (err, buffer) => {
+      if (err) {
+        console.error(err);
+        return res.status(404).json({
+          message: 'Cannot Find Info',
+        });
+      }
+      const data = JSON.parse(buffer.toString('utf-8'));
+      cache.setJSON(defInfo, data);
+      res.json({
+        data,
       });
-    }
-    const data = JSON.parse(buffer.toString('utf-8'));
-    cache.setJSON(defInfo, data);
-    res.json({
-      data,
-    });
-  });
+    },
+  );
 });
 
 export default routes;

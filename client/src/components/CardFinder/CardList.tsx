@@ -8,8 +8,9 @@ import { WithPopover } from '../Common';
 export interface ICardListProps {
   title: string;
   cards?: CardData[];
+  onClickCard: (card: CardData) => (e: React.MouseEvent) => void;
 }
-const CardList: SFC<ICardListProps> = ({ title, cards }) => {
+const CardList: SFC<ICardListProps> = ({ title, cards, onClickCard }) => {
   if (!cards || cards.length <= 0) {
     return null;
   }
@@ -31,7 +32,7 @@ const CardList: SFC<ICardListProps> = ({ title, cards }) => {
                   keywords={card.keywords}
                 />
               }
-              Main={<Card card={card} />}
+              Main={<Card card={card} onClick={onClickCard(card)} />}
             />
           </Grid>
         ))}

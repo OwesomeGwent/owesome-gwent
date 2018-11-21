@@ -2,6 +2,7 @@ import isEqual from 'lodash/isEqual';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { CardData } from '../../../shared/ICardData';
+import { DeckMakerStatus } from '../actions/deck';
 import { CardList } from '../components/CardFinder';
 import { IRootState } from '../reducers';
 import {
@@ -18,6 +19,7 @@ export interface ICardListProps {
   search?: string;
   normalFilteredCards?: CardData[];
   leaderFilteredCards?: CardData[];
+  deckMakerStatus?: DeckMakerStatus;
 }
 interface ICardListState {
   currentCards: CardData[];
@@ -41,6 +43,14 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
       this.getNextPage(0);
     }
   }
+
+  public onClickCard = (card: CardData) => (e: React.MouseEvent) => {
+    const { deckMakerStatus } = this.props;
+    if (deckMakerStatus === 'DECKMAKE') {
+      console.log(card);
+    }
+  };
+
   public handleScroll = (e: React.UIEvent) => {
     const target = e.currentTarget;
     if (target.scrollTop + target.clientHeight >= target.scrollHeight - 300) {
@@ -67,8 +77,16 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
         style={{ overflowY: 'auto', maxHeight: '100vh' }}
         onScroll={isLast ? () => null : this.handleScroll}
       >
-        <CardList title="Leaders" cards={leaderFilteredCards} />
-        <CardList title="Cards" cards={currentCards} />
+        <CardList
+          title="Leaders"
+          cards={leaderFilteredCards}
+          onClickCard={this.onClickCard}
+        />
+        <CardList
+          title="Cards"
+          cards={currentCards}
+          onClickCard={this.onClickCard}
+        />
       </div>
     );
   }
@@ -81,6 +99,7 @@ const makeMapStateToProps = () => {
   const getLeaderSearchedCards = makeGetSearchFilteredCards();
   const mapState = (state: IRootState, props: ICardListProps) => {
     return {
+      deckMakerStatus: state.deck.deckMakerStatus,
       filter: state.filter.filter,
       search: state.filter.search,
       leaderFilteredCards: getLeaderSearchedCards(

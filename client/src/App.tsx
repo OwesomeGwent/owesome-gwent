@@ -172,7 +172,6 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-const store = createStore();
 const theme = createMuiTheme({
   palette: {
     primary: {
@@ -189,6 +188,8 @@ const theme = createMuiTheme({
     },
   },
 });
+
+const store = createStore();
 
 export default class App extends Component {
   public render() {

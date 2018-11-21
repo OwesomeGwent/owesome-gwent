@@ -9,19 +9,26 @@ interface IStateToggleBoxProps {
 
 // prettier-ignore
 const Box = styled.div`
+  position: sticky;
+  top: 20px;
   width: 100%;
   height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 0px 3px 0px #aaaaaa;
+  box-shadow: 0px 1px 10px #000000;
   background-image: url(${({ backgroundLeader }:{ backgroundLeader: string }) => `${BASE_IMAGE_PATH}/${backgroundLeader}0000.png`});
+  background-size: 312px;
+  background-position: 30% 5%;
 `;
 
 const Button = styled.button`
   font-size: 16px;
-  border-radius: 3px;
-  background-color: #cccccc;
+  height: 3rem;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 2rem;
 `;
 
 const StateToggleBox: React.SFC<IStateToggleBoxProps> = ({
@@ -30,7 +37,7 @@ const StateToggleBox: React.SFC<IStateToggleBoxProps> = ({
 }) => {
   return (
     <Box backgroundLeader={backgroundLeader}>
-      <Button onClick={onToggle}>덱 만들기~</Button>
+      <Button onClick={onToggle}>덱 만들기</Button>
     </Box>
   );
 };

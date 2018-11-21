@@ -39,7 +39,7 @@ const Sidebar: React.SFC<ISidebarProps> = ({
 
   return (
     <Container>
-      <DeckList />;
+      <DeckList />
     </Container>
   );
 };

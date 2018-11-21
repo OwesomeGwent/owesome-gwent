@@ -1,10 +1,4 @@
 import AppBar from '@material-ui/core/AppBar';
-<<<<<<< HEAD
-import React from 'react';
-
-const Header = () => {
-  return <AppBar position="sticky">타이틀~</AppBar>;
-=======
 import Toolbar from '@material-ui/core/Toolbar';
 import React from 'react';
 import { connect } from 'react-redux';
@@ -31,6 +25,5 @@ const Header: React.SFC<IHeaderProps> = ({ locale, setLocale }) => {
       </Toolbar>
     </AppBar>
   );
->>>>>>> bbde7e1d1869cf50a16b50ea4fcfd9de98cb82da
 };
 export default Header;

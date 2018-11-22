@@ -1,4 +1,5 @@
 import { CardData } from '../../../shared/ICardData';
+import { DeckMakerStatus } from '../types/deck';
 import {
   REMOVE_CARD,
   REMOVE_LEADER,
@@ -6,8 +7,6 @@ import {
   SELECT_LEADER,
   SET_DECKMAKER_STATUS,
 } from './ActionTypes';
-
-export type DeckMakerStatus = 'INIT' | 'DECKMAKE';
 
 export interface ISetDeckMakerStatus {
   type: typeof SET_DECKMAKER_STATUS;

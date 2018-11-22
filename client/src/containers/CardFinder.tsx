@@ -2,13 +2,14 @@ import isEqual from 'lodash/isEqual';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { CardData } from '../../../shared/ICardData';
-import { DeckMakerStatus } from '../actions/deck';
+import * as DeckActions from '../actions/deck';
 import { CardList } from '../components/CardFinder';
 import { IRootState } from '../reducers';
 import {
   makeGetFilteredCards,
   makeGetSearchFilteredCards,
 } from '../selectors/card';
+import { DeckMakerStatus } from '../types/deck';
 import { IFilter } from '../types/filter';
 
 // TODO: Debounce 줄까말까..
@@ -19,7 +20,10 @@ export interface ICardListProps {
   search?: string;
   normalFilteredCards?: CardData[];
   leaderFilteredCards?: CardData[];
+  // deck
   deckMakerStatus?: DeckMakerStatus;
+  selectCard: (card: CardData) => void;
+  selectLeader: (card: CardData) => void;
 }
 interface ICardListState {
   currentCards: CardData[];
@@ -44,10 +48,11 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
     }
   }
 
+  // 덱 빌딩 상태일때 카드를 추가하는 용도로 사용
   public onClickCard = (card: CardData) => (e: React.MouseEvent) => {
-    const { deckMakerStatus } = this.props;
+    const { deckMakerStatus, selectLeader } = this.props;
     if (deckMakerStatus === 'DECKMAKE') {
-      console.log(card);
+      selectLeader(card);
     }
   };
 
@@ -57,6 +62,7 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
       this.getNextPage(this.state.page);
     }
   };
+
   public getNextPage = (page: number) => {
     const { normalFilteredCards } = this.props;
     if (normalFilteredCards) {
@@ -69,9 +75,21 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
       }));
     }
   };
+
   public render() {
     const { isLast, currentCards } = this.state;
-    const { leaderFilteredCards } = this.props;
+    const { leaderFilteredCards, deckMakerStatus } = this.props;
+    // 덱 빌딩 상태일때
+    if (deckMakerStatus === 'DECKMAKE') {
+      return (
+        <CardList
+          title="Leaders"
+          cards={leaderFilteredCards}
+          onClickCard={this.onClickCard}
+        />
+      );
+    }
+    // 조회 상태일때
     return (
       <div
         style={{ overflowY: 'auto', maxHeight: '100vh' }}
@@ -97,7 +115,7 @@ const makeMapStateToProps = () => {
   const getLeaderFilteredCards = makeGetFilteredCards();
   const getNormalSearchedCards = makeGetSearchFilteredCards();
   const getLeaderSearchedCards = makeGetSearchFilteredCards();
-  const mapState = (state: IRootState, props: ICardListProps) => {
+  const mapState = (state: IRootState) => {
     return {
       deckMakerStatus: state.deck.deckMakerStatus,
       filter: state.filter.filter,
@@ -114,4 +132,7 @@ const makeMapStateToProps = () => {
   };
   return mapState;
 };
-export default connect(makeMapStateToProps)(CardFinder);
+export default connect(
+  makeMapStateToProps,
+  { ...DeckActions },
+)(CardFinder);

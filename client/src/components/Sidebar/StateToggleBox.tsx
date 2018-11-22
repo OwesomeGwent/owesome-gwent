@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { BASE_IMAGE_PATH } from '../../apis/defs';
+import ImageBox from './DefaultImageBox';
 
 interface IStateToggleBoxProps {
   backgroundLeader: string;
@@ -8,17 +8,9 @@ interface IStateToggleBoxProps {
 }
 
 // prettier-ignore
-const Box = styled.div`
+const DeckToggleBox = styled(ImageBox)`
   width: 80%;
-  margin: auto;
   height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0px 1px 10px #000000;
-  background-image: url(${({ backgroundLeader }:{ backgroundLeader: string }) => `${BASE_IMAGE_PATH}/${backgroundLeader}0000.png`});
-  background-size: 312px;
-  background-position: 30% 5%;
 `;
 
 const Button = styled.button`
@@ -35,9 +27,9 @@ const StateToggleBox: React.SFC<IStateToggleBoxProps> = ({
   onToggle,
 }) => {
   return (
-    <Box backgroundLeader={backgroundLeader}>
+    <DeckToggleBox backgroundCard={backgroundLeader}>
       <Button onClick={onToggle}>덱 만들기</Button>
-    </Box>
+    </DeckToggleBox>
   );
 };
 

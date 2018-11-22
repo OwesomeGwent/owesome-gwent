@@ -3,21 +3,35 @@ import { connect } from 'react-redux';
 import styled from 'styled-components';
 import { CardData } from '../../../shared/ICardData';
 import * as DeckActions from '../actions/deck';
-import { DeckList, StateToggleBox } from '../components/Sidebar';
+import {
+  DeckList,
+  DefaultImageBox,
+  StateToggleBox,
+} from '../components/Sidebar';
 import { IRootState } from '../reducers';
 import { IDeckState } from '../reducers/deck';
 import { getRandomLeader } from '../selectors/random';
+import { DeckMakerStatus } from '../types/deck';
 
 interface ISidebarProps {
   randomLeader: CardData;
   deck: IDeckState;
-  setDeckMakerStatus(status: DeckActions.DeckMakerStatus): void;
+  setDeckMakerStatus(status: DeckMakerStatus): void;
 }
 
 const Container = styled.div`
   flex: 0;
   justify-content: center;
   flex-basis: 300px;
+`;
+
+const NoLeader = styled.div`
+  height: 100px;
+  background: rgba(0, 0, 0, 0.2);
+`;
+
+const LeaderView = styled(DefaultImageBox)`
+  height: 100px;
 `;
 
 const Sidebar: React.SFC<ISidebarProps> = ({
@@ -39,6 +53,11 @@ const Sidebar: React.SFC<ISidebarProps> = ({
 
   return (
     <Container>
+      {deck.leader === undefined ? (
+        <NoLeader>Choose Your Leader</NoLeader>
+      ) : (
+        <LeaderView backgroundCard={deck.leader.variations[0].art} />
+      )}
       <DeckList />
     </Container>
   );

@@ -12,6 +12,7 @@ const GlobalStyle = createGlobalStyle`
     -webkit-text-size-adjust: 100%; /* 2 */
   }
   body {
+    overflow-y: auto;
     margin: 0;
     background-color: rgba(0 , 0, 0, .50);
   }

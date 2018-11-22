@@ -16,12 +16,12 @@ import { IFilter } from '../types/filter';
 
 const PER_PAGE = 40;
 export interface ICardListProps {
-  filter?: IFilter;
-  search?: string;
-  normalFilteredCards?: CardData[];
-  leaderFilteredCards?: CardData[];
+  filter: IFilter;
+  search: string;
+  normalFilteredCards: CardData[];
+  leaderFilteredCards: CardData[];
   // deck
-  deckMakerStatus?: DeckMakerStatus;
+  deckMakerStatus: DeckMakerStatus;
   selectCard: (card: CardData) => void;
   selectLeader: (card: CardData) => void;
 }
@@ -37,6 +37,7 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
     isLast: false,
   };
   public componentDidMount() {
+    document.addEventListener('scroll', this.handleScroll);
     this.getNextPage(this.state.page);
   }
   public componentDidUpdate(prevProps: ICardListProps) {
@@ -56,10 +57,13 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
     }
   };
 
-  public handleScroll = (e: React.UIEvent) => {
-    const target = e.currentTarget;
-    if (target.scrollTop + target.clientHeight >= target.scrollHeight - 300) {
-      this.getNextPage(this.state.page);
+  public handleScroll = () => {
+    const { documentElement } = document;
+    if (documentElement) {
+      const { scrollTop, clientHeight, scrollHeight } = documentElement;
+      if (scrollTop + clientHeight >= scrollHeight - 300) {
+        this.getNextPage(this.state.page);
+      }
     }
   };
 
@@ -77,7 +81,7 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
   };
 
   public render() {
-    const { isLast, currentCards } = this.state;
+    const { currentCards } = this.state;
     const { leaderFilteredCards, deckMakerStatus } = this.props;
     // 덱 빌딩 상태일때
     if (deckMakerStatus === 'DECKMAKE') {
@@ -91,10 +95,7 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
     }
     // 조회 상태일때
     return (
-      <div
-        style={{ overflowY: 'auto', maxHeight: '100vh' }}
-        onScroll={isLast ? () => null : this.handleScroll}
-      >
+      <div>
         <CardList
           title="Leaders"
           cards={leaderFilteredCards}
@@ -110,6 +111,13 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
   }
 }
 
+interface IMapState {
+  deckMakerStatus: DeckMakerStatus;
+  filter: IFilter;
+  search: string;
+  leaderFilteredCards: CardData[];
+  normalFilteredCards: CardData[];
+}
 const makeMapStateToProps = () => {
   const getNormalFilteredCards = makeGetFilteredCards();
   const getLeaderFilteredCards = makeGetFilteredCards();

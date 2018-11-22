@@ -44,7 +44,7 @@ export const makeGetCardDetailByLocale = () => {
   return createSelector(
     getCurrentLocale,
     getCardDetails,
-    (locale, localeData) => localeData[locale],
+    (locale, localeData) => localeData[locale] || {},
   );
 };
 export const makeGetkeywordInfoByLocale = () => {

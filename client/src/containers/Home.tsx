@@ -13,6 +13,8 @@ import { ThunkFunc } from '../types/thunk';
 
 const HomeContainer = styled.div`
   display: flex;
+  width: 80%;
+  margin: auto;
 `;
 export interface IHomeProps {
   cardData: {

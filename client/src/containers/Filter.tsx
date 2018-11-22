@@ -25,11 +25,12 @@ import {
   IMultiFilter,
   MultiFilterField,
 } from '../types/filter';
-
 const styles = (theme: Theme) =>
   createStyles({
     panel: {
       color: theme.palette.primary.contrastText,
+      position: 'fixed',
+      zIndex: 101,
     },
     panelSummary: {
       backgroundColor: theme.palette.primary.dark,

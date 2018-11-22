@@ -1,9 +1,7 @@
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import React from 'react';
-import { connect } from 'react-redux';
 import { Locale } from '../../../shared/ILocaleData';
-import * as LocaleAction from '../actions/locale';
 import { SimpleSelect } from '../components/Common';
 import { localeMap } from '../helpers/localeMapper';
 export interface IHeaderProps {

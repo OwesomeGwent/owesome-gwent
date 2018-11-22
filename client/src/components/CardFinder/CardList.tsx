@@ -7,11 +7,11 @@ import { CardData } from '../../../../shared/ICardData';
 import { WithPopover } from '../Common';
 export interface ICardListProps {
   title: string;
-  cards?: CardData[];
+  cards: CardData[];
   onClickCard: (card: CardData) => (e: React.MouseEvent) => void;
 }
 const CardList: SFC<ICardListProps> = ({ title, cards, onClickCard }) => {
-  if (!cards || cards.length <= 0) {
+  if (cards.length <= 0) {
     return null;
   }
   return (

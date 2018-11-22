@@ -1,6 +1,6 @@
 import Popover from '@material-ui/core/Popover';
+import Popper from '@material-ui/core/Popper';
 import React, { PureComponent, ReactNode } from 'react';
-
 export interface IWithPopoverProps {
   Hover: ReactNode;
   Main: ReactNode;
@@ -35,24 +35,24 @@ class WithPopover extends PureComponent<IWithPopoverProps, IWithPopoverState> {
         >
           {Main}
         </div>
-        <Popover
+        <Popper
           id="mouse-over-popover"
+          placement="top"
           anchorEl={anchorEl}
-          anchorOrigin={{
-            vertical: 'top',
-            horizontal: 'center',
-          }}
-          disableRestoreFocus
-          transformOrigin={{
-            vertical: 'bottom',
-            horizontal: 'center',
+          modifiers={{
+            flip: {
+              enabled: true,
+            },
+            preventOverflow: {
+              enabled: true,
+              boundariesElement: 'scrollParent',
+            },
           }}
           open={open}
-          onClose={this.handlePopoverClose}
           style={{ pointerEvents: 'none' }}
         >
           {Hover}
-        </Popover>
+        </Popper>
       </>
     );
   }

@@ -36,12 +36,9 @@ const styles = ({ palette }: Theme) =>
     },
   });
 export interface ICardDetailProps extends WithStyles<typeof styles> {
-  cardCategories?: string[];
-  cardDetails?: CardLocaleDataList;
   cardId: string;
   categoryIds: string[];
   keywords: string[];
-  keywordInfo?: KeyWordLocaleDataList;
   type: 'leader' | 'normal';
 }
 const highlight = (target: string, reg: RegExp) => {
@@ -50,7 +47,7 @@ const highlight = (target: string, reg: RegExp) => {
   });
   return newTarget;
 };
-const CardDetail: SFC<ICardDetailProps> = ({
+const CardDetail: SFC<ICardDetailProps & IMapState> = ({
   cardCategories,
   cardDetails,
   cardId,
@@ -96,6 +93,12 @@ const CardDetail: SFC<ICardDetailProps> = ({
     </Paper>
   );
 };
+
+interface IMapState {
+  cardCategories: string[];
+  cardDetails: CardLocaleDataList;
+  keywordInfo: KeyWordLocaleDataList;
+}
 
 const makeMapStateToProps = () => {
   const getCardDetailByLocale = makeGetCardDetailByLocale();

@@ -1,6 +1,4 @@
 import { createSelector } from 'reselect';
-import { CardData } from '../../../shared/ICardData';
-import { IRootState } from '../reducers';
 import { IMultiFilterList } from '../types/filter';
 import { getCardCategoryByLocale, getCardKeywordByLocale } from './locale';
 

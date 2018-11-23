@@ -1,5 +1,6 @@
 import { MuiThemeProvider } from '@material-ui/core/styles';
 import createMuiTheme from '@material-ui/core/styles/createMuiTheme';
+import 'intersection-observer'; // polyfill
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
 import { createGlobalStyle } from 'styled-components';
@@ -12,6 +13,7 @@ const GlobalStyle = createGlobalStyle`
     -webkit-text-size-adjust: 100%; /* 2 */
   }
   body {
+    overflow-y: auto;
     margin: 0;
     background-color: rgba(0 , 0, 0, .50);
   }

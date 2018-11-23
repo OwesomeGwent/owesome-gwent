@@ -1,5 +1,3 @@
-import { localeMap } from '../helpers/localeMapper';
-
 export enum Faction {
   nor = 'Northern Realms',
   mon = 'Monster',

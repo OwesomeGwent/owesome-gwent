@@ -1,5 +1,5 @@
 import isEqual from 'lodash/isEqual';
-import React, { Component } from 'react';
+import React, { Component, createRef } from 'react';
 import { connect } from 'react-redux';
 import { CardData } from '../../../shared/ICardData';
 import * as DeckActions from '../actions/deck';
@@ -16,12 +16,12 @@ import { IFilter } from '../types/filter';
 
 const PER_PAGE = 40;
 export interface ICardListProps {
-  filter?: IFilter;
-  search?: string;
-  normalFilteredCards?: CardData[];
-  leaderFilteredCards?: CardData[];
+  filter: IFilter;
+  search: string;
+  normalFilteredCards: CardData[];
+  leaderFilteredCards: CardData[];
   // deck
-  deckMakerStatus?: DeckMakerStatus;
+  deckMakerStatus: DeckMakerStatus;
   selectCard: (card: CardData) => void;
   selectLeader: (card: CardData) => void;
 }
@@ -36,7 +36,19 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
     page: 0,
     isLast: false,
   };
+  private observer: IntersectionObserver | undefined;
+  private target = React.createRef<HTMLDivElement>();
+  private prevTop: number = 0;
   public componentDidMount() {
+    // ItersectionObserver 등록
+    if (this.target.current) {
+      const option = {
+        root: null, // body scroll
+        threshold: 0.1,
+      };
+      this.observer = new IntersectionObserver(this.handleObserver, option);
+      this.observer.observe(this.target.current);
+    }
     this.getNextPage(this.state.page);
   }
   public componentDidUpdate(prevProps: ICardListProps) {
@@ -45,9 +57,10 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
       prevProps.search !== this.props.search
     ) {
       this.getNextPage(0);
+      // filter 변경시 scroll To Top
+      window.scrollTo(0, 0);
     }
   }
-
   // 덱 빌딩 상태일때 카드를 추가하는 용도로 사용
   public onClickCard = (card: CardData) => (e: React.MouseEvent) => {
     const { deckMakerStatus, selectLeader } = this.props;
@@ -55,14 +68,17 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
       selectLeader(card);
     }
   };
-
-  public handleScroll = (e: React.UIEvent) => {
-    const target = e.currentTarget;
-    if (target.scrollTop + target.clientHeight >= target.scrollHeight - 300) {
-      this.getNextPage(this.state.page);
-    }
+  public handleObserver = (entries: IntersectionObserverEntry[]) => {
+    entries.forEach(entry => {
+      const { top } = entry.boundingClientRect;
+      // prevTop - 이전 scroll trigger position
+      // top - 현재 scroll trigger position
+      if (this.prevTop > top) {
+        this.getNextPage(this.state.page);
+      }
+      this.prevTop = top;
+    });
   };
-
   public getNextPage = (page: number) => {
     const { normalFilteredCards } = this.props;
     if (normalFilteredCards) {
@@ -77,24 +93,23 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
   };
 
   public render() {
-    const { isLast, currentCards } = this.state;
+    const { currentCards } = this.state;
     const { leaderFilteredCards, deckMakerStatus } = this.props;
     // 덱 빌딩 상태일때
     if (deckMakerStatus === 'DECKMAKE') {
       return (
-        <CardList
-          title="Leaders"
-          cards={leaderFilteredCards}
-          onClickCard={this.onClickCard}
-        />
+        <>
+          <CardList
+            title="Leaders"
+            cards={leaderFilteredCards}
+            onClickCard={this.onClickCard}
+          />
+        </>
       );
     }
     // 조회 상태일때
     return (
-      <div
-        style={{ overflowY: 'auto', maxHeight: '100vh' }}
-        onScroll={isLast ? () => null : this.handleScroll}
-      >
+      <div>
         <CardList
           title="Leaders"
           cards={leaderFilteredCards}
@@ -105,11 +120,19 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
           cards={currentCards}
           onClickCard={this.onClickCard}
         />
+        <div ref={this.target} style={{ height: 100 }} />
       </div>
     );
   }
 }
 
+interface IMapState {
+  deckMakerStatus: DeckMakerStatus;
+  filter: IFilter;
+  search: string;
+  leaderFilteredCards: CardData[];
+  normalFilteredCards: CardData[];
+}
 const makeMapStateToProps = () => {
   const getNormalFilteredCards = makeGetFilteredCards();
   const getLeaderFilteredCards = makeGetFilteredCards();

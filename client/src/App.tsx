@@ -1,5 +1,6 @@
 import { MuiThemeProvider } from '@material-ui/core/styles';
 import createMuiTheme from '@material-ui/core/styles/createMuiTheme';
+import 'intersection-observer'; // polyfill
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
 import { createGlobalStyle } from 'styled-components';

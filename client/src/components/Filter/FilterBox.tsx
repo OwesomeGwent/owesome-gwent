@@ -4,6 +4,8 @@ import styled from 'styled-components';
 const Box = styled.div`
   display: inline-block;
   border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px;
   padding: 10px;
   vertical-align: middle;
   min-height: 70px;

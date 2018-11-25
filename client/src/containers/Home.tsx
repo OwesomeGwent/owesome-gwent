@@ -6,7 +6,7 @@ import { CardData, CardDataList } from '../../../shared/ICardData';
 import { Locale } from '../../../shared/ILocaleData';
 import * as cardActions from '../actions/card';
 import * as localeActions from '../actions/locale';
-import { FlipCard } from '../components/Common';
+import { Loading } from '../components/Common';
 import localeMapper from '../helpers/localeMapper';
 import { IRootState } from '../reducers';
 import { ThunkFunc } from '../types/thunk';
@@ -81,12 +81,7 @@ class Home extends Component<IHomeProps> {
     const { cardData, locale, setLocale } = this.props;
     // flag 설정 필요?
     if (cardData.normal.length <= 0) {
-      return (
-        <>
-          <h2 style={{ textAlign: 'center' }}>Fetching Card Data...</h2>
-          <FlipCard />
-        </>
-      );
+      return <Loading message="Fetching card data..." />;
     }
     return (
       <>

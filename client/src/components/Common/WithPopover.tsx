@@ -49,7 +49,7 @@ class WithPopover extends PureComponent<IWithPopoverProps, IWithPopoverState> {
             },
           }}
           open={open}
-          style={{ pointerEvents: 'none' }}
+          style={{ pointerEvents: 'none', zIndex: 101 }}
         >
           {Hover}
         </Popper>

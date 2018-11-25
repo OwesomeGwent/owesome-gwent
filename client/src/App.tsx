@@ -15,7 +15,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     overflow-y: auto;
     margin: 0;
-    background-color: rgba(0 , 0, 0, .50);
+    background-color: #121315;
+    background-image: url(/img/background/bg.jpg);
   }
   main {
     display: block;

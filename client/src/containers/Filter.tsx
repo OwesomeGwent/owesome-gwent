@@ -30,7 +30,7 @@ const styles = (theme: Theme) =>
     panel: {
       color: theme.palette.primary.contrastText,
       position: 'fixed',
-      zIndex: 101,
+      zIndex: 100,
     },
     panelSummary: {
       backgroundColor: theme.palette.primary.dark,

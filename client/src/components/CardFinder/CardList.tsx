@@ -16,7 +16,10 @@ const CardList: SFC<ICardListProps> = ({ title, cards, onClickCard }) => {
   }
   return (
     <>
-      <Typography style={{ marginTop: '1rem' }} variant="subtitle1">
+      <Typography
+        style={{ marginTop: '1rem', color: 'white' }}
+        variant="subtitle1"
+      >
         {title}
       </Typography>
       <Divider style={{ marginBottom: '1rem' }} light />

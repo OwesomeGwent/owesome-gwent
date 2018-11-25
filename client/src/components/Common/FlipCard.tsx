@@ -1,18 +1,18 @@
 import React from 'react';
-import baseImage from '../../img/card-reveals/cards/m/12950000.png';
 import './flip.css';
 
 export interface IFlipCardProps {
+  src: string;
   [prop: string]: React.ReactNode;
 }
-const FilpCard: React.SFC<IFlipCardProps> = ({ front }) => {
+const FilpCard: React.SFC<IFlipCardProps> = ({ front, src }) => {
   return (
     <div className="flip-container">
       <div className="flipper">
         <div className="front">
           {front}
           <div className="c-card__frame" />
-          <img src={baseImage} />
+          <img src={src} />
         </div>
         <div className="back" />
       </div>

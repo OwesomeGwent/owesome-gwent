@@ -63,9 +63,13 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
   }
   // 덱 빌딩 상태일때 카드를 추가하는 용도로 사용
   public onClickCard = (card: CardData) => (e: React.MouseEvent) => {
-    const { deckMakerStatus, selectLeader } = this.props;
+    const { deckMakerStatus, selectCard, selectLeader } = this.props;
     if (deckMakerStatus === 'DECKMAKE') {
-      selectLeader(card);
+      if (card.cardType === 'Leader') {
+        selectLeader(card);
+        return;
+      }
+      selectCard(card);
     }
   };
   public handleObserver = (entries: IntersectionObserverEntry[]) => {
@@ -102,6 +106,11 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
           <CardList
             title="Leaders"
             cards={leaderFilteredCards}
+            onClickCard={this.onClickCard}
+          />
+          <CardList
+            title="Cards"
+            cards={currentCards}
             onClickCard={this.onClickCard}
           />
         </>

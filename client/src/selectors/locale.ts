@@ -27,7 +27,7 @@ const getCardCategories = (state: IRootState, { categoryIds }: IBaseProps) => {
 export const getCardDetailByLocale = createSelector(
   getCurrentLocale,
   getCardDetails,
-  (locale, localeData) => localeData[locale],
+  (locale, localeData) => localeData[locale] || {},
 );
 export const getCardKeywordByLocale = createSelector(
   getCurrentLocale,

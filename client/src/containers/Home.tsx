@@ -5,9 +5,11 @@ import { Header, Main, Sidebar } from '.';
 import { CardData, CardDataList } from '../../../shared/ICardData';
 import { Locale } from '../../../shared/ILocaleData';
 import * as cardActions from '../actions/card';
+import * as DeckActions from '../actions/deck';
 import * as localeActions from '../actions/locale';
 import { Loading } from '../components/Common';
 import localeMapper from '../helpers/localeMapper';
+import { parseUrl } from '../helpers/urlMaker';
 import { IRootState } from '../reducers';
 import { ThunkFunc } from '../types/thunk';
 
@@ -25,6 +27,9 @@ export interface IHomeProps {
   rawCardData: CardDataList;
   fetchStatus: string;
   fetchCards: () => void;
+  setDeckMaker: () => void;
+  selectCard: typeof DeckActions.selectCard;
+  selectLeader: typeof DeckActions.selectLeader;
   setCards: (leader: CardData[], normal: CardData[]) => void;
   setLocale: (locale: Locale) => void;
 }
@@ -75,6 +80,19 @@ class Home extends Component<IHomeProps> {
       { leader: [], normal: [] },
     );
     setCards(leader, normal);
+    const shortUrl = window.location.pathname.slice(1);
+    if (shortUrl) {
+      const [leaderId, cardIds] = parseUrl(shortUrl);
+      const selectedLeader = (leader as CardData[]).find(
+        card => card.ingameId === leaderId,
+      );
+      const selectedCard = (normal as CardData[]).filter(card =>
+        cardIds.includes(card.ingameId),
+      );
+      this.props.setDeckMaker();
+      this.props.selectLeader(selectedLeader as CardData);
+      this.props.selectCard(selectedCard as CardData[]);
+    }
   }
 
   public render() {
@@ -103,6 +121,11 @@ const mapStateToProps = (state: IRootState) => ({
 });
 const mapDispatchToProps = (dispatch: ThunkFunc) => ({
   fetchCards: () => dispatch(cardActions.fetchCards()),
+  setDeckMaker: () => dispatch(DeckActions.setDeckMakerStatus('DECKMAKE')),
+  selectCard: (card: CardData | CardData[]) =>
+    dispatch(DeckActions.selectCard(card)),
+  selectLeader: (leader: CardData) =>
+    dispatch(DeckActions.selectLeader(leader)),
   setCards: (leader: CardData[], normal: CardData[]) =>
     dispatch(cardActions.setCards(leader, normal)),
   setLocale: (locale: Locale) => dispatch(localeActions.setLocale(locale)),

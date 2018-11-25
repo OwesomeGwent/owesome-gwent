@@ -2,6 +2,7 @@ import produce from 'immer';
 import { CardData } from '../../../shared/ICardData';
 import {
   REMOVE_LEADER,
+  SELECT_CARD,
   SELECT_LEADER,
   SET_DECKMAKER_STATUS,
 } from '../actions/ActionTypes';
@@ -33,6 +34,16 @@ const deck = (state: IDeckState = initialState, action: IDeckActions) =>
       }
       case REMOVE_LEADER: {
         draft.leader = undefined;
+        break;
+      }
+      case SELECT_CARD: {
+        const { card } = action.payload;
+        if (Array.isArray(card)) {
+          draft.cards = card;
+        } else {
+          draft.cards.push(card);
+        }
+        break;
       }
       default:
         return;

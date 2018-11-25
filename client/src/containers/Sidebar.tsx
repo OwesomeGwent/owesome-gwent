@@ -26,7 +26,7 @@ interface ISidebarProps {
   randomLeader: CardData;
   deck: IDeckState;
   cardData: ICardState;
-  detail?: CardLocaleDataList;
+  detail: CardLocaleDataList;
   category?: CategoryLocaleDataList;
   setDeckMakerStatus: (status: DeckMakerStatus) => void;
 }
@@ -78,7 +78,7 @@ const Sidebar: React.SFC<ISidebarProps> = ({
           {detail[deck.leader.ingameId].name}
         </LeaderView>
       )}
-      <DeckList />
+      <DeckList cards={deck.cards} detail={detail} />
     </Container>
   );
 };

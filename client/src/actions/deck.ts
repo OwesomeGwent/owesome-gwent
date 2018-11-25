@@ -32,7 +32,7 @@ export interface IRemoveLeader {
 export interface ISelectCard {
   type: typeof SELECT_CARD;
   payload: {
-    card: CardData;
+    card: CardData | CardData[];
   };
 }
 
@@ -59,11 +59,10 @@ export const setDeckMakerStatus = (
   },
 });
 
-export const selectCard = (card: CardData): ISelectCard => ({
+export const selectCard = (card: CardData | CardData[]): ISelectCard => ({
   type: SELECT_CARD,
   payload: { card },
 });
-
 export const removeCard = (card: CardData): IRemoveCard => ({
   type: REMOVE_CARD,
   payload: { card },

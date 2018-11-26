@@ -5,6 +5,7 @@ import { CardData } from '../../../shared/ICardData';
 import * as DeckActions from '../actions/deck';
 import * as FilterActions from '../actions/filter';
 import { CardList } from '../components/CardFinder';
+import { hasSpace } from '../helpers/card';
 import { IRootState } from '../reducers';
 import {
   makeGetFilteredCards,
@@ -12,7 +13,6 @@ import {
 } from '../selectors/card';
 import { DeckMakerStatus } from '../types/deck';
 import { IFilter } from '../types/filter';
-
 // TODO: Debounce 줄까말까..
 
 const PER_PAGE = 40;
@@ -71,19 +71,9 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
       if (card.cardType === 'Leader') {
         selectLeader(card);
         return;
-      } else {
+      } else if (hasSpace(card, deckCards)) {
         // gold는 1개 bronze는 2개
-        let cardCount = 0;
-        deckCards.forEach(deckCard => {
-          if (deckCard.ingameId === card.ingameId) {
-            cardCount++;
-          }
-        });
-        if (card.type === 'Bronze' && cardCount <= 1) {
-          selectCard(card);
-        } else if (cardCount === 0) {
-          selectCard(card);
-        }
+        selectCard(card);
       }
     }
   };
@@ -110,10 +100,12 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
       }));
     }
   };
-
+  public isAvailable = (card: CardData) => {
+    return hasSpace(card, this.props.deckCards);
+  };
   public render() {
     const { currentCards } = this.state;
-    const { leaderFilteredCards, deckMakerStatus } = this.props;
+    const { leaderFilteredCards, deckMakerStatus, deckCards } = this.props;
     // 덱 빌딩 상태일때
     if (deckMakerStatus === 'DECKMAKE') {
       return (
@@ -121,11 +113,13 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
           <CardList
             title="Leaders"
             cards={leaderFilteredCards}
+            isAvailable={this.isAvailable}
             onClickCard={this.onClickCard}
           />
           <CardList
             title="Cards"
             cards={currentCards}
+            isAvailable={this.isAvailable}
             onClickCard={this.onClickCard}
           />
           <div ref={this.target} style={{ height: 100 }} />
@@ -138,11 +132,13 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
         <CardList
           title="Leaders"
           cards={leaderFilteredCards}
+          isAvailable={this.isAvailable}
           onClickCard={this.onClickCard}
         />
         <CardList
           title="Cards"
           cards={currentCards}
+          isAvailable={this.isAvailable}
           onClickCard={this.onClickCard}
         />
         <div ref={this.target} style={{ height: 100 }} />

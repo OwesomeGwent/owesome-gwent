@@ -8,11 +8,11 @@ import * as cardActions from '../actions/card';
 import * as DeckActions from '../actions/deck';
 import * as localeActions from '../actions/locale';
 import { Loading } from '../components/Common';
+import { checkOwnable, sortByFaction, sortByProvision } from '../helpers/card';
 import localeMapper from '../helpers/localeMapper';
 import { parseUrl } from '../helpers/urlMaker';
 import { IRootState } from '../reducers';
 import { ThunkFunc } from '../types/thunk';
-
 const HomeContainer = styled.div`
   display: flex;
   width: 80%;
@@ -33,22 +33,6 @@ export interface IHomeProps {
   setCards: (leader: CardData[], normal: CardData[]) => void;
   setLocale: (locale: Locale) => void;
 }
-// Ownable 검사. 덱에 못넣는 카드들.
-const checkOwnable = (card: CardData) => {
-  return card.variations[0].availability !== 'NonOwnable';
-};
-const sortByFaction = (a: CardData, b: CardData) => {
-  if (a.faction && b.faction) {
-    return a.faction.localeCompare(b.faction);
-  }
-  return 0;
-};
-const sortByProvision = (a: CardData, b: CardData) => {
-  if (a.mulligans && b.mulligans) {
-    return b.mulligans - a.mulligans;
-  }
-  return b.provision - a.provision;
-};
 const getCurrentLocale = () => {
   const navigator: any = window.navigator;
   if (navigator.languages) {

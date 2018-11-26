@@ -11,6 +11,7 @@ import {
 import { IDeckActions } from '../actions/deck';
 import { DeckMakerStatus } from '../types/deck';
 
+import { sortByProvision } from '../helpers/card';
 export interface IDeckState {
   readonly deckMakerStatus: DeckMakerStatus;
   readonly leader: CardData | undefined;
@@ -46,12 +47,14 @@ const deck = (state: IDeckState = initialState, action: IDeckActions) =>
         } else {
           draft.cards.push(card);
         }
+        draft.cards.sort(sortByProvision);
         break;
       }
       case REMOVE_CARD: {
-        draft.cards = draft.cards.filter(
-          card => card.ingameId !== action.payload.card.ingameId,
+        const removeIdx = draft.cards.findIndex(
+          card => card.ingameId === action.payload.cardId,
         );
+        draft.cards.splice(removeIdx, 1);
         break;
       }
       case RESET_CARD: {

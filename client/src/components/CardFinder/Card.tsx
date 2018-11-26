@@ -1,7 +1,20 @@
-import React from 'react';
+import React, { HTMLAttributes } from 'react';
+import styled from 'styled-components';
 import { CardData } from '../../../../shared/ICardData';
 import { BASE_IMAGE_PATH } from '../../apis/defs';
 
+interface IContainerProps extends React.HTMLProps<HTMLImageElement> {
+  available: boolean;
+  src: string;
+}
+const CardImage = styled.img`
+  ${(props: IContainerProps) =>
+    props.available
+      ? null
+      : `
+    filter: grayscale(100%);
+  `}
+`;
 interface IMapper {
   [key: string]: number;
 }
@@ -25,10 +38,11 @@ const TYPE: IMapper = {
   Leader: 5,
 };
 export interface ICardProps {
+  available: boolean;
   card: CardData;
   onClick: (e: React.MouseEvent) => void;
 }
-const Card: React.SFC<ICardProps> = ({ card, onClick }) => {
+const Card: React.SFC<ICardProps> = ({ available, card, onClick }) => {
   const {
     cardType,
     type,
@@ -76,7 +90,10 @@ const Card: React.SFC<ICardProps> = ({ card, onClick }) => {
                 </div>
               </>
             )}
-            <img src={`${BASE_IMAGE_PATH}/${art}0000.png`} />
+            <CardImage
+              available={available}
+              src={`${BASE_IMAGE_PATH}/${art}0000.png`}
+            />
           </div>
         </div>
       </div>

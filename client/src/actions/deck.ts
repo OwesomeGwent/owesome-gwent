@@ -40,7 +40,7 @@ export interface ISelectCard {
 export interface IRemoveCard {
   type: typeof REMOVE_CARD;
   payload: {
-    card: CardData;
+    cardId: string;
   };
 }
 export interface IResetCard {
@@ -67,9 +67,9 @@ export const selectCard = (card: CardData | CardData[]): ISelectCard => ({
   type: SELECT_CARD,
   payload: { card },
 });
-export const removeCard = (card: CardData): IRemoveCard => ({
+export const removeCard = (cardId: string): IRemoveCard => ({
   type: REMOVE_CARD,
-  payload: { card },
+  payload: { cardId },
 });
 // 필요할 듯?
 export const resetCard = (): IResetCard => ({

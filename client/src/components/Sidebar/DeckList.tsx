@@ -24,8 +24,8 @@ export default class DeckList extends Component<IDeckListProps> {
     const { cards, detail } = this.props;
     return (
       <DeckListWrapper>
-        {cards.map(card => (
-          <DeckItem key={card.ingameId}>{detail[card.ingameId].name}</DeckItem>
+        {cards.map((card, i) => (
+          <DeckItem key={i}>{detail[card.ingameId].name}</DeckItem>
         ))}
         <DeckListHeader>Create Deck</DeckListHeader>
       </DeckListWrapper>

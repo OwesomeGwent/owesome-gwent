@@ -1,7 +1,9 @@
 import produce from 'immer';
 import { CardData } from '../../../shared/ICardData';
 import {
+  REMOVE_CARD,
   REMOVE_LEADER,
+  RESET_CARD,
   SELECT_CARD,
   SELECT_LEADER,
   SET_DECKMAKER_STATUS,
@@ -34,6 +36,7 @@ const deck = (state: IDeckState = initialState, action: IDeckActions) =>
       }
       case REMOVE_LEADER: {
         draft.leader = undefined;
+        draft.cards = [];
         break;
       }
       case SELECT_CARD: {
@@ -43,6 +46,16 @@ const deck = (state: IDeckState = initialState, action: IDeckActions) =>
         } else {
           draft.cards.push(card);
         }
+        break;
+      }
+      case REMOVE_CARD: {
+        draft.cards = draft.cards.filter(
+          card => card.ingameId !== action.payload.card.ingameId,
+        );
+        break;
+      }
+      case RESET_CARD: {
+        draft.cards = [];
         break;
       }
       default:

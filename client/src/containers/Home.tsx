@@ -29,10 +29,14 @@ export interface IHomeProps {
   fetchCards: () => void;
   setDeckMaker: () => void;
   selectCard: typeof DeckActions.selectCard;
-  selectLeader: typeof DeckActions.selectLeader;
+  selectLeader: (leader: CardData) => void;
   setCards: (leader: CardData[], normal: CardData[]) => void;
   setLocale: (locale: Locale) => void;
 }
+// Ownable 검사. 덱에 못넣는 카드들.
+const checkOwnable = (card: CardData) => {
+  return card.variations[0].availability !== 'NonOwnable';
+};
 const sortByFaction = (a: CardData, b: CardData) => {
   if (a.faction && b.faction) {
     return a.faction.localeCompare(b.faction);
@@ -69,6 +73,7 @@ class Home extends Component<IHomeProps> {
       (acc, [type, cards]) => {
         const sortedCards = Object.values(cards)
           .map(card => card)
+          .filter(checkOwnable)
           .slice()
           .sort(sortByProvision)
           .sort(sortByFaction);
@@ -80,6 +85,7 @@ class Home extends Component<IHomeProps> {
       { leader: [], normal: [] },
     );
     setCards(leader, normal);
+    // Deck url 체크.
     const shortUrl = window.location.pathname.slice(1);
     if (shortUrl) {
       const [leaderId, cardIds] = parseUrl(shortUrl);

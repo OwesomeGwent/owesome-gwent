@@ -36,7 +36,10 @@ const Container = styled.div`
   justify-content: center;
   flex-basis: 300px;
 `;
-
+const Floating = styled.div`
+  position: sticky;
+  top: 65px;
+`;
 const NoLeader = styled.div`
   height: 100px;
   background: rgba(0, 0, 0, 0.2);
@@ -61,24 +64,28 @@ const Sidebar: React.SFC<ISidebarProps> = ({
     const randomLeaderImg = variations[Object.keys(variations)[0]].art;
     return (
       <Container>
-        <StateToggleBox
-          backgroundLeader={randomLeaderImg}
-          onToggle={() => setDeckMakerStatus('DECKMAKE')}
-        />
+        <Floating>
+          <StateToggleBox
+            backgroundLeader={randomLeaderImg}
+            onToggle={() => setDeckMakerStatus('DECKMAKE')}
+          />
+        </Floating>
       </Container>
     );
   }
 
   return (
     <Container>
-      {deck.leader === undefined ? (
-        <NoLeader>Choose Your Leader</NoLeader>
-      ) : (
-        <LeaderView backgroundCard={deck.leader.variations[0].art}>
-          {detail[deck.leader.ingameId].name}
-        </LeaderView>
-      )}
-      <DeckList cards={deck.cards} detail={detail} />
+      <Floating>
+        {deck.leader === undefined ? (
+          <NoLeader>Choose Your Leader</NoLeader>
+        ) : (
+          <LeaderView backgroundCard={deck.leader.variations[0].art}>
+            {detail[deck.leader.ingameId].name}
+          </LeaderView>
+        )}
+        <DeckList cards={deck.cards} detail={detail} />
+      </Floating>
     </Container>
   );
 };

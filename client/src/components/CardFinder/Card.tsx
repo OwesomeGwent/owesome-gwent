@@ -53,7 +53,7 @@ const Card: React.SFC<ICardProps> = ({ card, onClick }) => {
         data-provision={provision}
         data-row={CARDTYPE[cardType]}
         data-mulligan={mulligans}
-        data-group={TYPE[type]}
+        data-type={TYPE[type]}
         data-rarity={RARITY[rarity]}
       >
         <div className="c-card__front-container">

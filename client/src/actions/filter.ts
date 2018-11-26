@@ -34,7 +34,7 @@ export type IFilterAction =
 export const setFilter = (
   field: FilterField,
   value: FilterType,
-): IFilterAction => {
+): ISetFilter => {
   return {
     type: SET_FILTER,
     field,

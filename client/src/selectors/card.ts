@@ -36,6 +36,9 @@ const getCachedCards = useCache(
             return card.provision >= numVal;
           }
           return card.provision === numVal;
+        } else if (field === 'faction') {
+          // neutral 항상 같이나오게 추가함.
+          return card.faction === value || card.faction === 'Neutral';
         }
         return card[field] === value;
       });

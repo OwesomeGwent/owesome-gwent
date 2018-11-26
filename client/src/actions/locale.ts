@@ -2,7 +2,6 @@ import { Locale } from '../../../shared/ILocaleData';
 import { ThunkResult } from '../types/thunk';
 import { SET_LOCALE } from './ActionTypes';
 import { fetchDetails } from './card';
-
 export interface ISetLocale {
   type: typeof SET_LOCALE;
   locale: Locale;

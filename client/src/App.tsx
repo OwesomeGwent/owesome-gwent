@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 import { Provider } from 'react-redux';
 import { createGlobalStyle } from 'styled-components';
 import { Home } from './containers';
+import { deckListener } from './helpers/urlMaker';
 import createStore from './store/createStore';
 /* 초기 작업 여기서 */
 const GlobalStyle = createGlobalStyle`
@@ -192,7 +193,8 @@ const theme = createMuiTheme({
   },
 });
 
-const store = createStore();
+export const store = createStore();
+store.subscribe(deckListener);
 
 export default class App extends Component {
   public render() {

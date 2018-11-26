@@ -12,23 +12,28 @@ import {
   DefaultImageBox,
   StateToggleBox,
 } from '../components/Sidebar';
+import { countCard } from '../helpers/card';
 import { IRootState } from '../reducers';
 import { ICardState } from '../reducers/card';
 import { IDeckState } from '../reducers/deck';
+import { getDeckCost, getParsedDeckCards } from '../selectors/deck';
 import {
   getCardCategoryByLocale,
   getCardDetailByLocale,
 } from '../selectors/locale';
 import { getRandomLeader } from '../selectors/random';
-import { DeckMakerStatus } from '../types/deck';
+import { DeckMakerStatus, IDeckCard, IDeckCost } from '../types/deck';
 
 interface ISidebarProps {
   randomLeader: CardData;
   deck: IDeckState;
+  deckCards: IDeckCard[];
+  deckCost: IDeckCost;
   cardData: ICardState;
-  detail?: CardLocaleDataList;
+  detail: CardLocaleDataList;
   category?: CategoryLocaleDataList;
   setDeckMakerStatus: (status: DeckMakerStatus) => void;
+  removeCard: (cardId: string) => void;
 }
 
 const Container = styled.div`
@@ -36,7 +41,10 @@ const Container = styled.div`
   justify-content: center;
   flex-basis: 300px;
 `;
-
+const Floating = styled.div`
+  position: sticky;
+  top: 65px;
+`;
 const NoLeader = styled.div`
   height: 100px;
   background: rgba(0, 0, 0, 0.2);
@@ -47,12 +55,21 @@ const LeaderView = styled(DefaultImageBox)`
   filter: blur(1px);
   display: flex;
 `;
-
+const CostView = styled.div`
+  background-color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
 const Sidebar: React.SFC<ISidebarProps> = ({
   randomLeader: { variations },
   deck,
+  deckCards,
+  deckCost,
   detail,
   setDeckMakerStatus,
+  removeCard,
 }) => {
   if (detail === undefined) {
     return null;
@@ -61,24 +78,32 @@ const Sidebar: React.SFC<ISidebarProps> = ({
     const randomLeaderImg = variations[Object.keys(variations)[0]].art;
     return (
       <Container>
-        <StateToggleBox
-          backgroundLeader={randomLeaderImg}
-          onToggle={() => setDeckMakerStatus('DECKMAKE')}
-        />
+        <Floating>
+          <StateToggleBox
+            backgroundLeader={randomLeaderImg}
+            onToggle={() => setDeckMakerStatus('DECKMAKE')}
+          />
+        </Floating>
       </Container>
     );
   }
 
   return (
     <Container>
-      {deck.leader === undefined ? (
-        <NoLeader>Choose Your Leader</NoLeader>
-      ) : (
-        <LeaderView backgroundCard={deck.leader.variations[0].art}>
-          {detail[deck.leader.ingameId].name}
-        </LeaderView>
-      )}
-      <DeckList />
+      <Floating>
+        {deck.leader === undefined ? (
+          <NoLeader>Choose Your Leader</NoLeader>
+        ) : (
+          <LeaderView backgroundCard={deck.leader.variations[0].art}>
+            {detail[deck.leader.ingameId].name}
+          </LeaderView>
+        )}
+        <CostView>
+          <span>craft: {deckCost.craft} </span>
+          <span>provision: {deckCost.provision}</span>
+        </CostView>
+        <DeckList cards={deckCards} detail={detail} removeCard={removeCard} />
+      </Floating>
     </Container>
   );
 };
@@ -89,6 +114,8 @@ const mapStateToProps = (state: IRootState) => {
   return {
     randomLeader: getRandomLeader(state),
     deck: state.deck,
+    deckCards: getParsedDeckCards(state),
+    deckCost: getDeckCost(state),
     cardData: state.card,
     detail,
     category,

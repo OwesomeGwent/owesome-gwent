@@ -10,11 +10,9 @@ const serverSettings: IServerSettings = {
 
 cardParser();
 
-const cache = new JSONCache();
+export const cache = new JSONCache();
 cache.runBatch();
 
 const server = new App();
 
 server.start(serverSettings);
-
-export { cache };

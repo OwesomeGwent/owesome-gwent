@@ -5,8 +5,11 @@ import dotenv from 'dotenv';
 import express, { Router } from 'express';
 import helmet from 'helmet';
 import morgan from 'morgan';
+import 'reflect-metadata';
+import { createConnection } from 'typeorm';
 
 dotenv.config();
+
 export interface IServerSettings {
   port: number | string;
   routes: Router;
@@ -15,9 +18,9 @@ export interface IServerSettings {
 class App {
   public server = express();
 
-  public start({ port, routes }: IServerSettings) {
+  public async start({ port, routes }: IServerSettings) {
     try {
-      this.init();
+      await this.init();
       this.server.use('/api', routes);
       this.server.listen(port, () => {
         console.log(
@@ -32,7 +35,13 @@ class App {
     }
   }
 
-  private init() {
+  private async init() {
+    try {
+      console.log(chalk.magenta(`Connecting to Database...`));
+      await createConnection();
+    } catch (err) {
+      console.error(err);
+    }
     this.server.use(cookieParser());
     this.server.use(bodyParser.json());
     this.server.use(bodyParser.urlencoded({ extended: true }));

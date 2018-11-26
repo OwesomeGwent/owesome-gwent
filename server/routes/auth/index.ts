@@ -1,24 +1,37 @@
 import express from 'express';
-import { IUser } from '../../../shared/IAuth';
-import { decrypt, encrypt, jwtSign, jwtVerify } from '../../helpers/auth';
+import { getCustomRepository } from 'typeorm';
 import verifyCookie from '../../middlewares/verifyCookie';
+import UserRepository, { User } from '../../repositories/UserRepository';
 import { IRequest } from '../../types/IAuth';
+const getRepo = () => getCustomRepository(UserRepository);
 
 const routes = express.Router();
-
-let prev = '';
-routes.post('/signup', (req, res) => {
+routes.post('/signup', async (req, res) => {
   const { username, password } = req.body;
-  const cryptedPassword = encrypt(password);
-  prev = cryptedPassword;
-  res.json({
-    success: true,
-  });
+  const userRepo = getRepo();
+  const user = await userRepo.findByUsername(username);
+  if (user) {
+    return res.status(401).json({
+      success: false,
+      error: '이미 존재하는 아이디 입니다.',
+    });
+  }
+  try {
+    await userRepo.signup({ username, password });
+    return res.json({
+      username,
+      success: true,
+    });
+  } catch (err) {
+    return res.status(401).json({
+      success: false,
+      error: '',
+    });
+  }
 });
 
 routes.post('/login', async (req, res) => {
   const { username, password } = req.body;
-  const decryptedPassword = decrypt(prev);
   const success = () => {
     return res.json({
       username,
@@ -31,27 +44,30 @@ routes.post('/login', async (req, res) => {
       error,
     });
   };
-  if (decryptedPassword === password) {
-    try {
-      const token = await jwtSign({ username });
-      res.cookie('jwt_token', token, {
-        maxAge: 1000 * 3600 * 24,
-        httpOnly: true,
-      });
-      return success();
-    } catch (err) {
-      return failure('Cannot sign in token.');
-    }
+  const userRepo = getRepo();
+  try {
+    const token = await userRepo.login(username, password);
+    res.cookie('jwt_token', token, {
+      maxAge: 1000 * 3600 * 24,
+      httpOnly: true,
+    });
+    return success();
+  } catch (err) {
+    return failure(err);
   }
-  return failure('Invalid ID or password.');
 });
 
 routes.get('/verify', verifyCookie, (req, res) => {
   const customReq = req as IRequest;
-  const success = (user: IUser) => {
+  const success = (user: User) => {
+    const { username, email, decks } = user;
     return res.json({
       success: true,
-      user,
+      user: {
+        username,
+        email,
+        decks,
+      },
     });
   };
   const failure = (error: string) => {

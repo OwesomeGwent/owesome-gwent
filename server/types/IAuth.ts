@@ -1,7 +1,7 @@
 import { Request } from 'express';
-import { IUser } from '../../shared/IAuth';
-
+import { User } from '../src/entity/User';
 export interface IRequest extends Request {
-  user?: IUser;
+  username?: string;
+  user?: User;
   error?: string;
 }

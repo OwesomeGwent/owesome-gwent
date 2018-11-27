@@ -1,3 +1,4 @@
+// Card
 export const FETCH_CARDS_REQUEST = 'FETCH_CARDS_REQUEST';
 export const FETCH_CARDS_SUCCESS = 'FETCH_CARDS_SUCCESS';
 export const FETCH_CARDS_FAILURE = 'FETCH_CARDS_FAILURE';
@@ -6,18 +7,33 @@ export const FETCH_DETAILS_SUCCESS = 'FETCH_DETAILS_SUCCESS';
 export const FETCH_DETAILS_FAILURE = 'FETCH_DETAILS_FAILURE';
 export const SET_CARDS = 'SET_CARDS';
 
+// Filter
 export const SET_FILTER = 'SET_FILTER';
 export const SET_MULTI_FILTER = 'SET_MULTI_FILTER';
 export const SET_SEARCH_FILTER = 'SET_SEARCH_FILTER';
 export const CLEAR_FILTER = 'CLEAR_FILTER';
 
+// Locale
 export const SET_LOCALE = 'SET_LOCALE';
 
+// Deck
 export const SET_DECKMAKER_STATUS = 'SET_DECKMAKER_STATUS';
-
 export const SELECT_LEADER = 'SELECT_LEADER';
 export const REMOVE_LEADER = 'REMOVE_LEADER';
 
 export const SELECT_CARD = 'SELECT_CARD';
 export const REMOVE_CARD = 'REMOVE_CARD';
 export const RESET_CARD = 'RESET_CARD';
+
+// Auth
+export const SIGNUP_REQUEST = 'SIGNUP_REQUEST';
+export const SIGNUP_SUCCESS = 'SIGNUP_SUCCESS';
+export const SIGNUP_FAILURE = 'SIGNUP_FAILURE';
+
+export const LOGIN_REQUEST = 'LOGIN_REQUEST';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAILURE = 'LOGIN_FAILURE';
+
+export const VERIFY_REQUEST = 'VERIFY_REQUEST';
+export const VERIFY_SUCCESS = 'VERIFY_SUCCESS';
+export const VERIFY_FAILURE = 'VERIFY_FAILURE';

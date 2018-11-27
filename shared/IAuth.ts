@@ -1,5 +1,3 @@
-export interface IUser {
-  username: string;
-  password: string;
-  decks?: string[];
-}
+import { User } from '../server/src/entity/User';
+
+export { User };

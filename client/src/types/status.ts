@@ -1,1 +1,1 @@
-export type Status = 'SUCCESS' | 'ERROR' | 'INIT' | 'FETCHING';
+export type Status = 'SUCCESS' | 'FAILURE' | 'INIT' | 'FETCHING';

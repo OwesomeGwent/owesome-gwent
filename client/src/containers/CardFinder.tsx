@@ -147,14 +147,6 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
   }
 }
 
-interface IMapState {
-  deckCards: CardData[];
-  deckMakerStatus: DeckMakerStatus;
-  filter: IFilter;
-  search: string;
-  leaderFilteredCards: CardData[];
-  normalFilteredCards: CardData[];
-}
 const makeMapStateToProps = () => {
   const getNormalFilteredCards = makeGetFilteredCards();
   const getLeaderFilteredCards = makeGetFilteredCards();

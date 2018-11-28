@@ -6,6 +6,7 @@ import {
   LOGIN_FAILURE,
   LOGIN_REQUEST,
   LOGIN_SUCCESS,
+  LOGOUT_REQUEST,
   SIGNUP_FAILURE,
   SIGNUP_REQUEST,
   SIGNUP_SUCCESS,
@@ -36,6 +37,7 @@ export interface ISignupSuccess {
 }
 export interface ISignupFailure {
   type: typeof SIGNUP_FAILURE;
+  error: string;
 }
 export interface IVerifyRequest {
   type: typeof VERIFY_REQUEST;
@@ -48,6 +50,9 @@ export interface IVerifyFailure {
   type: typeof VERIFY_FAILURE;
 }
 
+export interface ILogoutRequest {
+  type: typeof LOGOUT_REQUEST;
+}
 export type IAuthAction =
   | ILoginRequest
   | ILoginSuccess
@@ -57,7 +62,8 @@ export type IAuthAction =
   | ISignupSuccess
   | IVerifyFailure
   | IVerifyRequest
-  | IVerifySuccess;
+  | IVerifySuccess
+  | ILogoutRequest;
 
 export const signup = (user: ISignupUser): ThunkResult<void, IAuthAction> => {
   return async dispatch => {
@@ -72,9 +78,10 @@ export const signup = (user: ISignupUser): ThunkResult<void, IAuthAction> => {
         username: user.username,
       });
     } catch (err) {
-      console.log(err);
+      const { error } = err.response.data;
       dispatch({
         type: SIGNUP_FAILURE,
+        error,
       });
     }
   };
@@ -106,6 +113,14 @@ export const login = (
   };
 };
 
+export const logout = (): ThunkResult<void, IAuthAction> => {
+  return async dispatch => {
+    dispatch({
+      type: LOGOUT_REQUEST,
+    });
+    await authApi.logout();
+  };
+};
 export const verify = (): ThunkResult<void, IAuthAction> => {
   return async dispatch => {
     dispatch({

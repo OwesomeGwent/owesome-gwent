@@ -34,6 +34,7 @@ class Modal extends Component<{}, IWithModalState> {
       >
         {children}
         <UIModal
+          disableAutoFocus
           style={getModalStyle()}
           open={open}
           onClose={this.closeModal}

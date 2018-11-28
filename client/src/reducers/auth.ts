@@ -5,7 +5,7 @@ import { Status } from '../types/status';
 import { ISignupUser, IUser } from '../types/user';
 
 export interface IAuthState {
-  user: IUser | {};
+  user: IUser | undefined;
   loggedIn: boolean;
   login: {
     status: Status;
@@ -13,6 +13,7 @@ export interface IAuthState {
   signup: {
     username: string;
     status: Status;
+    error: string;
   };
   verify: {
     status: Status;
@@ -20,7 +21,7 @@ export interface IAuthState {
 }
 
 const initialState: IAuthState = {
-  user: {},
+  user: undefined,
   loggedIn: false,
   login: {
     status: 'INIT',
@@ -28,6 +29,7 @@ const initialState: IAuthState = {
   signup: {
     username: '',
     status: 'INIT',
+    error: '',
   },
   verify: {
     status: 'INIT',
@@ -53,7 +55,7 @@ const reducer = (state: IAuthState = initialState, action: IAuthAction) => {
       case AuthActions.VERIFY_FAILURE: {
         draft.login.status = 'FAILURE';
         draft.verify.status = 'FAILURE';
-        draft.user = {};
+        draft.user = undefined;
         draft.loggedIn = false;
         break;
       }
@@ -65,6 +67,7 @@ const reducer = (state: IAuthState = initialState, action: IAuthAction) => {
         draft.signup = {
           status: 'SUCCESS',
           username: action.username,
+          error: '',
         };
         break;
       }
@@ -72,11 +75,17 @@ const reducer = (state: IAuthState = initialState, action: IAuthAction) => {
         draft.signup = {
           status: 'FAILURE',
           username: '',
+          error: action.error,
         };
         break;
       }
       case AuthActions.VERIFY_REQUEST: {
         draft.verify.status = 'FETCHING';
+        break;
+      }
+      case AuthActions.LOGOUT_REQUEST: {
+        draft.loggedIn = false;
+        draft.user = undefined;
         break;
       }
     }

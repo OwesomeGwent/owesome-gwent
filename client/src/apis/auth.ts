@@ -14,6 +14,9 @@ export const login = (username: string, password: string) => {
   return instance.post('/login', { username, password });
 };
 
+export const logout = () => {
+  return instance.post('/logout');
+};
 export const verify = () => {
   return instance.get('/verify');
 };

@@ -6,5 +6,16 @@ import Login from './Login';
 import Main from './Main';
 import Modal from './Modal';
 import Sidebar from './Sidebar';
+import Signup from './Signup';
 
-export { CardFinder, Filter, Header, Home, Main, Modal, Sidebar, Login };
+export {
+  CardFinder,
+  Filter,
+  Header,
+  Home,
+  Main,
+  Signup,
+  Modal,
+  Sidebar,
+  Login,
+};

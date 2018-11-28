@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { Header, Main, Sidebar } from '.';
 import { CardData, CardDataList } from '../../../shared/ICardData';
 import { Locale } from '../../../shared/ILocaleData';
+import * as AuthActions from '../actions/auth';
 import * as cardActions from '../actions/card';
 import * as DeckActions from '../actions/deck';
 import * as localeActions from '../actions/locale';
@@ -25,6 +26,7 @@ export interface IHomeProps {
   };
   locale: Locale;
   rawCardData: CardDataList;
+  verify: () => void;
   fetchStatus: string;
   fetchCards: () => void;
   setDeckMaker: () => void;
@@ -45,8 +47,8 @@ class Home extends Component<IHomeProps> {
   public async componentDidMount() {
     let Cards: any;
     const locale = getCurrentLocale();
-    const { fetchCards, setCards, setLocale } = this.props;
-    await Promise.all([fetchCards(), setLocale(locale)]);
+    const { fetchCards, setCards, setLocale, verify } = this.props;
+    await Promise.all([fetchCards(), setLocale(locale), verify()]);
     // 카드 스피너를 위한 delay 살짝~
     const { fetchStatus, rawCardData } = this.props;
     Cards =
@@ -110,6 +112,7 @@ const mapStateToProps = (state: IRootState) => ({
   rawCardData: state.card.rawCards.cards,
 });
 const mapDispatchToProps = (dispatch: ThunkFunc) => ({
+  verify: () => dispatch(AuthActions.verify()),
   fetchCards: () => dispatch(cardActions.fetchCards()),
   setDeckMaker: () => dispatch(DeckActions.setDeckMakerStatus('DECKMAKE')),
   selectCard: (card: CardData | CardData[]) =>

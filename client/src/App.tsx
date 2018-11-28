@@ -4,9 +4,10 @@ import 'intersection-observer'; // polyfill
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
 import { createGlobalStyle } from 'styled-components';
-import { Home } from './containers';
+import { Home, Modal } from './containers';
 import { deckListener } from './helpers/urlMaker';
 import createStore from './store/createStore';
+
 /* 초기 작업 여기서 */
 const GlobalStyle = createGlobalStyle`
   html {
@@ -202,7 +203,9 @@ export default class App extends Component {
       <MuiThemeProvider theme={theme}>
         <GlobalStyle />
         <Provider store={store}>
-          <Home />
+          <Modal>
+            <Home />
+          </Modal>
         </Provider>
       </MuiThemeProvider>
     );

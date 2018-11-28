@@ -17,6 +17,6 @@ export class User {
   @Column()
   public email?: string;
 
-  @Column('simple-array')
-  public decks?: string[];
+  @Column('simple-array', { default: '' })
+  public decks: string[];
 }

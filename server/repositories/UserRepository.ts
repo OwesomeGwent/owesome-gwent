@@ -22,11 +22,14 @@ export default class UserRepository extends Repository<User> {
     }
     if (decrypt(user.password) === password) {
       const token = await jwtSign({ username });
-      return token;
+      return [token, { ...user, password: undefined }];
     }
     throw new Error('잘못된 아이디 혹은 비밀번호.');
   }
   public findByUsername(username?: string) {
     return this.findOne({ username });
+  }
+  public updateDeck(userId: number, deckIds: string[]) {
+    return this.update(userId, { decks: deckIds });
   }
 }

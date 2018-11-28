@@ -13,7 +13,7 @@ routes.post('/signup', async (req, res) => {
   if (user) {
     return res.status(401).json({
       success: false,
-      error: '이미 존재하는 아이디 입니다.',
+      error: 'Username is already taken',
     });
   }
   try {
@@ -32,9 +32,9 @@ routes.post('/signup', async (req, res) => {
 
 routes.post('/login', async (req, res) => {
   const { username, password } = req.body;
-  const success = () => {
+  const success = (user: Partial<User>) => {
     return res.json({
-      username,
+      user,
       success: true,
     });
   };
@@ -46,12 +46,12 @@ routes.post('/login', async (req, res) => {
   };
   const userRepo = getRepo();
   try {
-    const token = await userRepo.login(username, password);
+    const [token, user] = await userRepo.login(username, password);
     res.cookie('jwt_token', token, {
       maxAge: 1000 * 3600 * 24,
       httpOnly: true,
     });
-    return success();
+    return success(user);
   } catch (err) {
     return failure(err);
   }

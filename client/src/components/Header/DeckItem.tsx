@@ -1,10 +1,13 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
+import { CardData } from '../../../../shared/ICardData';
+import { LEADER_IMAGE_PATH } from '../../apis/defs';
 import { IRootState } from '../../reducers';
-import { makeGetLeaderName } from '../../selectors/deck';
+import { makeGetLeader, makeGetLeaderName } from '../../selectors/card';
 import { IDeck } from '../../types/user';
 import { Button } from '../Common';
+
 const Item = styled.div`
   text-align: center;
   padding: 20px 10px;
@@ -12,36 +15,52 @@ const Item = styled.div`
 const DeckName = styled.span`
   font-weight: 600;
 `;
+const ButtonInner = styled.div`
+  display: flex;
+  align-items: center;
+`;
+const Icon = styled.img`
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  margin-right: 10px;
+`;
 export interface IDeckItemProps extends IDeck {
   handleDeckClick: () => void;
+  leader?: CardData | undefined;
   leaderName?: string;
 }
 
 const DeckItem: React.SFC<IDeckItemProps> = ({
-  id,
-  url,
   name,
-  leaderId,
-  leaderName,
+  leader,
   handleDeckClick,
 }) => {
   return (
     <Item>
       <Button fullWidth onClick={handleDeckClick}>
-        {leaderName}의 덱 <DeckName>{name}</DeckName>
+        <ButtonInner>
+          {leader && (
+            <Icon
+              src={`${LEADER_IMAGE_PATH}/${leader.variations[0].art}0000.png`}
+            />
+          )}
+          <DeckName>{name}</DeckName>
+        </ButtonInner>
       </Button>
     </Item>
   );
 };
 
 DeckItem.defaultProps = {
+  leader: undefined,
   leaderName: '',
 };
 
 const mapStateToProps = () => {
-  const getLeaderName = makeGetLeaderName();
+  const getLeader = makeGetLeader();
   return (state: IRootState, props: IDeckItemProps) => ({
-    leaderName: getLeaderName(state, props.leaderId),
+    leader: getLeader(state, props.leaderId),
   });
 };
 export default connect(mapStateToProps)(DeckItem);

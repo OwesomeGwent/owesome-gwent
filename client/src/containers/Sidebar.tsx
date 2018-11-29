@@ -8,11 +8,14 @@ import {
 } from '../../../shared/ILocaleData';
 import * as DeckActions from '../actions/deck';
 import * as UserActions from '../actions/user';
+import { Button } from '../components/Common';
 import {
+  CostList,
   DeckList,
-  DefaultImageBox,
+  LeaderView,
   StateToggleBox,
 } from '../components/Sidebar';
+import { getDeckUrl } from '../helpers/urlMaker';
 import { IRootState } from '../reducers';
 import { ICardState } from '../reducers/card';
 import { IDeckState } from '../reducers/deck';
@@ -23,10 +26,11 @@ import {
 } from '../selectors/locale';
 import { getRandomLeader } from '../selectors/random';
 import { DeckMakerStatus, IDeckCard, IDeckCost } from '../types/deck';
-
+import { IDeck } from '../types/user';
 interface ISidebarProps {
   randomLeader: CardData;
   loggedIn: boolean;
+  currentDeck: IDeck;
   deck: IDeckState;
   deckCards: IDeckCard[];
   deckCost: IDeckCost;
@@ -34,6 +38,7 @@ interface ISidebarProps {
   detail: CardLocaleDataList;
   category?: CategoryLocaleDataList;
   addDeck: typeof UserActions.addDeck;
+  updateDeck: typeof DeckActions.updateDeck;
   resetDeck: typeof DeckActions.resetDeck;
   setDeckMakerStatus: (status: DeckMakerStatus) => void;
   removeCard: (cardId: string) => void;
@@ -45,44 +50,34 @@ const Container = styled.div`
   flex: 0;
   justify-content: center;
   flex-basis: 300px;
+  margin-right: 20px;
 `;
 const Floating = styled.div`
   position: sticky;
-  top: 65px;
+  top: 70px;
+  max-height: calc(100vh - 70px);
+  overflow-y: auto;
 `;
-const NoLeader = styled.div`
-  height: 100px;
-  background: rgba(0, 0, 0, 0.2);
+const NoLeader = styled.h2`
+  color: white;
 `;
-const LeaderView = styled(DefaultImageBox)`
-  height: 100px;
-  filter: blur(1px);
-  display: flex;
+const DefaultMargin = styled.div`
+  margin-top: 20px;
 `;
-const CostView = styled.div`
-  background-color: white;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+const Label = styled.label`
+  color: white;
 `;
 const DeckName = styled.input`
   width: 100%;
-  background-color: inherit;
+  background-color: rgba(0, 0, 0, 0.3);
   border: none;
+  box-sizing: border-box;
   text-align: center;
   color: white;
   min-height: 60px;
   font-size: 20px;
 `;
-const Reset = styled.div`
-  background-color: white;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-class Sidebar extends Component<ISidebarProps> {
+class Sidebar extends Component<ISidebarProps, ISidebarState> {
   public state = {
     deckName: '',
   };
@@ -101,18 +96,29 @@ class Sidebar extends Component<ISidebarProps> {
     }
     return deckName;
   };
-
-  public getDeckUrl = () => window.location.pathname.slice(1);
   public handleNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     this.setState({
       deckName: e.target.value,
     });
   };
-  public clear = () => {
+  public closeDeckBuilder = () => {
     this.setState({
-      deckname: '',
+      deckName: '',
     });
     this.props.resetDeck();
+  };
+  public addOrUpdateDeck = () => {
+    const { addDeck, updateDeck, currentDeck, deck } = this.props;
+    const baseDeck = {
+      name: this.getDeckName(),
+      url: getDeckUrl(),
+      leaderId: deck.leader!.ingameId,
+    };
+    if (currentDeck.id) {
+      updateDeck({ ...baseDeck, id: currentDeck.id });
+    } else {
+      addDeck(baseDeck);
+    }
   };
   public render() {
     const { deckName } = this.state;
@@ -147,37 +153,36 @@ class Sidebar extends Component<ISidebarProps> {
       <Container>
         <Floating>
           {deck.leader === undefined ? (
-            <NoLeader>Choose Your Leader</NoLeader>
+            <NoLeader>Choose Your Leader 👍</NoLeader>
           ) : (
-            <LeaderView backgroundCard={deck.leader.variations[0].art}>
-              {detail[deck.leader.ingameId] &&
-                detail[deck.leader.ingameId].name}
-            </LeaderView>
+            <LeaderView
+              artId={deck.leader.variations[0].art}
+              name={detail[deck.leader.ingameId].name}
+            />
           )}
-          <DeckName
-            placeholder={this.getDeckName()}
-            value={deckName}
-            onChange={this.handleNameChange}
+          <DefaultMargin>
+            <Label htmlFor="deck_name">Deck Name</Label>
+            <DeckName
+              id="deck_name"
+              placeholder={this.getDeckName()}
+              value={deckName}
+              onChange={this.handleNameChange}
+            />
+          </DefaultMargin>
+          <CostList
+            count={deckCards.length}
+            craft={deckCost.craft}
+            provision={deckCost.provision}
           />
-          <CostView>
-            <span>craft: {deckCost.craft} </span>
-            <span>provision: {deckCost.provision}</span>
-          </CostView>
           <DeckList cards={deckCards} detail={detail} removeCard={removeCard} />
           {loggedIn && deck.leader && (
-            <button
-              onClick={() =>
-                addDeck({
-                  name: this.getDeckName(),
-                  url: this.getDeckUrl(),
-                  leaderId: deck.leader!.ingameId,
-                })
-              }
-            >
+            <Button color="#048bfb" fullWidth onClick={this.addOrUpdateDeck}>
               Save Deck
-            </button>
+            </Button>
           )}
-          <Reset onClick={this.clear}>Clear</Reset>
+          <Button color="#ce2c14" fullWidth onClick={this.closeDeckBuilder}>
+            Close Deck builder
+          </Button>
         </Floating>
       </Container>
     );
@@ -188,6 +193,7 @@ const mapStateToProps = (state: IRootState) => {
   const detail = getCardDetailByLocale(state);
   const category = getCardCategoryByLocale(state);
   return {
+    currentDeck: state.deck.currentDeck,
     randomLeader: getRandomLeader(state),
     loggedIn: state.user.loggedIn,
     deck: state.deck,

@@ -15,6 +15,14 @@ const CardImage = styled.img`
     filter: grayscale(100%);
   `}
 `;
+const CardFrontGroup = styled.div`
+  div {
+    z-index: 1;
+  }
+  .c-card__rarity {
+    z-index: 2;
+  }
+`;
 interface IMapper {
   [key: string]: number;
 }
@@ -72,24 +80,26 @@ const Card: React.SFC<ICardProps> = ({ available, card, onClick }) => {
       >
         <div className="c-card__front-container">
           <div className="c-card__front">
-            <div className="c-card__group" />
-            <div className="c-card__frame" />
-            <div className="c-card__rarity" />
-            <div className="c-card__banner">
-              <div className="c-card__power" />
-              <div className="c-card__row" />
-              <div className="c-card__mulligan">
-                <div className="c-card__mulligan-cost" />
-              </div>
-            </div>
-            {!!provision && (
-              <>
-                <div className="c-card__provision-icon" />
-                <div className="c-card__provision-basis">
-                  <div className="c-card__provision" />
+            <CardFrontGroup>
+              <div className="c-card__group" />
+              <div className="c-card__frame" />
+              <div className="c-card__rarity" />
+              <div className="c-card__banner">
+                <div className="c-card__power" />
+                <div className="c-card__row" />
+                <div className="c-card__mulligan">
+                  <div className="c-card__mulligan-cost" />
                 </div>
-              </>
-            )}
+              </div>
+              {!!provision && (
+                <>
+                  <div className="c-card__provision-icon" />
+                  <div className="c-card__provision-basis">
+                    <div className="c-card__provision" />
+                  </div>
+                </>
+              )}
+            </CardFrontGroup>
             <CardImage
               available={available}
               src={`${BASE_IMAGE_PATH}/${art}0000.png`}

@@ -9,17 +9,26 @@ import {
   SELECT_LEADER,
   SET_CURRENT_DECK,
   SET_DECKMAKER_STATUS,
+  UPDATE_DECK_FAILURE,
+  UPDATE_DECK_REQUEST,
+  UPDATE_DECK_SUCCESS,
 } from '../actions/ActionTypes';
 import { IDeckActions } from '../actions/deck';
 import { DeckMakerStatus } from '../types/deck';
 
 import { sortByProvision } from '../helpers/card';
+import { Status } from '../types/status';
 import { IDeck } from '../types/user';
 export interface IDeckState {
   readonly currentDeck: IDeck;
+  readonly cards: CardData[];
   readonly deckMakerStatus: DeckMakerStatus;
   readonly leader: CardData | undefined;
-  readonly cards: CardData[];
+  readonly update: {
+    deck: IDeck | {};
+    status: Status;
+    error: string;
+  };
 }
 
 const initialState: IDeckState = {
@@ -28,6 +37,11 @@ const initialState: IDeckState = {
     name: '',
     url: '',
     leaderId: '',
+  },
+  update: {
+    status: 'INIT',
+    deck: {},
+    error: '',
   },
   deckMakerStatus: 'INIT',
   leader: undefined,
@@ -71,6 +85,20 @@ const deck = (state: IDeckState = initialState, action: IDeckActions) =>
         draft.cards = [];
         break;
       }
+      case UPDATE_DECK_REQUEST: {
+        draft.update.status = 'FETCHING';
+        break;
+      }
+      case UPDATE_DECK_SUCCESS: {
+        draft.update.status = 'SUCCESS';
+        draft.update.deck = action.deck;
+        break;
+      }
+      case UPDATE_DECK_FAILURE: {
+        draft.update.status = 'FAILURE';
+        draft.update.error = action.error;
+        break;
+      }
       case SET_CURRENT_DECK: {
         draft.currentDeck = {
           ...action.deck,
@@ -78,9 +106,10 @@ const deck = (state: IDeckState = initialState, action: IDeckActions) =>
         break;
       }
       case RESET_DECK: {
-        draft.leader = undefined;
-        draft.cards = [];
-        draft.currentDeck = initialState.currentDeck;
+        Object.keys(draft).forEach(key => {
+          const assertion = key as keyof IDeckState;
+          draft[assertion] = initialState[assertion];
+        });
         break;
       }
       default:

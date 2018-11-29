@@ -68,9 +68,9 @@ class Header extends React.Component<IHeaderProps> {
     return (
       <ModalContext.Consumer>
         {({ openModal, closeModal }) => (
-          <AppBar position="sticky">
+          <AppBar style={{ backgroundColor: '#24282A' }} position="sticky">
             <Toolbar>
-              <div style={{ flexGrow: 1 }}>오우썸 궨트</div>
+              <div style={{ flexGrow: 1 }}>Owesome Gwent</div>
               <>
                 {loggedIn ? (
                   <div>

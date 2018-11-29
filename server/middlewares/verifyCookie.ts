@@ -17,6 +17,7 @@ const verifyCookie = async (
     return next();
   };
   const failure = (error: string) => {
+    res.clearCookie('jwt_token');
     customReq.username = undefined;
     customReq.user = undefined;
     customReq.error = error;

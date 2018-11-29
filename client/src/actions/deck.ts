@@ -1,4 +1,5 @@
 import { CardData } from '../../../shared/ICardData';
+import * as deckApi from '../apis/deck';
 import { parseUrl } from '../helpers/urlMaker';
 import { DeckMakerStatus } from '../types/deck';
 import { FilterType } from '../types/filter';
@@ -14,6 +15,9 @@ import {
   SELECT_LEADER,
   SET_CURRENT_DECK,
   SET_DECKMAKER_STATUS,
+  UPDATE_DECK_FAILURE,
+  UPDATE_DECK_REQUEST,
+  UPDATE_DECK_SUCCESS,
 } from './ActionTypes';
 import { IFilterAction, setFilter } from './filter';
 
@@ -58,6 +62,17 @@ export interface IResetCard {
 export interface IResetDeck {
   type: typeof RESET_DECK;
 }
+export interface IUpdateDeckRequest {
+  type: typeof UPDATE_DECK_REQUEST;
+}
+export interface IUpdateDeckSuccess {
+  type: typeof UPDATE_DECK_SUCCESS;
+  deck: IDeck;
+}
+export interface IUpdateDeckFailure {
+  type: typeof UPDATE_DECK_FAILURE;
+  error: string;
+}
 export interface ISetCurrentDeck {
   type: typeof SET_CURRENT_DECK;
   deck: IDeck;
@@ -68,6 +83,9 @@ export type IDeckActions =
   | IRemoveCard
   | IResetCard
   | IResetDeck
+  | IUpdateDeckRequest
+  | IUpdateDeckSuccess
+  | IUpdateDeckFailure
   | ISelectLeader
   | ISelectDeckUrl
   | ISetCurrentDeck
@@ -97,6 +115,30 @@ export const resetCard = (): IResetCard => ({
 export const resetDeck = (): IResetDeck => ({
   type: RESET_DECK,
 });
+export const updateDeck = (deck: IDeck): ThunkResult<void, IDeckActions> => {
+  return async dispatch => {
+    dispatch({
+      type: UPDATE_DECK_REQUEST,
+    });
+    try {
+      const {
+        data: { deck: newDeck },
+      } = await deckApi.updateDeck(deck);
+      dispatch({
+        type: UPDATE_DECK_SUCCESS,
+        deck: newDeck,
+      });
+    } catch (err) {
+      const {
+        response: { data: error },
+      } = err;
+      dispatch({
+        type: UPDATE_DECK_FAILURE,
+        error,
+      });
+    }
+  };
+};
 export const selectLeader = (
   card: CardData,
 ): ThunkResult<void, ISelectLeader | IResetCard | IFilterAction> => {

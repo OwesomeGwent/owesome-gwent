@@ -1,10 +1,12 @@
 import produce from 'immer';
 import {
   CLEAR_FILTER,
+  SET_DECKMAKER_STATUS,
   SET_FILTER,
   SET_MULTI_FILTER,
   SET_SEARCH_FILTER,
 } from '../actions/ActionTypes';
+import { ISetDeckMakerStatus } from '../actions/deck';
 import { IFilterAction } from '../actions/filter';
 import { IFilter, MultiFilterType } from '../types/filter';
 
@@ -18,7 +20,10 @@ const initialState: IFilterState = {
   search: '',
 };
 
-const reducer = (state: IFilterState = initialState, action: IFilterAction) =>
+const reducer = (
+  state: IFilterState = initialState,
+  action: IFilterAction | ISetDeckMakerStatus,
+) =>
   produce(state, draft => {
     switch (action.type) {
       case SET_FILTER: {
@@ -33,9 +38,12 @@ const reducer = (state: IFilterState = initialState, action: IFilterAction) =>
       }
       case SET_SEARCH_FILTER: {
         draft.search = action.search;
+        break;
       }
+      case SET_DECKMAKER_STATUS:
       case CLEAR_FILTER: {
-        draft = initialState;
+        draft.filter = {};
+        draft.search = '';
         break;
       }
       default:

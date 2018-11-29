@@ -22,6 +22,7 @@ export interface ICardListProps {
   normalFilteredCards: CardData[];
   leaderFilteredCards: CardData[];
   // deck
+  deckLeader: CardData | undefined;
   deckMakerStatus: DeckMakerStatus;
   deckCards: CardData[];
   selectCard: (card: CardData) => void;
@@ -105,7 +106,7 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
   };
   public render() {
     const { currentCards } = this.state;
-    const { leaderFilteredCards, deckMakerStatus, deckCards } = this.props;
+    const { leaderFilteredCards, deckMakerStatus, deckLeader } = this.props;
     // 덱 빌딩 상태일때
     if (deckMakerStatus === 'DECKMAKE') {
       return (
@@ -116,12 +117,14 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
             isAvailable={this.isAvailable}
             onClickCard={this.onClickCard}
           />
-          <CardList
-            title="Cards"
-            cards={currentCards}
-            isAvailable={this.isAvailable}
-            onClickCard={this.onClickCard}
-          />
+          {deckLeader && (
+            <CardList
+              title="Cards"
+              cards={currentCards}
+              isAvailable={this.isAvailable}
+              onClickCard={this.onClickCard}
+            />
+          )}
           <div ref={this.target} style={{ height: 100 }} />
         </div>
       );
@@ -154,6 +157,7 @@ const makeMapStateToProps = () => {
   const getLeaderSearchedCards = makeGetSearchFilteredCards();
   const mapState = (state: IRootState) => {
     return {
+      deckLeader: state.deck.leader,
       deckCards: state.deck.cards,
       deckMakerStatus: state.deck.deckMakerStatus,
       filter: state.filter.filter,

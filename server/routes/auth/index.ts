@@ -83,7 +83,7 @@ routes.get('/verify', verifyCookie, (req, res) => {
 });
 
 routes.post('/logout', (req, res) => {
-  res.clearCookie('jwt');
+  res.clearCookie('jwt_token');
   return res.json({
     success: true,
   });

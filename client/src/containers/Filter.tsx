@@ -1,16 +1,17 @@
-import ExpansionPanel from '@material-ui/core/ExpansionPanel';
-import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
-import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
+import Drawer from '@material-ui/core/Drawer';
 import {
   createStyles,
   Theme,
   WithStyles,
   withStyles,
 } from '@material-ui/core/styles';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import Close from '@material-ui/icons/Close';
+import FilterList from '@material-ui/icons/FilterList';
 import React from 'react';
 import { connect } from 'react-redux';
+import styled from 'styled-components';
 import * as filterAction from '../actions/filter';
+import { Button } from '../components/Common';
 import {
   FilterItem,
   MultiFilterItem,
@@ -25,23 +26,21 @@ import {
   IMultiFilter,
   MultiFilterField,
 } from '../types/filter';
+
+const FilterButton = styled.div`
+  position: fixed;
+  top: 70px;
+  right: 5px;
+`;
+const CloseButton = styled.div`
+  width: 100%;
+  text-align: right;
+`;
 const styles = (theme: Theme) =>
   createStyles({
-    panel: {
+    paper: {
       color: theme.palette.primary.contrastText,
-      position: 'fixed',
-      zIndex: 100,
-    },
-    panelSummary: {
       backgroundColor: theme.palette.primary.dark,
-    },
-    panelDetails: {
-      display: 'block',
-      backgroundColor: theme.palette.primary.dark,
-      color: theme.palette.primary.contrastText,
-    },
-    expandIcon: {
-      color: theme.palette.primary.contrastText,
     },
   });
 export interface IFilterProps extends WithStyles<typeof styles> {
@@ -52,27 +51,37 @@ export interface IFilterProps extends WithStyles<typeof styles> {
   setSearchFilter: typeof filterAction.setSearchFilter;
   clearFilter: typeof filterAction.clearFilter;
 }
-const Filter: React.SFC<IFilterProps> = ({
-  classes,
-  filter,
-  multiFilter,
-  setFilter,
-  setMultiFilter,
-  setSearchFilter,
-}) => {
-  return (
-    <ExpansionPanel className={classes.panel}>
-      <ExpansionPanelSummary
-        classes={{
-          root: classes.panelSummary,
-          expandIcon: classes.expandIcon,
-        }}
-        expandIcon={<ExpandMoreIcon />}
-      >
-        필터~
-      </ExpansionPanelSummary>
-      <ExpansionPanelDetails className={classes.panelDetails}>
-        <>
+class Filter extends React.Component<IFilterProps> {
+  public state = {
+    open: false,
+  };
+  public openFilter = () => this.setState({ open: true });
+  public closeFilter = () => this.setState({ open: false });
+  public render() {
+    const { open } = this.state;
+    const {
+      classes,
+      filter,
+      multiFilter,
+      setFilter,
+      setMultiFilter,
+      setSearchFilter,
+    } = this.props;
+    return (
+      <>
+        <FilterButton>
+          <Button onClick={this.openFilter}>
+            <FilterList />
+          </Button>
+        </FilterButton>
+        <Drawer
+          anchor="top"
+          open={open}
+          onClose={this.closeFilter}
+          PaperProps={{
+            className: classes.paper,
+          }}
+        >
           {Object.keys(filterSet).map(field => {
             const asserted = field as FilterField;
             return (
@@ -97,11 +106,16 @@ const Filter: React.SFC<IFilterProps> = ({
             );
           })}
           <SearchFilter setSearch={setSearchFilter} />
-        </>
-      </ExpansionPanelDetails>
-    </ExpansionPanel>
-  );
-};
+          <CloseButton>
+            <Button onClick={this.closeFilter}>
+              <Close />
+            </Button>
+          </CloseButton>
+        </Drawer>
+      </>
+    );
+  }
+}
 
 const mapStateToProps = (state: IRootState) => ({
   filter: state.filter.filter,

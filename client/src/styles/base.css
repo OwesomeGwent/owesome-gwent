@@ -64,6 +64,7 @@
 }
 
 .c-card__front img {
+  z-index: -1;
   max-width: 100%;
 }
 
@@ -969,13 +970,11 @@
 }
 
 .c-card--neutral .c-card__desc:before {
-  background: -webkit-gradient(
-    linear,
+  background: -webkit-gradient(linear,
     left top,
     left bottom,
     from(#6c482d),
-    to(#c89d7d)
-  );
+    to(#c89d7d));
   background: linear-gradient(to bottom, #6c482d, #c89d7d);
   -webkit-box-shadow: 0 0 8px #c89d7d;
   box-shadow: 0 0 8px #c89d7d;
@@ -1000,13 +999,11 @@
 }
 
 .c-card--monster .c-card__desc:before {
-  background: -webkit-gradient(
-    linear,
+  background: -webkit-gradient(linear,
     left top,
     left bottom,
     from(#751515),
-    to(#b91818)
-  );
+    to(#b91818));
   background: linear-gradient(to bottom, #751515, #b91818);
   -webkit-box-shadow: 0 0 8px #b91818;
   box-shadow: 0 0 8px #b91818;
@@ -1031,13 +1028,11 @@
 }
 
 .c-card--nilfgaard .c-card__desc:before {
-  background: -webkit-gradient(
-    linear,
+  background: -webkit-gradient(linear,
     left top,
     left bottom,
     from(#756715),
-    to(#b9a118)
-  );
+    to(#b9a118));
   background: linear-gradient(to bottom, #756715, #b9a118);
   -webkit-box-shadow: 0 0 8px #b9a118;
   box-shadow: 0 0 8px #b9a118;
@@ -1062,13 +1057,11 @@
 }
 
 .c-card--northernrealms .c-card__desc:before {
-  background: -webkit-gradient(
-    linear,
+  background: -webkit-gradient(linear,
     left top,
     left bottom,
     from(#154275),
-    to(#1863b9)
-  );
+    to(#1863b9));
   background: linear-gradient(to bottom, #154275, #1863b9);
   -webkit-box-shadow: 0 0 8px #1863b9;
   box-shadow: 0 0 8px #1863b9;
@@ -1093,13 +1086,11 @@
 }
 
 .c-card--scoiatael .c-card__desc:before {
-  background: -webkit-gradient(
-    linear,
+  background: -webkit-gradient(linear,
     left top,
     left bottom,
     from(#4e7615),
-    to(#79ba18)
-  );
+    to(#79ba18));
   background: linear-gradient(to bottom, #4e7615, #79ba18);
   -webkit-box-shadow: 0 0 8px #79ba18;
   box-shadow: 0 0 8px #79ba18;
@@ -1124,13 +1115,11 @@
 }
 
 .c-card--skellige .c-card__desc:before {
-  background: -webkit-gradient(
-    linear,
+  background: -webkit-gradient(linear,
     left top,
     left bottom,
     from(#521575),
-    to(#7e18b9)
-  );
+    to(#7e18b9));
   background: linear-gradient(to bottom, #521575, #7e18b9);
   -webkit-box-shadow: 0 0 8px #7e18b9;
   box-shadow: 0 0 8px #7e18b9;

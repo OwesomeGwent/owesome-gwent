@@ -64,5 +64,18 @@ router.post('/', verifyCookie, async (req, res) => {
     return failure('Cannot save deck.', 503);
   }
 });
-
+router.put('/', async (req, res) => {
+  const DeckRepo = getRepo();
+  const { deck } = req.body;
+  try {
+    const newDeck = await DeckRepo.update(deck.id, deck);
+    return res.json({
+      deck: newDeck,
+    });
+  } catch (err) {
+    return res.status(503).json({
+      error: 'Database Error',
+    });
+  }
+});
 export default router;

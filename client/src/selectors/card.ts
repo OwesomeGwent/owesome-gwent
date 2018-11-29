@@ -8,6 +8,8 @@ import { getCardDetailByLocale } from './locale';
 type CardType = 'leader' | 'normal';
 
 const getCards = (_: IRootState, cards: CardData[]) => cards;
+const getLeaderId = (state: IRootState, leaderId: string) => leaderId;
+const getLeaders = (state: IRootState) => state.card.cards.leader;
 const getFilter = (state: IRootState) => state.filter.filter;
 const getSearchFilter = (state: IRootState) => state.filter.search;
 const getType = (_: IRootState, type: CardType) => type;
@@ -90,3 +92,22 @@ export const makeGetSearchFilteredCards = () => {
     },
   );
 };
+export const makeGetLeader = () =>
+  createSelector(
+    getLeaders,
+    getLeaderId,
+    (leaders, leaderId) => {
+      return leaders.find(leader => leader.ingameId === leaderId);
+    },
+  );
+export const makeGetLeaderName = () =>
+  createSelector(
+    getCardDetailByLocale,
+    getLeaderId,
+    (details, leaderId) => {
+      if (details[leaderId]) {
+        return details[leaderId].name;
+      }
+      return '';
+    },
+  );

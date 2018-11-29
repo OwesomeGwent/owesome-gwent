@@ -1,4 +1,5 @@
 import { FilterField, FilterType, MultiFilterField } from '../types/filter';
+import { ThunkResult } from '../types/thunk';
 import {
   CLEAR_FILTER,
   SET_FILTER,
@@ -34,11 +35,16 @@ export type IFilterAction =
 export const setFilter = (
   field: FilterField,
   value: FilterType,
-): IFilterAction => {
-  return {
-    type: SET_FILTER,
-    field,
-    value,
+): ThunkResult<void, IFilterAction> => {
+  return (dispatch, getState) => {
+    if (field === 'faction' && getState().deck.leader) {
+      return;
+    }
+    dispatch({
+      type: SET_FILTER,
+      field,
+      value,
+    });
   };
 };
 export const setMultiFilter = (

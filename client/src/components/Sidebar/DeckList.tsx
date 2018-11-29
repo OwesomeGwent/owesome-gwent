@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import { DeckItem } from '.';
-import { CardData } from '../../../../shared/ICardData';
 import { CardLocaleDataList } from '../../../../shared/ILocaleData';
 import { IDeckCard } from '../../types/deck';
 import { CardDetail } from '../CardFinder';
@@ -11,13 +10,6 @@ const DeckListWrapper = styled.div`
   width: 300px;
   background-color: rgba(0, 0, 0, 0.7);
 `;
-
-const DeckListHeader = styled.div`
-  font-size: 2rem;
-  padding: 6px;
-  color: white;
-`;
-
 export interface IDeckListProps {
   cards: IDeckCard[];
   detail: CardLocaleDataList;
@@ -44,6 +36,7 @@ export default class DeckList extends Component<IDeckListProps> {
             }
             Main={
               <DeckItem
+                artId={card.variations[0].art}
                 card={card}
                 name={detail[card.ingameId].name}
                 onClick={this.handleClick(card.ingameId)}
@@ -51,7 +44,6 @@ export default class DeckList extends Component<IDeckListProps> {
             }
           />
         ))}
-        <DeckListHeader>Create Deck</DeckListHeader>
       </DeckListWrapper>
     );
   }

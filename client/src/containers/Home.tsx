@@ -11,7 +11,7 @@ import * as UserActions from '../actions/user';
 import { Loading } from '../components/Common';
 import { checkOwnable, sortByFaction, sortByProvision } from '../helpers/card';
 import localeMapper from '../helpers/localeMapper';
-import { parseUrl } from '../helpers/urlMaker';
+import { getDeckUrl } from '../helpers/urlMaker';
 import { IRootState } from '../reducers';
 import { ThunkFunc } from '../types/thunk';
 const HomeContainer = styled.div`
@@ -48,6 +48,7 @@ class Home extends Component<IHomeProps> {
   public async componentDidMount() {
     let Cards: any;
     const locale = getCurrentLocale();
+    const shortUrl = getDeckUrl();
     const { fetchCards, setCards, setLocale, verify } = this.props;
     await Promise.all([fetchCards(), setLocale(locale), verify()]);
     // 카드 스피너를 위한 delay 살짝~
@@ -62,8 +63,8 @@ class Home extends Component<IHomeProps> {
           .map(card => card)
           .filter(checkOwnable)
           .slice()
-          .sort(sortByProvision)
-          .sort(sortByFaction);
+          .sort(sortByProvision);
+        // .sort(sortByFaction); 굳이?
         return {
           ...acc,
           [type]: sortedCards,
@@ -73,7 +74,6 @@ class Home extends Component<IHomeProps> {
     );
     setCards(leader, normal);
     // Deck url 체크.
-    const shortUrl = window.location.pathname.slice(1);
     if (shortUrl) {
       this.props.selectDeckUrl(shortUrl);
     }

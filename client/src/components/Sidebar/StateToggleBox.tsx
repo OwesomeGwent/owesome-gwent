@@ -14,12 +14,18 @@ const DeckToggleBox = styled(ImageBox)`
 `;
 
 const Button = styled.button`
-  font-size: 16px;
-  height: 3rem;
   border: none;
-  background-color: rgba(0, 0, 0, 0.3);
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  &:hover {
+    transition: background-color 0.1s;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
 `;
 
 const StateToggleBox: React.SFC<IStateToggleBoxProps> = ({
@@ -28,7 +34,7 @@ const StateToggleBox: React.SFC<IStateToggleBoxProps> = ({
 }) => {
   return (
     <DeckToggleBox backgroundCard={backgroundLeader}>
-      <Button onClick={onToggle}>덱 만들기</Button>
+      <Button onClick={onToggle}>Start Deck Building 🚀</Button>
     </DeckToggleBox>
   );
 };

@@ -8,3 +8,4 @@ const instance = axios.create({
 
 export const fetchDecks = () => instance.get('/');
 export const addDeck = (deck: IAddDeck) => instance.post('/', { deck });
+export const updateDeck = (deck: IAddDeck) => instance.put('/', { deck });

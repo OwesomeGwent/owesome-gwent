@@ -21,10 +21,11 @@ const paperStyle: React.CSSProperties = {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
-  justifyContent: 'center',
   backgroundColor: '#222222',
   minWidth: 300,
   minHeight: 300,
+  maxHeight: '80vh',
+  overflowY: 'auto',
 };
 class DeckListButton extends Component<IDeckListProps, IDeckListState> {
   public state = {

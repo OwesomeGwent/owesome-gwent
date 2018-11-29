@@ -41,7 +41,7 @@ const getUrlByCards = createSelector(
   getSelectedCards,
   (leader, cards) => {
     if (!leader) {
-      return '';
+      return '/';
     }
     const leaderUrl = base64.encode(leader.ingameId);
     const cardsUrl = cards.reduce((acc, curr) => {
@@ -57,6 +57,7 @@ export const deckListener = () => {
   history.pushState({}, url, url);
 };
 
+export const getDeckUrl = () => window.location.pathname.slice(1);
 export const parseUrl = (url: string): [string | undefined, string[]] => {
   const ids: string[] = [];
   let currIdx = 0;

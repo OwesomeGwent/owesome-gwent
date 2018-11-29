@@ -41,6 +41,7 @@ class WithMenu extends Component<IWithMenuProps, IWithMenuState> {
           anchorEl={anchorEl}
           open={Boolean(anchorEl)}
           onClose={this.handleClose}
+          disablePortal
           classes={{ paper: classes.paper }}
         >
           {Array.isArray(MenuItems)

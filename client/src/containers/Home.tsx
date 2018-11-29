@@ -4,10 +4,10 @@ import styled from 'styled-components';
 import { Header, Main, Sidebar } from '.';
 import { CardData, CardDataList } from '../../../shared/ICardData';
 import { Locale } from '../../../shared/ILocaleData';
-import * as AuthActions from '../actions/auth';
 import * as cardActions from '../actions/card';
 import * as DeckActions from '../actions/deck';
 import * as localeActions from '../actions/locale';
+import * as UserActions from '../actions/user';
 import { Loading } from '../components/Common';
 import { checkOwnable, sortByFaction, sortByProvision } from '../helpers/card';
 import localeMapper from '../helpers/localeMapper';
@@ -30,6 +30,7 @@ export interface IHomeProps {
   fetchStatus: string;
   fetchCards: () => void;
   setDeckMaker: () => void;
+  selectDeckUrl: (url: string) => void;
   selectCard: typeof DeckActions.selectCard;
   selectLeader: (leader: CardData) => void;
   setCards: (leader: CardData[], normal: CardData[]) => void;
@@ -74,16 +75,7 @@ class Home extends Component<IHomeProps> {
     // Deck url 체크.
     const shortUrl = window.location.pathname.slice(1);
     if (shortUrl) {
-      const [leaderId, cardIds] = parseUrl(shortUrl);
-      const selectedLeader = (leader as CardData[]).find(
-        card => card.ingameId === leaderId,
-      );
-      const selectedCard = (normal as CardData[]).filter(card =>
-        cardIds.includes(card.ingameId),
-      );
-      this.props.setDeckMaker();
-      this.props.selectLeader(selectedLeader as CardData);
-      this.props.selectCard(selectedCard as CardData[]);
+      this.props.selectDeckUrl(shortUrl);
     }
   }
 
@@ -112,9 +104,10 @@ const mapStateToProps = (state: IRootState) => ({
   rawCardData: state.card.rawCards.cards,
 });
 const mapDispatchToProps = (dispatch: ThunkFunc) => ({
-  verify: () => dispatch(AuthActions.verify()),
+  verify: () => dispatch(UserActions.verify()),
   fetchCards: () => dispatch(cardActions.fetchCards()),
   setDeckMaker: () => dispatch(DeckActions.setDeckMakerStatus('DECKMAKE')),
+  selectDeckUrl: (url: string) => dispatch(DeckActions.selectDeckUrl(url)),
   selectCard: (card: CardData | CardData[]) =>
     dispatch(DeckActions.selectCard(card)),
   selectLeader: (leader: CardData) =>

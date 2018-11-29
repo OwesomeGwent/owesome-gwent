@@ -4,21 +4,31 @@ import {
   REMOVE_CARD,
   REMOVE_LEADER,
   RESET_CARD,
+  RESET_DECK,
   SELECT_CARD,
   SELECT_LEADER,
+  SET_CURRENT_DECK,
   SET_DECKMAKER_STATUS,
 } from '../actions/ActionTypes';
 import { IDeckActions } from '../actions/deck';
 import { DeckMakerStatus } from '../types/deck';
 
 import { sortByProvision } from '../helpers/card';
+import { IDeck } from '../types/user';
 export interface IDeckState {
+  readonly currentDeck: IDeck;
   readonly deckMakerStatus: DeckMakerStatus;
   readonly leader: CardData | undefined;
   readonly cards: CardData[];
 }
 
 const initialState: IDeckState = {
+  currentDeck: {
+    id: '',
+    name: '',
+    url: '',
+    leaderId: '',
+  },
   deckMakerStatus: 'INIT',
   leader: undefined,
   cards: [],
@@ -59,6 +69,18 @@ const deck = (state: IDeckState = initialState, action: IDeckActions) =>
       }
       case RESET_CARD: {
         draft.cards = [];
+        break;
+      }
+      case SET_CURRENT_DECK: {
+        draft.currentDeck = {
+          ...action.deck,
+        };
+        break;
+      }
+      case RESET_DECK: {
+        draft.leader = undefined;
+        draft.cards = [];
+        draft.currentDeck = initialState.currentDeck;
         break;
       }
       default:

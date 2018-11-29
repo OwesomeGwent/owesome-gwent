@@ -1,8 +1,15 @@
 import * as authApi from '../apis/auth';
+import * as deckApi from '../apis/deck';
 import { ThunkResult } from '../types/thunk';
-import { ISignupUser, IUser } from '../types/user';
+import { IAddDeck, IDeck, ISignupUser, IUser } from '../types/user';
 
 import {
+  ADD_DECK_FAILURE,
+  ADD_DECK_REQUEST,
+  ADD_DECK_SUCCESS,
+  FETCH_DECKS_FAILURE,
+  FETCH_DECKS_REQUEST,
+  FETCH_DECKS_SUCCESS,
   LOGIN_FAILURE,
   LOGIN_REQUEST,
   LOGIN_SUCCESS,
@@ -49,11 +56,32 @@ export interface IVerifySuccess {
 export interface IVerifyFailure {
   type: typeof VERIFY_FAILURE;
 }
-
 export interface ILogoutRequest {
   type: typeof LOGOUT_REQUEST;
 }
-export type IAuthAction =
+export interface IFetchDecksRequest {
+  type: typeof FETCH_DECKS_REQUEST;
+}
+export interface IFetchDecksSuccess {
+  type: typeof FETCH_DECKS_SUCCESS;
+  decks: IDeck[];
+}
+export interface IFetchDecksFailure {
+  type: typeof FETCH_DECKS_FAILURE;
+  error: string;
+}
+export interface IAddDeckRequest {
+  type: typeof ADD_DECK_REQUEST;
+}
+export interface IAddDeckSuccess {
+  type: typeof ADD_DECK_SUCCESS;
+  decks: string[];
+}
+export interface IAddDeckFailure {
+  type: typeof ADD_DECK_FAILURE;
+  error: string;
+}
+export type IUserAction =
   | ILoginRequest
   | ILoginSuccess
   | ILoginFailure
@@ -63,9 +91,15 @@ export type IAuthAction =
   | IVerifyFailure
   | IVerifyRequest
   | IVerifySuccess
-  | ILogoutRequest;
+  | ILogoutRequest
+  | IFetchDecksRequest
+  | IFetchDecksSuccess
+  | IFetchDecksFailure
+  | IAddDeckRequest
+  | IAddDeckSuccess
+  | IAddDeckFailure;
 
-export const signup = (user: ISignupUser): ThunkResult<void, IAuthAction> => {
+export const signup = (user: ISignupUser): ThunkResult<void, IUserAction> => {
   return async dispatch => {
     dispatch({
       type: SIGNUP_REQUEST,
@@ -90,7 +124,7 @@ export const signup = (user: ISignupUser): ThunkResult<void, IAuthAction> => {
 export const login = (
   username: string,
   password: string,
-): ThunkResult<void, IAuthAction> => {
+): ThunkResult<void, IUserAction> => {
   return async dispatch => {
     dispatch({
       type: LOGIN_REQUEST,
@@ -113,7 +147,7 @@ export const login = (
   };
 };
 
-export const logout = (): ThunkResult<void, IAuthAction> => {
+export const logout = (): ThunkResult<void, IUserAction> => {
   return async dispatch => {
     dispatch({
       type: LOGOUT_REQUEST,
@@ -121,7 +155,7 @@ export const logout = (): ThunkResult<void, IAuthAction> => {
     await authApi.logout();
   };
 };
-export const verify = (): ThunkResult<void, IAuthAction> => {
+export const verify = (): ThunkResult<void, IUserAction> => {
   return async dispatch => {
     dispatch({
       type: VERIFY_REQUEST,
@@ -137,6 +171,58 @@ export const verify = (): ThunkResult<void, IAuthAction> => {
     } catch (err) {
       dispatch({
         type: VERIFY_FAILURE,
+      });
+    }
+  };
+};
+export const fetchDecks = (): ThunkResult<void, IUserAction> => {
+  return async dispatch => {
+    dispatch({
+      type: FETCH_DECKS_REQUEST,
+    });
+    try {
+      const {
+        data: { decks },
+      } = await deckApi.fetchDecks();
+      dispatch({
+        type: FETCH_DECKS_SUCCESS,
+        decks,
+      });
+    } catch (err) {
+      const {
+        response: {
+          data: { error },
+        },
+      } = err;
+      dispatch({
+        type: FETCH_DECKS_FAILURE,
+        error,
+      });
+    }
+  };
+};
+export const addDeck = (deck: IAddDeck): ThunkResult<void, IUserAction> => {
+  return async dispatch => {
+    dispatch({
+      type: ADD_DECK_REQUEST,
+    });
+    try {
+      const {
+        data: { decks },
+      } = await deckApi.addDeck(deck);
+      dispatch({
+        type: ADD_DECK_SUCCESS,
+        decks,
+      });
+    } catch (err) {
+      const {
+        response: {
+          data: { error },
+        },
+      } = err;
+      dispatch({
+        type: ADD_DECK_FAILURE,
+        error,
       });
     }
   };

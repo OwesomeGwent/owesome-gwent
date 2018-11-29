@@ -46,14 +46,13 @@ router.post('/', verifyCookie, async (req, res) => {
   if (!user) {
     return failure('Cannot verify user.');
   }
-  const {
-    deck: { name, url },
-  } = req.body;
-  console.log(name, url);
-  const deck = new Deck();
-  deck.name = name;
-  deck.url = url;
-  const { id: deckId } = await DeckRepo.save(deck);
+  const { deck } = req.body;
+  let saveDeck = new Deck();
+  saveDeck = {
+    ...saveDeck,
+    ...deck,
+  };
+  const { id: deckId } = await DeckRepo.save(saveDeck);
   const UserRepo = getUserRepo();
   try {
     const newDecks = [...user.decks, deckId];

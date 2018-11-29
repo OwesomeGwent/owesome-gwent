@@ -1,13 +1,18 @@
 import { CardData } from '../../../shared/ICardData';
+import { parseUrl } from '../helpers/urlMaker';
 import { DeckMakerStatus } from '../types/deck';
 import { FilterType } from '../types/filter';
 import { ThunkResult } from '../types/thunk';
+import { IDeck } from '../types/user';
 import {
   REMOVE_CARD,
   REMOVE_LEADER,
   RESET_CARD,
+  RESET_DECK,
   SELECT_CARD,
+  SELECT_DECK_URL,
   SELECT_LEADER,
+  SET_CURRENT_DECK,
   SET_DECKMAKER_STATUS,
 } from './ActionTypes';
 import { IFilterAction, setFilter } from './filter';
@@ -37,6 +42,10 @@ export interface ISelectCard {
   };
 }
 
+export interface ISelectDeckUrl {
+  type: typeof SELECT_DECK_URL;
+  url: string;
+}
 export interface IRemoveCard {
   type: typeof REMOVE_CARD;
   payload: {
@@ -46,12 +55,22 @@ export interface IRemoveCard {
 export interface IResetCard {
   type: typeof RESET_CARD;
 }
+export interface IResetDeck {
+  type: typeof RESET_DECK;
+}
+export interface ISetCurrentDeck {
+  type: typeof SET_CURRENT_DECK;
+  deck: IDeck;
+}
 export type IDeckActions =
   | ISetDeckMakerStatus
   | ISelectCard
   | IRemoveCard
   | IResetCard
+  | IResetDeck
   | ISelectLeader
+  | ISelectDeckUrl
+  | ISetCurrentDeck
   | IRemoveLeader;
 
 export const setDeckMakerStatus = (
@@ -75,6 +94,9 @@ export const removeCard = (cardId: string): IRemoveCard => ({
 export const resetCard = (): IResetCard => ({
   type: RESET_CARD,
 });
+export const resetDeck = (): IResetDeck => ({
+  type: RESET_DECK,
+});
 export const selectLeader = (
   card: CardData,
 ): ThunkResult<void, ISelectLeader | IResetCard | IFilterAction> => {
@@ -97,4 +119,29 @@ export const selectLeader = (
 
 export const removeLeader = (): IRemoveLeader => ({
   type: REMOVE_LEADER,
+});
+
+export const selectDeckUrl = (url: string): ThunkResult<void, IDeckActions> => {
+  return (dispatch, getState) => {
+    const state = getState();
+    if (url) {
+      const [leaderId, cardIds] = parseUrl(url);
+      const { leader, normal } = state.card.cards;
+      const selectedLeader = leader.find(card => card.ingameId === leaderId);
+      const selectedCard = normal.filter(card =>
+        cardIds.includes(card.ingameId),
+      );
+      dispatch(setDeckMakerStatus('DECKMAKE'));
+      if (selectedLeader) {
+        dispatch(selectLeader(selectedLeader));
+      }
+      dispatch(selectCard(selectedCard));
+      history.pushState({}, url, url);
+    }
+  };
+};
+
+export const setCurrentDeck = (deck: IDeck): IDeckActions => ({
+  type: SET_CURRENT_DECK,
+  deck,
 });

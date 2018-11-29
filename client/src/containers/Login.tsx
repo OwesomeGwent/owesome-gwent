@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
-import * as AuthActions from '../actions/auth';
+import * as UserActions from '../actions/user';
 import { Field, Form } from '../components/Common';
 import { IRootState } from '../reducers';
 import { Status } from '../types/status';
@@ -19,7 +19,7 @@ const TextWithLink = styled.div`
 export interface ILoginProps {
   openSignup: () => void;
   closeModal: () => void;
-  login: typeof AuthActions.login;
+  login: typeof UserActions.login;
   loginStatus: Status;
 }
 interface ILoginState {
@@ -89,9 +89,9 @@ class Login extends Component<ILoginProps, ILoginState> {
 }
 
 const mapStateToProps = (state: IRootState) => ({
-  loginStatus: state.auth.login.status,
+  loginStatus: state.user.login.status,
 });
 export default connect(
   mapStateToProps,
-  { login: AuthActions.login },
+  { login: UserActions.login },
 )(Login);

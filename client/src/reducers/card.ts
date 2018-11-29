@@ -73,15 +73,17 @@ const reducer = (
       }
       case ActionType.FETCH_DETAILS_SUCCESS: {
         draft.detail = {
-          ...draft.detail,
           status: 'SUCCESS',
           localeData: {
+            ...draft.detail.localeData,
             [action.locale]: action.localeData,
           },
           localeKeywords: {
+            ...draft.detail.localeKeywords,
             [action.locale]: action.localeKeywords,
           },
           localeCategories: {
+            ...draft.detail.localeCategories,
             [action.locale]: action.localeCategories,
           },
         };

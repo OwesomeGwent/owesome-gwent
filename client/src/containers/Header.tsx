@@ -1,22 +1,32 @@
 import AppBar from '@material-ui/core/AppBar';
-import Button from '@material-ui/core/Button';
 import Toolbar from '@material-ui/core/Toolbar';
 import React from 'react';
 import { connect } from 'react-redux';
 import { Login, Signup } from '.';
 import { Locale } from '../../../shared/ILocaleData';
-import * as AuthActions from '../actions/auth';
-import { SimpleSelect } from '../components/Common';
+import * as DeckActions from '../actions/deck';
+import * as UserActions from '../actions/user';
+import { Button, SimpleSelect, WithMenu } from '../components/Common';
+import { DeckListButton } from '../components/Header';
 import { ModalContext } from '../contexts';
 import { localeMap } from '../helpers/localeMapper';
 import { IRootState } from '../reducers';
-import { IUser } from '../types/user';
+import { Status } from '../types/status';
+import { IDeck, IUser } from '../types/user';
 export interface IHeaderProps {
+  decks: {
+    decks: IDeck[];
+    status: Status;
+    error: string;
+  };
   locale: Locale;
   loggedIn: boolean;
   user: IUser | undefined;
   setLocale: (locale: Locale) => void;
-  logout: typeof AuthActions.logout;
+  setCurrentDeck: typeof DeckActions.setCurrentDeck;
+  selectDeckUrl: typeof DeckActions.selectDeckUrl;
+  fetchDecks: typeof UserActions.fetchDecks;
+  logout: typeof UserActions.logout;
 }
 class Header extends React.Component<IHeaderProps> {
   public openLogin = (
@@ -44,19 +54,39 @@ class Header extends React.Component<IHeaderProps> {
       );
   };
   public render() {
-    const { locale, setLocale, loggedIn, logout, user } = this.props;
+    const {
+      decks,
+      setCurrentDeck,
+      selectDeckUrl,
+      fetchDecks,
+      locale,
+      setLocale,
+      loggedIn,
+      logout,
+      user,
+    } = this.props;
     return (
       <ModalContext.Consumer>
         {({ openModal, closeModal }) => (
           <AppBar position="sticky">
             <Toolbar>
               <div style={{ flexGrow: 1 }}>오우썸 궨트</div>
-              <div>
+              <>
                 {loggedIn ? (
-                  <>
-                    {user && user.username}
-                    <Button onClick={logout}>Logout</Button>
-                  </>
+                  <div>
+                    <WithMenu
+                      Button={<Button>{user && user.username}</Button>}
+                      MenuItems={[
+                        <DeckListButton
+                          {...decks}
+                          setCurrentDeck={setCurrentDeck}
+                          selectDeckUrl={selectDeckUrl}
+                          fetchDecks={fetchDecks}
+                        />,
+                        <Button onClick={logout}>Logout</Button>,
+                      ]}
+                    />
+                  </div>
                 ) : (
                   <Button onClick={this.openLogin(openModal, closeModal)}>
                     Log in
@@ -68,7 +98,7 @@ class Header extends React.Component<IHeaderProps> {
                   onChange={(value: string) => setLocale(value as Locale)}
                   selected={locale}
                 />
-              </div>
+              </>
             </Toolbar>
           </AppBar>
         )}
@@ -78,12 +108,16 @@ class Header extends React.Component<IHeaderProps> {
 }
 
 const mapStateToProps = (state: IRootState) => ({
-  loggedIn: state.auth.loggedIn,
-  user: state.auth.user,
+  decks: state.user.decks,
+  loggedIn: state.user.loggedIn,
+  user: state.user.user,
 });
 export default connect(
   mapStateToProps,
   {
-    logout: AuthActions.logout,
+    setCurrentDeck: DeckActions.setCurrentDeck,
+    selectDeckUrl: DeckActions.selectDeckUrl,
+    fetchDecks: UserActions.fetchDecks,
+    logout: UserActions.logout,
   },
 )(Header);

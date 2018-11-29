@@ -12,4 +12,7 @@ export class Deck {
 
   @Column()
   public url: string;
+
+  @Column()
+  public leaderId: string;
 }

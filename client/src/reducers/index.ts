@@ -1,12 +1,12 @@
 import { combineReducers } from 'redux';
-import authReducer, { IAuthState } from './auth';
 import cardReducer, { ICardState } from './card';
 import deckReducer, { IDeckState } from './deck';
 import filterReducer, { IFilterState } from './filter';
 import localeReducer, { ILocaleState } from './locale';
+import userReducer, { IUserState } from './user';
 
 export interface IRootState {
-  auth: IAuthState;
+  user: IUserState;
   card: ICardState;
   locale: ILocaleState;
   deck: IDeckState;
@@ -14,7 +14,7 @@ export interface IRootState {
 }
 
 export default combineReducers<IRootState>({
-  auth: authReducer,
+  user: userReducer,
   card: cardReducer,
   locale: localeReducer,
   deck: deckReducer,

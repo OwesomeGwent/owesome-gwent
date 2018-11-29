@@ -9,11 +9,21 @@ export interface ISetLocale {
 
 export type ILocaleAction = ISetLocale;
 export const setLocale = (locale: Locale): ThunkResult<void, ISetLocale> => {
-  return dispatch => {
-    dispatch({
-      type: SET_LOCALE,
-      locale,
-    });
-    dispatch(fetchDetails(locale));
+  return async (dispatch, getState) => {
+    const checkLocale = () => getState().card.detail.localeData[locale];
+    if (checkLocale()) {
+      dispatch({
+        type: SET_LOCALE,
+        locale,
+      });
+    } else {
+      await dispatch(fetchDetails(locale));
+      if (checkLocale()) {
+        dispatch({
+          type: SET_LOCALE,
+          locale,
+        });
+      }
+    }
   };
 };

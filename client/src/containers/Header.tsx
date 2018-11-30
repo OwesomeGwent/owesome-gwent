@@ -6,8 +6,8 @@ import { Login, Signup } from '.';
 import { Locale } from '../../../shared/ILocaleData';
 import * as DeckActions from '../actions/deck';
 import * as UserActions from '../actions/user';
-import { Button, SimpleSelect, WithMenu } from '../components/Common';
-import { DeckListButton } from '../components/Header';
+import { Button, WithMenu } from '../components/Common';
+import { DeckListButton, LanguageMenu } from '../components/Header';
 import { ModalContext } from '../contexts';
 import { localeMap } from '../helpers/localeMapper';
 import { IRootState } from '../reducers';
@@ -70,7 +70,9 @@ class Header extends React.Component<IHeaderProps> {
         {({ openModal, closeModal }) => (
           <AppBar style={{ backgroundColor: '#24282A' }} position="sticky">
             <Toolbar>
-              <div style={{ flexGrow: 1 }}>Owesome Gwent</div>
+              <div style={{ flexGrow: 1, fontSize: '1.5rem' }}>
+                🚀 Owesome Gwent
+              </div>
               <>
                 {loggedIn ? (
                   <div>
@@ -92,7 +94,7 @@ class Header extends React.Component<IHeaderProps> {
                     Log in
                   </Button>
                 )}
-                <SimpleSelect
+                <LanguageMenu
                   data={Object.values(localeMap)}
                   onChange={(value: string) => setLocale(value as Locale)}
                   selected={locale}

@@ -44,6 +44,7 @@ const styles = (theme: Theme) =>
     },
   });
 export interface IFilterProps extends WithStyles<typeof styles> {
+  search: string;
   filter: IFilter;
   multiFilter: IMultiFilter;
   setFilter: typeof filterAction.setFilter;
@@ -63,6 +64,7 @@ class Filter extends React.Component<IFilterProps> {
       classes,
       filter,
       multiFilter,
+      search,
       setFilter,
       setMultiFilter,
       setSearchFilter,
@@ -105,7 +107,7 @@ class Filter extends React.Component<IFilterProps> {
               />
             );
           })}
-          <SearchFilter setSearch={setSearchFilter} />
+          <SearchFilter search={search} setSearch={setSearchFilter} />
           <CloseButton>
             <Button onClick={this.closeFilter}>
               <Close />
@@ -118,6 +120,7 @@ class Filter extends React.Component<IFilterProps> {
 }
 
 const mapStateToProps = (state: IRootState) => ({
+  search: state.filter.search,
   filter: state.filter.filter,
   multiFilter: getMultiFilterByLocale(state),
 });

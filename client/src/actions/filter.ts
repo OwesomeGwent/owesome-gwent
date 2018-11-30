@@ -1,3 +1,4 @@
+import { notify } from '../helpers/notify';
 import { FilterField, FilterType, MultiFilterField } from '../types/filter';
 import { ThunkResult } from '../types/thunk';
 import {
@@ -6,7 +7,6 @@ import {
   SET_MULTI_FILTER,
   SET_SEARCH_FILTER,
 } from './ActionTypes';
-
 interface ISetFilter {
   type: typeof SET_FILTER;
   field: FilterField;
@@ -39,6 +39,10 @@ export const setFilter = (
   return (dispatch, getState) => {
     const { leader } = getState().deck;
     if (field === 'faction' && leader) {
+      notify.notify({
+        message: '🚨 You can not change the filter during deck building.',
+        type: 'error',
+      });
       return;
     }
     dispatch({

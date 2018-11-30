@@ -1,13 +1,16 @@
 import { createStyles, Theme, withStyles, WithStyles } from '@material-ui/core';
 import Input from '@material-ui/core/Input';
 import debounce from 'lodash/debounce';
-import React, { SFC } from 'react';
+import React, { Component } from 'react';
 import { FilterBox } from '.';
 
 const styles = (theme: Theme) =>
   createStyles({
     root: {
       color: theme.palette.primary.contrastText,
+    },
+    input: {
+      minWidth: 200,
     },
     underline: {
       borderBottom: `1px solid ${theme.palette.primary.contrastText}`,
@@ -17,6 +20,7 @@ const styles = (theme: Theme) =>
     },
   });
 export interface ISearchFilterProps extends WithStyles<typeof styles> {
+  search: string;
   setSearch: (search: string) => void;
 }
 
@@ -26,20 +30,35 @@ const debounced = debounce(
   },
   500,
 );
-const SearchFilter: SFC<ISearchFilterProps> = ({ classes, setSearch }) => {
-  return (
-    <FilterBox label="SEARCH">
-      <Input
-        type="search"
-        placeholder="Search cards by name"
-        classes={{
-          root: classes.root,
-          underline: classes.underline,
-        }}
-        onChange={e => debounced(setSearch, e.target.value)}
-      />
-    </FilterBox>
-  );
-};
+class SearchFilter extends Component<ISearchFilterProps> {
+  public state = {
+    search: this.props.search,
+  };
+  public handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    this.setState({
+      search: e.target.value,
+    });
+    debounced(this.props.setSearch, e.target.value);
+  };
+  public render() {
+    const { search } = this.state;
+    const { classes } = this.props;
+    return (
+      <FilterBox label="SEARCH">
+        <Input
+          type="search"
+          placeholder="Search cards by name"
+          classes={{
+            root: classes.root,
+            input: classes.input,
+            underline: classes.underline,
+          }}
+          value={search}
+          onChange={this.handleChange}
+        />
+      </FilterBox>
+    );
+  }
+}
 
 export default withStyles(styles)(SearchFilter);

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { CardData } from '../../../../shared/ICardData';
 import { LEADER_IMAGE_PATH } from '../../apis/defs';
 import { IRootState } from '../../reducers';
-import { makeGetLeader, makeGetLeaderName } from '../../selectors/card';
+import { makeGetLeader } from '../../selectors/card';
 import { IDeck } from '../../types/user';
 import { Button } from '../Common';
 

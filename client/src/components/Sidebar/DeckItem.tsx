@@ -15,6 +15,7 @@ const SelectedCardWrapper = styled.div`
   color: white;
   background-size: cover;
   background-image: url(${({ artId }: IWrapperProps) => `${THUMBNAIL_IMAGE_PATH}/${artId}0000.png`});
+  cursor: pointer;
 `;
 const CardInner = styled.div`
   position: absolute;
@@ -23,9 +24,18 @@ const CardInner = styled.div`
   height: 100%;
   justify-content: space-between;
   align-items: center;
-  color: ${({ type }: { type: string }) =>
-    type === 'Gold' ? '#d19632' : '#9b5140'};
-  background-color: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  ${({ type }: { type: string }) =>
+    type === 'Gold'
+      ? `
+      color: #d19632;
+      border: 1px solid #d19432;
+    `
+      : `
+      color: #9b5140;
+      border: 1px solid #9b5140;
+    `};
+  background-color: rgba(0, 0, 0, 0.6);
 `;
 const CardBack = styled.div`
   padding: 5px;

@@ -16,7 +16,7 @@ interface IStyledProps {
 }
 const NotiBox = styled.div`
   position: relative;
-  width: 300px;
+  min-width: 300px;
   min-height: 50px;
   margin-bottom: 10px;
   color: #fbfbfb;

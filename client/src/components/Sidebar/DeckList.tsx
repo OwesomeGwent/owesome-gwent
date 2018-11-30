@@ -25,6 +25,15 @@ export default class DeckList extends Component<IDeckListProps> {
       <DeckListWrapper>
         {cards.map((card, i) => (
           <WithPopover
+            placement="right-start"
+            modifiers={{
+              preventOverflow: {
+                enabled: false,
+              },
+              hide: {
+                enabled: false,
+              },
+            }}
             key={i}
             Hover={
               <CardDetail

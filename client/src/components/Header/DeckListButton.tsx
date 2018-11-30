@@ -23,7 +23,6 @@ const paperStyle: React.CSSProperties = {
   alignItems: 'center',
   backgroundColor: '#222222',
   minWidth: 300,
-  minHeight: 300,
   maxHeight: '80vh',
   overflowY: 'auto',
 };

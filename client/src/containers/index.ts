@@ -5,6 +5,7 @@ import Home from './Home';
 import Login from './Login';
 import Main from './Main';
 import Modal from './Modal';
+import Notification from './Notification';
 import Sidebar from './Sidebar';
 import Signup from './Signup';
 
@@ -16,6 +17,7 @@ export {
   Main,
   Signup,
   Modal,
+  Notification,
   Sidebar,
   Login,
 };

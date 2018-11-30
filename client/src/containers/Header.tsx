@@ -10,6 +10,7 @@ import { Button, SimpleSelect, WithMenu } from '../components/Common';
 import { DeckListButton } from '../components/Header';
 import { ModalContext } from '../contexts';
 import { localeMap } from '../helpers/localeMapper';
+import { notify } from '../helpers/notify';
 import { IRootState } from '../reducers';
 import { Status } from '../types/status';
 import { IDeck, IUser } from '../types/user';
@@ -99,6 +100,7 @@ class Header extends React.Component<IHeaderProps> {
                   selected={locale}
                 />
               </>
+              <button onClick={() => notify.notify({ message: 'Hello' })} />
             </Toolbar>
           </AppBar>
         )}

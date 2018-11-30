@@ -4,8 +4,9 @@ import 'intersection-observer'; // polyfill
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
 import { createGlobalStyle } from 'styled-components';
-import { Home, Modal } from './containers';
-import { deckListener } from './helpers/urlMaker';
+import { Home, Modal, Notification } from './containers';
+import { deckListener } from './helpers/deckUrl';
+import { notify } from './helpers/notify';
 import createStore from './store/createStore';
 
 /* 초기 작업 여기서 */
@@ -207,6 +208,7 @@ export default class App extends Component {
             <Home />
           </Modal>
         </Provider>
+        <Notification notify={notify} />
       </MuiThemeProvider>
     );
   }

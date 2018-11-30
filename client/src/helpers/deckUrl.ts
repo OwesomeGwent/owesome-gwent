@@ -2,6 +2,8 @@ import { createSelector } from 'reselect';
 import { store } from '../App';
 import { IRootState } from '../reducers';
 
+// Deck url 관련 helper들
+
 class Base64 {
   public alpha =
     'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
@@ -50,14 +52,15 @@ const getUrlByCards = createSelector(
     return leaderUrl + cardsUrl;
   },
 );
-
+// store을 subscribe하면서 deck에 변화가 생길 때 마다 url을 바꿔줌.
 export const deckListener = () => {
   const state = store.getState();
   const url = getUrlByCards(state);
   history.pushState({}, url, url);
 };
-
+// 기본적인 deck url 가져오기
 export const getDeckUrl = () => window.location.pathname.slice(1);
+// deck url 파싱
 export const parseUrl = (url: string): [string | undefined, string[]] => {
   const ids: string[] = [];
   let currIdx = 0;

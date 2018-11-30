@@ -1,4 +1,5 @@
 import CostList from './CostList';
+import DeckButtons from './DeckButtons';
 import DeckItem from './DeckItem';
 import DeckList from './DeckList';
 import DefaultImageBox from './DefaultImageBox';
@@ -7,6 +8,7 @@ import StateToggleBox from './StateToggleBox';
 
 export {
   CostList,
+  DeckButtons,
   DeckItem,
   DeckList,
   DefaultImageBox,

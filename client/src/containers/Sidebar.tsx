@@ -7,15 +7,15 @@ import {
   CategoryLocaleDataList,
 } from '../../../shared/ILocaleData';
 import * as DeckActions from '../actions/deck';
-import * as UserActions from '../actions/user';
 import { Button } from '../components/Common';
 import {
   CostList,
+  DeckButtons,
   DeckList,
   LeaderView,
   StateToggleBox,
 } from '../components/Sidebar';
-import { getDeckUrl } from '../helpers/urlMaker';
+import { getDeckUrl } from '../helpers/deckUrl';
 import { IRootState } from '../reducers';
 import { ICardState } from '../reducers/card';
 import { IDeckState } from '../reducers/deck';
@@ -37,7 +37,7 @@ interface ISidebarProps {
   cardData: ICardState;
   detail: CardLocaleDataList;
   category?: CategoryLocaleDataList;
-  addDeck: typeof UserActions.addDeck;
+  addDeck: typeof DeckActions.addDeck;
   updateDeck: typeof DeckActions.updateDeck;
   resetDeck: typeof DeckActions.resetDeck;
   setDeckMakerStatus: (status: DeckMakerStatus) => void;
@@ -101,13 +101,8 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
       deckName: e.target.value,
     });
   };
-  public closeDeckBuilder = () => {
-    this.setState({
-      deckName: '',
-    });
-    this.props.resetDeck();
-  };
   public addOrUpdateDeck = () => {
+    // 현재 deck의 id가 있을 경우 update. 아니면 add.
     const { addDeck, updateDeck, currentDeck, deck } = this.props;
     const baseDeck = {
       name: this.getDeckName(),
@@ -120,12 +115,17 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
       addDeck(baseDeck);
     }
   };
+  public closeDeckBuilder = () => {
+    this.setState({
+      deckName: '',
+    });
+    this.props.resetDeck();
+  };
   public render() {
     const { deckName } = this.state;
     const {
       randomLeader: { variations },
       loggedIn,
-      addDeck,
       deck,
       deckCards,
       deckCost,
@@ -175,14 +175,12 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
             provision={deckCost.provision}
           />
           <DeckList cards={deckCards} detail={detail} removeCard={removeCard} />
-          {loggedIn && deck.leader && (
-            <Button color="#048bfb" fullWidth onClick={this.addOrUpdateDeck}>
-              Save Deck
-            </Button>
-          )}
-          <Button color="#ce2c14" fullWidth onClick={this.closeDeckBuilder}>
-            Close Deck builder
-          </Button>
+          <DeckButtons
+            addOrUpdateDeck={this.addOrUpdateDeck}
+            closeDeckBuilder={this.closeDeckBuilder}
+            loggedIn={loggedIn}
+            leader={deck.leader}
+          />
         </Floating>
       </Container>
     );
@@ -207,5 +205,5 @@ const mapStateToProps = (state: IRootState) => {
 
 export default connect(
   mapStateToProps,
-  { ...DeckActions, ...UserActions },
+  { ...DeckActions },
 )(Sidebar);

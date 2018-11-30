@@ -1,11 +1,14 @@
 import { CardData } from '../../../shared/ICardData';
 import * as deckApi from '../apis/deck';
-import { parseUrl } from '../helpers/urlMaker';
+import { parseUrl } from '../helpers/deckUrl';
 import { DeckMakerStatus } from '../types/deck';
 import { FilterType } from '../types/filter';
 import { ThunkResult } from '../types/thunk';
-import { IDeck } from '../types/user';
+import { IAddDeck, IDeck } from '../types/user';
 import {
+  ADD_DECK_FAILURE,
+  ADD_DECK_REQUEST,
+  ADD_DECK_SUCCESS,
   REMOVE_CARD,
   REMOVE_LEADER,
   RESET_CARD,
@@ -62,6 +65,18 @@ export interface IResetCard {
 export interface IResetDeck {
   type: typeof RESET_DECK;
 }
+
+export interface IAddDeckRequest {
+  type: typeof ADD_DECK_REQUEST;
+}
+export interface IAddDeckSuccess {
+  type: typeof ADD_DECK_SUCCESS;
+  decks: string[];
+}
+export interface IAddDeckFailure {
+  type: typeof ADD_DECK_FAILURE;
+  error: string;
+}
 export interface IUpdateDeckRequest {
   type: typeof UPDATE_DECK_REQUEST;
 }
@@ -83,6 +98,9 @@ export type IDeckActions =
   | IRemoveCard
   | IResetCard
   | IResetDeck
+  | IAddDeckRequest
+  | IAddDeckSuccess
+  | IAddDeckFailure
   | IUpdateDeckRequest
   | IUpdateDeckSuccess
   | IUpdateDeckFailure
@@ -116,6 +134,7 @@ export const resetDeck = (): IResetDeck => ({
   type: RESET_DECK,
 });
 export const updateDeck = (deck: IDeck): ThunkResult<void, IDeckActions> => {
+  // 현재 deck id에 맞는 db deck을 업데이트
   return async dispatch => {
     dispatch({
       type: UPDATE_DECK_REQUEST,
@@ -187,3 +206,30 @@ export const setCurrentDeck = (deck: IDeck): IDeckActions => ({
   type: SET_CURRENT_DECK,
   deck,
 });
+
+export const addDeck = (deck: IAddDeck): ThunkResult<void, IDeckActions> => {
+  return async dispatch => {
+    dispatch({
+      type: ADD_DECK_REQUEST,
+    });
+    try {
+      const {
+        data: { decks },
+      } = await deckApi.addDeck(deck);
+      dispatch({
+        type: ADD_DECK_SUCCESS,
+        decks,
+      });
+    } catch (err) {
+      const {
+        response: {
+          data: { error },
+        },
+      } = err;
+      dispatch({
+        type: ADD_DECK_FAILURE,
+        error,
+      });
+    }
+  };
+};

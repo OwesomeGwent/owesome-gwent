@@ -9,9 +9,9 @@ import * as DeckActions from '../actions/deck';
 import * as localeActions from '../actions/locale';
 import * as UserActions from '../actions/user';
 import { Loading } from '../components/Common';
-import { checkOwnable, sortByFaction, sortByProvision } from '../helpers/card';
+import { checkOwnable, sortByProvision } from '../helpers/card';
+import { getDeckUrl } from '../helpers/deckUrl';
 import localeMapper from '../helpers/localeMapper';
-import { getDeckUrl } from '../helpers/urlMaker';
 import { IRootState } from '../reducers';
 import { ThunkFunc } from '../types/thunk';
 const HomeContainer = styled.div`

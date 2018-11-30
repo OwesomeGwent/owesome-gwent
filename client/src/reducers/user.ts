@@ -23,10 +23,6 @@ export interface IUserState {
     status: Status;
     error: string;
   };
-  addDeck: {
-    status: Status;
-    error: string;
-  };
 }
 
 const initialState: IUserState = {
@@ -45,10 +41,6 @@ const initialState: IUserState = {
   },
   decks: {
     decks: [],
-    status: 'INIT',
-    error: '',
-  },
-  addDeck: {
     status: 'INIT',
     error: '',
   },
@@ -121,24 +113,6 @@ const reducer = (state: IUserState = initialState, action: IUserAction) => {
       case UserActions.FETCH_DECKS_FAILURE: {
         draft.decks.status = 'FAILURE';
         draft.decks.error = '';
-        break;
-      }
-      case UserActions.ADD_DECK_REQUEST: {
-        draft.addDeck.status = 'FETCHING';
-        break;
-      }
-      case UserActions.ADD_DECK_SUCCESS: {
-        draft.addDeck.status = 'SUCCESS';
-        if (draft.user) {
-          draft.user.decks = action.decks;
-        }
-        break;
-      }
-      case UserActions.ADD_DECK_FAILURE: {
-        draft.addDeck = {
-          status: 'FAILURE',
-          error: action.error,
-        };
         break;
       }
     }

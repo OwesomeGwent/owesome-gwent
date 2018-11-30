@@ -1,6 +1,9 @@
 import produce from 'immer';
 import { CardData } from '../../../shared/ICardData';
 import {
+  ADD_DECK_FAILURE,
+  ADD_DECK_REQUEST,
+  ADD_DECK_SUCCESS,
   REMOVE_CARD,
   REMOVE_LEADER,
   RESET_CARD,
@@ -24,6 +27,10 @@ export interface IDeckState {
   readonly cards: CardData[];
   readonly deckMakerStatus: DeckMakerStatus;
   readonly leader: CardData | undefined;
+  readonly add: {
+    status: Status;
+    error: string;
+  };
   readonly update: {
     deck: IDeck | {};
     status: Status;
@@ -37,6 +44,10 @@ const initialState: IDeckState = {
     name: '',
     url: '',
     leaderId: '',
+  },
+  add: {
+    status: 'INIT',
+    error: '',
   },
   update: {
     status: 'INIT',
@@ -83,6 +94,22 @@ const deck = (state: IDeckState = initialState, action: IDeckActions) =>
       }
       case RESET_CARD: {
         draft.cards = [];
+        break;
+      }
+
+      case ADD_DECK_REQUEST: {
+        draft.add.status = 'FETCHING';
+        break;
+      }
+      case ADD_DECK_SUCCESS: {
+        draft.add.status = 'SUCCESS';
+        break;
+      }
+      case ADD_DECK_FAILURE: {
+        draft.add = {
+          status: 'FAILURE',
+          error: action.error,
+        };
         break;
       }
       case UPDATE_DECK_REQUEST: {

@@ -70,17 +70,6 @@ export interface IFetchDecksFailure {
   type: typeof FETCH_DECKS_FAILURE;
   error: string;
 }
-export interface IAddDeckRequest {
-  type: typeof ADD_DECK_REQUEST;
-}
-export interface IAddDeckSuccess {
-  type: typeof ADD_DECK_SUCCESS;
-  decks: string[];
-}
-export interface IAddDeckFailure {
-  type: typeof ADD_DECK_FAILURE;
-  error: string;
-}
 export type IUserAction =
   | ILoginRequest
   | ILoginSuccess
@@ -94,10 +83,7 @@ export type IUserAction =
   | ILogoutRequest
   | IFetchDecksRequest
   | IFetchDecksSuccess
-  | IFetchDecksFailure
-  | IAddDeckRequest
-  | IAddDeckSuccess
-  | IAddDeckFailure;
+  | IFetchDecksFailure;
 
 export const signup = (user: ISignupUser): ThunkResult<void, IUserAction> => {
   return async dispatch => {
@@ -196,32 +182,6 @@ export const fetchDecks = (): ThunkResult<void, IUserAction> => {
       } = err;
       dispatch({
         type: FETCH_DECKS_FAILURE,
-        error,
-      });
-    }
-  };
-};
-export const addDeck = (deck: IAddDeck): ThunkResult<void, IUserAction> => {
-  return async dispatch => {
-    dispatch({
-      type: ADD_DECK_REQUEST,
-    });
-    try {
-      const {
-        data: { decks },
-      } = await deckApi.addDeck(deck);
-      dispatch({
-        type: ADD_DECK_SUCCESS,
-        decks,
-      });
-    } catch (err) {
-      const {
-        response: {
-          data: { error },
-        },
-      } = err;
-      dispatch({
-        type: ADD_DECK_FAILURE,
         error,
       });
     }

@@ -10,7 +10,6 @@ import { Button, SimpleSelect, WithMenu } from '../components/Common';
 import { DeckListButton } from '../components/Header';
 import { ModalContext } from '../contexts';
 import { localeMap } from '../helpers/localeMapper';
-import { notify } from '../helpers/notify';
 import { IRootState } from '../reducers';
 import { Status } from '../types/status';
 import { IDeck, IUser } from '../types/user';
@@ -93,14 +92,12 @@ class Header extends React.Component<IHeaderProps> {
                     Log in
                   </Button>
                 )}
-
                 <SimpleSelect
                   data={Object.values(localeMap)}
                   onChange={(value: string) => setLocale(value as Locale)}
                   selected={locale}
                 />
               </>
-              <button onClick={() => notify.notify({ message: 'Hello' })} />
             </Toolbar>
           </AppBar>
         )}

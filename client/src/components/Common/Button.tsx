@@ -1,10 +1,11 @@
+import CircularProgress from '@material-ui/core/CircularProgress';
+import React, { SFC } from 'react';
 import styled from 'styled-components';
-
-export interface IButtonProps {
-  color?: string;
+export interface IButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
+  loading?: boolean;
   fullWidth?: boolean;
 }
-const Button = styled.button`
+const Default = styled.button`
   border: none;
   outline: none;
   border-radius: 10px;
@@ -19,4 +20,9 @@ const Button = styled.button`
   }
 `;
 
+const Button: SFC<IButtonProps> = ({ children, loading, ...props }) => (
+  <Default disabled={loading} {...props}>
+    {loading ? <CircularProgress /> : children}
+  </Default>
+);
 export default Button;

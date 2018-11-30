@@ -1,12 +1,10 @@
 import * as authApi from '../apis/auth';
 import * as deckApi from '../apis/deck';
+import { notify } from '../helpers/notify';
 import { ThunkResult } from '../types/thunk';
-import { IAddDeck, IDeck, ISignupUser, IUser } from '../types/user';
+import { IDeck, ISignupUser, IUser } from '../types/user';
 
 import {
-  ADD_DECK_FAILURE,
-  ADD_DECK_REQUEST,
-  ADD_DECK_SUCCESS,
   FETCH_DECKS_FAILURE,
   FETCH_DECKS_REQUEST,
   FETCH_DECKS_SUCCESS,
@@ -125,6 +123,7 @@ export const login = (
         type: LOGIN_SUCCESS,
         user,
       });
+      notify.notify({ message: `👋 Hello ${username}` });
     } catch (err) {
       dispatch({
         type: LOGIN_FAILURE,
@@ -134,7 +133,11 @@ export const login = (
 };
 
 export const logout = (): ThunkResult<void, IUserAction> => {
-  return async dispatch => {
+  return async (dispatch, getState) => {
+    const { user } = getState().user;
+    if (user) {
+      notify.notify({ message: `👋 Bye ${user.username}` });
+    }
     dispatch({
       type: LOGOUT_REQUEST,
     });

@@ -2,7 +2,6 @@ import { CardData } from '../../../shared/ICardData';
 import * as deckApi from '../apis/deck';
 import { parseUrl } from '../helpers/deckUrl';
 import { DeckMakerStatus } from '../types/deck';
-import { FilterType } from '../types/filter';
 import { ThunkResult } from '../types/thunk';
 import { IAddDeck, IDeck } from '../types/user';
 import {
@@ -22,7 +21,6 @@ import {
   UPDATE_DECK_REQUEST,
   UPDATE_DECK_SUCCESS,
 } from './ActionTypes';
-import { IFilterAction, setFilter } from './filter';
 
 export interface ISetDeckMakerStatus {
   type: typeof SET_DECKMAKER_STATUS;
@@ -160,17 +158,9 @@ export const updateDeck = (deck: IDeck): ThunkResult<void, IDeckActions> => {
 };
 export const selectLeader = (
   card: CardData,
-): ThunkResult<void, ISelectLeader | IResetCard | IFilterAction> => {
+): ThunkResult<void, ISelectLeader> => {
   return (dispatch, getState) => {
-    // 현재 리더와 faction이 같지 않은 경우 faction 등록
-    const currentLeader = getState().deck.leader;
-    const currentFaction = getState().filter.filter.faction;
-    if (!currentLeader || currentLeader.faction !== card.faction) {
-      dispatch(resetCard());
-    }
-    if (!currentFaction || currentFaction !== card.faction) {
-      dispatch(setFilter('faction', card.faction as FilterType));
-    }
+    // 현재 리더와 faction이 같지 않은 경우 faction 등록은 Reducer 확인.
     dispatch({
       type: SELECT_LEADER,
       payload: { card },

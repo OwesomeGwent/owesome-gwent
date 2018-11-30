@@ -37,7 +37,8 @@ export const setFilter = (
   value: FilterType,
 ): ThunkResult<void, IFilterAction> => {
   return (dispatch, getState) => {
-    if (field === 'faction' && getState().deck.leader) {
+    const { leader } = getState().deck;
+    if (field === 'faction' && leader) {
       return;
     }
     dispatch({

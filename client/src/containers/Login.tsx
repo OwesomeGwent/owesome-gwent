@@ -5,7 +5,6 @@ import * as UserActions from '../actions/user';
 import { Field, Form } from '../components/Common';
 import { IRootState } from '../reducers';
 import { Status } from '../types/status';
-
 const TextWithLink = styled.div`
   width: 100%;
   color: white;

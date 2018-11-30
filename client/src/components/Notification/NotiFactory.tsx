@@ -4,15 +4,14 @@ import { Noti } from '.';
 import { INoti } from '../../helpers/notify';
 const Factory = styled.div`
   position: fixed;
-  top: 0;
+  bottom: 0;
   right: 0;
   width: 300px;
-  height: 100%;
 `;
 const InnerFactory = styled.div`
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: 30px;
   width: 100%;
 `;
 export interface INotiFactory {

@@ -67,6 +67,13 @@ const deck = (state: IDeckState = initialState, action: IDeckActions) =>
         break;
       }
       case SELECT_LEADER: {
+        // 리더 같은 팩션이면 카드 그대로
+        if (
+          !draft.leader ||
+          draft.leader.faction !== action.payload.card.faction
+        ) {
+          draft.cards = [];
+        }
         draft.leader = action.payload.card;
         break;
       }

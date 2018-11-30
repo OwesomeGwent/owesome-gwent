@@ -23,7 +23,6 @@ class Notification extends Component<INotificationProps, INotificationState> {
   public componentDidMount() {
     this.props.notify.subscribe(getNoties => {
       const noties = getNoties();
-      console.log(noties);
       this.setState({
         noties,
       });

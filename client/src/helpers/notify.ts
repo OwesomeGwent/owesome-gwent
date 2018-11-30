@@ -10,7 +10,7 @@ type Listener = (getNoties: () => INoti[]) => void;
 
 const baseNoti: Pick<INoti, 'message' | 'timeout' | 'type'> = {
   message: 'Default Message',
-  timeout: 2000,
+  timeout: 3000,
   type: 'default',
 };
 

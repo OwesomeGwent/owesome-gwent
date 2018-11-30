@@ -7,15 +7,16 @@ import {
   CategoryLocaleDataList,
 } from '../../../shared/ILocaleData';
 import * as DeckActions from '../actions/deck';
-import { Button } from '../components/Common';
 import {
   CostList,
   DeckButtons,
   DeckList,
+  FloatingBox,
   LeaderView,
   StateToggleBox,
 } from '../components/Sidebar';
 import { getDeckUrl } from '../helpers/deckUrl';
+import { notify } from '../helpers/notify';
 import { IRootState } from '../reducers';
 import { ICardState } from '../reducers/card';
 import { IDeckState } from '../reducers/deck';
@@ -26,8 +27,11 @@ import {
 } from '../selectors/locale';
 import { getRandomLeader } from '../selectors/random';
 import { DeckMakerStatus, IDeckCard, IDeckCost } from '../types/deck';
+import { Status } from '../types/status';
 import { IDeck } from '../types/user';
 interface ISidebarProps {
+  addStatus: Status;
+  updateStatus: Status;
   randomLeader: CardData;
   loggedIn: boolean;
   currentDeck: IDeck;
@@ -51,12 +55,6 @@ const Container = styled.div`
   justify-content: center;
   flex-basis: 300px;
   margin-right: 20px;
-`;
-const Floating = styled.div`
-  position: sticky;
-  top: 70px;
-  max-height: calc(100vh - 70px);
-  overflow-y: auto;
 `;
 const NoLeader = styled.h2`
   color: white;
@@ -101,7 +99,7 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
       deckName: e.target.value,
     });
   };
-  public addOrUpdateDeck = () => {
+  public addOrUpdateDeck = async () => {
     // 현재 deck의 id가 있을 경우 update. 아니면 add.
     const { addDeck, updateDeck, currentDeck, deck } = this.props;
     const baseDeck = {
@@ -109,11 +107,19 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
       url: getDeckUrl(),
       leaderId: deck.leader!.ingameId,
     };
+    let hasError = false;
     if (currentDeck.id) {
-      updateDeck({ ...baseDeck, id: currentDeck.id });
+      await updateDeck({ ...baseDeck, id: currentDeck.id });
+      hasError = this.props.updateStatus === 'FAILURE';
     } else {
-      addDeck(baseDeck);
+      await addDeck(baseDeck);
+      hasError = this.props.addStatus === 'FAILURE';
     }
+    const message = hasError
+      ? 'Fail to save deck. Try again'
+      : '👌 Deck saved!';
+    const type = hasError ? 'error' : 'success';
+    notify.notify({ message, type });
   };
   public closeDeckBuilder = () => {
     this.setState({
@@ -124,7 +130,10 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
   public render() {
     const { deckName } = this.state;
     const {
+      addStatus,
+      updateStatus,
       randomLeader: { variations },
+      currentDeck,
       loggedIn,
       deck,
       deckCards,
@@ -140,18 +149,18 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
       const randomLeaderImg = variations[Object.keys(variations)[0]].art;
       return (
         <Container>
-          <Floating>
+          <FloatingBox>
             <StateToggleBox
               backgroundLeader={randomLeaderImg}
               onToggle={() => setDeckMakerStatus('DECKMAKE')}
             />
-          </Floating>
+          </FloatingBox>
         </Container>
       );
     }
     return (
       <Container>
-        <Floating>
+        <FloatingBox>
           {deck.leader === undefined ? (
             <NoLeader>Choose Your Leader 👍</NoLeader>
           ) : (
@@ -176,12 +185,13 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
           />
           <DeckList cards={deckCards} detail={detail} removeCard={removeCard} />
           <DeckButtons
+            status={currentDeck.id ? updateStatus : addStatus}
             addOrUpdateDeck={this.addOrUpdateDeck}
             closeDeckBuilder={this.closeDeckBuilder}
             loggedIn={loggedIn}
             leader={deck.leader}
           />
-        </Floating>
+        </FloatingBox>
       </Container>
     );
   }
@@ -191,6 +201,8 @@ const mapStateToProps = (state: IRootState) => {
   const detail = getCardDetailByLocale(state);
   const category = getCardCategoryByLocale(state);
   return {
+    addStatus: state.deck.add.status,
+    updateStatus: state.deck.update.status,
     currentDeck: state.deck.currentDeck,
     randomLeader: getRandomLeader(state),
     loggedIn: state.user.loggedIn,

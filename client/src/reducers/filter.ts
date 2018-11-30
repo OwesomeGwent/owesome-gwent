@@ -1,14 +1,15 @@
 import produce from 'immer';
 import {
   CLEAR_FILTER,
+  SELECT_LEADER,
   SET_DECKMAKER_STATUS,
   SET_FILTER,
   SET_MULTI_FILTER,
   SET_SEARCH_FILTER,
 } from '../actions/ActionTypes';
-import { ISetDeckMakerStatus } from '../actions/deck';
+import { ISelectLeader, ISetDeckMakerStatus } from '../actions/deck';
 import { IFilterAction } from '../actions/filter';
-import { IFilter, MultiFilterType } from '../types/filter';
+import { FilterType, IFilter, MultiFilterType } from '../types/filter';
 
 export interface IFilterState {
   filter: IFilter;
@@ -22,7 +23,7 @@ const initialState: IFilterState = {
 
 const reducer = (
   state: IFilterState = initialState,
-  action: IFilterAction | ISetDeckMakerStatus,
+  action: IFilterAction | ISetDeckMakerStatus | ISelectLeader,
 ) =>
   produce(state, draft => {
     switch (action.type) {
@@ -45,6 +46,13 @@ const reducer = (
         draft.filter = {};
         draft.search = '';
         break;
+      }
+      case SELECT_LEADER: {
+        const { faction } = draft.filter;
+        const { card } = action.payload;
+        if (!faction || faction !== card.faction) {
+          draft.filter.faction = card.faction as FilterType;
+        }
       }
       default:
         break;

@@ -1,29 +1,48 @@
 import React, { Component } from 'react';
 import styled, { css } from 'styled-components';
-import { INoti } from '../../helpers/notify';
+import { INoti, NotiType } from '../../helpers/notify';
 
+type NotiColor = Record<NotiType, string>;
+
+const NOTI_COLOR: NotiColor = {
+  success: '#05ac7c',
+  error: '#ce2c14',
+  default: '#048bfb',
+};
 interface IStyledProps {
   mounted: boolean;
   removed: boolean;
+  type: NotiType;
 }
 const NotiBox = styled.div`
   position: relative;
   width: 300px;
-  min-height: 100px;
+  min-height: 50px;
   margin-bottom: 10px;
-  background-color: white;
-  transform: translateX(300px);
-  ${({ mounted }: IStyledProps) =>
+  color: #fbfbfb;
+  background-color: ${({ type }: IStyledProps) => NOTI_COLOR[type]};
+  box-shadow: 0 8px 6px -6px black;
+  transform: scale(0);
+  opacity: 0;
+  ${({ mounted }) =>
     mounted &&
     css`
-      transform: translateX(0px);
+      opacity: 1;
+      transform: scale(1);
     `};
-  ${({ removed }: IStyledProps) =>
+  ${({ removed }) =>
     removed &&
     css`
-      transform: translateX(300px);
+      opacity: 0;
+      transform: scale(0);
     `};
-  transition: transform 0.3s ease-in-out;
+  transition: all 0.2s cubic-bezier(0.175, 0.885, 0.885, 1.275);
+`;
+const NotiInner = styled.div`
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  min-height: 50px;
 `;
 export interface INotiProps extends INoti {
   remove: (id: number) => void;
@@ -70,12 +89,13 @@ class Noti extends Component<INotiProps> {
     const { id, message, type } = this.props;
     return (
       <NotiBox
+        type={type}
         mounted={mounted}
         removed={removed}
         onClick={() => this.handleRemove(id)}
         onTransitionEnd={this.handleTransitionEnd}
       >
-        {message}
+        <NotiInner>{message}</NotiInner>
       </NotiBox>
     );
   }

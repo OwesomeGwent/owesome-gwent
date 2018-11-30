@@ -22,10 +22,12 @@ import { getMultiFilterByLocale } from '../selectors/filter';
 import {
   FilterField,
   filterSet,
+  FilterType,
   IFilter,
   IMultiFilter,
   MultiFilterField,
 } from '../types/filter';
+import { ThunkFunc } from '../types/thunk';
 
 const FilterButton = styled.div`
   position: fixed;
@@ -47,7 +49,7 @@ export interface IFilterProps extends WithStyles<typeof styles> {
   search: string;
   filter: IFilter;
   multiFilter: IMultiFilter;
-  setFilter: typeof filterAction.setFilter;
+  setFilter: (field: FilterField, value: FilterType) => void;
   setMultiFilter: typeof filterAction.setMultiFilter;
   setSearchFilter: typeof filterAction.setSearchFilter;
   clearFilter: typeof filterAction.clearFilter;
@@ -124,10 +126,15 @@ const mapStateToProps = (state: IRootState) => ({
   filter: state.filter.filter,
   multiFilter: getMultiFilterByLocale(state),
 });
-
+const mapDispatchToProps = (dispatch: ThunkFunc) => ({
+  setFilter: (field: FilterField, value: FilterType) => dispatch(filterAction.setFilter(field, value)),
+  setMultiFilter: (field: MultiFilterField, values: string[]) => dispatch(filterAction.setMultiFilter(field, values)),
+  setSearchFilter: (search: string) => dispatch(filterAction.setSearchFilter(search)),
+  clearFilter: () => dispatch(filterAction.clearFilter),
+});
 export default withStyles(styles)(
   connect(
     mapStateToProps,
-    { ...filterAction },
+    mapDispatchToProps,
   )(Filter),
 );

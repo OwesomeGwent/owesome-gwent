@@ -10,7 +10,7 @@ import { Button } from '../Common';
 export interface IDeckListProps {
   decks: IDeck[];
   setCurrentDeck: typeof DeckActions.setCurrentDeck;
-  selectDeckUrl: typeof DeckActions.selectDeckUrl;
+  selectDeckUrl: (url: string) => void;
   fetchDecks: () => void;
   status: Status;
 }

@@ -14,7 +14,6 @@ import {
 import { DeckMakerStatus } from '../types/deck';
 import { IFilter } from '../types/filter';
 // TODO: Debounce 줄까말까..
-
 const PER_PAGE = 40;
 export interface ICardListProps {
   filter: IFilter;
@@ -26,7 +25,6 @@ export interface ICardListProps {
   deckMakerStatus: DeckMakerStatus;
   deckCards: CardData[];
   selectCard: (card: CardData) => void;
-  setFilter: typeof FilterActions.setFilter;
   selectLeader: (card: CardData) => void;
 }
 interface ICardListState {

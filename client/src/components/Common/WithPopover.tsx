@@ -8,11 +8,9 @@ interface IWithPopoverState {
   anchorEl: ReactNode;
 }
 
-class WithPopover extends PureComponent<
-  IWithPopoverProps & Partial<PopperProps>,
-  IWithPopoverState
-> {
-  public static defaultProps = {
+type Props = IWithPopoverProps & Partial<PopperProps>;
+class WithPopover extends PureComponent<Props, IWithPopoverState> {
+  public static defaultProps: Partial<PopperProps> = {
     placement: 'top',
     modifiers: {
       flip: {

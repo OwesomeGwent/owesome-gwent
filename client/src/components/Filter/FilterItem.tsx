@@ -9,7 +9,6 @@ import {
 } from '@material-ui/core/styles';
 import React from 'react';
 import { FilterBox } from '.';
-import * as FilterAction from '../../actions/filter';
 import { FilterField, filterSet, FilterType } from '../../types/filter';
 
 const styles = (theme: Theme) =>
@@ -24,7 +23,7 @@ const styles = (theme: Theme) =>
   });
 export interface IFilterItem extends WithStyles<typeof styles> {
   filter: FilterField;
-  setFilter: typeof FilterAction.setFilter;
+  setFilter: (field: FilterField, value: FilterType) => void;
   selected?: FilterType;
 }
 const FilterItem: React.SFC<IFilterItem> = ({

@@ -5,6 +5,8 @@ import * as UserActions from '../actions/user';
 import { Field, Form } from '../components/Common';
 import { IRootState } from '../reducers';
 import { Status } from '../types/status';
+import { ThunkFunc } from '../types/thunk';
+import { ISignupUser } from '../types/user';
 
 const VALID_REG: { [field: string]: string } = {
   username: '^[a-z0-9_]{6,15}$',
@@ -30,7 +32,7 @@ const TextWithLink = styled.div`
 export interface ISignupProps {
   openLogin: () => void;
   closeModal: () => void;
-  signup: typeof UserActions.signup;
+  signup: (user: ISignupUser) => void;
   signupStatus: Status;
   signupError: string;
 }
@@ -183,7 +185,10 @@ const mapStateToProps = (state: IRootState) => ({
   signupStatus: state.user.signup.status,
   signupError: state.user.signup.error,
 });
+const mapDispatchToProps = (dispatch: ThunkFunc) => ({
+  signup: (user: ISignupUser) => dispatch(UserActions.signup(user)),
+});
 export default connect(
   mapStateToProps,
-  { signup: UserActions.signup },
+  mapDispatchToProps,
 )(Signup);

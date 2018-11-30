@@ -5,6 +5,7 @@ import * as UserActions from '../actions/user';
 import { Field, Form } from '../components/Common';
 import { IRootState } from '../reducers';
 import { Status } from '../types/status';
+import { ThunkFunc } from '../types/thunk';
 const TextWithLink = styled.div`
   width: 100%;
   color: white;
@@ -18,7 +19,7 @@ const TextWithLink = styled.div`
 export interface ILoginProps {
   openSignup: () => void;
   closeModal: () => void;
-  login: typeof UserActions.login;
+  login: (username: string, password: string) => void;
   loginStatus: Status;
 }
 interface ILoginState {
@@ -90,7 +91,10 @@ class Login extends Component<ILoginProps, ILoginState> {
 const mapStateToProps = (state: IRootState) => ({
   loginStatus: state.user.login.status,
 });
+const mapDispatchToProps = (dispatch: ThunkFunc) => ({
+  login: (username: string, password: string) => dispatch(UserActions.login(username,password)),
+})
 export default connect(
   mapStateToProps,
-  { login: UserActions.login },
+  mapDispatchToProps,
 )(Login);

@@ -3,6 +3,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import React from 'react';
 import { connect } from 'react-redux';
 import { Login, Signup } from '.';
+import { Deck } from '../../../shared/IAuth';
 import { Locale } from '../../../shared/ILocaleData';
 import * as DeckActions from '../actions/deck';
 import * as UserActions from '../actions/user';
@@ -12,6 +13,7 @@ import { ModalContext } from '../contexts';
 import { localeMap } from '../helpers/localeMapper';
 import { IRootState } from '../reducers';
 import { Status } from '../types/status';
+import { ThunkFunc } from '../types/thunk';
 import { IDeck, IUser } from '../types/user';
 export interface IHeaderProps {
   decks: {
@@ -24,9 +26,9 @@ export interface IHeaderProps {
   user: IUser | undefined;
   setLocale: (locale: Locale) => void;
   setCurrentDeck: typeof DeckActions.setCurrentDeck;
-  selectDeckUrl: typeof DeckActions.selectDeckUrl;
-  fetchDecks: typeof UserActions.fetchDecks;
-  logout: typeof UserActions.logout;
+  selectDeckUrl: (url: string) => void;
+  fetchDecks: () => void;
+  logout: () => void;
 }
 class Header extends React.Component<IHeaderProps> {
   public openLogin = (
@@ -113,12 +115,13 @@ const mapStateToProps = (state: IRootState) => ({
   loggedIn: state.user.loggedIn,
   user: state.user.user,
 });
+const mapDispatchToProps = (dispatch: ThunkFunc) => ({
+  setCurrentDeck: (deck: Deck) => dispatch(DeckActions.setCurrentDeck(deck)),
+  selectDeckUrl: (url: string) => dispatch(DeckActions.selectDeckUrl(url)),
+  fetchDecks: () => dispatch(UserActions.fetchDecks()),
+  logout: () => dispatch(UserActions.logout()),
+})
 export default connect(
   mapStateToProps,
-  {
-    setCurrentDeck: DeckActions.setCurrentDeck,
-    selectDeckUrl: DeckActions.selectDeckUrl,
-    fetchDecks: UserActions.fetchDecks,
-    logout: UserActions.logout,
-  },
+  mapDispatchToProps,
 )(Header);

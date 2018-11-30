@@ -158,13 +158,11 @@ export const updateDeck = (deck: IDeck): ThunkResult<void, IDeckActions> => {
 };
 export const selectLeader = (
   card: CardData,
-): ThunkResult<void, ISelectLeader> => {
-  return (dispatch, getState) => {
+): IDeckActions => {
     // 현재 리더와 faction이 같지 않은 경우 faction 등록은 Reducer 확인.
-    dispatch({
+  return {
       type: SELECT_LEADER,
       payload: { card },
-    });
   };
 };
 

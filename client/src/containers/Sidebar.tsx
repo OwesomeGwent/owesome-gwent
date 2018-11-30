@@ -28,7 +28,8 @@ import {
 import { getRandomLeader } from '../selectors/random';
 import { DeckMakerStatus, IDeckCard, IDeckCost } from '../types/deck';
 import { Status } from '../types/status';
-import { IDeck } from '../types/user';
+import { ThunkFunc } from '../types/thunk';
+import { IAddDeck, IDeck } from '../types/user';
 interface ISidebarProps {
   addStatus: Status;
   updateStatus: Status;
@@ -41,8 +42,8 @@ interface ISidebarProps {
   cardData: ICardState;
   detail: CardLocaleDataList;
   category?: CategoryLocaleDataList;
-  addDeck: typeof DeckActions.addDeck;
-  updateDeck: typeof DeckActions.updateDeck;
+  addDeck: (deck: IAddDeck) => void;
+  updateDeck: (deck: IDeck) => void;
   resetDeck: typeof DeckActions.resetDeck;
   setDeckMakerStatus: (status: DeckMakerStatus) => void;
   removeCard: (cardId: string) => void;
@@ -214,8 +215,14 @@ const mapStateToProps = (state: IRootState) => {
     category,
   };
 };
-
+const mapDispatchToProps = (dispatch: ThunkFunc) => ({
+  addDeck: (deck: IAddDeck) => dispatch(DeckActions.addDeck(deck)),
+  updateDeck: (deck: IDeck) => dispatch(DeckActions.updateDeck(deck)),
+  resetDeck: () => dispatch(DeckActions.resetDeck()),
+  setDeckMakerStatus: (status: DeckMakerStatus) => dispatch(DeckActions.setDeckMakerStatus(status)),
+  removeCard: (cardId: string) => dispatch(DeckActions.removeCard(cardId)),
+})
 export default connect(
   mapStateToProps,
-  { ...DeckActions },
+  mapDispatchToProps,
 )(Sidebar);

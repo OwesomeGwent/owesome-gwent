@@ -507,7 +507,7 @@ module.exports = {
         module: 'esnext',
         moduleResolution: 'node',
         resolveJsonModule: true,
-        isolatedModules: false, // production에서만
+        isolatedModules: true, // production에서만
         noEmit: true,
         jsx: 'preserve',
       },

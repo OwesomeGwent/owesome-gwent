@@ -15,7 +15,7 @@ import {
   LeaderView,
   StateToggleBox,
 } from '../components/Sidebar';
-import { getDeckUrl } from '../helpers/deckUrl';
+import { copyUrl, getDeckUrl } from '../helpers/deckUrl';
 import { notify } from '../helpers/notify';
 import { IRootState } from '../reducers';
 import { ICardState } from '../reducers/card';
@@ -128,6 +128,15 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
     });
     this.props.resetDeck();
   };
+  public copyDeckUrl = () => {
+    const success = copyUrl();
+    const type = success ? 'success' : 'error';
+    const message = success ? '🔗 Copied!' : 'Fail to copy link. Try again.';
+    notify.notify({
+      message,
+      type,
+    });
+  };
   public render() {
     const { deckName } = this.state;
     const {
@@ -189,6 +198,7 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
             status={currentDeck.id ? updateStatus : addStatus}
             addOrUpdateDeck={this.addOrUpdateDeck}
             closeDeckBuilder={this.closeDeckBuilder}
+            copyDeckUrl={this.copyDeckUrl}
             loggedIn={loggedIn}
             leader={deck.leader}
           />
@@ -219,9 +229,10 @@ const mapDispatchToProps = (dispatch: ThunkFunc) => ({
   addDeck: (deck: IAddDeck) => dispatch(DeckActions.addDeck(deck)),
   updateDeck: (deck: IDeck) => dispatch(DeckActions.updateDeck(deck)),
   resetDeck: () => dispatch(DeckActions.resetDeck()),
-  setDeckMakerStatus: (status: DeckMakerStatus) => dispatch(DeckActions.setDeckMakerStatus(status)),
+  setDeckMakerStatus: (status: DeckMakerStatus) =>
+    dispatch(DeckActions.setDeckMakerStatus(status)),
   removeCard: (cardId: string) => dispatch(DeckActions.removeCard(cardId)),
-})
+});
 export default connect(
   mapStateToProps,
   mapDispatchToProps,

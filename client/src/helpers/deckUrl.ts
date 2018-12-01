@@ -73,3 +73,23 @@ export const parseUrl = (url: string): [string | undefined, string[]] => {
   const leaderId = ids.shift();
   return [leaderId, ids];
 };
+
+export const copyUrl = () => {
+  const textArea = document.createElement('textarea');
+  textArea.value = window.location.href;
+  textArea.style.position = 'fixed';
+  textArea.style.top = '0';
+  textArea.style.right = '0';
+  textArea.style.opacity = '0';
+  document.body.appendChild(textArea);
+  textArea.focus();
+  textArea.select();
+  let success;
+  try {
+    success = document.execCommand('copy');
+  } catch (err) {
+    success = false;
+  }
+  document.body.removeChild(textArea);
+  return success;
+};

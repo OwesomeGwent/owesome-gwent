@@ -4,7 +4,7 @@ import proxy from 'http-proxy-middleware';
 import path from 'path';
 
 const clientPath = path.resolve(process.cwd(), '../', 'client');
-const outputPath = path.resolve(clientPath, 'build');
+const outputPath = path.resolve(clientPath, 'dist');
 const publicPath = '/';
 
 const server = express();

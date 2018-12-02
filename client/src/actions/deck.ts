@@ -156,13 +156,11 @@ export const updateDeck = (deck: IDeck): ThunkResult<void, IDeckActions> => {
     }
   };
 };
-export const selectLeader = (
-  card: CardData,
-): IDeckActions => {
-    // 현재 리더와 faction이 같지 않은 경우 faction 등록은 Reducer 확인.
+export const selectLeader = (card: CardData): IDeckActions => {
+  // 현재 리더와 faction이 같지 않은 경우 faction 등록은 Reducer 확인.
   return {
-      type: SELECT_LEADER,
-      payload: { card },
+    type: SELECT_LEADER,
+    payload: { card },
   };
 };
 
@@ -177,9 +175,14 @@ export const selectDeckUrl = (url: string): ThunkResult<void, IDeckActions> => {
       const [leaderId, cardIds] = parseUrl(url);
       const { leader, normal } = state.card.cards;
       const selectedLeader = leader.find(card => card.ingameId === leaderId);
-      const selectedCard = normal.filter(card =>
-        cardIds.includes(card.ingameId),
-      );
+      const selectedCard = normal.reduce((acc: CardData[], card) => {
+        cardIds.forEach(cardId => {
+          if (cardId === card.ingameId) {
+            acc.push(card);
+          }
+        });
+        return acc;
+      }, []);
       dispatch(setDeckMakerStatus('DECKMAKE'));
       if (selectedLeader) {
         dispatch(selectLeader(selectedLeader));

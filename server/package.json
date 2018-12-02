@@ -36,7 +36,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node preServer.js && nodemon index.ts"
+    "forever": "forever",
+    "start": "node preServer.js && nodemon index.ts",
+    "start:prod": "node preServer.js && forever -c ts-node index.ts &"
   },
   "author": "",
   "license": "ISC"

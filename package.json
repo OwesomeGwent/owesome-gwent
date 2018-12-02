@@ -11,12 +11,12 @@
     "start-server": "cd server && npm start",
     "start-ui": "cd ui && npm run start",
     "start": "npm run start-server | npm run start-client",
-    "build-client": "cd client && npm run build",
-    "prod-client": "npm run start-ui",
-    "prod-server": "npm run start-server",
-    "start-prod": "npm run prod-server & npm run prod-client",
-    "build-prod": "npm run build-client && npm run prod-client | npm run prod-server"
-
+    "client:build": "cd client && npm run build",
+    "client:prod": "cd ui && npm run start:prod",
+    "server:prod": "cd server && npm run start:prod",
+    "start:prod": "npm run client:prod && npm run server:prod",
+    "start:production": "npm run client:build && npm run client:prod && npm run server:prod",
+    "forever": "forever"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/OwesomeGwent/owesome-gwent#readme",
   "devDependencies": {
+    "forever": "^0.15.3",
     "lerna": "^3.4.3",
     "ts-node": "^7.0.1",
     "tslint": "^5.11.0",

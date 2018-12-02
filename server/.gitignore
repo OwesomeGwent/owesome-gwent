@@ -4,7 +4,7 @@ node_modules/
 build/
 tmp/
 temp/
-
+gwent-data-release/
 
 ormconfig.json
 .env

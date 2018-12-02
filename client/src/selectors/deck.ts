@@ -30,11 +30,13 @@ export const getDeckCost = createSelector(
   getParsedDeckCards,
   deckCards => {
     let craft = 0;
+    let count = 0;
     let provision = 0;
     deckCards.forEach(card => {
       craft = craft + card.variations[0].craft.standard * card.cardCount;
+      count = count + card.cardCount;
       provision = provision + card.provision * card.cardCount;
     });
-    return { craft, provision };
+    return { craft, count, provision };
   },
 );

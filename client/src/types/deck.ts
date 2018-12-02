@@ -6,5 +6,6 @@ export interface IDeckCard extends CardData {
 }
 export interface IDeckCost {
   craft: number;
+  count: number;
   provision: number;
 }

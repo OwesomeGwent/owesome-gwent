@@ -189,7 +189,7 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
             />
           </DefaultMargin>
           <CostList
-            count={deckCards.length}
+            count={deckCost.count}
             craft={deckCost.craft}
             provision={deckCost.provision}
           />

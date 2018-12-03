@@ -7,4 +7,5 @@ export type IUser = Pick<User, 'id' | 'username'> &
   Pick<Partial<User>, keyof Partial<User>>;
 
 export type IAddDeck = Pick<Deck, 'name' | 'url' | 'leaderId'>;
-export type IDeck = Deck;
+export type IDeck = Pick<Deck, 'id' | 'leaderId' | 'name' | 'url'> &
+  Partial<Deck>;

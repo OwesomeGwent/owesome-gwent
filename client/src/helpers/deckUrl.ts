@@ -56,7 +56,7 @@ const getUrlByCards = createSelector(
 export const deckListener = () => {
   const state = store.getState();
   const url = getUrlByCards(state);
-  history.pushState({}, url, url);
+  history.replaceState({}, url, url);
 };
 // 기본적인 deck url 가져오기
 export const getDeckUrl = () => window.location.pathname.slice(1);

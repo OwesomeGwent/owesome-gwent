@@ -1,9 +1,9 @@
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
+import { Link } from '@reach/router';
 import React from 'react';
 import { connect } from 'react-redux';
 import { Login, Signup } from '.';
-import { Deck } from '../../../shared/IAuth';
 import { Locale } from '../../../shared/ILocaleData';
 import * as DeckActions from '../actions/deck';
 import * as UserActions from '../actions/user';
@@ -15,6 +15,7 @@ import { IRootState } from '../reducers';
 import { Status } from '../types/status';
 import { ThunkFunc } from '../types/thunk';
 import { IDeck, IUser } from '../types/user';
+
 export interface IHeaderProps {
   decks: {
     decks: IDeck[];
@@ -76,6 +77,9 @@ class Header extends React.Component<IHeaderProps> {
                 🚀 Owesome Gwent
               </div>
               <>
+                <Link to="collection">
+                  <Button>Collection</Button>
+                </Link>
                 {loggedIn ? (
                   <div>
                     <WithMenu
@@ -116,11 +120,11 @@ const mapStateToProps = (state: IRootState) => ({
   user: state.user.user,
 });
 const mapDispatchToProps = (dispatch: ThunkFunc) => ({
-  setCurrentDeck: (deck: Deck) => dispatch(DeckActions.setCurrentDeck(deck)),
+  setCurrentDeck: (deck: IDeck) => dispatch(DeckActions.setCurrentDeck(deck)),
   selectDeckUrl: (url: string) => dispatch(DeckActions.selectDeckUrl(url)),
   fetchDecks: () => dispatch(UserActions.fetchDecks()),
   logout: () => dispatch(UserActions.logout()),
-})
+});
 export default connect(
   mapStateToProps,
   mapDispatchToProps,

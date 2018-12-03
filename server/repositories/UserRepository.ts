@@ -16,7 +16,10 @@ export default class UserRepository extends Repository<User> {
     });
   }
   public async login(username: string, password: string) {
-    const user = await this.findOne({ username });
+    const user = await this.createQueryBuilder('user')
+      .where('user.username = :username', { username })
+      .addSelect('user.password')
+      .getOne();
     if (!user) {
       throw new Error('잘못된 아이디 혹은 비밀번호.');
     }

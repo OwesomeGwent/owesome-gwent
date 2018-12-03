@@ -51,12 +51,6 @@ interface ISidebarProps {
 interface ISidebarState {
   deckName: string;
 }
-const Container = styled.div`
-  flex: 0;
-  justify-content: center;
-  flex-basis: 300px;
-  margin-right: 20px;
-`;
 const NoLeader = styled.h2`
   color: white;
 `;
@@ -158,52 +152,48 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
     if (deck.deckMakerStatus === 'INIT') {
       const randomLeaderImg = variations[Object.keys(variations)[0]].art;
       return (
-        <Container>
-          <FloatingBox>
-            <StateToggleBox
-              backgroundLeader={randomLeaderImg}
-              onToggle={() => setDeckMakerStatus('DECKMAKE')}
-            />
-          </FloatingBox>
-        </Container>
+        <FloatingBox>
+          <StateToggleBox
+            backgroundLeader={randomLeaderImg}
+            onToggle={() => setDeckMakerStatus('DECKMAKE')}
+          />
+        </FloatingBox>
       );
     }
     return (
-      <Container>
-        <FloatingBox>
-          {deck.leader === undefined ? (
-            <NoLeader>Choose Your Leader 👍</NoLeader>
-          ) : (
-            <LeaderView
-              artId={deck.leader.variations[0].art}
-              name={detail[deck.leader.ingameId].name}
-            />
-          )}
-          <DefaultMargin>
-            <Label htmlFor="deck_name">Deck Name</Label>
-            <DeckName
-              id="deck_name"
-              placeholder={this.getDeckName()}
-              value={deckName}
-              onChange={this.handleNameChange}
-            />
-          </DefaultMargin>
-          <CostList
-            count={deckCost.count}
-            craft={deckCost.craft}
-            provision={deckCost.provision}
+      <FloatingBox>
+        {deck.leader === undefined ? (
+          <NoLeader>Choose Your Leader 👍</NoLeader>
+        ) : (
+          <LeaderView
+            artId={deck.leader.variations[0].art}
+            name={detail[deck.leader.ingameId].name}
           />
-          <DeckList cards={deckCards} detail={detail} removeCard={removeCard} />
-          <DeckButtons
-            status={currentDeck.id ? updateStatus : addStatus}
-            addOrUpdateDeck={this.addOrUpdateDeck}
-            closeDeckBuilder={this.closeDeckBuilder}
-            copyDeckUrl={this.copyDeckUrl}
-            loggedIn={loggedIn}
-            leader={deck.leader}
+        )}
+        <DefaultMargin>
+          <Label htmlFor="deck_name">Deck Name</Label>
+          <DeckName
+            id="deck_name"
+            placeholder={this.getDeckName()}
+            value={deckName}
+            onChange={this.handleNameChange}
           />
-        </FloatingBox>
-      </Container>
+        </DefaultMargin>
+        <CostList
+          count={deckCost.count}
+          craft={deckCost.craft}
+          provision={deckCost.provision}
+        />
+        <DeckList cards={deckCards} detail={detail} removeCard={removeCard} />
+        <DeckButtons
+          status={currentDeck.id ? updateStatus : addStatus}
+          addOrUpdateDeck={this.addOrUpdateDeck}
+          closeDeckBuilder={this.closeDeckBuilder}
+          copyDeckUrl={this.copyDeckUrl}
+          loggedIn={loggedIn}
+          leader={deck.leader}
+        />
+      </FloatingBox>
     );
   }
 }

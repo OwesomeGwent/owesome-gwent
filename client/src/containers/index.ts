@@ -1,4 +1,5 @@
 import CardFinder from './CardFinder';
+import Collection from './Collection';
 import Filter from './Filter';
 import Header from './Header';
 import Home from './Home';
@@ -11,6 +12,7 @@ import Signup from './Signup';
 
 export {
   CardFinder,
+  Collection,
   Filter,
   Header,
   Home,

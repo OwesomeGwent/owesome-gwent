@@ -1,7 +1,7 @@
 import express from 'express';
 import { getCustomRepository, getRepository, In } from 'typeorm';
 import verifyCookie from '../../middlewares/verifyCookie';
-import UserRepository from '../../repositories/UserRepository';
+import UserRepository, { User } from '../../repositories/UserRepository';
 import { Deck } from '../../src/entity/Deck';
 import { IRequest } from '../../types/IAuth';
 
@@ -51,6 +51,7 @@ router.post('/', verifyCookie, async (req, res) => {
   saveDeck = {
     ...saveDeck,
     ...deck,
+    userId: user.id,
   };
   const { id: deckId } = await DeckRepo.save(saveDeck);
   const UserRepo = getUserRepo();
@@ -71,6 +72,24 @@ router.put('/', async (req, res) => {
     const newDeck = await DeckRepo.update(deck.id, deck);
     return res.json({
       deck: newDeck,
+    });
+  } catch (err) {
+    return res.status(503).json({
+      error: 'Database Error',
+    });
+  }
+});
+router.get('/collections', async (req, res) => {
+  const DeckRepo = getRepo();
+  const { limit = 10, skip = 10 } = req.query;
+  try {
+    const collections = await DeckRepo.createQueryBuilder('deck')
+      .leftJoinAndMapOne('deck.user', User, 'user', 'deck.userId = user.id')
+      .take(parseInt(limit, 10))
+      .skip(parseInt(skip, 10))
+      .getMany();
+    return res.json({
+      deck: collections,
     });
   } catch (err) {
     return res.status(503).json({

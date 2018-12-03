@@ -19,5 +19,5 @@ export class Deck {
   @Column()
   public userId: number;
 
-  public user: Pick<User, 'id' | 'username'>;
+  public user: Pick<User, 'id' | 'username' | 'decks' | 'email'>;
 }

@@ -16,6 +16,7 @@ import {
   StateToggleBox,
 } from '../components/Sidebar';
 import { copyUrl, getDeckUrl } from '../helpers/deckUrl';
+import { history } from '../helpers/history';
 import { notify } from '../helpers/notify';
 import { IRootState } from '../reducers';
 import { ICardState } from '../reducers/card';
@@ -45,7 +46,7 @@ interface ISidebarProps {
   category?: CategoryLocaleDataList;
   addDeck: (deck: IAddDeck) => void;
   updateDeck: (deck: IDeck) => void;
-  resetDeck: typeof DeckActions.resetDeck;
+  resetDeck: () => void;
   selectDeckUrl: (url: string) => void;
   setDeckMakerStatus: (status: DeckMakerStatus) => void;
   removeCard: (cardId: string) => void;
@@ -76,6 +77,11 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
   public state = {
     deckName: '',
   };
+  public componentDidMount() {
+    if (this.props.deckUrl) {
+      this.props.selectDeckUrl(this.props.deckUrl);
+    }
+  }
   public componentDidUpdate(prevProps: ISidebarProps) {
     if (prevProps.deckUrl !== this.props.deckUrl) {
       this.props.selectDeckUrl(this.props.deckUrl);
@@ -125,7 +131,7 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
     this.setState({
       deckName: '',
     });
-    this.props.resetDeck();
+    history.push('/');
   };
   public copyDeckUrl = () => {
     const success = copyUrl();

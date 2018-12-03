@@ -50,7 +50,7 @@ export const pushCardToUrl = (type: 'ADD' | 'REMOVE', card: CardData) => {
       if (parsed.toString() === card.ingameId) {
         const newUrl =
           deckUrl.slice(0, currIdx) +
-          deckUrl.slice(currIdx + split, deckUrl.length - 1);
+          deckUrl.slice(currIdx + split, deckUrl.length);
         history.push(newUrl);
         break;
       }

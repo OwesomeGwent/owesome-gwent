@@ -79,14 +79,15 @@ router.put('/', async (req, res) => {
     });
   }
 });
-router.get('/collections', async (req, res) => {
+router.get('/collection', async (req, res) => {
   const DeckRepo = getRepo();
-  const { limit = 10, skip = 10 } = req.query;
+  const { q = '', limit = 10, skip = 0 } = req.query;
   try {
     const collections = await DeckRepo.createQueryBuilder('deck')
       .leftJoinAndMapOne('deck.user', User, 'user', 'deck.userId = user.id')
       .take(parseInt(limit, 10))
       .skip(parseInt(skip, 10))
+      .where('deck.name like :name', { name: `%${q}%` })
       .getMany();
     return res.json({
       deck: collections,

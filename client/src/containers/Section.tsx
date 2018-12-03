@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, RouteComponentProps, withRouter } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import styled from 'styled-components';
 import { Collection, Main } from '.';
 
@@ -12,8 +12,10 @@ const HomeRouter = styled.div`
 const Section: React.SFC = props => {
   return (
     <HomeRouter>
-      <Route path="/collection" component={Collection} />
-      <Route path="/:deckUrl?" component={Main} />
+      <Switch>
+        <Route path="/collection" component={Collection} />
+        <Route path="/:deckUrl?" component={Main} />
+      </Switch>
     </HomeRouter>
   );
 };

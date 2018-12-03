@@ -4,13 +4,13 @@ export interface RawCardData {
 export interface CardData {
   artist: string;
   cardType: string;
-  categories: Array<string>;
-  categoryIds: Array<string>;
+  categories: string[];
+  categoryIds: string[];
   faction: string;
   ingameId: string;
-  keywords: Array<string>;
-  loyalites?: Array<string>;
-  positions: Array<string>;
+  keywords: string[];
+  loyalites?: string[];
+  positions: string[];
   provision: number;
   released: boolean;
   strength: number;
@@ -27,6 +27,13 @@ export interface CardDataList {
     [cardId: string]: CardData;
   };
 }
+export type Faction =
+  | 'Monster'
+  | 'Neutral'
+  | 'Nilfgaard'
+  | 'Northern Realms'
+  | 'Scoiatael'
+  | 'Skellige';
 interface Variations {
   [key: string]: Variation;
 }

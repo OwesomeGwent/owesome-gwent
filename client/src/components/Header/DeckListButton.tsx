@@ -3,6 +3,7 @@ import Dialog from '@material-ui/core/Dialog';
 import React, { Component } from 'react';
 import { DeckItem } from '.';
 import * as DeckActions from '../../actions/deck';
+import { history } from '../../helpers/history';
 import { Status } from '../../types/status';
 import { IDeck } from '../../types/user';
 import { Button } from '../Common';
@@ -36,8 +37,7 @@ class DeckListButton extends Component<IDeckListProps, IDeckListState> {
   };
   public handleClose = () => this.setState({ open: false });
   public handleDeckClick = (deck: IDeck) => () => {
-    this.props.selectDeckUrl(deck.url);
-    this.props.setCurrentDeck(deck);
+    history.push(`/${deck.url}`);
     this.handleClose();
   };
   public render() {

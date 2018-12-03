@@ -28,10 +28,10 @@ const Icon = styled.img`
 export interface IDeckItemProps extends IDeck {
   handleDeckClick: () => void;
   leader?: CardData | undefined;
-  leaderName?: string;
 }
 
 const DeckItem: React.SFC<IDeckItemProps> = ({
+  children,
   name,
   leader,
   handleDeckClick,
@@ -47,6 +47,7 @@ const DeckItem: React.SFC<IDeckItemProps> = ({
           )}
           <DeckName>{name}</DeckName>
         </ButtonInner>
+        {children}
       </Button>
     </Item>
   );
@@ -54,7 +55,6 @@ const DeckItem: React.SFC<IDeckItemProps> = ({
 
 DeckItem.defaultProps = {
   leader: undefined,
-  leaderName: '',
 };
 
 const mapStateToProps = () => {

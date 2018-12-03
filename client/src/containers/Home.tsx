@@ -9,7 +9,6 @@ import * as localeActions from '../actions/locale';
 import * as UserActions from '../actions/user';
 import { Loading } from '../components/Common';
 import { checkOwnable, sortByProvision } from '../helpers/card';
-import { getDeckUrl } from '../helpers/deckUrl';
 import localeMapper from '../helpers/localeMapper';
 import { IRootState } from '../reducers';
 import { ThunkFunc } from '../types/thunk';
@@ -42,7 +41,6 @@ class Home extends Component<IHomeProps> {
   public async componentDidMount() {
     let Cards: any;
     const locale = getCurrentLocale();
-    const shortUrl = getDeckUrl();
     const { fetchCards, setCards, setLocale, verify } = this.props;
     await Promise.all([fetchCards(), setLocale(locale), verify()]);
     // 카드 스피너를 위한 delay 살짝~
@@ -67,10 +65,6 @@ class Home extends Component<IHomeProps> {
       { leader: [], normal: [] },
     );
     setCards(leader, normal);
-    // Deck url 체크.
-    if (shortUrl) {
-      this.props.selectDeckUrl(shortUrl);
-    }
   }
 
   public render() {

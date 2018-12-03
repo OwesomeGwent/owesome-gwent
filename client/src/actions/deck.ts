@@ -1,7 +1,6 @@
 import { CardData } from '../../../shared/ICardData';
 import * as deckApi from '../apis/deck';
 import { parseUrl } from '../helpers/deckUrl';
-import { history } from '../helpers/history';
 import { DeckMakerStatus } from '../types/deck';
 import { ThunkResult } from '../types/thunk';
 import { IAddDeck, IDeck } from '../types/user';
@@ -190,11 +189,12 @@ export const selectDeckUrl = (url: string): ThunkResult<void, IDeckActions> => {
         dispatch(selectLeader(selectedLeader));
         dispatch(selectCard(selectedCard));
       } else {
-        dispatch(setDeckMakerStatus('INIT'));
-        dispatch(removeLeader());
+        dispatch(resetDeck());
       }
       // history.push(url);
       // history.pushState({}, url, url);
+    } else {
+      dispatch(resetDeck());
     }
   };
 };

@@ -32,6 +32,7 @@ import { ThunkFunc } from '../types/thunk';
 import { IAddDeck, IDeck } from '../types/user';
 interface ISidebarProps {
   addStatus: Status;
+  deckUrl: string;
   updateStatus: Status;
   randomLeader: CardData;
   loggedIn: boolean;
@@ -45,6 +46,7 @@ interface ISidebarProps {
   addDeck: (deck: IAddDeck) => void;
   updateDeck: (deck: IDeck) => void;
   resetDeck: typeof DeckActions.resetDeck;
+  selectDeckUrl: (url: string) => void;
   setDeckMakerStatus: (status: DeckMakerStatus) => void;
   removeCard: (cardId: string) => void;
 }
@@ -75,6 +77,9 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
     deckName: '',
   };
   public componentDidUpdate(prevProps: ISidebarProps) {
+    if (prevProps.deckUrl !== this.props.deckUrl) {
+      this.props.selectDeckUrl(this.props.deckUrl);
+    }
     if (prevProps.deck.currentDeck.name !== this.props.deck.currentDeck.name) {
       this.setState({
         deckName: this.props.deck.currentDeck.name,
@@ -221,6 +226,7 @@ const mapDispatchToProps = (dispatch: ThunkFunc) => ({
   resetDeck: () => dispatch(DeckActions.resetDeck()),
   setDeckMakerStatus: (status: DeckMakerStatus) =>
     dispatch(DeckActions.setDeckMakerStatus(status)),
+  selectDeckUrl: (url: string) => dispatch(DeckActions.selectDeckUrl(url)),
   removeCard: (cardId: string) => dispatch(DeckActions.removeCard(cardId)),
 });
 export default connect(

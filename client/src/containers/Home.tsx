@@ -1,8 +1,6 @@
-import { Router } from '@reach/router';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import styled from 'styled-components';
-import { Collection, Header, Main } from '.';
+import { Header, Section } from '.';
 import { CardData, CardDataList } from '../../../shared/ICardData';
 import { Locale } from '../../../shared/ILocaleData';
 import * as cardActions from '../actions/card';
@@ -15,11 +13,6 @@ import { getDeckUrl } from '../helpers/deckUrl';
 import localeMapper from '../helpers/localeMapper';
 import { IRootState } from '../reducers';
 import { ThunkFunc } from '../types/thunk';
-const HomeRouter = styled(Router)`
-  display: flex;
-  width: 80%;
-  margin: auto;
-`;
 export interface IHomeProps {
   cardData: {
     leader: CardData[];
@@ -89,10 +82,7 @@ class Home extends Component<IHomeProps> {
     return (
       <>
         <Header locale={locale} setLocale={setLocale} />
-        <HomeRouter>
-          <Collection path="/collection" />
-          <Main path="/*" />
-        </HomeRouter>
+        <Section />
       </>
     );
   }

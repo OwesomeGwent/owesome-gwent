@@ -1,8 +1,8 @@
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import { Link } from '@reach/router';
 import React from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { Login, Signup } from '.';
 import { Locale } from '../../../shared/ILocaleData';
 import * as DeckActions from '../actions/deck';

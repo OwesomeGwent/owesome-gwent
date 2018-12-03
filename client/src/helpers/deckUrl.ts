@@ -1,7 +1,8 @@
 import { createSelector } from 'reselect';
+import { CardData } from '../../../shared/ICardData';
 import { store } from '../App';
+import { history } from '../helpers/history';
 import { IRootState } from '../reducers';
-
 // Deck url 관련 helper들
 
 class Base64 {
@@ -34,8 +35,32 @@ class Base64 {
   };
 }
 
-const base64 = new Base64();
+export const base64 = new Base64();
 
+export const pushCardToUrl = (type: 'ADD' | 'REMOVE', card: CardData) => {
+  const deckUrl = getDeckUrl();
+  if (!deckUrl) {
+    return false;
+  }
+  if (type === 'REMOVE') {
+    let currIdx = 0;
+    const split = 3;
+    while (currIdx < deckUrl.length - 1) {
+      const parsed = base64.decode(deckUrl.substr(currIdx, split));
+      if (parsed.toString() === card.ingameId) {
+        const newUrl =
+          deckUrl.slice(0, currIdx) +
+          deckUrl.slice(currIdx + split, deckUrl.length - 1);
+        history.push(newUrl);
+        break;
+      }
+      currIdx = currIdx + split;
+    }
+    return true;
+  } else {
+    history.push(`/${deckUrl}/${base64.encode(card.ingameId)}`);
+  }
+};
 const getSelectedLeader = (state: IRootState) => state.deck.leader;
 const getSelectedCards = (state: IRootState) => state.deck.cards;
 const getUrlByCards = createSelector(
@@ -56,10 +81,11 @@ const getUrlByCards = createSelector(
 export const deckListener = () => {
   const state = store.getState();
   const url = getUrlByCards(state);
-  history.replaceState({}, url, url);
+  // history.push(url);
+  // history.replaceState({}, url, url);
 };
 // 기본적인 deck url 가져오기
-export const getDeckUrl = () => window.location.pathname.slice(1);
+export const getDeckUrl = () => history.location.pathname.slice(1);
 // deck url 파싱
 export const parseUrl = (url: string): [string | undefined, string[]] => {
   const ids: string[] = [];

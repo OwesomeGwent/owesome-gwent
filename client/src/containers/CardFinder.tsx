@@ -6,6 +6,8 @@ import * as DeckActions from '../actions/deck';
 import * as FilterActions from '../actions/filter';
 import { CardList } from '../components/CardFinder';
 import { hasSpace } from '../helpers/card';
+import { base64 } from '../helpers/deckUrl';
+import { history } from '../helpers/history';
 import { IRootState } from '../reducers';
 import {
   makeGetFilteredCards,
@@ -68,11 +70,17 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
     const { deckCards, deckMakerStatus, selectCard, selectLeader } = this.props;
     if (deckMakerStatus === 'DECKMAKE') {
       if (card.cardType === 'Leader') {
-        selectLeader(card);
+        // selectLeader(card);
+        history.push(`/${base64.encode(card.ingameId)}`);
         return;
       } else if (hasSpace(card, deckCards)) {
         // gold는 1개 bronze는 2개
-        selectCard(card);
+        // selectCard(card);
+        history.push(
+          `/${history.location.pathname.slice(1)}${base64.encode(
+            card.ingameId,
+          )}`,
+        );
       }
     }
   };

@@ -1,6 +1,7 @@
 import { CardData } from '../../../shared/ICardData';
 import * as deckApi from '../apis/deck';
 import { parseUrl } from '../helpers/deckUrl';
+import { history } from '../helpers/history';
 import { DeckMakerStatus } from '../types/deck';
 import { ThunkResult } from '../types/thunk';
 import { IAddDeck, IDeck } from '../types/user';
@@ -172,6 +173,7 @@ export const selectDeckUrl = (url: string): ThunkResult<void, IDeckActions> => {
   return (dispatch, getState) => {
     const state = getState();
     if (url) {
+      // url에 따라 변경
       const [leaderId, cardIds] = parseUrl(url);
       const { leader, normal } = state.card.cards;
       const selectedLeader = leader.find(card => card.ingameId === leaderId);
@@ -183,12 +185,16 @@ export const selectDeckUrl = (url: string): ThunkResult<void, IDeckActions> => {
         });
         return acc;
       }, []);
-      dispatch(setDeckMakerStatus('DECKMAKE'));
       if (selectedLeader) {
+        dispatch(setDeckMakerStatus('DECKMAKE'));
         dispatch(selectLeader(selectedLeader));
+        dispatch(selectCard(selectedCard));
+      } else {
+        dispatch(setDeckMakerStatus('INIT'));
+        dispatch(removeLeader());
       }
-      dispatch(selectCard(selectedCard));
-      history.pushState({}, url, url);
+      // history.push(url);
+      // history.pushState({}, url, url);
     }
   };
 };

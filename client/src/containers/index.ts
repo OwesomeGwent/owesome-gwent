@@ -7,6 +7,7 @@ import Login from './Login';
 import Main from './Main';
 import Modal from './Modal';
 import Notification from './Notification';
+import Section from './Section';
 import Sidebar from './Sidebar';
 import Signup from './Signup';
 
@@ -20,6 +21,7 @@ export {
   Signup,
   Modal,
   Notification,
+  Section,
   Sidebar,
   Login,
 };

@@ -81,14 +81,27 @@ router.put('/', async (req, res) => {
 });
 router.get('/collection', async (req, res) => {
   const DeckRepo = getRepo();
-  const { q = '', limit = 10, skip = 0 } = req.query;
+  const {
+    q = '',
+    faction = '',
+    leaderId = '',
+    limit = 30,
+    skip = 0,
+  } = req.query;
   try {
-    const collections = await DeckRepo.createQueryBuilder('deck')
+    const query = DeckRepo.createQueryBuilder('deck')
       .leftJoinAndMapOne('deck.user', User, 'user', 'deck.userId = user.id')
       .take(parseInt(limit, 10))
       .skip(parseInt(skip, 10))
-      .where('deck.name like :name', { name: `%${q}%` })
-      .getMany();
+      .where('deck.name like :name', { name: `%${q}%` });
+    if (faction) {
+      query.andWhere('deck.faction = :faction', { faction });
+    }
+    if (leaderId) {
+      query.andWhere('deck.leaderId = :leaderId', { leaderId });
+    }
+    query.orderBy('deck.id', 'DESC');
+    const collections = await query.getMany();
     return res.json({
       deck: collections,
     });

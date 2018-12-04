@@ -1,9 +1,15 @@
 import { createSelector } from 'reselect';
+import { CardData } from '../../../shared/ICardData';
+import { CardLocaleData } from '../../../shared/ILocaleData';
 import { parseUrl } from '../helpers/deckUrl';
 import { IRootState } from '../reducers';
+import { makeGetCardDetailByLocale } from './locale';
 
 const getRawCards = (state: IRootState) => state.card.rawCards.cards;
+const getLeaders = (state: IRootState) => state.card.cards.leader;
+const getFaction = (state: IRootState, faction: string) => faction;
 const getUrl = (state: IRootState, url: string) => url;
+const getCardDetailByLocale = makeGetCardDetailByLocale();
 
 export interface IDetails {
   craft: number;
@@ -11,6 +17,35 @@ export interface IDetails {
   faction: string;
   provision: number;
 }
+export const getFactions = createSelector(
+  getLeaders,
+  leaders => {
+    return leaders.reduce(
+      (acc, leader) => {
+        if (!acc.includes(leader.faction)) {
+          return [...acc, leader.faction];
+        }
+        return acc;
+      },
+      [] as string[],
+    );
+  },
+);
+export const getLeadersWithLocaleName = createSelector(
+  getLeaders,
+  getCardDetailByLocale,
+  (leaders, details) => {
+    if (!details) {
+      return [];
+    }
+    return leaders.reduce(
+      (acc, leader) => {
+        return [...acc, { ...leader, ...details[leader.ingameId] }];
+      },
+      [] as Array<CardData & CardLocaleData>,
+    );
+  },
+);
 export const makeGetDetails = () =>
   createSelector(
     getRawCards,

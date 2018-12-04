@@ -6,6 +6,6 @@ export type ISignupUser = Pick<User, 'username' | 'password'> &
 export type IUser = Pick<User, 'id' | 'username'> &
   Pick<Partial<User>, keyof Partial<User>>;
 
-export type IAddDeck = Pick<Deck, 'name' | 'url' | 'leaderId'>;
-export type IDeck = Pick<Deck, 'id' | 'leaderId' | 'name' | 'url'> &
+export type IAddDeck = Pick<Deck, 'name' | 'url' | 'leaderId' | 'faction'>;
+export type IDeck = Pick<Deck, 'id' | 'leaderId' | 'name' | 'url' | 'faction'> &
   Partial<Deck>;

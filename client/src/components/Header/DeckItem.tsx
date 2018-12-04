@@ -6,7 +6,7 @@ import { LEADER_IMAGE_PATH } from '../../apis/defs';
 import { IRootState } from '../../reducers';
 import { makeGetLeader } from '../../selectors/card';
 import { IDeck } from '../../types/user';
-import { Button } from '../Common';
+import { Avatar, Button } from '../Common';
 
 const Item = styled.div`
   text-align: center;
@@ -18,12 +18,6 @@ const DeckName = styled.span`
 const ButtonInner = styled.div`
   display: flex;
   align-items: center;
-`;
-const Icon = styled.img`
-  width: 32px;
-  height: 32px;
-  border-radius: 100%;
-  margin-right: 10px;
 `;
 export interface IDeckItemProps extends IDeck {
   handleDeckClick: () => void;
@@ -41,7 +35,7 @@ const DeckItem: React.SFC<IDeckItemProps> = ({
       <Button fullWidth onClick={handleDeckClick}>
         <ButtonInner>
           {leader && (
-            <Icon
+            <Avatar
               src={`${LEADER_IMAGE_PATH}/${leader.variations[0].art}0000.png`}
             />
           )}

@@ -17,6 +17,9 @@ export class Deck {
   public leaderId: string;
 
   @Column()
+  public faction: string;
+
+  @Column()
   public userId: number;
 
   public user: Pick<User, 'id' | 'username' | 'decks' | 'email'>;

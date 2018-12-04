@@ -6,12 +6,14 @@ import { Status } from '../types/status';
 export interface ICollectionState {
   collection: ICollection[];
   status: Status;
+  isLast: boolean;
   error: string;
 }
 
 const initialState: ICollectionState = {
   collection: [],
   status: 'INIT',
+  isLast: false,
   error: '',
 };
 
@@ -30,6 +32,7 @@ const reducer = (
         draft.collection = action.isInit
           ? action.collection
           : [...draft.collection, ...action.collection];
+        draft.isLast = action.isLast;
         break;
       }
       case ActionTypes.FETCH_COLLECTION_FAILURE: {

@@ -1,11 +1,29 @@
+import CircularProgress from '@material-ui/core/CircularProgress';
 import React from 'react';
-import { IFetchCollection } from '../../actions/collection';
+import styled from 'styled-components';
 import { history } from '../../helpers/history';
-import { ICollection } from '../../types/collection';
+import { ICollection, ICollectionQuery } from '../../types/collection';
+import { Status } from '../../types/status';
 import CollectionItem from './CollectionItem';
+
+const DeckList = styled.div`
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+`;
+const Loading = styled.div`
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+`;
 export interface ICollectionListProps {
   collection: ICollection[];
-  fetchMore: (payload: IFetchCollection) => void;
+  fetchMore: (payload: ICollectionQuery) => void;
+  status: Status;
   isLast: boolean;
 }
 class CollectionList extends React.Component<ICollectionListProps> {
@@ -17,7 +35,7 @@ class CollectionList extends React.Component<ICollectionListProps> {
     if (this.target.current) {
       const option = {
         root: null, // body scroll
-        threshold: 0.1,
+        threshold: 0.05,
       };
       this.observer = new IntersectionObserver(this.handleObserver, option);
       this.observer.observe(this.target.current);
@@ -45,12 +63,9 @@ class CollectionList extends React.Component<ICollectionListProps> {
     }
   };
   public render() {
-    const { collection } = this.props;
-    if (collection.length <= 0) {
-      return null;
-    }
+    const { collection, status } = this.props;
     return (
-      <div style={{ width: '100%' }}>
+      <DeckList>
         {collection.map(deck => {
           return (
             <CollectionItem
@@ -60,8 +75,13 @@ class CollectionList extends React.Component<ICollectionListProps> {
             />
           );
         })}
-        <div ref={this.target} style={{ height: 100 }} />
-      </div>
+        {status === 'FETCHING' && (
+          <Loading>
+            <CircularProgress color="inherit" />
+          </Loading>
+        )}
+        <div ref={this.target} style={{ width: '100%', height: 100 }} />
+      </DeckList>
     );
   }
 }

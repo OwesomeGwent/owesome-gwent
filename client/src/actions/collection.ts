@@ -1,17 +1,13 @@
 import { Dispatch } from 'react';
 import * as DeckApis from '../apis/deck';
-import { ICollection } from '../types/collection';
+import { ICollection, ICollectionQuery } from '../types/collection';
 import { ThunkResult } from '../types/thunk';
 import {
   FETCH_COLLECTION_FAILURE,
   FETCH_COLLECTION_REQUEST,
   FETCH_COLLECTION_SUCCESS,
 } from './ActionTypes';
-export interface IFetchCollection {
-  search?: string;
-  skip?: number;
-  limit?: number;
-}
+
 export interface IFetchCollectionRequest {
   type: typeof FETCH_COLLECTION_REQUEST;
 }
@@ -19,6 +15,7 @@ export interface IFetchCollectionSuccess {
   type: typeof FETCH_COLLECTION_SUCCESS;
   collection: ICollection[];
   isInit: boolean;
+  isLast: boolean;
 }
 export interface IFetchCollectionFailure {
   type: typeof FETCH_COLLECTION_FAILURE;
@@ -31,8 +28,12 @@ export type ICollectionActions =
 export const fetchCollection = ({
   skip = 0,
   limit = 30,
-  search = '',
-}: IFetchCollection): ThunkResult<void, ICollectionActions> => {
+  search = {
+    q: '',
+    faction: '',
+    leaderId: '',
+  },
+}: ICollectionQuery): ThunkResult<void, ICollectionActions> => {
   return async (dispatch: Dispatch<ICollectionActions>) => {
     dispatch({
       type: FETCH_COLLECTION_REQUEST,
@@ -45,6 +46,7 @@ export const fetchCollection = ({
         type: FETCH_COLLECTION_SUCCESS,
         collection: deck,
         isInit: skip === 0,
+        isLast: deck.length < limit || deck.length === 0,
       });
     } catch (err) {
       const {

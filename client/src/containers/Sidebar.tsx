@@ -78,9 +78,7 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
     deckName: '',
   };
   public componentDidMount() {
-    if (this.props.deckUrl) {
-      this.props.selectDeckUrl(this.props.deckUrl);
-    }
+    this.props.selectDeckUrl(this.props.deckUrl || '');
   }
   public componentDidUpdate(prevProps: ISidebarProps) {
     if (prevProps.deckUrl !== this.props.deckUrl) {
@@ -112,6 +110,7 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
       name: this.getDeckName(),
       url: getDeckUrl(),
       leaderId: deck.leader!.ingameId,
+      faction: deck.leader!.faction,
     };
     let hasError = false;
     if (currentDeck.id) {

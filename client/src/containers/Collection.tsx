@@ -1,4 +1,4 @@
-import debounce from 'lodash/debounce';
+import throttle from 'lodash/throttle';
 import queryString from 'query-string';
 import React from 'react';
 import { connect } from 'react-redux';
@@ -6,28 +6,30 @@ import { RouteComponentProps } from 'react-router-dom';
 import * as CollectionActions from '../actions/collection';
 import { CollectionFilter, CollectionList } from '../components/Collection';
 import { IRootState } from '../reducers';
-import { ICollection } from '../types/collection';
+import {
+  ICollection,
+  ICollectionQuery,
+  ISearchQuery,
+} from '../types/collection';
 import { Status } from '../types/status';
 import { ThunkFunc } from '../types/thunk';
 export interface ICollectionProps extends RouteComponentProps {
   collection: ICollection[];
   status: Status;
   error: string;
-  fetchCollection: (payload: CollectionActions.IFetchCollection) => void;
+  isLast: boolean;
+  fetchCollection: (payload: ICollectionQuery) => void;
 }
 class Collection extends React.Component<ICollectionProps> {
-  public getNextPage = debounce(
-    (payload: CollectionActions.IFetchCollection) => {
-      const { collection, fetchCollection } = this.props;
-      const basePayload = {
-        skip: collection.length,
-        search: this.getSearchQuery(),
-        limit: 30,
-      };
-      fetchCollection({ ...basePayload, ...payload });
-    },
-    1000,
-  );
+  public getNextPage = throttle((payload: ICollectionQuery) => {
+    const { collection, fetchCollection } = this.props;
+    const basePayload = {
+      skip: collection.length,
+      limit: 30,
+      search: this.getSearchQuery(),
+    };
+    fetchCollection({ ...basePayload, ...payload });
+  }, 1000);
   public async componentDidMount() {
     if (this.props.collection.length <= 0) {
       this.getNextPage({});
@@ -35,26 +37,35 @@ class Collection extends React.Component<ICollectionProps> {
   }
   public componentDidUpdate(prevProps: ICollectionProps) {
     if (prevProps.location.search !== this.props.location.search) {
-      const q = this.getSearchQuery();
-      this.props.fetchCollection({ search: q, skip: 0 });
+      this.props.fetchCollection({ skip: 0, search: this.getSearchQuery() });
     }
   }
   public getSearchQuery = () => {
-    const { q } = queryString.parse(this.props.location.search);
-    if (typeof q !== 'undefined') {
-      return Array.isArray(q) ? q[0] : q;
-    }
-    return '';
+    let search: Required<ISearchQuery> = {
+      q: '',
+      faction: '',
+      leaderId: '',
+    };
+    const parsed = queryString.parse(this.props.location.search);
+    Object.keys(search).forEach(query => {
+      const q = parsed[query];
+      if (q) {
+        search = { ...search, [query]: Array.isArray(q) ? q[0] : q };
+      }
+    });
+    return search;
   };
   public render() {
-    const { collection } = this.props;
+    const { collection, status, isLast } = this.props;
+    const { q, faction, leaderId } = this.getSearchQuery();
     return (
       <div style={{ width: '100%' }}>
-        <CollectionFilter fetchMore={this.getNextPage} />
+        <CollectionFilter q={q} faction={faction} leaderId={leaderId} />
         <CollectionList
+          status={status}
           collection={collection}
           fetchMore={this.getNextPage}
-          isLast={false}
+          isLast={isLast}
         />
       </div>
     );
@@ -65,9 +76,10 @@ const mapStateToProps = (state: IRootState) => ({
   collection: state.collection.collection,
   status: state.collection.status,
   error: state.collection.error,
+  isLast: state.collection.isLast,
 });
 const mapDispatchToProps = (dispatch: ThunkFunc) => ({
-  fetchCollection: (payload: CollectionActions.IFetchCollection) =>
+  fetchCollection: (payload: ICollectionQuery) =>
     dispatch(CollectionActions.fetchCollection(payload)),
 });
 export default connect(

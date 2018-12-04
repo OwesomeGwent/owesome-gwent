@@ -1,14 +1,32 @@
 import React from 'react';
 import styled from 'styled-components';
 import { CollectionItemDetail } from '.';
+import { LEADER_IMAGE_PATH } from '../../apis/defs';
 import { ICollection } from '../../types/collection';
-import { DeckItem } from '../Header';
+import { Avatar, Button } from '../Common';
 
+import { connect } from 'react-redux';
+import { CardData } from '../../../../shared/ICardData';
+import { IRootState } from '../../reducers';
+import { makeGetLeader } from '../../selectors/card';
 const Item = styled.div`
   display: inline-block;
-  width: 33%;
-  div {
-    margin-top: 10px;
+  min-width: 33%;
+  margin-top: 10px;
+`;
+const BigAvatar = styled(Avatar)`
+  width: 64px;
+  height: 64px;
+`;
+const DeckName = styled.div`
+  font-weight: 800;
+  color: #fefefe;
+`;
+const DeckItem = styled(Button)`
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.7);
   }
 `;
 const DeckInfo = styled.div`
@@ -28,16 +46,27 @@ const Username = styled.div`
 `;
 export interface ICollectionItemProps {
   deck: ICollection;
+  leader?: CardData | undefined;
   handleDeckClick: () => void;
 }
 const CollectionItem: React.SFC<ICollectionItemProps> = ({
   deck,
+  leader,
   handleDeckClick,
 }) => {
   const { user } = deck;
   return (
     <Item>
-      <DeckItem handleDeckClick={handleDeckClick} {...deck}>
+      <DeckItem fullWidth onClick={handleDeckClick}>
+        <DeckInfo>
+          {leader && (
+            <BigAvatar
+              src={`${LEADER_IMAGE_PATH}/${leader.variations[0].art}0000.png`}
+              alt={`leader${deck.leaderId}`}
+            />
+          )}
+          <DeckName>{deck.name}</DeckName>
+        </DeckInfo>
         <DeckDetail>
           <CollectionItemDetail url={deck.url} />
         </DeckDetail>
@@ -48,5 +77,13 @@ const CollectionItem: React.SFC<ICollectionItemProps> = ({
     </Item>
   );
 };
-
-export default CollectionItem;
+CollectionItem.defaultProps = {
+  leader: undefined,
+};
+const makeMapStateToProps = () => {
+  const getLeader = makeGetLeader();
+  return (state: IRootState, props: ICollectionItemProps) => ({
+    leader: getLeader(state, props.deck.leaderId),
+  });
+};
+export default connect(makeMapStateToProps)(CollectionItem);

@@ -44,6 +44,7 @@ const initialState: IDeckState = {
     name: '',
     url: '',
     leaderId: '',
+    faction: '',
   },
   add: {
     status: 'INIT',

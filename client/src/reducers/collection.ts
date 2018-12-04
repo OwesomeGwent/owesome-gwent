@@ -1,6 +1,7 @@
 import produce from 'immer';
 import * as ActionTypes from '../actions/ActionTypes';
 import { ICollectionActions } from '../actions/collection';
+import { IDeckActions } from '../actions/deck';
 import { ICollection } from '../types/collection';
 import { Status } from '../types/status';
 export interface ICollectionState {
@@ -19,7 +20,7 @@ const initialState: ICollectionState = {
 
 const reducer = (
   state: ICollectionState = initialState,
-  action: ICollectionActions,
+  action: ICollectionActions | IDeckActions,
 ) =>
   produce(state, draft => {
     switch (action.type) {
@@ -38,6 +39,20 @@ const reducer = (
       case ActionTypes.FETCH_COLLECTION_FAILURE: {
         draft.status = 'FAILURE';
         draft.error = action.error;
+        break;
+      }
+      case ActionTypes.STAR_DECK_SUCCESS: {
+        if (draft.collection) {
+          draft.collection = draft.collection.map(deck => {
+            if (deck.id === action.deck.id) {
+              return {
+                ...deck,
+                star: action.deck.star || 0,
+              };
+            }
+            return deck;
+          });
+        }
         break;
       }
       default:

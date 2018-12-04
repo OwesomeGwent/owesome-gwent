@@ -4,6 +4,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps } from 'react-router-dom';
 import * as CollectionActions from '../actions/collection';
+import * as DeckActions from '../actions/deck';
 import { CollectionFilter, CollectionList } from '../components/Collection';
 import { IRootState } from '../reducers';
 import {
@@ -11,6 +12,7 @@ import {
   ICollectionQuery,
   ISearchQuery,
 } from '../types/collection';
+import { IDeck } from '../types/deck';
 import { Status } from '../types/status';
 import { ThunkFunc } from '../types/thunk';
 export interface ICollectionProps extends RouteComponentProps {
@@ -18,6 +20,7 @@ export interface ICollectionProps extends RouteComponentProps {
   status: Status;
   error: string;
   isLast: boolean;
+  setCurrentDeck: (deck: IDeck) => void;
   fetchCollection: (payload: ICollectionQuery) => void;
 }
 class Collection extends React.Component<ICollectionProps> {
@@ -31,7 +34,9 @@ class Collection extends React.Component<ICollectionProps> {
     fetchCollection({ ...basePayload, ...payload });
   }, 1000);
   public async componentDidMount() {
-    if (this.props.collection.length <= 0) {
+    if (this.props.history.action === 'PUSH') {
+      this.getNextPage({ skip: 0 });
+    } else if (this.props.collection.length <= 0) {
       this.getNextPage({});
     }
   }
@@ -56,7 +61,7 @@ class Collection extends React.Component<ICollectionProps> {
     return search;
   };
   public render() {
-    const { collection, status, isLast } = this.props;
+    const { setCurrentDeck, collection, status, isLast } = this.props;
     const { q, faction, leaderId } = this.getSearchQuery();
     return (
       <div style={{ width: '100%' }}>
@@ -64,6 +69,7 @@ class Collection extends React.Component<ICollectionProps> {
         <CollectionList
           status={status}
           collection={collection}
+          setCurrentDeck={setCurrentDeck}
           fetchMore={this.getNextPage}
           isLast={isLast}
         />
@@ -79,6 +85,7 @@ const mapStateToProps = (state: IRootState) => ({
   isLast: state.collection.isLast,
 });
 const mapDispatchToProps = (dispatch: ThunkFunc) => ({
+  setCurrentDeck: (deck: IDeck) => dispatch(DeckActions.setCurrentDeck(deck)),
   fetchCollection: (payload: ICollectionQuery) =>
     dispatch(CollectionActions.fetchCollection(payload)),
 });

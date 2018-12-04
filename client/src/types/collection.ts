@@ -1,4 +1,4 @@
-import { Deck } from '../../../shared/IAuth';
+import { Deck } from '../../../shared/IDeck';
 
 export type ICollection = Deck;
 

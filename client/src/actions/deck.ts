@@ -1,9 +1,8 @@
 import { CardData } from '../../../shared/ICardData';
 import * as deckApi from '../apis/deck';
 import { parseUrl } from '../helpers/deckUrl';
-import { DeckMakerStatus } from '../types/deck';
+import { DeckMakerStatus, IAddDeck, IDeck } from '../types/deck';
 import { ThunkResult } from '../types/thunk';
-import { IAddDeck, IDeck } from '../types/user';
 import {
   ADD_DECK_FAILURE,
   ADD_DECK_REQUEST,
@@ -17,6 +16,9 @@ import {
   SELECT_LEADER,
   SET_CURRENT_DECK,
   SET_DECKMAKER_STATUS,
+  STAR_DECK_FAILURE,
+  STAR_DECK_REQUEST,
+  STAR_DECK_SUCCESS,
   UPDATE_DECK_FAILURE,
   UPDATE_DECK_REQUEST,
   UPDATE_DECK_SUCCESS,
@@ -69,7 +71,7 @@ export interface IAddDeckRequest {
 }
 export interface IAddDeckSuccess {
   type: typeof ADD_DECK_SUCCESS;
-  decks: string[];
+  deck: IDeck;
 }
 export interface IAddDeckFailure {
   type: typeof ADD_DECK_FAILURE;
@@ -84,6 +86,18 @@ export interface IUpdateDeckSuccess {
 }
 export interface IUpdateDeckFailure {
   type: typeof UPDATE_DECK_FAILURE;
+  error: string;
+}
+export interface IStarDeckRequest {
+  type: typeof STAR_DECK_REQUEST;
+  deckId: string;
+}
+export interface IStarDeckSuccess {
+  type: typeof STAR_DECK_SUCCESS;
+  deck: IDeck;
+}
+export interface IStarDeckFailure {
+  type: typeof STAR_DECK_FAILURE;
   error: string;
 }
 export interface ISetCurrentDeck {
@@ -102,6 +116,9 @@ export type IDeckActions =
   | IUpdateDeckRequest
   | IUpdateDeckSuccess
   | IUpdateDeckFailure
+  | IStarDeckRequest
+  | IStarDeckSuccess
+  | IStarDeckFailure
   | ISelectLeader
   | ISelectDeckUrl
   | ISetCurrentDeck
@@ -151,6 +168,30 @@ export const updateDeck = (deck: IDeck): ThunkResult<void, IDeckActions> => {
       } = err;
       dispatch({
         type: UPDATE_DECK_FAILURE,
+        error,
+      });
+    }
+  };
+};
+export const starDeck = (deckId: string): ThunkResult<void, IDeckActions> => {
+  return async dispatch => {
+    dispatch({
+      type: STAR_DECK_REQUEST,
+      deckId,
+    });
+    try {
+      const {
+        data: { deck },
+      } = await deckApi.starDeck(deckId);
+      dispatch({
+        type: STAR_DECK_SUCCESS,
+        deck,
+      });
+    } catch (err) {
+      const { response } = err;
+      const error = response ? (response.data ? response.data.error : '') : '';
+      dispatch({
+        type: STAR_DECK_FAILURE,
         error,
       });
     }
@@ -211,11 +252,11 @@ export const addDeck = (deck: IAddDeck): ThunkResult<void, IDeckActions> => {
     });
     try {
       const {
-        data: { decks },
+        data: { deck: newDeck },
       } = await deckApi.addDeck(deck);
       dispatch({
         type: ADD_DECK_SUCCESS,
-        decks,
+        deck: newDeck,
       });
     } catch (err) {
       const {

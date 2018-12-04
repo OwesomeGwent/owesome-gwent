@@ -1,8 +1,9 @@
 import * as authApi from '../apis/auth';
 import * as deckApi from '../apis/deck';
 import { notify } from '../helpers/notify';
+import { IDeck } from '../types/deck';
 import { ThunkResult } from '../types/thunk';
-import { IDeck, ISignupUser, IUser } from '../types/user';
+import { ISignupUser, IUser } from '../types/user';
 
 import {
   FETCH_DECKS_FAILURE,

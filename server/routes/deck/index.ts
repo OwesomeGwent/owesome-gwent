@@ -53,13 +53,13 @@ router.post('/', verifyCookie, async (req, res) => {
     ...deck,
     userId: user.id,
   };
-  const { id: deckId } = await DeckRepo.save(saveDeck);
+  const newDeck = await DeckRepo.save(saveDeck);
   const UserRepo = getUserRepo();
   try {
-    const newDecks = [...user.decks, deckId];
+    const newDecks = [...user.decks, newDeck.id];
     await UserRepo.updateDeck(user.id, newDecks);
     return res.json({
-      decks: newDecks,
+      deck: newDeck,
     });
   } catch (err) {
     return failure('Cannot save deck.', 503);
@@ -76,6 +76,21 @@ router.put('/', async (req, res) => {
   } catch (err) {
     return res.status(503).json({
       error: 'Database Error',
+    });
+  }
+});
+router.put('/star', async (req, res) => {
+  const DeckRepo = getRepo();
+  const { deckId } = req.body;
+  try {
+    await DeckRepo.increment({ id: deckId }, 'star', 1);
+    const deck = await DeckRepo.findOne(deckId);
+    return res.json({
+      deck,
+    });
+  } catch (err) {
+    return res.status(503).json({
+      error: 'database error',
     });
   }
 });

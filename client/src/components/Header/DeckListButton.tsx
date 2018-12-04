@@ -4,8 +4,8 @@ import React, { Component } from 'react';
 import { DeckItem } from '.';
 import * as DeckActions from '../../actions/deck';
 import { history } from '../../helpers/history';
+import { IDeck } from '../../types/deck';
 import { Status } from '../../types/status';
-import { IDeck } from '../../types/user';
 import { Button } from '../Common';
 
 export interface IDeckListProps {
@@ -37,6 +37,7 @@ class DeckListButton extends Component<IDeckListProps, IDeckListState> {
   };
   public handleClose = () => this.setState({ open: false });
   public handleDeckClick = (deck: IDeck) => () => {
+    this.props.setCurrentDeck(deck);
     history.push(`/${deck.url}`);
     this.handleClose();
   };

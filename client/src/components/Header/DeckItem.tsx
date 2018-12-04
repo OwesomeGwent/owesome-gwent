@@ -5,7 +5,7 @@ import { CardData } from '../../../../shared/ICardData';
 import { LEADER_IMAGE_PATH } from '../../apis/defs';
 import { IRootState } from '../../reducers';
 import { makeGetLeader } from '../../selectors/card';
-import { IDeck } from '../../types/user';
+import { IDeck } from '../../types/deck';
 import { Avatar, Button } from '../Common';
 
 const Item = styled.div`

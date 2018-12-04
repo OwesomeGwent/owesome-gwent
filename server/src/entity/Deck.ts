@@ -1,4 +1,5 @@
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import { IDeckCost } from '../../../shared/IDeck';
 import { User } from './User';
 @Entity()
 export class Deck {
@@ -18,6 +19,9 @@ export class Deck {
 
   @Column()
   public faction: string;
+
+  @Column({ default: 0 })
+  public star: number;
 
   @Column()
   public userId: number;

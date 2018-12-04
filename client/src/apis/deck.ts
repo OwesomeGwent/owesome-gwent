@@ -1,7 +1,7 @@
 import axios from 'axios';
 import queryString from 'query-string';
 import { ICollectionQuery } from '../types/collection';
-import { IAddDeck } from '../types/user';
+import { IAddDeck } from '../types/deck';
 const instance = axios.create({
   baseURL: '/api/deck',
   timeout: 3000,
@@ -10,6 +10,7 @@ const instance = axios.create({
 export const fetchDecks = () => instance.get('/');
 export const addDeck = (deck: IAddDeck) => instance.post('/', { deck });
 export const updateDeck = (deck: IAddDeck) => instance.put('/', { deck });
+export const starDeck = (deckId: string) => instance.put('/star', { deckId });
 export const fetchCollection = ({
   search,
   skip = 0,

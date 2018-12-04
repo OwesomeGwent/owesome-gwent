@@ -3,6 +3,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { history } from '../../helpers/history';
 import { ICollection, ICollectionQuery } from '../../types/collection';
+import { IDeck } from '../../types/deck';
 import { Status } from '../../types/status';
 import CollectionItem from './CollectionItem';
 
@@ -22,6 +23,7 @@ const Loading = styled.div`
 `;
 export interface ICollectionListProps {
   collection: ICollection[];
+  setCurrentDeck: (deck: IDeck) => void;
   fetchMore: (payload: ICollectionQuery) => void;
   status: Status;
   isLast: boolean;
@@ -53,8 +55,9 @@ class CollectionList extends React.Component<ICollectionListProps> {
       this.prevTop = top;
     });
   };
-  public handleDeckClick = (url: string) => () => {
-    history.push(url);
+  public handleDeckClick = (deck: IDeck) => () => {
+    this.props.setCurrentDeck(deck);
+    history.push(deck.url);
   };
   public getNextPage = () => {
     const { fetchMore, isLast } = this.props;
@@ -70,7 +73,7 @@ class CollectionList extends React.Component<ICollectionListProps> {
           return (
             <CollectionItem
               key={deck.id}
-              handleDeckClick={this.handleDeckClick(deck.url)}
+              handleDeckClick={this.handleDeckClick(deck)}
               deck={deck}
             />
           );

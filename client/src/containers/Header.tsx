@@ -12,9 +12,10 @@ import { DeckListButton, LanguageMenu } from '../components/Header';
 import { ModalContext } from '../contexts';
 import { localeMap } from '../helpers/localeMapper';
 import { IRootState } from '../reducers';
+import { IDeck } from '../types/deck';
 import { Status } from '../types/status';
 import { ThunkFunc } from '../types/thunk';
-import { IDeck, IUser } from '../types/user';
+import { IUser } from '../types/user';
 
 export interface IHeaderProps {
   decks: {

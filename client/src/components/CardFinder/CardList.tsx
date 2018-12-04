@@ -33,14 +33,7 @@ const CardList: SFC<ICardListProps> = ({
         {cards.map((card, i) => (
           <Grid key={i} item xs>
             <WithPopover
-              Hover={
-                <CardDetail
-                  cardId={card.ingameId}
-                  categoryIds={card.categoryIds}
-                  type="leader"
-                  keywords={card.keywords}
-                />
-              }
+              Hover={<CardDetail {...card} />}
               Main={
                 <Card
                   available={isAvailable(card)}

@@ -2,9 +2,8 @@ import { createSelector } from 'reselect';
 import { IRootState } from '../reducers';
 
 interface IBaseProps {
-  cardId: string;
+  reach?: number;
   categoryIds: string[];
-  type: 'leader' | 'normal';
   keywords: string[];
 }
 
@@ -16,7 +15,13 @@ const getLocaleKeywords = (state: IRootState) =>
 const getLocaleCategories = (state: IRootState) =>
   state.card.detail.localeCategories;
 
-const getCardKeywords = (state: IRootState, { keywords }: IBaseProps) => {
+const getCardKeywords = (
+  state: IRootState,
+  { reach, keywords }: IBaseProps,
+) => {
+  if (reach) {
+    return [...keywords, 'reach'];
+  }
   return keywords;
 };
 const getCardCategories = (state: IRootState, { categoryIds }: IBaseProps) => {

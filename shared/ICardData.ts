@@ -4,16 +4,17 @@ export interface RawCardData {
 export interface CardData {
   artist: string;
   cardType: string;
-  categories: Array<string>;
-  categoryIds: Array<string>;
+  categories: string[];
+  categoryIds: string[];
   faction: string;
   ingameId: string;
-  keywords: Array<string>;
-  loyalites?: Array<string>;
-  positions: Array<string>;
+  keywords: string[];
+  loyalites?: string[];
+  positions: string[];
   provision: number;
   released: boolean;
   strength: number;
+  reach: number;
   type: string;
   variations: Variations;
   mulligans?: number;

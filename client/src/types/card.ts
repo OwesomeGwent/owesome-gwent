@@ -6,6 +6,7 @@ export interface ICard {
   strength: number; // 방어력?
   mulligans: number; // 교체 횟수
   provision: number; // 코스트
+  reach: number;
   variations: {
     [key: string]: {
       art: {

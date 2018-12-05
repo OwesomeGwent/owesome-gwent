@@ -1,3 +1,4 @@
+import AuthModal from './AuthModal';
 import Avatar from './Avatar';
 import Button from './Button';
 import Field from './Field';
@@ -10,6 +11,7 @@ import WithMenu from './WithMenu';
 import WithPopover from './WithPopover';
 
 export {
+  AuthModal,
   Avatar,
   Button,
   FlipCard,

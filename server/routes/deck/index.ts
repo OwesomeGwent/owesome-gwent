@@ -95,14 +95,34 @@ router.get('/list', verifyCookie, async (req, res) => {
     failure('Cannot get decks.', 503);
   }
 });
-router.put('/star', async (req, res) => {
+router.put('/star', verifyCookie, async (req, res) => {
   const DeckRepo = getRepo();
+  const { user } = req as IRequest;
+  const failure = (message: string, statusCode: number = 403) => {
+    return res.status(statusCode).json({
+      error: message,
+    });
+  };
+  if (!user) {
+    return failure('Please Login before star.');
+  }
   const { deckId } = req.body;
+  const strId = user.id.toString();
   try {
-    await DeckRepo.increment({ id: deckId }, 'star', 1);
     const deck = await DeckRepo.findOne(deckId);
+    if (!deck) {
+      return failure('Cannot find matched deck.');
+    }
+    if (deck.starIds.some(id => id === strId)) {
+      return failure(`You have already starred!`);
+    }
+    const newStars = [...deck.starIds, strId];
+    await DeckRepo.update(deckId, {
+      starIds: newStars,
+      star: newStars.length,
+    });
     return res.json({
-      deck,
+      star: newStars.length,
     });
   } catch (err) {
     return res.status(503).json({

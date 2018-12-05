@@ -44,10 +44,10 @@ const reducer = (
       case ActionTypes.STAR_DECK_SUCCESS: {
         if (draft.collection) {
           draft.collection = draft.collection.map(deck => {
-            if (deck.id === action.deck.id) {
+            if (deck.id === action.deckId) {
               return {
                 ...deck,
-                star: action.deck.star || 0,
+                star: action.star || deck.star,
               };
             }
             return deck;

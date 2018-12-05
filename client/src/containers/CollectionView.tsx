@@ -8,12 +8,13 @@ import * as DeckAction from '../actions/deck';
 import {
   DeckActions,
   DeckDetail,
+  DeckInfo,
   DeckList,
   DeckTitle,
 } from '../components/CollectionView';
 import { sortByProvision } from '../helpers/card';
 import { getDeckCost, makeDeckCards } from '../helpers/deck';
-import { parseUrl } from '../helpers/deckUrl';
+import { copyUrl, parseUrl } from '../helpers/deckUrl';
 import { history } from '../helpers/history';
 import { notify } from '../helpers/notify';
 import { IRootState } from '../reducers';
@@ -21,12 +22,18 @@ import { getCardDetailByLocale } from '../selectors/locale';
 import { IAddDeck, IDeck, IDeckCard, IDeckCost } from '../types/deck';
 import { Status } from '../types/status';
 import { ThunkFunc } from '../types/thunk';
+import { IUser } from '../types/user';
 
 const Container = styled.div`
   width: 100%;
 `;
 const Header = styled.div`
   width: 100%;
+`;
+const Action = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 `;
 const Main = styled.div`
   width: 100%;
@@ -56,9 +63,11 @@ export interface ICollectionView extends RouteComponentProps {
   starStatus: Status;
   loggedIn: boolean;
   rawCards: CardDataList;
+  user: IUser | undefined;
   deck: IDeck | undefined;
   detail: CardLocaleDataList;
   status: Status;
+  starError: string;
   error: string;
   addDeck: (deck: IAddDeck) => void;
   starDeck: (deckId: string) => void;
@@ -133,9 +142,18 @@ class CollectionView extends React.Component<
     const { id } = deck;
     await starDeck(id);
     const hasError = this.props.starStatus !== 'SUCCESS';
-    const message = hasError ? 'Fail to give a star. Try again' : '🌟 Starred!';
+    const message = hasError ? this.props.starError : '🌟 Starred!';
     const type = hasError ? 'error' : 'success';
     notify.notify({ message, type });
+  };
+  public copyUrl = () => {
+    const success = copyUrl();
+    const type = success ? 'success' : 'error';
+    const message = success ? '🔗 Copied!' : 'Fail to copy link. Try again.';
+    notify.notify({
+      message,
+      type,
+    });
   };
   public startDeckBuilding = () => {
     const { deck } = this.props;
@@ -146,7 +164,7 @@ class CollectionView extends React.Component<
   };
   public render() {
     const { parsed, leader, cards, cost } = this.state;
-    const { addStatus, starStatus, deck, detail, loggedIn } = this.props;
+    const { addStatus, starStatus, user, deck, detail, loggedIn } = this.props;
     if (!parsed) {
       return null;
     }
@@ -156,15 +174,19 @@ class CollectionView extends React.Component<
     return (
       <Container>
         <Header>
+          <Action>
+            <DeckActions
+              addStatus={addStatus}
+              starStatus={starStatus}
+              addDeck={this.addDeck}
+              starDeck={this.starDeck}
+              copyUrl={this.copyUrl}
+              startDeckBuilding={this.startDeckBuilding}
+              loggedIn={loggedIn}
+            />
+          </Action>
           <DeckTitle leader={leader} {...deck} />
-          <DeckActions
-            addStatus={addStatus}
-            starStatus={starStatus}
-            addDeck={this.addDeck}
-            starDeck={this.starDeck}
-            startDeckBuilding={this.startDeckBuilding}
-            loggedIn={loggedIn}
-          />
+          <DeckInfo {...deck} />
         </Header>
         <Main>
           <List>
@@ -184,8 +206,10 @@ class CollectionView extends React.Component<
 const mapStateToProps = (state: IRootState) => ({
   addStatus: state.deck.add.status,
   starStatus: state.deck.star.status,
+  starError: state.deck.star.error,
   loggedIn: state.user.loggedIn,
   rawCards: state.card.rawCards.cards,
+  user: state.user.user,
   deck: state.deck.fetch.deck,
   detail: getCardDetailByLocale(state),
   status: state.deck.fetch.status,

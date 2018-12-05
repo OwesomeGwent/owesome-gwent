@@ -70,6 +70,7 @@ const initialState: IDeckState = {
     deck: {},
     error: '',
   },
+  // collection view의 deck
   fetch: {
     deck: undefined,
     status: 'INIT',
@@ -181,7 +182,10 @@ const deck = (state: IDeckState = initialState, action: IDeckActions) =>
       }
       case STAR_DECK_SUCCESS: {
         draft.star.status = 'SUCCESS';
-        draft.currentDeck.star = action.deck.star;
+        draft.currentDeck.star = action.star;
+        if (draft.fetch.deck && draft.fetch.deck.id === action.deckId) {
+          draft.fetch.deck.star = action.star;
+        }
         break;
       }
       case STAR_DECK_FAILURE: {

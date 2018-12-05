@@ -3,13 +3,13 @@ import Toolbar from '@material-ui/core/Toolbar';
 import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { Login, Signup } from '.';
+import styled from 'styled-components';
 import { Locale } from '../../../shared/ILocaleData';
 import * as DeckActions from '../actions/deck';
 import * as UserActions from '../actions/user';
-import { Button, WithMenu } from '../components/Common';
+import { AuthModal, Button, WithMenu } from '../components/Common';
 import { DeckListButton, LanguageMenu } from '../components/Header';
-import { ModalContext } from '../contexts';
+import { history } from '../helpers/history';
 import { localeMap } from '../helpers/localeMapper';
 import { IRootState } from '../reducers';
 import { IDeck } from '../types/deck';
@@ -17,6 +17,9 @@ import { Status } from '../types/status';
 import { ThunkFunc } from '../types/thunk';
 import { IUser } from '../types/user';
 
+const Logo = styled.span`
+  cursor: pointer;
+`;
 export interface IHeaderProps {
   decks: {
     decks: IDeck[];
@@ -32,30 +35,6 @@ export interface IHeaderProps {
   logout: () => void;
 }
 class Header extends React.Component<IHeaderProps> {
-  public openLogin = (
-    openModal: (children: React.ReactNode) => void,
-    closeModal: () => void,
-  ) => {
-    return () =>
-      openModal(
-        <Login
-          openSignup={this.openSignup(openModal, closeModal)}
-          closeModal={closeModal}
-        />,
-      );
-  };
-  public openSignup = (
-    openModal: (children: React.ReactNode) => void,
-    closeModal: () => void,
-  ) => {
-    return () =>
-      openModal(
-        <Signup
-          openLogin={this.openLogin(openModal, closeModal)}
-          closeModal={closeModal}
-        />,
-      );
-  };
   public render() {
     const {
       decks,
@@ -68,12 +47,12 @@ class Header extends React.Component<IHeaderProps> {
       user,
     } = this.props;
     return (
-      <ModalContext.Consumer>
-        {({ openModal, closeModal }) => (
+      <AuthModal
+        render={({ openLogin }) => (
           <AppBar style={{ backgroundColor: '#24282A' }} position="sticky">
             <Toolbar>
               <div style={{ flexGrow: 1, fontSize: '1.5rem' }}>
-                🚀 Owesome Gwent
+                <Logo onClick={() => history.push('/')}>🚀 Owesome Gwent</Logo>
               </div>
               <>
                 <Link to="/collection">
@@ -94,9 +73,7 @@ class Header extends React.Component<IHeaderProps> {
                     />
                   </div>
                 ) : (
-                  <Button onClick={this.openLogin(openModal, closeModal)}>
-                    Log in
-                  </Button>
+                  <Button onClick={openLogin}>Log in</Button>
                 )}
                 <LanguageMenu
                   data={Object.values(localeMap)}
@@ -107,7 +84,7 @@ class Header extends React.Component<IHeaderProps> {
             </Toolbar>
           </AppBar>
         )}
-      </ModalContext.Consumer>
+      />
     );
   }
 }

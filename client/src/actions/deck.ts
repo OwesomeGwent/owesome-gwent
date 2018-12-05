@@ -109,7 +109,8 @@ export interface IStarDeckRequest {
 }
 export interface IStarDeckSuccess {
   type: typeof STAR_DECK_SUCCESS;
-  deck: IDeck;
+  deckId: string;
+  star: number;
 }
 export interface IStarDeckFailure {
   type: typeof STAR_DECK_FAILURE;
@@ -222,11 +223,12 @@ export const starDeck = (deckId: string): ThunkResult<void, IDeckActions> => {
     });
     try {
       const {
-        data: { deck },
+        data: { star },
       } = await deckApi.starDeck(deckId);
       dispatch({
         type: STAR_DECK_SUCCESS,
-        deck,
+        deckId,
+        star,
       });
     } catch (err) {
       const { response } = err;

@@ -152,8 +152,6 @@ const deck = (state: IDeckState = initialState, action: IDeckActions) =>
       }
       case UPDATE_DECK_SUCCESS: {
         draft.update.status = 'SUCCESS';
-        draft.update.deck = action.deck;
-        draft.currentDeck = action.deck;
         break;
       }
       case UPDATE_DECK_FAILURE: {

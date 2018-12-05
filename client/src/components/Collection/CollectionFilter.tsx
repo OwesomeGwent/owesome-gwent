@@ -24,6 +24,7 @@ const Filter = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 `;
 const FilterHeader = styled.div`
   color: #fefefe;
@@ -34,7 +35,6 @@ const FilterHeader = styled.div`
 `;
 const Search = styled.div`
   flex: 0;
-  flex-basis: 200px;
 `;
 const SearchBar = styled.input`
   color: white;
@@ -44,7 +44,7 @@ const SearchBar = styled.input`
   outline: none;
   font-size: 20px;
   line-height: 1.5;
-  padding: 5px 10px;
+  padding: 5px 0px;
 `;
 
 export interface ICollectionFilterProps {

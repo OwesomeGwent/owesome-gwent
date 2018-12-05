@@ -1,4 +1,11 @@
-import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import {
+  BeforeUpdate,
+  Column,
+  CreateDateColumn,
+  Entity,
+  PrimaryGeneratedColumn,
+  UpdateDateColumn,
+} from 'typeorm';
 import { IDeckCost } from '../../../shared/IDeck';
 import { User } from './User';
 @Entity()
@@ -28,6 +35,12 @@ export class Deck {
 
   @Column()
   public star: number; // client에서 타입 처리용
+
+  @CreateDateColumn()
+  public created: Date;
+
+  @UpdateDateColumn()
+  public lastUpdated: Date;
 
   public user: Pick<User, 'id' | 'username' | 'decks' | 'email'>;
 }

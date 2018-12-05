@@ -85,7 +85,6 @@ export interface IUpdateDeckRequest {
 }
 export interface IUpdateDeckSuccess {
   type: typeof UPDATE_DECK_SUCCESS;
-  deck: IDeck;
 }
 export interface IUpdateDeckFailure {
   type: typeof UPDATE_DECK_FAILURE;
@@ -197,12 +196,9 @@ export const updateDeck = (deck: IDeck): ThunkResult<void, IDeckActions> => {
       type: UPDATE_DECK_REQUEST,
     });
     try {
-      const {
-        data: { deck: newDeck },
-      } = await deckApi.updateDeck(deck);
+      await deckApi.updateDeck(deck);
       dispatch({
         type: UPDATE_DECK_SUCCESS,
-        deck: newDeck,
       });
     } catch (err) {
       const {

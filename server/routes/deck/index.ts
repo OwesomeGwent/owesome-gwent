@@ -43,10 +43,13 @@ router.put('/', async (req, res) => {
   const DeckRepo = getRepo();
   const { deck } = req.body;
   try {
-    const newDeck = await DeckRepo.update(deck.id, deck);
-    return res.json({
-      deck: newDeck,
-    });
+    let newDeck = new Deck();
+    newDeck = {
+      ...newDeck,
+      ...deck,
+    };
+    await DeckRepo.save(deck); // last update 올리기 위해 save로 줌.
+    return res.json();
   } catch (err) {
     return res.status(503).json({
       error: 'Database Error',
@@ -138,6 +141,7 @@ router.get('/collection', async (req, res) => {
     leaderId = '',
     limit = 30,
     skip = 0,
+    order = 'latest',
   } = req.query;
   try {
     const query = DeckRepo.createQueryBuilder('deck')
@@ -151,7 +155,11 @@ router.get('/collection', async (req, res) => {
     if (leaderId) {
       query.andWhere('deck.leaderId = :leaderId', { leaderId });
     }
-    query.orderBy('deck.id', 'DESC');
+    if (order === 'latest') {
+      query.orderBy('deck.created', 'DESC');
+    } else if (order === 'star') {
+      query.orderBy('deck.star', 'DESC');
+    }
     const collections = await query.getMany();
     return res.json({
       deck: collections,

@@ -31,6 +31,12 @@ class DeckList extends React.Component<IDeckListProps> {
             <WithPopover
               key={card.ingameId}
               placement="right-end"
+              modifiers={{
+                preventOverflow: {
+                  enabled: true,
+                  boundariesElement: 'viewport',
+                },
+              }}
               Main={
                 <DeckItem
                   card={card}

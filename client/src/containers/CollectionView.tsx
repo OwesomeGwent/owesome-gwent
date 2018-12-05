@@ -4,29 +4,43 @@ import { RouteComponentProps } from 'react-router-dom';
 import styled from 'styled-components';
 import { CardData, CardDataList } from '../../../shared/ICardData';
 import { CardLocaleDataList } from '../../../shared/ILocaleData';
-import * as DeckActions from '../actions/deck';
-import { DeckDetail, DeckList, DeckTitle } from '../components/CollectionView';
+import * as DeckAction from '../actions/deck';
+import {
+  DeckActions,
+  DeckDetail,
+  DeckList,
+  DeckTitle,
+} from '../components/CollectionView';
 import { sortByProvision } from '../helpers/card';
 import { getDeckCost, makeDeckCards } from '../helpers/deck';
 import { parseUrl } from '../helpers/deckUrl';
+import { history } from '../helpers/history';
+import { notify } from '../helpers/notify';
 import { IRootState } from '../reducers';
 import { getCardDetailByLocale } from '../selectors/locale';
-import { IDeck, IDeckCard, IDeckCost } from '../types/deck';
+import { IAddDeck, IDeck, IDeckCard, IDeckCost } from '../types/deck';
 import { Status } from '../types/status';
 import { ThunkFunc } from '../types/thunk';
 
 const Container = styled.div`
   width: 100%;
+`;
+const Header = styled.div`
+  width: 100%;
+`;
+const Main = styled.div`
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 1rem;
 `;
-const Header = styled.h2`
+const MainHeader = styled.h2`
   color: #fefefe;
   text-align: center;
 `;
 const List = styled.div`
   flex-basis: 400px;
+  margin-right: 20px;
 `;
 const Detail = styled.div`
   flex: 1;
@@ -38,11 +52,16 @@ interface ICollectionViewState {
   cost: IDeckCost;
 }
 export interface ICollectionView extends RouteComponentProps {
+  addStatus: Status;
+  starStatus: Status;
+  loggedIn: boolean;
   rawCards: CardDataList;
   deck: IDeck | undefined;
   detail: CardLocaleDataList;
   status: Status;
   error: string;
+  addDeck: (deck: IAddDeck) => void;
+  starDeck: (deckId: string) => void;
   fetchDeck: (deckId: string) => void;
 }
 class CollectionView extends React.Component<
@@ -84,9 +103,50 @@ class CollectionView extends React.Component<
       }
     }
   }
+  public addDeck = async () => {
+    const { cost, leader } = this.state;
+    const { addDeck, deck, loggedIn } = this.props;
+    if (!deck || !leader || !loggedIn) {
+      return;
+    }
+    const { name, faction, leaderId, url } = deck;
+    const deckToAdd = {
+      name,
+      faction,
+      leaderId,
+      url,
+      cost,
+    };
+    await addDeck(deckToAdd);
+    const hasError = this.props.addStatus !== 'SUCCESS';
+    const message = hasError
+      ? 'Fail to save deck. Try again'
+      : '👌 Deck saved!';
+    const type = hasError ? 'error' : 'success';
+    notify.notify({ message, type });
+  };
+  public starDeck = async () => {
+    const { deck, starDeck } = this.props;
+    if (!deck) {
+      return;
+    }
+    const { id } = deck;
+    await starDeck(id);
+    const hasError = this.props.starStatus !== 'SUCCESS';
+    const message = hasError ? 'Fail to give a star. Try again' : '🌟 Starred!';
+    const type = hasError ? 'error' : 'success';
+    notify.notify({ message, type });
+  };
+  public startDeckBuilding = () => {
+    const { deck } = this.props;
+    if (!deck) {
+      return;
+    }
+    history.push(`/${deck.url}`);
+  };
   public render() {
     const { parsed, leader, cards, cost } = this.state;
-    const { deck, detail } = this.props;
+    const { addStatus, starStatus, deck, detail, loggedIn } = this.props;
     if (!parsed) {
       return null;
     }
@@ -95,21 +155,36 @@ class CollectionView extends React.Component<
     }
     return (
       <Container>
-        <DeckTitle leader={leader} {...deck} />
-        <List>
-          <Header>List</Header>
-          <DeckList cards={cards} detail={detail} />
-        </List>
-        <Detail>
-          <Header>Detail</Header>
-          <DeckDetail cards={cards} cost={cost} />
-        </Detail>
+        <Header>
+          <DeckTitle leader={leader} {...deck} />
+          <DeckActions
+            addStatus={addStatus}
+            starStatus={starStatus}
+            addDeck={this.addDeck}
+            starDeck={this.starDeck}
+            startDeckBuilding={this.startDeckBuilding}
+            loggedIn={loggedIn}
+          />
+        </Header>
+        <Main>
+          <List>
+            <MainHeader>List</MainHeader>
+            <DeckList cards={cards} detail={detail} />
+          </List>
+          <Detail>
+            <MainHeader>Detail</MainHeader>
+            <DeckDetail {...leader} cards={cards} cost={cost} />
+          </Detail>
+        </Main>
       </Container>
     );
   }
 }
 
 const mapStateToProps = (state: IRootState) => ({
+  addStatus: state.deck.add.status,
+  starStatus: state.deck.star.status,
+  loggedIn: state.user.loggedIn,
   rawCards: state.card.rawCards.cards,
   deck: state.deck.fetch.deck,
   detail: getCardDetailByLocale(state),
@@ -117,7 +192,9 @@ const mapStateToProps = (state: IRootState) => ({
   error: state.deck.fetch.error,
 });
 const mapDispatchToProps = (dispatch: ThunkFunc) => ({
-  fetchDeck: (deckId: string) => dispatch(DeckActions.fetchDeck(deckId)),
+  addDeck: (deck: IAddDeck) => dispatch(DeckAction.addDeck(deck)),
+  starDeck: (deckId: string) => dispatch(DeckAction.starDeck(deckId)),
+  fetchDeck: (deckId: string) => dispatch(DeckAction.fetchDeck(deckId)),
 });
 
 export default connect(

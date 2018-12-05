@@ -1,18 +1,18 @@
 import React, { memo } from 'react';
 import styled from 'styled-components';
-import { VictoryBar, VictoryChart, VictoryTheme } from 'victory';
+import { VictoryAxis, VictoryBar, VictoryChart } from 'victory';
 import { IDeckCard } from '../../types/deck';
 
 const ChartList = styled.div`
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 `;
 const Chart = styled.div`
-  width: 250px;
-  height: 250px;
-  background-color: #fefefe;
+  width: 200px;
+  height: 200px;
 `;
-export interface IDeckProvision {
+export interface IDeckChartProps {
   cards: IDeckCard[];
 }
 interface ITemp {
@@ -71,21 +71,44 @@ const makeChart = (cards: IDeckCard[]) => {
   });
   return chart;
 };
-
-const DeckProvision: React.SFC<IDeckProvision> = ({ cards }) => {
+const DeckChart: React.SFC<IDeckChartProps> = ({ cards }) => {
   const chart = makeChart(cards);
   return (
     <ChartList>
       {Object.entries(chart).map(([field, value]) => {
         return (
-          <Chart>
-            <VictoryChart theme={VictoryTheme.material}>
+          <Chart key={field}>
+            <VictoryChart width={250} height={200}>
+              <VictoryAxis
+                style={{
+                  axis: { stroke: '#fefefe' },
+                  axisLabel: { fill: '#fefefe', fontSize: 20 },
+                  tickLabels: { fontSize: 14, fill: '#fefefe' },
+                }}
+                label={field.toUpperCase()}
+              />
               <VictoryBar
+                animate={{
+                  duration: 2000,
+                  onLoad: { duration: 1000 },
+                }}
                 data={value}
                 x={field}
                 y="value"
                 style={{
+                  parent: {
+                    color: '#fefefe',
+                    border: '1px solid #fefefe',
+                    strokeOpacity: 0,
+                    fontSize: 14,
+                  },
+                  data: {
+                    color: '#fefefe',
+                    fill: '#fefefe',
+                    fontSize: 14,
+                  },
                   labels: {
+                    fill: '#fefefe',
                     fontSize: 14,
                   },
                 }}
@@ -99,4 +122,4 @@ const DeckProvision: React.SFC<IDeckProvision> = ({ cards }) => {
   );
 };
 
-export default memo(DeckProvision);
+export default memo(DeckChart);

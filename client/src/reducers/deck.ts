@@ -4,6 +4,9 @@ import {
   ADD_DECK_FAILURE,
   ADD_DECK_REQUEST,
   ADD_DECK_SUCCESS,
+  FETCH_DECK_FAILURE,
+  FETCH_DECK_REQUEST,
+  FETCH_DECK_SUCCESS,
   REMOVE_CARD,
   REMOVE_LEADER,
   RESET_CARD,
@@ -38,6 +41,11 @@ export interface IDeckState {
     status: Status;
     error: string;
   };
+  readonly fetch: {
+    deck: IDeck | undefined;
+    status: Status;
+    error: string;
+  };
   readonly star: {
     status: Status;
     error: string;
@@ -60,6 +68,11 @@ const initialState: IDeckState = {
   update: {
     status: 'INIT',
     deck: {},
+    error: '',
+  },
+  fetch: {
+    deck: undefined,
+    status: 'INIT',
     error: '',
   },
   star: {
@@ -145,6 +158,21 @@ const deck = (state: IDeckState = initialState, action: IDeckActions) =>
       case UPDATE_DECK_FAILURE: {
         draft.update.status = 'FAILURE';
         draft.update.error = action.error;
+        break;
+      }
+      case FETCH_DECK_REQUEST: {
+        draft.fetch.status = 'FETCHING';
+        break;
+      }
+      case FETCH_DECK_SUCCESS: {
+        draft.fetch.deck = action.deck;
+        draft.fetch.status = 'SUCCESS';
+        break;
+      }
+      case FETCH_DECK_FAILURE: {
+        draft.fetch.deck = undefined;
+        draft.fetch.status = 'FAILURE';
+        draft.fetch.error = action.error;
         break;
       }
       case STAR_DECK_REQUEST: {

@@ -20,7 +20,6 @@ export interface ICollectionProps extends RouteComponentProps {
   status: Status;
   error: string;
   isLast: boolean;
-  setCurrentDeck: (deck: IDeck) => void;
   fetchCollection: (payload: ICollectionQuery) => void;
 }
 class Collection extends React.Component<ICollectionProps> {
@@ -61,7 +60,7 @@ class Collection extends React.Component<ICollectionProps> {
     return search;
   };
   public render() {
-    const { setCurrentDeck, collection, status, isLast } = this.props;
+    const { collection, status, isLast } = this.props;
     const { q, faction, leaderId } = this.getSearchQuery();
     return (
       <div style={{ width: '100%' }}>
@@ -69,7 +68,6 @@ class Collection extends React.Component<ICollectionProps> {
         <CollectionList
           status={status}
           collection={collection}
-          setCurrentDeck={setCurrentDeck}
           fetchMore={this.getNextPage}
           isLast={isLast}
         />
@@ -85,7 +83,6 @@ const mapStateToProps = (state: IRootState) => ({
   isLast: state.collection.isLast,
 });
 const mapDispatchToProps = (dispatch: ThunkFunc) => ({
-  setCurrentDeck: (deck: IDeck) => dispatch(DeckActions.setCurrentDeck(deck)),
   fetchCollection: (payload: ICollectionQuery) =>
     dispatch(CollectionActions.fetchCollection(payload)),
 });

@@ -27,7 +27,6 @@ export interface IHeaderProps {
   loggedIn: boolean;
   user: IUser | undefined;
   setLocale: (locale: Locale) => void;
-  setCurrentDeck: typeof DeckActions.setCurrentDeck;
   selectDeckUrl: (url: string) => void;
   fetchDecks: () => void;
   logout: () => void;
@@ -60,7 +59,6 @@ class Header extends React.Component<IHeaderProps> {
   public render() {
     const {
       decks,
-      setCurrentDeck,
       selectDeckUrl,
       fetchDecks,
       locale,
@@ -78,7 +76,7 @@ class Header extends React.Component<IHeaderProps> {
                 🚀 Owesome Gwent
               </div>
               <>
-                <Link to="collection">
+                <Link to="/collection">
                   <Button>Collection</Button>
                 </Link>
                 {loggedIn ? (
@@ -88,7 +86,6 @@ class Header extends React.Component<IHeaderProps> {
                       MenuItems={[
                         <DeckListButton
                           {...decks}
-                          setCurrentDeck={setCurrentDeck}
                           selectDeckUrl={selectDeckUrl}
                           fetchDecks={fetchDecks}
                         />,
@@ -121,7 +118,6 @@ const mapStateToProps = (state: IRootState) => ({
   user: state.user.user,
 });
 const mapDispatchToProps = (dispatch: ThunkFunc) => ({
-  setCurrentDeck: (deck: IDeck) => dispatch(DeckActions.setCurrentDeck(deck)),
   selectDeckUrl: (url: string) => dispatch(DeckActions.selectDeckUrl(url)),
   fetchDecks: () => dispatch(UserActions.fetchDecks()),
   logout: () => dispatch(UserActions.logout()),

@@ -7,9 +7,10 @@ const instance = axios.create({
   timeout: 3000,
 });
 
-export const fetchDecks = () => instance.get('/');
 export const addDeck = (deck: IAddDeck) => instance.post('/', { deck });
 export const updateDeck = (deck: IAddDeck) => instance.put('/', { deck });
+export const fetchDeck = (deckId: string) => instance.get(`/view/${deckId}`);
+export const fetchDecks = () => instance.get('/list');
 export const starDeck = (deckId: string) => instance.put('/star', { deckId });
 export const fetchCollection = ({
   search,

@@ -9,32 +9,6 @@ const router = express.Router();
 
 const getRepo = () => getRepository(Deck);
 const getUserRepo = () => getCustomRepository(UserRepository);
-router.get('/', verifyCookie, async (req, res) => {
-  const DeckRepo = getRepo();
-  const { user } = req as IRequest;
-  const failure = (message: string, statusCode: number = 403) => {
-    return res.status(statusCode).json({
-      error: message,
-    });
-  };
-  if (!user) {
-    return failure('Cannot verify User.');
-  }
-  if (!user.decks.length) {
-    return res.json({
-      decks: [],
-    });
-  }
-  try {
-    const decks = await DeckRepo.find({ where: { id: In(user.decks) } });
-    return res.json({
-      decks,
-    });
-  } catch (err) {
-    console.log(err);
-    failure('Cannot get decks.', 503);
-  }
-});
 router.post('/', verifyCookie, async (req, res) => {
   const DeckRepo = getRepo();
   const { user } = req as IRequest;
@@ -77,6 +51,48 @@ router.put('/', async (req, res) => {
     return res.status(503).json({
       error: 'Database Error',
     });
+  }
+});
+
+router.get('/view/:deckId', async (req, res) => {
+  const DeckRepo = getRepo();
+  const { deckId } = req.params;
+  try {
+    const deck = await DeckRepo.findOne(deckId);
+    return res.json({
+      deck,
+    });
+  } catch (err) {
+    console.error(err);
+    return res.status(503).json({
+      error: 'Cannot get a matched deck.',
+    });
+  }
+});
+router.get('/list', verifyCookie, async (req, res) => {
+  const DeckRepo = getRepo();
+  const { user } = req as IRequest;
+  const failure = (message: string, statusCode: number = 403) => {
+    return res.status(statusCode).json({
+      error: message,
+    });
+  };
+  if (!user) {
+    return failure('Cannot verify User.');
+  }
+  if (!user.decks.length) {
+    return res.json({
+      decks: [],
+    });
+  }
+  try {
+    const decks = await DeckRepo.find({ where: { id: In(user.decks) } });
+    return res.json({
+      decks,
+    });
+  } catch (err) {
+    console.log(err);
+    failure('Cannot get decks.', 503);
   }
 });
 router.put('/star', async (req, res) => {

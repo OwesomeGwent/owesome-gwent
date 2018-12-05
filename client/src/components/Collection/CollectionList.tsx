@@ -23,7 +23,6 @@ const Loading = styled.div`
 `;
 export interface ICollectionListProps {
   collection: ICollection[];
-  setCurrentDeck: (deck: IDeck) => void;
   fetchMore: (payload: ICollectionQuery) => void;
   status: Status;
   isLast: boolean;
@@ -56,8 +55,7 @@ class CollectionList extends React.Component<ICollectionListProps> {
     });
   };
   public handleDeckClick = (deck: IDeck) => () => {
-    this.props.setCurrentDeck(deck);
-    history.push(deck.url);
+    history.push(`/collection/view/${deck.id}`);
   };
   public getNextPage = () => {
     const { fetchMore, isLast } = this.props;

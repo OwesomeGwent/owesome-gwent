@@ -2,7 +2,6 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 import Dialog from '@material-ui/core/Dialog';
 import React, { Component } from 'react';
 import { DeckItem } from '.';
-import * as DeckActions from '../../actions/deck';
 import { history } from '../../helpers/history';
 import { IDeck } from '../../types/deck';
 import { Status } from '../../types/status';
@@ -10,7 +9,6 @@ import { Button } from '../Common';
 
 export interface IDeckListProps {
   decks: IDeck[];
-  setCurrentDeck: typeof DeckActions.setCurrentDeck;
   selectDeckUrl: (url: string) => void;
   fetchDecks: () => void;
   status: Status;
@@ -37,7 +35,6 @@ class DeckListButton extends Component<IDeckListProps, IDeckListState> {
   };
   public handleClose = () => this.setState({ open: false });
   public handleDeckClick = (deck: IDeck) => () => {
-    this.props.setCurrentDeck(deck);
     history.push(`/${deck.url}`);
     this.handleClose();
   };

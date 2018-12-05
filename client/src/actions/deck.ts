@@ -7,6 +7,9 @@ import {
   ADD_DECK_FAILURE,
   ADD_DECK_REQUEST,
   ADD_DECK_SUCCESS,
+  FETCH_DECK_FAILURE,
+  FETCH_DECK_REQUEST,
+  FETCH_DECK_SUCCESS,
   REMOVE_CARD,
   REMOVE_LEADER,
   RESET_CARD,
@@ -88,6 +91,18 @@ export interface IUpdateDeckFailure {
   type: typeof UPDATE_DECK_FAILURE;
   error: string;
 }
+
+export interface IFetchDeckRequest {
+  type: typeof FETCH_DECK_REQUEST;
+}
+export interface IFetchDeckSuccess {
+  type: typeof FETCH_DECK_SUCCESS;
+  deck: IDeck;
+}
+export interface IFetchDeckFailure {
+  type: typeof FETCH_DECK_FAILURE;
+  error: string;
+}
 export interface IStarDeckRequest {
   type: typeof STAR_DECK_REQUEST;
   deckId: string;
@@ -116,6 +131,9 @@ export type IDeckActions =
   | IUpdateDeckRequest
   | IUpdateDeckSuccess
   | IUpdateDeckFailure
+  | IFetchDeckSuccess
+  | IFetchDeckFailure
+  | IFetchDeckRequest
   | IStarDeckRequest
   | IStarDeckSuccess
   | IStarDeckFailure
@@ -148,6 +166,29 @@ export const resetCard = (): IResetCard => ({
 export const resetDeck = (): IResetDeck => ({
   type: RESET_DECK,
 });
+export const fetchDeck = (deckId: string): ThunkResult<void, IDeckActions> => {
+  return async dispatch => {
+    dispatch({
+      type: FETCH_DECK_REQUEST,
+    });
+    try {
+      const {
+        data: { deck },
+      } = await deckApi.fetchDeck(deckId);
+      dispatch({
+        type: FETCH_DECK_SUCCESS,
+        deck,
+      });
+    } catch (err) {
+      const { response } = err;
+      const error = response ? (response.data ? response.data.error : '') : '';
+      dispatch({
+        type: FETCH_DECK_FAILURE,
+        error,
+      });
+    }
+  };
+};
 export const updateDeck = (deck: IDeck): ThunkResult<void, IDeckActions> => {
   // 현재 deck id에 맞는 db deck을 업데이트
   return async dispatch => {

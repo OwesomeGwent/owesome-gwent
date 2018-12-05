@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import styled from 'styled-components';
-import { Collection, Main } from '.';
+import { Collection, CollectionView, Main } from '.';
 
 const HomeRouter = styled.div`
   display: flex;
@@ -13,6 +13,7 @@ const Section: React.SFC = props => {
   return (
     <HomeRouter>
       <Switch>
+        <Route path="/collection/view/:deckId" component={CollectionView} />
         <Route path="/collection" component={Collection} />
         <Route path="/:deckUrl?" component={Main} />
       </Switch>

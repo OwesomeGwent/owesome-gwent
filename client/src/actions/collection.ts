@@ -32,6 +32,7 @@ export const fetchCollection = ({
     q: '',
     faction: '',
     leaderId: '',
+    order: '',
   },
 }: ICollectionQuery): ThunkResult<void, ICollectionActions> => {
   return async (dispatch: Dispatch<ICollectionActions>) => {

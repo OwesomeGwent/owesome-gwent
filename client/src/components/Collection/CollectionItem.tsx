@@ -14,11 +14,27 @@ const Item = styled.div`
   min-width: 33%;
   margin-top: 10px;
 `;
+const DeckInfo = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+`;
+const MainInfo = styled.div`
+  flex: 1;
+  display: flex;
+  align-items: center;
+`;
+const DeckName = styled.div`
+  font-weight: 800;
+  color: #fefefe;
+`;
 const BigAvatar = styled(Avatar)`
   width: 64px;
   height: 64px;
 `;
-const DeckName = styled.div`
+const Star = styled.div`
+  flex: 0;
+  flex-basis: 50px;
   font-weight: 800;
   color: #fefefe;
 `;
@@ -28,11 +44,6 @@ const DeckItem = styled(Button)`
   &:hover {
     background-color: rgba(0, 0, 0, 0.7);
   }
-`;
-const DeckInfo = styled.div`
-  width: 100%;
-  display: flex;
-  align-items: center;
 `;
 const DeckDetail = styled.div`
   width: 100%;
@@ -59,13 +70,16 @@ const CollectionItem: React.SFC<ICollectionItemProps> = ({
     <Item>
       <DeckItem fullWidth onClick={handleDeckClick}>
         <DeckInfo>
-          {leader && (
-            <BigAvatar
-              src={`${LEADER_IMAGE_PATH}/${leader.variations[0].art}0000.png`}
-              alt={`leader${deck.leaderId}`}
-            />
-          )}
-          <DeckName>{deck.name}</DeckName>
+          <MainInfo>
+            {leader && (
+              <BigAvatar
+                src={`${LEADER_IMAGE_PATH}/${leader.variations[0].art}0000.png`}
+                alt={`leader${deck.leaderId}`}
+              />
+            )}
+            <DeckName>{deck.name}</DeckName>
+          </MainInfo>
+          <Star>⭐ {deck.star}</Star>
         </DeckInfo>
         <DeckDetail>
           <CollectionItemDetail url={deck.url} />

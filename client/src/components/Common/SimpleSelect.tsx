@@ -51,12 +51,14 @@ export interface Item {
 export interface ISimpleSelectProps extends WithStyles<typeof styles> {
   selected: string | string[];
   items: Item[];
+  placeHolder?: string;
   handleChange: (value: string) => void;
 }
 const MultiFilterItem: React.SFC<ISimpleSelectProps & SelectProps> = ({
   classes,
   selected,
   items,
+  placeHolder,
   handleChange,
   ...props
 }) => {
@@ -85,7 +87,7 @@ const MultiFilterItem: React.SFC<ISimpleSelectProps & SelectProps> = ({
         {...props}
       >
         <MenuItem value="">
-          <em>👑 Select Leader</em>
+          <em>{placeHolder}</em>
         </MenuItem>
         {items.map(item => (
           <MenuItem

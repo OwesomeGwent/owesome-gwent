@@ -49,6 +49,7 @@ class Collection extends React.Component<ICollectionProps> {
       q: '',
       faction: '',
       leaderId: '',
+      order: '',
     };
     const parsed = queryString.parse(this.props.location.search);
     Object.keys(search).forEach(query => {
@@ -61,10 +62,15 @@ class Collection extends React.Component<ICollectionProps> {
   };
   public render() {
     const { collection, status, isLast } = this.props;
-    const { q, faction, leaderId } = this.getSearchQuery();
+    const { q, faction, leaderId, order } = this.getSearchQuery();
     return (
       <div style={{ width: '100%' }}>
-        <CollectionFilter q={q} faction={faction} leaderId={leaderId} />
+        <CollectionFilter
+          q={q}
+          faction={faction}
+          leaderId={leaderId}
+          order={order}
+        />
         <CollectionList
           status={status}
           collection={collection}

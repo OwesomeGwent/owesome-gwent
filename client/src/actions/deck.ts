@@ -252,6 +252,8 @@ export const removeLeader = (): IRemoveLeader => ({
 
 export const selectDeckUrl = (url: string): ThunkResult<void, IDeckActions> => {
   return (dispatch, getState) => {
+    // 들어오기전에 일단 클린
+    dispatch(resetDeck());
     const state = getState();
     if (url) {
       // url에 따라 변경
@@ -275,8 +277,6 @@ export const selectDeckUrl = (url: string): ThunkResult<void, IDeckActions> => {
       }
       // history.push(url);
       // history.pushState({}, url, url);
-    } else {
-      dispatch(resetDeck());
     }
   };
 };

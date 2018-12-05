@@ -36,13 +36,11 @@ import {
 } from '../types/deck';
 import { Status } from '../types/status';
 import { ThunkFunc } from '../types/thunk';
-import { IUser } from '../types/user';
 interface ISidebarProps {
   addStatus: Status;
   deckUrl: string;
   updateStatus: Status;
   randomLeader: CardData;
-  user: IUser | undefined;
   loggedIn: boolean;
   currentDeck: IDeck;
   deck: IDeckState;
@@ -53,7 +51,6 @@ interface ISidebarProps {
   category?: CategoryLocaleDataList;
   addDeck: (deck: IAddDeck) => void;
   updateDeck: (deck: IDeck) => void;
-  starDeck: (deckId: string) => void;
   resetDeck: () => void;
   selectDeckUrl: (url: string) => void;
   setDeckMakerStatus: (status: DeckMakerStatus) => void;
@@ -112,16 +109,6 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
       deckName: e.target.value,
     });
   };
-  public isCurrentUserDeck = () => {
-    const { currentDeck, user } = this.props;
-    if (!currentDeck || !user) {
-      return false;
-    }
-    if (currentDeck.userId !== user.id) {
-      return false;
-    }
-    return true;
-  };
   public addOrUpdateDeck = async () => {
     // 현재 deck의 id가 있을 경우 update. 아니면 add.
     const { addDeck, updateDeck, currentDeck, deck } = this.props;
@@ -132,7 +119,7 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
       faction: deck.leader!.faction,
     };
     let hasError = false;
-    if (this.isCurrentUserDeck()) {
+    if (currentDeck.id) {
       await updateDeck({
         ...baseDeck,
         id: currentDeck.id,
@@ -148,16 +135,7 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
     const type = hasError ? 'error' : 'success';
     notify.notify({ message, type });
   };
-  public starDeck = () => {
-    const { starDeck, currentDeck } = this.props;
-    if (!this.isCurrentUserDeck()) {
-      starDeck(currentDeck.id);
-    }
-  };
   public closeDeckBuilder = () => {
-    this.setState({
-      deckName: '',
-    });
     history.push('/');
   };
   public copyDeckUrl = () => {
@@ -224,15 +202,12 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
         />
         <DeckList cards={deckCards} detail={detail} removeCard={removeCard} />
         <DeckButtons
-          isCurrentUserDeck={this.isCurrentUserDeck()}
-          status={this.isCurrentUserDeck() ? updateStatus : addStatus}
+          status={currentDeck.id ? updateStatus : addStatus}
           addOrUpdateDeck={this.addOrUpdateDeck}
           closeDeckBuilder={this.closeDeckBuilder}
-          starDeck={this.starDeck}
           copyDeckUrl={this.copyDeckUrl}
           loggedIn={loggedIn}
           leader={deck.leader}
-          {...currentDeck}
         />
       </FloatingBox>
     );
@@ -247,7 +222,6 @@ const mapStateToProps = (state: IRootState) => {
     updateStatus: state.deck.update.status,
     currentDeck: state.deck.currentDeck,
     randomLeader: getRandomLeader(state),
-    user: state.user.user,
     loggedIn: state.user.loggedIn,
     deck: state.deck,
     deckCards: getParsedDeckCards(state),
@@ -259,7 +233,6 @@ const mapStateToProps = (state: IRootState) => {
 };
 const mapDispatchToProps = (dispatch: ThunkFunc) => ({
   addDeck: (deck: IAddDeck) => dispatch(DeckActions.addDeck(deck)),
-  starDeck: (deckId: string) => dispatch(DeckActions.starDeck(deckId)),
   updateDeck: (deck: IDeck) => dispatch(DeckActions.updateDeck(deck)),
   resetDeck: () => dispatch(DeckActions.resetDeck()),
   setDeckMakerStatus: (status: DeckMakerStatus) =>

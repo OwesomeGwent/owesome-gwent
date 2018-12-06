@@ -4,6 +4,9 @@ import {
   ADD_DECK_FAILURE,
   ADD_DECK_REQUEST,
   ADD_DECK_SUCCESS,
+  FETCH_DECK_FAILURE,
+  FETCH_DECK_REQUEST,
+  FETCH_DECK_SUCCESS,
   REMOVE_CARD,
   REMOVE_LEADER,
   RESET_CARD,
@@ -12,16 +15,18 @@ import {
   SELECT_LEADER,
   SET_CURRENT_DECK,
   SET_DECKMAKER_STATUS,
+  STAR_DECK_FAILURE,
+  STAR_DECK_REQUEST,
+  STAR_DECK_SUCCESS,
   UPDATE_DECK_FAILURE,
   UPDATE_DECK_REQUEST,
   UPDATE_DECK_SUCCESS,
 } from '../actions/ActionTypes';
 import { IDeckActions } from '../actions/deck';
-import { DeckMakerStatus } from '../types/deck';
+import { DeckMakerStatus, IDeck } from '../types/deck';
 
 import { sortByProvision } from '../helpers/card';
 import { Status } from '../types/status';
-import { IDeck } from '../types/user';
 export interface IDeckState {
   readonly currentDeck: IDeck;
   readonly cards: CardData[];
@@ -36,6 +41,15 @@ export interface IDeckState {
     status: Status;
     error: string;
   };
+  readonly fetch: {
+    deck: IDeck | undefined;
+    status: Status;
+    error: string;
+  };
+  readonly star: {
+    status: Status;
+    error: string;
+  };
 }
 
 const initialState: IDeckState = {
@@ -44,6 +58,9 @@ const initialState: IDeckState = {
     name: '',
     url: '',
     leaderId: '',
+    faction: '',
+    completed: false,
+    star: 0,
   },
   add: {
     status: 'INIT',
@@ -52,6 +69,16 @@ const initialState: IDeckState = {
   update: {
     status: 'INIT',
     deck: {},
+    error: '',
+  },
+  // collection view의 deck
+  fetch: {
+    deck: undefined,
+    status: 'INIT',
+    error: '',
+  },
+  star: {
+    status: 'INIT',
     error: '',
   },
   deckMakerStatus: 'INIT',
@@ -110,6 +137,7 @@ const deck = (state: IDeckState = initialState, action: IDeckActions) =>
       }
       case ADD_DECK_SUCCESS: {
         draft.add.status = 'SUCCESS';
+        draft.currentDeck = action.deck;
         break;
       }
       case ADD_DECK_FAILURE: {
@@ -125,12 +153,43 @@ const deck = (state: IDeckState = initialState, action: IDeckActions) =>
       }
       case UPDATE_DECK_SUCCESS: {
         draft.update.status = 'SUCCESS';
-        draft.update.deck = action.deck;
         break;
       }
       case UPDATE_DECK_FAILURE: {
         draft.update.status = 'FAILURE';
         draft.update.error = action.error;
+        break;
+      }
+      case FETCH_DECK_REQUEST: {
+        draft.fetch.status = 'FETCHING';
+        break;
+      }
+      case FETCH_DECK_SUCCESS: {
+        draft.fetch.deck = action.deck;
+        draft.fetch.status = 'SUCCESS';
+        break;
+      }
+      case FETCH_DECK_FAILURE: {
+        draft.fetch.deck = undefined;
+        draft.fetch.status = 'FAILURE';
+        draft.fetch.error = action.error;
+        break;
+      }
+      case STAR_DECK_REQUEST: {
+        draft.star.status = 'FETCHING';
+        break;
+      }
+      case STAR_DECK_SUCCESS: {
+        draft.star.status = 'SUCCESS';
+        draft.currentDeck.star = action.star;
+        if (draft.fetch.deck && draft.fetch.deck.id === action.deckId) {
+          draft.fetch.deck.star = action.star;
+        }
+        break;
+      }
+      case STAR_DECK_FAILURE: {
+        draft.star.status = 'FAILURE';
+        draft.star.error = action.error;
         break;
       }
       case SET_CURRENT_DECK: {

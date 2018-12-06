@@ -60,10 +60,11 @@ routes.post('/login', async (req, res) => {
 routes.get('/verify', verifyCookie, (req, res) => {
   const customReq = req as IRequest;
   const success = (user: User) => {
-    const { username, email, decks } = user;
+    const { id, username, email, decks } = user;
     return res.json({
       success: true,
       user: {
+        id,
         username,
         email,
         decks,

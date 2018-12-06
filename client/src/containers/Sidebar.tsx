@@ -15,7 +15,9 @@ import {
   LeaderView,
   StateToggleBox,
 } from '../components/Sidebar';
+import { checkDeckCost } from '../helpers/deck';
 import { copyUrl, getDeckUrl } from '../helpers/deckUrl';
+import { history } from '../helpers/history';
 import { notify } from '../helpers/notify';
 import { IRootState } from '../reducers';
 import { ICardState } from '../reducers/card';
@@ -26,12 +28,19 @@ import {
   getCardDetailByLocale,
 } from '../selectors/locale';
 import { getRandomLeader } from '../selectors/random';
-import { DeckMakerStatus, IDeckCard, IDeckCost } from '../types/deck';
+import {
+  DeckMakerStatus,
+  IAddDeck,
+  IDeck,
+  IDeckCard,
+  IDeckCost,
+} from '../types/deck';
 import { Status } from '../types/status';
 import { ThunkFunc } from '../types/thunk';
-import { IAddDeck, IDeck } from '../types/user';
+
 interface ISidebarProps {
   addStatus: Status;
+  deckUrl: string;
   updateStatus: Status;
   randomLeader: CardData;
   loggedIn: boolean;
@@ -44,19 +53,14 @@ interface ISidebarProps {
   category?: CategoryLocaleDataList;
   addDeck: (deck: IAddDeck) => void;
   updateDeck: (deck: IDeck) => void;
-  resetDeck: typeof DeckActions.resetDeck;
+  resetDeck: () => void;
+  selectDeckUrl: (url: string) => void;
   setDeckMakerStatus: (status: DeckMakerStatus) => void;
   removeCard: (cardId: string) => void;
 }
 interface ISidebarState {
   deckName: string;
 }
-const Container = styled.div`
-  flex: 0;
-  justify-content: center;
-  flex-basis: 300px;
-  margin-right: 20px;
-`;
 const NoLeader = styled.h2`
   color: white;
 `;
@@ -80,16 +84,23 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
   public state = {
     deckName: '',
   };
+  public componentDidMount() {
+    this.props.selectDeckUrl(this.props.deckUrl || '');
+  }
   public componentDidUpdate(prevProps: ISidebarProps) {
-    if (prevProps.deck.currentDeck.name !== this.props.deck.currentDeck.name) {
-      this.setState({
-        deckName: this.props.deck.currentDeck.name,
-      });
+    if (prevProps.deckUrl !== this.props.deckUrl) {
+      this.props.selectDeckUrl(this.props.deckUrl);
     }
   }
   public getDeckName = () => {
     const { deckName } = this.state;
-    const { deck, detail } = this.props;
+    const { deck, detail, currentDeck } = this.props;
+    if (deckName) {
+      return deckName;
+    }
+    if (currentDeck.name) {
+      return currentDeck.name;
+    }
     if (!deckName && deck.leader) {
       return `${detail[deck.leader.ingameId].name} Deck`;
     }
@@ -102,15 +113,20 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
   };
   public addOrUpdateDeck = async () => {
     // 현재 deck의 id가 있을 경우 update. 아니면 add.
-    const { addDeck, updateDeck, currentDeck, deck } = this.props;
+    const { addDeck, updateDeck, currentDeck, deck, deckCost } = this.props;
     const baseDeck = {
       name: this.getDeckName(),
       url: getDeckUrl(),
       leaderId: deck.leader!.ingameId,
+      faction: deck.leader!.faction,
+      completed: checkDeckCost(deckCost.count, deckCost.provision),
     };
     let hasError = false;
     if (currentDeck.id) {
-      await updateDeck({ ...baseDeck, id: currentDeck.id });
+      await updateDeck({
+        ...baseDeck,
+        id: currentDeck.id,
+      });
       hasError = this.props.updateStatus === 'FAILURE';
     } else {
       await addDeck(baseDeck);
@@ -123,10 +139,7 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
     notify.notify({ message, type });
   };
   public closeDeckBuilder = () => {
-    this.setState({
-      deckName: '',
-    });
-    this.props.resetDeck();
+    history.push('/');
   };
   public copyDeckUrl = () => {
     const success = copyUrl();
@@ -158,52 +171,48 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
     if (deck.deckMakerStatus === 'INIT') {
       const randomLeaderImg = variations[Object.keys(variations)[0]].art;
       return (
-        <Container>
-          <FloatingBox>
-            <StateToggleBox
-              backgroundLeader={randomLeaderImg}
-              onToggle={() => setDeckMakerStatus('DECKMAKE')}
-            />
-          </FloatingBox>
-        </Container>
+        <FloatingBox>
+          <StateToggleBox
+            backgroundLeader={randomLeaderImg}
+            onToggle={() => setDeckMakerStatus('DECKMAKE')}
+          />
+        </FloatingBox>
       );
     }
     return (
-      <Container>
-        <FloatingBox>
-          {deck.leader === undefined ? (
-            <NoLeader>Choose Your Leader 👍</NoLeader>
-          ) : (
-            <LeaderView
-              artId={deck.leader.variations[0].art}
-              name={detail[deck.leader.ingameId].name}
-            />
-          )}
-          <DefaultMargin>
-            <Label htmlFor="deck_name">Deck Name</Label>
-            <DeckName
-              id="deck_name"
-              placeholder={this.getDeckName()}
-              value={deckName}
-              onChange={this.handleNameChange}
-            />
-          </DefaultMargin>
-          <CostList
-            count={deckCost.count}
-            craft={deckCost.craft}
-            provision={deckCost.provision}
+      <FloatingBox>
+        {deck.leader === undefined ? (
+          <NoLeader>Choose Your Leader 👍</NoLeader>
+        ) : (
+          <LeaderView
+            artId={deck.leader.variations[0].art}
+            name={detail[deck.leader.ingameId].name}
           />
-          <DeckList cards={deckCards} detail={detail} removeCard={removeCard} />
-          <DeckButtons
-            status={currentDeck.id ? updateStatus : addStatus}
-            addOrUpdateDeck={this.addOrUpdateDeck}
-            closeDeckBuilder={this.closeDeckBuilder}
-            copyDeckUrl={this.copyDeckUrl}
-            loggedIn={loggedIn}
-            leader={deck.leader}
+        )}
+        <DefaultMargin>
+          <Label htmlFor="deck_name">Deck Name</Label>
+          <DeckName
+            id="deck_name"
+            placeholder={this.getDeckName()}
+            value={deckName}
+            onChange={this.handleNameChange}
           />
-        </FloatingBox>
-      </Container>
+        </DefaultMargin>
+        <CostList
+          count={deckCost.count}
+          craft={deckCost.craft}
+          provision={deckCost.provision}
+        />
+        <DeckList cards={deckCards} detail={detail} removeCard={removeCard} />
+        <DeckButtons
+          status={currentDeck.id ? updateStatus : addStatus}
+          addOrUpdateDeck={this.addOrUpdateDeck}
+          closeDeckBuilder={this.closeDeckBuilder}
+          copyDeckUrl={this.copyDeckUrl}
+          loggedIn={loggedIn}
+          leader={deck.leader}
+        />
+      </FloatingBox>
     );
   }
 }
@@ -231,6 +240,7 @@ const mapDispatchToProps = (dispatch: ThunkFunc) => ({
   resetDeck: () => dispatch(DeckActions.resetDeck()),
   setDeckMakerStatus: (status: DeckMakerStatus) =>
     dispatch(DeckActions.setDeckMakerStatus(status)),
+  selectDeckUrl: (url: string) => dispatch(DeckActions.selectDeckUrl(url)),
   removeCard: (cardId: string) => dispatch(DeckActions.removeCard(cardId)),
 });
 export default connect(

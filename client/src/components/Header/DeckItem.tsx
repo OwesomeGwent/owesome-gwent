@@ -5,8 +5,8 @@ import { CardData } from '../../../../shared/ICardData';
 import { LEADER_IMAGE_PATH } from '../../apis/defs';
 import { IRootState } from '../../reducers';
 import { makeGetLeader } from '../../selectors/card';
-import { IDeck } from '../../types/user';
-import { Button } from '../Common';
+import { IDeck } from '../../types/deck';
+import { Avatar, Button } from '../Common';
 
 const Item = styled.div`
   text-align: center;
@@ -19,19 +19,13 @@ const ButtonInner = styled.div`
   display: flex;
   align-items: center;
 `;
-const Icon = styled.img`
-  width: 32px;
-  height: 32px;
-  border-radius: 100%;
-  margin-right: 10px;
-`;
 export interface IDeckItemProps extends IDeck {
   handleDeckClick: () => void;
   leader?: CardData | undefined;
-  leaderName?: string;
 }
 
 const DeckItem: React.SFC<IDeckItemProps> = ({
+  children,
   name,
   leader,
   handleDeckClick,
@@ -41,12 +35,13 @@ const DeckItem: React.SFC<IDeckItemProps> = ({
       <Button fullWidth onClick={handleDeckClick}>
         <ButtonInner>
           {leader && (
-            <Icon
+            <Avatar
               src={`${LEADER_IMAGE_PATH}/${leader.variations[0].art}0000.png`}
             />
           )}
           <DeckName>{name}</DeckName>
         </ButtonInner>
+        {children}
       </Button>
     </Item>
   );
@@ -54,7 +49,6 @@ const DeckItem: React.SFC<IDeckItemProps> = ({
 
 DeckItem.defaultProps = {
   leader: undefined,
-  leaderName: '',
 };
 
 const mapStateToProps = () => {

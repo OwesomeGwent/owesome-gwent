@@ -28,6 +28,13 @@ export interface CardDataList {
     [cardId: string]: CardData;
   };
 }
+export type Faction =
+  | 'Monster'
+  | 'Neutral'
+  | 'Nilfgaard'
+  | 'Northern Realms'
+  | 'Scoiatael'
+  | 'Skellige';
 interface Variations {
   [key: string]: Variation;
 }

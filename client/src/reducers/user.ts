@@ -1,9 +1,9 @@
 import produce from 'immer';
 import * as UserActions from '../actions/ActionTypes';
 import { IUserAction } from '../actions/user';
+import { IDeck } from '../types/deck';
 import { Status } from '../types/status';
-import { IAddDeck, IDeck, ISignupUser, IUser } from '../types/user';
-
+import { IUser } from '../types/user';
 export interface IUserState {
   user: IUser | undefined;
   loggedIn: boolean;

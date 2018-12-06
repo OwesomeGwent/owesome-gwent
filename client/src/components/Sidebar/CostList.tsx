@@ -1,11 +1,9 @@
 import React, { SFC } from 'react';
 import styled from 'styled-components';
+import { MAX_PROVISION, MIN_COUNT } from '../../helpers/deck';
 import Card from '../../icons/card.png';
 import Craft from '../../icons/craft.png';
 import Provision from '../../icons/provision.png';
-
-const MIN_COUNT = 25;
-const MAX_PROVISION = 165;
 
 const CostView = styled.div`
   height: 60px;

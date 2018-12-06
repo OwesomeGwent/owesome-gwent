@@ -3,12 +3,13 @@ import createMuiTheme from '@material-ui/core/styles/createMuiTheme';
 import 'intersection-observer'; // polyfill
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
+import { Route, Router } from 'react-router-dom';
 import { createGlobalStyle } from 'styled-components';
 import { Home, Modal, Notification } from './containers';
 import { deckListener } from './helpers/deckUrl';
+import { history } from './helpers/history';
 import { notify } from './helpers/notify';
 import createStore from './store/createStore';
-
 /* 초기 작업 여기서 */
 const GlobalStyle = createGlobalStyle`
   html {
@@ -205,7 +206,9 @@ export default class App extends Component {
         <GlobalStyle />
         <Provider store={store}>
           <Modal>
-            <Home />
+            <Router history={history}>
+              <Route render={props => <Home {...props} />} />
+            </Router>
           </Modal>
         </Provider>
         <Notification notify={notify} />

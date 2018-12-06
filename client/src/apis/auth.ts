@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { ISignupUser, IUser } from '../types/user';
+import { ISignupUser } from '../types/user';
 
 const instance = axios.create({
   baseURL: '/api/auth',

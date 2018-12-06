@@ -1,13 +1,15 @@
 import { CardData } from '../../../shared/ICardData';
 import * as deckApi from '../apis/deck';
 import { parseUrl } from '../helpers/deckUrl';
-import { DeckMakerStatus } from '../types/deck';
+import { DeckMakerStatus, IAddDeck, IDeck } from '../types/deck';
 import { ThunkResult } from '../types/thunk';
-import { IAddDeck, IDeck } from '../types/user';
 import {
   ADD_DECK_FAILURE,
   ADD_DECK_REQUEST,
   ADD_DECK_SUCCESS,
+  FETCH_DECK_FAILURE,
+  FETCH_DECK_REQUEST,
+  FETCH_DECK_SUCCESS,
   REMOVE_CARD,
   REMOVE_LEADER,
   RESET_CARD,
@@ -17,6 +19,9 @@ import {
   SELECT_LEADER,
   SET_CURRENT_DECK,
   SET_DECKMAKER_STATUS,
+  STAR_DECK_FAILURE,
+  STAR_DECK_REQUEST,
+  STAR_DECK_SUCCESS,
   UPDATE_DECK_FAILURE,
   UPDATE_DECK_REQUEST,
   UPDATE_DECK_SUCCESS,
@@ -69,7 +74,7 @@ export interface IAddDeckRequest {
 }
 export interface IAddDeckSuccess {
   type: typeof ADD_DECK_SUCCESS;
-  decks: string[];
+  deck: IDeck;
 }
 export interface IAddDeckFailure {
   type: typeof ADD_DECK_FAILURE;
@@ -80,10 +85,34 @@ export interface IUpdateDeckRequest {
 }
 export interface IUpdateDeckSuccess {
   type: typeof UPDATE_DECK_SUCCESS;
-  deck: IDeck;
 }
 export interface IUpdateDeckFailure {
   type: typeof UPDATE_DECK_FAILURE;
+  error: string;
+}
+
+export interface IFetchDeckRequest {
+  type: typeof FETCH_DECK_REQUEST;
+}
+export interface IFetchDeckSuccess {
+  type: typeof FETCH_DECK_SUCCESS;
+  deck: IDeck;
+}
+export interface IFetchDeckFailure {
+  type: typeof FETCH_DECK_FAILURE;
+  error: string;
+}
+export interface IStarDeckRequest {
+  type: typeof STAR_DECK_REQUEST;
+  deckId: string;
+}
+export interface IStarDeckSuccess {
+  type: typeof STAR_DECK_SUCCESS;
+  deckId: string;
+  star: number;
+}
+export interface IStarDeckFailure {
+  type: typeof STAR_DECK_FAILURE;
   error: string;
 }
 export interface ISetCurrentDeck {
@@ -102,6 +131,12 @@ export type IDeckActions =
   | IUpdateDeckRequest
   | IUpdateDeckSuccess
   | IUpdateDeckFailure
+  | IFetchDeckSuccess
+  | IFetchDeckFailure
+  | IFetchDeckRequest
+  | IStarDeckRequest
+  | IStarDeckSuccess
+  | IStarDeckFailure
   | ISelectLeader
   | ISelectDeckUrl
   | ISetCurrentDeck
@@ -131,6 +166,29 @@ export const resetCard = (): IResetCard => ({
 export const resetDeck = (): IResetDeck => ({
   type: RESET_DECK,
 });
+export const fetchDeck = (deckId: string): ThunkResult<void, IDeckActions> => {
+  return async dispatch => {
+    dispatch({
+      type: FETCH_DECK_REQUEST,
+    });
+    try {
+      const {
+        data: { deck },
+      } = await deckApi.fetchDeck(deckId);
+      dispatch({
+        type: FETCH_DECK_SUCCESS,
+        deck,
+      });
+    } catch (err) {
+      const { response } = err;
+      const error = response ? (response.data ? response.data.error : '') : '';
+      dispatch({
+        type: FETCH_DECK_FAILURE,
+        error,
+      });
+    }
+  };
+};
 export const updateDeck = (deck: IDeck): ThunkResult<void, IDeckActions> => {
   // 현재 deck id에 맞는 db deck을 업데이트
   return async dispatch => {
@@ -138,19 +196,40 @@ export const updateDeck = (deck: IDeck): ThunkResult<void, IDeckActions> => {
       type: UPDATE_DECK_REQUEST,
     });
     try {
-      const {
-        data: { deck: newDeck },
-      } = await deckApi.updateDeck(deck);
+      await deckApi.updateDeck(deck);
       dispatch({
         type: UPDATE_DECK_SUCCESS,
-        deck: newDeck,
       });
     } catch (err) {
-      const {
-        response: { data: error },
-      } = err;
+      const { response } = err;
+      const error = response ? (response.data ? response.data.error : '') : '';
       dispatch({
         type: UPDATE_DECK_FAILURE,
+        error,
+      });
+    }
+  };
+};
+export const starDeck = (deckId: string): ThunkResult<void, IDeckActions> => {
+  return async dispatch => {
+    dispatch({
+      type: STAR_DECK_REQUEST,
+      deckId,
+    });
+    try {
+      const {
+        data: { star },
+      } = await deckApi.starDeck(deckId);
+      dispatch({
+        type: STAR_DECK_SUCCESS,
+        deckId,
+        star,
+      });
+    } catch (err) {
+      const { response } = err;
+      const error = response ? (response.data ? response.data.error : '') : '';
+      dispatch({
+        type: STAR_DECK_FAILURE,
         error,
       });
     }
@@ -170,8 +249,11 @@ export const removeLeader = (): IRemoveLeader => ({
 
 export const selectDeckUrl = (url: string): ThunkResult<void, IDeckActions> => {
   return (dispatch, getState) => {
+    // 들어오기전에 일단 클린
+    dispatch(resetDeck());
     const state = getState();
     if (url) {
+      // url에 따라 변경
       const [leaderId, cardIds] = parseUrl(url);
       const { leader, normal } = state.card.cards;
       const selectedLeader = leader.find(card => card.ingameId === leaderId);
@@ -183,12 +265,15 @@ export const selectDeckUrl = (url: string): ThunkResult<void, IDeckActions> => {
         });
         return acc;
       }, []);
-      dispatch(setDeckMakerStatus('DECKMAKE'));
       if (selectedLeader) {
+        dispatch(setDeckMakerStatus('DECKMAKE'));
         dispatch(selectLeader(selectedLeader));
+        dispatch(selectCard(selectedCard));
+      } else {
+        dispatch(resetDeck());
       }
-      dispatch(selectCard(selectedCard));
-      history.pushState({}, url, url);
+      // history.push(url);
+      // history.pushState({}, url, url);
     }
   };
 };
@@ -205,18 +290,15 @@ export const addDeck = (deck: IAddDeck): ThunkResult<void, IDeckActions> => {
     });
     try {
       const {
-        data: { decks },
+        data: { deck: newDeck },
       } = await deckApi.addDeck(deck);
       dispatch({
         type: ADD_DECK_SUCCESS,
-        decks,
+        deck: newDeck,
       });
     } catch (err) {
-      const {
-        response: {
-          data: { error },
-        },
-      } = err;
+      const { response } = err;
+      const error = response ? (response.data ? response.data.error : '') : '';
       dispatch({
         type: ADD_DECK_FAILURE,
         error,

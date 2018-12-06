@@ -1,5 +1,4 @@
 import { CardData } from '../../../shared/ICardData';
-
 // Ownable 검사. 덱에 못넣는 카드들.
 export const checkOwnable = (card: CardData) => {
   if (!card.variations) {

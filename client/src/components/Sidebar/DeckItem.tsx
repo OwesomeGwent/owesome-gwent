@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { BASE_IMAGE_PATH, THUMBNAIL_IMAGE_PATH } from '../../apis/defs';
+import { THUMBNAIL_IMAGE_PATH } from '../../apis/defs';
+import { pushCardToUrl } from '../../helpers/deckUrl';
 import Card from '../../icons/card.png';
 import Provision from '../../icons/provision.png';
 import { IDeckCard } from '../../types/deck';
@@ -52,7 +53,11 @@ const DeckItem: React.SFC<IDeckItemProps> = ({
   ...props
 }) => {
   return (
-    <SelectedCardWrapper artId={artId} {...props}>
+    <SelectedCardWrapper
+      artId={artId}
+      {...props}
+      onClick={() => pushCardToUrl('REMOVE', card)}
+    >
       <CardInner type={card.type}>
         <CardBack>
           <span>{card.strength > 0 && card.strength}</span>

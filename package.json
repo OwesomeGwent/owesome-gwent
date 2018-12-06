@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lerna": "lerna",
     "postinstall": "lerna bootstrap --hoist",
     "lerna-publish": "lerna publish",
     "start-client": "cd client && npm start",

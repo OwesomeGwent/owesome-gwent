@@ -2,6 +2,9 @@ import findIndex from 'lodash/findIndex';
 import { CardData } from '../../../shared/ICardData';
 import { IDeckCard } from '../types/deck';
 
+export const MAX_PROVISION = 165;
+export const MIN_COUNT = 25;
+
 // cardCount를 카드 데이터에 넣어주는 helper
 export const makeDeckCards = (deckCards: CardData[]) => {
   const parsed: IDeckCard[] = deckCards.reduce(
@@ -31,4 +34,8 @@ export const getDeckCost = (deckCards: IDeckCard[]) => {
     provision = provision + card.provision * card.cardCount;
   });
   return { craft, count, provision };
+};
+
+export const checkDeckCost = (count: number, provision: number) => {
+  return count >= MIN_COUNT && provision <= MAX_PROVISION;
 };

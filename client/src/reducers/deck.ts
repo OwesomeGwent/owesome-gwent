@@ -59,6 +59,7 @@ const initialState: IDeckState = {
     url: '',
     leaderId: '',
     faction: '',
+    completed: false,
     star: 0,
   },
   add: {

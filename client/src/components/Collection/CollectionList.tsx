@@ -21,6 +21,18 @@ const Loading = styled.div`
   align-items: center;
   color: white;
 `;
+const NoResult = styled.div`
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  div {
+    color: #fefefe;
+    font-size: 2em;
+    text-align: center;
+  }
+`;
 export interface ICollectionListProps {
   collection: ICollection[];
   fetchMore: (payload: ICollectionQuery) => void;
@@ -65,6 +77,13 @@ class CollectionList extends React.Component<ICollectionListProps> {
   };
   public render() {
     const { collection, status } = this.props;
+    if (status === 'SUCCESS' && collection.length <= 0) {
+      return (
+        <NoResult>
+          <div>😐 No matching results founds.</div>
+        </NoResult>
+      );
+    }
     return (
       <DeckList>
         {collection.map(deck => {

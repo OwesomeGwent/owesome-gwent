@@ -8,5 +8,5 @@ export interface IDeckCard extends CardData {
 export type IDeckCost = IDeckCost;
 
 export type IAddDeck = Pick<Deck, 'name' | 'url' | 'leaderId' | 'faction'>;
-export type IDeck = Pick<Deck, 'id' | 'leaderId' | 'name' | 'url' | 'faction'> &
+export type IDeck = Pick<Deck, 'id' | 'leaderId' | 'name' | 'url' | 'faction' | 'completed'> &
   Partial<Deck>;

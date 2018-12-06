@@ -61,7 +61,10 @@ router.get('/view/:deckId', async (req, res) => {
   const DeckRepo = getRepo();
   const { deckId } = req.params;
   try {
-    const deck = await DeckRepo.findOne(deckId);
+    const deck = await DeckRepo.createQueryBuilder('deck')
+      .leftJoinAndMapOne('deck.user', User, 'user', 'deck.userId = user.id')
+      .where('deck.id = :deckId', { deckId })
+      .getOne();
     return res.json({
       deck,
     });
@@ -148,7 +151,8 @@ router.get('/collection', async (req, res) => {
       .leftJoinAndMapOne('deck.user', User, 'user', 'deck.userId = user.id')
       .take(parseInt(limit, 10))
       .skip(parseInt(skip, 10))
-      .where('deck.name like :name', { name: `%${q}%` });
+      .where('deck.completed = :completed', { completed: true })
+      .andWhere('deck.name like :name', { name: `%${q}%` });
     if (faction) {
       query.andWhere('deck.faction = :faction', { faction });
     }

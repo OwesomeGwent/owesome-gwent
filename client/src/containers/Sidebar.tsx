@@ -15,6 +15,7 @@ import {
   LeaderView,
   StateToggleBox,
 } from '../components/Sidebar';
+import { checkDeckCost } from '../helpers/deck';
 import { copyUrl, getDeckUrl } from '../helpers/deckUrl';
 import { history } from '../helpers/history';
 import { notify } from '../helpers/notify';
@@ -36,6 +37,7 @@ import {
 } from '../types/deck';
 import { Status } from '../types/status';
 import { ThunkFunc } from '../types/thunk';
+
 interface ISidebarProps {
   addStatus: Status;
   deckUrl: string;
@@ -111,12 +113,13 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
   };
   public addOrUpdateDeck = async () => {
     // 현재 deck의 id가 있을 경우 update. 아니면 add.
-    const { addDeck, updateDeck, currentDeck, deck } = this.props;
+    const { addDeck, updateDeck, currentDeck, deck, deckCost } = this.props;
     const baseDeck = {
       name: this.getDeckName(),
       url: getDeckUrl(),
       leaderId: deck.leader!.ingameId,
       faction: deck.leader!.faction,
+      completed: checkDeckCost(deckCost.count, deckCost.provision),
     };
     let hasError = false;
     if (currentDeck.id) {

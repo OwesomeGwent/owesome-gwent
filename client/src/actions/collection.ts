@@ -50,11 +50,8 @@ export const fetchCollection = ({
         isLast: deck.length < limit || deck.length === 0,
       });
     } catch (err) {
-      const {
-        response: {
-          data: { error },
-        },
-      } = err;
+      const { response } = err;
+      const error = response ? (response.data ? response.data.error : '') : '';
       dispatch({
         type: FETCH_COLLECTION_FAILURE,
         error,

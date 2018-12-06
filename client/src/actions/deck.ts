@@ -201,9 +201,8 @@ export const updateDeck = (deck: IDeck): ThunkResult<void, IDeckActions> => {
         type: UPDATE_DECK_SUCCESS,
       });
     } catch (err) {
-      const {
-        response: { data: error },
-      } = err;
+      const { response } = err;
+      const error = response ? (response.data ? response.data.error : '') : '';
       dispatch({
         type: UPDATE_DECK_FAILURE,
         error,
@@ -298,11 +297,8 @@ export const addDeck = (deck: IAddDeck): ThunkResult<void, IDeckActions> => {
         deck: newDeck,
       });
     } catch (err) {
-      const {
-        response: {
-          data: { error },
-        },
-      } = err;
+      const { response } = err;
+      const error = response ? (response.data ? response.data.error : '') : '';
       dispatch({
         type: ADD_DECK_FAILURE,
         error,

@@ -97,7 +97,8 @@ export const signup = (user: ISignupUser): ThunkResult<void, IUserAction> => {
         username: user.username,
       });
     } catch (err) {
-      const { error } = err.response.data;
+      const { response } = err;
+      const error = response ? (response.data ? response.data.error : '') : '';
       dispatch({
         type: SIGNUP_FAILURE,
         error,
@@ -179,11 +180,8 @@ export const fetchDecks = (): ThunkResult<void, IUserAction> => {
         decks,
       });
     } catch (err) {
-      const {
-        response: {
-          data: { error },
-        },
-      } = err;
+      const { response } = err;
+      const error = response ? (response.data ? response.data.error : '') : '';
       dispatch({
         type: FETCH_DECKS_FAILURE,
         error,

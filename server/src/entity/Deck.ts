@@ -36,6 +36,9 @@ export class Deck {
   @Column()
   public star: number; // client에서 타입 처리용
 
+  @Column({ default: false })
+  public completed: boolean;
+
   @CreateDateColumn()
   public created: Date;
 

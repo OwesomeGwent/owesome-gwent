@@ -85,6 +85,7 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
     deckName: '',
   };
   public componentDidMount() {
+    this.props.resetDeck();
     this.props.selectDeckUrl(this.props.deckUrl || '');
   }
   public componentDidUpdate(prevProps: ISidebarProps) {

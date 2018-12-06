@@ -249,9 +249,10 @@ export const removeLeader = (): IRemoveLeader => ({
 
 export const selectDeckUrl = (url: string): ThunkResult<void, IDeckActions> => {
   return (dispatch, getState) => {
-    // 들어오기전에 일단 클린
-    dispatch(resetDeck());
     const state = getState();
+    if (!url) {
+      dispatch(resetDeck());
+    }
     if (url) {
       // url에 따라 변경
       const [leaderId, cardIds] = parseUrl(url);
@@ -265,8 +266,10 @@ export const selectDeckUrl = (url: string): ThunkResult<void, IDeckActions> => {
         });
         return acc;
       }, []);
-      if (selectedLeader) {
+      if (state.deck.deckMakerStatus === 'INIT') {
         dispatch(setDeckMakerStatus('DECKMAKE'));
+      }
+      if (selectedLeader) {
         dispatch(selectLeader(selectedLeader));
         dispatch(selectCard(selectedCard));
       } else {

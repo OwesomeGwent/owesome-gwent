@@ -9,10 +9,9 @@ if (
 ) {
   console.log('Fetching Gwent Data git repos');
   if (
-    shell.exec(
-      'git clone https://github.com/GwentCommunityDevelopers/gwent-data-release.git',
-      { silent: true },
-    ).code === 0
+    shell.exec('git clone https://github.com/OwesomeGwent/gwent-data-release', {
+      silent: true,
+    }).code === 0
   ) {
     console.log('SUCCESS!');
     return;

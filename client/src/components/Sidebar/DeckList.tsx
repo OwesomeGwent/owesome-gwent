@@ -35,14 +35,7 @@ export default class DeckList extends Component<IDeckListProps> {
               },
             }}
             key={i}
-            Hover={
-              <CardDetail
-                cardId={card.ingameId}
-                categoryIds={card.categoryIds}
-                type="normal"
-                keywords={card.keywords}
-              />
-            }
+            Hover={<CardDetail {...card} type="normal" />}
             Main={
               <DeckItem
                 artId={card.variations[0].art}

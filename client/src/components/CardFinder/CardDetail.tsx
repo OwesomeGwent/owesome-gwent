@@ -76,6 +76,9 @@ const CardDetail: SFC<ICardDetailProps & IMapState> = ({
   if (!cardDetails) {
     return null;
   }
+  if (!cardDetails[ingameId]) {
+    return null;
+  }
   const { name, flavor, infoRaw } = cardDetails[ingameId];
   const highlightInfo = highlight(INFO_REG, replaceInfoAndKeyword);
   const highlightKeyword = highlight(KEYWORD_REG, replaceInfoAndKeyword);

@@ -25,16 +25,21 @@ const DeckButtons: React.SFC<IDeckButtonsProps> = ({
   <AuthModal
     render={({ openLogin, openModal }) => (
       <>
-        <Button
-          color="#e48a3a"
-          fullWidth
-          onClick={async () => openModal(await getImage())}
-        >
-          Show 📸
-        </Button>
-        <Button color="#e48a3a" fullWidth onClick={downloadSnapshot}>
-          Download 📸
-        </Button>
+        {leader && (
+          <>
+            <Button
+              color="#e48a3a"
+              fullWidth
+              onClick={async () => openModal(await getImage())}
+            >
+              Show 📸
+            </Button>
+            <Button color="#e48a3a" fullWidth onClick={downloadSnapshot}>
+              Download 📸
+            </Button>
+          </>
+        )}
+
         <Button color="#05ac7c" fullWidth onClick={copyDeckUrl}>
           🔗 Copy Url
         </Button>

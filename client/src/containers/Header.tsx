@@ -51,7 +51,7 @@ class Header extends React.Component<IHeaderProps> {
         render={({ openLogin }) => (
           <AppBar style={{ backgroundColor: '#24282A' }} position="sticky">
             <Toolbar>
-              <div style={{ flexGrow: 1, fontSize: '1.5rem' }}>
+              <div style={{ flexGrow: 1, fontSize: '1.2rem' }}>
                 <Logo onClick={() => history.push('/')}>🚀 Owesome Gwent</Logo>
               </div>
               <>

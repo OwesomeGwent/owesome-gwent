@@ -10,7 +10,7 @@ const Default = styled.button`
   outline: none;
   border-radius: 10px;
   background-color: inherit;
-  width: ${(props: IButtonProps) => (props.fullWidth ? '100%' : '120px')};
+  min-width: ${(props: IButtonProps) => (props.fullWidth ? '100%' : '120px')};
   padding: 10px;
   color: ${(props: IButtonProps) => (props.color ? props.color : 'white')};
   cursor: pointer;

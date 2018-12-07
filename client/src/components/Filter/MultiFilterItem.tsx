@@ -15,6 +15,7 @@ import {
   IMultiFilterList,
   MultiFilterField,
 } from '../../types/filter';
+import { SimpleSelect } from '../Common';
 
 const LABEL = {
   categoryIds: 'categories',
@@ -39,7 +40,16 @@ const styles = (theme: Theme) =>
       width: 150,
       color: theme.palette.primary.contrastText,
       border: `1px solid ${theme.palette.primary.contrastText}`,
+      borderRadius: 10,
       padding: 10,
+      '&$focused': {
+        borderRadius: 10,
+      },
+    },
+    input: {
+      '&$focused': {
+        borderRadius: 10,
+      },
     },
     icon: {
       color: theme.palette.primary.contrastText,
@@ -60,42 +70,43 @@ export interface IMultiFilterItem extends WithStyles<typeof styles> {
   field: MultiFilterField;
   setMultiFilter: typeof FilterAction.setMultiFilter;
   selected?: FilterType;
+  placeHolder?: string;
 }
+const makeSelectable = (filter: any) => {
+  return filter.map((item: any) => {
+    let selectable;
+    Object.entries(item).forEach(([key, value]) => {
+      selectable = {
+        label: key as string,
+        value: value as string,
+      };
+    });
+    return selectable;
+  });
+};
+
 const MultiFilterItem: React.SFC<IMultiFilterItem> = ({
   classes,
   field,
   filter,
   setMultiFilter,
   selected,
+  placeHolder,
 }) => {
+  const selectable = makeSelectable(filter);
   return (
     <FilterBox label={LABEL[field].toUpperCase()}>
-      <FormControl classes={{ root: classes.formControl }}>
-        <Select
-          autoWidth
-          classes={{
-            select: classes.select,
-            icon: classes.icon,
-          }}
-          disableUnderline
-          multiple
-          MenuProps={{
-            classes: {
-              paper: classes.menu,
-            },
-          }}
-          value={selected || []}
-          onChange={e => setMultiFilter(field, e.target.value as any)}
-        >
-          {filter.map(item => {
-            return Object.entries(item).map(([label, value]) => (
-              <MenuItem key={label} value={value} className={classes.menuItem}>
-                {label}
-              </MenuItem>
-            ));
-          })}
-        </Select>
-      </FormControl>
+      <SimpleSelect
+        autoWidth
+        disableUnderline
+        displayEmpty={false}
+        multiple
+        items={selectable}
+        selected={selected || []}
+        onChange={(e: any) => {
+          setMultiFilter(field, e.target.value as any);
+        }}
+      />
     </FilterBox>
   );
 };

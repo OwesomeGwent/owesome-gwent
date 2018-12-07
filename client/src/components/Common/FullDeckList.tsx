@@ -3,14 +3,16 @@ import styled from 'styled-components';
 import { DeckCost, DeckLeader, DeckList } from '.';
 import { CardData } from '../../../../shared/ICardData';
 import { CardLocaleDataList } from '../../../../shared/ILocaleData';
+import { factionColor } from '../../helpers/color';
 import { IDeckCard, IDeckCost } from '../../types/deck';
 import { Card, CardDetail } from '../CardFinder';
 import { WithPopover } from '../Common';
 
-const Container = styled.div`
+const Container = styled('div')<{ faction: string }>`
   width: 100%;
   color: #fefefe;
   font-weight: 600;
+  background-color: ${({ faction }) => factionColor[faction] || 'inherit'};
 `;
 const CardWrapper = styled.div`
   position: relative;
@@ -21,6 +23,7 @@ const DetailWrapper = styled.div`
 `;
 const NoLeader = styled.h2`
   color: white;
+  text-align: center;
 `;
 const Owesome = styled.div`
   width: 100%;
@@ -38,8 +41,11 @@ export interface IDeckListProps {
 class FullDeckList extends React.Component<IDeckListProps> {
   public render() {
     const { cards, cost, detail, leader, onCardClick } = this.props;
+    if (!leader) {
+      return null;
+    }
     return (
-      <Container>
+      <Container faction={leader.faction}>
         {leader === undefined ? (
           <NoLeader>Choose Your Leader 👍</NoLeader>
         ) : (

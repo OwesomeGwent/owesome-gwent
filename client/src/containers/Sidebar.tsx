@@ -59,12 +59,6 @@ interface ISidebarProps {
 interface ISidebarState {
   deckName: string;
 }
-const NoLeader = styled.h2`
-  color: white;
-`;
-const DefaultMargin = styled.div`
-  margin-top: 20px;
-`;
 const Label = styled.label`
   color: white;
 `;

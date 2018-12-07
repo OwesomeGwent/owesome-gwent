@@ -43,6 +43,7 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
   private observer: IntersectionObserver | undefined;
   private target = React.createRef<HTMLDivElement>();
   private prevTop: number = 0;
+  private unmounted = false;
   public componentDidMount() {
     // ItersectionObserver 등록
     if (this.target.current) {
@@ -64,6 +65,9 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
       // filter 변경시 scroll To Top
       window.scrollTo(0, 0);
     }
+  }
+  public componentWillUnmount() {
+    this.unmounted = true;
   }
   // 덱 빌딩 상태일때 카드를 추가하는 용도로 사용
   public onClickCard = (card: CardData) => (e: React.MouseEvent) => {
@@ -97,7 +101,7 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
   };
   public getNextPage = (page: number) => {
     const { normalFilteredCards } = this.props;
-    if (normalFilteredCards) {
+    if (normalFilteredCards && !this.unmounted) {
       const next = Math.min((page + 1) * PER_PAGE, normalFilteredCards.length);
       const cards = normalFilteredCards.slice(0, next);
       this.setState((state: ICardListState) => ({

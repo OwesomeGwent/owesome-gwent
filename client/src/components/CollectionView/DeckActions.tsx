@@ -39,10 +39,10 @@ const DeckActions: React.SFC<IDeckActionsProps> = ({
             color="#e48a3a"
             onClick={async () => openModal(await getImage())}
           >
-            📸 Show Image Snapshot
+            Show 📸
           </Button>
           <Button color="#e48a3a" onClick={downloadSnapshot}>
-            📸 Download Image Snapshot
+            Download 📸
           </Button>
           <Button color="#05ac7c" onClick={copyUrl}>
             Copy link

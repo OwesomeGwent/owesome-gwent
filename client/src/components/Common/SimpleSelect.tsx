@@ -20,13 +20,17 @@ const styles = (theme: Theme) =>
         color: theme.palette.primary.contrastText,
       },
     },
-    formControl: {
-      minWidth: 150,
+    input: {
+      '&$focused': {
+        borderRadius: 10,
+      },
     },
     select: {
-      width: 150,
+      minWidth: 110,
+      fontSize: 14,
       color: theme.palette.primary.contrastText,
       border: `1px solid ${theme.palette.primary.contrastText}`,
+      borderRadius: '10px',
       padding: 10,
     },
     icon: {
@@ -52,7 +56,7 @@ export interface ISimpleSelectProps extends WithStyles<typeof styles> {
   selected: string | string[];
   items: Item[];
   placeHolder?: string;
-  handleChange: (value: string) => void;
+  handleChange?: (value: string) => void;
 }
 const MultiFilterItem: React.SFC<ISimpleSelectProps & SelectProps> = ({
   classes,
@@ -66,7 +70,7 @@ const MultiFilterItem: React.SFC<ISimpleSelectProps & SelectProps> = ({
     return null;
   }
   return (
-    <FormControl classes={{ root: classes.formControl }}>
+    <FormControl>
       <Select
         autoWidth
         classes={{
@@ -75,21 +79,28 @@ const MultiFilterItem: React.SFC<ISimpleSelectProps & SelectProps> = ({
         }}
         disableUnderline
         displayEmpty
+        SelectDisplayProps={{
+          style: { borderRadius: 10 },
+        }}
         MenuProps={{
           classes: {
             paper: classes.menu,
           },
         }}
         value={selected || []}
-        onChange={(e: React.ChangeEvent<HTMLSelectElement>) =>
-          handleChange(e.target.value)
-        }
+        onChange={(e: React.ChangeEvent<HTMLSelectElement>) => {
+          if (handleChange) {
+            handleChange(e.target.value);
+          }
+        }}
         {...props}
       >
-        <MenuItem value="">
-          <em>{placeHolder}</em>
-        </MenuItem>
-        {items.map(item => (
+        {placeHolder && (
+          <MenuItem value="">
+            <em>{placeHolder}</em>
+          </MenuItem>
+        )}
+        {items.map((item: Item) => (
           <MenuItem
             key={item.value}
             value={item.value}

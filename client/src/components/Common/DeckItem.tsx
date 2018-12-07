@@ -37,10 +37,16 @@ const CardInner = styled.div`
   background-color: rgba(0, 0, 0, 0.6);
 `;
 const CardBack = styled.div`
-  padding: 5px 10px;
+  padding: 5px;
   background-color: rgba(0, 0, 0, 0.5);
 
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+
+  span {
+    margin-right: 3px;
+  }
 `;
 export interface IDeckItemProps extends React.HTMLAttributes<HTMLDivElement> {
   artId: string;
@@ -61,14 +67,16 @@ const DeckItem: React.SFC<IDeckItemProps> = ({
     >
       <CardInner type={card.type}>
         <CardBack>
-          <span>{card.strength > 0 && card.strength}</span>
-          <span> {name}</span>
+          <span>
+            {card.strength > 0 ? card.strength : '✨'} {name}
+          </span>
         </CardBack>
         <CardBack>
           <img src={Provision} />
-          <span>{card.provision}</span>
+          <span> {card.provision}</span>
+          <span> </span>
           <img src={Card} />
-          <span>{card.cardCount}</span>
+          <span> {card.cardCount}</span>
         </CardBack>
       </CardInner>
     </SelectedCardWrapper>

@@ -10,6 +10,7 @@ import {
 import React from 'react';
 import { FilterBox } from '.';
 import { FilterField, filterSet, FilterType } from '../../types/filter';
+import { SimpleSelect } from '../Common';
 
 const styles = (theme: Theme) =>
   createStyles({
@@ -26,6 +27,14 @@ export interface IFilterItem extends WithStyles<typeof styles> {
   setFilter: (field: FilterField, value: FilterType) => void;
   selected?: FilterType;
 }
+const makeSelectable = (filter: any) => {
+  return Object.entries(filter).map(([key, value]) => {
+    return {
+      label: value as string,
+      value: value as string,
+    };
+  });
+};
 const FilterItem: React.SFC<IFilterItem> = ({
   classes,
   filter,
@@ -33,28 +42,16 @@ const FilterItem: React.SFC<IFilterItem> = ({
   selected,
 }) => {
   const filterEnum = filterSet[filter];
+  const selectable = makeSelectable(filterEnum);
   return (
     <FilterBox label={filter.toUpperCase()}>
       <FormGroup row>
-        {Object.entries(filterEnum).map(([field, value], i) => {
-          return (
-            <FormControlLabel
-              key={i}
-              control={
-                <Checkbox
-                  type="radio"
-                  checked={!!selected && selected === value}
-                  classes={{
-                    root: classes.root,
-                    checked: classes.checked,
-                  }}
-                  onClick={() => setFilter(filter, value as FilterType)}
-                />
-              }
-              label={<span className={classes.root}>{filterEnum[field]} </span>}
-            />
-          );
-        })}
+        <SimpleSelect
+          selected={selected ? selected : ''}
+          items={selectable}
+          handleChange={value => setFilter(filter, value as FilterType)}
+          placeHolder={`Select ${filter}`}
+        />
       </FormGroup>
     </FilterBox>
   );

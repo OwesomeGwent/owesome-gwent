@@ -1,12 +1,9 @@
-import Drawer from '@material-ui/core/Drawer';
 import {
   createStyles,
   Theme,
   WithStyles,
   withStyles,
 } from '@material-ui/core/styles';
-import Close from '@material-ui/icons/Close';
-import FilterList from '@material-ui/icons/FilterList';
 import React from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
@@ -17,7 +14,6 @@ import {
   MultiFilterItem,
   SearchFilter,
 } from '../components/Filter';
-import { media } from '../helpers/media';
 import { IRootState } from '../reducers';
 import { getMultiFilterByLocale } from '../selectors/filter';
 import {
@@ -29,20 +25,32 @@ import {
   MultiFilterField,
 } from '../types/filter';
 import { ThunkFunc } from '../types/thunk';
-
-const FilterButton = styled.div`
-  position: fixed;
-  top: 70px;
-  right: 5px;
-
-  @media (max-width: ${media.phone}px) {
-    top: '';
-    bottom: 10px;
-  }
+const Container = styled('div')<{ open: boolean }>`
+  position: sticky;
+  top: 64px;
+  padding: 10px;
+  margin-top: 5px;
+  z-index: 1000;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+  background-color: #121315;
+  background-image: url(/img/background/bg.jpg);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+  max-height: 1000px;
+  ${props =>
+    !props.open &&
+    `
+      padding: 0px;
+      max-height: 0px;
+    `}
+  transition: all 0.3s ease-in-out;
 `;
-const CloseButton = styled.div`
-  width: 100%;
-  text-align: right;
+const OpenButton = styled.div`
+  position: sticky;
+  top: 64px;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
 `;
 const styles = (theme: Theme) =>
   createStyles({
@@ -62,14 +70,13 @@ export interface IFilterProps extends WithStyles<typeof styles> {
 }
 class Filter extends React.Component<IFilterProps> {
   public state = {
-    open: false,
+    open: true,
   };
   public openFilter = () => this.setState({ open: true });
   public closeFilter = () => this.setState({ open: false });
   public render() {
     const { open } = this.state;
     const {
-      classes,
       filter,
       multiFilter,
       search,
@@ -79,19 +86,14 @@ class Filter extends React.Component<IFilterProps> {
     } = this.props;
     return (
       <>
-        <FilterButton>
-          <Button onClick={this.openFilter}>
-            <FilterList />
+        <Container open={open}>
+          <Button
+            color="#f9748a"
+            style={{ float: 'right', minWidth: 50, fontSize: 14 }}
+            onClick={this.closeFilter}
+          >
+            Close
           </Button>
-        </FilterButton>
-        <Drawer
-          anchor="top"
-          open={open}
-          onClose={this.closeFilter}
-          PaperProps={{
-            className: classes.paper,
-          }}
-        >
           {Object.keys(filterSet).map(field => {
             const asserted = field as FilterField;
             return (
@@ -112,16 +114,22 @@ class Filter extends React.Component<IFilterProps> {
                 filter={multiFilter[asserted]}
                 setMultiFilter={setMultiFilter}
                 selected={filter[asserted]}
+                placeHolder={`Select ${field}`}
               />
             );
           })}
           <SearchFilter search={search} setSearch={setSearchFilter} />
-          <CloseButton>
-            <Button onClick={this.closeFilter}>
-              <Close />
+        </Container>
+        {!open && (
+          <OpenButton>
+            <Button
+              onClick={this.openFilter}
+              style={{ float: 'right', minWidth: 50, fontSize: 14 }}
+            >
+              👐 Open
             </Button>
-          </CloseButton>
-        </Drawer>
+          </OpenButton>
+        )}
       </>
     );
   }

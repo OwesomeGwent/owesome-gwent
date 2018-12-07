@@ -30,11 +30,9 @@ const CardInner = styled.div`
     type === 'Gold'
       ? `
       color: #d19632;
-      border: 1px solid #d19432;
     `
       : `
       color: #9b5140;
-      border: 1px solid #9b5140;
     `};
   background-color: rgba(0, 0, 0, 0.6);
 `;

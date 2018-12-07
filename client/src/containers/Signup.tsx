@@ -23,7 +23,7 @@ const TextWithLink = styled.div`
   width: 100%;
   color: white;
   text-align: right;
-  margin-top: 10px;
+  margin: auto;
   span {
     color: #1f90df;
     cursor: pointer;

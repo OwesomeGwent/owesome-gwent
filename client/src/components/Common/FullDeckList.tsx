@@ -9,6 +9,7 @@ import { WithPopover } from '../Common';
 
 const Container = styled.div`
   width: 100%;
+  color: #fefefe;
   font-weight: 600;
 `;
 const CardWrapper = styled.div`
@@ -23,7 +24,9 @@ const NoLeader = styled.h2`
 `;
 const Owesome = styled.div`
   width: 100%;
+  box-sizing: border-box;
   text-align: right;
+  padding: 10px 5px;
 `;
 export interface IDeckListProps {
   cards: IDeckCard[];

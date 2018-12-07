@@ -1,7 +1,16 @@
 import html2canvas from 'html2canvas';
 import React, { createRef } from 'react';
-import { Status } from '../../types/status';
+import styled from 'styled-components';
 
+const ImageContainer = styled.div`
+  min-width: 350px;
+`;
+const Text = styled.div`
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+`;
 interface IRenderProps {
   downloadSnapshot: (filename: string) => void;
   getImage: () => Promise<React.ReactNode>;
@@ -18,7 +27,8 @@ class Snapshot extends React.Component<ISnapshotProps> {
         backgroundColor: '#121315', // transparent
         useCORS: true, // cloudinary 이미지
         logging: false,
-        scale: 2, // quality
+        width: 300,
+        scale: 1,
       };
       return html2canvas(this.container.current as HTMLElement, option);
     }
@@ -28,12 +38,11 @@ class Snapshot extends React.Component<ISnapshotProps> {
     if (canvas) {
       const src = canvas.toDataURL();
       return (
-        <div style={{}}>
-          <h2 style={{ color: 'white', textAlign: 'center' }}>
-            You can copy to share!
-          </h2>
-          <img width={380} src={src} alt="deck image" />
-        </div>
+        <ImageContainer>
+          <Text>📸</Text>
+          <Text>Copy below image to share!</Text>
+          <img width={300} src={src} alt="deck image" />
+        </ImageContainer>
       );
     }
     return <div>Fail to convert to image.</div>;

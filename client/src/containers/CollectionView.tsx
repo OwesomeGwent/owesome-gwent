@@ -46,7 +46,7 @@ const MainHeader = styled.h2`
   text-align: center;
 `;
 const List = styled.div`
-  flex-basis: 400px;
+  flex-basis: 300px;
   margin-right: 20px;
 `;
 const Detail = styled.div`

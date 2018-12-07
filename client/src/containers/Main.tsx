@@ -6,7 +6,7 @@ import { CardFinder, Filter, Sidebar } from '.';
 const Side = styled.div`
   flex: 0;
   justify-content: center;
-  flex-basis: 400px;
+  flex-basis: 320px;
   margin-right: 20px;
 `;
 

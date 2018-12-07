@@ -8,9 +8,7 @@ interface IWithModalState {
 }
 const getModalStyle = (): CSSProperties => ({
   display: 'flex',
-  alignItems: 'center',
   justifyContent: 'center',
-  maxHeight: '80vh',
   overflowY: 'auto',
 });
 class Modal extends Component<{}, IWithModalState> {

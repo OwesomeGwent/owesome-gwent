@@ -7,12 +7,10 @@ import {
   CategoryLocaleDataList,
 } from '../../../shared/ILocaleData';
 import * as DeckActions from '../actions/deck';
+import { FullDeckList, Snapshot } from '../components/Common';
 import {
-  CostList,
   DeckButtons,
-  DeckList,
   FloatingBox,
-  LeaderView,
   StateToggleBox,
 } from '../components/Sidebar';
 import { checkDeckCost } from '../helpers/deck';
@@ -79,6 +77,7 @@ const DeckName = styled.input`
   color: white;
   min-height: 60px;
   font-size: 20px;
+  margin-bottom: 20px;
 `;
 class Sidebar extends Component<ISidebarProps, ISidebarState> {
   public state = {
@@ -182,37 +181,37 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
     }
     return (
       <FloatingBox>
-        {deck.leader === undefined ? (
-          <NoLeader>Choose Your Leader 👍</NoLeader>
-        ) : (
-          <LeaderView
-            artId={deck.leader.variations[0].art}
-            name={detail[deck.leader.ingameId].name}
-          />
-        )}
-        <DefaultMargin>
-          <Label htmlFor="deck_name">Deck Name</Label>
-          <DeckName
-            id="deck_name"
-            placeholder={this.getDeckName()}
-            value={deckName}
-            onChange={this.handleNameChange}
-          />
-        </DefaultMargin>
-        <CostList
-          count={deckCost.count}
-          craft={deckCost.craft}
-          provision={deckCost.provision}
+        <Label htmlFor="deck_name">Deck Name</Label>
+        <DeckName
+          id="deck_name"
+          placeholder={this.getDeckName()}
+          value={deckName}
+          onChange={this.handleNameChange}
         />
-        <DeckList cards={deckCards} detail={detail} removeCard={removeCard} />
-        <DeckButtons
-          status={currentDeck.id ? updateStatus : addStatus}
-          addOrUpdateDeck={this.addOrUpdateDeck}
-          closeDeckBuilder={this.closeDeckBuilder}
-          copyDeckUrl={this.copyDeckUrl}
-          loggedIn={loggedIn}
-          leader={deck.leader}
-        />
+        <Snapshot>
+          {({ downloadSnapshot, wrapper }) => (
+            <>
+              {wrapper(
+                <FullDeckList
+                  cards={deckCards}
+                  cost={deckCost}
+                  detail={detail}
+                  leader={deck.leader}
+                  onCardClick={removeCard}
+                />,
+              )}
+              <DeckButtons
+                status={currentDeck.id ? updateStatus : addStatus}
+                addOrUpdateDeck={this.addOrUpdateDeck}
+                closeDeckBuilder={this.closeDeckBuilder}
+                copyDeckUrl={this.copyDeckUrl}
+                downloadSnapshot={() => downloadSnapshot(this.getDeckName())}
+                loggedIn={loggedIn}
+                leader={deck.leader}
+              />
+            </>
+          )}
+        </Snapshot>
       </FloatingBox>
     );
   }

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { DeckChart } from '.';
 import { factionColor } from '../../helpers/color';
 import { IDeckCard, IDeckCost } from '../../types/deck';
-import { CostList } from '../Sidebar';
+import { DeckCost } from '../Common';
 
 const DetailItem = styled.div`
   padding: 1rem;
@@ -50,7 +50,7 @@ const DeckDetail: React.SFC<IDeckDetailProps> = ({ cards, cost, faction }) => {
       <DetailItem>
         <Header>Cost</Header>
         <Cost>
-          <CostList {...cost} />
+          <DeckCost {...cost} />
         </Cost>
       </DetailItem>
       <DetailItem>

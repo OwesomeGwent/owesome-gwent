@@ -9,9 +9,9 @@ import {
   DeckActions,
   DeckDetail,
   DeckInfo,
-  DeckList,
   DeckTitle,
 } from '../components/CollectionView';
+import { FullDeckList, Snapshot } from '../components/Common';
 import { sortByProvision } from '../helpers/card';
 import { getDeckCost, makeDeckCards } from '../helpers/deck';
 import { copyUrl, parseUrl } from '../helpers/deckUrl';
@@ -172,33 +172,45 @@ class CollectionView extends React.Component<
       return null;
     }
     return (
-      <Container>
-        <Header>
-          <Action>
-            <DeckActions
-              addStatus={addStatus}
-              starStatus={starStatus}
-              addDeck={this.addDeck}
-              starDeck={this.starDeck}
-              copyUrl={this.copyUrl}
-              startDeckBuilding={this.startDeckBuilding}
-              loggedIn={loggedIn}
-            />
-          </Action>
-          <DeckTitle leader={leader} {...deck} />
-          <DeckInfo {...deck} />
-        </Header>
-        <Main>
-          <List>
-            <MainHeader>List</MainHeader>
-            <DeckList cards={cards} detail={detail} />
-          </List>
-          <Detail>
-            <MainHeader>Detail</MainHeader>
-            <DeckDetail {...leader} cards={cards} cost={cost} />
-          </Detail>
-        </Main>
-      </Container>
+      <Snapshot>
+        {({ downloadSnapshot, wrapper }) => (
+          <Container>
+            <Header>
+              <Action>
+                <DeckActions
+                  addStatus={addStatus}
+                  starStatus={starStatus}
+                  addDeck={this.addDeck}
+                  starDeck={this.starDeck}
+                  copyUrl={this.copyUrl}
+                  downloadSnapshot={() => downloadSnapshot(deck.name)}
+                  startDeckBuilding={this.startDeckBuilding}
+                  loggedIn={loggedIn}
+                />
+              </Action>
+              <DeckTitle leader={leader} {...deck} />
+              <DeckInfo {...deck} />
+            </Header>
+            <Main>
+              <List>
+                <MainHeader>List</MainHeader>
+                {wrapper(
+                  <FullDeckList
+                    cards={cards}
+                    detail={detail}
+                    leader={leader}
+                    cost={cost}
+                  />,
+                )}
+              </List>
+              <Detail>
+                <MainHeader>Detail</MainHeader>
+                <DeckDetail {...leader} cards={cards} cost={cost} />
+              </Detail>
+            </Main>
+          </Container>
+        )}
+      </Snapshot>
     );
   }
 }

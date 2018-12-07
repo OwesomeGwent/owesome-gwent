@@ -21,6 +21,11 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     background-color: #121315;
     background-image: url(/img/background/bg.jpg);
+    font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    word-wrap: break-word;
+    word-break: keep-all;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   main {
     display: block;

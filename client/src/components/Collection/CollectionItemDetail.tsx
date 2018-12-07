@@ -5,7 +5,7 @@ import { Faction } from '../../../../shared/ICardData';
 import { factionColor } from '../../helpers/color';
 import { IRootState } from '../../reducers';
 import { IDetails, makeGetDetails } from '../../selectors/collection';
-import { CostList } from '../Sidebar';
+import { DeckCost } from '../Common';
 const Container = styled.div`
   min-width: 300px;
   padding: 10px;
@@ -31,7 +31,7 @@ const CollectionItemDetail: React.SFC<ICollectionItemDetail & IMapState> = ({
       <FactionName faction={details.faction as Faction}>
         <span>{details.faction}</span>
       </FactionName>
-      <CostList {...details} />
+      <DeckCost {...details} />
     </Container>
   );
 };

@@ -6,6 +6,7 @@ export interface IDeckActionsProps {
   addDeck: () => void;
   starDeck: () => void;
   copyUrl: () => void;
+  downloadSnapshot: () => void;
   startDeckBuilding: () => void;
   addStatus: Status;
   starStatus: Status;
@@ -15,6 +16,7 @@ const DeckActions: React.SFC<IDeckActionsProps> = ({
   addDeck,
   starDeck,
   copyUrl,
+  downloadSnapshot,
   startDeckBuilding,
   addStatus,
   starStatus,
@@ -30,6 +32,9 @@ const DeckActions: React.SFC<IDeckActionsProps> = ({
             onClick={loggedIn ? starDeck : openLogin}
           >
             🌟 Star
+          </Button>
+          <Button color="#e48a3a" onClick={downloadSnapshot}>
+            📸 Download Image Snapshot
           </Button>
           <Button color="#05ac7c" onClick={copyUrl}>
             Copy link

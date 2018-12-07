@@ -40,6 +40,9 @@ const CardInner = styled.div`
 `;
 const CardBack = styled.div`
   padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  border-radius: 10px;
 `;
 export interface IDeckItemProps extends React.HTMLAttributes<HTMLDivElement> {
   artId: string;

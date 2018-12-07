@@ -3,12 +3,12 @@ import styled from 'styled-components';
 
 const Box = styled.div`
   display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin: 5px;
-  padding: 10px;
+  box-sizing: border-box;
   vertical-align: middle;
   min-height: 70px;
+  color: #fefefe;
+  padding: 5px;
+  font-size: 14px;
 `;
 
 export interface IFilterBoxProps {

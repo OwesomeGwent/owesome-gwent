@@ -2,11 +2,16 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import styled from 'styled-components';
 import { Collection, CollectionView, Main } from '.';
+import { media } from '../helpers/media';
 
 const HomeRouter = styled.div`
   display: flex;
   width: 80%;
   margin: auto;
+
+  @media (max-width: ${media.phone}px) {
+    flex-wrap: wrap;
+  }
 `;
 
 const Section: React.SFC = props => {

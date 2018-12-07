@@ -17,6 +17,7 @@ import {
   MultiFilterItem,
   SearchFilter,
 } from '../components/Filter';
+import { media } from '../helpers/media';
 import { IRootState } from '../reducers';
 import { getMultiFilterByLocale } from '../selectors/filter';
 import {
@@ -33,6 +34,11 @@ const FilterButton = styled.div`
   position: fixed;
   top: 70px;
   right: 5px;
+
+  @media (max-width: ${media.phone}px) {
+    top: '';
+    bottom: 10px;
+  }
 `;
 const CloseButton = styled.div`
   width: 100%;
@@ -127,9 +133,12 @@ const mapStateToProps = (state: IRootState) => ({
   multiFilter: getMultiFilterByLocale(state),
 });
 const mapDispatchToProps = (dispatch: ThunkFunc) => ({
-  setFilter: (field: FilterField, value: FilterType) => dispatch(filterAction.setFilter(field, value)),
-  setMultiFilter: (field: MultiFilterField, values: string[]) => dispatch(filterAction.setMultiFilter(field, values)),
-  setSearchFilter: (search: string) => dispatch(filterAction.setSearchFilter(search)),
+  setFilter: (field: FilterField, value: FilterType) =>
+    dispatch(filterAction.setFilter(field, value)),
+  setMultiFilter: (field: MultiFilterField, values: string[]) =>
+    dispatch(filterAction.setMultiFilter(field, values)),
+  setSearchFilter: (search: string) =>
+    dispatch(filterAction.setSearchFilter(search)),
   clearFilter: () => dispatch(filterAction.clearFilter),
 });
 export default withStyles(styles)(

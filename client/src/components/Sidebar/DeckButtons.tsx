@@ -7,6 +7,7 @@ export interface IDeckButtonsProps {
   closeDeckBuilder: () => void;
   copyDeckUrl: () => void;
   downloadSnapshot: () => void;
+  getImage: () => Promise<React.ReactNode>;
   status: Status;
   loggedIn: boolean;
   leader: CardData | undefined;
@@ -16,13 +17,21 @@ const DeckButtons: React.SFC<IDeckButtonsProps> = ({
   closeDeckBuilder,
   copyDeckUrl,
   downloadSnapshot,
+  getImage,
   status,
   loggedIn,
   leader,
 }) => (
   <AuthModal
-    render={({ openLogin }) => (
+    render={({ openLogin, openModal }) => (
       <>
+        <Button
+          color="#e48a3a"
+          fullWidth
+          onClick={async () => openModal(await getImage())}
+        >
+          📸 Show Image Snapshot
+        </Button>
         <Button color="#e48a3a" fullWidth onClick={downloadSnapshot}>
           📸 Download Image Snapshot
         </Button>

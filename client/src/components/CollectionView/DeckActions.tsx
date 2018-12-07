@@ -8,6 +8,7 @@ export interface IDeckActionsProps {
   copyUrl: () => void;
   downloadSnapshot: () => void;
   startDeckBuilding: () => void;
+  getImage: () => Promise<React.ReactNode>;
   addStatus: Status;
   starStatus: Status;
   loggedIn: boolean;
@@ -17,6 +18,7 @@ const DeckActions: React.SFC<IDeckActionsProps> = ({
   starDeck,
   copyUrl,
   downloadSnapshot,
+  getImage,
   startDeckBuilding,
   addStatus,
   starStatus,
@@ -24,7 +26,7 @@ const DeckActions: React.SFC<IDeckActionsProps> = ({
 }) => {
   return (
     <AuthModal
-      render={({ openLogin }) => (
+      render={({ openLogin, openModal }) => (
         <>
           <Button
             color="#f6ad0d"
@@ -32,6 +34,12 @@ const DeckActions: React.SFC<IDeckActionsProps> = ({
             onClick={loggedIn ? starDeck : openLogin}
           >
             🌟 Star
+          </Button>
+          <Button
+            color="#e48a3a"
+            onClick={async () => openModal(await getImage())}
+          >
+            📸 Show Image Snapshot
           </Button>
           <Button color="#e48a3a" onClick={downloadSnapshot}>
             📸 Download Image Snapshot

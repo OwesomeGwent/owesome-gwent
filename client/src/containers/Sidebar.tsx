@@ -189,7 +189,7 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
           onChange={this.handleNameChange}
         />
         <Snapshot>
-          {({ downloadSnapshot, wrapper }) => (
+          {({ downloadSnapshot, getImage, wrapper }) => (
             <>
               {wrapper(
                 <FullDeckList
@@ -206,6 +206,7 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
                 closeDeckBuilder={this.closeDeckBuilder}
                 copyDeckUrl={this.copyDeckUrl}
                 downloadSnapshot={() => downloadSnapshot(this.getDeckName())}
+                getImage={getImage}
                 loggedIn={loggedIn}
                 leader={deck.leader}
               />

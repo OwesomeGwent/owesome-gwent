@@ -8,6 +8,8 @@ export interface IAuthModalProps {
 interface IAuthModal {
   openLogin: () => void;
   openSignup: () => void;
+  openModal: (children: React.ReactNode) => void;
+  closeModal: () => void;
 }
 class AuthModal extends React.Component<IAuthModalProps> {
   public openLogin = (
@@ -41,6 +43,8 @@ class AuthModal extends React.Component<IAuthModalProps> {
           return this.props.render({
             openLogin: this.openLogin(openModal, closeModal),
             openSignup: this.openSignup(openModal, closeModal),
+            openModal,
+            closeModal,
           });
         }}
       </ModalContext.Consumer>

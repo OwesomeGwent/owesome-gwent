@@ -21,6 +21,10 @@ const DetailWrapper = styled.div`
 const NoLeader = styled.h2`
   color: white;
 `;
+const Owesome = styled.div`
+  width: 100%;
+  text-align: right;
+`;
 export interface IDeckListProps {
   cards: IDeckCard[];
   cost: IDeckCost;
@@ -69,6 +73,7 @@ class FullDeckList extends React.Component<IDeckListProps> {
         )}
         <DeckCost {...cost} />
         <DeckList cards={cards} detail={detail} onCardClick={onCardClick} />
+        <Owesome>🚀 Owesome</Owesome>
       </Container>
     );
   }

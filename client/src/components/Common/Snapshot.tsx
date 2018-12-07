@@ -4,6 +4,7 @@ import { Status } from '../../types/status';
 
 interface IRenderProps {
   downloadSnapshot: (filename: string) => void;
+  getImage: () => Promise<React.ReactNode>;
   wrapper: (node: React.ReactNode) => React.ReactNode;
 }
 export interface ISnapshotProps {
@@ -21,6 +22,21 @@ class Snapshot extends React.Component<ISnapshotProps> {
       };
       return html2canvas(this.container.current as HTMLElement, option);
     }
+  };
+  public getImage = async () => {
+    const canvas = await this.snapshot();
+    if (canvas) {
+      const src = canvas.toDataURL();
+      return (
+        <div style={{}}>
+          <h2 style={{ color: 'white', textAlign: 'center' }}>
+            You can copy to share!
+          </h2>
+          <img width={380} src={src} alt="deck image" />
+        </div>
+      );
+    }
+    return <div>Fail to convert to image.</div>;
   };
   public downloadSnapshot = (filename: string) => {
     const snapshot = this.snapshot();
@@ -47,6 +63,7 @@ class Snapshot extends React.Component<ISnapshotProps> {
       <>
         {this.props.children({
           downloadSnapshot: this.downloadSnapshot,
+          getImage: this.getImage,
           wrapper,
         })}
       </>

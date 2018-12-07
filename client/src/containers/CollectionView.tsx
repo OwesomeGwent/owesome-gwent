@@ -173,7 +173,7 @@ class CollectionView extends React.Component<
     }
     return (
       <Snapshot>
-        {({ downloadSnapshot, wrapper }) => (
+        {({ downloadSnapshot, getImage, wrapper }) => (
           <Container>
             <Header>
               <Action>
@@ -184,6 +184,7 @@ class CollectionView extends React.Component<
                   starDeck={this.starDeck}
                   copyUrl={this.copyUrl}
                   downloadSnapshot={() => downloadSnapshot(deck.name)}
+                  getImage={getImage}
                   startDeckBuilding={this.startDeckBuilding}
                   loggedIn={loggedIn}
                 />

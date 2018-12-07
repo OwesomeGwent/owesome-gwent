@@ -1,15 +1,17 @@
 import UIModal from '@material-ui/core/Modal';
-import React, { Component } from 'react';
+import React, { Component, CSSProperties } from 'react';
 import { ModalContext } from '../contexts';
 
 interface IWithModalState {
   open: boolean;
   comp: React.ReactNode;
 }
-const getModalStyle = () => ({
+const getModalStyle = (): CSSProperties => ({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
+  maxHeight: '80vh',
+  overflowY: 'auto',
 });
 class Modal extends Component<{}, IWithModalState> {
   public state = {

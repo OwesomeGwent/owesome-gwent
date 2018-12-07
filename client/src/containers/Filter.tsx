@@ -11,7 +11,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
 import * as filterAction from '../actions/filter';
-import { Button } from '../components/Common';
+import { Button, FloatingBox } from '../components/Common';
 import {
   FilterItem,
   MultiFilterItem,
@@ -52,6 +52,7 @@ const styles = (theme: Theme) =>
     },
   });
 export interface IFilterProps extends WithStyles<typeof styles> {
+  isMobile: boolean;
   search: string;
   filter: IFilter;
   multiFilter: IMultiFilter;
@@ -76,7 +77,39 @@ class Filter extends React.Component<IFilterProps> {
       setFilter,
       setMultiFilter,
       setSearchFilter,
+      isMobile,
     } = this.props;
+    const MainFilter = (
+      <>
+        {Object.keys(filterSet).map(field => {
+          const asserted = field as FilterField;
+          return (
+            <FilterItem
+              key={field}
+              filter={asserted}
+              setFilter={setFilter}
+              selected={filter[asserted]}
+            />
+          );
+        })}
+        {Object.keys(multiFilter).map(field => {
+          const asserted = field as MultiFilterField;
+          return (
+            <MultiFilterItem
+              key={field}
+              field={asserted}
+              filter={multiFilter[asserted]}
+              setMultiFilter={setMultiFilter}
+              selected={filter[asserted]}
+            />
+          );
+        })}
+        <SearchFilter search={search} setSearch={setSearchFilter} />
+      </>
+    );
+    if (!isMobile) {
+      return <FloatingBox>{MainFilter}</FloatingBox>;
+    }
     return (
       <>
         <FilterButton>
@@ -92,30 +125,7 @@ class Filter extends React.Component<IFilterProps> {
             className: classes.paper,
           }}
         >
-          {Object.keys(filterSet).map(field => {
-            const asserted = field as FilterField;
-            return (
-              <FilterItem
-                key={field}
-                filter={asserted}
-                setFilter={setFilter}
-                selected={filter[asserted]}
-              />
-            );
-          })}
-          {Object.keys(multiFilter).map(field => {
-            const asserted = field as MultiFilterField;
-            return (
-              <MultiFilterItem
-                key={field}
-                field={asserted}
-                filter={multiFilter[asserted]}
-                setMultiFilter={setMultiFilter}
-                selected={filter[asserted]}
-              />
-            );
-          })}
-          <SearchFilter search={search} setSearch={setSearchFilter} />
+          {MainFilter}
           <CloseButton>
             <Button onClick={this.closeFilter}>
               <Close />

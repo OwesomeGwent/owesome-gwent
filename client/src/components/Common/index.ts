@@ -7,6 +7,7 @@ import DeckLeader from './DeckLeader';
 import DeckList from './DeckList';
 import Field from './Field';
 import FlipCard from './FlipCard';
+import FloatingBox from './FloatingBox';
 import Form from './Form';
 import FullDeckList from './FullDeckList';
 import Loading from './Loading';
@@ -25,6 +26,7 @@ export {
   DeckLeader,
   DeckList,
   FlipCard,
+  FloatingBox,
   Field,
   Form,
   FullDeckList,

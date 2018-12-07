@@ -7,12 +7,8 @@ import {
   CategoryLocaleDataList,
 } from '../../../shared/ILocaleData';
 import * as DeckActions from '../actions/deck';
-import { FullDeckList, Snapshot } from '../components/Common';
-import {
-  DeckButtons,
-  FloatingBox,
-  StateToggleBox,
-} from '../components/Sidebar';
+import { FloatingBox, FullDeckList, Snapshot } from '../components/Common';
+import { DeckButtons, StateToggleBox } from '../components/Sidebar';
 import { checkDeckCost } from '../helpers/deck';
 import { copyUrl, getDeckUrl } from '../helpers/deckUrl';
 import { history } from '../helpers/history';

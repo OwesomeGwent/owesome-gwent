@@ -133,6 +133,9 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
     notify.notify({ message, type });
   };
   public closeDeckBuilder = () => {
+    if (!this.props.deckUrl) {
+      this.props.resetDeck();
+    }
     history.push('/');
   };
   public copyDeckUrl = () => {

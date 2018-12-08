@@ -8,11 +8,11 @@ import { IDeckCard, IDeckCost } from '../../types/deck';
 import { Card, CardDetail } from '../CardFinder';
 import { WithPopover } from '../Common';
 
-const Container = styled('div')<{ faction: string }>`
+const Container = styled('div')<{ faction: string | undefined }>`
   width: 100%;
   color: #fefefe;
   font-weight: 600;
-  background-color: ${({ faction }) => factionColor[faction] || 'inherit'};
+  background-color: ${({ faction }) => faction ? factionColor[faction] : 'inherit'};
 `;
 const CardWrapper = styled.div`
   position: relative;
@@ -41,11 +41,8 @@ export interface IDeckListProps {
 class FullDeckList extends React.Component<IDeckListProps> {
   public render() {
     const { cards, cost, detail, leader, onCardClick } = this.props;
-    if (!leader) {
-      return null;
-    }
     return (
-      <Container faction={leader.faction}>
+      <Container faction={leader ? leader.faction : undefined}>
         {leader === undefined ? (
           <NoLeader>Choose Your Leader 👍</NoLeader>
         ) : (

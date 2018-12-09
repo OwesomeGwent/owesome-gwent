@@ -15,7 +15,6 @@
     "clean:build": "cd client && rm -rf build",
     "client:build": "cd client && npm run build",
     "client:overwrite": "cd client && rm -rf dist && mv -f build dist",
-    "client:orbuild": "npm run client:build && npm run client:overwrite",
     "client:prod": "cd ui && npm run start:prod",
     "server:prod": "cd server && npm run start:prod",
     "start:prod": "npm run client:prod && npm run server:prod",

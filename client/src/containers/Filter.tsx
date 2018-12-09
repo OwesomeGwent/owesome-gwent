@@ -26,10 +26,8 @@ import {
 } from '../types/filter';
 import { ThunkFunc } from '../types/thunk';
 const Container = styled('div')<{ open: boolean }>`
-  position: sticky;
-  top: 64px;
   padding: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
   z-index: 1000;
   box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
   background-color: #121315;
@@ -47,9 +45,8 @@ const Container = styled('div')<{ open: boolean }>`
   transition: all 0.3s ease-in-out;
 `;
 const OpenButton = styled.div`
-  position: sticky;
-  top: 64px;
-  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  text-align: right;
   z-index: 1000;
 `;
 const styles = (theme: Theme) =>
@@ -124,7 +121,7 @@ class Filter extends React.Component<IFilterProps> {
           <OpenButton>
             <Button
               onClick={this.openFilter}
-              style={{ float: 'right', minWidth: 50, fontSize: 14 }}
+              style={{ minWidth: 50, fontSize: 14 }}
             >
               👐 Open
             </Button>

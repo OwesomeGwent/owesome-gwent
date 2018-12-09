@@ -1,9 +1,8 @@
 import styled from 'styled-components';
 import { media } from '../../helpers/media';
 const FloatingBox = styled.div`
-  position: sticky;
   width: 300px;
-  top: 100px;
+  margin-top: 1.5rem;
   font-weight: 600;
 
   @media (max-width: ${media.phone}px) {

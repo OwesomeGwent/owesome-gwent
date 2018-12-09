@@ -6,7 +6,7 @@ import { media } from '../helpers/media';
 
 const HomeRouter = styled.div`
   display: flex;
-  width: 80%;
+  width: 85%;
   margin: auto;
 
   @media (max-width: ${media.phone}px) {

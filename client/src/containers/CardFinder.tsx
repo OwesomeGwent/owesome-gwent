@@ -1,6 +1,7 @@
 import isEqual from 'lodash/isEqual';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import styled from 'styled-components';
 import { CardData } from '../../../shared/ICardData';
 import * as DeckActions from '../actions/deck';
 import * as FilterActions from '../actions/filter';
@@ -15,6 +16,12 @@ import {
 } from '../selectors/card';
 import { DeckMakerStatus } from '../types/deck';
 import { IFilter } from '../types/filter';
+
+const Container = styled.div`
+  height: 90vh;
+  overflow-y: auto;
+  padding: 0 20px;
+`;
 // TODO: Debounce 줄까말까..
 const PER_PAGE = 40;
 export interface ICardListProps {
@@ -40,15 +47,16 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
     page: 0,
     isLast: false,
   };
+  private container = React.createRef<HTMLDivElement>();
   private observer: IntersectionObserver | undefined;
   private target = React.createRef<HTMLDivElement>();
   private prevTop: number = 0;
   private unmounted = false;
   public componentDidMount() {
     // ItersectionObserver 등록
-    if (this.target.current) {
+    if (this.container.current && this.target.current) {
       const option = {
-        root: null, // body scroll
+        root: this.container.current, // body scroll
         threshold: 0.1,
       };
       this.observer = new IntersectionObserver(this.handleObserver, option);
@@ -120,7 +128,7 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
     // 덱 빌딩 상태일때
     if (deckMakerStatus === 'DECKMAKE') {
       return (
-        <div>
+        <Container ref={this.container}>
           <CardList
             title="Leaders"
             cards={leaderFilteredCards}
@@ -136,12 +144,12 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
             />
           )}
           <div ref={this.target} style={{ height: 100 }} />
-        </div>
+        </Container>
       );
     }
     // 조회 상태일때
     return (
-      <div>
+      <Container ref={this.container}>
         <CardList
           title="Leaders"
           cards={leaderFilteredCards}
@@ -155,7 +163,7 @@ class CardFinder extends Component<ICardListProps, ICardListState> {
           onClickCard={this.onClickCard}
         />
         <div ref={this.target} style={{ height: 100 }} />
-      </div>
+      </Container>
     );
   }
 }

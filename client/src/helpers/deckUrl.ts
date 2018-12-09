@@ -7,7 +7,7 @@ import { IRootState } from '../reducers';
 
 class Base64 {
   public alpha =
-    'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+-';
   public encode = (value: string | number) => {
     let parsed = value;
     if (typeof value !== 'number') {

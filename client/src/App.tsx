@@ -12,12 +12,16 @@ import { notify } from './helpers/notify';
 import createStore from './store/createStore';
 /* 초기 작업 여기서 */
 const GlobalStyle = createGlobalStyle`
+  #root {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+  }
   html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
   }
   body {
-    overflow-y: auto;
     margin: 0;
     background-color: #121315;
     background-image: url(/img/background/bg.jpg);

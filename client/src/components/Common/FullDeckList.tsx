@@ -10,9 +10,11 @@ import { WithPopover } from '../Common';
 
 const Container = styled('div')<{ faction: string | undefined }>`
   width: 100%;
+  max-width: 300px;
   color: #fefefe;
   font-weight: 600;
-  background-color: ${({ faction }) => faction ? factionColor[faction] : 'inherit'};
+  background-color: ${({ faction }) =>
+    faction ? factionColor[faction] : 'inherit'};
 `;
 const CardWrapper = styled.div`
   position: relative;

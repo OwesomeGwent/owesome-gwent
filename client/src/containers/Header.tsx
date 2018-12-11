@@ -5,15 +5,12 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { Locale } from '../../../shared/ILocaleData';
-import * as DeckActions from '../actions/deck';
 import * as UserActions from '../actions/user';
 import { AuthModal, Button, WithMenu } from '../components/Common';
-import { DeckListButton, LanguageMenu } from '../components/Header';
+import { LanguageMenu } from '../components/Header';
 import { history } from '../helpers/history';
 import { localeMap } from '../helpers/localeMapper';
 import { IRootState } from '../reducers';
-import { IDeck } from '../types/deck';
-import { Status } from '../types/status';
 import { ThunkFunc } from '../types/thunk';
 import { IUser } from '../types/user';
 
@@ -21,31 +18,15 @@ const Logo = styled.span`
   cursor: pointer;
 `;
 export interface IHeaderProps {
-  decks: {
-    decks: IDeck[];
-    status: Status;
-    error: string;
-  };
   locale: Locale;
   loggedIn: boolean;
   user: IUser | undefined;
   setLocale: (locale: Locale) => void;
-  selectDeckUrl: (url: string) => void;
-  fetchDecks: () => void;
   logout: () => void;
 }
 class Header extends React.Component<IHeaderProps> {
   public render() {
-    const {
-      decks,
-      selectDeckUrl,
-      fetchDecks,
-      locale,
-      setLocale,
-      loggedIn,
-      logout,
-      user,
-    } = this.props;
+    const { locale, setLocale, loggedIn, logout, user } = this.props;
     return (
       <AuthModal
         render={({ openLogin }) => (
@@ -63,11 +44,9 @@ class Header extends React.Component<IHeaderProps> {
                     <WithMenu
                       Button={<Button>{user && user.username}</Button>}
                       MenuItems={[
-                        <DeckListButton
-                          {...decks}
-                          selectDeckUrl={selectDeckUrl}
-                          fetchDecks={fetchDecks}
-                        />,
+                        <Button onClick={() => history.push('/mypage')}>
+                          My Page
+                        </Button>,
                         <Button onClick={logout}>Logout</Button>,
                       ]}
                     />
@@ -90,13 +69,10 @@ class Header extends React.Component<IHeaderProps> {
 }
 
 const mapStateToProps = (state: IRootState) => ({
-  decks: state.user.decks,
   loggedIn: state.user.loggedIn,
   user: state.user.user,
 });
 const mapDispatchToProps = (dispatch: ThunkFunc) => ({
-  selectDeckUrl: (url: string) => dispatch(DeckActions.selectDeckUrl(url)),
-  fetchDecks: () => dispatch(UserActions.fetchDecks()),
   logout: () => dispatch(UserActions.logout()),
 });
 export default connect(

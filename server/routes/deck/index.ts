@@ -56,7 +56,43 @@ router.put('/', async (req, res) => {
     });
   }
 });
-
+router.delete('/:deckId', verifyCookie, async (req, res) => {
+  const { user } = req as IRequest;
+  const success = () =>
+    res.json({
+      success: true,
+    });
+  const failure = (message: string, statusCode: number = 403) => {
+    return res.status(statusCode).json({
+      error: message,
+    });
+  };
+  if (!user) {
+    return failure('Fail to verify user. Please login.');
+  }
+  const { deckId } = req.params;
+  const { decks } = user;
+  const updatedDecks = decks.filter(id => id !== deckId);
+  if (updatedDecks.length === decks.length) {
+    return failure('Can not find matched deck in your deck list.');
+  }
+  const DeckRepo = getRepo();
+  const UserRepo = getUserRepo();
+  // TODO: Add releation
+  try {
+    await DeckRepo.createQueryBuilder()
+      .delete()
+      .where('id = :deckId', { deckId })
+      .execute();
+    await UserRepo.createQueryBuilder()
+      .update()
+      .where('id = :userId', { userId: user.id })
+      .set({ decks: updatedDecks });
+    return success();
+  } catch {
+    return failure('Fail to delete deck. Try again.');
+  }
+});
 router.get('/view/:deckId', async (req, res) => {
   const DeckRepo = getRepo();
   const { deckId } = req.params;

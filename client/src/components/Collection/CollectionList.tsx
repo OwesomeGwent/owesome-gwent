@@ -5,7 +5,7 @@ import { history } from '../../helpers/history';
 import { ICollection, ICollectionQuery } from '../../types/collection';
 import { IDeck } from '../../types/deck';
 import { Status } from '../../types/status';
-import CollectionItem from './CollectionItem';
+import { CollectionItem } from '../Common';
 
 const DeckList = styled.div`
   display: flex;

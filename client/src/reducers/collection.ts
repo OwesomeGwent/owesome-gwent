@@ -41,6 +41,14 @@ const reducer = (
         draft.error = action.error;
         break;
       }
+      case ActionTypes.DELETE_DECK_SUCCESS: {
+        if (draft.collection) {
+          draft.collection = draft.collection.filter(
+            deck => deck.id !== action.deckId,
+          );
+        }
+        break;
+      }
       case ActionTypes.STAR_DECK_SUCCESS: {
         if (draft.collection) {
           draft.collection = draft.collection.map(deck => {

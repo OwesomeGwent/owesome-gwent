@@ -1,28 +1,36 @@
 import React from 'react';
 import { Status } from '../../types/status';
+import { IUser } from '../../types/user';
 import { AuthModal, Button } from '../Common';
-
 export interface IDeckActionsProps {
   addDeck: () => void;
+  deleteDeck: () => void;
   starDeck: () => void;
   copyUrl: () => void;
   downloadSnapshot: () => void;
   startDeckBuilding: () => void;
   getImage: () => Promise<React.ReactNode>;
+  user?: IUser;
   addStatus: Status;
   starStatus: Status;
+  deleteStatus: Status;
   loggedIn: boolean;
+  isCurrentUserDeck: boolean;
 }
 const DeckActions: React.SFC<IDeckActionsProps> = ({
   addDeck,
+  deleteDeck,
   starDeck,
   copyUrl,
   downloadSnapshot,
   getImage,
   startDeckBuilding,
   addStatus,
+  deleteStatus,
   starStatus,
+  user,
   loggedIn,
+  isCurrentUserDeck,
 }) => {
   return (
     <AuthModal
@@ -55,6 +63,15 @@ const DeckActions: React.SFC<IDeckActionsProps> = ({
             Save Deck
           </Button>
           <Button onClick={startDeckBuilding}>Start deck building</Button>
+          {isCurrentUserDeck && (
+            <Button
+              color="#fa081f"
+              onClick={deleteDeck}
+              loading={deleteStatus === 'FETCHING'}
+            >
+              DELETE DECK
+            </Button>
+          )}
         </>
       )}
     />

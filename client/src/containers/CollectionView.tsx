@@ -27,6 +27,18 @@ import { IUser } from '../types/user';
 const Container = styled.div`
   width: 100%;
 `;
+const NoDeck = styled.div`
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 1rem;
+  color: #fefefe;
+  font-size: 24px;
+  font-weight: 600;
+`;
 const Header = styled.div`
   width: 100%;
 `;
@@ -34,6 +46,7 @@ const Action = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  flex-wrap: wrap;
 `;
 const Main = styled.div`
   width: 100%;
@@ -60,6 +73,7 @@ interface ICollectionViewState {
 }
 export interface ICollectionView extends RouteComponentProps {
   addStatus: Status;
+  deleteStatus: Status;
   starStatus: Status;
   loggedIn: boolean;
   rawCards: CardDataList;
@@ -70,6 +84,7 @@ export interface ICollectionView extends RouteComponentProps {
   starError: string;
   error: string;
   addDeck: (deck: IAddDeck) => void;
+  deleteDeck: (deckId: string) => void;
   starDeck: (deckId: string) => void;
   fetchDeck: (deckId: string) => void;
 }
@@ -134,6 +149,22 @@ class CollectionView extends React.Component<
     const type = hasError ? 'error' : 'success';
     notify.notify({ message, type });
   };
+  public deleteDeck = async () => {
+    const { deck, deleteDeck } = this.props;
+    if (!deck) {
+      return;
+    }
+    await deleteDeck(deck.id);
+    const hasError = this.props.deleteStatus !== 'SUCCESS';
+    const message = hasError
+      ? 'Fail to delete deck. Try again'
+      : '👌 Deck deleted!';
+    const type = hasError ? 'error' : 'success';
+    notify.notify({ message, type });
+    if (!hasError) {
+      history.goBack();
+    }
+  };
   public starDeck = async () => {
     const { deck, starDeck } = this.props;
     if (!deck) {
@@ -164,13 +195,26 @@ class CollectionView extends React.Component<
   };
   public render() {
     const { parsed, leader, cards, cost } = this.state;
-    const { addStatus, starStatus, user, deck, detail, loggedIn } = this.props;
+    const {
+      addStatus,
+      starStatus,
+      deleteStatus,
+      user,
+      deck,
+      detail,
+      loggedIn,
+    } = this.props;
     if (!parsed) {
       return null;
     }
     if (!leader || !deck) {
-      return null;
+      return (
+        <NoDeck>
+          <h2>Can not find this deck.</h2>
+        </NoDeck>
+      );
     }
+    const isCurrentUserDeck = !!user && user.id === deck.userId;
     return (
       <Snapshot>
         {({ downloadSnapshot, getImage, wrapper }) => (
@@ -183,10 +227,14 @@ class CollectionView extends React.Component<
                   addDeck={this.addDeck}
                   starDeck={this.starDeck}
                   copyUrl={this.copyUrl}
+                  deleteDeck={this.deleteDeck}
+                  deleteStatus={deleteStatus}
                   downloadSnapshot={() => downloadSnapshot(deck.name)}
                   getImage={getImage}
                   startDeckBuilding={this.startDeckBuilding}
                   loggedIn={loggedIn}
+                  user={user}
+                  isCurrentUserDeck={isCurrentUserDeck}
                 />
               </Action>
               <DeckTitle leader={leader} {...deck} />
@@ -219,6 +267,7 @@ class CollectionView extends React.Component<
 const mapStateToProps = (state: IRootState) => ({
   addStatus: state.deck.add.status,
   starStatus: state.deck.star.status,
+  deleteStatus: state.deck.delete.status,
   starError: state.deck.star.error,
   loggedIn: state.user.loggedIn,
   rawCards: state.card.rawCards.cards,
@@ -230,6 +279,7 @@ const mapStateToProps = (state: IRootState) => ({
 });
 const mapDispatchToProps = (dispatch: ThunkFunc) => ({
   addDeck: (deck: IAddDeck) => dispatch(DeckAction.addDeck(deck)),
+  deleteDeck: (deckId: string) => dispatch(DeckAction.deleteDeck(deckId)),
   starDeck: (deckId: string) => dispatch(DeckAction.starDeck(deckId)),
   fetchDeck: (deckId: string) => dispatch(DeckAction.fetchDeck(deckId)),
 });

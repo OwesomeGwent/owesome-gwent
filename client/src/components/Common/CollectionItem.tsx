@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import { CollectionItemDetail } from '.';
 import { LEADER_IMAGE_PATH } from '../../apis/defs';
 import { ICollection } from '../../types/collection';
+import { IDeck } from '../../types/deck';
+import { CollectionItemDetail } from '../Collection';
 import { Avatar, Button } from '../Common';
 
 import { connect } from 'react-redux';
@@ -56,7 +57,7 @@ const Username = styled.div`
   text-align: right;
 `;
 export interface ICollectionItemProps {
-  deck: ICollection;
+  deck: IDeck | ICollection;
   leader?: CardData | undefined;
   handleDeckClick: () => void;
 }
@@ -79,14 +80,16 @@ const CollectionItem: React.SFC<ICollectionItemProps> = ({
             )}
             <DeckName>{deck.name}</DeckName>
           </MainInfo>
-          <Star>⭐ {deck.star}</Star>
+          {typeof deck.star !== 'undefined' && <Star>⭐ {deck.star}</Star>}
         </DeckInfo>
         <DeckDetail>
           <CollectionItemDetail url={deck.url} />
         </DeckDetail>
-        <DeckInfo>
-          <Username>by {user && user.username}</Username>
-        </DeckInfo>
+        {user && (
+          <DeckInfo>
+            <Username>by {user.username}</Username>
+          </DeckInfo>
+        )}
       </DeckItem>
     </Item>
   );

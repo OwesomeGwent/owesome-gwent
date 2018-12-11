@@ -1,10 +1,10 @@
 import * as authApi from '../apis/auth';
 import * as deckApi from '../apis/deck';
+import { history } from '../helpers/history';
 import { notify } from '../helpers/notify';
 import { IDeck } from '../types/deck';
 import { ThunkResult } from '../types/thunk';
 import { ISignupUser, IUser } from '../types/user';
-
 import {
   FETCH_DECKS_FAILURE,
   FETCH_DECKS_REQUEST,
@@ -139,6 +139,7 @@ export const logout = (): ThunkResult<void, IUserAction> => {
     const { user } = getState().user;
     if (user) {
       notify.notify({ message: `👋 Bye ${user.username}` });
+      history.push('/');
     }
     dispatch({
       type: LOGOUT_REQUEST,

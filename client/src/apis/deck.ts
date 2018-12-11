@@ -9,6 +9,7 @@ const instance = axios.create({
 
 export const addDeck = (deck: IAddDeck) => instance.post('/', { deck });
 export const updateDeck = (deck: IAddDeck) => instance.put('/', { deck });
+export const deleteDeck = (deckId: string) => instance.delete(`/${deckId}`);
 export const fetchDeck = (deckId: string) => instance.get(`/view/${deckId}`);
 export const fetchDecks = () => instance.get('/list');
 export const starDeck = (deckId: string) => instance.put('/star', { deckId });

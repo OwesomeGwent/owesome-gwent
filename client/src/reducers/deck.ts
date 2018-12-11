@@ -4,9 +4,13 @@ import {
   ADD_DECK_FAILURE,
   ADD_DECK_REQUEST,
   ADD_DECK_SUCCESS,
+  DELETE_DECK_FAILURE,
+  DELETE_DECK_REQUEST,
+  DELETE_DECK_SUCCESS,
   FETCH_DECK_FAILURE,
   FETCH_DECK_REQUEST,
   FETCH_DECK_SUCCESS,
+  LOGOUT_REQUEST,
   REMOVE_CARD,
   REMOVE_LEADER,
   RESET_CARD,
@@ -25,6 +29,7 @@ import {
 import { IDeckActions } from '../actions/deck';
 import { DeckMakerStatus, IDeck } from '../types/deck';
 
+import { IUserAction } from '../actions/user';
 import { sortByProvision } from '../helpers/card';
 import { Status } from '../types/status';
 export interface IDeckState {
@@ -38,6 +43,10 @@ export interface IDeckState {
   };
   readonly update: {
     deck: IDeck | {};
+    status: Status;
+    error: string;
+  };
+  readonly delete: {
     status: Status;
     error: string;
   };
@@ -61,6 +70,7 @@ const initialState: IDeckState = {
     faction: '',
     completed: false,
     star: 0,
+    starIds: [],
   },
   add: {
     status: 'INIT',
@@ -77,6 +87,10 @@ const initialState: IDeckState = {
     status: 'INIT',
     error: '',
   },
+  delete: {
+    status: 'INIT',
+    error: '',
+  },
   star: {
     status: 'INIT',
     error: '',
@@ -86,7 +100,10 @@ const initialState: IDeckState = {
   cards: [],
 };
 
-const deck = (state: IDeckState = initialState, action: IDeckActions) =>
+const deck = (
+  state: IDeckState = initialState,
+  action: IDeckActions | IUserAction,
+) =>
   produce(state, draft => {
     switch (action.type) {
       case SET_DECKMAKER_STATUS: {
@@ -160,6 +177,22 @@ const deck = (state: IDeckState = initialState, action: IDeckActions) =>
         draft.update.error = action.error;
         break;
       }
+      case DELETE_DECK_REQUEST: {
+        draft.delete.status = 'FETCHING';
+        break;
+      }
+      case DELETE_DECK_SUCCESS: {
+        draft.delete.status = 'SUCCESS';
+        if (draft.fetch.deck && draft.fetch.deck.id === action.deckId) {
+          draft.fetch.deck = undefined;
+        }
+        break;
+      }
+      case DELETE_DECK_FAILURE: {
+        draft.delete.status = 'FAILURE';
+        draft.delete.error = action.error;
+        break;
+      }
       case FETCH_DECK_REQUEST: {
         draft.fetch.status = 'FETCHING';
         break;
@@ -198,7 +231,9 @@ const deck = (state: IDeckState = initialState, action: IDeckActions) =>
         };
         break;
       }
-      case RESET_DECK: {
+      case RESET_DECK:
+      case LOGOUT_REQUEST: {
+        // handle logout
         Object.keys(draft).forEach(key => {
           const assertion = key as keyof IDeckState;
           draft[assertion] = initialState[assertion];

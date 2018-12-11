@@ -7,6 +7,11 @@ export interface IDeckCard extends CardData {
 }
 export type IDeckCost = IDeckCost;
 
+// deck 추가시
 export type IAddDeck = Pick<Deck, 'name' | 'url' | 'leaderId' | 'faction'>;
-export type IDeck = Pick<Deck, 'id' | 'leaderId' | 'name' | 'url' | 'faction' | 'completed'> &
+// 일반적인 deck 타입
+export type IDeck = Pick<
+  Deck,
+  'id' | 'leaderId' | 'name' | 'url' | 'faction' | 'completed'
+> &
   Partial<Deck>;

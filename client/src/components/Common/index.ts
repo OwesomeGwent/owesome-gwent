@@ -1,6 +1,7 @@
 import AuthModal from './AuthModal';
 import Avatar from './Avatar';
 import Button from './Button';
+import CollectionItem from './CollectionItem';
 import DeckCost from './DeckCost';
 import DeckItem from './DeckItem';
 import DeckLeader from './DeckLeader';
@@ -20,6 +21,7 @@ export {
   AuthModal,
   Avatar,
   Button,
+  CollectionItem,
   DeckCost,
   DeckItem,
   DeckLeader,

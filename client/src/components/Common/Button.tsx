@@ -20,8 +20,13 @@ const Default = styled.button`
   }
 `;
 
-const Button: SFC<IButtonProps> = ({ children, loading, ...props }) => (
-  <Default disabled={loading} {...props}>
+const Button: SFC<IButtonProps> = ({
+  children,
+  fullWidth,
+  loading,
+  ...props
+}) => (
+  <Default disabled={loading} fullWidth={fullWidth} {...props}>
     {loading ? <CircularProgress /> : children}
   </Default>
 );

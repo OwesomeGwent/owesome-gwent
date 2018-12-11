@@ -7,6 +7,9 @@ import {
   ADD_DECK_FAILURE,
   ADD_DECK_REQUEST,
   ADD_DECK_SUCCESS,
+  DELETE_DECK_FAILURE,
+  DELETE_DECK_REQUEST,
+  DELETE_DECK_SUCCESS,
   FETCH_DECK_FAILURE,
   FETCH_DECK_REQUEST,
   FETCH_DECK_SUCCESS,
@@ -90,7 +93,17 @@ export interface IUpdateDeckFailure {
   type: typeof UPDATE_DECK_FAILURE;
   error: string;
 }
-
+export interface IDeleteDeckRequest {
+  type: typeof DELETE_DECK_REQUEST;
+}
+export interface IDeleteDeckSuccess {
+  type: typeof DELETE_DECK_SUCCESS;
+  deckId: string;
+}
+export interface IDeleteDeckFailure {
+  type: typeof DELETE_DECK_FAILURE;
+  error: string;
+}
 export interface IFetchDeckRequest {
   type: typeof FETCH_DECK_REQUEST;
 }
@@ -131,6 +144,9 @@ export type IDeckActions =
   | IUpdateDeckRequest
   | IUpdateDeckSuccess
   | IUpdateDeckFailure
+  | IDeleteDeckRequest
+  | IDeleteDeckSuccess
+  | IDeleteDeckFailure
   | IFetchDeckSuccess
   | IFetchDeckFailure
   | IFetchDeckRequest
@@ -304,6 +320,29 @@ export const addDeck = (deck: IAddDeck): ThunkResult<void, IDeckActions> => {
       const error = response ? (response.data ? response.data.error : '') : '';
       dispatch({
         type: ADD_DECK_FAILURE,
+        error,
+      });
+    }
+  };
+};
+
+export const deleteDeck = (deckId: string): ThunkResult<void, IDeckActions> => {
+  return async dispatch => {
+    dispatch({
+      type: DELETE_DECK_REQUEST,
+    });
+
+    try {
+      await deckApi.deleteDeck(deckId);
+      dispatch({
+        type: DELETE_DECK_SUCCESS,
+        deckId,
+      });
+    } catch (err) {
+      const { response } = err;
+      const error = response ? (response.data ? response.data.error : '') : '';
+      dispatch({
+        type: DELETE_DECK_FAILURE,
         error,
       });
     }
